@@ -1,11 +1,21 @@
  
 
-# Awesome Public Industrial Datasets     
+# Awesome Industry 4.0 Datasets     
 
 
- 
+A list of public datasets from manufacturing and other industries related to Industry 4.0.
 
-A list of awesome-public-datasets found in the industry and their descriptions are shown below. Clicking the link will take you to the data description page. The data and its description will be updated periodically.                   
+This project aims to provide an organized list of databases so that students, researchers, and others can:
+* test Machine Learning techniques,
+* test algorithms,
+* apply filters and other data processing techniques,
+* create dashboards and visualizations, and others.
+
+Clicking the link will take you to the data description page. The data and its description will be updated periodically.
+
+This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
+
+
 
 ## Tags
 
@@ -182,11 +192,15 @@ A list of awesome-public-datasets found in the industry and their descriptions a
   ![](https://img.shields.io/badge/failure_classification-gray.svg)   
 
 
-## Contributors   
+## Contribution Guidelines
+Please ensure your pull request adheres to the following guidelines:
 
-- Sehee Lee (sehee.lee@makinarocks.ai)        
-- Minkyu Jeon (jskstar12@makinarocks.ai)       
+* Make sure your submission is not a duplicate.
+* Make an individual pull request for each suggestion.
+* Create a description file and follow the repository formatting.
+* The pull request and commit should have a useful title.
 
-## About MakinaRocks   
+Thanks for your suggestions!
 
-<http://www.makinarocks.ai/>     
+## License
+Licensed under Apache License 2.0.
