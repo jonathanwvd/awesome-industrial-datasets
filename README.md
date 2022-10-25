@@ -87,7 +87,7 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
   ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
-- [Naval Propulsion Plants](<https://github.com/i40a/awesome-industry40-datasets/tree/master/description/Mechanical/Naval Propulsion Plants>) characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.   
+- [Naval Propulsion Plants](<https://github.com/i40a/awesome-industry40-datasets/tree/master/description/Mechanical/Naval Propulsion Plants>): characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.   
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)        
@@ -170,7 +170,7 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
 
 
 ### Others
-- [APS System Failures](<https://github.com/i40a/awesome-industry40-datasets/tree/master/description/Others/APS System Failures>):  The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.  
+- [APS System Failures](<https://github.com/i40a/awesome-industry40-datasets/tree/master/description/Others/APS System Failures>): The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.  
   ![](https://img.shields.io/badge/sector-etc-333333.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
