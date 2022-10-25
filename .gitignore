@@ -1,5 +1,8 @@
 .DS_Store
 .ipynb_checkpoints
+.pytest_cache
+.idea
 __pycache__
-unversioned
-
+venv
+*.egg-info/*
+*.pyc

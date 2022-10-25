@@ -1,5 +1,4 @@
-## Mechanical    
-### [CNC Mill Tool Wear](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data) 
+# [CNC Mill Tool Wear](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data) 
 
 CNC Mill Tool Wear data was provided to perform classification studies such as 'Tool wear detection' and 'Detection of inadequate clamping'.     
 
