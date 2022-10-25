@@ -1,7 +1,4 @@
- 
-
-# Awesome Industry 4.0 Datasets     
-
+ # Awesome Industry 4.0 Datasets
 
 A curated list of public datasets from manufacturing and other industries related to Industry 4.0.
 
