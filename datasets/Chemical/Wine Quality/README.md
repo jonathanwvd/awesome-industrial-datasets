@@ -25,5 +25,5 @@ Input variables (based on physicochemical tests):
 Output variable (based on sensory data):
 12 - quality (score between 0 and 10)
 
-### Citation
+### References
 Paulo Cortez, University of Minho, Guimarães, Portugal,  A. Cerdeira, F. Almeida, T. Matos and J. Reis, Viticulture Commission of the Vinho Verde Region(CVRVV), Porto, Portugal @2009
