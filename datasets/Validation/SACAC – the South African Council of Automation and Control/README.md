@@ -15,6 +15,5 @@ The repository is described in the following paper. For valve stiction, a compar
 - Tuning
 - Unknown 
 - Other
-
 ### References
 South African Council for Automation and Control. 
