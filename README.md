@@ -1,6 +1,6 @@
  # Awesome Industry 4.0 Datasets
 
-A curated list of public datasets from manufacturing and other industries related to Industry 4.0.
+A curated list of public manufacturing datasets and other datasets related to Industry 4.0.
 
 This project aims to provide an organized list of databases so that students, researchers, and others can:
 * test Machine Learning techniques,

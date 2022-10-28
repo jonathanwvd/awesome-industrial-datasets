@@ -1,15 +1,9 @@
-## Mechanical    
-### [C-MAPSS](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) 
+# [C-MAPSS](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) 
 #### Turbofan Engine Degradation Simulation Data Set    
 
 This data set was generated with the C-MAPSS simulator.  C-MAPSS stands for 'Commercial Modular Aero-Propulsion System Simulation' and it is a tool for the simulation of realistic large commercial turbofan engine data. Each data set is divided into a train and a test set. Each time-series data set is a data set obtained from another engine. A dataset is data from the same type of engine. The four data sets are multivariate time-series data obtained with different operational conditions (ONE, SIX) and fault modes (ONE, TWO), respectively. There are three operational settings that affect engine performance. For each test data, RUL (Remaining Useful Life) values are provided. In the training set, the degradation increases until it reaches the predefined threshold, which is deemed bad for operating the engine. In the test set, the time series data is terminated before it is completely degraded. For each data set, there is a column of 26 sensors.      
 
-Response surfaces of all sensors are generated via a thermo-dynamical simulation model for the engine as a function of variations of flow and efficiency of the modules of interest.  
-
-![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-![](https://img.shields.io/badge/labeled-implicit-green.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-![](https://img.shields.io/badge/time--to--failure-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
+Response surfaces of all sensors are generated via a thermo-dynamical simulation model for the engine as a function of variations of flow and efficiency of the modules of interest.   
 
 #### Data Set Information  
 
