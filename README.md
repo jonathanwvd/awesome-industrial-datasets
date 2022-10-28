@@ -47,12 +47,6 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
 
 
 ### Chemical  
-- [Chemical Detection Platform](<datasets/Chemical/Chemical Detection Platform/README.md>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.   
-  ![](https://img.shields.io/badge/sector-chemical-red.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-
 - [Dynamic Gas Mixtures](<datasets/Chemical/Dynamic Gas Mixtures/README.md>): The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.     
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
@@ -65,6 +59,12 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
+- [Gas sensor arrays in open sampling settings Data Set
+](<datasets/Chemical/Chemical Detection Platform/README.md>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.  
+  ![](https://img.shields.io/badge/sector-chemical-red.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
+  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
 ### Mechanical
 - [C-MAPSS](<datasets/Mechanical/C-MAPSS/README.md>): Engine degradation simulation.  

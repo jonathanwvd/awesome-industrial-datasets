@@ -52,7 +52,7 @@ where 0 < α < 1 is the smoothing parameter of the filter and x[k] is the acquir
 
 - [Data Science project with Python Notebooks](https://github.com/miltongneto/Gas-Sensor-Array-Drift): This project consists of building a solution following all the steps of CRISP-DM (CRoss Industry Standard Process for Data Mining). (Repository in portuguese).
 
-## Citation  
+## Citation Request
 1. A Vergara, S Vembu, T Ayhan, M Ryan, M Homer, R Huerta. "Chemical gas sensor drift compensation using classifier ensembles." Sensors and Actuators B: Chemical 166 (2012): 320-329.
 
 2. I Rodriguez-Lujan, J Fonollosa, A Vergara, M Homer, R Huerta. "On the calibration of sensor arrays for pattern recognition using the minimal number of experiments." Chemometrics and Intelligent Laboratory Systems 130 (2014): 123-134.
