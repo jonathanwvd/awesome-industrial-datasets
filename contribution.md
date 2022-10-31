@@ -1,5 +1,13 @@
 # Contribution Guidelines
-To contribute, make a pull request to this directory. If you are used to the Git environment, please contact jonathan@i40a.com.
+To contribute, make a pull request to this repository. If you are not used to the Git environment, please contact jonathan@i40a.com.
+
+Ways to contribute:
+* suggest datasets
+* share datasets
+* fix typos and syntax
+* includ resources
+* others
+
 
 ## Pull Request
 Please ensure your pull request adheres to the following guidelines:
@@ -9,18 +17,22 @@ Please ensure your pull request adheres to the following guidelines:
 * Create a description file and follow the repository formatting.
 * The pull request and commit should have a useful title.
 
-Thanks for your suggestions!
 
 ## Tags
 
+Bellow the list of used tags:
+
 - Sector  
-  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
-  ![](https://img.shields.io/badge/sector-chemical-red.svg)
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/sector-automotiv-green.svg)
-  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
   ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)
+  ![](https://img.shields.io/badge/sector-automotiv-green.svg)
+  ![](https://img.shields.io/badge/sector-chemical-red.svg)
+  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
+  ![](https://img.shields.io/badge/sector-oil-darkblue.svg)
+
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
+  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
+  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
+
   ![](https://img.shields.io/badge/sector-etc-333333.svg)
 
 - Label  
@@ -33,11 +45,12 @@ Thanks for your suggestions!
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
 
+- Simulation   
+  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) ![](<https://img.shields.io/badge/simulation-no-red.svg>)   
+
 - Miscellaneous  
   ![](https://img.shields.io/badge/any-gray.svg)
   ![](https://img.shields.io/badge/keywords-gray.svg)
   ![](https://img.shields.io/badge/you-gray.svg)
   ![](https://img.shields.io/badge/want-gray.svg)
 
-- Simulation   
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) ![](<https://img.shields.io/badge/simulation-no-red.svg>)   

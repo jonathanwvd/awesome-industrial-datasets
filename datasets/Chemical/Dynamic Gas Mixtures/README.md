@@ -16,6 +16,18 @@ Date Donated | 2015-03-20
 Source | UCI Machine Learning Repository
 Dataset size | 352MB (compressed)
 
+
+## Source
+
+Creators: Jordi Fonollosa (fonollosa '@'ucsd.edu)\
+BioCircutis Institute\
+University of California San Diego\
+San Diego, California, USA
+
+Donors of the Dataset:\
+Jordi Fonollosa (fonollosa '@'ucsd.edu)\
+Ramon Huerta (rhuerta '@' ucsd.edu)
+
 ## Data Set Information  
 
 This data set contains the acquired time series from 16 chemical sensors exposed to gas mixtures at varying concentration levels. In particular, we generated two gas mixtures: Ethylene and Methane in air, and Ethylene and CO in air. Each measurement was constructed by the continuous acquisition of the 16-sensor array signals for a duration of about 12 hours without interruption.

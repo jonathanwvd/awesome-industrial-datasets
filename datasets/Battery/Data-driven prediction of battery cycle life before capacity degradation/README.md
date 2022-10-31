@@ -1,5 +1,4 @@
-## [Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/)
-![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)
+# [Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/)
 
 This dataset, used in “Data-driven prediction of battery cycle life before capacity degradation”, consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions. These lithium-ion phosphate (LFP)/graphite cells, manufactured by A123 Systems (APR18650M1A), were cycled in horizontal cylindrical fixtures on a 48-channel Arbin LBT potentiostat in a forced convection temperature chamber set to 30°C. The cells have a nominal capacity of 1.1 Ah and a nominal voltage of 3.3 V.
 
@@ -66,4 +65,4 @@ Accurately predicting the lifetime of complex, nonlinear systems such as lithium
 
 ## Citation
 
-Severson *et al*. Data-driven prediction of battery cycle life before capacity degradation. *Nature Energy* volume 4, pages 383–391 (2019).
+1. Severson *et al*. Data-driven prediction of battery cycle life before capacity degradation. *Nature Energy* volume 4, pages 383–391 (2019).

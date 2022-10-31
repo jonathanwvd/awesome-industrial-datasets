@@ -1,6 +1,8 @@
-## [ECO dataset](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
+# [ECO dataset](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
 
-![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/simulation-no-red.svg)
+![](https://img.shields.io/badge/sector-power-skyblue.svg) 
+![](https://img.shields.io/badge/labeled-yes-blue.svg) 
+![](https://img.shields.io/badge/simulation-no-red.svg)
 
 The ECO (Electricity Consumption and Occupancy) data set is a comprehensive open-source (Creative Commons License CC BY 4.0) data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides:
 

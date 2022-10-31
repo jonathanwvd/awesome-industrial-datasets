@@ -73,7 +73,3 @@ A. Saxena and K. Goebel (2008). "Turbofan Engine Degradation Simulation Data Set
 
 ##### Data Download Link  
 [https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/)   
-
-Data Capacity(Compressed):  
-
-11.9MB       

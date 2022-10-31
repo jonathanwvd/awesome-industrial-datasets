@@ -59,12 +59,13 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
-- [Gas sensor arrays in open sampling settings Data Set
-](<datasets/Chemical/Gas sensor arrays in open sampling settings Data Set/README.md>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.  
+- [Gas sensor arrays in open sampling settings Data Set](<datasets/Chemical/Gas sensor arrays in open sampling settings/README.md>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.  
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
+
+- [Wine Quality](<datasets/Chemical/Wine Quality/README.md>): Two datasets are included, related to red and white "Vinho Verde" wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009]
 
 ### Mechanical
 - [C-MAPSS](<datasets/Mechanical/C-MAPSS/README.md>): Engine degradation simulation.  
@@ -111,10 +112,11 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
 
-- [Combined Cycle Power Plant](<datasets/Power/Combined Cycle Power Plant/README.md>): Combined Cycle Power Plant over 6 years.  
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
+- [Combined Cycle Power Plant](<datasets/Power/Combined Cycle Power Plant/README.md>): The dataset contains 9568 data points collected from a Combined Cycle Power Plant over 6 years (2006-2011), when the plant was set to work with full load.      
+  ![](https://img.shields.io/badge/sector-power-skyblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 - [Eco(Electricity Consumption & Occupancy)](<datasets/Power/ECO dataset/README.md>): The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research.      
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)

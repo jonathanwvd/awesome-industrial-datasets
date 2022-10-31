@@ -1,4 +1,4 @@
-# [Gas sensor arrays in open sampling settings Data Set](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+arrays+in+open+sampling+settings)
+# [Gas sensor arrays in open sampling settings](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+arrays+in+open+sampling+settings)
 
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
@@ -14,6 +14,22 @@ Number of Attributes	| 1950000
 Date Donated | 2013-06-05
 Source | UCI Machine Learning Repository
 Dataset size | 7.8GB (compressed)
+
+
+## Source
+
+Creators:\
+Alexander Vergara (vergara '@' ucsd.edu)\
+BioCircutis Institute\
+University of California San Diego\
+San Diego, California, USA
+
+Donors of the Dataset:\
+Alexander Vergara (vergara '@' ucsd.edu)\
+Jordi Fonollosa (fonollosa '@' ucsd.edu)\
+Marco Trincavelli (marco.trincavelli '@' oru.se)\
+Nikolai F. Rulkov (nrulkov '@' ucsd.edu)\
+Ramon Huerta (rhuerta '@' ucsd.edu)
 
 
 ## Data Set Information
