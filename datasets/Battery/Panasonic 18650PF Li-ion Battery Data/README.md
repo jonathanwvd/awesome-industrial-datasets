@@ -2,9 +2,8 @@
  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ## Source
-
-The included tests were performed at the University of Wisconsin-Madison by Dr. Phillip Kollmeyer (phillip.kollmeyer@gmail.com).  If this data is utilized for any purpose, it should be appropriately referenced.
-
+University of Wisconsin-Madison 
+Dr. Phillip Kollmeyer (phillip.kollmeyer@gmail.com).
 
 ## Data Set Information
 

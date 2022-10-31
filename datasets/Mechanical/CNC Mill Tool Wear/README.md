@@ -5,7 +5,12 @@ CNC Mill Tool Wear data was provided to perform classification studies such as '
 ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
-![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
+![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) 
+
+## Source 
+UNIVERSITY OF MICHIGAN SMART LAB
+
+Sharon Sun (Owner)  
    
 ## Data Set Information  
 A series of machining experiments were run on 2" x 2" x 1.5" wax blocks in a CNC milling machine in the System-level Manufacturing and Automation Research Testbed (SMART) at the University of Michigan. Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure. Each experiment produced a finished wax part with an "S" shape - S for smart manufacturing - carved into the top face, as shown in `test_artifact.jpg` (included in the dataset).  
@@ -39,7 +44,7 @@ General data from each of the 18 different experiments are given in `train.csv` 
 
 The 'tool_condition' variable indicates whether the tool is unworn or worn. 
 
-## Attributes information - `18 experiment_xx.csv`     
+## Attributes Information - `18 experiment_xx.csv`     
 
   There are a total of 48 attributes.   
 
@@ -109,11 +114,12 @@ The 'tool_condition' variable indicates whether the tool is unworn or worn.
 keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
 Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
 
+## Citation Request
+
+University of Michigan SMART LABS. Sharon (2017), ["CNC Mill Tool Wear"](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data) 
 
 ## Resources   
 Data Download Link Capacity(Compressed): 
-2.56MB 
-
-[CNC Mill Tool Wear](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data)
+2.56MB [Download](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data)
 
 Data Capacity(Raw): 11.6MB   
