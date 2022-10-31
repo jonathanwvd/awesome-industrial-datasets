@@ -1,15 +1,16 @@
 # [Experiments on Li-ion batteries](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery)
 
+| Data Set Characteristics | Attribute Characteristics | Associated Tasks |
+| ------------------------ | ------------------------- | ---------------- |
+| Multivariate             | Real                      | Regression       |
+
+
  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ## Source
 B. Saha and K. Goebel (2007). "Battery Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA
 
 ## Data Set Information
-
-| Data Set Characteristics | Attribute Characteristics | Associated Tasks |
-| ------------------------ | ------------------------- | ---------------- |
-| Multivariate             | Real                      | Regression       |
 
 A set of four Li-ion batteries were run through 3 different operational profiles (charge, discharge and impedance) at room temperature (24 deg C).
 
@@ -98,3 +99,8 @@ Rct : Estimated charge transfer resistance (Ohms)
 15. **Prognostics methods for battery health monitoring using a Bayesian framework***, Saha, Bhaskar and Goebel, Kai and Poll, Scott and Christophersen, Jon*, Instrumentation and Measurement, IEEE Transactions on, Vol. 58 No. 2, 291--296, 2009
 16. **Modeling Li-ion battery capacity depletion in a particle filtering framework***, Saha, Bhaskar and Goebel, Kai*, Proceedings of the annual conference of the prognostics and health management society, 2009
 
+## Resources: 
+- Database Source Link: [Experiments on Li-ion batteries](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery)
+
+## Citation Request:
+ B. Saha and K. Goebel (2007). "Battery Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA
