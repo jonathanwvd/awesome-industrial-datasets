@@ -1,8 +1,5 @@
-# Semicon
+# [WM-811K(LSWMD)](http://mirlab.org/dataSet/public/)
 
-## [WM-811K(LSWMD)](http://mirlab.org/dataSet/public/)
-
-214 MB
 
 811457 wafer maps, in which each wafer map was collected from real-world fabrication. Domain experts were recruited to annotate the pattern type for approximately 20% of the wafer maps in the WM-811K dataset. This dataset is published by Roger Jang, professor of [MIR lab](http://mirlab.org/dataSet/public/)
 
@@ -10,9 +7,7 @@
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
   ![](<https://img.shields.io/badge/simulation-no-red.svg>) 
-  
- - [.pkl data](https://www.kaggle.com/qingyi/wm811k-wafer-map)
-  
+    
 ## About Dataset
 
 ### First Row of Dataset        
@@ -22,7 +17,7 @@
 | [[0,0,0,0,0,0,0,0 ..   | 1683.0               | lot1             | 1.0 | [[Training]]                 |[[none]]|
 | ... | ...| ...| ...| ... | ...|
 
-### Attributes Explanation
+## Attributes Explanation
 
 1) **WaferMap** : WaferMap represented as weight * height size numpy array
   - 0 : Area that die doesn't exist
@@ -50,7 +45,9 @@
   - how to upscale / downscale (e.g. linear, nearest, ... )
   - how wafer differs from the square
 
-### Paper
+## References
+- [Kaggle](https://www.kaggle.com/qingyi/wm811k-wafer-map): Database source link.
+
 1. [Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets (2014)](http://ieeexplore.ieee.org/document/6932449/) by Roger Jang, professor of MIR lab
 
    keywords : Feature extraction, Transforms, Support vector machines, Semiconductor device modeling, Pattern recognition, Fabrication
@@ -71,3 +68,5 @@
 
    keywords : Transforms, Radon, Feature extraction, Decision trees, Interpolation, Data mining
    
+## Citation Request
+1. Wu, Ming-Ju, Jyh-Shing R. Jang, and Jui-Long Chen. “Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets.” IEEE Transactions on Semiconductor Manufacturing 28, no. 1 (February 2015): 1–12.

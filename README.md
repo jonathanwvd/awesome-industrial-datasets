@@ -145,13 +145,13 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-- [SECOM](<datasets/Semicon/SECOM/README.md>): Semiconductor manufacturing process data.  
+- [SECOM](<datasets/Semicon/SECOM/README.md>): Data from a semi-conductor manufacturing process  
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)
   ![](https://img.shields.io/badge/feature_selection-gray.svg)
 
-- [Superconductivity](<datasets/Semicon/Superconductivity Dataset/README.md>)   
+- [Superconductivity](<datasets/Semicon/Superconductivity Dataset/README.md>): Two file s contain data on 21263 superconductors and their relevant features.  
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)

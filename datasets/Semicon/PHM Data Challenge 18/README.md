@@ -1,5 +1,17 @@
 # [PHM DATA Challenge 18](https://www.phmsociety.org/events/conference/phm/18/data-challenge)
 
+Parameter | Value
+---- | ----
+Data Set Characteristics | Multivariate
+Attribute Characteristics	| Real
+Associated Tasks	| Classification, Causal-Discovery
+Number of Instances	| 1567
+Number of Attributes	| 591
+Date Donated | 2008-11-19
+Source | UCI Machine Learning Repository
+Dataset size | 5.4MB
+
+
 Etching tool fault detection (PdM)  
 
 The data provided by PHM Data Challenge 18 was provided to investigate the fault behavior of ion mill etch tools in the wafer manufacturing process. It is a database that collects sensor data in time sequence from ion mill etching tools operating under various setting conditions.    
@@ -70,7 +82,7 @@ __Test data__
 
 - The test data consists of 5 csv files. It consists of 7,198,948 rows and consists of 24 columns.      
 
-####  Purpose of Data Challenge        
+###  Purpose of Data Challenge        
 
 The purpose of this PHM data challenge is as follows.   
 
@@ -91,9 +103,11 @@ These are not the papers provided by PHM data Challenge 2018 , attached are some
 
    keywords: data from PHM 2016 Data Challenge, Bayesian optimization algorithms, hyper-parameter optimization problem    
 
-## Resources
+## References
 Data Download Link     
 [https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb](https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb)    
 
-Data Capacity(Compressed) : 5.0G    
+
+## Citation Request:
+
 
