@@ -1,5 +1,8 @@
 # [C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) 
 
+  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
+    ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
+
 | Data Set | Train trajectories | Test trajectories | Conditions     | Fault modes                           |
 | -------- | ------------------ | ----------------- | -------------- | ------------------------------------- |
 | FD001    | 100                | 100               | One(sea level) | One(HPD Degradation)                  |

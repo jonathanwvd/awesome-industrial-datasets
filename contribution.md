@@ -22,12 +22,14 @@ Please ensure your pull request adheres to the following guidelines:
 
 Bellow the list of used tags:
 
-- Sector  
+-  Sector
+    
   ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)
   ![](https://img.shields.io/badge/sector-automotiv-green.svg)
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
   ![](https://img.shields.io/badge/sector-oil-darkblue.svg)
+
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
