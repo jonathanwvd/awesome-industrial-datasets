@@ -1,11 +1,22 @@
-# [Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/)
+# [Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
 
-![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)  
+![](https://img.shields.io/badge/sector-battery-ff69b4.svg) 
+![](https://img.shields.io/badge/labeled-no-red.svg) 
+![](https://img.shields.io/badge/time--series-yes-blue.svg)
+![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-## Source
-[Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
 
-Published in **Nature Energy**  
+Parameter | Value
+---- | ----
+Data Set Characteristics |
+Attribute Characteristics	| Real
+Associated Tasks	| 
+Number of Instances	| 
+Number of Attributes	| 
+Date Donated | 
+Source | 
+Dataset size | 
+
 ## Data Set Information
 
 - Data Set Characteristics: Multivariate
@@ -18,7 +29,8 @@ This dataset, used in “Data-driven prediction of battery cycle life before cap
 These lithium-ion phosphate (LFP)/graphite cells, manufactured by A123 Systems (APR18650M1A), were cycled in horizontal cylindrical fixtures on a 48-channel Arbin LBT potentiostat in a forced convection temperature chamber set to 30°C. The cells have a nominal capacity of 1.1 Ah and a nominal voltage of 3.3 V.
 
 ### Objective:
-The objective of this work is to optimize fast charging for lithium-ion batteries. As such, all cells in this dataset are charged with a one-step or two-step fast-charging policy. 
+The objective of this work is to optimize fast charging for lithium-ion batteries. As such, all cells in this dataset are charged with a one-step or two-step fast-charging policy.
+
 ### How to make data set "C1(A1)-C2"
 - C1,C2 : first and second constant-current steps, respectively
 - Q1 : the state-of-charge (SOC, %) at which the currents switch
@@ -57,11 +69,6 @@ The following repository contains some starter code to load the datasets in eith
 - The cells in Channels 1, 2, 3, 5, and 6 (3.6C(80%) and 4C(80%) policies) were stopped at the end of this batch and resumed in the 2017-06-30 batch. This pause in cycling lead to a rise in capacity upon resuming the tests.
 - The tests in channels 13, 19, 21, 22, and 31 were terminated before the cells reached 80% of nominal capacity.
 
-### Paper
-
-[Data-driven prediction of battery cycle life before capacity degradation](https://www.nature.com/articles/s41560-019-0356-8)
-
-Abstract: Accurately predicting the lifetime of complex, nonlinear systems such as lithium-ion batteries is critical for accelerating technology development. However, diverse aging mechanisms, significant device variability and dynamic operating conditions have remained major challenges. We generate a comprehensive dataset consisting of 124 commercial lithium iron phosphate/graphite cells cycled under fast-charging conditions, with widely varying cycle lives ranging from 150 to 2,300 cycles. Using discharge voltage curves from early cycles yet to exhibit capacity degradation, we apply machine-learning tools to both predict and classify cells by cycle life. Our best models achieve 9.1% test error for quantitatively predicting cycle life using the first 100 cycles (exhibiting a median increase of 0.2% from initial capacity) and 4.9% test error using the first 5 cycles for classifying cycle life into two groups. This work highlights the promise of combining deliberate data generation with data-driven modelling to predict the behaviour of complex dynamical systems.
 
 ## Attribute Information
 The data is presented in two different files: Each file contains the data from one mixture. The file ethylene_CO.txt contains the recordings from the sensors when exposed to mixtures of Ethylene and CO in air. The file ethylene_methane.txt contains the acquired time series induced by the mixture of Methane and Ethylene in air.
@@ -78,6 +85,7 @@ TGS2602; TGS2602; TGS2600; TGS2600; TGS2610; TGS2610; TGS2620; TGS2620; TGS2602;
 Sensors' readings can be converted to KOhms by 40.000/S_i, where S_i is the value provided in the text files.
 
 ## Resources 
-[Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/)
+[Data source](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
+
 ## Citation Request: 
-Severson et al. Data-driven prediction of battery cycle life before capacity degradation. Nature Energy volume 4, pages 383–391 (2019).
+1. Severson et al. Data-driven prediction of battery cycle life before capacity degradation. Nature Energy volume 4, pages 383–391 (2019).

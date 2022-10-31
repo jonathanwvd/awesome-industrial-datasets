@@ -1,9 +1,11 @@
-## [PHM08 Challenge on this dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/)  
+## [PHM08 Challenge on this dataset](https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository)  
 
 Similar to C-MAPSS data, but the only difference: C-MAPSS data has true RUL values, whereas this dataset does not have RUL values. 
 
 ![](https://img.shields.io/badge/competition-gray.svg)
-![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
+![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) 
+![](<https://img.shields.io/badge/simulation-yes-blue.svg>) 
+   
 ## Data Set Information   
 Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine – i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise.
 The engine is operating normally at the start of each time series, and starts to degrade at some point during the series. In the training set, the degradation grows in magnitude until a predefined threshold is reached beyond which it is not preferable to operate the engine. In the test set, the time series ends some time prior to complete degradation.  

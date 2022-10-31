@@ -1,14 +1,9 @@
  # Awesome Industry 4.0 Datasets
 
-A curated list of public manufacturing datasets and other datasets related to Industry 4.0.
+A curated list of public dataset related to Industry 4.0.
 
-This project aims to provide an organized list of databases so that students, researchers, and others can:
-* test Machine Learning techniques,
-* test algorithms,
-* apply filters and other data processing techniques,
-* create dashboards and visualizations, and others.
-
-if you want to contribute, please check the [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
+This repository is maintained by few hands. We appreciat
+e any kind of help. If you want to contribute, please check the [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
 
 This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 
@@ -17,6 +12,7 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
 - [Battery](#battery)
 - [Chemical](#chemical)
 - [Mechanical](#mechanical)
+- [Oil and Gas](#oil-and-gas)
 - [Power](#power)
 - [Semicon](#semicon)
 - [Steel](#steel)
@@ -27,13 +23,13 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
 ## Datasets
 
 ### Battery  
-- [Data-driven prediction of battery cycle life before capacity degradation](<datasets/Battery/Data-driven prediction of battery cycle life before capacity degradation/README.md>)    
+- [Data-driven prediction of battery cycle life before capacity degradation](<datasets/Battery/Data-driven prediction of battery cycle life before capacity degradation/README.md>): This dataset consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions.
   ![](https://img.shields.io/badge/sector-battery-ff69b4.svg) 
   ![](https://img.shields.io/badge/labeled-no-red.svg) 
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-- [Experiments on Li-ion batteries](<datasets/Battery/Experiments on Li-ion batteries/README.md>): Charging and discharging at different temperatures. Records the impedance as the damage criterion.              
+- [Experiments on Li-ion batteries](<datasets/Battery/Experiments on Li-ion batteries/README.md>): Charging and discharging at different temperatures. Records the impedance as the damage criterion. The data set was provided by the NASA Prognostics Center of Excellence (PCoE).              
   ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)
   ![](https://img.shields.io/badge/labeled-no-red.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
@@ -98,6 +94,12 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)        
+
+### Oil and Gas
+- [3W](<datasets/Oil/3w/README.md>): The 3W dataset consists of all CSV files in the subdirectories of the dataset directory and structured as detailed here.
+  ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
+  ![](<https://img.shields.io/badge/timestamp-yes-green.svg>)
+
 
 
 ### Power

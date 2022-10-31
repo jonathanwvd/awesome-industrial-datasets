@@ -5,7 +5,8 @@ Ways to contribute:
 * suggest datasets
 * share datasets
 * fix typos and syntax
-* includ resources
+* format or complete read me files
+* include references
 * others
 
 
@@ -28,7 +29,7 @@ Bellow the list of used tags:
   ![](https://img.shields.io/badge/sector-automotiv-green.svg)
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/sector-oil-darkblue.svg)
+  ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
 
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
