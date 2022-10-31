@@ -1,14 +1,14 @@
 ## [APS Failure at Scania Trucks Data Set](https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks)
 
-aps_failure_test_set.csv : 11.9MB (16,000)
-
-aps_failure_training_set.csv : 44.7MB (60,000)
-
 The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.
 
-![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/failure%20classification-gray.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/failure%20classification-gray.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)]
 
-#### Data Set Information:
+## Data Set Information:
+
+- aps_failure_test_set.csv : 11.9MB (16,000)
+
+- aps_failure_training_set.csv : 44.7MB (60,000)
 
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
@@ -52,7 +52,7 @@ Total_cost = Cost_1 * Num_Instances + Cost_2 * Num_Instances.
 
 The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. The test set contains 16000 examples.
 
-**Attribute Information: **
+## Attribute Information: 
 
 The attribute names of the data have been **anonymized** for proprietary reasons. It consists of both single numerical counters and histograms consisting of bins with different conditions. Typically the histograms have open-ended conditions at each end. For example if we measuring the ambient temperature 'T' then the histogram could be defined with 4 bins where: 
 
@@ -93,6 +93,9 @@ The exploratory analysis of the data enabled to outlined two important condition
 
 (2) high imbalance in the class distribution
 
-#### Citation Request:
+## Citation Request:
 
 Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html) 
+
+## Resources: 
+[APS Failure at Scania Trucks Data Set](https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks)
