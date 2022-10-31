@@ -45,7 +45,7 @@ Why 128-element feature vector per measurement? MOX gas sensors typically descri
 where 0 < α < 1 is the smoothing parameter of the filter and x[k] is the acquired value at time k. Since different values of α provide different feature values and different information of the transient response, we computed the EMA filter for three values of α = 0.1, 0.01, 0.001 for both the rising and the decaying stages. Therefore, each of the __16 sensors__ used in the study contributes with __8 features__, thereby yielding a __128-element feature vector__ per measurement.     
 
    
-## Resources   
+## References   
 - [UCI](https://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset+at+Different+Concentrations): Database source link.
 
 - [Data Science project with Python Notebooks](https://github.com/miltongneto/Gas-Sensor-Array-Drift): This project consists of building a solution following all the steps of CRISP-DM (CRoss Industry Standard Process for Data Mining). (Repository in portuguese).

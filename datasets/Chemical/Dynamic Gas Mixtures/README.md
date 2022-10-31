@@ -65,7 +65,7 @@ TGS2602; TGS2602; TGS2600; TGS2600; TGS2610; TGS2610; TGS2620; TGS2620; TGS2602;
 Sensors' readings can be converted to KOhms by 40.000/S_i, where S_i is the value provided in the text files.
 
 
-## Resourses
+## References
 
 - [UCI](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures): Database source link.
 

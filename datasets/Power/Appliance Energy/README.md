@@ -61,7 +61,7 @@ For more information about the house, data collection, R scripts and figures, pl
 Where indicated, hourly data (then interpolated) from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis, rp5.ru. Permission was obtained from Reliable Prognosis for the distribution of the 4.5 months of weather data.
 
 
-## Resources
+## References
 
 * [Github](https://github.com/LuisM78/Appliances-energy-prediction-data): Dataset and prediction model in R.
 - [UCI](https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction): Database source link.

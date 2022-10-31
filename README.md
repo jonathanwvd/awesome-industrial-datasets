@@ -164,7 +164,13 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ### Steel
-- [Steel Plates Faults](<datasets/Steel/Steel Plates Faults/README.md>).    
+- [Steel Industry Enery Consumption](<datasets/Steel/Steel Industry Energy Consumption>): The data is collected from a smart small-scale steel industry in South Korea.  
+  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-no-red.svg)
+  ![](https://img.shields.io/badge/fault_classification-gray.svg)
+
+- [Steel Plates Faults](<datasets/Steel/Steel Plates Faults/README.md>): A dataset of steel plates faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.    
   ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)

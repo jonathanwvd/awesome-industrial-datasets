@@ -37,7 +37,7 @@ Features consist of hourly average ambient variables
 - Net hourly electrical energy output (EP) 420.26-495.76 MW
 The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization.
 
-## Resources
+## References
 - [UCI](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant): Database source link.
 
 
