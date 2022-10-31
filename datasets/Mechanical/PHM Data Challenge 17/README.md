@@ -1,14 +1,13 @@
-## Mechanical   
-
-### [PHM DATA Challenge 17](<https://www.phmsociety.org/events/conference/phm/17/data-challenge>): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.       
-
-Training and testing data sets are provided. The data given represents spectral features over non-overlapping frequency bands calculated from filtered sensor signals in sequential time frames, for typical frequencies discussed in the literature. One experiment consists of a matrix of 90 feature values over time.    
+# [PHM DATA Challenge 17](<https://www.phmsociety.org/events/conference/phm/17/data-challenge>)
+Predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.     
 
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)          
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) 
 
-#### Data Set Information    
+## Data Set Information 
+
+Training and testing data sets are provided. The data given represents spectral features over non-overlapping frequency bands calculated from filtered sensor signals in sequential time frames, for typical frequencies discussed in the literature. One experiment consists of a matrix of 90 feature values over time.    
 
 Timestamp: May 24, 2017 - 12:18pm    
 
@@ -79,7 +78,13 @@ The training data consists of 200 csv files. Training data will be given in a co
 
 __Test data__    
 
-- The test data consists of 200 csv files. It consists of 24 columns. Testing data will be given in a collection of files "*Testing-ddd.csv*" analogous to the training data. It includes both nominal and faulty regimes of operation. No fault number or position information will be provided for faulty regimes.           
+- The test data consists of 200 csv files. It consists of 24 columns. Testing data will be given in a collection of files "*Testing-ddd.csv*" analogous to the training data. It includes both nominal and faulty regimes of operation. No fault number or position information will be provided for faulty regimes.        
+
+## Attributes Information
+- z_il, az_ir – vertical acceleration of wheelset axle (i = 1,2,3,4)
+- azp_il, azp_ir – vertical acceleration on bogie frame primary suspension level (above wheelset axle, i = 1,2 for leading bogie, and i = 3,4 for trailing bogie)
+- azs_i, azs_i – vertical acceleration on car body secondary suspension level (i = 1 above the leading bogie, and i = 2 above the trailing bogie)
+
 
 #### Objectives          
 
@@ -91,9 +96,9 @@ __Test data__
 2. S. Bruni , J. Vinolas , M. Berg , O. Polach & S. Stichel (2011): Modelling of suspension components in a rail vehicle dynamics context. , Vehicle System Dynamics, 49:7, 1021-1072.  
 3. S. Iwnicki (1998): Manchester Benchmark for Rail Vehicle Simulation. Vehicle System Dynamics, 30:7, 295-313.     
 
-##### Data Download Link     
-
-<https://www.phmsociety.org/events/conference/phm/17/data-challenge>     
+## Resources
+Data [Download Link](<https://www.phmsociety.org/events/conference/phm/17/data-challenge>     
+)
 
 Data Capacity(Compressed) : 19.38 MB        
 
