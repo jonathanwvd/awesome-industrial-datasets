@@ -6,7 +6,7 @@ Data have been generated from a sophisticated simulator of a Gas Turbines (GT), 
 
  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)  ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](https://img.shields.io/badge/time--series-no-red.svg)  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
-#### Data Set Information
+## Data Set Information
 
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
@@ -36,7 +36,7 @@ Ship speed has been investigated sampling the range of feasible speed from 3 kno
 
 A series of measures (16 features) which indirectly represents of the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space. 
 
-#### Variables
+## Attribute Information
 
 A 16-feature vector containing the GT measures at steady state of the physical asset:   
 
@@ -72,7 +72,7 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 
 [Condition-Based Maintenance of Naval Propulsion Systems with supervised Data Analysis](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/master/data-explanation/Naval%20Propulsion%20Plants/Cipollini_etal_OE_2018_Condition_based_maintenance_of_naval_propulsion_systems_with_supervised_data_analysis.pdf) 
 
-**highlights**
+**Highlights**
 
 - A real-data validated model for the performance decay assessment of the main propulsion plant systems is presented.
 - Data-Driven models to investigate the problem of performing Condition-Based Maintenance on a ship propulsion system.
@@ -86,8 +86,10 @@ Depending on the adopted strategy, impact of maintenance on overall expenses can
 
 The behavior and interaction of the [main components](https://www.sciencedirect.com/topics/engineering/main-component) of Ship [Propulsion](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/propulsion) Systems cannot be easily modeled with a priori physical knowledge, considering the large amount of variables influencing them. Data-Driven Models (DDMs), instead, exploit advanced statistical techniques to build models directly on the large amount of historical data collected by on-board [automation systems](https://www.sciencedirect.com/topics/engineering/automation-system), **without requiring any a [priori knowledge](https://www.sciencedirect.com/topics/engineering/priori-knowledge)**. DDMs are extremely useful when it comes to continuously monitoring the propulsion equipment and take decisions based on the [actual condition](https://www.sciencedirect.com/topics/engineering/actual-condition) of the propulsion plant. In this paper, the authors investigate the problem of performing Condition-Based Maintenance through the use of DDMs. In order to conceive this purpose, several state-of-the-art [supervised learning](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/supervised-learning) techniques are adopted, which require labeled sensor data in order to be deployed. **A [naval vessel](https://www.sciencedirect.com/topics/engineering/naval-vessels), characterized by a combined diesel-electric and gas propulsion plant, has been exploited to collect such data and show the effectiveness of the proposed approaches.** Because of confidentiality constraints with the Navy the authors used a real-data validated [simulator](https://www.sciencedirect.com/topics/engineering/simulators) and the [dataset](https://www.sciencedirect.com/topics/engineering/dataset) has been published for free use through the UCI repository.
 
-#### Citation Request:
+## Resources
+Database download link [UCI CBM Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/00316/)
 
+## Citation Request:
 [1] A. Coraddu, L. Oneto, A. Ghio, S. Savio, D. Anguita, M. Figari, Machine Learning Approaches for Improving Condition?Based Maintenance of Naval Propulsion Plants, Journal of Engineering for the Maritime Environment, 2014, DOI: 10.1177/1475090214540874, (In Press) 
 
 @article{Coraddu2013Machine, 
