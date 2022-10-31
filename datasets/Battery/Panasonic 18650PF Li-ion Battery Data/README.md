@@ -1,16 +1,20 @@
 # [Panasonic 18650PF Li-ion Battery Data](https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429)
-
-191.1 MB (compressed)
-
-A brand new 2.9Ah Panasonic 18650PF cell was tested in an 8 cu.ft. thermal chamber with a 25 amp, 18 volt Digatron Firing Circuits Universal Battery Tester channel.
-
  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-#### Data Set Information
+## Source
+
+The included tests were performed at the University of Wisconsin-Madison by Dr. Phillip Kollmeyer (phillip.kollmeyer@gmail.com).  If this data is utilized for any purpose, it should be appropriately referenced.
+
+
+## Data Set Information
 
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
 | Multivariate             | Real                      | Regression       |
+
+191.1 MB (compressed)
+
+A brand new 2.9Ah Panasonic 18650PF cell was tested in an 8 cu.ft. thermal chamber with a 25 amp, 18 volt Digatron Firing Circuits Universal Battery Tester channel.
 
 A series of tests were performed at five different temperatures, as follows (battery charged after each test at 1C rate to 4.2V, 50mA cut off, with battery temperature 12degC or greater):
 
@@ -42,7 +46,7 @@ Tests considered more important, such as drive cycles, were saved with a 0.1 sec
 **Repeated data:**
 Due to an issue with the battery tester's logging, many of the US06, HWFET, UDDS, LA92, and NN drive cycles were saved in a single long file with the charges and pauses which occured between tests.  The data rate of these files is not consistent (lower data logging rate for charges and pauses).  These continuous files may be useful for some applications, and were therefore left.  The files were also split, such that seperate US06, HWFET, etc files are provided.  Because of this some drive cycle data is included twice - in the long contiguous file as well as in the split files.
 
-#### Variables
+## Attribute Information
 
 - TimeStamp (timestamp in MM/DD/YYYY HH:MM:SS AM format)
 - Voltage (measured cell terminal voltage, sense leads welded directly to battery terminal)
@@ -56,6 +60,3 @@ Due to an issue with the battery tester's logging, many of the US06, HWFET, UDDS
 - Time (time in seconds, starts at zero at beginning of each data file)
 - Chamber_Temp_degC (measured chamber temperature in degrees Celsius)
 
-#### Citation
-
-The included tests were performed at the University of Wisconsin-Madison by Dr. Phillip Kollmeyer (phillip.kollmeyer@gmail.com).  If this data is utilized for any purpose, it should be appropriately referenced.
