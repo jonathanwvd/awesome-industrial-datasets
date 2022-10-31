@@ -5,7 +5,8 @@ This dataset, used in “Data-driven prediction of battery cycle life before cap
 
 ## Source
 [Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
-1. Severson *et al*. Data-driven prediction of battery cycle life before capacity degradation. *Nature Energy* volume 4, pages 383–391 (2019).
+
+Published in **Nature Energy**  
 ## Data Set Information
 
 - Data Set Characteristics: Multivariate
