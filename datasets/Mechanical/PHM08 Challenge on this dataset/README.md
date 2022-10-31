@@ -1,19 +1,20 @@
-## Mechanical  
-### [PHM08 Challenge on this dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/)  
+## [PHM08 Challenge on this dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/)  
 
-Similar to C-MAPSS data, but the only difference: C-MAPSS data has true RUL values, whereas this dataset does not have RUL values.    
+Similar to C-MAPSS data, but the only difference: C-MAPSS data has true RUL values, whereas this dataset does not have RUL values. 
 
+![](https://img.shields.io/badge/competition-gray.svg)
+![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
+## Data Set Information   
 Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine – i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise.
 The engine is operating normally at the start of each time series, and starts to degrade at some point during the series. In the training set, the degradation grows in magnitude until a predefined threshold is reached beyond which it is not preferable to operate the engine. In the test set, the time series ends some time prior to complete degradation.  
 The objective of the competition is to predict the number of remaining operational cycles before in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate properly.  
 The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle; each column is a different variable.  
 
-![](https://img.shields.io/badge/competition-gray.svg)
-![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)      
+    
 
-#### Data Set Information   
 
-- Attribute Explanation   
+
+## Attribute Information   
 
 Each dataset has 26 columns.   
 The columns correspond to:  
@@ -46,9 +47,12 @@ The columns correspond to:
    keywords: LSTM, Multi-Layer Perceptron (MLP), Support Vector Regression (SVR), Relevance Vector Regression (RVR) and Convolutional Neural Network (CNN)    
 
 
-##### Data Folder Link   
+## Resources
 [https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/13/)    
 
  Data Capacity(Compressed):  
 
 5.57MB  
+
+## Citation Request
+[1] A. Saxena, k. Goebel, PHM08 Challenge Data Set, 2008. Available: https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository
