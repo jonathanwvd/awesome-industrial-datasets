@@ -1,12 +1,10 @@
-## [UK-DALE dataset](http://jack-kelly.com/data/)
-
-3.5GB(compressed)
+# [UK-DALE dataset](http://jack-kelly.com/data/)
 
 This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.
 
 ![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](https://img.shields.io/badge/simulation-no-red.svg)
 
-#### Data Set Information:
+## Data Set Information:
 
 All five homes have whole-home power recorded every six seconds; and appliance-level data is at six second resolution. Homes 1, 2 and 5 also have whole-home active power and apparent power at 1 second resolution. The six-second and one-second data is stored in CSV files where the first column is the UNIX timestamp.
 
@@ -32,7 +30,7 @@ The latter source will be updated as we collect more data. There are three forms
 
 [The UK-DALE dataset, domestic appliance-level electricity demand and whole-house demand from five UK homes](https://www.nature.com/articles/sdata20157)
 
-#### Citation Request
+## Citation Request
 
 Kelly J., Knottenbelt W. 2015. UKERC Energy Data Centre. <http://dx.doi.org/10.5286/UKERC.EDC.000001>
 

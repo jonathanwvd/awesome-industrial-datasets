@@ -1,12 +1,11 @@
-## Power  
-### [BLUE dataset](<http://portoalegre.andrew.cmu.edu:88/BLUED/>)   
+# [BLUE dataset](<http://portoalegre.andrew.cmu.edu:88/BLUED/>)   
 
  The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.  Every state transition of each appliance in the
 home during this time was labeled and time-stamped, providing the necessary ground truth for the evaluation of event-based algorithms. 
 
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)  ![](https://img.shields.io/badge/sector-power-lightblue.svg)  ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)   
 
-#### Data Set Information         
+## Data Set Information         
 
 | Index | Name                                               | Average Power Consumption (W) | Number of events | Phase |
 | ----- | -------------------------------------------------- | ----------------------------- | ---------------- | ----- |
@@ -61,7 +60,7 @@ Table shows the list of appliances in the home that were monitored, along with t
 1. [BLUED: A Fully Labeled Public Dataset for Event-Based
    Non-Intrusive Load Monitoring Research](<https://pdfs.semanticscholar.org/ed1b/8fc3074ec5d7bb7cf83e233d3b130637706f.pdf>)          
 
-#### Citations    
+## Citation Request    
 
 The BibTeX reference for the paper is the following:  
 
@@ -73,7 +72,7 @@ The BibTeX reference for the paper is the following:
   month = aug, year = {2012} },  
 
 
-##### Data Download Link   
+## Resources  
 [http://archive.ics.uci.edu/ml/machine-learning-databases/secom/](http://archive.ics.uci.edu/ml/machine-learning-databases/secom/)    
 
 Data Capacity     

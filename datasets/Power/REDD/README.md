@@ -1,11 +1,10 @@
-## Power  
-### [REDD: A Public Data Set for Energy Disaggregation Research](<http://redd.csail.mit.edu/>)      
+# [REDD: A Public Data Set for Energy Disaggregation Research](<http://redd.csail.mit.edu/>)      
 
 The data contains power consumption from real homes, for the whole house as well as for each individual circuit in the house (labeled by the main type of appliance on that circuit). The data is intended for use in developing disaggregation methods, which can predict, from only the whole-home signal, which devices are being used (though any other uses are of course encouraged as well).    
 
 ![](https://img.shields.io/badge/sector-power-lightblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)     
 
-#### Data Set Information      
+## Data Set Information      
 
 - Law Frequency Power Data  
 
@@ -148,11 +147,11 @@ The data contains power consumption from real homes, for the whole house as well
 
 1. [REDD: A Public Data Set for Energy Disaggregation Research](<http://redd.csail.mit.edu/kolter-kddsust11.pdf>)         
 
-#### Citation  
+## Citation Request
 
 J. Zico Kolter and Matthew J. Johnson. REDD: A public data set for energy disaggregation research. In proceedings of the SustKDD workshop on Data Mining Applications in Sustainability, 2011.    
 
-##### Data Download Link   
+## Resources  
 <http://redd.csail.mit.edu/>     
 
 Data Capacity(Compressed)              
