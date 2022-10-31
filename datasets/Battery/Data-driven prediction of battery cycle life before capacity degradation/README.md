@@ -1,11 +1,8 @@
 # [Data-driven prediction of battery cycle life before capacity degradation](https://data.matr.io/1/)
+![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)  
 
-This dataset, used in “Data-driven prediction of battery cycle life before capacity degradation”, consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions. These lithium-ion phosphate (LFP)/graphite cells, manufactured by A123 Systems (APR18650M1A), were cycled in horizontal cylindrical fixtures on a 48-channel Arbin LBT potentiostat in a forced convection temperature chamber set to 30°C. The cells have a nominal capacity of 1.1 Ah and a nominal voltage of 3.3 V.
-
-## Objective
-
-The objective of this work is to optimize fast charging for lithium-ion batteries. As such, all cells in this dataset are charged with a one-step or two-step fast-charging policy. 
-
+## Citation
+1. Severson *et al*. Data-driven prediction of battery cycle life before capacity degradation. *Nature Energy* volume 4, pages 383–391 (2019).
 ## Data Set Information
 
 - Data Set Characteristics: Multivariate
@@ -13,11 +10,26 @@ The objective of this work is to optimize fast charging for lithium-ion batterie
 - Associated Tasks: Regression
 - Size: 2.82GB , 1.8GB, 3.01GB
 
+This dataset, used in “Data-driven prediction of battery cycle life before capacity degradation”, consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions. These lithium-ion phosphate (LFP)/graphite cells, manufactured by A123 Systems (APR18650M1A), were cycled in horizontal cylindrical fixtures on a 48-channel Arbin LBT potentiostat in a forced convection temperature chamber set to 30°C. The cells have a nominal capacity of 1.1 Ah and a nominal voltage of 3.3 V.
 
-### How to make data set
+### Objective:
+The objective of this work is to optimize fast charging for lithium-ion batteries. As such, all cells in this dataset are charged with a one-step or two-step fast-charging policy. 
 
-"C1(A1)-C2"
+## Attribute Information
+The data is presented in two different files: Each file contains the data from one mixture. The file ethylene_CO.txt contains the recordings from the sensors when exposed to mixtures of Ethylene and CO in air. The file ethylene_methane.txt contains the acquired time series induced by the mixture of Methane and Ethylene in air.
 
+The structure of the files is the same: Data is distributed in 19 columns. First column represents time (in seconds), second column represents Methane (or CO) concentration set point (in ppm), third column details Ethylene concentration set point (in ppm), and the following 16 columns show the recordings of the sensor array.
+
+Files include a header (one line) with the information of each column:
+
+Time (seconds), Methane conc (ppm), Ethylene conc (ppm), sensor readings (16 channels)
+
+The order of the sensors in the files is as follows:
+TGS2602; TGS2602; TGS2600; TGS2600; TGS2610; TGS2610; TGS2620; TGS2620; TGS2602; TGS2602; TGS2600; TGS2600; TGS2610; TGS2610; TGS2620; TGS2620
+
+Sensors' readings can be converted to KOhms by 40.000/S_i, where S_i is the value provided in the text files.
+
+### How to make data set "C1(A1)-C2"
 - C1,C2 : first and second constant-current steps, respectively
 - Q1 : the state-of-charge (SOC, %) at which the currents switch
 
@@ -55,14 +67,9 @@ The following repository contains some starter code to load the datasets in eith
 - The cells in Channels 1, 2, 3, 5, and 6 (3.6C(80%) and 4C(80%) policies) were stopped at the end of this batch and resumed in the 2017-06-30 batch. This pause in cycling lead to a rise in capacity upon resuming the tests.
 - The tests in channels 13, 19, 21, 22, and 31 were terminated before the cells reached 80% of nominal capacity.
 
-## Paper
+### Paper
 
 [Data-driven prediction of battery cycle life before capacity degradation](https://www.nature.com/articles/s41560-019-0356-8)
 
-abstract
+Abstract: Accurately predicting the lifetime of complex, nonlinear systems such as lithium-ion batteries is critical for accelerating technology development. However, diverse aging mechanisms, significant device variability and dynamic operating conditions have remained major challenges. We generate a comprehensive dataset consisting of 124 commercial lithium iron phosphate/graphite cells cycled under fast-charging conditions, with widely varying cycle lives ranging from 150 to 2,300 cycles. Using discharge voltage curves from early cycles yet to exhibit capacity degradation, we apply machine-learning tools to both predict and classify cells by cycle life. Our best models achieve 9.1% test error for quantitatively predicting cycle life using the first 100 cycles (exhibiting a median increase of 0.2% from initial capacity) and 4.9% test error using the first 5 cycles for classifying cycle life into two groups. This work highlights the promise of combining deliberate data generation with data-driven modelling to predict the behaviour of complex dynamical systems.
 
-Accurately predicting the lifetime of complex, nonlinear systems such as lithium-ion batteries is critical for accelerating technology development. However, diverse aging mechanisms, significant device variability and dynamic operating conditions have remained major challenges. We generate a comprehensive dataset consisting of 124 commercial lithium iron phosphate/graphite cells cycled under fast-charging conditions, with widely varying cycle lives ranging from 150 to 2,300 cycles. Using discharge voltage curves from early cycles yet to exhibit capacity degradation, we apply machine-learning tools to both predict and classify cells by cycle life. Our best models achieve 9.1% test error for quantitatively predicting cycle life using the first 100 cycles (exhibiting a median increase of 0.2% from initial capacity) and 4.9% test error using the first 5 cycles for classifying cycle life into two groups. This work highlights the promise of combining deliberate data generation with data-driven modelling to predict the behaviour of complex dynamical systems.
-
-## Citation
-
-1. Severson *et al*. Data-driven prediction of battery cycle life before capacity degradation. *Nature Energy* volume 4, pages 383–391 (2019).
