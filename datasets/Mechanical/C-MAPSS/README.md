@@ -1,26 +1,4 @@
-# [C-MAPSS](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) 
-#### Turbofan Engine Degradation Simulation Data Set    
-
-This data set was generated with the C-MAPSS simulator.  C-MAPSS stands for 'Commercial Modular Aero-Propulsion System Simulation' and it is a tool for the simulation of realistic large commercial turbofan engine data. Each data set is divided into a train and a test set. Each time-series data set is a data set obtained from another engine. A dataset is data from the same type of engine. The four data sets are multivariate time-series data obtained with different operational conditions (ONE, SIX) and fault modes (ONE, TWO), respectively. There are three operational settings that affect engine performance. For each test data, RUL (Remaining Useful Life) values are provided. In the training set, the degradation increases until it reaches the predefined threshold, which is deemed bad for operating the engine. In the test set, the time series data is terminated before it is completely degraded. For each data set, there is a column of 26 sensors.      
-
-Response surfaces of all sensors are generated via a thermo-dynamical simulation model for the engine as a function of variations of flow and efficiency of the modules of interest.   
-
-#### Data Set Information  
-
-- Data Explanation     
-
-Each engine initially has some wear and there is a manufacturing variation, but this is considered normal.   
-There are three operational settings that affect engine performance.   
-Data was contaminated by sensor noise.    
-At the beginning of each time series data collection, the engine starts at normal state, and a fault occurs at any time point.   
-In the training set, the fault grows until a system failure occurs.     
-In the test set, the time series ends to some extent before a system failure occurs.    
-
-- Purpose of Competition     
-predicting the number of remaining operational cycles before a system failure occurs in the test set.   
-
-
-- Summary of each dataset        
+# [C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/) 
 
 | Data Set | Train trajectories | Test trajectories | Conditions     | Fault modes                           |
 | -------- | ------------------ | ----------------- | -------------- | ------------------------------------- |
@@ -37,7 +15,29 @@ predicting the number of remaining operational cycles before a system failure oc
 | FD004          | 61249         | FD004         | 41214         | FD004        | 248           |
 
 
-- Attributes Explanation    
+## Dataset Information
+### Turbofan Engine Degradation Simulation Data Set    
+
+This data set was generated with the C-MAPSS simulator.  C-MAPSS stands for 'Commercial Modular Aero-Propulsion System Simulation' and it is a tool for the simulation of realistic large commercial turbofan engine data. Each data set is divided into a train and a test set. Each time-series data set is a data set obtained from another engine. A dataset is data from the same type of engine. The four data sets are multivariate time-series data obtained with different operational conditions (ONE, SIX) and fault modes (ONE, TWO), respectively. There are three operational settings that affect engine performance. For each test data, RUL (Remaining Useful Life) values are provided. In the training set, the degradation increases until it reaches the predefined threshold, which is deemed bad for operating the engine. In the test set, the time series data is terminated before it is completely degraded. For each data set, there is a column of 26 sensors.      
+
+Response surfaces of all sensors are generated via a thermo-dynamical simulation model for the engine as a function of variations of flow and efficiency of the modules of interest.   
+
+### Data Explanation     
+
+Each engine initially has some wear and there is a manufacturing variation, but this is considered normal.   
+There are three operational settings that affect engine performance.   
+Data was contaminated by sensor noise.    
+At the beginning of each time series data collection, the engine starts at normal state, and a fault occurs at any time point.   
+In the training set, the fault grows until a system failure occurs.     
+In the test set, the time series ends to some extent before a system failure occurs.    
+
+### Purpose of Competition     
+predicting the number of remaining operational cycles before a system failure occurs in the test set.   
+### Summary of each dataset        
+
+
+
+## Attributes Information    
 
 Each dataset has 26 columns.     
 The columns correspond to:  
@@ -55,7 +55,7 @@ The columns correspond to:
 - train/test data set __N/A__   
   __None__       
 
-#### Paper    
+### Paper    
 
 1. [Long Short-Term Memory Network for Remaining
    Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)   
@@ -67,9 +67,9 @@ The columns correspond to:
 
    keywords: LSTM, CNN, MLP    
 
-#### Citations  
 
+## Resources  
+Link to download the [Database] (https://ti.arc.nasa.gov/c/6/) @ NASA website. 
+## Citation Request 
 A. Saxena and K. Goebel (2008). "Turbofan Engine Degradation Simulation Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA    
 
-##### Data Download Link  
-[https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/)   
