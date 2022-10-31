@@ -1,16 +1,19 @@
 # [Experiments on Li-ion batteries](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery)
 
-56.5MB, 11.1MB, 93.7MB, 14.7MB, 8.7MB, 24.9MB(Data Set1~6, compressed)
-
  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-#### Data Set Information
+## Source
+B. Saha and K. Goebel (2007). "Battery Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA
+
+## Data Set Information
 
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
 | Multivariate             | Real                      | Regression       |
 
 A set of four Li-ion batteries were run through 3 different operational profiles (charge, discharge and impedance) at room temperature (24 deg C).
+
+56.5MB, 11.1MB, 93.7MB, 14.7MB, 8.7MB, 24.9MB(Data Set1~6, compressed)
 
 **Charge**
 
@@ -24,36 +27,59 @@ Discharge was carried out using a 0.05Hz square wave loading profile of 4A ampli
 
 Impedance measurement was carried out through an electrochemical impedance spectroscopy (EIS) frequency sweep from 0.1Hz to 5kHz. 
 
-#### Variables
+## Attribute Information
 
 type : operation  type, can be charge, discharge or impedance
+
 ambient_temperature : ambient temperature (degree C)
+
 time : the date and time of the start of the cycle, in MATLAB  date vector format
-**charge**
+
+**Charge**
 Voltage_measured : Battery terminal voltage (Volts)
+
 Current_measured : Battery output current (Amps)
 Temperature_measured : Battery temperature (degree C)
+
 Current_charge : Current measured at charger (Amps)
+
 Voltage_charge : Voltage measured at charger (Volts)
+
 Time : Time vector for the cycle (secs)
-**discharge**
+
+**Discharge**
 Voltage_measured : Battery terminal voltage (Volts)
+
 Current_measured : Battery output current (Amps)
+
 Temperature_measured : Battery temperature (degree C)
+
 Current_charge : Current measured at load (Amps)
+
 Voltage_charge : Voltage measured at load (Volts)
+
 Time : Time vector for the cycle (secs)
+
 Capacity : Battery capacity (Ahr) for discharge till 2.7V 
-**impedance**
+
+
+**Impedance**
+
 Sense_current : Current in sense branch (Amps)
+
 Battery_current : Current in battery branch (Amps)
+
 Current_ratio : Ratio of the above currents 
-Battery_impedance : Battery impedance (Ohms) computed from raw data
+Battery_impedance : Battery impedance (Ohms) 
+computed from raw data
+
 Rectified_impedance : Calibrated and smoothed battery impedance (Ohms) 
+
 Re : Estimated electrolyte resistance (Ohms)
+
 Rct : Estimated charge transfer resistance (Ohms)
 
-#### Paper
+### Paper
 
 1. **Verification of a Remaining Flying Time Prediction System for Small Electric Aircraft***, Edward F. Hogge, Brian M. Bole, Sixto L. Vazquez, Jose Celaya*, Annual Conference of the Prognostics and Health Management, 2015
 2. **Adaptation of an Electrochemistry-based Li-Ion Battery Model to Account for Deterioration Observed Under Randomized Use***, Bole, B. and Kulkarni, C. and Daigle, M.*, Annual Conference of the Prognostics and Health Management Society, 2014
@@ -72,6 +98,3 @@ Rct : Estimated charge transfer resistance (Ohms)
 15. **Prognostics methods for battery health monitoring using a Bayesian framework***, Saha, Bhaskar and Goebel, Kai and Poll, Scott and Christophersen, Jon*, Instrumentation and Measurement, IEEE Transactions on, Vol. 58 No. 2, 291--296, 2009
 16. **Modeling Li-ion battery capacity depletion in a particle filtering framework***, Saha, Bhaskar and Goebel, Kai*, Proceedings of the annual conference of the prognostics and health management society, 2009
 
-#### Citation
-
-B. Saha and K. Goebel (2007). "Battery Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA
