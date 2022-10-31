@@ -1,5 +1,6 @@
-## Semicon
-### [PHM DATA Challenge 18](https://www.phmsociety.org/events/conference/phm/18/data-challenge): Etching tool fault detection (PdM)  
+# [PHM DATA Challenge 18](https://www.phmsociety.org/events/conference/phm/18/data-challenge)
+
+Etching tool fault detection (PdM)  
 
 The data provided by PHM Data Challenge 18 was provided to investigate the fault behavior of ion mill etch tools in the wafer manufacturing process. It is a database that collects sensor data in time sequence from ion mill etching tools operating under various setting conditions.    
 
@@ -7,7 +8,7 @@ The data provided by PHM Data Challenge 18 was provided to investigate the fault
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)        
 
-#### Data Set Information    
+## Data Set Information    
 
 __Training data__   
 
@@ -90,7 +91,8 @@ These are not the papers provided by PHM data Challenge 2018 , attached are some
 
    keywords: data from PHM 2016 Data Challenge, Bayesian optimization algorithms, hyper-parameter optimization problem    
 
-##### Data Download Link     
+## Resources
+Data Download Link     
 [https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb](https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb)    
 
 Data Capacity(Compressed) : 5.0G    
