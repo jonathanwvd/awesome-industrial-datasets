@@ -1,20 +1,16 @@
 # [CNC Mill Tool Wear](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data) 
-
-CNC Mill Tool Wear data was provided to perform classification studies such as 'Tool wear detection' and 'Detection of inadequate clamping'.     
-
-A series of machining experiments were run on 2" x 2" x 1.5" wax blocks in a CNC milling machine in the System-level Manufacturing and Automation Research Testbed (SMART) at the University of Michigan. Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure. Each experiment produced a finished wax part with an "S" shape - S for smart manufacturing - carved into the top face, as shown in `test_artifact.jpg` (included in the dataset).  
-
-General data from each of the 18 different experiments are given in `train.csv`  Time series data was collected from the 18 experiments with a sampling rate of `100 ms` and are separately reported in files `experiment_01.csv` to `experiment_18.csv`. Each `experiment_xx.csv` file consists of 48 columns and the number of each row is from `experiment_01.csv` to `experiment_18.csv` (1056, 1669, 1522, 533, 463, 1297, 566, 606, 741, 1302, 2315, 2276 , 2234, 2333, 1382, 603, 2151, 2254). Time series data from 18 experiments is collected at a sampling rate of 100 ms.          
+CNC Mill Tool Wear data was provided to perform classification studies such as 'Tool wear detection' and 'Detection of inadequate clamping'.   
 
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
-![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)      
+![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
+   
+## Data Set Information  
+A series of machining experiments were run on 2" x 2" x 1.5" wax blocks in a CNC milling machine in the System-level Manufacturing and Automation Research Testbed (SMART) at the University of Michigan. Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure. Each experiment produced a finished wax part with an "S" shape - S for smart manufacturing - carved into the top face, as shown in `test_artifact.jpg` (included in the dataset).  
 
-#### Data Set Information  
-
-- Data Set    
+General data from each of the 18 different experiments are given in `train.csv`  Time series data was collected from the 18 experiments with a sampling rate of `100 ms` and are separately reported in files `experiment_01.csv` to `experiment_18.csv`. Each `experiment_xx.csv` file consists of 48 columns and the number of each row is from `experiment_01.csv` to `experiment_18.csv` (1056, 1669, 1522, 533, 463, 1297, 566, 606, 741, 1302, 2315, 2276 , 2234, 2333, 1382, 603, 2151, 2254). Time series data from 18 experiments is collected at a sampling rate of 100 ms.   
 
 
 | Data Set          | Number of row | Data Set          | Number of row |
@@ -32,7 +28,7 @@ General data from each of the 18 different experiments are given in `train.csv` 
 
 
 
-- Attribute explanation - `Train.csv`       
+## Attribute Information - `Train.csv`       
 
 | Inputs(features)     | Description                                                  | Outputs(predictions)     | Description                                                  |
 | -------------------- | ------------------------------------------------------------ | ------------------------ | ------------------------------------------------------------ |
@@ -43,7 +39,7 @@ General data from each of the 18 different experiments are given in `train.csv` 
 
 The 'tool_condition' variable indicates whether the tool is unworn or worn. 
 
-- Attributes explanation - `18 experiment_xx.csv`     
+## Attributes information - `18 experiment_xx.csv`     
 
   There are a total of 48 attributes.   
 
@@ -105,7 +101,7 @@ The 'tool_condition' variable indicates whether the tool is unworn or worn.
 
   (2) Taking each one of the 18 experiments (the entire time series) as an observation for time series classification     
 
-#### Paper  
+### Paper  
 
 1. [CNC Machine Tool’s wear diagnostic and prognostic by
    using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)      
@@ -114,11 +110,10 @@ keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Li
 Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
 
 
-##### Data Download Link   
-Data Capacity(Compressed):   
+## Resources   
+Data Download Link Capacity(Compressed): 
+2.56MB 
 
-2.56MB   
+[CNC Mill Tool Wear](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data)
 
-Data Capacity(Raw):   
-
-11.6MB   
+Data Capacity(Raw): 11.6MB   
