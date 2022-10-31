@@ -90,7 +90,7 @@ __Test data__
 
 1. The primary objective of this challenge is to **predict faulty regimes of operation** of a train car using the data provided and physics-based modeling methods (e.g. inspired in any relevant reference such as the ones included in this document)       
 
-#### Paper     
+## Citation  Request     
 
 1. T. X. Mei & X. J. Ding (2009): Condition monitoring of rail vehicle suspensions based on changes in system dynamic interactions, Vehicle System Dynamics, 47:9, 1167-1181.  
 2. S. Bruni , J. Vinolas , M. Berg , O. Polach & S. Stichel (2011): Modelling of suspension components in a rail vehicle dynamics context. , Vehicle System Dynamics, 49:7, 1021-1072.  

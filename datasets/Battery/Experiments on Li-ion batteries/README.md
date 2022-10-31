@@ -1,14 +1,17 @@
 # [Experiments on Li-ion batteries](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery)
-
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
 | Multivariate             | Real                      | Regression       |
 
-
  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ## Source
-B. Saha and K. Goebel (2007). "Battery Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA
+NASA Ames Research Center, Moffett Field, CA. NASA Ames Prognostics Data Repository
+
+Authors: B. Saha and K. Goebel
+Battery Data Set
+
+http://ti.arc.nasa.gov/project/prognostic-data-repository
 
 ## Data Set Information
 

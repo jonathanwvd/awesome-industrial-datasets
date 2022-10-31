@@ -70,7 +70,6 @@ The columns correspond to:
 
    keywords: LSTM, CNN, MLP    
 
-
 ## Resources  
 Link to download the [Database] (https://ti.arc.nasa.gov/c/6/) @ NASA website. 
 ## Citation Request 

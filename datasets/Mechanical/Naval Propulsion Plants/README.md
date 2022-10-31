@@ -1,7 +1,5 @@
 ## [Condition Based Maintenance of Naval Propulsion Systems](https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants#)
 
-567.1KB (compressed)
-
 Data have been generated from a sophisticated simulator of a Gas Turbines (GT), mounted on a Frigate characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.
 
  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)  ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](https://img.shields.io/badge/time--series-no-red.svg)  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
@@ -16,10 +14,13 @@ Data have been generated from a sophisticated simulator of a Gas Turbines (GT), 
 | ------------------- | -------------------- | ---- | ---- |
 | 11934               | 16                   |      |      |
 
+567.1KB (compressed)
+
+
 > The experiments have been carried out by means of a numerical simulator of a naval vessel (Frigate) characterized by a Gas Turbine (GT) propulsion plant.
->
+
 > The different blocks forming the complete simulator (Propeller, Hull, GT, Gear Box and Controller) have been developed and fine tuned over the year on several similar real propulsion plants.
->
+
 > In this release of the simulator it is also possible to take into account the performance decay over time of the GT components such as GT compressor and turbines. The propulsion system behaviour has been described with this parameters:
 
 - Ship speed (linear function of the lever position lp). 
