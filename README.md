@@ -2,8 +2,7 @@
 
 A curated list of public dataset related to Industry 4.0.
 
-This repository is maintained by few hands. We appreciat
-e any kind of help. If you want to contribute, please check the [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
+This repository is maintained by few hands. We appreciate any kind of help. If you want to contribute, please check the [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
 
 This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 
