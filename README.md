@@ -6,10 +6,12 @@ This repository is maintained by few hands. We appreciate any kind of help. If y
 
 This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 
+:construction: **Under construction!** :construction: - We are still formatting the readme files and adding datasets.
 
 ## Sectors
 - [Battery](#battery)
 - [Chemical](#chemical)
+- [Control Loop](#control-loop)
 - [Mechanical](#mechanical)
 - [Oil and Gas](#oil-and-gas)
 - [Power](#power)
@@ -60,7 +62,18 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
-- [Wine Quality](<datasets/Chemical/Wine Quality/README.md>): Two datasets are included, related to red and white "Vinho Verde" wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009]
+- [Wine Quality](<datasets/Chemical/Wine Quality/README.md>): Two datasets are included, related to red and white "Vinho Verde" wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests.\
+ ![](https://img.shields.io/badge/sector-chemical-ff69b4.svg)
+ ![](https://img.shields.io/badge/labeled-yes-green.svg)
+ ![](https://img.shields.io/badge/time--series-no-blue.svg)
+ ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+
+### Control Loop
+- [SACAC](<datasets/Control/SACAC – the South African Council of Automation and Control/README.md>): The aim of this repository is to provide a test environment for control loop performance monitoring methods. \
+  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)\
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ### Mechanical
 - [C-MAPSS](<datasets/Mechanical/C-MAPSS/README.md>): Engine degradation simulation.\
@@ -98,8 +111,6 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
 - [3W](<datasets/Oil/3w/README.md>): The 3W dataset consists of all CSV files in the subdirectories of the dataset directory and structured as detailed here.\
   ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
   ![](<https://img.shields.io/badge/timestamp-yes-green.svg>)
-
-
 
 ### Power
 - [Appliance Energy](<datasets/Power/Appliance Energy/README.md>): Experimental data used to create regression models of appliances energy use in a low energy building.\

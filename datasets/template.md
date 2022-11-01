@@ -14,7 +14,7 @@ Add tags to the dataset. Follow the tags in contribution.md.
 
  Parameter | Value
 ---------- | -----
-Data Set Characteristics | Multivariate, and/or
+Data Set Characteristics | Multivariate, and/or Time-series
 Attribute Characteristics | Integer, Real
 Associated Tasks | Regression, Classification, and/or Clustering
 Number of Instances	| (integer)

@@ -24,35 +24,34 @@ Please ensure your pull request adheres to the following guidelines:
 ## Tags
 Below is the list of tags used in this repository:
 
--  Sector
-    
+-  Sector\
   ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)
   ![](https://img.shields.io/badge/sector-automotiv-green.svg)
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
+  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
   ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
-
-
+  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
 
-  ![](https://img.shields.io/badge/sector-etc-333333.svg)
-
-- Label  
+- Label\
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/labeled-no-red.svg)
   ![](https://img.shields.io/badge/labeled-implicit-green.svg)
   ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
-  ![](https://img.shields.io/badge/labeled-no-red.svg)
 
-- Time-series  
+- Time-series\
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
 
-- Simulation   
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) ![](<https://img.shields.io/badge/simulation-no-red.svg>)   
+- Simulation\
+  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) 
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+  ![](<https://img.shields.io/badge/simulation-simulated_and_real-green.svg>)   
 
-- Miscellaneous  
+- Miscellaneous\
   ![](https://img.shields.io/badge/any-gray.svg)
   ![](https://img.shields.io/badge/keywords-gray.svg)
   ![](https://img.shields.io/badge/you-gray.svg)

@@ -2,7 +2,10 @@
 # [Wine Quality](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009]
 
- ![](https://img.shields.io/badge/sector-chemical-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-yes-green.svg)  ![](https://img.shields.io/badge/time--series-no-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+ ![](https://img.shields.io/badge/sector-chemical-ff69b4.svg)
+ ![](https://img.shields.io/badge/labeled-yes-green.svg)
+ ![](https://img.shields.io/badge/time--series-no-blue.svg)
+ ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 Parameter | Value
 ---- | ----
