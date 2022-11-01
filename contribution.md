@@ -9,19 +9,20 @@ Ways to contribute:
 * include references
 * others
 
+## Suggest dataset
+To keep the repository organized, we keep the same formatting for the readme files. If you would like to suggest a new database, please follow the template shown [here](<datasets/template.md>).
 
 ## Pull Request
 Please ensure your pull request adheres to the following guidelines:
 
 * Make sure your submission is not a duplicate.
 * Make an individual pull request for each suggestion or dataset.
-* Create a description file and follow the repository formatting.
+* Create a readme file and follow the repository formatting.
 * The pull request and commit should have a useful title.
 
 
 ## Tags
-
-Bellow the list of used tags:
+Below is the list of tags used in this repository:
 
 -  Sector
     
