@@ -1,15 +1,23 @@
 # [WM-811K(LSWMD)](http://mirlab.org/dataSet/public/)
 
-
-811457 wafer maps, in which each wafer map was collected from real-world fabrication. Domain experts were recruited to annotate the pattern type for approximately 20% of the wafer maps in the WM-811K dataset. This dataset is published by Roger Jang, professor of [MIR lab](http://mirlab.org/dataSet/public/)
+Parameter | Value
+---- | ----
+Data Set Characteristics | Multivariate
+Attribute Characteristics	| Real
+Associated Tasks	| Regression
+Number of Instances	| 811457 
+Number of Attributes	| 6
+Date Donated | February 2015: 1–12.
+Source | MIR lAB
+Dataset size | 2.1 GB 
 
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
   ![](<https://img.shields.io/badge/simulation-no-red.svg>) 
     
-## About Dataset
-
+## Dataset Information
+811457 wafer maps, in which each wafer map was collected from real-world fabrication. Domain experts were recruited to annotate the pattern type for approximately 20% of the wafer maps in the WM-811K dataset. This dataset is published by Roger Jang, professor of [MIR lab](http://mirlab.org/dataSet/public/)
 ### First Row of Dataset        
 
 | WaferMap | dieSize | lotName | waferIndex     | trainTestLabel                           |failureType|
@@ -17,7 +25,7 @@
 | [[0,0,0,0,0,0,0,0 ..   | 1683.0               | lot1             | 1.0 | [[Training]]                 |[[none]]|
 | ... | ...| ...| ...| ... | ...|
 
-## Attributes Explanation
+## Attributes Information
 
 1) **WaferMap** : WaferMap represented as weight * height size numpy array
   - 0 : Area that die doesn't exist
