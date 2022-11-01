@@ -19,9 +19,6 @@ In particular, the dataset was used for the following research areas:
 3. Occupancy modeling: given device usage inferring room and building occupancy, for instance to control thermostats
 4. Autonomous device operation: learning controllers for small energy consumers/producers given power profiles and usage models extracted from real devices
 
-#### Paper
-
-[GREEND: An energy consumption dataset of households in Italy and Austria](https://www.researchgate.net/publication/262302322_GREEND_An_energy_consumption_dataset_of_households_in_Italy_and_Austria)
 
 **Abstract**
 
@@ -33,4 +30,6 @@ A. Monacchi, D. Egarter, W. Elmenreich, S. D’Alessandro, A. M. Tonello. GREEND
 
 ## Resources
 
-[Kaggle dataset description](https://www.kaggle.com/p111110/greend-energy-dataset#dataset_2014-05-15.csv)
+- [Kaggle dataset description](https://www.kaggle.com/p111110/greend-energy-dataset#dataset_2014-05-15.csv)
+- #### Paper
+    [GREEND: An energy consumption dataset of households in Italy and Austria](https://www.researchgate.net/publication/262302322_GREEND_An_energy_consumption_dataset_of_households_in_Italy_and_Austria)

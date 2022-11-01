@@ -156,12 +156,13 @@ J. Zico Kolter and Matthew J. Johnson. REDD: A public data set for energy disagg
 
 Data Capacity(Compressed)              
 
-readme.txt    
+### Files: 
+- readme.txt    
 
-low_freq.tar.bz2    
+- low_freq.tar.bz2    
 
-high_freq.tar.bz2   
+- high_freq.tar.bz2   
 
-high_freq_raw.tar    
+- high_freq_raw.tar    
 
 ​        
