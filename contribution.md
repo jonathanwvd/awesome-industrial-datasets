@@ -36,6 +36,8 @@ Below is the list of tags used in this repository:
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
 
+  ![](https://img.shields.io/badge/sector-other-333333.svg)
+
 - Label\
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/labeled-no-red.svg)

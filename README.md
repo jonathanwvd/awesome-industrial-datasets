@@ -110,9 +110,9 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
 
   [PHM08: Challenge on this dataset](<datasets/Mechanical/Naval Propulsion Plants/README.md>):\
+  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
   ![](https://img.shields.io/badge/competition-gray.svg)
   ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
 
 - [PHM Data Challenge 17](<datasets/Mechanical/PHM Data Challenge 17/README.md>): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.\
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
@@ -126,9 +126,11 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/time--series-no-red.svg)        
 
 ### Oil and Gas
-- [3W](<datasets/Oil/3w/README.md>): The 3W dataset consists of all CSV files in the subdirectories of the dataset directory and structured as detailed here.\
+- [3W](<datasets/Oil/3w/README.md>): Realistic and public dataset with rare undesirable real events in oil wells that can be readily used as a benchmark dataset for development of machine learning techniques related to inherent difficulties of actual data.\
   ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](<https://img.shields.io/badge/timestamp-yes-green.svg>)
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ### Power
 - [Appliance Energy](<datasets/Power/Appliance Energy/README.md>): Experimental data used to create regression models of appliances energy use in a low energy building.\
@@ -209,13 +211,13 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
 
 ### Others
 - [APS System Failures](<datasets/Others/APS System Failures/README.md>): The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.\
-  ![](https://img.shields.io/badge/sector-etc-333333.svg)
+  ![](https://img.shields.io/badge/sector-other-333333.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
   ![](https://img.shields.io/badge/failure_classification-gray.svg)
 
 - [Hill-Valley](<datasets/Others/Hill-Valley/README.md>): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.\
-  ![](https://img.shields.io/badge/sector-etc-333333.svg)
+  ![](https://img.shields.io/badge/sector-other-333333.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
   ![](https://img.shields.io/badge/hill--valley_classification-gray.svg)
