@@ -69,9 +69,27 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ### Control Loop
-- [SACAC](<datasets/Control/SACAC – the South African Council of Automation and Control/README.md>): The aim of this repository is to provide a test environment for control loop performance monitoring methods. \
+- [ISDB - International Stiction Data Base](<datasets/Control/ISDB/README.md>): This is an international database of industrial control loops (most of them suffering from stiction) from different fields.\
   ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)\
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+
+- [Oscillation detection artificial dataset](<datasets/Control/Oscillation detection artificial dataset/README.md>>): This dataset provides simulated oscillatory and non-oscillatory time series for classification tasks using Machine Learning.\ 
+  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
+  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
+
+- [SACAC](<datasets/Control/SACAC/README.md>): The aim of this repository is to provide a test environment for control loop performance monitoring methods.\
+  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)\
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+
+- [SISO-RAW](<datasets/Control/SISO-RAW/README.md>): Raw data collected in two and a half days from 52 control loops of an oil and gas company. For each loop, the controller output (OP), process variable (PV), setpoint (SP), and the valve stem position (MV) are recorded.\
+  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)\
+  ![](https://img.shields.io/badge/labeled-no-red.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
   ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 

@@ -10,7 +10,7 @@ Ways to contribute:
 * others
 
 ## Suggest dataset
-To keep the repository organized, we keep the same formatting for the readme files. If you would like to suggest a new database, please follow the template shown [here](<datasets/template.md>).
+To keep the repository organized, we keep the same formatting for the readme files. If you would like to suggest a new database, please follow the template shown [here](<datasets/template>).
 
 ## Pull Request
 Please ensure your pull request adheres to the following guidelines:
