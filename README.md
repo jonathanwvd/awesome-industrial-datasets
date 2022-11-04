@@ -130,7 +130,7 @@ This repository started as a fork from a deprecated project by [MakinaRocks](htt
   ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](<https://img.shields.io/badge/timestamp-yes-green.svg>)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+  ![](<https://img.shields.io/badge/simulation-simulated_and_real-green.svg>)
 
 ### Power
 - [Appliance Energy](<datasets/Power/Appliance Energy/README.md>): Experimental data used to create regression models of appliances energy use in a low energy building.\
