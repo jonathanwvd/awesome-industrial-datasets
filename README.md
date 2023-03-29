@@ -1,4 +1,4 @@
- # Awesome Industrial Datasets - A Curated Collection of Public Industrial Data.
+ # Awesome Industrial Datasets - A Curated Collection of Public Industrial Datasets.
 
 This repository is maintained by a small team. We greatly appreciate any assistance you can provide. If you're interested in contributing, please refer to our [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
 
