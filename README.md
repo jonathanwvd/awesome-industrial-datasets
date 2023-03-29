@@ -1,12 +1,11 @@
- # Awesome Industry 4.0 Datasets
+ # Awesome Industrial Datasets - A Curated Collection of Public Industrial Data.
 
-A curated list of public datasets related to Industry 4.0.
-
-This repository is maintained by few hands. We appreciate any kind of help. If you want to contribute, please check the [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
+This repository is maintained by a small team. We greatly appreciate any assistance you can provide. If you're interested in contributing, please refer to our [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
 
 This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 
-:construction: **Under construction!** :construction: - We are still formatting the readme files and adding datasets.
+:construction: **Under construction!** :construction: - We are currently in the process of formatting the readme files and incorporating additional datasets.
+
 
 ## Sectors
 - [Battery](#battery)
