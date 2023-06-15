@@ -4,8 +4,6 @@ This repository is maintained by a small team. We greatly appreciate any assista
 
 This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 
-:construction: **Under construction!** :construction: - We are currently in the process of formatting the readme files and incorporating additional datasets.
-
 
 ## Sectors
 - [Battery](#battery)
