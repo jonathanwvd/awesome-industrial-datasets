@@ -1,220 +1,45 @@
- # Awesome Industrial Datasets - A Curated Collection of Public Industrial Datasets.
+# Awesome Industrial Datasets - A Curated Collection of Public Industrial Datasets
 
-This repository is maintained by a small team. We greatly appreciate any assistance you can provide. If you're interested in contributing, please refer to our [Contribution Guideline](<https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md>).
+Welcome to the Awesome Industrial Datasets repository! This project aims to simplify the access to high-quality industrial datasets across various sectors such as chemical, mechanical, oil and gas, and more. These datasets are invaluable for researchers, engineers, and data scientists working on machine learning models and other analytical tasks that require real-world industrial data.
 
-This repository started as a fork from a deprecated project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
+If you find this repository useful, please consider giving it a ⭐ to show your support!
 
+🤝 If you're interested in contributing, please refer to our [Contribution Guideline](https://github.com/i40a/awesome-industry40-datasets/tree/master/contribution.md).
 
-## Sectors
-- [Battery](#battery)
-- [Chemical](#chemical)
-- [Control Loop](#control-loop)
-- [Mechanical](#mechanical)
-- [Oil and Gas](#oil-and-gas)
-- [Power](#power)
-- [Semicon](#semicon)
-- [Steel](#steel)
-- [Others](#others)
+🌱 This repository started as a fork from a project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 
----
-
-## Datasets
-
-### Battery  
-- [Data-driven prediction of battery cycle life before capacity degradation](<datasets/Battery/Data-driven prediction of battery cycle life before capacity degradation/README.md>): This dataset consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions.\
-  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg) 
-  ![](https://img.shields.io/badge/labeled-no-red.svg) 
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [Experiments on Li-ion batteries](<datasets/Battery/Experiments on Li-ion batteries/README.md>): Charging and discharging at different temperatures. Records the impedance as the damage criterion. The data set was provided by the NASA Prognostics Center of Excellence (PCoE).\
-  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)
-  ![](https://img.shields.io/badge/labeled-no-red.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [Panasonic 18650PF Li-ion Battery Data](<datasets/Battery/Panasonic 18650PF Li-ion Battery Data/README.md>):\
-  ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)
-  ![](https://img.shields.io/badge/labeled-no-red.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-
-### Chemical  
-- [Dynamic Gas Mixtures](<datasets/Chemical/Dynamic Gas Mixtures/README.md>): The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.\
-  ![](https://img.shields.io/badge/sector-chemical-red.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-
-- [Gas Sensor Array Drift](<datasets/Chemical/Gas Sensor Array Drift/README.md>): This archive contains 13910 measurements from 16 chemical sensors exposed to 6 different gases at various concentration levels.\
-  ![](https://img.shields.io/badge/sector-chemical-red.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-
-- [Gas sensor arrays in open sampling settings Data Set](<datasets/Chemical/Gas sensor arrays in open sampling settings/README.md>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.\
-  ![](https://img.shields.io/badge/sector-chemical-red.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-
-- [Wine Quality](<datasets/Chemical/Wine Quality/README.md>): Two datasets are included, related to red and white "Vinho Verde" wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests.\
- ![](https://img.shields.io/badge/sector-chemical-ff69b4.svg)
- ![](https://img.shields.io/badge/labeled-yes-green.svg)
- ![](https://img.shields.io/badge/time--series-no-blue.svg)
- ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-### Control Loop
-- [ISDB - International Stiction Data Base](<datasets/Control/ISDB/README.md>): This is an international database of industrial control loops (most of them suffering from stiction) from different fields.\
-  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [Oscillation detection artificial dataset](<datasets/Control/ISDB/README.md>): This dataset provides simulated oscillatory and non-oscillatory time series for classification tasks using Machine Learning.\
-  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-
-- [SACAC](<datasets/Control/SACAC/README.md>): The aim of this repository is to provide a test environment for control loop performance monitoring methods.\
-  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [SISO-RAW](<datasets/Control/SISO-RAW/README.md>): Raw data collected in two and a half days from 52 control loops of an oil and gas company. For each loop, the controller output (OP), process variable (PV), setpoint (SP), and the valve stem position (MV) are recorded.\
-  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
-  ![](https://img.shields.io/badge/labeled-no-red.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg) 
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-### Mechanical
-- [C-MAPSS](<datasets/Mechanical/C-MAPSS/README.md>): Engine degradation simulation.\
-  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-  ![](https://img.shields.io/badge/time--to--failure-gray.svg)
-
-- [CNC Mill Tool Wear](<datasets/Mechanical/CNC Mill Tool Wear/README.md>): Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure.\
-  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-  ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
-  ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
-
-  [PHM08: Challenge on this dataset](<datasets/Mechanical/Naval Propulsion Plants/README.md>):\
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-  ![](https://img.shields.io/badge/competition-gray.svg)
-  ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
-
-- [PHM Data Challenge 17](<datasets/Mechanical/PHM Data Challenge 17/README.md>): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.\
-  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)
-
-- [Naval Propulsion Plants](<datasets/Mechanical/PHM08 Challenge on this dataset/README.md>): characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.\
-  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)        
-
-### Oil and Gas
-- [3W](<datasets/Oil/3w/README.md>): Realistic and public dataset with rare undesirable real events in oil wells that can be readily used as a benchmark dataset for development of machine learning techniques related to inherent difficulties of actual data.\
-  ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](<https://img.shields.io/badge/timestamp-yes-green.svg>)
-  ![](<https://img.shields.io/badge/simulation-simulated_and_real-green.svg>)
-
-### Power
-- [Appliance Energy](<datasets/Power/Appliance Energy/README.md>): Experimental data used to create regression models of appliances energy use in a low energy building.\
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](https://img.shields.io/badge/house_environment-gray.svg)
-
-- [BLUED dataset](<datasets/Power/BLUE dataset/README.md>):  The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.\  
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-
-- [Combined Cycle Power Plant](<datasets/Power/Combined Cycle Power Plant/README.md>): The dataset contains 9568 data points collected from a Combined Cycle Power Plant over 6 years (2006-2011), when the plant was set to work with full load.\
-  ![](https://img.shields.io/badge/sector-power-skyblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [Eco(Electricity Consumption & Occupancy)](<datasets/Power/ECO dataset/README.md>): The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research.\
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-
-- [GREEND](<datasets/Power/GREEND/README.md>): GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.\
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-
-- [REDD: A Public Data Set for Energy Disaggregation Research](<datasets/Power/REDD/README.md>):  A freely available data set containing detailed power usage information from several homes, which is aimed at furthering research on energy disaggregation (the task of determining the component appliance contributions from an aggregated electricity signal).\
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-
-- [UK DALE dataset](<datasets/Power/UK ERC dataset/README.md>) : This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.\
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-
-
-### Semicon
-- [PHM Data Challenge 18](<datasets/Semicon/PHM Data Challenge 18/README.md>): Etching tool fault detection (PdM).\
-  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [SECOM](<datasets/Semicon/SECOM/README.md>): Data from a semi-conductor manufacturing process.\
-  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-  ![](https://img.shields.io/badge/feature_selection-gray.svg)
-
-- [Superconductivity](<datasets/Semicon/Superconductivity Dataset/README.md>): Two file s contain data on 21263 superconductors and their relevant features.\
-  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-- [WM-811K(LSWMD)](<datasets/Semicon/WM-811K(LSWMD)/README.md>): Wafer fault detection & classification data.\
-  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-
-### Steel
-- [Steel Industry Enery Consumption](<datasets/Steel/Steel Industry Energy Consumption>): The data is collected from a smart small-scale steel industry in South Korea.\
-  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](https://img.shields.io/badge/fault_classification-gray.svg)
-
-- [Steel Plates Faults](<datasets/Steel/Steel Plates Faults/README.md>): A dataset of steel plates faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.\
-  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](https://img.shields.io/badge/fault_classification-gray.svg)
-
-
-### Others
-- [APS System Failures](<datasets/Others/APS System Failures/README.md>): The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.\
-  ![](https://img.shields.io/badge/sector-other-333333.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](https://img.shields.io/badge/failure_classification-gray.svg)
-
-- [Hill-Valley](<datasets/Others/Hill-Valley/README.md>): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.\
-  ![](https://img.shields.io/badge/sector-other-333333.svg)
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](https://img.shields.io/badge/hill--valley_classification-gray.svg)
+## Datasets Table
+| Sector       | Dataset Name                                                                                                            | Labeled   | Time Series   | Simulation   | Additional Tags                 | Description                                                                        |
+| Sector       | Dataset Name                                                                                                            | Labeled   | Time Series   | Simulation   | Additional Tags                 | Description                                                                        |
+|:-------------|:------------------------------------------------------------------------------------------------------------------------|:----------|:--------------|:-------------|:--------------------------------|:-----------------------------------------------------------------------------------|
+| Battery      | [Data-driven prediction of battery cycle life](datasets/Battery/Data-driven_prediction_of_battery_cycle_life/README.md) | No        | Yes           | No           | nan                             | Commercial lithium-ion batteries cycled to failure under fast-charging conditions. |
+| Battery      | [Experiments on Li-ion batteries](datasets/Battery/Experiments_on_Li-ion_batteries/README.md)                           | No        | Yes           | No           | NASA; Impedance                 | Charging and discharging batteries at different temperatures, recording impedance. |
+| Battery      | [Panasonic 18650PF Li-ion Battery Data](datasets/Battery/Panasonic_18650PF_Li-ion_Battery_Data/README.md)               | No        | Yes           | No           | nan                             | Detailed recording of battery performance under various conditions.                |
+| Chemical     | [Dynamic Gas Mixtures](datasets/Chemical/Dynamic_Gas_Mixtures/README.md)                                                | Yes       | Yes           | Yes          | 16 sensors; Two gas mixtures    | Continuous sensor recordings of dynamic gas mixtures over 12 hours.                |
+| Chemical     | [Gas Sensor Array Drift](datasets/Chemical/Gas_Sensor_Array_Drift/README.md)                                            | Yes       | Yes           | Yes          | 16 sensors; 6 gases             | Long-term stability analysis of sensor responses to different gases.               |
+| Chemical     | [Gas sensor arrays in open sampling settings](datasets/Chemical/Gas_sensor_arrays_in_open_sampling_settings/README.md)  | Yes       | Yes           | Yes          | 10 chemicals; Wind tunnel       | Chemical detection in varying wind tunnel conditions using an array of sensors.    |
+| Chemical     | [Wine Quality](datasets/Chemical/Wine_Quality/README.md)                                                                | Yes       | No            | No           | Vinho Verde; Portugal           | Modeling wine quality based on physicochemical tests of Portuguese wines.          |
+| Control Loop | [ISDB - International Stiction Data Base](datasets/Control/ISDB/README.md)                                              | Yes       | Yes           | No           | Stiction; Multiple fields       | Database of control loops experiencing stiction across various industries.         |
+| Control Loop | [Oscillation detection artificial dataset](datasets/Control/Oscillation_detection_artificial_dataset/README.md)         | Yes       | Yes           | Yes          | Simulated; Oscillatory          | Artificial data for testing oscillation detection algorithms in control systems.   |
+| Control Loop | [SACAC](datasets/Control/SACAC/README.md)                                                                               | Yes       | Yes           | No           | Control loop performance        | Performance monitoring data for industrial control loops.                          |
+| Control Loop | [SISO-RAW](datasets/Control/SISO-RAW/README.md)                                                                         | No        | Yes           | No           | 52 loops; Oil and gas           | Raw process data from multiple control loops in an oil and gas setup.              |
+| Mechanical   | [C-MAPSS](datasets/Mechanical/C-MAPSS/README.md)                                                                        | Implicit  | Yes           | Yes          | Engine degradation              | Simulation of engine degradation scenarios to study failure modes.                 |
+| Mechanical   | [CNC Mill Tool Wear](datasets/Mechanical/CNC_Mill_Tool_Wear/README.md)                                                  | Meta-only | Yes           | Yes          | Tool condition; CNC             | Data on tool wear under various machining conditions.                              |
+| Mechanical   | [PHM Data Challenge 17](datasets/Mechanical/PHM_Data_Challenge_17/README.md)                                            | Implicit  | Yes           | Yes          | Train car fault detection       | Challenge data for fault prediction in train operations.                           |
+| Mechanical   | [Naval Propulsion Plants](datasets/Mechanical/Naval_Propulsion_Plants/README.md)                                        | Yes       | No            | No           | CODLAG; Naval                   | Data from naval propulsion systems for performance analysis.                       |
+| Oil and Gas  | [3W](datasets/Oil/3W/README.md)                                                                                         | Yes       | Yes           | Both         | Real events; Oil wells          | Dataset featuring real and simulated undesirable events in oil wells.              |
+| Power        | [Appliance Energy](datasets/Power/Appliance_Energy/README.md)                                                           | Yes       | Yes           | No           | Energy use; Low energy building | Energy consumption data from appliances in a low energy building.                  |
+| Power        | [BLUED dataset](datasets/Power/BLUED_dataset/README.md)                                                                 | Yes       | Yes           | No           | Voltage and current; US         | High-resolution energy usage data from a US household over a week.                 |
+| Power        | [Combined Cycle Power Plant](datasets/Power/Combined_Cycle_Power_Plant/README.md)                                       | Yes       | No            | No           | 6 years data                    | Operational data from a power plant over six years.                                |
+| Power        | [ECO (Electricity Consumption & Occupancy)](datasets/Power/ECO_dataset/README.md)                                       | Yes       | Yes           | No           | Non-intrusive load monitoring   | Dataset for researching non-intrusive load monitoring techniques.                  |
+| Power        | [GREEND](datasets/Power/GREEND/README.md)                                                                               | Implicit  | Yes           | No           | Per device; Austria and Italy   | Detailed per-device energy profiles from households in two countries.              |
+| Power        | [REDD: Energy Disaggregation Research](datasets/Power/REDD/README.md)                                                   | Yes       | Yes           | No           | Multiple homes                  | Data for developing and testing energy disaggregation methods.                     |
+| Power        | [UK DALE dataset](datasets/Power/UK_DALE_dataset/README.md)                                                             | Yes       | Yes           | No           | Power demand; Five houses       | Detailed power usage data from multiple UK households.                             |
+| Semicon      | [PHM Data Challenge 18](datasets/Semicon/PHM_Data_Challenge_18/README.md)                                               | Yes       | Yes           | No           | Etching tool fault detection    | Data for predictive maintenance of semiconductor etching tools.                    |
+| Semicon      | [SECOM](datasets/Semicon/SECOM/README.md)                                                                               | Yes       | Yes           | No           | Semi-conductor manufacturing    | Comprehensive dataset from a semiconductor manufacturing process.                  |
+| Semicon      | [Superconductivity](datasets/Semicon/Superconductivity_Dataset/README.md)                                               | Yes       | No            | No           | Superconductors; Features       | Data on superconductors with features for materials science research.              |
+| Semicon      | [WM-811K(LSWMD)](datasets/Semicon/WM-811K(LSWMD)/README.md)                                                             | Yes       | No            | No           | Wafer fault detection           | Dataset for fault detection in wafer manufacturing.                                |
+| Steel        | [Steel Industry Energy Consumption](datasets/Steel/Steel_Industry_Energy_Consumption/README.md)                         | Yes       | No            | No           | Smart industry; South Korea     | Energy usage data from a smart steel industry in South Korea.                      |
+| Steel        | [Steel Plates Faults](datasets/Steel/Steel_Plates_Faults/README.md)                                                     | Yes       | No            | No           | 7 fault types                   | Data on different types of faults in steel plates for pattern recognition.         |
+| Others       | [APS System Failures](datasets/Others/APS_System_Failures/README.md)                                                    | Yes       | No            | No           | APS system; Component failures  | Failure data for specific components of the APS system.                            |
+| Others       | [Hill-Valley](datasets/Others/Hill-Valley/README.md)                                                                    | Yes       | No            | No           | Pattern detection               | Data for testing pattern detection algorithms, not specific to manufacturing.      |
