@@ -1,32 +1,37 @@
-Dataset Name;Labeled;Time Series;Simulation;Additional Tags;Description;Link
-"Data-driven prediction of battery cycle life";No;Yes;No;"Battery";"Commercial lithium-ion batteries cycled to failure under fast-charging conditions.";"datasets/Data-driven_prediction_of_battery_cycle_life/README.md"
-"Experiments on Li-ion batteries";No;Yes;No;"Battery; NASA; Impedance";"Charging and discharging batteries at different temperatures, recording impedance.";"datasets/Experiments_on_Li-ion_batteries/README.md"
-"Panasonic 18650PF Li-ion Battery Data";No;Yes;No;"Battery";"Detailed recording of battery performance under various conditions.";"datasets/Panasonic_18650PF_Li-ion_Battery_Data/README.md"
-"Dynamic Gas Mixtures";Yes;Yes;Yes;"Chemical; 16 sensors; Two gas mixtures";"Continuous sensor recordings of dynamic gas mixtures over 12 hours.";"datasets/Dynamic_Gas_Mixtures/README.md"
-"Gas Sensor Array Drift";Yes;Yes;Yes;"Chemical; 16 sensors; 6 gases";"Long-term stability analysis of sensor responses to different gases.";"datasets/Gas_Sensor_Array_Drift/README.md"
-"Gas sensor arrays in open sampling settings";Yes;Yes;Yes;"Chemical; 10 chemicals; Wind tunnel";"Chemical detection in varying wind tunnel conditions using an array of sensors.";"datasets/Gas_sensor_arrays_in_open_sampling_settings/README.md"
-"Wine Quality";Yes;No;No;"Chemical; Vinho Verde; Portugal";"Modeling wine quality based on physicochemical tests of Portuguese wines.";"datasets/Wine_Quality/README.md"
-"ISDB - International Stiction Data Base";Yes;Yes;No;"Control Loop; Stiction; Multiple fields";"Database of control loops experiencing stiction across various industries.";"datasets/ISDB/README.md"
-"Oscillation detection artificial dataset";Yes;Yes;Yes;"Control Loop; Simulated; Oscillatory";"Artificial data for testing oscillation detection algorithms in control systems.";"datasets/Oscillation_detection_artificial_dataset/README.md"
-"SACAC";Yes;Yes;No;"Control Loop; Control loop performance";"Performance monitoring data for industrial control loops.";"datasets/SACAC/README.md"
-"SISO-RAW";No;Yes;No;"Control Loop; 52 loops; Oil and gas";"Raw process data from multiple control loops in an oil and gas setup.";"datasets/SISO-RAW/README.md"
-"C-MAPSS";Implicit;Yes;Yes;"Mechanical; Engine degradation";"Simulation of engine degradation scenarios to study failure modes.";"datasets/C-MAPSS/README.md"
-"CNC Mill Tool Wear";"Meta-only";Yes;Yes;"Mechanical; Tool condition; CNC";"Data on tool wear under various machining conditions.";"datasets/CNC_Mill_Tool_Wear/README.md"
-"PHM Data Challenge 17";Implicit;Yes;Yes;"Mechanical; Train car fault detection";"Challenge data for fault prediction in train operations.";"datasets/PHM_Data_Challenge_17/README.md"
-"Naval Propulsion Plants";Yes;No;No;"Mechanical; CODLAG; Naval";"Data from naval propulsion systems for performance analysis.";"datasets/Naval_Propulsion_Plants/README.md"
-"3W";Yes;Yes;Both;"Oil and Gas; Real events; Oil wells";"Dataset featuring real and simulated undesirable events in oil wells.";"datasets/3W/README.md"
-"Appliance Energy";Yes;Yes;No;"Power; Energy use; Low energy building";"Energy consumption data from appliances in a low energy building.";"datasets/Appliance_Energy/README.md"
-"BLUED dataset";Yes;Yes;No;"Power; Voltage and current; US";"High-resolution energy usage data from a US household over a week.";"datasets/BLUED_dataset/README.md"
-"Combined Cycle Power Plant";Yes;No;No;"Power; 6 years data";"Operational data from a power plant over six years.";"datasets/Combined_Cycle_Power_Plant/README.md"
-"ECO (Electricity Consumption & Occupancy)";Yes;Yes;No;"Power; Non-intrusive load monitoring";"Dataset for researching non-intrusive load monitoring techniques.";"datasets/ECO_dataset/README.md"
-"GREEND";Implicit;Yes;No;"Power; Per device; Austria and Italy";"Detailed per-device energy profiles from households in two countries.";"datasets/GREEND/README.md"
-"REDD: Energy Disaggregation Research";Yes;Yes;No;"Power; Multiple homes";"Data for developing and testing energy disaggregation methods.";"datasets/REDD/README.md"
-"UK DALE dataset";Yes;Yes;No;"Power; Power demand; Five houses";"Detailed power usage data from multiple UK households.";"datasets/UK_DALE_dataset/README.md"
-"PHM Data Challenge 18";Yes;Yes;No;"Semicon; Etching tool fault detection";"Data for predictive maintenance of semiconductor etching tools.";"datasetsPHM_Data_Challenge_18/README.md"
-"SECOM";Yes;Yes;No;"Semicon; Semi-conductor manufacturing";"Comprehensive dataset from a semiconductor manufacturing process.";"datasetsSECOM/README.md"
-"Superconductivity";Yes;No;No;"Semicon; Superconductors; Features";"Data on superconductors with features for materials science research.";"datasetsSuperconductivity_Dataset/README.md"
-"WM-811K(LSWMD)";Yes;No;No;"Semicon; Wafer fault detection";"Dataset for fault detection in wafer manufacturing.";"datasetsWM-811K(LSWMD)/README.md"
-"Steel Industry Energy Consumption";Yes;No;No;"Steel; Smart industry; South Korea";"Energy usage data from a smart steel industry in South Korea.";"datasets_Industry_Energy_Consumption/README.md"
-"Steel Plates Faults";Yes;No;No;"Steel; 7 fault types";"Data on different types of faults in steel plates for pattern recognition.";"datasets_Plates_Faults/README.md"
-"APS System Failures";Yes;No;No;"Others; APS system; Component failures";"Failure data for specific components of the APS system.";"datasets/APS_System_Failures/README.md"
-"Hill-Valley";Yes;No;No;"Others; Pattern detection";"Data for testing pattern detection algorithms, not specific to manufacturing.";"datasets/Hill-Valley/README.md"
+Dataset Name,Labeled,Time Series,Simulation,Additional Tags,Description,Link
+Combined Cycle Power Plant,Yes,No,No,Power; 6 years data,,
+Control Loop,,,,,,
+Oscillation detection artificial dataset,Yes,Yes,Yes,Control Loop; Simulated; Oscillatory,,
+Steel Plates Faults,Yes,No,No,Steel; 7 fault types,,
+Wine Quality,Yes,No,No,Chemical; Vinho Verde; Portugal,,
+PHM08 Challenge on this dataset,,,,,,
+Hill-Valley,Yes,No,No,Others; Pattern detection,,
+Naval Propulsion Plants,Yes,No,No,Mechanical; CODLAG; Naval,,
+Steel Industry Energy Consumption,Yes,No,No,Steel; Smart industry; South Korea,,
+Experiments on Li-ion batteries,No,Yes,No,Battery; NASA; Impedance,,
+template,,,,,,
+Oscilation detection artificial dataset (ODADS),,,,,,
+GREEND,Implicit,Yes,No,Power; Per device; Austria and Italy,,
+Appliance Energy,Yes,Yes,No,Power; Energy use; Low energy building,,
+PHM Data Challenge 17,Implicit,Yes,Yes,Mechanical; Train car fault detection,,
+Global Power Plant,,,,,,
+secom,Yes,Yes,No,Semicon; Semi-conductor manufacturing,,
+C-MAPSS,Implicit,Yes,Yes,Mechanical; Engine degradation,,
+Gas sensor arrays in open sampling settings,Yes,Yes,Yes,Chemical; 10 chemicals; Wind tunnel,,
+Data-driven prediction of battery cycle life before capacity degradation,,,,,,
+WM-811K(LSWMD),Yes,No,No,Semicon; Wafer fault detection,,
+ECO dataset,,,,,,
+UK ERC dataset,,,,,,
+ISDB,,,,,,
+Gas Sensor Array Drift,Yes,Yes,Yes,Chemical; 16 sensors; 6 gases,,
+CNC Mill Tool Wear,Meta-only,Yes,Yes,Mechanical; Tool condition; CNC,,
+REDD,,,,,,
+SACAC,Yes,Yes,No,Control Loop; Control loop performance,,
+PHM Data Challenge 18,Yes,Yes,No,Semicon; Etching tool fault detection,,
+BLUE dataset,,,,,,
+Panasonic 18650PF Li-ion Battery Data,No,Yes,No,Battery,,
+APS System Failures,Yes,No,No,Others; APS system; Component failures,,
+3w,Yes,Yes,Both,Oil and Gas; Real events; Oil wells,,
+SISO-RAW,No,Yes,No,Control Loop; 52 loops; Oil and gas,,
+Dynamic Gas Mixtures,Yes,Yes,Yes,Chemical; 16 sensors; Two gas mixtures,,
+Superconductivity Dataset,,,,,,

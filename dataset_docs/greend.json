@@ -1,0 +1,14 @@
+{
+    "name": "GREEND",
+    "table": [],
+    "sections": [],
+    "references": [],
+    "Labeled": "Implicit",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Additional Tags": [
+        "Power",
+        "Per device",
+        "Austria and Italy"
+    ]
+}

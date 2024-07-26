@@ -1,0 +1,56 @@
+{
+    "name": "Oscillation detection artificial dataset",
+    "table": [
+        {
+            "Parameter": "Data Set Characteristics",
+            "Value": "Time-series"
+        },
+        {
+            "Parameter": "Attribute Characteristics",
+            "Value": "Real"
+        },
+        {
+            "Parameter": "Associated Tasks",
+            "Value": "Classification"
+        },
+        {
+            "Parameter": "Number of Instances",
+            "Value": "Number of Attributes |"
+        },
+        {
+            "Parameter": "Number of Attributes",
+            "Value": "Date Donated |"
+        },
+        {
+            "Parameter": "Date Donated",
+            "Value": "Source | Group of Intensification, Modeling, Simulation, Control and Optimization of Processes (GIMSCOP)"
+        },
+        {
+            "Parameter": "Source",
+            "Value": "Group of Intensification, Modeling, Simulation, Control and Optimization of Processes (GIMSCOP)"
+        },
+        {
+            "Parameter": "Dataset size",
+            "Value": "2.7 GB"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Data Set Information",
+            "content": "Dataset used by the authors’ previous work on a technique for oscillation detection based on Machine Learning."
+        },
+        {
+            "title": "Attribute Information",
+            "content": "## References"
+        }
+    ],
+    "references": [],
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "Yes",
+    "Additional Tags": [
+        "Control Loop",
+        "Simulated",
+        "Oscillatory"
+    ]
+}

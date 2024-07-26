@@ -1,0 +1,15 @@
+{
+    "name": "PHM08 Challenge on this dataset",
+    "table": [],
+    "sections": [
+        {
+            "title": "Data Set Information",
+            "content": "Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine – i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise.\nThe engine is operating normally at the start of each time series, and starts to degrade at some point during the series. In the training set, the degradation grows in magnitude until a predefined threshold is reached beyond which it is not preferable to operate the engine. In the test set, the time series ends some time prior to complete degradation.  \nThe objective of the competition is to predict the number of remaining operational cycles before in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate properly.  \nThe data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle; each column is a different variable."
+        },
+        {
+            "title": "Attribute Information",
+            "content": "Each dataset has 26 columns.   \nThe columns correspond to:  \n\n1)\tunit number  \n2)\ttime, in cycles  \n3)\toperational setting 1  \n4)\toperational setting 2  \n5)\toperational setting 3  \n6)\tsensor measurement  1  \n7)\tsensor measurement  2  \n...\n26)\tsensor measurement  26   \n\n\n- Data Set  \n  train.txt, test.txt, final_test.txt     \n  Train trjectories: 218   \n  Test trajectories: 218   \n  final_test trajectoris: 435    \n  'Train / Test' is used to create the model, and 'finally final_test' to calculate the final score.    \n  (Once algorithms are trained to satisfaction, users can apply them to the final test dataset contained in the file named final_test.txt. )  \n  The final score is the weighted sum of the RUL errors."
+        }
+    ],
+    "references": []
+}

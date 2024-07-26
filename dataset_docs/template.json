@@ -1,0 +1,48 @@
+{
+    "name": "template",
+    "table": [
+        {
+            "Parameter": "Data Set Characteristics",
+            "Value": "Multivariate, and/or Time-series"
+        },
+        {
+            "Parameter": "Attribute Characteristics",
+            "Value": "Integer, Real"
+        },
+        {
+            "Parameter": "Associated Tasks",
+            "Value": "Regression, Classification, and/or Clustering"
+        },
+        {
+            "Parameter": "Number of Instances",
+            "Value": "(integer)"
+        },
+        {
+            "Parameter": "Number of Attributes",
+            "Value": "(integer)"
+        },
+        {
+            "Parameter": "Date Donated",
+            "Value": "2014-03-26 (follow this format)"
+        },
+        {
+            "Parameter": "Source",
+            "Value": "UCI Machine Learning Repository"
+        },
+        {
+            "Parameter": "Dataset size",
+            "Value": "3.5MB (compressed)"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Data Set Information",
+            "content": "General information about the dataset."
+        },
+        {
+            "title": "Attribute Information",
+            "content": "A list with the attributes and the desciptions."
+        }
+    ],
+    "references": []
+}

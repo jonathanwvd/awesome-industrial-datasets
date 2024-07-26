@@ -1,0 +1,60 @@
+{
+    "name": "Steel Plates Faults",
+    "table": [
+        {
+            "Parameter": "Data Set Characteristics",
+            "Value": "Multivariate"
+        },
+        {
+            "Parameter": "Attribute Characteristics",
+            "Value": "Integer, Real"
+        },
+        {
+            "Parameter": "Associated Tasks",
+            "Value": "Classification"
+        },
+        {
+            "Parameter": "Number of Instances",
+            "Value": "1941"
+        },
+        {
+            "Parameter": "Number of Attributes",
+            "Value": "27"
+        },
+        {
+            "Parameter": "Date Donated",
+            "Value": "2010-10-26"
+        },
+        {
+            "Parameter": "Source",
+            "Value": "UCI Machine Learning Repository"
+        },
+        {
+            "Parameter": "Dataset size",
+            "Value": "299KB"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Data Set Information",
+            "content": "Type of dependent variables (7 Types of Steel Plates Faults):\n1. Pastry\n2. Z_Scratch\n3. K_Scatch\n4. Stains\n5. Dirtiness\n6. Bumps\n7. Other_Faults"
+        },
+        {
+            "title": "Attribute Information",
+            "content": "27 independent variables:\n1. X_Minimum\n2. X_Maximum\n3. Y_Minimum\n4. Y_Maximum\n5. Pixels_Areas\n6. X_Perimeter\n7. Y_Perimeter\n8. Sum_of_Luminosity\n9. Minimum_of_Luminosity\n10. Maximum_of_Luminosity\n11. Length_of_Conveyer\n12. TypeOfSteel_A300\n13. TypeOfSteel_A400\n14. Steel_Plate_Thickness\n15. Edges_Index\n16. Empty_Index\n17. Square_Index\n18. Outside_X_Index\n19. Edges_X_Index\n20. Edges_Y_Index\n21. Outside_Global_Index\n22. LogOfAreas\n23. Log_X_Index\n24. Log_Y_Index\n25. Orientation_Index\n26. Luminosity_Index\n27. SigmoidOfAreas"
+        }
+    ],
+    "references": [
+        {
+            "text": "UCI",
+            "link": "http://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults"
+        }
+    ],
+    "Labeled": "Yes",
+    "Time Series": "No",
+    "Simulation": "No",
+    "Additional Tags": [
+        "Steel",
+        "7 fault types"
+    ]
+}
