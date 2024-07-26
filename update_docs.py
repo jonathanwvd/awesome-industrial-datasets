@@ -54,7 +54,7 @@ def json_to_markdown(json_path, md_path):
     with open(md_path, 'w', encoding='utf-8') as file:
         file.write(markdown_content)
 
-def csv_to_markdown(csv_file, readme_file):
+def csv_to_markdown(csv_file, readme_file, md_folder_path):
     # Load the CSV file using the specified delimiter
     df = pd.read_csv(csv_file, delimiter=',')
     
@@ -63,7 +63,7 @@ def csv_to_markdown(csv_file, readme_file):
     
     # Modify the 'Dataset Name' to link to the Markdown files within the repository
     # Ensure the link is in lowercase and spaces are replaced with underscores
-    df['Link'] = df['Dataset Name'].apply(lambda x: f"[{x}](md_docs/{x.replace(' ', '_').lower()}.md)")
+    df['Link'] = df['Dataset Name'].apply(lambda x: f"[{x}]({md_folder_path}/{x.replace(' ', '_').lower()}.md)")
     
     # Combine the 'Dataset Name' with the modified 'Link'
     df['Dataset Name'] = df.apply(lambda x: x['Link'], axis=1)
@@ -106,5 +106,5 @@ for filename in os.listdir(json_folder_path):
 
 # Generate CSV and update the README
 generate_csv_from_jsons(json_folder_path, csv_file_path)
-csv_to_markdown(csv_file_path, readme_file_path)
+csv_to_markdown(csv_file_path, readme_file_path, md_folder_path)
 print("Updated README with the new Markdown table.")
