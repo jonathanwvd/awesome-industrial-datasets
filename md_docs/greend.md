@@ -1,7 +1,0 @@
-# GREEND
-
-| Parameter | Value |
-| --- | --- |
-
-## References
-

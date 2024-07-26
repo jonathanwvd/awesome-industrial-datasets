@@ -4,7 +4,7 @@ Welcome to the Awesome Industrial Datasets repository! This project aims to simp
 
 If you find this repository useful, please consider giving it a ⭐ to show your support!
 
-🤝 If you're interested in contributing, please refer to our [Contribution Guideline](master/contribution.md).
+🤝 If you're interested in contributing, please refer to our [Contribution Guideline](contribution.md).
 
 🌱 This repository started as a fork from a project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
 

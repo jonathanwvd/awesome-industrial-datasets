@@ -72,7 +72,7 @@ def json_to_markdown(json_path, md_path):
 
 # Paths setup
 json_folder_path = 'dataset_docs'
-md_folder_path = 'md_docs'
+md_folder_path = 'dataset_docs/md_docs'
 readme_file_path = 'README.md'
 os.makedirs(md_folder_path, exist_ok=True)
 

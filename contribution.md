@@ -1,61 +1,22 @@
 # Contribution Guidelines
-To contribute, make a pull request to this repository. If you are not used to the Git environment, please contact jonathan@i40a.com.
 
-Ways to contribute:
-* suggest datasets
-* share datasets
-* fix typos and syntax
-* format or complete read me files
-* include references
-* others
+Thank you for considering contributing to our repository.
 
-## Suggest dataset
-To keep the repository organized, we keep the same formatting for the readme files. If you would like to suggest a new database, please follow the template shown [here](<datasets/template>).
+## How to Contribute
+You can contribute in several ways:
+- **Suggest or share datasets**: Add new datasets by creating a JSON description and placing it in the `dataset_docs` folder.
+- **Improve documentation**: Help fix typos or enhance explanations.
+- **Enhance formatting**: Ensure consistency in document formatting across the repository.
 
-## Pull Request
-Please ensure your pull request adheres to the following guidelines:
+## Making a Pull Request
+Please follow these guidelines for your pull requests:
+- **Check for duplicates**: Ensure your contribution is unique and not already included.
+- **Individual pull requests**: Submit separate pull requests for different suggestions.
+- **Follow the format**: Use our JSON template for datasets and maintain readability and structure in documentation.
 
-* Make sure your submission is not a duplicate.
-* Make an individual pull request for each suggestion or dataset.
-* Create a readme file and follow the repository formatting.
-* The pull request and commit should have a useful title.
+## Adding Your Dataset
+To add a new dataset, create a JSON file that accurately describes the dataset according to our template. Place this file in the `dataset_docs` folder. This structured approach helps maintain uniformity and ease of access for all users.
 
+For guidance on how to format your JSON, refer to the template in `dataset_docs/template.json`.
 
-## Tags
-Below is the list of tags used in this repository:
-
--  Sector\
-  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)
-  ![](https://img.shields.io/badge/sector-automotiv-green.svg)
-  ![](https://img.shields.io/badge/sector-chemical-red.svg)
-  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
-  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-  ![](https://img.shields.io/badge/sector-oil_and_gas-darkblue.svg)
-  ![](https://img.shields.io/badge/sector-control_loop-darkgreen.svg)
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
-  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
-  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
-
-  ![](https://img.shields.io/badge/sector-other-333333.svg)
-
-- Label\
-  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/labeled-no-red.svg)
-  ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-  ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
-
-- Time-series\
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-
-- Simulation\
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) 
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
-  ![](<https://img.shields.io/badge/simulation-simulated_and_real-green.svg>)   
-
-- Miscellaneous\
-  ![](https://img.shields.io/badge/any-gray.svg)
-  ![](https://img.shields.io/badge/keywords-gray.svg)
-  ![](https://img.shields.io/badge/you-gray.svg)
-  ![](https://img.shields.io/badge/want-gray.svg)
-
+We appreciate your contributions and look forward to seeing your datasets and improvements in our repository!
