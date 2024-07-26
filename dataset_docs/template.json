@@ -1,48 +1,65 @@
 {
-    "name": "template",
+    "name": "dataset_name",
     "table": [
         {
             "Parameter": "Data Set Characteristics",
-            "Value": "Multivariate, and/or Time-series"
+            "Value": "e.g., Multivariate, Time-Series"
         },
         {
             "Parameter": "Attribute Characteristics",
-            "Value": "Integer, Real"
+            "Value": "e.g., Real, Integer"
         },
         {
             "Parameter": "Associated Tasks",
-            "Value": "Regression, Classification, and/or Clustering"
+            "Value": "e.g., Classification, Regression"
         },
         {
             "Parameter": "Number of Instances",
-            "Value": "(integer)"
+            "Value": "e.g., 1000"
         },
         {
             "Parameter": "Number of Attributes",
-            "Value": "(integer)"
+            "Value": "e.g., 20"
         },
         {
             "Parameter": "Date Donated",
-            "Value": "2014-03-26 (follow this format)"
+            "Value": "e.g., 2021-01-01"
         },
         {
             "Parameter": "Source",
-            "Value": "UCI Machine Learning Repository"
+            "Value": "e.g., University Research Department"
         },
         {
             "Parameter": "Dataset size",
-            "Value": "3.5MB (compressed)"
+            "Value": "e.g., 500MB"
         }
     ],
     "sections": [
         {
             "title": "Data Set Information",
-            "content": "General information about the dataset."
+            "content": "Detailed description of the dataset including the context and any relevant information that explains the dataset's creation, purpose, and structure."
         },
         {
             "title": "Attribute Information",
-            "content": "A list with the attributes and the desciptions."
+            "content": "Detailed description of the attributes within the dataset, including any relevant mappings or additional metadata. Include specifics on how the data is organized, any noteworthy attributes, and how they should be interpreted."
         }
     ],
-    "references": []
+    "references": [
+        {
+            "text": "Primary Data Source",
+            "link": "http://example.com/dataset-source"
+        },
+        {
+            "text": "Related Research",
+            "link": "http://example.com/related-research"
+        }
+    ],
+    "Labeled": "Yes or No",
+    "Time Series": "Yes or No",
+    "Simulation": "Yes, No, or Both",
+    "Additional Tags": [
+        "Tag1",
+        "Tag2",
+        "Tag3"
+    ]
 }
