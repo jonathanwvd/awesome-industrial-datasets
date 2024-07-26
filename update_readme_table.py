@@ -7,8 +7,8 @@ def csv_to_markdown(csv_file, readme_file):
     # Combine the 'Dataset Name' and 'Link' into a clickable Markdown link
     df['Dataset Name'] = df.apply(lambda x: f"[{x['Dataset Name']}]({x['Link']})", axis=1)
     
-    # Drop the 'Link' column as it's no longer needed
-    df.drop('Link', axis=1, inplace=True)
+    # Drop the 'Link' and 'Description' columns as they're no longer needed
+    df.drop(['Link', 'Description'], axis=1, inplace=True)
     
     # Convert DataFrame to markdown table string
     markdown_table = df.to_markdown(index=False)
