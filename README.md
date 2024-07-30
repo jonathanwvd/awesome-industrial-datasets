@@ -1,5 +1,7 @@
 # Awesome Industrial Datasets
 
+🚧 Heads up: The repository is undergoing maintenance due to a major switch to JSON format. Some files are being manually edited and will be corrected soon.
+
 Welcome to the Awesome Industrial Datasets repository! This project aims to simplify the access to high-quality industrial datasets across various sectors such as chemical, mechanical, oil and gas, and more. These datasets are invaluable for researchers, engineers, and data scientists working on machine learning models and other analytical tasks that require real-world industrial data.
 
 If you find this repository useful, please consider giving it a ⭐ to show your support!
@@ -10,7 +12,7 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 
 ## Datasets Table
 
-Check the [HTML version](https://<your-github-username>.github.io/<your-repository-name>/index.html) for better navegation.
+Check the [HTML version](https://jonathanwvd.github.io/awesome-industrial-datasets/) for better navegation.
 
 | Dataset Name                                                                                                                                                     | Labeled   | Time Series   | Simulation   | Additional Tags                        |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:--------------|:-------------|:---------------------------------------|
