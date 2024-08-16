@@ -1,0 +1,33 @@
+{
+    "Name": "Hill-Valley",
+    "Labeled": "Yes",
+    "Time Series": "No",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Sequential",
+    "Feature Type": "Real",
+    "Associated Tasks": "Classification",
+    "Number of Instances": "606",
+    "Number of Features": "101",
+    "Date Donated": "2008-03-19",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain).",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y-coordinate, the points will create either a Hill (a 'bump' in the terrain) or a Valley (a 'dip' in the terrain).\n\nThere are six files, as follows:\n\n(a) Hill_Valley_without_noise_Training.data\n(b) Hill_Valley_without_noise_Testing.data\n\nThese first two datasets (without noise) are a training/testing set pair where the hills or valleys have a smooth transition.\n\n(c) Hill_Valley_with_noise_Training.data\n(d) Hill_Valley_with_noise_Testing.data\n\nThese next two datasets (with noise) are a training/testing set pair where the terrain is uneven, and the hill or valley is not as obvious when viewed closely.\n\n(e) Hill_Valley_sample_arff.text\n\nThe sample ARFF file is useful for setting up experiments, but is not necessary.\n\n(f) Hill_Valley_visual_examples.jpg\n\nThis graphic file shows two example instances from the data."
+        }
+    ],
+    "Additional Tags": [
+        "Classification",
+        "Feature representation",
+        "Graph data",
+        "Pattern recognition"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/ml/datasets/Hill-Valley"
+        }
+    ]
+}

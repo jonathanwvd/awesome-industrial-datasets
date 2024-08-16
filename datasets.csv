@@ -12,7 +12,6 @@ Electricity Load Diagrams 2011-2014,https://archive.ics.uci.edu/ml/datasets/Elec
 Individual household electric power consumption,https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
 SML2010,https://archive.ics.uci.edu/ml/datasets/SML2010
 Superconductivity Data,https://archive.ics.uci.edu/dataset/464/superconductivty+data
-
 Urban Land Cover,https://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover
 Car Evaluation,https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
 Wine Quality,https://archive.ics.uci.edu/ml/datasets/Wine+Quality
@@ -20,7 +19,6 @@ Combined Cycle Power Plant,https://archive.ics.uci.edu/ml/datasets/Combined+Cycl
 Beijing PM2.5 Data,https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data
 Robot Execution Failures,https://archive.ics.uci.edu/ml/datasets/Robot+Execution+Failures
 Steel Plates Faults,https://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults
-Energy Efficiency,https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
 Gas Sensor Array Drift at Different Concentrations,https://archive.ics.uci.edu/dataset/270/gas+sensor+array+drift+dataset+at+different+concentrations
 Secure Water Treatment (SWaT) Dataset,https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/
 Water Distribution (WADI) Dataset,https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/
@@ -28,6 +26,13 @@ PHM Data Challenge,https://phmsociety.org/conference/annual-conference-of-the-ph
 Severstal Steel Defect Detection,https://www.kaggle.com/c/severstal-steel-defect-detection/data
 Bosch Production Line Performance,https://www.kaggle.com/c/bosch-production-line-performance/data
 iV2V and iV2I+ Industrial Datasets,https://github.com/fraunhoferhhi/ai4mobile-industrial
+SECOM,http://archive.ics.uci.edu/ml/datasets/secom
+Hill-Valley,https://archive.ics.uci.edu/ml/datasets/Hill-Valley
+APS Failure at Scania Trucks Data Set,https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
+Gas sensor array under dynamic gas mixtures,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures
+Superconductivty Data,http://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
+Condition Based Maintenance of Naval Propulsion Systems,https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants#
+
 Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1
 Versatile Production Dataset,https://www.kaggle.com/datasets/inIT-OWL/versatileproductionsystem
 Genesis Pick-and-Place Demonstrator Dataset,https://www.kaggle.com/datasets/inIT-OWL/genesis-demonstrator-data-for-machine-learning
@@ -41,22 +46,13 @@ Control loop datasets,https://www.ufrgs.br/gimscop/repository/sisoviewer/dataset
 ECO dataset,http://vs.inf.ethz.ch/res/show.html?what=eco-data
 Global Power Plant,https://datasets.wri.org/dataset/globalpowerplantdatabase
 UK-DALE dataset,http://jack-kelly.com/data/
-SECOM,http://archive.ics.uci.edu/ml/datasets/secom
 Data-driven prediction of battery cycle life before capacity degradation,https://data.matr.io/1/projects/5c48dd2bc625d700019f3204
-Hill-Valley,https://archive.ics.uci.edu/ml/datasets/Hill-Valley
 ISDB - International Stiction Data Base,https://sites.ualberta.ca/~bhuang/Stiction-Book.htm
-Steel Industry Energy Consumption,https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption
 CNC Mill Tool Wear,https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data
-APS Failure at Scania Trucks Data Set,https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
 SACAC,https://sacac.org.za/resources/
 Oscillation detection artificial dataset,https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/
-Gas sensor arrays in open sampling settings,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+arrays+in+open+sampling+settings
 Panasonic 18650PF Li-ion Battery Data,https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429
-Superconductivty Data,http://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
-Gas sensor array under dynamic gas mixtures,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures
-Combined Cycle Power Plant,https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
 GreenD,https://sourceforge.net/projects/greend/
-Condition Based Maintenance of Naval Propulsion Systems,https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants#
 Gas sensor array temperature modulation,https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation
 Mechanical Analysis,https://archive.ics.uci.edu/dataset/64/mechanical+analysis
 Chemical Composition of Ceramic Samples,https://archive.ics.uci.edu/dataset/583/chemical+composition+of+ceramic+samples

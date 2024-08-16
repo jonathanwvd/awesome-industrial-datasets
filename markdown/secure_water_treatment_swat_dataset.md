@@ -14,12 +14,15 @@
 | **Associated Tasks** | Classification, Anomaly Detection |
 | **Number of Instances** | N/A |
 | **Number of Features** | 51 |
-| **Date Donated** | 2015-12-21 |
+| **Date Donated** | 2015-12-02 |
 | **Source** | iTrust, Singapore University of Technology and Design |
 
 ## Dataset Information
 
-The dataset includes 11 days of continuous operation: 7 under normal conditions and 4 with attack scenarios. It captures network traffic and sensor data from 51 sensors and actuators, with data labeled as normal or abnormal.
+11 days of continuous operation: 7 under normal operation and 4 days with attack scenarios.
+Collected network traffic and all the values obtained from all 51 sensors and actuators.
+Data labeled according to normal and abnormal behaviors.
+Attack Scenarios: Derived through the attack models developed by our research team. The attack model considers the intent space of a CPS as an attack model. 41 attacks were launched during the 4 days and are described in the PDF.
 
 ## Tags
 

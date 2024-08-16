@@ -1,0 +1,35 @@
+{
+    "Name": "APS Failure at Scania Trucks",
+    "Labeled": "Yes",
+    "Time Series": "No",
+    "Simulation": "No",
+    "Missing Values": "Yes",
+    "Dataset Characteristics": "Multivariate",
+    "Feature Type": "Real, Integer",
+    "Associated Tasks": "Classification",
+    "Number of Instances": "76000",
+    "Number of Features": "171",
+    "Date Donated": "2017-12-07",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "This file is part of APS Failure and Operational Data for Scania Trucks.\n\nCopyright (c) <2016> <Scania CV AB>\n\nThis program (APS Failure and Operational Data for Scania Trucks) is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.\n\n------------------------------------------------------------------------\n\n1. Title: APS Failure at Scania Trucks\n\n2. Source Information\n   -- Creator: Scania CV AB\n               Vagnmakarvägen 1 \n               151 32 Södertälje \n               Stockholm\n               Sweden \n   -- Donor:   Tony Lindgren (tony@dsv.su.se) and Jonas Biteus (jonas.biteus@scania.com)\n   -- Date:    September, 2016\n \n3. Past Usage:\n   Industrial Challenge 2016 at The 15th International Symposium on Intelligent Data Analysis (IDA) \n   -- Results:         \n     The top three contestants                                                | Score | Number of Type 1 faults | Number of Type 2 faults\n     ------------------------------------------------------------------------------------------------------------------------------------\n     Camila F. Costa and Mario A. Nascimento                                  | 9920  | 542                     | 9\n     Christopher Gondek, Daniel Hafner and Oliver R. Sampson                  | 10900 | 490                     | 12\n     Sumeet Garnaik, Sushovan Das, Rama Syamala Sreepada and Bidyut Kr. Patra | 11480 | 398                     | 15\n\n4. Relevant Information:\n   -- Introduction\n     The dataset consists of data collected from heavy Scania \n     trucks in everyday usage. The system in focus is the \n     Air Pressure system (APS) which generates pressurised \n     air that are utilized in various functions in a truck, \n     such as braking and gear changes. The datasets' \n     positive class consists of component failures \n     for a specific component of the APS system. \n     The negative class consists of trucks with failures \n     for components not related to the APS. The data consists \n     of a subset of all available data, selected by experts. \n\n   -- Challenge metric  \n\n     Cost-metric of miss-classification:\n\n     Predicted class |      True class       |\n                     |    pos    |    neg    |\n     -----------------------------------------\n      pos            |     -     |  Cost_1   |\n     -----------------------------------------\n      neg            |  Cost_2   |     -     |\n     -----------------------------------------\n     Cost_1 = 10 and cost_2 = 500\n\n     The total cost of a prediction model the sum of 'Cost_1' \n     multiplied by the number of Instances with type 1 failure \n     and 'Cost_2' with the number of instances with type 2 failure, \n     resulting in a 'Total_cost'.\n\n     In this case Cost_1 refers to the cost that an unnecessary \n     check needs to be done by a mechanic at a workshop, while \n     Cost_2 refers to the cost of missing a faulty truck, \n     which may cause a breakdown.\n\n     Total_cost = Cost_1*No_Instances + Cost_2*No_Instances.\n\n5. Number of Instances: \n     The training set contains 60000 examples in total in which \n     59000 belong to the negative class and 1000 positive class. \n     The test set contains 16000 examples. \n\n6. Number of Attributes: 171 \n\n7. Attribute Information:\n   The attribute names of the data have been anonymized for \n   proprietary reasons. It consists of both single numerical \n   counters and histograms consisting of bins with different \n   conditions. Typically the histograms have open-ended \n   conditions at each end. For example if we measuring \n   the ambient temperature 'T' then the histogram could \n   be defined with 4 bins where: \n\n   bin 1 collect values for temperature T < -20\n   bin 2 collect values for temperature T >= -20 and T < 0     \n   bin 3 collect values for temperature T >= 0 and T < 20  \n   bin 4 collect values for temperature T > 20 \n\n   |  b1  |  b2  |  b3  |  b4  |   \n   ----------------------------- \n         -20     0      20\n\n  The attributes are as follows: class, then \n  anonymized operational data. The operational data have \n  an identifier and a bin id, like 'Identifier_Bin'.\n  In total there are 171 attributes, of which 7 are \n  histogram variables. Missing values are denoted by 'na'."
+        }
+    ],
+    "Additional Tags": [
+        "Scania trucks",
+        "APS system",
+        "Component failure",
+        "Predictive maintenance",
+        "Industrial data"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks"
+        }
+    ],
+    "Confidence": "The dataset is well-documented with detailed descriptions of the problem context, attributes, and the challenge metric used for predictive model evaluation."
+}

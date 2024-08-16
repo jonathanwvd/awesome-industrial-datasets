@@ -1,0 +1,27 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bosch Production Line Performance</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="mb-4">Bosch Production Line Performance</h1>
+
+            <p>This dataset from Bosch is aimed at reducing production line failures. It contains extensive data on manufacturing processes, focusing on minimizing testing errors and maximizing production line performance.</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
+    <tr><td><strong>Name</strong></td><td>Bosch Production Line Performance</td></tr><tr><td><strong>Labeled</strong></td><td>Yes</td></tr><tr><td><strong>Time Series</strong></td><td>No</td></tr><tr><td><strong>Simulation</strong></td><td>No</td></tr><tr><td><strong>Missing Values</strong></td><td>Yes</td></tr><tr><td><strong>Dataset Characteristics</strong></td><td>Multivariate</td></tr><tr><td><strong>Feature Type</strong></td><td>Real, Binary</td></tr><tr><td><strong>Associated Tasks</strong></td><td>Classification</td></tr><tr><td><strong>Number of Instances</strong></td><td>N/A</td></tr><tr><td><strong>Number of Features</strong></td><td>N/A</td></tr><tr><td><strong>Date Donated</strong></td><td>2016</td></tr><tr><td><strong>Source</strong></td><td>Kaggle</td></tr>
+                </tbody>
+            </table>
+    <h2>Dataset Information</h2><p>The data for this competition represents measurements of parts as they move through Bosch's production lines. Each part has a unique Id. The goal is to predict which parts will fail quality control (represented by a 'Response' = 1).<br><br>The dataset contains an extremely large number of anonymized features. Features are named according to a convention that tells you the production line, the station on the line, and a feature number. E.g., L3_S36_F3939 is a feature measured on line 3, station 36, and is feature number 3939.<br><br>On account of the large size of the dataset, we have separated the files by the type of feature they contain: numerical, categorical, and finally, a file with date features. The date features provide a timestamp for when each measurement was taken. Each date column ends in a number that corresponds to the previous feature number. E.g., the value of L0_S0_D1 is the time at which L0_S0_F0 was taken.<br><br>In addition to being one of the largest datasets (in terms of number of features) ever hosted on Kaggle, the ground truth for this competition is highly imbalanced. Together, these two attributes are expected to make this a challenging problem.</p><h2>Tags</h2><ul><li>Manufacturing</li><li>Production line</li><li>Quality control</li><li>Industrial data</li><li>Machine learning</li></ul><h2>References</h2><ul><li><a href='https://www.kaggle.com/c/bosch-production-line-performance'>Kaggle Competition</a></li><li><a href='https://www.kaggle.com/competitions/bosch-production-line-performance/data'>Kaggle - Bosch Production Line Performance Data</a></li></ul>
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    

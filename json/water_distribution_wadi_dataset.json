@@ -1,5 +1,5 @@
 {
-    "Name": "Secure Water Treatment (SWaT) Dataset",
+    "Name": "Water Distribution (WADI) Dataset",
     "Labeled": "Yes",
     "Time Series": "Yes",
     "Simulation": "Yes",
@@ -8,18 +8,18 @@
     "Feature Type": "Real",
     "Associated Tasks": "Classification, Anomaly Detection",
     "Number of Instances": "N/A",
-    "Number of Features": "51",
-    "Date Donated": "2015-12-02",
+    "Number of Features": "123",
+    "Date Donated": "2017-10-09",
     "Source": "iTrust, Singapore University of Technology and Design",
-    "Summary": "SWaT is an operational testbed for water treatment, providing data under normal and attack scenarios for cybersecurity research.",
+    "Summary": "WADI is a water distribution testbed dataset providing data under normal and attack scenarios, used for cybersecurity and anomaly detection research.",
     "Sections": [
         {
             "Title": "Dataset Information",
-            "Content": "11 days of continuous operation: 7 under normal operation and 4 days with attack scenarios.\nCollected network traffic and all the values obtained from all 51 sensors and actuators.\nData labeled according to normal and abnormal behaviors.\nAttack Scenarios: Derived through the attack models developed by our research team. The attack model considers the intent space of a CPS as an attack model. 41 attacks were launched during the 4 days and are described in the PDF."
+            "Content": "16 days of continuous operation: 14 under normal operation and 2 days with attack scenarios.\nData from all 123 sensors and actuators.\nAttack Scenarios: Derived from the attack models developed by our research team. The attack model considers the intent space of a CPS as an attack model. 15 attacks were launched during the 2 days."
         }
     ],
     "Additional Tags": [
-        "Water treatment",
+        "Water distribution",
         "Cybersecurity",
         "Anomaly detection",
         "Sensor data",
