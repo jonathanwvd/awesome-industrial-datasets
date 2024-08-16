@@ -1,6 +1,24 @@
 # Gas sensor array under dynamic gas mixtures
 
+**Summary:** The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.
+
+| Parameter | Value |
+| --- | --- |
+| **Name** | Gas sensor array under dynamic gas mixtures |
+| **Labeled** | Yes |
+| **Time Series** | Yes |
+| **Simulation** | No |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Multivariate, Time-Series |
+| **Feature Type** | Real |
+| **Associated Tasks** | Classification, Regression |
+| **Number of Instances** | 417850 |
+| **Number of Features** | 19 |
+| **Date Donated** | 2015-03-1 |
+| **Source** | UCI Machine Learning Repository |
+
 ## Dataset Information
+
 This data set contains the acquired time series from 16 chemical sensors exposed to gas mixtures at varying concentration levels. In particular, we generated two gas mixtures: Ethylene and Methane in air, and Ethylene and CO in air. Each measurement was constructed by the continuous acquisition of the 16-sensor array signals for a duration of about 12 hours without interruption.
 
 The data set was collected in a gas delivery platform facility at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. The measurement system platform provides versatility for obtaining the desired concentrations of the chemical substances of interest with high accuracy and in a highly reproducible manner.
@@ -19,6 +37,12 @@ More information on the generated data set can be found in Fonollosa et al. 'Res
 
 The data set can be used exclusively for research purposes. Commercial purposes are fully excluded.
 
+## Tags
+
+Gas sensors, Dynamic mixtures, Sensor data, Time-series data, Chemical sensors
+
 ## References
+
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures)
 
+[⬅️ Back to Index](../README.md)

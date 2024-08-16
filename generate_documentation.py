@@ -1,5 +1,61 @@
 import json
 import os
+import pandas as pd
+
+
+def update_readme_with_data(json_folder, readme_file, md_folder_path):
+    # Collecting dataset information
+    datasets = []
+    for filename in os.listdir(json_folder):
+        if filename.endswith('.json') and filename.lower() not in ['template.json', 'datasets.json']:  # Skip template and datasets.json
+            with open(os.path.join(json_folder, filename), 'r', encoding='utf-8') as jsonfile:
+                data = json.load(jsonfile)
+                datasets.append({
+                    'Dataset Name': data.get('Name', ''),
+                    'Labeled': data.get('Labeled', ''),
+                    'Time Series': data.get('Time Series', ''),
+                    'Simulation': data.get('Simulation', ''),
+                    'Additional Tags': '; '.join(data.get('Additional Tags', [])),
+                    'Description': data.get('Summary', ''),  # Assuming 'Summary' is the description field
+                    'Link': filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()  # Link based on filename
+                })
+
+    # Convert list to DataFrame
+    df = pd.DataFrame(datasets)
+    df.fillna('', inplace=True)
+    df['Link'] = df['Link'].apply(lambda x: f"[{x.replace('_', ' ').title()}]({md_folder_path}/{x}.md)")
+    df['Dataset Name'] = df.apply(lambda x: x['Link'], axis=1)
+    df.drop(['Link', 'Description'], axis=1, inplace=True)
+    markdown_table = df.to_markdown(index=False)
+
+    # Read the existing README content and update
+    with open(readme_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    # Find the TABLE_START and TABLE_END markers
+    table_start = content.find("<!-- TABLE_START -->")
+    table_end = content.find("<!-- TABLE_END -->")
+
+    # Ensure both markers are found
+    if table_start == -1 or table_end == -1:
+        raise ValueError("Markers <!-- TABLE_START --> or <!-- TABLE_END --> not found in the README file.")
+
+    # Replace the content between the markers with the new table, preserving the TABLE_END marker
+    updated_content = (
+        content[:table_start] + 
+        "<!-- TABLE_START -->\n" + 
+        markdown_table + 
+        "\n" + 
+        content[table_end:]
+    )
+
+    # Write the updated content back to the README
+    with open(readme_file, 'w', encoding='utf-8') as file:
+        file.write(updated_content)
+
+    print("Updated README with the new Markdown table.")
+
+
 
 def generate_json_data(json_folder):
     datasets = []
@@ -62,27 +118,47 @@ def inject_json_to_html(json_data, html_file):
 def json_to_markdown(json_path, md_path):
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    
+
+    # Start building the Markdown content
     markdown_content = f"# {data['Name']}\n\n"
-    if 'table' in data:
-        markdown_content += "| Parameter | Value |\n"
-        markdown_content += "| --- | --- |\n"
-        for item in data['table']:
-            markdown_content += f"| {item['Parameter']} | {item['Value']} |\n"
-        markdown_content += "\n"
-    
-    for section in data['Sections']:
-        markdown_content += f"## {section['Title']}\n{section['Content']}\n\n"
-    
+    markdown_content += f"**Summary:** {data.get('Summary', '')}\n\n"
+
+    # Add the table with the relevant information
+    markdown_content += "| Parameter | Value |\n"
+    markdown_content += "| --- | --- |\n"
+    for key in ['Name', 'Labeled', 'Time Series', 'Simulation', 'Missing Values', 'Dataset Characteristics', 'Feature Type', 'Associated Tasks', 'Number of Instances', 'Number of Features', 'Date Donated', 'Source']:
+        if key in data:
+            markdown_content += f"| **{key}** | {data[key]} |\n"
+
+    markdown_content += "\n"
+
+    # Add sections
+    if 'Sections' in data:
+        for section in data['Sections']:
+            markdown_content += f"## {section['Title']}\n\n"
+            markdown_content += f"{section['Content']}\n\n"
+
+    # Add tags section
+    if 'Additional Tags' in data and data['Additional Tags']:
+        markdown_content += "## Tags\n\n"
+        markdown_content += ", ".join(data['Additional Tags']) + "\n\n"
+
+    # Add references
     if 'References' in data:
-        markdown_content += "## References\n"
+        markdown_content += "## References\n\n"
         for ref in data['References']:
             markdown_content += f"- [{ref['Text']}]({ref['Link']})\n"
         markdown_content += "\n"
-    
+
+    # Add a link to go back to the main README or index page
+    markdown_content += "[⬅️ Back to Index](../README.md)\n"
+
+    # Write the Markdown content to the file
     with open(md_path, 'w', encoding='utf-8') as file:
         file.write(markdown_content)
+
     print(f"Markdown file created for {os.path.basename(md_path)}")
+
 
 def json_to_html(json_path, html_path):
     with open(json_path, 'r', encoding='utf-8') as file:
@@ -161,6 +237,8 @@ json_folder_path = 'json'
 md_folder_path = 'markdown'
 html_folder_path = 'html/pages'
 index_html_file = 'index.html'
+readme_file_path = 'README.md'
+
 os.makedirs(md_folder_path, exist_ok=True)
 os.makedirs(html_folder_path, exist_ok=True)
 
@@ -182,3 +260,6 @@ for filename in os.listdir(json_folder_path):
             json_to_html(json_path, html_path)
         except Exception as e:
             print(f"Error processing {filename}: {e}")
+
+# Update the README with dataset information directly from JSON files
+update_readme_with_data(json_folder_path, readme_file_path, md_folder_path)

@@ -1,8 +1,32 @@
 # Secure Water Treatment (SWaT) Dataset
 
+**Summary:** SWaT is an operational testbed for water treatment, providing data under normal and attack scenarios for cybersecurity research.
+
+| Parameter | Value |
+| --- | --- |
+| **Name** | Secure Water Treatment (SWaT) Dataset |
+| **Labeled** | Yes |
+| **Time Series** | Yes |
+| **Simulation** | Yes |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Multivariate, Time-Series |
+| **Feature Type** | Real |
+| **Associated Tasks** | Classification, Anomaly Detection |
+| **Number of Instances** | N/A |
+| **Number of Features** | 51 |
+| **Date Donated** | 2015-12-21 |
+| **Source** | iTrust, Singapore University of Technology and Design |
+
 ## Dataset Information
+
 The dataset includes 11 days of continuous operation: 7 under normal conditions and 4 with attack scenarios. It captures network traffic and sensor data from 51 sensors and actuators, with data labeled as normal or abnormal.
 
+## Tags
+
+Water treatment, Cybersecurity, Anomaly detection, Sensor data, Time-series data
+
 ## References
+
 - [iTrust, Singapore University of Technology and Design](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)
 
+[⬅️ Back to Index](../README.md)

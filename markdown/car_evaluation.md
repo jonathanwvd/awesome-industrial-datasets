@@ -1,6 +1,24 @@
 # Car Evaluation
 
+**Summary:** Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods.
+
+| Parameter | Value |
+| --- | --- |
+| **Name** | Car Evaluation |
+| **Labeled** | Yes |
+| **Time Series** | No |
+| **Simulation** | No |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Multivariate |
+| **Feature Type** | Categorical |
+| **Associated Tasks** | Classification |
+| **Number of Instances** | 1728 |
+| **Number of Features** | 6 |
+| **Date Donated** | 1997-05-31 |
+| **Source** | UCI Machine Learning Repository |
+
 ## Dataset Information
+
 Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates cars according to the following concept structure:
 
 CAR                      car acceptability
@@ -20,6 +38,12 @@ The Car Evaluation Database contains examples with the structural information re
 
 Because of known underlying concept structure, this database may be particularly useful for testing constructive induction and structure discovery methods.
 
+## Tags
+
+Automobile evaluation, Decision-making, Categorical data, Multivariate data, Classification task
+
 ## References
+
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
 
+[⬅️ Back to Index](../README.md)
