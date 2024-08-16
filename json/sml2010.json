@@ -1,0 +1,34 @@
+{
+    "Name": "SML2010",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "Yes",
+    "Dataset Characteristics": "Multivariate, Sequential, Time-Series, Text",
+    "Feature Type": "Real",
+    "Associated Tasks": "Regression",
+    "Number of Instances": "4137",
+    "Number of Features": "24",
+    "Date Donated": "2014-01-08",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "This dataset is collected from a monitor system mounted in a domotic house. It corresponds to approximately 40 days of monitoring data.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "The dataset could contain missing values. The data was sampled every minute, computing and uploading it smoothed with 15 minute means. The header of the data file is a commentary (begins with #) indicating which data is stored at which column (in Spanish). The data is time information is in UTC."
+        }
+    ],
+    "Additional Tags": [
+        "Domotic systems",
+        "Environmental monitoring",
+        "Home automation",
+        "Time-series data",
+        "Energy efficiency"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/ml/datasets/SML2010"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "Name": "Car Evaluation",
+    "Labeled": "Yes",
+    "Time Series": "No",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Multivariate",
+    "Feature Type": "Categorical",
+    "Associated Tasks": "Classification",
+    "Number of Instances": "1728",
+    "Number of Features": "6",
+    "Date Donated": "1997-05-31",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates cars according to the following concept structure:\n\nCAR                      car acceptability\n. PRICE                  overall price\n. . buying               buying price\n. . maint                price of the maintenance\n. TECH                   technical characteristics\n. . COMFORT              comfort\n. . . doors              number of doors\n. . . persons            capacity in terms of persons to carry\n. . . lug_boot           the size of luggage boot\n. . safety               estimated safety of the car\n\nInput attributes are printed in lowercase. Besides the target concept (CAR), the model includes three intermediate concepts: PRICE, TECH, COMFORT. Every concept is in the original model related to its lower level descendants by a set of examples (for these examples sets see http://www-ai.ijs.si/BlazZupan/car.html).\n\nThe Car Evaluation Database contains examples with the structural information removed, i.e., directly relates CAR to the six input attributes: buying, maint, doors, persons, lug_boot, safety.\n\nBecause of known underlying concept structure, this database may be particularly useful for testing constructive induction and structure discovery methods."
+        }
+    ],
+    "Additional Tags": [
+        "Automobile evaluation",
+        "Decision-making",
+        "Categorical data",
+        "Multivariate data",
+        "Classification task"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/ml/datasets/Car+Evaluation"
+        }
+    ]
+}

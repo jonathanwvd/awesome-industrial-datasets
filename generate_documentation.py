@@ -1,55 +1,69 @@
 import json
 import os
-import pandas as pd
 
-def update_readme_with_data(json_folder, readme_file, md_folder_path):
-    # Collecting dataset information
+def generate_json_data(json_folder):
     datasets = []
+    # Process each JSON file in the folder
     for filename in os.listdir(json_folder):
-        if filename.endswith('.json') and filename.lower() != 'template.json':  # Skip the template
-            with open(os.path.join(json_folder, filename), 'r', encoding='utf-8') as jsonfile:
-                data = json.load(jsonfile)
-                datasets.append({
-                    'Dataset Name': data.get('name', ''),
-                    'Labeled': data.get('Labeled', ''),
-                    'Time Series': data.get('Time Series', ''),
-                    'Simulation': data.get('Simulation', ''),
-                    'Additional Tags': '; '.join(data.get('Additional Tags', [])),
-                    'Description': data.get('Description', ''),
-                    'Link': data.get('Link', '')
-                })
+        if filename.endswith('.json') and filename.lower() not in ['template.json', 'datasets.json']:  # Skip template and datasets.json
+            print(f"Processing dataset {filename}...")
+            try:
+                with open(os.path.join(json_folder, filename), 'r', encoding='utf-8') as jsonfile:
+                    data = json.load(jsonfile)
+                    # Generate the link based on the filename, not the dataset name
+                    link_name = filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()
+                    datasets.append({
+                        "Dataset Name": data.get("Name", ""),
+                        "Labeled": data.get("Labeled", ""),
+                        "Time Series": data.get("Time Series", ""),
+                        "Simulation": data.get("Simulation", ""),
+                        "Missing Values": data.get("Missing Values", ""),
+                        "Dataset Characteristics": data.get("Dataset Characteristics", ""),
+                        "Associated Tasks": data.get("Associated Tasks", ""),
+                        "Number of Instances": data.get("Number of Instances", ""),
+                        "Number of Features": data.get("Number of Features", ""),
+                        "Date Donated": data.get("Date Donated", ""),
+                        "Summary": data.get("Summary", ""),
+                        "Additional Tags": "; ".join(data.get("Additional Tags", [])),
+                        "Link": f"html/pages/{link_name}.html"  # Use the filename for the link
+                    })
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
 
-    # Convert list to DataFrame
-    df = pd.DataFrame(datasets)
-    df.fillna('', inplace=True)
-    df['Link'] = df['Dataset Name'].apply(lambda x: f"[{x}]({md_folder_path}/{x.replace(' ', '_').lower()}.md)")
-    df['Dataset Name'] = df.apply(lambda x: x['Link'], axis=1)
-    df.drop(['Link', 'Description'], axis=1, inplace=True)
-    markdown_table = df.to_markdown(index=False)
+    return datasets
 
-    # Read the existing README content and update
-    with open(readme_file, 'r', encoding='utf-8') as file:
-        content = file.readlines()
 
-    start_marker = "## Datasets Table\n"
-    start_index = content.index(start_marker) + 2
-    end_index = start_index
-    while end_index < len(content) and content[end_index].strip() != '':
-        end_index += 1
+def inject_json_to_html(json_data, html_file):
+    with open(html_file, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+    
+    # Remove any previous JSON data by finding and removing the existing script tag
+    start_script = html_content.find('<script type="application/json" id="dataset-json">')
+    if start_script != -1:
+        end_script = html_content.find('</script>', start_script) + len('</script>')
+        html_content = html_content[:start_script] + html_content[end_script:]
 
-    # Update the section with new table
-    content = content[:start_index] + [markdown_table + '\n\n'] + content[end_index:]
+    # Create the new script tag with the JSON data
+    script_tag = f'<script type="application/json" id="dataset-json">\n{json.dumps(json_data, indent=4)}\n</script>\n'
+    
+    # Check if the placeholder exists, replace it; if not, append the script tag before closing </body>
+    if "<!-- JSON_PLACEHOLDER -->" in html_content:
+        html_content = html_content.replace("<!-- JSON_PLACEHOLDER -->", script_tag)
+    else:
+        html_content = html_content.replace("</body>", f"{script_tag}</body>")
 
-    # Write the updated content back to the README
-    with open(readme_file, 'w', encoding='utf-8') as file:
-        file.writelines(content)
-    print("Updated README with the new Markdown table.")
+    with open(html_file, 'w', encoding='utf-8') as file:
+        file.write(html_content)
+    
+    print(f"Injected JSON data into {html_file}")
+
+
 
 def json_to_markdown(json_path, md_path):
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
     
-    markdown_content = f"# {data['name']}\n\n"
+    markdown_content = f"# {data['Name']}\n\n"
     if 'table' in data:
         markdown_content += "| Parameter | Value |\n"
         markdown_content += "| --- | --- |\n"
@@ -57,13 +71,13 @@ def json_to_markdown(json_path, md_path):
             markdown_content += f"| {item['Parameter']} | {item['Value']} |\n"
         markdown_content += "\n"
     
-    for section in data['sections']:
-        markdown_content += f"## {section['title']}\n{section['content']}\n\n"
+    for section in data['Sections']:
+        markdown_content += f"## {section['Title']}\n{section['Content']}\n\n"
     
-    if 'references' in data:
+    if 'References' in data:
         markdown_content += "## References\n"
-        for ref in data['references']:
-            markdown_content += f"- [{ref['text']}]({ref['link']})\n"
+        for ref in data['References']:
+            markdown_content += f"- [{ref['Text']}]({ref['Link']})\n"
         markdown_content += "\n"
     
     with open(md_path, 'w', encoding='utf-8') as file:
@@ -74,126 +88,97 @@ def json_to_html(json_path, html_path):
     with open(json_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    description = data.get('Description', '').replace('\n', '<br>')
-    html_content = f"""
-    <html>
+    # Start building the HTML content
+    html_content = """
+    <html lang="en">
     <head>
-        <title>{data['name']}</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>""" + data['Name'] + """</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
     </head>
     <body>
-    <div class="container">
-        <h1 class="mt-5">{data['name']}</h1>
-        <p>{description}</p>
-        <table class="table table-striped mt-3">
+        <div class="container mt-5">
+            <h1 class="mb-4">""" + data['Name'] + """</h1>
+
+            <p>""" + data.get('Summary', '').replace('\n', '<br>') + """</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
     """
-    if 'table' in data:
-        for item in data['table']:
-            value = item['Value'].replace('\n', '<br>')
-            html_content += f"<tr><td>{item['Parameter']}</td><td>{value}</td></tr>"
-    if 'sections' in data:
-        for section in data['sections']:
-            section_content = section['content'].replace('\n', '<br>')
-            html_content += f"<h2>{section['title']}</h2><p>{section_content}</p>"
-    if 'references' in data:
-        html_content += "<h2>References</h2>"
-        for ref in data['references']:
-            html_content += f"<p><a href='{ref['link']}'>{ref['text']}</a></p>"
+
+    # Add the table with the relevant information
+    for key in ['Name', 'Labeled', 'Time Series', 'Simulation', 'Missing Values', 'Dataset Characteristics', 'Feature Type', 'Associated Tasks', 'Number of Instances', 'Number of Features', 'Date Donated', 'Source']:
+        if key in data:
+            html_content += "<tr><td><strong>{}</strong></td><td>{}</td></tr>".format(key, data[key])
+
     html_content += """
-        </table>
-        <a href="../index.html" class="btn btn-primary">Back to Index</a>
-    </div>
+                </tbody>
+            </table>
+    """
+
+    # Add sections
+    if 'Sections' in data:
+        for section in data['Sections']:
+            section_content = section['Content'].replace('\n', '<br>')
+            html_content += "<h2>{}</h2><p>{}</p>".format(section['Title'], section_content)
+
+    # Add tags section
+    if 'Additional Tags' in data and data['Additional Tags']:
+        html_content += "<h2>Tags</h2><ul>"
+        for tag in data['Additional Tags']:
+            html_content += "<li>{}</li>".format(tag)
+        html_content += "</ul>"
+
+    # Add references
+    if 'References' in data:
+        html_content += "<h2>References</h2><ul>"
+        for ref in data['References']:
+            html_content += "<li><a href='{}'>{}</a></li>".format(ref['Link'], ref['Text'])
+        html_content += "</ul>"
+
+    # Close the HTML content
+    html_content += """
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
     </html>
     """
-    
+
+    # Write the HTML content to the file
     with open(html_path, 'w', encoding='utf-8') as file:
         file.write(html_content)
+
     print(f"HTML file created for {os.path.basename(html_path)}")
 
-def generate_html_index(json_folder, output_folder):
-    datasets = ""
-    # Process each JSON file
-    for filename in os.listdir(json_folder):
-        if filename.endswith('.json') and filename.lower() != 'template.json':  # Skip the template
-            data = read_json(os.path.join(json_folder, filename))
-            dataset_name = data['name']
-            labeled = data.get('Labeled', '')
-            time_series = data.get('Time Series', '')
-            simulation = data.get('Simulation', '')
-            additional_tags = ', '.join(data.get('Additional Tags', []))
-            dataset_filename = f"{dataset_name.replace(' ', '_').lower()}.html"
-            datasets += f"<tr><td><a href='html/{dataset_filename}'>{dataset_name}</a></td><td>{labeled}</td><td>{time_series}</td><td>{simulation}</td><td>{additional_tags}</td></tr>"
 
-    # Generate the index.html content with a search box
-    index_content = f"""
-    <html>
-    <head>
-        <title>Dataset Index</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
-        <script>
-        $(document).ready(function() {{
-            $("table").tablesorter();
-            $('#searchInput').on('keyup', function() {{
-                var value = $(this).val().toLowerCase();
-                $("table tbody tr").filter(function() {{
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                }});
-            }});
-        }});
-        </script>
-    </head>
-    <body>
-    <div class="container">
-        <h1 class="mt-5">Dataset Index</h1>
-        <input class="form-control mb-3" id="searchInput" type="text" placeholder="Search by tags...">
-        <table class="table table-bordered mt-3 tablesorter">
-            <thead class="thead-light">
-                <tr>
-                    <th>Dataset Name</th>
-                    <th>Labeled</th>
-                    <th>Time Series</th>
-                    <th>Simulation</th>
-                    <th>Additional Tags</th>
-                </tr>
-            </thead>
-            <tbody>
-    """ + datasets + """
-            </tbody>
-        </table>
-    </div>
-    </body>
-    </html>
-    """
-    with open(os.path.join(output_folder, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(index_content)
-    print("index.html created in the root folder.")
 
-def read_json(file_path):
-    with open(file_path, 'r', encoding='utf-8') as jsonfile:
-        return json.load(jsonfile)
 
 # Paths setup
 json_folder_path = 'json'
 md_folder_path = 'markdown'
-html_folder_path = 'html'
-readme_file_path = 'README.md'
+html_folder_path = 'html/pages'
+index_html_file = 'index.html'
 os.makedirs(md_folder_path, exist_ok=True)
 os.makedirs(html_folder_path, exist_ok=True)
 
+# Generate JSON data
+datasets_json = generate_json_data(json_folder_path)
+
+# Inject JSON data directly into the HTML file
+inject_json_to_html(datasets_json, index_html_file)
+
 # Process JSONs to generate Markdown and HTML
 for filename in os.listdir(json_folder_path):
-    if filename.endswith('.json') and filename.lower() != 'template.json':  # Skip template.json
-        json_path = os.path.join(json_folder_path, filename)
-        md_path = os.path.join(md_folder_path, filename.replace('.json', '.md'))
-        html_path = os.path.join(html_folder_path, filename.replace('.json', '.html'))
-        json_to_markdown(json_path, md_path)
-        json_to_html(json_path, html_path)
-
-# Update the README with dataset information directly from JSON files
-update_readme_with_data(json_folder_path, readme_file_path, md_folder_path)
-
-# Generate index.html in the root directory
-generate_html_index(json_folder_path, '.')
+    if filename.endswith('.json') and filename.lower() not in ['template.json', 'datasets.json']:  # Skip template.json and datasets.json
+        print(f"Processing dataset {filename}...")
+        try:
+            json_path = os.path.join(json_folder_path, filename)
+            md_path = os.path.join(md_folder_path, filename.replace('.json', '.md'))
+            html_path = os.path.join(html_folder_path, filename.replace('.json', '.html'))
+            json_to_markdown(json_path, md_path)
+            json_to_html(json_path, html_path)
+        except Exception as e:
+            print(f"Error processing {filename}: {e}")

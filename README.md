@@ -8,11 +8,63 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 
 🤝 If you're interested in contributing, please refer to our [Contribution Guideline](contribution.md).
 
-🌱 This repository started as a fork from a project by [MakinaRocks](https://github.com/makinarocks/awesome-industrial-machine-datasets).
-
 ## Datasets Table
 
-Check the [HTML version](https://jonathanwvd.github.io/awesome-industrial-datasets/) for better navegation.
+| Dataset Name                                                                                                         | Labeled   | Time Series   | Simulation   | Additional Tags                                                                                                                                                                |
+|:---------------------------------------------------------------------------------------------------------------------|:----------|:--------------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Secure Water Treatment (SWaT) Dataset](markdown/secure_water_treatment_(swat)_dataset.md)                           | Yes       | Yes           | Yes          | Water treatment; Cybersecurity; Anomaly detection; Sensor data; Time-series data                                                                                               |
+| [Air Quality](markdown/air_quality.md)                                                                               | Yes       | Yes           | No           | Air quality monitoring; Sensor data; Pollution levels; Time-series analysis; Environmental data                                                                                |
+| [Electricity Load Diagrams 2011-2014](markdown/electricity_load_diagrams_2011-2014.md)                               | Yes       | Yes           | No           | Electricity consumption; Time-series data; Energy monitoring; Smart grid; Urban energy use                                                                                     |
+| [SML2010](markdown/sml2010.md)                                                                                       | Yes       | Yes           | No           | Domotic systems; Environmental monitoring; Home automation; Time-series data; Energy efficiency                                                                                |
+| [Combined Cycle Power Plant](markdown/combined_cycle_power_plant.md)                                                 | Yes       | No            | No           | Power plant; Energy output; Regression tasks; Environmental data; Multivariate data                                                                                            |
+| [Car Evaluation](markdown/car_evaluation.md)                                                                         | Yes       | No            | No           | Automobile evaluation; Decision-making; Categorical data; Multivariate data; Classification task                                                                               |
+| [Steel Plates Faults](markdown/steel_plates_faults.md)                                                               | Yes       | No            | No           | Steel plates; Fault detection; Manufacturing; Pattern recognition; Classification tasks                                                                                        |
+| [Wine Quality](markdown/wine_quality.md)                                                                             | Yes       | No            | No           | Wine quality; Physicochemical analysis; Sensory data; Classification tasks; Regression tasks                                                                                   |
+| [Steel Industry Energy Consumption](markdown/steel_industry_energy_consumption.md)                                   | No        | Yes           | No           | Energy consumption; Steel and iron production; Electricity usage data; CO2 emissions; Korea Electric Power Corporation                                                         |
+| [Appliances Energy Prediction](markdown/appliances_energy_prediction.md)                                             | No        | Yes           | No           | Indoor environment monitoring; ZigBee wireless network; Temperature data; Humidity data; Weather integration; Energy consumption; M-bus energy meters; Airport weather station |
+| [Robot Execution Failures](markdown/robot_execution_failures.md)                                                     | Yes       | Yes           | No           | Robotics; Failure detection; Force and torque data; Time-series analysis; Machine learning                                                                                     |
+| [Individual household electric power consumption](markdown/individual_household_electric_power_consumption.md)       | Yes       | Yes           | No           | Electric power consumption; Time-series data; Energy monitoring; Smart grid; Household energy use                                                                              |
+| [C-MAPSS Aircraft Engine Simulator Data](markdown/c-mapss_aircraft_engine_simulator_data.md)                         | Yes       | Yes           | Yes          | Aircraft engine; Simulator data; Engine performance; Sensor data; Prognostics                                                                                                  |
+| [Concrete Compressive Strength](markdown/concrete_compressive_strength.md)                                           | Yes       | No            | No           | Civil engineering; Material properties; Concrete strength; Regression data; Multivariate data                                                                                  |
+| [Energy efficiency](markdown/energy_efficiency.md)                                                                   | Yes       | No            | Yes          | Energy efficiency; Building simulation; Heating load; Cooling load; Environmental data                                                                                         |
+| [Electrical Grid Stability Simulated Data](markdown/electrical_grid_stability_simulated_data.md)                     | Yes       | No            | Yes          | Electrical grid; Stability analysis; Smart grid; Simulation data; Physics                                                                                                      |
+| [Condition monitoring of hydraulic systems](markdown/condition_monitoring_of_hydraulic_systems.md)                   | Yes       | Yes           | No           | Hydraulic systems; Condition monitoring; Sensor data; Time-series data; Mechanical systems                                                                                     |
+| [Gas sensor array under dynamic gas mixtures](markdown/gas_sensor_array_under_dynamic_gas_mixtures.md)               | Yes       | Yes           | No           | Gas sensors; Dynamic mixtures; Sensor data; Time-series data; Chemical sensors                                                                                                 |
+| [AI4I 2020 Predictive Maintenance Dataset](markdown/ai4i_2020_predictive_maintenance_dataset.md)                     | Yes       | Yes           | Yes          | Predictive maintenance; Synthetic data; Industry 4.0; Machine failure; Time-series data                                                                                        |
+| [Power Consumption of Tetouan City](markdown/power_consumption_of_tetouan_city.md)                                   | Yes       | Yes           | No           | Power consumption; Urban energy use; Time-series data; Weather data; Smart grid                                                                                                |
+| [Gas Sensor Array Drift at Different Concentrations](markdown/gas_sensor_array_drift_at_different_concentrations.md) | Yes       | Yes           | No           | Gas sensors; Sensor drift; Chemical sensing; Time-series data; Environmental monitoring                                                                                        |
+| [Superconductivity Data](markdown/superconductivity_data.md)                                                         | Yes       | No            | No           | Superconductors; Material properties; Physics; Chemistry; Critical temperature                                                                                                 |
+| [3W](markdown/3w.md)                                                                                                 | Yes       | Yes           | Both         | Oil and Gas; Real events; Fault detection; Multivariate data; Sensor data; Time-series analysis; Oil wells; Machine learning benchmark                                         |
+| [Beijing PM2.5 Data](markdown/beijing_pm2.5_data.md)                                                                 | Yes       | Yes           | No           | Air quality; PM2.5 concentration; Meteorological data; Environmental monitoring; Time-series data                                                                              |
+| [Urban Land Cover](markdown/urban_land_cover.md)                                                                     | Yes       | No            | No           | Urban land cover; Aerial imagery; Environmental monitoring; Remote sensing; Land use classification                                                                            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | Dataset Name                                                                                                                                                     | Labeled   | Time Series   | Simulation   | Additional Tags                        |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:--------------|:-------------|:---------------------------------------|

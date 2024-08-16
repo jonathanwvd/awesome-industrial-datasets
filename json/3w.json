@@ -1,65 +1,41 @@
 {
-    "name": "3w",
-    "table": [
-        {
-            "Parameter": "Data Set Characteristics",
-            "Value": "Multivariate and Time-Series"
-        },
-        {
-            "Parameter": "Attribute Characteristics",
-            "Value": "Real"
-        },
-        {
-            "Parameter": "Associated Tasks",
-            "Value": "Classification, Regression, Clustering"
-        },
-        {
-            "Parameter": "Number of Instances",
-            "Value": "1981"
-        },
-        {
-            "Parameter": "Number of Attributes",
-            "Value": "10"
-        },
-        {
-            "Parameter": "Date Donated",
-            "Value": "2019-07-01"
-        },
-        {
-            "Parameter": "Source",
-            "Value": "Github"
-        },
-        {
-            "Parameter": "Dataset size",
-            "Value": "681MB (compressed)"
-        }
-    ],
-    "sections": [
-        {
-            "title": "Data Set Information",
-            "content": "The 3W dataset consists of all CSV files in the subdirectories of the dataset directory and structured as detailed here.\n\nTo the best of its authors' knowledge, this is the first realistic and public dataset with rare undesirable real events in oil wells that can be readily used as a benchmark dataset for development of machine learning techniques related to inherent difficulties of actual data.\n\nFor more information about the theory behind this dataset, refer to the paper A realistic and public dataset with rare undesirable real events in oil wells published in the Journal of Petroleum Science and Engineering [link here](). Specific challenges (benchmarks) that practitioners and researchers can use together with the 3W dataset are defined and proposed in this paper."
-        },
-        {
-            "title": "Attribute Information",
-            "content": "The 3W dataset consists of 1,981 CSV files structured as follows. The subdirectory names are the instances' labels. Each file represents one instance. The filename reveals its source. All files are standardized as follow. There are one observation per line and one series per column. Columns are separated by commas and decimals are separated by periods. The first column contains timestamps, the last one reveals the observations' labels, and the other columns are the Multivariate Time Series (MTS) (i.e. the instance itself).\n\n- timestamp: observations - timestamps loaded into pandas - DataFrame as its index;\n- P-PDG: pressure variable at the - Permanent Downhole Gauge (PDG);\n- P-TPT: pressure variable at the - Temperature and Pressure - Transducer (TPT);\n- T-TPT: temperature variable at the Temperature and Pressure - Transducer (TPT);\n- P-MON-CKP: pressure variable upstream of the production choke (CKP);\n- T-JUS-CKP: temperature variable downstream of the production choke (CKP);\n- P-JUS-CKGL: pressure variable upstream of the gas lift choke (CKGL);\n- T-JUS-CKGL: temperature variable upstream of the gas lift choke (CKGL);\n- QGL: gas lift flow rate;\n- class: observations labels associated with three types of periods (normal, fault transient, and faulty steady state).\n\nOther information are also loaded into each pandas Dataframe:\n\n- label: instance label (event type);\n- well: well name. Hand-drawn and simulated instances have fixed names. Real instances have names masked with incremental id;\n- id: instance identifier.\n- Hand-drawn and simulated instances have incremental id. \n- Each real instance has an id generated from its first timestamp."
-        }
-    ],
-    "references": [
-        {
-            "text": "Github",
-            "link": "https://github.com/petrobras/3W/blob/master/3W_TOOLKIT_STRUCTURE.md"
-        },
-        {
-            "text": "Kaggle",
-            "link": "https://www.kaggle.com/datasets/afrniomelo/3w-dataset"
-        }
-    ],
+    "Name": "3W",
     "Labeled": "Yes",
     "Time Series": "Yes",
     "Simulation": "Both",
+    "Missing Values": "NIA",
+    "Dataset Characteristics": "Multivariate, Time-Series",
+    "Feature Type": "Real",
+    "Associated Tasks": "Regression",
+    "Number of Instances": "N/A",
+    "Number of Features": "N/A",
+    "Date Donated": "2022-04-06",
+    "Source": "GitHub",
+    "Summary":"Promotes development of ML algorithms for early detection and classification of undesirable events in offshore oil wells.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "This is the first repository published by Petrobras on GitHub. It supports the 3W Project, which aims to promote experimentation and development of Machine Learning-based approaches and algorithms for specific problems related to detection and classification of undesirable events that occur in offshore oil wells.\n\nThe 3W Project is based on the 3W Dataset, a database described in [this paper](https://doi.org/10.1016/j.petrol.2019.106223), and on the 3W Toolkit, a software package that promotes experimentation with the 3W Dataset for specific problems. The name **3W** was chosen because this dataset is composed of instances from ***3*** different sources and which contain undesirable events that occur in oil ***W***ells."
+        },
+        {
+            "Title": "Motivation",
+            "Content": "Timely detection of undesirable events in oil wells can help prevent production losses, reduce maintenance costs, environmental accidents, and human casualties. Losses related to this type of events can reach 5% of production in certain scenarios, especially in areas such as Flow Assurance and Artificial Lifting Methods. In terms of maintenance, the cost of a maritime probe, required to perform various types of operations, can exceed US $500,000 per day."
+        }
+    ],
     "Additional Tags": [
         "Oil and Gas",
         "Real events",
-        "Oil wells"
+        "Fault detection",
+        "Multivariate data",
+        "Sensor data",
+        "Time-series analysis",
+        "Oil wells",
+        "Machine learning benchmark"
+    ],
+    "References": [
+        {
+            "Text": "GitHub",
+            "Link": "https://github.com/petrobras/3W/tree/main"
+        }
     ]
 }

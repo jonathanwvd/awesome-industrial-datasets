@@ -1,0 +1,34 @@
+{
+    "Name": "Beijing PM2.5 Data",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "Yes",
+    "Dataset Characteristics": "Multivariate, Time-Series",
+    "Feature Type": "Integer, Real",
+    "Associated Tasks": "Regression",
+    "Number of Instances": "43824",
+    "Number of Features": "11",
+    "Date Donated": "2017-01-18",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "This hourly data set contains the PM2.5 data of US Embassy in Beijing. Meanwhile, meteorological data from Beijing Capital International Airport are also included.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "The data's time period is between Jan 1st, 2010 to Dec 31st, 2014. Missing data are denoted as 'NA'."
+        }
+    ],
+    "Additional Tags": [
+        "Air quality",
+        "PM2.5 concentration",
+        "Meteorological data",
+        "Environmental monitoring",
+        "Time-series data"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data"
+        }
+    ]
+}

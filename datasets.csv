@@ -1,0 +1,99 @@
+Dataset Name,Webpage
+AI4I 2020 Predictive Maintenance Dataset,https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset
+Air Quality,https://archive.ics.uci.edu/ml/datasets/Air+Quality
+Concrete Compressive Strength,https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength
+Condition monitoring of hydraulic systems,https://archive.ics.uci.edu/ml/datasets/Condition+monitoring+of+hydraulic+systems
+Electrical Grid Stability Simulated Data,https://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data
+Energy efficiency,https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
+Gas sensor array under dynamic gas mixtures,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures
+Power Consumption of TETUAN City,https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city
+Appliances energy prediction,https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
+Electricity Load Diagrams 2011-2014,https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
+Individual household electric power consumption,https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
+SML2010,https://archive.ics.uci.edu/ml/datasets/SML2010
+Superconductivity Data,https://archive.ics.uci.edu/dataset/464/superconductivty+data
+
+Urban Land Cover,https://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover
+Car Evaluation,https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+Wine Quality,https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+Combined Cycle Power Plant,https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
+Beijing PM2.5 Data,https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data
+Robot Execution Failures,https://archive.ics.uci.edu/ml/datasets/Robot+Execution+Failures
+Steel Plates Faults,https://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults
+Energy Efficiency,https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
+Gas Sensor Array Drift at Different Concentrations,https://archive.ics.uci.edu/dataset/270/gas+sensor+array+drift+dataset+at+different+concentrations
+Secure Water Treatment (SWaT) Dataset,https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/
+Water Distribution (WADI) Dataset,https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/
+PHM Data Challenge,https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2015/phm-data-challenge-3/
+Severstal Steel Defect Detection,https://www.kaggle.com/c/severstal-steel-defect-detection/data
+Bosch Production Line Performance,https://www.kaggle.com/c/bosch-production-line-performance/data
+iV2V and iV2I+ Industrial Datasets,https://github.com/fraunhoferhhi/ai4mobile-industrial
+Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1
+Versatile Production Dataset,https://www.kaggle.com/datasets/inIT-OWL/versatileproductionsystem
+Genesis Pick-and-Place Demonstrator Dataset,https://www.kaggle.com/datasets/inIT-OWL/genesis-demonstrator-data-for-machine-learning
+High Storage System Data for Energy Optimization,https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization
+Concrete Crack Images for Classification,https://data.mendeley.com/datasets/5y9wdsg2zt/1
+Maintenance of Naval Propulsion Plants Data Set,https://www.kaggle.com/datasets/elikplim/maintenance-of-naval-propulsion-plants-data-set
+Wind Turbine Scada Dataset,https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset
+pump_sensor_data,https://www.kaggle.com/nphantawee/pump-sensor-data
+3W,https://github.com/petrobras/3W/
+Control loop datasets,https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/
+ECO dataset,http://vs.inf.ethz.ch/res/show.html?what=eco-data
+Global Power Plant,https://datasets.wri.org/dataset/globalpowerplantdatabase
+UK-DALE dataset,http://jack-kelly.com/data/
+SECOM,http://archive.ics.uci.edu/ml/datasets/secom
+Data-driven prediction of battery cycle life before capacity degradation,https://data.matr.io/1/projects/5c48dd2bc625d700019f3204
+Hill-Valley,https://archive.ics.uci.edu/ml/datasets/Hill-Valley
+ISDB - International Stiction Data Base,https://sites.ualberta.ca/~bhuang/Stiction-Book.htm
+Steel Industry Energy Consumption,https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption
+CNC Mill Tool Wear,https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data
+APS Failure at Scania Trucks Data Set,https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
+SACAC,https://sacac.org.za/resources/
+Oscillation detection artificial dataset,https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/
+Gas sensor arrays in open sampling settings,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+arrays+in+open+sampling+settings
+Panasonic 18650PF Li-ion Battery Data,https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429
+Superconductivty Data,http://archive.ics.uci.edu/ml/datasets/Superconductivty+Data
+Gas sensor array under dynamic gas mixtures,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures
+Combined Cycle Power Plant,https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
+GreenD,https://sourceforge.net/projects/greend/
+Condition Based Maintenance of Naval Propulsion Systems,https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants#
+Gas sensor array temperature modulation,https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation
+Mechanical Analysis,https://archive.ics.uci.edu/dataset/64/mechanical+analysis
+Chemical Composition of Ceramic Samples,https://archive.ics.uci.edu/dataset/583/chemical+composition+of+ceramic+samples
+Chemical Production India 2013 to 2020, https://www.kaggle.com/datasets/timontunes/chemicalproduction2013to2020
+Global Power-Plants,https://www.kaggle.com/datasets/ramjasmaurya/global-powerplants
+Solar Power Generation Data,https://www.kaggle.com/datasets/anikannal/solar-power-generation-data
+Renewable power plants,https://www.kaggle.com/datasets/eugeniyosetrov/renewable-power-plants
+Brent Oil Prices,https://www.kaggle.com/datasets/mabusalah/brent-oil-prices
+Oil Storage Tanks,https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks
+U.S. Crude Oil Imports,https://www.kaggle.com/datasets/alistairking/u-s-crude-oil-imports
+OECD Data - Crude Oil Production,https://www.kaggle.com/datasets/caesarmario/oecd-data-crude-oil-production
+Oil well,https://www.kaggle.com/datasets/ruslanzalevskikh/oil-well
+Oil and Gas,https://www.kaggle.com/datasets/raspberrypie/oil-and-gas
+Business and Industry Reports,https://www.kaggle.com/datasets/census/business-and-industry-reports
+Steel Industry datasets,https://www.kaggle.com/datasets/ayushparwal2026/steel-industry-datasets
+Steel Dataset,https://www.kaggle.com/datasets/nimapourmoradi/steel-dataset
+Parts Manufacturing,https://www.kaggle.com/datasets/gabrielsantello/parts-manufacturing-industry-dataset
+Green House Gas Produce by Different Industry,https://www.kaggle.com/datasets/rafsunahmad/green-house-gas-produce-by-different-industry
+Manufacturing Defects,https://www.kaggle.com/datasets/gabrielsantello/manufacturing-defects-industry-dataset
+Manufacturing cost,https://www.kaggle.com/datasets/vinicius150987/manufacturing-cost
+Vehicle Manufacturing Dataset,https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset
+Multi-stage continuous-flow manufacturing process,https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process
+Civil Engineering: Cement Manufacturing Dataset,https://www.kaggle.com/datasets/vinayakshanawad/cement-manufacturing-concrete-dataset
+Predicting Manufacturing Defects Dataset,https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset
+casting product image data for quality inspection,https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product
+Quality Prediction in a Mining Process,https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process
+Detecting Anomalies in Wafer Manufacturing,https://www.kaggle.com/datasets/arbazkhan971/anomaly-detection
+Mercedes-Benz Greener Manufacturing,https://www.kaggle.com/datasets/swetashetye/mercedesbenz-greener-manufacturing
+Industrial Safety and Health Analytics Database,https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database
+Top Defense Manufacturers,https://www.kaggle.com/datasets/surajjha101/top-defense-manufacturers
+Productivity Prediction of Garment Employees,https://archive.ics.uci.edu/dataset/597/productivity+prediction+of+garment+employees
+The Reference Energy Disaggregation Data Set (REDD),https://tokhub.github.io/dbecd/links/redd.html
+Prognostics Data Repository,https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+Milling Wear,https://data.nasa.gov/Raw-Data/Milling-Wear/vjv9-9f3x/data
+NASA Bearing Dataset,https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset
+CMAPSS Jet Engine Simulated Data,https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data
+C-MAPSS Aircraft Engine Simulator Data,https://data.nasa.gov/dataset/C-MAPSS-Aircraft-Engine-Simulator-Data/xaut-bemq/about_data
+Li-ion Battery Aging Datasets,https://c3.ndc.nasa.gov/dashlink/resources/133/
+Turbofan engine degradation simulation data set,https://c3.ndc.nasa.gov/dashlink/resources/139/
+PHM 2008 Challenge,https://data.nasa.gov/Raw-Data/PHM-2008-Challenge/nk8v-ckry/data

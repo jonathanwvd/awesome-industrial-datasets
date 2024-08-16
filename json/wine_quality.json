@@ -1,61 +1,34 @@
 {
-    "name": "Wine Quality",
-    "table": [
-        {
-            "Parameter": "Data Set Characteristics",
-            "Value": "Multivariate"
-        },
-        {
-            "Parameter": "Attribute Characteristics",
-            "Value": "Real"
-        },
-        {
-            "Parameter": "Associated Tasks",
-            "Value": "Classification, Regression"
-        },
-        {
-            "Parameter": "Number of Instances",
-            "Value": "4898"
-        },
-        {
-            "Parameter": "Number of Attributes",
-            "Value": "12"
-        },
-        {
-            "Parameter": "Date Donated",
-            "Value": "2009-10-07"
-        },
-        {
-            "Parameter": "Source",
-            "Value": "UCI Machine Learning Repository"
-        },
-        {
-            "Parameter": "Dataset size",
-            "Value": "351 KB"
-        }
-    ],
-    "sections": [
-        {
-            "title": "Data Set Information",
-            "content": "The two datasets are related to red and white variants of the Portuguese \"Vinho Verde\" wine. For more details, consult: [Web Link](http://www.vinhoverde.pt/en/) or the reference [Cortez et al., 2009](). Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).\n\nThese datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, we are not sure if all input variables are relevant. So it could be interesting to test feature selection methods."
-        },
-        {
-            "title": "Attribute Information",
-            "content": "Input variables (based on physicochemical tests):\n* 1 - fixed acidity\n* 2 - volatile acidity\n* 3 - citric acid\n* 4 - residual sugar\n* 5 - chlorides\n* 6 - free sulfur dioxide\n* 7 - total sulfur dioxide\n* 8 - density\n* 9 - pH\n* 10 - sulphates\n* 11 - alcohol\n\nOutput variable (based on sensory data):\n* 12 - quality (score between 0 and 10)"
-        }
-    ],
-    "references": [
-        {
-            "text": "UCI",
-            "link": "https://archive.ics.uci.edu/ml/datasets/wine+quality"
-        }
-    ],
+    "Name": "Wine Quality",
     "Labeled": "Yes",
     "Time Series": "No",
     "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Multivariate",
+    "Feature Type": "Real",
+    "Associated Tasks": "Classification, Regression",
+    "Number of Instances": "4898",
+    "Number of Features": "11",
+    "Date Donated": "2009-10-06",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009], http://www3.dsi.uminho.pt/pcortez/wine/).",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "The two datasets are related to red and white variants of the Portuguese 'Vinho Verde' wine. For more details, consult: http://www.vinhoverde.pt/en/ or the reference [Cortez et al., 2009].  Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.). \nThese datasets can be viewed as classification or regression tasks.  The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, we are not sure if all input variables are relevant. So it could be interesting to test feature selection methods."
+        }
+    ],
     "Additional Tags": [
-        "Chemical",
-        "Vinho Verde",
-        "Portugal"
+        "Wine quality",
+        "Physicochemical analysis",
+        "Sensory data",
+        "Classification tasks",
+        "Regression tasks"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/ml/datasets/Wine+Quality"
+        }
     ]
 }

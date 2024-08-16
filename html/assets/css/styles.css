@@ -1,0 +1,30 @@
+.container {
+    margin-top: 20px;
+}
+
+#datasetTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#datasetTable th, #datasetTable td {
+    padding: 10px;
+    text-align: left;
+}
+
+.dataTables_wrapper .dt-buttons {
+    margin-bottom: 10px;
+}
+
+.btn-check:checked + .btn-outline-primary {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.toggle-column {
+    margin-right: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}

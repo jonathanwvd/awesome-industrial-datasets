@@ -1,0 +1,34 @@
+{
+    "Name": "Gas Sensor Array Drift at Different Concentrations",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Multivariate, Time-Series",
+    "Feature Type": "Real",
+    "Associated Tasks": "Classification, Regression, Clustering",
+    "Number of Instances": "13910",
+    "Number of Features": "128",
+    "Date Donated": "2013-10-22",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "This archive contains 13910 measurements from 16 chemical sensors exposed to 6 different gases at various concentration levels.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "This dataset contains 13,910 measurements from 16 chemical sensors exposed to 6 gases at different concentration levels. This dataset is an extension of the Gas Sensor Array Drift Dataset (http://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset), now providing information about the concentration levels at which the sensors were exposed for each measurement. The primary purpose of making this dataset freely accessible online is to provide an extensive dataset to the sensor and artificial intelligence research communities to develop and test strategies to solve a wide variety of tasks, including sensor drift, classification, regression, among others.\n\nThe dataset can be used exclusively for research purposes. Commercial purposes are fully excluded. Citation of both Vergara et al. 'Chemical gas sensor drift compensation using classifier ensembles' and Rodriguez-Lujan et al. 'On the calibration of sensor arrays for pattern recognition using the minimal number of experiments' is required (see below).\n\nThe dataset was gathered during the period of January 2008 to February 2011 (36 months) in a gas delivery platform facility situated at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. The measurement system platform provides versatility for obtaining the desired concentrations of the chemical substances of interest with high accuracy and in a highly reproducible manner, thereby minimizing common mistakes caused by human intervention and making it possible to exclusively focus on the chemical sensors. See reference 1 for more details on the experimental setup.\n\nThe resulting dataset comprises recordings from six distinct pure gaseous substances, namely Ammonia, Acetaldehyde, Acetone, Ethylene, Ethanol, and Toluene, dosed at a wide variety of concentration levels in the intervals (50,1000), (5,500), (12,1000), (10,300), (10,600), and (10,100) ppmv, respectively."
+        }
+    ],
+    "Additional Tags": [
+        "Gas sensors",
+        "Sensor drift",
+        "Chemical sensing",
+        "Time-series data",
+        "Environmental monitoring"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/dataset/270/gas+sensor+array+drift+dataset+at+different+concentrations"
+        }
+    ]
+}

@@ -1,41 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Industrial Datasets</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- DataTables CSS -->
+    <link href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="html/assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center">Awesome Industrial Datasets</h1>
 
-    <html>
-    <head>
-        <title>Dataset Index</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
-        <script>
-        $(document).ready(function() {
-            $("table").tablesorter();
-            $('#searchInput').on('keyup', function() {
-                var value = $(this).val().toLowerCase();
-                $("table tbody tr").filter(function() {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-        </script>
-    </head>
-    <body>
-    <div class="container">
-        <h1 class="mt-5">Dataset Index</h1>
-        <input class="form-control mb-3" id="searchInput" type="text" placeholder="Search by tags...">
-        <table class="table table-bordered mt-3 tablesorter">
-            <thead class="thead-light">
+        <!-- Column Toggle Controls -->
+        <div class="mb-3">
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-labeled" checked>
+                <label class="form-check-label" for="toggle-labeled">Labeled</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-time-series" checked>
+                <label class="form-check-label" for="toggle-time-series">Time Series</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-simulation" checked>
+                <label class="form-check-label" for "toggle-simulation">Simulation</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-missing-values">
+                <label class="form-check-label" for="toggle-missing-values">Missing Values</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-dataset-characteristics">
+                <label class="form-check-label" for="toggle-dataset-characteristics">Dataset Characteristics</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-associated-tasks">
+                <label class="form-check-label" for="toggle-associated-tasks">Associated Tasks</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-number-instances">
+                <label class="form-check-label" for="toggle-number-instances">Number of Instances</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-number-features">
+                <label class="form-check-label" for="toggle-number-features">Number of Features</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-date-donated">
+                <label class="form-check-label" for="toggle-date-donated">Date Donated</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="toggle-summary">
+                <label class="form-check-label" for="toggle-summary">Summary</label>
+            </div>
+        </div>
+
+        <!-- Dataset Table -->
+        <table id="dataset-table" class="table table-striped table-bordered" style="width:100%">
+            <thead>
                 <tr>
                     <th>Dataset Name</th>
                     <th>Labeled</th>
                     <th>Time Series</th>
                     <th>Simulation</th>
                     <th>Additional Tags</th>
+                    <th>Missing Values</th>
+                    <th>Dataset Characteristics</th>
+                    <th>Associated Tasks</th>
+                    <th>Number of Instances</th>
+                    <th>Number of Features</th>
+                    <th>Date Donated</th>
+                    <th>Summary</th>
                 </tr>
             </thead>
             <tbody>
-    <tr><td><a href='html/combined_cycle_power_plant.html'>Combined Cycle Power Plant</a></td><td>Yes</td><td>No</td><td>No</td><td>Power, 6 years data</td></tr><tr><td><a href='html/control_loop.html'>Control Loop</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/oscillation_detection_artificial_dataset.html'>Oscillation detection artificial dataset</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Control Loop, Simulated, Oscillatory</td></tr><tr><td><a href='html/steel_plates_faults.html'>Steel Plates Faults</a></td><td>Yes</td><td>No</td><td>No</td><td>Steel, 7 fault types</td></tr><tr><td><a href='html/wine_quality.html'>Wine Quality</a></td><td>Yes</td><td>No</td><td>No</td><td>Chemical, Vinho Verde, Portugal</td></tr><tr><td><a href='html/phm08_challenge_on_this_dataset.html'>PHM08 Challenge on this dataset</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/hill-valley.html'>Hill-Valley</a></td><td>Yes</td><td>No</td><td>No</td><td>Others, Pattern detection</td></tr><tr><td><a href='html/naval_propulsion_plants.html'>Naval Propulsion Plants</a></td><td>Yes</td><td>No</td><td>No</td><td>Mechanical, CODLAG, Naval</td></tr><tr><td><a href='html/steel_industry_energy_consumption.html'>Steel Industry Energy Consumption</a></td><td>Yes</td><td>No</td><td>No</td><td>Steel, Smart industry, South Korea</td></tr><tr><td><a href='html/experiments_on_li-ion_batteries.html'>Experiments on Li-ion batteries</a></td><td>No</td><td>Yes</td><td>No</td><td>Battery, NASA, Impedance</td></tr><tr><td><a href='html/oscilation_detection_artificial_dataset_(odads).html'>Oscilation detection artificial dataset (ODADS)</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/greend.html'>GREEND</a></td><td>Implicit</td><td>Yes</td><td>No</td><td>Power, Per device, Austria and Italy</td></tr><tr><td><a href='html/appliance_energy.html'>Appliance Energy</a></td><td>Yes</td><td>Yes</td><td>No</td><td>Power, Energy use, Low energy building</td></tr><tr><td><a href='html/phm_data_challenge_17.html'>PHM Data Challenge 17</a></td><td>Implicit</td><td>Yes</td><td>Yes</td><td>Mechanical, Train car fault detection</td></tr><tr><td><a href='html/global_power_plant.html'>Global Power Plant</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/secom.html'>secom</a></td><td>Yes</td><td>Yes</td><td>No</td><td>Semicon, Semi-conductor manufacturing</td></tr><tr><td><a href='html/c-mapss.html'>C-MAPSS</a></td><td>Implicit</td><td>Yes</td><td>Yes</td><td>Mechanical, Engine degradation</td></tr><tr><td><a href='html/gas_sensor_arrays_in_open_sampling_settings.html'>Gas sensor arrays in open sampling settings</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Chemical, 10 chemicals, Wind tunnel</td></tr><tr><td><a href='html/data-driven_prediction_of_battery_cycle_life_before_capacity_degradation.html'>Data-driven prediction of battery cycle life before capacity degradation</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/wm-811k(lswmd).html'>WM-811K(LSWMD)</a></td><td>Yes</td><td>No</td><td>No</td><td>Semicon, Wafer fault detection</td></tr><tr><td><a href='html/eco_dataset.html'>ECO dataset</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/uk_erc_dataset.html'>UK ERC dataset</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/isdb.html'>ISDB</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/gas_sensor_array_drift.html'>Gas Sensor Array Drift</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Chemical, 16 sensors, 6 gases</td></tr><tr><td><a href='html/cnc_mill_tool_wear.html'>CNC Mill Tool Wear</a></td><td>Meta-only</td><td>Yes</td><td>Yes</td><td>Mechanical, Tool condition, CNC</td></tr><tr><td><a href='html/redd.html'>REDD</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/sacac.html'>SACAC</a></td><td>Yes</td><td>Yes</td><td>No</td><td>Control Loop, Control loop performance</td></tr><tr><td><a href='html/phm_data_challenge_18.html'>PHM Data Challenge 18</a></td><td>Yes</td><td>Yes</td><td>No</td><td>Semicon, Etching tool fault detection</td></tr><tr><td><a href='html/blue_dataset.html'>BLUE dataset</a></td><td></td><td></td><td></td><td></td></tr><tr><td><a href='html/panasonic_18650pf_li-ion_battery_data.html'>Panasonic 18650PF Li-ion Battery Data</a></td><td>No</td><td>Yes</td><td>No</td><td>Battery</td></tr><tr><td><a href='html/aps_system_failures.html'>APS System Failures</a></td><td>Yes</td><td>No</td><td>No</td><td>Others, APS system, Component failures</td></tr><tr><td><a href='html/3w.html'>3w</a></td><td>Yes</td><td>Yes</td><td>Both</td><td>Oil and Gas, Real events, Oil wells</td></tr><tr><td><a href='html/siso-raw.html'>SISO-RAW</a></td><td>No</td><td>Yes</td><td>No</td><td>Control Loop, 52 loops, Oil and gas</td></tr><tr><td><a href='html/dynamic_gas_mixtures.html'>Dynamic Gas Mixtures</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Chemical, 16 sensors, Two gas mixtures</td></tr><tr><td><a href='html/superconductivity_dataset.html'>Superconductivity Dataset</a></td><td></td><td></td><td></td><td></td></tr>
+                <!-- JSON data will be dynamically injected here -->
             </tbody>
         </table>
     </div>
-    </body>
-    </html>
+
+    <!-- JSON data injected by generate_documentation.py -->
     
+
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var jsonData = JSON.parse(document.getElementById("dataset-json").textContent);
+
+            // Initialize DataTable with correct column visibility
+            var table = $('#dataset-table').DataTable({
+                data: jsonData,
+                columns: [
+                    { data: "Dataset Name", render: function (data, type, row) {
+                        return '<a href="' + row.Link + '">' + data + '</a>';
+                    }},
+                    { data: "Labeled", visible: $("#toggle-labeled").prop("checked") },
+                    { data: "Time Series", visible: $("#toggle-time-series").prop("checked") },
+                    { data: "Simulation", visible: $("#toggle-simulation").prop("checked") },
+                    { data: "Additional Tags", visible: true },
+                    { data: "Missing Values", visible: $("#toggle-missing-values").prop("checked") },
+                    { data: "Dataset Characteristics", visible: $("#toggle-dataset-characteristics").prop("checked") },
+                    { data: "Associated Tasks", visible: $("#toggle-associated-tasks").prop("checked") },
+                    { data: "Number of Instances", visible: $("#toggle-number-instances").prop("checked") },
+                    { data: "Number of Features", visible: $("#toggle-number-features").prop("checked") },
+                    { data: "Date Donated", visible: $("#toggle-date-donated").prop("checked") },
+                    { data: "Summary", visible: $("#toggle-summary").prop("checked") }
+                ],
+                responsive: true,
+                paging: true,
+                pageLength: 50
+            });
+
+            // Column toggle functionality
+            $("#toggle-labeled").change(function () {
+                table.column(1).visible($(this).prop("checked"));
+            });
+            $("#toggle-time-series").change(function () {
+                table.column(2).visible($(this).prop("checked"));
+            });
+            $("#toggle-simulation").change(function () {
+                table.column(3).visible($(this).prop("checked"));
+            });
+            $("#toggle-missing-values").change(function () {
+                table.column(5).visible($(this).prop("checked"));
+            });
+            $("#toggle-dataset-characteristics").change(function () {
+                table.column(6).visible($(this).prop("checked"));
+            });
+            $("#toggle-associated-tasks").change(function () {
+                table.column(7).visible($(this).prop("checked"));
+            });
+            $("#toggle-number-instances").change(function () {
+                table.column(8).visible($(this).prop("checked"));
+            });
+            $("#toggle-number-features").change(function () {
+                table.column(9).visible($(this).prop("checked"));
+            });
+            $("#toggle-date-donated").change(function () {
+                table.column(10).visible($(this).prop("checked"));
+            });
+            $("#toggle-summary").change(function () {
+                table.column(11).visible($(this).prop("checked"));
+            });
+        });
+    </script>
+<script type="application/json" id="dataset-json">
+[
+    {
+        "Dataset Name": "Secure Water Treatment (SWaT) Dataset",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "Yes",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Classification, Anomaly Detection",
+        "Number of Instances": "N/A",
+        "Number of Features": "51",
+        "Date Donated": "2015-12-21",
+        "Summary": "SWaT is an operational testbed for water treatment, providing data under normal and attack scenarios for cybersecurity research.",
+        "Additional Tags": "Water treatment; Cybersecurity; Anomaly detection; Sensor data; Time-series data",
+        "Link": "html/pages/secure_water_treatment_swat_dataset.html"
+    },
+    {
+        "Dataset Name": "Air Quality",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "Yes",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "9358",
+        "Number of Features": "15",
+        "Date Donated": "2016-03-22",
+        "Summary": "Contains the responses of a gas multisensor device deployed on the field in an Italian city. Hourly responses averages are recorded along with gas concentrations references from a certified analyzer.",
+        "Additional Tags": "Air quality monitoring; Sensor data; Pollution levels; Time-series analysis; Environmental data",
+        "Link": "html/pages/air_quality.html"
+    },
+    {
+        "Dataset Name": "Electricity Load Diagrams 2011-2014",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Time-Series",
+        "Associated Tasks": "Regression, Clustering",
+        "Number of Instances": "370",
+        "Number of Features": "140256",
+        "Date Donated": "2015-03-12",
+        "Summary": "This data set contains electricity consumption of 370 points/clients.",
+        "Additional Tags": "Electricity consumption; Time-series data; Energy monitoring; Smart grid; Urban energy use",
+        "Link": "html/pages/electricity_load_diagrams_2011_2014.html"
+    },
+    {
+        "Dataset Name": "SML2010",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "Yes",
+        "Dataset Characteristics": "Multivariate, Sequential, Time-Series, Text",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "4137",
+        "Number of Features": "24",
+        "Date Donated": "2014-01-08",
+        "Summary": "This dataset is collected from a monitor system mounted in a domotic house. It corresponds to approximately 40 days of monitoring data.",
+        "Additional Tags": "Domotic systems; Environmental monitoring; Home automation; Time-series data; Energy efficiency",
+        "Link": "html/pages/sml2010.html"
+    },
+    {
+        "Dataset Name": "Combined Cycle Power Plant",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "9568",
+        "Number of Features": "4",
+        "Date Donated": "2014-03-25",
+        "Summary": "The dataset contains 9568 data points collected from a Combined Cycle Power Plant over 6 years (2006-2011), when the plant was set to work with full load.",
+        "Additional Tags": "Power plant; Energy output; Regression tasks; Environmental data; Multivariate data",
+        "Link": "html/pages/combined_cycle_power_plant.html"
+    },
+    {
+        "Dataset Name": "Car Evaluation",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Classification",
+        "Number of Instances": "1728",
+        "Number of Features": "6",
+        "Date Donated": "1997-05-31",
+        "Summary": "Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods.",
+        "Additional Tags": "Automobile evaluation; Decision-making; Categorical data; Multivariate data; Classification task",
+        "Link": "html/pages/car_evaluation.html"
+    },
+    {
+        "Dataset Name": "Steel Plates Faults",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Classification",
+        "Number of Instances": "1941",
+        "Number of Features": "27",
+        "Date Donated": "2010-10-25",
+        "Summary": "A dataset of steel plates faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.",
+        "Additional Tags": "Steel plates; Fault detection; Manufacturing; Pattern recognition; Classification tasks",
+        "Link": "html/pages/steel_plates_faults.html"
+    },
+    {
+        "Dataset Name": "Wine Quality",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Classification, Regression",
+        "Number of Instances": "4898",
+        "Number of Features": "11",
+        "Date Donated": "2009-10-06",
+        "Summary": "Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009], http://www3.dsi.uminho.pt/pcortez/wine/).",
+        "Additional Tags": "Wine quality; Physicochemical analysis; Sensory data; Classification tasks; Regression tasks",
+        "Link": "html/pages/wine_quality.html"
+    },
+    {
+        "Dataset Name": "Steel Industry Energy Consumption",
+        "Labeled": "No",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "35040",
+        "Number of Features": "9",
+        "Date Donated": "2023-08-13",
+        "Summary": "The data is collected from a smart small-scale steel industry in South Korea.",
+        "Additional Tags": "Energy consumption; Steel and iron production; Electricity usage data; CO2 emissions; Korea Electric Power Corporation",
+        "Link": "html/pages/steel_industry_energy_consumption.html"
+    },
+    {
+        "Dataset Name": "Appliances Energy Prediction",
+        "Labeled": "No",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "19735",
+        "Number of Features": "28",
+        "Date Donated": "2017-02-14",
+        "Summary": "Experimental data used to create regression models of appliances energy use in a low energy building.",
+        "Additional Tags": "Indoor environment monitoring; ZigBee wireless network; Temperature data; Humidity data; Weather integration; Energy consumption; M-bus energy meters; Airport weather station",
+        "Link": "html/pages/appliances_energy_prediction.html"
+    },
+    {
+        "Dataset Name": "Robot Execution Failures",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Classification",
+        "Number of Instances": "463",
+        "Number of Features": "90",
+        "Date Donated": "1999-04-22",
+        "Summary": "This dataset contains force and torque measurements on a robot after failure detection. Each failure is characterized by 15 force/torque samples collected at regular time intervals.",
+        "Additional Tags": "Robotics; Failure detection; Force and torque data; Time-series analysis; Machine learning",
+        "Link": "html/pages/robot_execution_failures.html"
+    },
+    {
+        "Dataset Name": "Individual household electric power consumption",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "Yes",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Regression, Clustering",
+        "Number of Instances": "2075259",
+        "Number of Features": "9",
+        "Date Donated": "2012-08-29",
+        "Summary": "Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.",
+        "Additional Tags": "Electric power consumption; Time-series data; Energy monitoring; Smart grid; Household energy use",
+        "Link": "html/pages/individual_household_electric_power_consumption.html"
+    },
+    {
+        "Dataset Name": "C-MAPSS Aircraft Engine Simulator Data",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "Yes",
+        "Missing Values": "NIA",
+        "Dataset Characteristics": "Time-Series, Multivariate",
+        "Associated Tasks": "Regression, Classification",
+        "Number of Instances": "N/A",
+        "Number of Features": "N/A",
+        "Date Donated": "NIA",
+        "Summary": "This dataset was generated with the C-MAPSS simulator, a tool for the simulation of realistic large commercial turbofan engine data. The data consists of a series of flights with a reasonable linear transition period to allow the engine to change from one flight condition to the next. The fault was injected at a given time in one of the flights and persists throughout the remaining flights, effectively increasing the age of the engine. The intent is to identify which flight and when in the flight the fault occurred.",
+        "Additional Tags": "Aircraft engine; Simulator data; Engine performance; Sensor data; Prognostics",
+        "Link": "html/pages/c-mapss_aircraft_engine_simulator_data.html"
+    },
+    {
+        "Dataset Name": "Concrete Compressive Strength",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "1030",
+        "Number of Features": "8",
+        "Date Donated": "2007-08-02",
+        "Summary": "Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.",
+        "Additional Tags": "Civil engineering; Material properties; Concrete strength; Regression data; Multivariate data",
+        "Link": "html/pages/concrete_compressive_strength.html"
+    },
+    {
+        "Dataset Name": "Energy efficiency",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "Yes",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Classification, Regression",
+        "Number of Instances": "768",
+        "Number of Features": "8",
+        "Date Donated": "2012-11-29",
+        "Summary": "This study looked into assessing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters.",
+        "Additional Tags": "Energy efficiency; Building simulation; Heating load; Cooling load; Environmental data",
+        "Link": "html/pages/energy_efficiency.html"
+    },
+    {
+        "Dataset Name": "Electrical Grid Stability Simulated Data",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "Yes",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Classification, Regression",
+        "Number of Instances": "10000",
+        "Number of Features": "12",
+        "Date Donated": "2018-11-15",
+        "Summary": "The local stability analysis of the 4-node star system (electricity producer is in the center) implementing Decentral Smart Grid Control concept.",
+        "Additional Tags": "Electrical grid; Stability analysis; Smart grid; Simulation data; Physics",
+        "Link": "html/pages/electrical_grid_stability_simulated_data.html"
+    },
+    {
+        "Dataset Name": "Condition monitoring of hydraulic systems",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Classification, Regression",
+        "Number of Instances": "2205",
+        "Number of Features": "43680",
+        "Date Donated": "2018-04-25",
+        "Summary": "The data set addresses the condition assessment of a hydraulic test rig based on multi sensor data. Four fault types are superimposed with several severity grades impeding selective quantification.",
+        "Additional Tags": "Hydraulic systems; Condition monitoring; Sensor data; Time-series data; Mechanical systems",
+        "Link": "html/pages/condition_monitoring_of_hydraulic_systems.html"
+    },
+    {
+        "Dataset Name": "Gas sensor array under dynamic gas mixtures",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Classification, Regression",
+        "Number of Instances": "417850",
+        "Number of Features": "19",
+        "Date Donated": "2015-03-1",
+        "Summary": "The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.",
+        "Additional Tags": "Gas sensors; Dynamic mixtures; Sensor data; Time-series data; Chemical sensors",
+        "Link": "html/pages/gas_sensor_array_under_dynamic_gas_mixtures.html"
+    },
+    {
+        "Dataset Name": "AI4I 2020 Predictive Maintenance Dataset",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "Yes",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Classification, Regression, Causal-Discovery",
+        "Number of Instances": "10000",
+        "Number of Features": "6",
+        "Date Donated": "2020-08-29",
+        "Summary": "The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry.",
+        "Additional Tags": "Predictive maintenance; Synthetic data; Industry 4.0; Machine failure; Time-series data",
+        "Link": "html/pages/ai4i_2020_predictive_maintenance_dataset.html"
+    },
+    {
+        "Dataset Name": "Power Consumption of Tetouan City",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "52417",
+        "Number of Features": "6",
+        "Date Donated": "2023-08-13",
+        "Summary": "This dataset is related to power consumption of three different distribution networks of Tetouan city which is located in north Morocco.",
+        "Additional Tags": "Power consumption; Urban energy use; Time-series data; Weather data; Smart grid",
+        "Link": "html/pages/power_consumption_of_tetuan_city.html"
+    },
+    {
+        "Dataset Name": "Gas Sensor Array Drift at Different Concentrations",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Classification, Regression, Clustering",
+        "Number of Instances": "13910",
+        "Number of Features": "128",
+        "Date Donated": "2013-10-22",
+        "Summary": "This archive contains 13910 measurements from 16 chemical sensors exposed to 6 different gases at various concentration levels.",
+        "Additional Tags": "Gas sensors; Sensor drift; Chemical sensing; Time-series data; Environmental monitoring",
+        "Link": "html/pages/gas_sensor_array_drift_at_different_concentrations.html"
+    },
+    {
+        "Dataset Name": "Superconductivity Data",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "21263",
+        "Number of Features": "81",
+        "Date Donated": "2018-10-11",
+        "Summary": "Two file s contain data on 21263 superconductors and their relevant features.",
+        "Additional Tags": "Superconductors; Material properties; Physics; Chemistry; Critical temperature",
+        "Link": "html/pages/superconductivity_data.html"
+    },
+    {
+        "Dataset Name": "3W",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "Both",
+        "Missing Values": "NIA",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "N/A",
+        "Number of Features": "N/A",
+        "Date Donated": "2022-04-06",
+        "Summary": "Promotes development of ML algorithms for early detection and classification of undesirable events in offshore oil wells.",
+        "Additional Tags": "Oil and Gas; Real events; Fault detection; Multivariate data; Sensor data; Time-series analysis; Oil wells; Machine learning benchmark",
+        "Link": "html/pages/3w.html"
+    },
+    {
+        "Dataset Name": "Beijing PM2.5 Data",
+        "Labeled": "Yes",
+        "Time Series": "Yes",
+        "Simulation": "No",
+        "Missing Values": "Yes",
+        "Dataset Characteristics": "Multivariate, Time-Series",
+        "Associated Tasks": "Regression",
+        "Number of Instances": "43824",
+        "Number of Features": "11",
+        "Date Donated": "2017-01-18",
+        "Summary": "This hourly data set contains the PM2.5 data of US Embassy in Beijing. Meanwhile, meteorological data from Beijing Capital International Airport are also included.",
+        "Additional Tags": "Air quality; PM2.5 concentration; Meteorological data; Environmental monitoring; Time-series data",
+        "Link": "html/pages/beijing_pm2_5_data.html"
+    },
+    {
+        "Dataset Name": "Urban Land Cover",
+        "Labeled": "Yes",
+        "Time Series": "No",
+        "Simulation": "No",
+        "Missing Values": "No",
+        "Dataset Characteristics": "Multivariate",
+        "Associated Tasks": "Classification",
+        "Number of Instances": "168",
+        "Number of Features": "148",
+        "Date Donated": "2014-03-26",
+        "Summary": "This dataset contains high-resolution aerial imagery data used to classify urban land cover into 9 types, such as trees, grass, and buildings.",
+        "Additional Tags": "Urban land cover; Aerial imagery; Environmental monitoring; Remote sensing; Land use classification",
+        "Link": "html/pages/urban_land_cover.html"
+    }
+]
+</script>
+</body>
+</html>
