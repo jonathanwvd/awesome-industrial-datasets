@@ -1,0 +1,34 @@
+{
+    "Name": "Wind Turbine Scada Dataset",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Time-Series, Multivariate",
+    "Feature Type": "Real",
+    "Associated Tasks": "Regression",
+    "Number of Instances": "50530",
+    "Number of Features": "21",
+    "Date Donated": "INA",
+    "Source": "Kaggle",
+    "Summary": "2018 Scada Data of a Wind Turbine in Turkey.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "In Wind Turbines, Scada Systems measure and save data's like wind speed, wind direction, generated power etc. for 10 minutes intervals. This file was taken from a wind turbine's scada system that is working and generating power in Turkey."
+        }
+    ],
+    "Additional Tags": [
+        "Wind energy",
+        "SCADA",
+        "Operational data",
+        "Predictive maintenance",
+        "Energy efficiency"
+    ],
+    "References": [
+        {
+            "Text": "Kaggle Dataset",
+            "Link": "https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset"
+        }
+    ]
+}

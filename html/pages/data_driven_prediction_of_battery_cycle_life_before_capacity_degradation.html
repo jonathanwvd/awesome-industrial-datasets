@@ -1,0 +1,27 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data-driven prediction of battery cycle life before capacity degradation</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="mb-4">Data-driven prediction of battery cycle life before capacity degradation</h1>
+
+            <p>This dataset facilitates the prediction of lithium-ion batteries' cycle life before they reach capacity degradation. It includes charge-discharge cycles and various operational parameters.</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
+    <tr><td><strong>Name</strong></td><td>Data-driven prediction of battery cycle life before capacity degradation</td></tr><tr><td><strong>Labeled</strong></td><td>Yes</td></tr><tr><td><strong>Time Series</strong></td><td>Yes</td></tr><tr><td><strong>Simulation</strong></td><td>No</td></tr><tr><td><strong>Missing Values</strong></td><td>INA</td></tr><tr><td><strong>Dataset Characteristics</strong></td><td>Multivariate, Time-Series</td></tr><tr><td><strong>Feature Type</strong></td><td>Real</td></tr><tr><td><strong>Associated Tasks</strong></td><td>Regression</td></tr><tr><td><strong>Number of Instances</strong></td><td>INA</td></tr><tr><td><strong>Number of Features</strong></td><td>INA</td></tr><tr><td><strong>Date Donated</strong></td><td>INA</td></tr><tr><td><strong>Source</strong></td><td>Matr.io</td></tr>
+                </tbody>
+            </table>
+    <h2>Dataset Information</h2><p>This dataset, used in our publication 'Data-driven prediction of battery cycle life before capacity degradation', consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions. These lithium-ion phosphate (LFP)/graphite cells, manufactured by A123 Systems (APR18650M1A), were cycled in horizontal cylindrical fixtures on a 48-channel Arbin LBT potentiostat in a forced convection temperature chamber set to 30°C. The cells have a nominal capacity of 1.1 Ah and a nominal voltage of 3.3 V.<br><br>The objective of this work is to optimize fast charging for lithium-ion batteries. As such, all cells in this dataset are charged with a one-step or two-step fast-charging policy. This policy has the format 'C1(Q1)-C2', in which C1 and C2 are the first and second constant-current steps, respectively, and Q1 is the state-of-charge (SOC, %) at which the currents switch. The second current step ends at 80% SOC, after which the cells charge at 1C CC-CV. The upper and lower cutoff potentials are 3.6 V and 2.0 V, respectively, which are consistent with the manufacturer's specifications. These cutoff potentials are fixed for all current steps, including fast charging; after some cycling, the cells may hit the upper cutoff potential during fast charging, leading to significant constant-voltage charging. All cells discharge at 4C.<br><br>The dataset is divided into three 'batches', representing approximately 48 cells each. Each batch is defined by a 'batch date', or the date the tests were started. Each batch has a few irregularities, as detailed on the page for each batch.<br><br>The data is provided in two formats. For each batch, a MATLAB struct is available. The struct provides a convenient data container in which the data for each cycle is easily accessible. This struct can be loaded in either MATLAB or python (via the h5py package). Pandas dataframes can be generated via the provided code. Additionally, the raw data for each cell is available as a CSV file. Note that the CSV files occasionally exhibit errors in both test time and step time in which the test time resets to zero mid-cycle; these errors are corrected for in the structs.<br><br>The temperature measurements are performed by attaching a Type T thermocouple with thermal epoxy (OMEGATHERM 201) and Kapton tape to the exposed cell can after stripping a small section of the plastic insulation. Note that the temperature measurements are not perfectly reliable; the thermal contact between the thermocouple and the cell can may vary substantially, and the thermocouple sometimes loses contact during cycling.<br><br>Internal resistance measurements were obtained during charging at 80% SOC by averaging 10 pulses of ±3.6C with a pulse width of 30 ms (2017-05-12 and 2017-06-30) or 33 ms (2018-04-12).</p><h2>Tags</h2><ul><li>Battery life prediction</li><li>Lithium-ion batteries</li><li>Charge-discharge cycles</li><li>Predictive maintenance</li><li>Energy storage</li></ul><h2>References</h2><ul><li><a href='https://data.matr.io/1/projects/5c48dd2bc625d700019f3204'>Matr.io Dataset</a></li></ul>
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    

@@ -1,0 +1,36 @@
+# Vehicle Manufacturing Dataset
+
+**Summary:** Synthetic Car Dataset: Brands, Models, Years, Prices, and Locations.
+
+| Parameter | Value |
+| --- | --- |
+| **Name** | Vehicle Manufacturing Dataset |
+| **Labeled** | Yes |
+| **Time Series** | No |
+| **Simulation** | No |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Multivariate |
+| **Feature Type** | Real |
+| **Associated Tasks** | Regression, Classification |
+| **Number of Instances** | INA |
+| **Number of Features** | INA |
+| **Date Donated** | INA |
+| **Source** | Kaggle |
+
+## Dataset Information
+
+The dataset provides a synthetic representation of car data, encompassing various attributes such as car brand, model, manufacturing year, color, mileage, price, and location. Each row represents a unique car, identified by the Car ID. The dataset includes information about popular car brands such as Toyota, Honda, Ford, Chevrolet, and Hyundai, along with their respective models.
+
+Additional columns capture key details, including the manufacturing year, color, mileage, price, and location of each car. These details offer insights into the variety of cars available in different regions. The dataset comprises a mix of sedans, SUVs, and hatchbacks, showcasing a range of options for potential buyers.
+
+It is important to note that this is a synthetic dataset, created for demonstration purposes only. The values provided for attributes like mileage, price, and location are fictional and do not represent real-world data. However, this dataset can be utilized for various analytical tasks, such as market research, trend analysis, and data modeling in the automotive industry.
+
+## Tags
+
+Vehicle production, Manufacturing quality, Operational efficiency, Automotive industry, Product testing
+
+## References
+
+- [Kaggle Dataset](https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,34 @@
+{
+    "Name": "Gas sensor array temperature modulation",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Multivariate, Time-Series",
+    "Feature Type": "Real",
+    "Associated Tasks": "Regression, Classification",
+    "Number of Instances": "4095000",
+    "Number of Features": "19",
+    "Date Donated": "2019-04-14",
+    "Source": "UCI Machine Learning Repository",
+    "Summary": "A chemical detection platform composed of 14 temperature-modulated metal oxide (MOX) gas sensors was exposed during 3 weeks to mixtures of carbon monoxide and humid synthetic air in a gas chamber.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "A chemical detection platform composed of 14 temperature-modulated metal oxide semiconductor (MOX) gas sensors was exposed to dynamic mixtures of carbon monoxide (CO) and humid synthetic air in a gas chamber. \n\na) Chemical detection platform: \nThe chemical detection platform was composed of 14 MOX gas sensors that generate a time-dependent multivariate response to the different gas stimuli. The utilized sensors were made commercially available by Figaro Engineering (7 units of TGS 3870-A04) and FIS (7 units of SB-500-12). The operating temperature of the sensors was controlled by the built-in heater, which voltage was modulated in the range 0.2-0.9 V in cycles of 20 and 25 s, following the manufacturer recommendations (0.9 V for 5s, 0.2 V for 20s, 0.9 V for 5 s, 0.2 V for 25 s, ...). The sensors were pre-heated for one week before starting the experiments. The MOX read-out circuits consisted of voltage dividers with 1 MOhm load resistors and powered at 5V. The output voltage of the sensors was sampled at 3.5 Hz using an Agilent HP34970A/34901A DAQ configured at 15 bits of precision and input impedance greater than 10 GOhm.\n\nb) Generator of dynamic gas mixtures\nDynamic mixtures of CO and humid synthetic air were delivered from high purity gases in cylinders to a small-sized polytetrafluoroethylene (PTFE) test chamber (250 cm3 internal volume), by means of a piping system and mass flow controllers (MFCs). Gas mixing was performed using mass flow controllers (MFC), which controlled three different gas streams (CO, wet air and dry air). These streams were delivered from high quality pressurized gases in cylinders. The selected MFCs (EL-FLOW Select, Bronkhorst) had full scale flow rates of 1000 mln/min for the dry and wet air streams and 3 mln/min for the CO channel. The CO bottle contained 1600 ppm of CO diluted in synthetic air with 21 ± 1% O2. The relative uncertainty in the generated CO concentration was below 5.5%. The wet and dry air streams were both delivered from a synthetic air bottle with 99.995% purity and 21 ± 1% O2. Humidification of the wet stream was based on the saturation method using a glass bubbler (Drechsler bottles).\n\nc) Temperature/humidity values\nA temperature/humidity sensor (SHT75, from Sensirion) provided reference humidity and temperature values inside the test chamber with tolerance below 1.8% r.h. and 0.5 ºC, respectively, every 5 s. The temperature variations inside the gas chamber, for each experiment, were below 3 ºC.\n\nd) Experimental protocol: \nEach experiment consisted on 100 measurements: 10 experimental concentrations uniformly distributed in the range 0-20 ppm and 10 replicates per concentration. Each replicate had a relative humidity randomly chosen from a uniform distribution between 15% and 75% r.h. At the beginning of each experiment, the gas chamber was cleaned for 15 min using a stream of synthetic air at a flow rate of 240 mln/min. After that, the gas mixtures were released in random order at a constant flow rate of 240 mln/min for 15 min each. A single experiment lasted 25 hours (100 samples x 15 minutes/sample) and was replicated on 13 working days spanning a natural period of 17 days."
+        }
+    ],
+    "Additional Tags": [
+        "Gas sensing",
+        "MOX sensors",
+        "Temperature modulation",
+        "Environmental monitoring",
+        "Sensor arrays"
+    ],
+    "References": [
+        {
+            "Text": "UCI Machine Learning Repository",
+            "Link": "https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation"
+        }
+    ]
+}

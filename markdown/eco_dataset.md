@@ -1,21 +1,40 @@
-# ECO dataset
+# ECO Dataset
+
+**Summary:** The ECO dataset includes electricity consumption and occupancy data from six Swiss households, collected over eight months for non-intrusive load monitoring and occupancy detection research.
 
 | Parameter | Value |
 | --- | --- |
+| **Name** | ECO Dataset |
+| **Labeled** | Yes |
+| **Time Series** | Yes |
+| **Simulation** | No |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Multivariate, Time-Series |
+| **Feature Type** | Real |
+| **Associated Tasks** | Non-Intrusive Load Monitoring, Occupancy Detection |
+| **Number of Instances** | INA |
+| **Number of Features** | INA |
+| **Date Donated** | INA |
+| **Source** | ETH Zurich |
 
-## Attribute Information
-Household 1 : (1) Fridge, (2) dryer, (3) coffee machine, (4) kettle, (5) washing machine, (6) PC, (7) freezer. 
+## Dataset Information
 
-Household 2 : (1) Tablet, (2) dishwasher, (3) stove, (4) fridge, (5) TV, (6) stereo, (7) 
-freezer, (8) kettle, (9) lamp, (10) laptops.  
+This website provides access to the ECO data set (Electricity Consumption and Occupancy). The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides:
+1 Hz aggregate consumption data. Each measurement contains data on current, voltage, and phase shift for each of the three phases in the household.
+1 Hz plug-level data measured from selected appliances.
+Occupancy information measured through a tablet computer (manual labeling) and a passive infrared sensor (in some of the households).
+We make the ECO data set available to the research community. You may directly access the data set, but we always like to receive a short description on what you plan to do with the data via e-mail to Wilhelm Kleiminger.
 
-Household 3 : (1) Tablet, (2) freezer, (3) coffee machine, (4) PC, (5) fridge, (6) kettle, (7) entertainment.  
+## Project Context
 
-Household 4 : (1) Fridge, (2) kitchen appliances3 , (3) lamp, (4) stereo & laptop, (5) freezer, (6) tablet, (7) entertainment, (8) microwave.  
+The data was collected in the context of the project Smart Meter Services. The project is related to the open source framework NILM-Eval, in which we utilize the ECO data set to evaluate a set of non-intrusive load monitoring algorithms and our work on opportunistic occupancy sensing. We have also published the OpenWrt package Pylon, which allows for obtaining measurements from SML-based smart electricity meters.
 
-Household 5 : (1) Tablet, (2) coffee machine, (3) kettle, (4) microwave, (5) fridge, (6) entertainment, (7) PC, router & printer, (8) fountain.  
+## Tags
 
-Household 6 : (1) Lamp, (2) laptop & printer, (3) routers, (4) coffee machine, (5) en
+Electricity consumption, Occupancy detection, Smart meters, Energy efficiency, Household data
 
 ## References
 
+- [ETH Zurich - ECO Dataset Page](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
+
+[⬅️ Back to Index](../README.md)

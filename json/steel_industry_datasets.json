@@ -1,0 +1,34 @@
+{
+    "Name": "Steel Industry datasets",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Multivariate, Time-Series",
+    "Feature Type": "Real",
+    "Associated Tasks": "Regression, Classification",
+    "Number of Instances": "INA",
+    "Number of Features": "INA",
+    "Date Donated": "INA",
+    "Source": "Kaggle",
+    "Summary": "Analyzing Energy Consumption and Environmental Impact in the Steel Industry.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "Date_Time: Timestamp indicating when the energy consumption data was recorded.\n\nUsage_kWh: Energy usage in kilowatt-hours (kWh), representing the amount of electricity consumed during a specific period, likely related to steel production processes or facility operations.\n\nLagging_Current_Reactive.Power_kVarh: Reactive power consumption in kilovolt-amperes reactive hour (kVarh). Reactive power is essential in steel industry equipment for tasks such as magnetization and induction heating.\n\nLeading_Current_Reactive_Power_kVarh: Similar to lagging current reactive power but likely refers to leading reactive power consumption, which can occur in capacitive loads.\n\nCO2(tCO2): Carbon dioxide emissions in metric tons of CO2. This could indicate the environmental impact of energy consumption in steel production, as CO2 emissions are a concern in terms of greenhouse gas emissions and climate change.\n\nLagging_Current_Power_Factor: Power factor measures the efficiency of electrical power usage. A lagging power factor indicates inefficient use of electricity, which could signify inefficiencies in certain steel production processes or equipment.\n\nLeading_Current_Power_Factor: Similar to lagging power factor but likely refers to leading power factor, which indicates more efficient use of electricity.\n\nNSM (Normalized Solar Energy): This could be a derived feature representing solar energy normalized against some baseline. It might indicate the integration of renewable energy sources like solar power into the steel production process or facility operations.\n\nWeekStatus: Indicates whether the data corresponds to a weekday or a weekend. This could be useful for analyzing energy consumption patterns based on the day of the week.\n\nDay_Of_Week: Indicates the day of the week when the data was recorded, providing further granularity for analyzing energy consumption patterns over weekdays."
+        }
+    ],
+    "Additional Tags": [
+        "Steel production",
+        "Energy consumption",
+        "Manufacturing process",
+        "Industrial data",
+        "Operational efficiency"
+    ],
+    "References": [
+        {
+            "Text": "Kaggle Dataset",
+            "Link": "https://www.kaggle.com/datasets/ayushparwal2026/steel-industry-datasets"
+        }
+    ]
+}

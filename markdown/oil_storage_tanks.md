@@ -1,0 +1,48 @@
+# Oil Storage Tanks
+
+**Summary:** Image data of industrial tanks with bounding box annotations.
+
+| Parameter | Value |
+| --- | --- |
+| **Name** | Oil Storage Tanks |
+| **Labeled** | Yes |
+| **Time Series** | Yes |
+| **Simulation** | No |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Image |
+| **Feature Type** | Image Data |
+| **Associated Tasks** | Object Detection |
+| **Number of Instances** | INA |
+| **Number of Features** | INA |
+| **Date Donated** | INA |
+| **Source** | Kaggle |
+
+## Dataset Information
+
+Oil storage tanks play an important role in the global economy. Crude oil is stored in tanks at many points between extraction and sale. Storage tanks are also used by nations to stockpile oil reserves. The volume of oil in storage is an important economic indicator. It indicates which oil producing nations are increasing or decreasing production and gives a window into the global demand for energy. At the same time, oil storage information is not transparent. Nations may hide information about oil production, consumption, and storage for economic or military reasons. For this reason, companies like Planet and Orbital Insight have made a business of collecting satellite imagery of oil storage tanks and estimating reserve volumes.
+
+Tank volume estimation is possible because oil is typically stored in floating head tanks. This particular tank type has a head that sits directly on top of the crude oil to prevent buildup of fumes. As a result, the height of the tank head rises and falls with the volume of oil in the tank. The relative sizes of the exterior shadow cast by the tank itself and the interior shadow cast by the height of the tank head can be used to estimate the tank volume.
+
+## Content
+
+The dataset contains satellite images taken from Google Earth of tank-containing industrial areas around the world. Images are annotated with bounding box information for floating head tanks in the image. Fixed head tanks are not annotated.
+
+The large_images directory contains the raw 4800x4800 images saved from Google Earth. Files are named following an id_large.jpg format.
+
+The image_patches directory contains 512x512 patches generated from the large image. Each large image is split into 100 512x512 patches with an overlap of 37 pixels between patches on both axes. Image patches are named following an id_row_column.jpg format.
+
+labels.json contains labels for all images. Labels are stored as a list of dictionaries, one for each image. Images that do not contain any floating head tanks are given a label of 'skip'. Bounding box labels are in the format of (x, y) coordinate pairs of the four corners of the bounding box.
+
+labels_coco.json contain the same labels as the previous file, converted into COCO label format. Here bounding boxes are formatted as [x_min, y_min, width, height]
+
+large_image_data.csv contains metadata about the large image files, including coordinates of the center of each image and the altitude.
+
+## Tags
+
+Satellite imagery, Oil storage tanks, Object detection, Remote sensing, Geospatial analysis
+
+## References
+
+- [Kaggle Dataset](https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks)
+
+[⬅️ Back to Index](../README.md)

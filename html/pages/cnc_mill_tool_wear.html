@@ -1,0 +1,27 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CNC Mill Tool Wear</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="mb-4">CNC Mill Tool Wear</h1>
+
+            <p>Variational CNC machining data.</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
+    <tr><td><strong>Name</strong></td><td>CNC Mill Tool Wear</td></tr><tr><td><strong>Labeled</strong></td><td>Yes</td></tr><tr><td><strong>Time Series</strong></td><td>Yes</td></tr><tr><td><strong>Simulation</strong></td><td>No</td></tr><tr><td><strong>Missing Values</strong></td><td>No</td></tr><tr><td><strong>Dataset Characteristics</strong></td><td>Multivariate, Time-Series</td></tr><tr><td><strong>Feature Type</strong></td><td>Real, Integer</td></tr><tr><td><strong>Associated Tasks</strong></td><td>Classification, Regression</td></tr><tr><td><strong>Number of Instances</strong></td><td>18</td></tr><tr><td><strong>Number of Features</strong></td><td>7</td></tr><tr><td><strong>Date Donated</strong></td><td>INA</td></tr><tr><td><strong>Source</strong></td><td>Kaggle</td></tr>
+                </tbody>
+            </table>
+    <h2>Dataset Information</h2><p>A series of machining experiments were run on 2 x 2 x 1.5 wax blocks in a CNC milling machine in the System-level Manufacturing and Automation Research Testbed (SMART) at the University of Michigan. Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure. Each experiment produced a finished wax part with an S shape - S for smart manufacturing - carved into the top face, as shown in test_artifact.jpg (included in the dataset).</p><h2>Content</h2><p>General data from each of the 18 different experiments are given in train.csv and includes the experiment number, material (wax), feed rate, and clamp pressure. Outputs per experiment include tool condition (unworn and worn tools) and whether or not the tool passed visual inspection.<br><br>Time series data was collected from the 18 experiments with a sampling rate of 100 ms and are separately reported in files experiment_01.csv to experiment_18.csv. Each file has measurements from the 4 motors in the CNC (X, Y, Z axes and spindle). These CNC measurements can be used in two ways:<br><br>(1) Taking every CNC measurement as an independent observation where the operation being performed is given in the Machining_Process column. Active machining operations are labeled as 'Layer 1 Up', 'Layer 1 Down', 'Layer 2 Up', 'Layer 2 Down', 'Layer 3 Up', and 'Layer 3 Down'.<br>(2) Taking each one of the 18 experiments (the entire time series) as an observation for time series classification<br>Note that some variables will not accurately reflect the operation of the CNC machine. This can usually be detected by when M1_CURRENT_FEEDRATE reads 50, when X1 ActualPosition reads 198, or when M1_CURRENT_PROGRAM_NUMBER does not read 0. The source of these errors has not been identified.</p><h2>Tags</h2><ul><li>CNC milling</li><li>Tool wear detection</li><li>Predictive maintenance</li><li>Operational efficiency</li><li>Industrial sensors</li></ul><h2>References</h2><ul><li><a href='https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data'>Kaggle Dataset</a></li></ul>
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    

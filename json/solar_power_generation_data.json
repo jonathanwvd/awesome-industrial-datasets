@@ -1,0 +1,34 @@
+{
+    "Name": "Solar Power Generation Data",
+    "Labeled": "Yes",
+    "Time Series": "Yes",
+    "Simulation": "No",
+    "Missing Values": "No",
+    "Dataset Characteristics": "Multivariate, Time-Series",
+    "Feature Type": "Real",
+    "Associated Tasks": "Regression, Forecasting",
+    "Number of Instances": "INA",
+    "Number of Features": "INA",
+    "Date Donated": "INA",
+    "Source": "Kaggle",
+    "Summary": "Solar power generation and sensor data for two power plants.",
+    "Sections": [
+        {
+            "Title": "Dataset Information",
+            "Content": "This data has been gathered at two solar power plants in India over a 34 day period. It has two pairs of files - each pair has one power generation dataset and one sensor readings dataset. The power generation datasets are gathered at the inverter level - each inverter has multiple lines of solar panels attached to it. The sensor data is gathered at a plant level - single array of sensors optimally placed at the plant.\n\nThere are a few areas of concern at the solar power plant:\n\nCan we predict the power generation for the next couple of days? - this allows for better grid management.\nCan we identify the need for panel cleaning/maintenance?\nCan we identify faulty or suboptimally performing equipment?"
+        }
+    ],
+    "Additional Tags": [
+        "Solar energy",
+        "Power generation data",
+        "Environmental factors",
+        "Energy forecasting",
+        "Renewable energy"
+    ],
+    "References": [
+        {
+            "Text": "Kaggle Dataset",
+            "Link": "https://www.kaggle.com/datasets/anikannal/solar-power-generation-data"
+        }
+    ]
+}

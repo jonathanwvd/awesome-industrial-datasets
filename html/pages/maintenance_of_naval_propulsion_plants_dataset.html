@@ -1,0 +1,27 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maintenance of Naval Propulsion Plants Data Set</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="mb-4">Maintenance of Naval Propulsion Plants Data Set</h1>
+
+            <p>Predicting Gas Turbine propulsion plant's decay state coefficient.</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
+    <tr><td><strong>Name</strong></td><td>Maintenance of Naval Propulsion Plants Data Set</td></tr><tr><td><strong>Labeled</strong></td><td>Yes</td></tr><tr><td><strong>Time Series</strong></td><td>No</td></tr><tr><td><strong>Simulation</strong></td><td>Yes</td></tr><tr><td><strong>Missing Values</strong></td><td>No</td></tr><tr><td><strong>Dataset Characteristics</strong></td><td>Multivariate</td></tr><tr><td><strong>Feature Type</strong></td><td>Real</td></tr><tr><td><strong>Associated Tasks</strong></td><td>Regression, Classification</td></tr><tr><td><strong>Number of Instances</strong></td><td>11934</td></tr><tr><td><strong>Number of Features</strong></td><td>16</td></tr><tr><td><strong>Date Donated</strong></td><td>INA</td></tr><tr><td><strong>Source</strong></td><td>Kaggle</td></tr>
+                </tbody>
+            </table>
+    <h2>Dataset Information</h2><p>The experiments have been carried out by means of a numerical simulator of a naval vessel (Frigate) characterized by a Gas Turbine (GT) propulsion plant. The different blocks forming the complete simulator (Propeller, Hull, GT, Gear Box, and Controller) have been developed and fine-tuned over the year on several similar real propulsion plants. In view of these observations, the available data are in agreement with a possible real vessel.<br>In this release of the simulator, it is also possible to take into account the performance decay over time of the GT components such as GT compressor and turbines.<br>The propulsion system behaviour has been described with these parameters:<br><br>- Ship speed (linear function of the lever position lp).<br>- Compressor degradation coefficient kMc.<br>- Turbine degradation coefficient kMt.<br>so that each possible degradation state can be described by a combination of this triple (lp,kMt,kMc).<br>The range of decay of compressor and turbine has been sampled with a uniform grid of precision 0.001 to have a good granularity of representation.<br>In particular for the compressor decay state discretization, the kMc coefficient has been investigated in the domain [1; 0.95], and the turbine coefficient in the domain [1; 0.975].<br>Ship speed has been investigated by sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to three knots.<br>A series of measures (16 features) which indirectly represents the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space.<br>Check the README.txt file for further details about this dataset.</p><h2>Attribute Information</h2><p>A 16-feature vector containing the GT measures at steady state of the physical asset:<br>- Lever position (lp) []<br>- Ship speed (v) [knots]<br>- Gas Turbine (GT) shaft torque (GTT) [kN m]<br>- GT rate of revolutions (GTn) [rpm]<br>- Gas Generator rate of revolutions (GGn) [rpm]<br>- Starboard Propeller Torque (Ts) [kN]<br>- Port Propeller Torque (Tp) [kN]<br>- High Pressure (HP) Turbine exit temperature (T48) [°C]<br>- GT Compressor inlet air temperature (T1) [°C]<br>- GT Compressor outlet air temperature (T2) [°C]<br>- HP Turbine exit pressure (P48) [bar]<br>- GT Compressor inlet air pressure (P1) [bar]<br>- GT Compressor outlet air pressure (P2) [bar]<br>- GT exhaust gas pressure (Pexh) [bar]<br>- Turbine Injection Control (TIC) [%]<br>- Fuel flow (mf) [kg/s]<br>- GT Compressor decay state coefficient<br>- GT Turbine decay state coefficient.</p><h2>Tags</h2><ul><li>Naval propulsion</li><li>Predictive maintenance</li><li>Operational efficiency</li><li>System performance</li><li>Maritime data</li></ul><h2>References</h2><ul><li><a href='https://www.kaggle.com/datasets/elikplim/maintenance-of-naval-propulsion-plants-data-set'>Kaggle Dataset</a></li></ul>
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
