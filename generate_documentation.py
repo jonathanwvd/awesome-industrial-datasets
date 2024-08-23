@@ -23,6 +23,10 @@ def update_readme_with_data(json_folder, readme_file, md_folder_path):
     # Convert list to DataFrame
     df = pd.DataFrame(datasets)
     df.fillna('', inplace=True)
+    
+    # Sort the DataFrame by Dataset Name
+    df.sort_values(by='Dataset Name', inplace=True)
+    
     df['Link'] = df['Link'].apply(lambda x: f"[{x.replace('_', ' ').title()}]({md_folder_path}/{x}.md)")
     df['Dataset Name'] = df.apply(lambda x: x['Link'], axis=1)
     df.drop(['Link', 'Description'], axis=1, inplace=True)
@@ -54,6 +58,7 @@ def update_readme_with_data(json_folder, readme_file, md_folder_path):
         file.write(updated_content)
 
     print("Updated README with the new Markdown table.")
+
 
 
 def generate_json_data(json_folder):
