@@ -1,14 +1,12 @@
 # Awesome Industrial Datasets
 
-🚧 Heads up: The repository is undergoing maintenance due to a major switch to JSON format. Some files are being manually edited and will be corrected soon.
-
 **🔗 Check the [HTML version](https://jonathanwvd.github.io/awesome-industrial-datasets/) for better navigation.**
 
 Welcome to the Awesome Industrial Datasets repository! This project aims to simplify the access to high-quality industrial datasets across various sectors such as chemical, mechanical, oil and gas, and more. These datasets are invaluable for researchers, engineers, and data scientists working on machine learning models and other analytical tasks that require real-world industrial data.
 
 If you find this repository useful, please consider giving it a ⭐ to show your support!
 
-🤝 If you're interested in contributing, please refer to our [Contribution Guideline](contribution.md).
+🤝 If you're interested in contributing, please refer to the [Contribution Guidelines](#contribution-guidelines).
 
 ## Datasets Table
 
@@ -109,3 +107,33 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 | [Phm 2008 Challenge](markdown/phm_2008_challenge.md)                                                                                                             | Yes       | Yes           | No           | Aircraft engines; Prognostics challenge; Sensor noise; Operational settings; Engine degradation                                                                                |
 | [Maintenance Of Naval Propulsion Plants Dataset](markdown/maintenance_of_naval_propulsion_plants_dataset.md)                                                     | Yes       | No            | Yes          | Naval propulsion; Predictive maintenance; Operational efficiency; System performance; Maritime data                                                                            |
 <!-- TABLE_END -->
+
+## Contribution Guidelines
+
+Thank you for considering contributing to our repository.
+
+### How You Can Contribute
+You can contribute in several ways:
+- **Suggest a New Dataset**: Propose a new dataset by creating an issue under the "Enhancement" label in the Issues tab.
+- **Add a Dataset**: Create a JSON file describing a dataset and submit a pull request to add it to the repository.
+- **Suggest Changes**: You can suggest improvements through the Issues tab or directly edit the JSON files and submit your changes via a pull request.
+
+### Adding a Dataset
+Before adding a new dataset, please ensure that it is unique and not already included in the repository.
+
+To add a dataset:
+1. Create a JSON file that accurately describes the dataset, following the same template as the existing datasets in the `json` folder.
+2. Place this JSON file in the `json` folder.
+
+#### Updating Documentation
+To update the documentation (Markdown and HTML files) and refresh the README:
+1. Run the `generate_documentation.py` script located in the root of the repository. This script will:
+   - Generate Markdown files in the `markdown` folder.
+   - Generate HTML files in the `html` folder.
+   - Update the `README.md` file with the latest datasets table.
+
+### Making a Pull Request
+Please adhere to these guidelines when submitting a pull request:
+- **Check for Duplicates**: Ensure your contribution is unique and not already included.
+- **Submit Separate Pull Requests**: Submit individual pull requests for each suggestion or dataset.
+- **Follow the format**: Use our JSON template for datasets and maintain readability and structure in documentation.

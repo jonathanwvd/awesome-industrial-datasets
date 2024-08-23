@@ -56,7 +56,6 @@ def update_readme_with_data(json_folder, readme_file, md_folder_path):
     print("Updated README with the new Markdown table.")
 
 
-
 def generate_json_data(json_folder):
     datasets = []
     # Process each JSON file in the folder
@@ -112,7 +111,6 @@ def inject_json_to_html(json_data, html_file):
         file.write(html_content)
     
     print(f"Injected JSON data into {html_file}")
-
 
 
 def json_to_markdown(json_path, md_path):
@@ -228,8 +226,6 @@ def json_to_html(json_path, html_path):
         file.write(html_content)
 
     print(f"HTML file created for {os.path.basename(html_path)}")
-
-
 
 
 # Paths setup
