@@ -1,0 +1,32 @@
+# Additional Tennessee Eastman Process Simulation Data
+
+**Summary:** This dataset from Rieth et al. (2017) includes simulated data for anomaly detection in joint human-automated systems, featuring different types of faults and operational conditions, collected as part of a study presented at Applied Human Factors and Ergonomics 2017.
+
+| Parameter | Value |
+| --- | --- |
+| **Name** | Additional Tennessee Eastman Process Simulation Data |
+| **Labeled** | Yes |
+| **Time Series** | Yes |
+| **Simulation** | Yes |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Time-Series, Multivariate |
+| **Feature Type** | Real |
+| **Associated Tasks** | Anomaly Detection |
+| **Number of Instances** | INA |
+| **Number of Features** | 55 |
+| **Date Donated** | 2017 |
+| **Source** | Harvard Dataverse |
+
+## Dataset Information
+
+Includes dataframes named ‘fault_free_training’, ‘fault_free_testing’, ‘faulty_testing’, and ‘faulty_training’ with 55 columns. Columns range from fault types, simulation run identifiers, and sample indices to 52 process variables, reflecting different conditions of the Tennessee Eastman Process.
+
+## Tags
+
+Anomaly detection, Process simulation, Human-automated systems, Operational research, Fault analysis
+
+## References
+
+- [Harvard Dataverse](https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/)
+
+[⬅️ Back to Index](../README.md)

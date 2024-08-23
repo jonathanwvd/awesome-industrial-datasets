@@ -1,0 +1,27 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>C-MAPSS Aircraft Engine Simulator Data</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="mb-4">C-MAPSS Aircraft Engine Simulator Data</h1>
+
+            <p>This dataset was generated with the C-MAPSS simulator, a tool for the simulation of realistic large commercial turbofan engine data. It includes various operational conditions to test engine performance.</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
+    <tr><td><strong>Name</strong></td><td>C-MAPSS Aircraft Engine Simulator Data</td></tr><tr><td><strong>Labeled</strong></td><td>Yes</td></tr><tr><td><strong>Time Series</strong></td><td>Yes</td></tr><tr><td><strong>Simulation</strong></td><td>Yes</td></tr><tr><td><strong>Missing Values</strong></td><td>No</td></tr><tr><td><strong>Dataset Characteristics</strong></td><td>Time-Series, Multivariate</td></tr><tr><td><strong>Feature Type</strong></td><td>Real, Integer</td></tr><tr><td><strong>Associated Tasks</strong></td><td>Regression, Classification</td></tr><tr><td><strong>Number of Instances</strong></td><td>N/A</td></tr><tr><td><strong>Number of Features</strong></td><td>N/A</td></tr><tr><td><strong>Date Donated</strong></td><td>N/A</td></tr><tr><td><strong>Source</strong></td><td>NASA</td></tr>
+                </tbody>
+            </table>
+    <h2>Special Note</h2><p>C-MAPSS and C-MAPSS40K ARE CURRENTLY UNAVAILABLE FOR DOWNLOAD. Glenn Research Center management is reviewing the availability requirements for these software packages. We are working with Center management to get the review completed and issues resolved in a timely manner. We will post updates on this website when the issues are resolved. We apologize for any inconvenience. Please contact Jonathan Litt, jonathan.s.litt@nasa.gov, if you have any questions in the meantime.</p><h2>Description</h2><p>This data set was generated with the C-MAPSS simulator. C-MAPSS stands for 'Commercial Modular Aero-Propulsion System Simulation' and it is a tool for the simulation of realistic large commercial turbofan engine data. Each flight is a combination of a series of flight conditions with a reasonable linear transition period to allow the engine to change from one flight condition to the next. The flight conditions are arranged to cover a typical ascent from sea level to 35K ft and descent back down to sea level. The fault was injected at a given time in one of the flights and persists throughout the remaining flights, effectively increasing the age of the engine. The intent is to identify which flight and when in the flight the fault occurred.</p><h2>How Data Was Acquired</h2><p>The data provided is from a high fidelity system level engine simulation designed to simulate nominal and fault engine degradation over a series of flights. The simulated data was created with a Matlab Simulink tool called C-MAPSS.</p><h2>Sample Rates and Parameter Description</h2><p>The flights are full flight recordings sampled at 1 Hz and consist of 30 engine and flight condition parameters. Each flight contains 7 unique flight conditions for an approximately 90 min flight including ascent to cruise at 35K ft and descent back to sea level. The parameters for each flight are the flight conditions, health indicators, measurement temperatures and pressure measurements.</p><h2>Faults/Anomalies</h2><p>Faults arose from the inlet engine fan, the low pressure compressor, the high pressure compressor, the high pressure turbine, and the low pressure turbine.</p><h2>Tags</h2><ul><li>Aircraft engine</li><li>Simulator data</li><li>Engine performance</li><li>Sensor data</li><li>Prognostics</li></ul><h2>References</h2><ul><li><a href='https://data.nasa.gov/dataset/C-MAPSS-Aircraft-Engine-Simulator-Data/xaut-bemq/about_data'>NASA's Open Data Portal</a></li></ul>
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    

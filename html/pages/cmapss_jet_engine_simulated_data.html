@@ -1,0 +1,27 @@
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CMAPSS Jet Engine Simulated Data</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="mb-4">CMAPSS Jet Engine Simulated Data</h1>
+
+            <p>The dataset comprises simulated jet engine data from NASA's CMAPSS. It includes operational settings and sensor measurements for engines under various fault conditions, aimed at prognostics and health management research.</p>
+
+            <table class="table table-striped mt-4">
+                <tbody>
+    <tr><td><strong>Name</strong></td><td>CMAPSS Jet Engine Simulated Data</td></tr><tr><td><strong>Labeled</strong></td><td>Yes</td></tr><tr><td><strong>Time Series</strong></td><td>Yes</td></tr><tr><td><strong>Simulation</strong></td><td>Yes</td></tr><tr><td><strong>Missing Values</strong></td><td>No</td></tr><tr><td><strong>Dataset Characteristics</strong></td><td>Time-Series, Multivariate</td></tr><tr><td><strong>Feature Type</strong></td><td>Real</td></tr><tr><td><strong>Associated Tasks</strong></td><td>Regression, Anomaly Detection</td></tr><tr><td><strong>Number of Instances</strong></td><td>INA</td></tr><tr><td><strong>Number of Features</strong></td><td>INA</td></tr><tr><td><strong>Date Donated</strong></td><td>INA</td></tr><tr><td><strong>Source</strong></td><td>NASA</td></tr>
+                </tbody>
+            </table>
+    <h2>Dataset Information</h2><p>Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.<br>The engine is operating normally at the start of each time series, and develops a fault at some point during the series. In the training set, the fault grows in magnitude until system failure. In the test set, the time series ends some time prior to system failure. The objective of the competition is to predict the number of remaining operational cycles before failure in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate. Also provided a vector of true Remaining Useful Life (RUL) values for the test data.</p><h2>Tags</h2><ul><li>Jet engines</li><li>Simulation data</li><li>Prognostics</li><li>Health management</li><li>Aerospace engineering</li></ul><h2>References</h2><ul><li><a href='https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data'>NASA Open Data Portal</a></li></ul>
+            <a href="../../index.html" class="btn btn-primary mt-4">Back to Index</a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    

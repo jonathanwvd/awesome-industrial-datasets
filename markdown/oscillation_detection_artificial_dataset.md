@@ -1,21 +1,32 @@
-# Oscillation detection artificial dataset
+# Oscillation Detection Artificial Dataset
+
+**Summary:** This dataset is developed for oscillation detection in control loops, employing machine learning techniques to enhance diagnostic capabilities in industrial processes.
 
 | Parameter | Value |
 | --- | --- |
-| Data Set Characteristics | Time-series |
-| Attribute Characteristics | Real |
-| Associated Tasks | Classification |
-| Number of Instances | Number of Attributes | |
-| Number of Attributes | Date Donated | |
-| Date Donated | Source | Group of Intensification, Modeling, Simulation, Control and Optimization of Processes (GIMSCOP) |
-| Source | Group of Intensification, Modeling, Simulation, Control and Optimization of Processes (GIMSCOP) |
-| Dataset size | 2.7 GB |
+| **Name** | Oscillation Detection Artificial Dataset |
+| **Labeled** | Yes |
+| **Time Series** | Yes |
+| **Simulation** | Yes |
+| **Missing Values** | No |
+| **Dataset Characteristics** | Time-Series |
+| **Feature Type** | Real |
+| **Associated Tasks** | Classification |
+| **Number of Instances** | INA |
+| **Number of Features** | INA |
+| **Date Donated** | INA |
+| **Source** | GIMSCOP, Federal University of Rio Grande do Sul |
 
-## Data Set Information
-Dataset used by the authors’ previous work on a technique for oscillation detection based on Machine Learning.
+## Dataset Information
 
-## Attribute Information
+Used previously in machine learning research for oscillation detection, this dataset aids in studying and diagnosing oscillation issues within control systems.
+
+## Tags
+
+Control loops, Oscillation detection, Machine learning, Process optimization
+
 ## References
 
-## References
+- [GIMSCOP](https://sites.ualberta.ca/~bhuang/Stiction-Book.htm)
 
+[⬅️ Back to Index](../README.md)

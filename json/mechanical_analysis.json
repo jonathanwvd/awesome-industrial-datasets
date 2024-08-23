@@ -30,6 +30,5 @@
             "Text": "UCI Machine Learning Repository",
             "Link": "https://archive.ics.uci.edu/dataset/64/mechanical+analysis"
         }
-    ],
-    "Confidence": "The dataset provides a unique approach to fault diagnosis in electromechanical devices with detailed categorization and structuring."
+    ]
 }

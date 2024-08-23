@@ -30,6 +30,5 @@
             "Text": "UCI Machine Learning Repository",
             "Link": "https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks"
         }
-    ],
-    "Confidence": "The dataset is well-documented with detailed descriptions of the problem context, attributes, and the challenge metric used for predictive model evaluation."
+    ]
 }

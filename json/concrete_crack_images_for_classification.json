@@ -30,6 +30,5 @@
             "Text": "Mendeley Data",
             "Link": "https://data.mendeley.com/datasets/5y9wdsg2zt/1"
         }
-    ],
-    "Confidence": "The dataset details are well-documented on the Mendeley Data page, with clear information on the image preparation methodology and intended use in machine learning."
+    ]
 }
