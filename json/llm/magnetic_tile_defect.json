@@ -1,23 +1,36 @@
 {
   "Name": "Magnetic Tile Defect",
-  "Labeled": "Information not available",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
-  "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
-  "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
-  "Source": "GitHub",
-  "Summary": "Information not available",
-  "Description": "Information not available",
-  "Additional Tags": [],
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image, Multiclass, Segmentation",
+  "Feature Type": "Image",
+  "Associated Tasks": "Defect Detection, Image Classification, Semantic Segmentation",
+  "Number of Instances": "1,344 images across 6 classes (MT_Blowhole, MT_Break, MT_Crack, MT_Fray, MT_Uneven, MT_Free)",
+  "Number of Features": "Grayscale images with pixel-level segmentation masks",
+  "Date Donated": "2018",
+  "Source": "GitHub (abin24) / Northeastern University",
+  "Summary": "Real-world magnetic tile surface defect dataset with 1,344 grayscale images across 6 defect categories and one defect-free class; includes pixel-level segmentation annotations for surface defect detection research.",
+  "Description": "The Magnetic Tile Defect dataset contains surface defect images of magnetic tiles collected from an industrial production line. It includes 1,344 images split across six defect categories: MT_Blowhole (blowhole defects), MT_Break (breakage), MT_Crack (surface cracks), MT_Fray (fraying), MT_Uneven (uneven surface), and MT_Free (defect-free samples used as the negative class).\n\nEach image comes with a corresponding binary segmentation mask that identifies the defect region at the pixel level, enabling both classification and segmentation tasks. Images are grayscale and were acquired under controlled industrial conditions. The dataset was introduced alongside the paper 'A compact convolutional neural network for surface defect inspection' and has become a standard benchmark for industrial surface defect detection.\n\nThe dataset is hosted on GitHub and is widely used in quality control and automated visual inspection research. Tasks supported include binary defect detection, multi-class defect classification, and semantic segmentation of defect regions.",
+  "Additional Tags": [
+    "Magnetic Tile",
+    "Surface Defect",
+    "Defect Detection",
+    "Semantic Segmentation",
+    "Industrial Inspection",
+    "Computer Vision",
+    "Quality Control",
+    "Grayscale Images"
+  ],
   "References": [
     {
-      "Text": "GitHub: Magnetic Tile Defect Datasets",
+      "Text": "GitHub: Magnetic Tile Defect Datasets (abin24)",
       "Link": "https://github.com/abin24/Magnetic-tile-defect-datasets"
+    },
+    {
+      "Text": "Paper: A compact convolutional neural network for surface defect inspection",
+      "Link": "https://doi.org/10.1016/j.measurement.2018.06.010"
     }
   ]
 }

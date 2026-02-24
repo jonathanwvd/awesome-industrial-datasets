@@ -1,34 +1,35 @@
 {
   "Name": "Plant Fault Detection",
-  "Labeled": "Likely",
-  "Time Series": "Likely",
-  "Data Source": "Information not available",
-  "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Likely Classification",
-  "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
-  "Source": "GitHub",
-  "Summary": "Data for PHM 2015 data challenge related to plant fault detection.",
-  "Description": "This dataset is provided for the PHM 2015 data challenge and is hosted on a GitHub repository by user robot007. The data is intended for research and experimentation in the area of plant fault detection, which involves identifying faults in industrial systems or plants to improve maintenance and operational efficiency.\n\nThe dataset is linked to the PHM Society's 15th annual conference data challenge, which promotes predictive maintenance and health monitoring research. No detailed statistics about the dataset such as number of instances or features are provided in the repository information available. Researchers interested in condition-based maintenance and fault detection may find this dataset useful for developing and testing machine learning models.",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Fault Detection, Fault Classification, Anomaly Detection",
+  "Number of Instances": "212 data files from 70 industrial sites; multiple CSV format variants (raw, selected, sampled)",
+  "Number of Features": "Multiple sensor channels per loop; SISO process variable (PV) and manipulated variable (MV) measurements",
+  "Date Donated": "2015",
+  "Source": "PHM Society / GitHub (robot007/PHM15)",
+  "Summary": "PHM 2015 Data Challenge dataset for plant fault detection from 70 industrial sites; 212 time-series files covering process variable and manipulated variable readings used for fault classification and detection research.",
+  "Description": "The Plant Fault Detection dataset was released as part of the PHM Society 2015 Annual Conference Data Challenge. It was hosted on GitHub by user robot007 (PHM15 repository) for use in prognostics and health management research.\n\nThe dataset contains industrial process data collected from 70 different sites (industrial plants), with a total of 212 data files. The data captures control loop behavior including process variable (PV) and manipulated variable (MV) time series. Multiple CSV format variants are provided: raw (SISO-RAW), selected fragments (SISO-SEL), and constant-sampling-rate versions (SISO-SAMP).\n\nThe challenge task involves detecting and classifying faults and abnormal operating conditions in industrial control loops. This is a representative dataset for process industries research in predictive maintenance, control loop performance monitoring, and fault diagnosis.",
   "Additional Tags": [
     "PHM Society",
     "Prognostics and Health Management",
-    "Fault detection",
-    "Industrial plant data",
-    "Maintenance data challenge",
-    "Predictive maintenance",
-    "Time-series likely"
+    "Fault Detection",
+    "Industrial Plant",
+    "Control Loop",
+    "Process Variable",
+    "Predictive Maintenance",
+    "PHM 2015"
   ],
   "References": [
     {
-      "Text": "PHM Society 15th Conference Data Challenge",
+      "Text": "PHM Society 2015 Conference Data Challenge",
       "Link": "https://www.phmsociety.org/events/conference/phm/15/data-challenge"
     },
     {
-      "Text": "GitHub Repository - Plant Fault Detection",
+      "Text": "GitHub Repository - PHM15",
       "Link": "https://github.com/robot007/PHM15"
     }
   ]

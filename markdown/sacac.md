@@ -1,39 +1,45 @@
 # SACAC
 
-**Summary:** An industrial data repository contributed by industrial control practitioners and academic researchers, aimed at providing test environments for control loop performance monitoring methods.
+**Summary:** Community-contributed industrial SISO PID control loop dataset repository with 25 datasets categorized by cause of poor performance (stiction, oscillation, saturation, sensor faults, etc.); designed as a benchmark for control loop performance monitoring research.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Control loop performance monitoring, possibly classification and regression |
+| **Associated Tasks** | Control Loop Performance Monitoring, Fault Detection, Stiction Detection, Oscillation Detection |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Industrial Process Data |
-| **Date Donated** | Information not available |
+| **Dataset Characteristics** | Multivariate, Time-Series, Industrial Process Data |
+| **Date Donated** | 2018 |
 | **Feature Type** | Real |
-| **Labeled** | Information not available |
-| **Missing Values** | Information not available |
+| **Labeled** | Yes |
+| **Missing Values** | No |
 | **Name** | SACAC |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | SACAC |
-| **Time Series** | Likely |
+| **Number of Features** | Process variable (PV) and manipulated variable (MV) time series per loop; variable sampling rates |
+| **Number of Instances** | 25 SISO PID control loop datasets categorized by root cause of poor performance |
+| **Source** | SACAC (South African Council for Automation and Control) / Industry and Academia |
+| **Time Series** | Yes |
 
 ## Description
 
-The SACAC data repository contains industrial process data contributed by industry practitioners and academic researchers working closely with industry. Its primary aim is to provide a test environment for control loop performance monitoring methods used in process industries, particularly focusing on single-input-single-output PID control loops which often perform poorly.
+The SACAC (South African Council for Automation and Control) data repository provides industrial process data for control loop performance monitoring (CLPM) research. It was established to address the lack of publicly available industrial datasets for testing and comparing CLPM methods.
 
-The datasets are categorized according to the causes of poor control loop performance, based on the classification described by Bauer et al. (2016), ordered by the frequency of occurrence in industrial processes. The repository is described in scientific papers and seeks to foster the development and comparison of methods to detect and diagnose poorly performing control loops.
+The repository contains 25 SISO (single-input single-output) PID control loop datasets contributed by industry practitioners and academic researchers. Datasets are categorized according to the root causes of poor control performance as classified by Bauer et al. (2016), including:
+- Valve stiction (most common)
+- External oscillations and disturbances
+- Aggressive tuning / oscillatory behavior
+- Sensor faults and quantization
+- Saturation and constraints
+- Other causes
 
-The repository includes multiple categories of datasets covering phenomena like stiction, sensor faults, quantization, and saturation among others. Researchers and practitioners are encouraged to contribute data and use the repository for academic and practical studies in control loop performance monitoring.
+Each dataset provides time series of the process variable (PV) and manipulated variable (MV), enabling researchers to develop and benchmark methods for detecting, diagnosing, and ranking the severity of control loop problems. The dataset is described in the IFAC-PapersOnLine repository paper (2018) and is hosted on the SACAC resources page.
 
 ## Tags
 
-Control loop performance, Fault diagnosis, Industrial process data, Multivariate data, PID control loops, Process control monitoring, Process industries
+Control Loop, Fault Diagnosis, Oscillation Detection, PID Control, Performance Monitoring, Process Industries, SACAC, SISO, Stiction
 
 ## References
 
-- [Bauer et al. (2016) - Cause categorization of control loop performance](http://www.sciencedirect.com/science/article/pii/S0959152415002127)
-- [SACAC Repository Description Paper](https://www.sciencedirect.com/science/article/pii/S2405896318304701)
-- [Valve Stiction Comparative Study (Bacci di Capaci et al., 2016)](https://www.sciencedirect.com/science/article/pii/S0959152416300907)
 - [SACAC Resources Page](https://sacac.org.za/resources/)
+- [SACAC Repository Description Paper (IFAC-PapersOnLine, 2018)](https://www.sciencedirect.com/science/article/pii/S2405896318304701)
+- [Bauer et al. (2016) - Cause categorization of poor control loop performance](http://www.sciencedirect.com/science/article/pii/S0959152415002127)
+- [Valve Stiction Comparative Study (Bacci di Capaci et al., 2016)](https://www.sciencedirect.com/science/article/pii/S0959152416300907)
 
 [⬅️ Back to Index](../README.md)

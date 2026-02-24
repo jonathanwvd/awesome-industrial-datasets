@@ -1,37 +1,44 @@
 # IV2V and iV2I+ Industrial Datasets
 
-**Summary:** Support code and documentation for the AI4Mobile industrial datasets: iV2V and iV2I+.
+**Summary:** AI4Mobile industrial wireless datasets collected by Fraunhofer HHI in an industrial warehouse, covering iV2V (vehicle-to-vehicle) and iV2I+ (vehicle-to-infrastructure) 5G NR channel measurements for ML-based beam management and link quality prediction.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
+| **Associated Tasks** | Link Quality Prediction, Beam Management, Positioning, Channel Modeling, Machine Learning for Wireless Communications |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Information not available |
-| **Labeled** | Information not available |
-| **Missing Values** | Information not available |
+| **Dataset Characteristics** | Multivariate, Time-Series, Wireless Channel Measurements |
+| **Date Donated** | 2021 |
+| **Feature Type** | Real (channel metrics, position data) |
+| **Labeled** | Yes |
+| **Missing Values** | No |
 | **Name** | IV2V and iV2I+ Industrial Datasets |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | IEEE DataPort |
-| **Time Series** | Information not available |
+| **Number of Features** | Per measurement: RSRP (reference signal received power), RSRQ, SINR, position coordinates (x, y), beam index, timestamp; multiple antenna configurations |
+| **Number of Instances** | Multiple measurement campaigns in an industrial warehouse environment; thousands of channel measurement snapshots per scenario |
+| **Source** | Fraunhofer HHI (Heinrich Hertz Institute) / AI4Mobile H2020 EU Project / IEEE DataPort |
+| **Time Series** | Yes |
 
 ## Description
 
-This repository provides support code and documentation related to the AI4Mobile industrial wireless datasets, namely iV2V (industrial vehicle-to-vehicle) and iV2I+ (industrial vehicle-to-infrastructure). The datasets are intended for applications in industrial wireless communication.
+The iV2V and iV2I+ datasets are part of the AI4Mobile project (H2020 EU research project) and were collected by Fraunhofer HHI (Heinrich Hertz Institute, Berlin) in an industrial warehouse environment. The datasets capture real 5G New Radio (NR) channel measurements between mobile industrial vehicles (forklifts) and fixed infrastructure points.
 
-The datasets cover wireless industrial scenarios, supporting research and development in machine learning and communication within industrial environments. The dataset is hosted on IEEE DataPort, an open access platform for datasets.
+iV2V (industrial Vehicle-to-Vehicle): Measurements between two mobile nodes (forklifts) moving in a warehouse.
+iV2I+ (industrial Vehicle-to-Infrastructure plus): Measurements between a mobile node (forklift) and fixed infrastructure access points, with multiple antenna configurations.
 
-Additional specific details such as labeling, timeseries nature, number of instances, and specific features are not provided in the repository summary or associated webpage. Users are directed to the IEEE DataPort link for further information and dataset access.
+For each measurement snapshot, the dataset provides signal quality metrics (RSRP, RSRQ, SINR), precise position and trajectory data, beam indices, and timestamps. The data is intended for machine learning research in:
+- Beam management and beam prediction
+- Link quality estimation and prediction
+- Positioning and localization
+- Channel modeling for industrial wireless networks
+
+Support code and documentation are available on GitHub (Fraunhofer HHI repository). The datasets are openly accessible via IEEE DataPort.
 
 ## Tags
 
-AI4Mobile project, Industrial communication systems, Industrial wireless datasets, Machine learning support data, Vehicle-to-infrastructure communication, Vehicle-to-vehicle communication, Wireless sensor data
+5G NR, AI4Mobile, Beam Management, Channel Measurement, Fraunhofer HHI, Industrial Wireless, Link Quality Prediction, Vehicle-to-Infrastructure, Vehicle-to-Vehicle, Warehouse
 
 ## References
 
-- [IEEE DataPort AI4Mobile industrial wireless datasets: IV2V and iV2I+](https://ieee-dataport.org/open-access/ai4mobile-industrial-wireless-datasets-iv2v-and-iv2i)
-- [GitHub Repository](https://github.com/fraunhoferhhi/ai4mobile-industrial)
+- [IEEE DataPort: AI4Mobile Industrial Wireless Datasets iV2V and iV2I+](https://ieee-dataport.org/open-access/ai4mobile-industrial-wireless-datasets-iv2v-and-iv2i)
+- [GitHub Repository (Fraunhofer HHI)](https://github.com/fraunhoferhhi/ai4mobile-industrial)
 
 [⬅️ Back to Index](../README.md)

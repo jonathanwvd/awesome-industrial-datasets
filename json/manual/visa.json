@@ -1,0 +1,39 @@
+{
+  "Name": "VisA",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image, Anomaly Detection, Multi-Class",
+  "Feature Type": "RGB Images + Annotation Masks",
+  "Associated Tasks": "Anomaly Detection, Anomaly Segmentation, Localisation",
+  "Number of Instances": "10821 images (9621 normal; 1200 anomalous) across 12 subsets",
+  "Number of Features": "Information not available",
+  "Date Donated": "2022",
+  "Source": "https://github.com/amazon-science/spot-diff",
+  "Summary": "Multi-object industrial anomaly detection dataset with 10,821 images, image-level labels and pixel-level anomaly masks across 12 object subsets, including PCB inspection and multiple-instance scenes.",
+  "Description": "VisA (Visual Anomaly) is a large-scale industrial anomaly detection and segmentation dataset released by Amazon Science. The dataset contains 10,821 images distributed across 12 object subsets, of which 9,621 are normal and 1,200 are anomalous. For all anomalous images, pixel-level segmentation masks are provided. Both image-level labels and pixel-level annotations are available, enabling evaluation of both classification and localisation performance.\n\nThe 12 object subsets span a diverse range of industrial objects, including printed circuit boards (PCBs), mechanical parts, and objects that appear as multiple instances in a single image. This diversity—especially the multiple-instance subsets—makes VisA more challenging than single-object benchmarks and closer to real inspection scenarios.\n\nVisA was introduced at ECCV 2022 (Zou et al., SPot-the-Difference Self-Supervised Pre-training) and is hosted on AWS S3 with an open data registry entry. The dataset is licensed under CC BY 4.0.",
+  "Additional Tags": [
+    "Anomaly Detection",
+    "Image Segmentation",
+    "PCB Inspection",
+    "Multi-Object Benchmark",
+    "Industrial Inspection",
+    "Visual Quality Control",
+    "Open Dataset"
+  ],
+  "References": [
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/amazon-science/spot-diff"
+    },
+    {
+      "Text": "AWS Open Data Registry",
+      "Link": "https://registry.opendata.aws/amazon-visual-anomaly/"
+    },
+    {
+      "Text": "Paper (arXiv / ECCV 2022)",
+      "Link": "https://arxiv.org/abs/2207.14315"
+    }
+  ]
+}

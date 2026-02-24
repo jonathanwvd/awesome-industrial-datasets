@@ -1,0 +1,35 @@
+{
+  "Name": "BTAD",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image, Anomaly Detection, Defect Segmentation",
+  "Feature Type": "RGB Images + Pixel Masks",
+  "Associated Tasks": "Anomaly Detection, Anomaly Localisation, Segmentation",
+  "Number of Instances": "1799 images across 3 product types (Product1: 400 @ 1600x1600; Product2: 1000 @ 600x600; Product3: 399 @ 800x600)",
+  "Number of Features": "Information not available",
+  "Date Donated": "2021",
+  "Source": "https://github.com/pankajmishra000/VT-ADL",
+  "Summary": "Real-world industrial surface and body defect dataset with three product types and pixel-precise ground truth annotations, captured from industrial image acquisition systems with privacy-preserving transformations.",
+  "Description": "BTAD (BeanTech Anomaly Detection Dataset) is a real-world industrial benchmark released to support anomaly detection and localisation research. The dataset contains images of three different product types captured using industrial image acquisition systems. To preserve industrial privacy, the images were cropped and log-transformed before release. Pixel-precise anomaly masks are provided for all anomalous test images.\n\nThe three product types have different image resolutions and quantities: Product 1 (400 images at 1600×1600 pixels), Product 2 (1,000 images at 600×600 pixels), and Product 3 (399 images at 800×600 pixels). Each product type has dedicated training (normal only) and test (normal and anomalous) splits following the standard MVTec-style protocol.\n\nBTAD was introduced at ISIE 2021 (Mishra et al., VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localisation) and is licensed under CC BY-SA.",
+  "Additional Tags": [
+    "Industrial Anomaly Detection",
+    "Surface Defects",
+    "Segmentation Masks",
+    "Manufacturing Inspection",
+    "Real-World Dataset",
+    "Visual Quality Control",
+    "Defect Detection"
+  ],
+  "References": [
+    {
+      "Text": "GitHub (VT-ADL dataset + code)",
+      "Link": "https://github.com/pankajmishra000/VT-ADL"
+    },
+    {
+      "Text": "Dataset download page",
+      "Link": "https://avires.dimi.uniud.it/"
+    }
+  ]
+}

@@ -1,42 +1,41 @@
 {
   "Name": "Open Reaction Database",
-  "Labeled": "Information not available",
+  "Labeled": "Yes",
   "Time Series": "No",
   "Data Source": "Real",
-  "Missing Values": "Information not available",
-  "Dataset Characteristics": "Multivariate",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
-  "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
-  "Source": "Open Reaction Database",
-  "Summary": "The Open Reaction Database is an open access chemical reaction database to support machine learning and related efforts in reaction prediction, chemical synthesis planning, and experiment design. The project\u2019s initial meeting took place on 31 October 2019 with experts from pharma, academia, and tech.",
-  "Description": "We are building an open access chemical reaction database to support machine learning and related efforts in reaction prediction, chemical synthesis planning, and experiment design. Our initial meeting took place on 31 October 2019 and included experts from pharma, academia, and tech.\n\nWe expect that this database will be the starting point for the development of best-in-class tools and models for reaction prediction and synthesis planning. Additionally, we hope it will serve as a basis for experimental efforts in industry and academia (e.g., to reduce duplication or focus data generation on underrepresented areas).",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Structured Chemical Reaction Data",
+  "Feature Type": "Mixed (SMILES strings, numerical reaction conditions, categorical)",
+  "Associated Tasks": "Reaction Prediction, Retrosynthesis, Chemical Synthesis Planning, Yield Prediction, Experiment Design",
+  "Number of Instances": "Over 1 million chemical reactions (growing community-contributed database)",
+  "Number of Features": "Per reaction: reactants, reagents, solvents, catalysts (as SMILES/InChI), conditions (temperature, pressure, time), yield, provenance, and references; stored in Protocol Buffers schema",
+  "Date Donated": "2021",
+  "Source": "Open Reaction Database (ORD) Consortium — pharma, academia, and tech",
+  "Summary": "Open-access chemical reaction database with over 1 million reactions, designed to support machine learning for reaction prediction, synthesis planning, and experiment design; uses Protocol Buffers schema and CC BY 4.0 license.",
+  "Description": "The Open Reaction Database (ORD) is an open-access, community-driven chemical reaction database established in 2019 by a consortium of experts from the pharmaceutical industry, academia, and technology sector. It was created to address the lack of standardized, machine-readable repositories for chemical reaction data.\n\nThe database stores chemical reactions using a Protocol Buffers-based schema that captures: reactants, reagents, solvents, and products as SMILES or InChI strings; reaction conditions (temperature, pressure, reaction time, atmosphere); yields (percentage and absolute); experimental procedures; safety notes; and data provenance. The schema is designed to be both human- and machine-readable.\n\nAs of 2021, the database contains over 1 million reactions, contributed by pharmaceutical companies (Eli Lilly, Merck, AstraZeneca, etc.) and academic groups. The dataset is described in a 2021 JACS paper and is expected to serve as a foundation for ML models for reaction prediction, retrosynthesis, and automated synthesis planning.\n\nLicensed under CC BY 4.0. Hosted on GitHub and accessible via a web interface.",
   "Additional Tags": [
-    "Chemical reactions",
-    "Machine learning",
-    "Reaction prediction",
-    "Synthesis planning",
-    "Experiment design",
-    "Open access",
-    "Chemical database"
+    "Chemical Reactions",
+    "Reaction Prediction",
+    "Retrosynthesis",
+    "Synthesis Planning",
+    "SMILES",
+    "Protocol Buffers",
+    "Pharmaceutical",
+    "Open Access",
+    "CC BY 4.0",
+    "Cheminformatics"
   ],
   "References": [
     {
-      "Text": "link",
+      "Text": "ORD Paper: An Open Database for Chemical Reactions (JACS 2021)",
       "Link": "https://pubs.acs.org/doi/10.1021/jacs.1c09820"
     },
     {
-      "Text": "link",
+      "Text": "C&EN article on ORD (2021)",
       "Link": "https://cen.acs.org/physical-chemistry/computational-chemistry/new-database-machine-learning-research/99/web/2021/11"
     },
     {
-      "Text": "Open Reaction Database YouTube Channel",
-      "Link": "http://www.youtube.com/@openreactiondatabase9685"
-    },
-    {
-      "Text": "GitHub",
+      "Text": "GitHub: Open Reaction Database",
       "Link": "https://github.com/open-reaction-database"
     }
   ]

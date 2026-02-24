@@ -1,0 +1,39 @@
+{
+  "Name": "MVTec LOCO AD",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image, Anomaly Detection",
+  "Feature Type": "Images",
+  "Associated Tasks": "Anomaly Detection, Anomaly Localisation, Segmentation",
+  "Number of Instances": "3644 images across 5 categories",
+  "Number of Features": "Information not available",
+  "Date Donated": "2022",
+  "Source": "https://www.mvtec.com/company/research/datasets/mvtec-loco",
+  "Summary": "Unsupervised industrial anomaly localisation dataset containing both structural defects and logical-constraint violations, with pixel-precise ground truth masks across 5 object categories.",
+  "Description": "MVTec LOCO AD (Logical Constraints Anomaly Detection) is a benchmark dataset for unsupervised industrial anomaly detection and localisation. It extends the original MVTec AD dataset by introducing a fundamentally new class of anomalies: logical constraint violations. Unlike purely structural defects (scratches, dents, contaminations), logical anomalies arise when objects are correctly formed but placed or assembled in configurations that violate expected rules—such as wrong object positions, incorrect counts, or prohibited combinations.\n\nThe dataset contains 3,644 images distributed across 5 industrial object categories. Each category provides defect-free training and validation images alongside a test set that includes both structural and logical anomalies, each with pixel-precise ground truth segmentation masks. This dual-type anomaly structure makes MVTec LOCO AD uniquely challenging and more representative of real factory scenarios than image-only structural benchmarks.\n\nThe dataset was introduced alongside a new evaluation metric (sPRO—saturation-weighted Per-Region Overlap) that better captures partial localisation of large anomalous regions. The total dataset size is approximately 5.71 GB. It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.",
+  "Additional Tags": [
+    "Anomaly Detection",
+    "Logical Anomalies",
+    "Industrial Inspection",
+    "Segmentation Masks",
+    "Visual Quality Control",
+    "Unsupervised Learning",
+    "MVTec"
+  ],
+  "References": [
+    {
+      "Text": "Dataset page",
+      "Link": "https://www.mvtec.com/company/research/datasets/mvtec-loco"
+    },
+    {
+      "Text": "Downloads",
+      "Link": "https://www.mvtec.com/company/research/datasets/mvtec-loco/downloads"
+    },
+    {
+      "Text": "Paper (IJCV 2022)",
+      "Link": "https://doi.org/10.1007/s11263-022-01578-9"
+    }
+  ]
+}

@@ -1,35 +1,35 @@
 {
   "Name": "Milling",
-  "Labeled": "Information not available",
-  "Time Series": "Likely",
-  "Data Source": "Information not available",
-  "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
-  "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
-  "Source": "NASA Ames Intelligent Systems Division",
-  "Summary": "The NASA Ames Intelligent Systems Division provides leadership in computational sciences for NASA applications, including software systems and data architectures relevant to autonomous and intelligent systems.",
-  "Description": "The NASA Ames Intelligent Systems Division conducts mission-driven, user-centric research and development in computational sciences to support NASA missions. Their work includes developing ground and flight software systems and data architectures for data mining, analysis, integration, and management; integrated health management; systems safety; and mission assurance.\n\nLocated at Ames Research Center in Silicon Valley, the division consists of four focused research areas: Autonomous Systems and Robotics, Collaborative and Assistant Systems, Discovery and Systems Health, and Robust Software Engineering. The division supports various NASA applications in space, aviation, and wildfire management through advanced technologies and software.\n\nThe Division features several projects such as ARMADAS, Astrobee, BioSentinel, FLUTE, MTS, ODIN-fire, PCoE, ProgPy, Starling, and VIPER, which comprise systems ranging from autonomous assembly to software architectures for wildfire management and tools for space missions. These projects support various research, simulation, and mission operation needs within NASA.",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Tool Wear Prediction, Remaining Useful Life, Regression, Prognostics",
+  "Number of Instances": "16 experimental cases; 167 measurement runs total",
+  "Number of Features": "8 sensor channels (AC/DC spindle motor current, table/spindle vibration, table/spindle acoustic emission, flank wear VB) plus operational parameters",
+  "Date Donated": "2007",
+  "Source": "NASA Ames Prognostics Center of Excellence (PCoE) Data Repository",
+  "Summary": "NASA milling machine tool wear dataset with 16 experiments on a milling machine; records spindle motor currents, vibrations, and acoustic emissions alongside measured flank wear (VB) for tool condition monitoring and remaining useful life research.",
+  "Description": "The NASA Milling dataset is part of the NASA Prognostics Center of Excellence (PCoE) Data Repository, contributed by A. Agogino and K. Goebel from UC Berkeley in 2007. The dataset was collected from a milling machine under 16 different experimental conditions varying cutting speed, feed rate, depth of cut, and material type. Each experiment produces multiple measurement runs with flank wear (VB) values recorded at irregular intervals.\n\nSensor channels include: AC spindle motor current, DC spindle motor current, table vibration, spindle vibration, acoustic emission at the table, and acoustic emission at the spindle. Operational parameters such as depth of cut, feed rate, and workpiece material are also provided. The data is stored as a MATLAB struct array; a CSV version is available on Kaggle and Hugging Face.\n\nThe primary research application is tool condition monitoring: predicting the current or future flank wear value (VB) from the sensor time series. The dataset has been used extensively in prognostics and health management research, including deep learning approaches for RUL estimation of cutting tools.",
   "Additional Tags": [
-    "NASA",
-    "Intelligent Systems",
-    "Autonomous Systems",
+    "Tool Wear",
+    "Milling Machine",
     "Prognostics",
-    "Robust Software Engineering",
-    "Collaborative Systems",
-    "Ames Research Center"
+    "Predictive Maintenance",
+    "Acoustic Emission",
+    "Vibration",
+    "NASA"
   ],
   "References": [
     {
-      "Text": "NASA Ames Intelligent Systems Division",
-      "Link": "https://www.nasa.gov/intelligent-systems-division/"
+      "Text": "NASA PCoE Data Repository",
+      "Link": "https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/"
     },
     {
-      "Text": "NASA Prognostic Data Repository",
-      "Link": "https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/"
+      "Text": "Milling dataset on Kaggle (CSV format)",
+      "Link": "https://www.kaggle.com/datasets/vinayak123tyagi/milling-data-set-prognostic-data"
     }
   ]
 }

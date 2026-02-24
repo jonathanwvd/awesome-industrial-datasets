@@ -80,7 +80,6 @@ Mechanical Analysis,https://archive.ics.uci.edu/dataset/64/mechanical+analysis
 Mercedes-Benz Greener Manufacturing,https://www.kaggle.com/datasets/swetashetye/mercedesbenz-greener-manufacturing
 Milling,https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/
 Milling Wear,https://data.nasa.gov/Raw-Data/Milling-Wear/vjv9-9f3x/data
-Mining Process,https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process
 Multi-stage continuous-flow manufacturing process,https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process
 MVTec Anomaly Detection (MVTec AD),https://www.mvtec.com/company/research/datasets/mvtec-ad/
 NASA Bearing Dataset,https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset
@@ -154,3 +153,25 @@ IoT-Integrated Predictive Maintenance Dataset,https://www.kaggle.com/datasets/zi
 Industrial IoT Fault Detection Dataset,https://www.kaggle.com/datasets/ziya07/industrial-iot-fault-detection-dataset
 Industrial Fault Detection Dataset,https://www.kaggle.com/datasets/programmer3/industrial-fault-detection-dataset
 RUL Datasets, https://github.com/tilman151/rul-datasets
+MVTec LOCO AD,https://www.mvtec.com/company/research/datasets/mvtec-loco
+MVTec 3D-AD,https://www.mvtec.com/company/research/datasets/mvtec-3d-ad
+MVTec ITODD,https://www.mvtec.com/company/research/datasets/mvtec-itodd
+MVTec D2S,https://www.mvtec.com/company/research/datasets/mvtec-d2s
+MVTec Screws,https://www.mvtec.com/company/research/datasets/mvtec-screws
+MVTec AD 2,https://www.mvtec.com/company/research/datasets/mvtec-ad-2
+MVTec MV-ball,https://www.mvtec.com/company/research/datasets/mvtec-mv-ball
+VisA,https://github.com/amazon-science/spot-diff
+BTAD,https://github.com/pankajmishra000/VT-ADL
+MPDD,https://github.com/stepanje/MPDD
+MPDD2,https://github.com/stepanje/MPDD2
+HSS-IAD,https://github.com/Qiqigeww/HSS-IAD-Dataset
+AeBAD,https://github.com/zhangzilongc/MMR
+Real3D-AD,https://github.com/M-3LAB/Real3D-AD
+Eyecandies,https://eyecan-ai.github.io/eyecandies/
+Real-IAD,https://realiad4ad.github.io/Real-IAD/
+Real-IAD D3,https://realiad4ad.github.io/Real-IAD_D3/
+Paderborn University Bearing Dataset,https://mb.uni-paderborn.de/kat/forschung/bearing-datacenter
+SKAB,https://github.com/waico/SKAB
+DAMADICS Actuator Benchmark,https://iair.mchtr.pw.edu.pl/Damadics
+TON_IoT,https://research.unsw.edu.au/projects/toniot-datasets
+IndustReal,https://github.com/TimSchoonbeek/IndustReal

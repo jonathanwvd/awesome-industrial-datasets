@@ -1,40 +1,41 @@
 # Control loop datasets
 
-**Summary:** Datasets collected from industrial control loops including raw, selected, and sampled data from an oil and gas company, along with an oscillation detection artificial dataset used for machine learning.
+**Summary:** GIMSCOP/UFRGS industrial oil and gas SISO control loop dataset with 2.5 days of real PV/MV data in three variants (raw, selected fragments, constant sampling); companion to the oscillation detection artificial dataset (ODADS).
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
+| **Associated Tasks** | Control Loop Performance Monitoring, Oscillation Detection, Anomaly Detection |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Information not available |
-| **Labeled** | Information not available |
-| **Missing Values** | Information not available |
+| **Dataset Characteristics** | Multivariate, Time-Series, Industrial Process Data |
+| **Date Donated** | 2018 |
+| **Feature Type** | Real |
+| **Labeled** | Yes |
+| **Missing Values** | No |
 | **Name** | Control loop datasets |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | GIMSCOP - UFRGS |
-| **Time Series** | Likely |
+| **Number of Features** | Process variable (PV) and manipulated variable (MV) per loop; sampling time varies by variant |
+| **Number of Instances** | Multiple SISO control loops from an oil and gas company over 2.5 days; 3 variants: SISO-RAW (non-constant sampling), SISO-SEL (selected fragments), SISO-SAMP (constant sampling rate) |
+| **Source** | GIMSCOP / UFRGS (Group of Intensification, Modeling, Simulation, Control and Optimization of Processes) |
+| **Time Series** | Yes |
 
 ## Description
 
-The Control loop datasets include several industrial datasets:
+The GIMSCOP Control Loop Datasets are provided by the Group of Intensification, Modeling, Simulation, Control and Optimization of Processes at UFRGS (Federal University of Rio Grande do Sul, Brazil). They consist of real industrial data from an oil and gas company.
 
-- SISO-RAW: Raw data collected over two and a half days from an oil and gas company with non-constant sampling time.
-- SISO-SEL: Selected fragments derived from the SISO-RAW dataset.
-- SISO-SAMP: Data with constant sampling time based on the SISO-SEL dataset.
+Three variants are provided:
+- SISO-RAW: Raw time series collected over approximately 2.5 days from multiple SISO control loops; non-constant sampling time due to data historian storage.
+- SISO-SEL: Selected fragments from SISO-RAW with particular operating conditions or behaviors of interest.
+- SISO-SAMP: Resampled version of SISO-SEL with constant sampling time, suitable for standard time-series analysis algorithms.
 
-Additionally, there is the Oscillation Detection Artificial Dataset (ODADS), which was used in previous work by the authors on a technique for oscillation detection based on machine learning. The datasets support research in control, modeling, simulation, and optimization of industrial processes.
+Each record contains the process variable (PV) and manipulated variable (MV) of a control loop. The dataset is used for control loop performance monitoring research, particularly oscillation detection. A companion synthetic dataset (ODADS — Oscillation Detection Artificial Dataset) is also available for machine learning algorithm development and validation.
 
 ## Tags
 
-Control loops, Industrial datasets, Machine learning, Oil and gas data, Oscillation detection, Process control, Time-series
+Brazil, Control Loop, GIMSCOP, Oil and Gas, Oscillation Detection, Process Control, SISO, Time-Series, UFRGS
 
 ## References
 
 - [GIMSCOP Datasets Repository](https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/)
-- [Download SISO Data](https://drive.google.com/open?id=1hnsj85dSJz344UyxbYcUlFi08xfhMALJ)
-- [Download ODADS](https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo)
+- [Download SISO Data (Google Drive)](https://drive.google.com/open?id=1hnsj85dSJz344UyxbYcUlFi08xfhMALJ)
+- [Download ODADS (Google Drive)](https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo)
 
 [⬅️ Back to Index](../README.md)

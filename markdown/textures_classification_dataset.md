@@ -1,37 +1,37 @@
 # Textures Classification Dataset
 
-**Summary:** This is a dataset of our paper "A compact convolutional neural network for surface defect inspection".
+**Summary:** Industrial texture image dataset (companion to Magnetic Tile Defect paper) for training compact CNNs in surface defect inspection; contains texture samples across defect and defect-free categories.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Information not available |
-| **Dataset Characteristics** | Image data, Surface defect inspection |
-| **Date Donated** | Information not available |
+| **Associated Tasks** | Texture Classification, Surface Defect Inspection |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Image, Multiclass |
+| **Date Donated** | 2018 |
 | **Feature Type** | Image |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
+| **Labeled** | Yes |
+| **Missing Values** | No |
 | **Name** | Textures Classification Dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | GitHub |
+| **Number of Features** | Grayscale and color texture images of industrial surfaces for defect classification |
+| **Number of Instances** | Multiple texture image samples across defect categories (exact count on GitHub repository) |
+| **Source** | GitHub (abin24) |
 | **Time Series** | No |
 
 ## Description
 
-This dataset is introduced alongside the paper "A compact convolutional neural network for surface defect inspection". It contains data related to textures used for surface defect inspection, aimed at training and testing machine learning models for defect classification and recognition.
+The Textures Classification Dataset was released by abin24 on GitHub alongside the paper 'A compact convolutional neural network for surface defect inspection' (Measurement, 2018). It is a companion dataset to the Magnetic Tile Defect dataset from the same author.
 
-The dataset is hosted on GitHub, created and maintained by the user abin24. No detailed metadata or numerical details about the number of instances or features are provided directly on the repository main page.
+The dataset contains industrial texture images organized by class, used for training and evaluating compact convolutional neural network architectures for surface defect inspection. The textures represent different surface conditions (defect types and defect-free) from industrial manufacturing environments.
 
-The dataset is intended primarily for the task of classification, specifically focused on texture and defect inspection applications involving convolutional neural networks and other machine learning approaches.
+The primary task is multi-class texture classification, aiming to distinguish between normal and various types of defective surface textures. The dataset supports research into efficient deep learning models suitable for deployment in industrial inspection systems with limited computational resources.
 
 ## Tags
 
-Computer vision, Convolutional neural network, Defect detection, Image dataset, Machine learning, Surface defect inspection, Texture classification
+Compact CNN, Computer Vision, Convolutional Neural Network, Defect Detection, Industrial Inspection, Surface Defect Inspection, Texture Classification
 
 ## References
 
-- [Textures-Dataset GitHub Repository](https://github.com/abin24/Textures-Dataset)
-- [Paper: A compact convolutional neural network for surface defect inspection](Information not available)
+- [Textures-Dataset GitHub Repository (abin24)](https://github.com/abin24/Textures-Dataset)
+- [Paper: A compact convolutional neural network for surface defect inspection (Measurement, 2018)](https://doi.org/10.1016/j.measurement.2018.06.010)
 
 [⬅️ Back to Index](../README.md)

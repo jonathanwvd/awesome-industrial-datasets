@@ -1,25 +1,39 @@
 {
   "Name": "Milling Wear",
-  "Labeled": "Information not available",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
-  "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
-  "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
-  "Source": "NASA",
-  "Summary": "Information not available",
-  "Description": "Information not available",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Tool Wear Prediction, Remaining Useful Life, Regression, Prognostics",
+  "Number of Instances": "16 experimental cases with 167 total measurement runs; ~15 MB compressed",
+  "Number of Features": "8 channels: AC spindle motor current, DC spindle motor current, table vibration, spindle vibration, acoustic emission at table, acoustic emission at spindle, flank wear (VB), plus operational parameters (depth of cut, feed, material)",
+  "Date Donated": "2007",
+  "Source": "NASA Prognostics Center of Excellence (PCoE)",
+  "Summary": "NASA milling machine tool wear dataset with 16 experiments across varying speeds, feeds, and depths of cut; records spindle motor currents, vibrations, and acoustic emission alongside flank wear (VB) measurements for tool wear prediction research.",
+  "Description": "The NASA Milling Wear dataset (Agogino & Goebel, 2007) was collected at the UC Berkeley Emergent Space Tensegrities (BEST) Lab and contributed to NASA's Prognostics Center of Excellence Data Repository. Experiments were conducted on a milling machine under 16 different combinations of cutting speed, feed rate, material type, and depth of cut. For each case, multiple experimental runs were recorded with measurements taken at irregular intervals.\n\nSix sensor channels are recorded synchronously: two spindle motor current signals (AC and DC), two vibration signals (table and spindle), and two acoustic emission signals (table and spindle). Additionally, the flank wear measurement (VB) of the milling insert is recorded at irregular intervals throughout the experiments. Operational parameters (depth of cut, feed, material type) are also stored. Data is provided in MATLAB struct array format (.mat), with a CSV version also available on Kaggle.\n\nThe primary task is to predict milling insert flank wear (VB) from the sensor signals, supporting preventive maintenance and remaining useful life estimation for cutting tools. This dataset has been widely used for tool condition monitoring research.",
   "Additional Tags": [
-    "Information not available"
+    "Tool Wear",
+    "Milling Machine",
+    "Prognostics",
+    "Predictive Maintenance",
+    "Acoustic Emission",
+    "Vibration",
+    "NASA"
   ],
   "References": [
     {
-      "Text": "NASA Raw Data Portal - Milling Wear",
+      "Text": "NASA Open Data Portal - Milling Wear",
       "Link": "https://data.nasa.gov/Raw-Data/Milling-Wear/vjv9-9f3x/data"
+    },
+    {
+      "Text": "NASA PCoE Data Repository",
+      "Link": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/"
+    },
+    {
+      "Text": "Agogino & Goebel (2007) - Original citation",
+      "Link": "https://data.phmsociety.org/nasa/"
     }
   ]
 }

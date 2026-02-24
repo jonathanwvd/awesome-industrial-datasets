@@ -1,36 +1,37 @@
 # Road Surface Cracks Dataset
 
-**Summary:** Dataset related to road surface cracks provided in the CrackForest-dataset GitHub repository.
+**Summary:** CrackForest road surface crack dataset with 118 RGB images (480×320 px) and pixel-level segmentation masks for pavement crack detection and segmentation research.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Likely Classification, Segmentation |
+| **Associated Tasks** | Crack Detection, Semantic Segmentation, Binary Classification |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Image data |
-| **Date Donated** | Information not available |
+| **Dataset Characteristics** | Image, Segmentation |
+| **Date Donated** | 2016 |
 | **Feature Type** | Image |
-| **Labeled** | Information not available |
-| **Missing Values** | Information not available |
+| **Labeled** | Yes |
+| **Missing Values** | No |
 | **Name** | Road Surface Cracks Dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | GitHub |
+| **Number of Features** | RGB images (480×320 pixels) with binary segmentation masks indicating crack locations |
+| **Number of Instances** | 118 road surface images with pixel-level crack annotations (CrackForest dataset) |
+| **Source** | GitHub (cuilimeng/CrackForest-dataset) |
 | **Time Series** | No |
 
 ## Description
 
-The Road Surface Cracks Dataset is hosted on GitHub under the repository CrackForest-dataset by user cuilimeng. The repository contains data related to road surface cracks.
+The CrackForest Dataset is a road surface crack image dataset hosted on GitHub by cuilimeng, created to benchmark pavement crack detection and segmentation algorithms. It contains 118 RGB road surface images captured under real road inspection conditions, each with a corresponding binary pixel-level ground truth mask delineating crack regions.
 
-No additional detailed description or website is provided on the repository page. The dataset likely contains images of road surfaces with cracks for analysis and model development.
+Images are 480×320 pixels and depict various types of road pavement cracks in urban environments. The dataset supports both binary classification (cracked vs. intact) and semantic segmentation (crack pixel localization) tasks.
 
-The GitHub page does not publish releases or packages for this dataset, and further metadata such as instance or feature count, labeling details, or missing values information is not explicitly provided.
+The dataset was used as a benchmark in the paper 'Automatic Pavement Crack Detection Based on Structured Prediction with the Convolutional Neural Network' and related road infrastructure inspection research. It is one of the standard benchmarks for pavement crack segmentation algorithms.
 
 ## Tags
 
-Computer vision, Crack detection, GitHub dataset, Image data, Infrastructure monitoring, Material defects, Road surface cracks
+Computer Vision, Crack Detection, Image Dataset, Infrastructure Monitoring, Pavement Inspection, Road Surface, Semantic Segmentation
 
 ## References
 
 - [CrackForest-dataset GitHub repository](https://github.com/cuilimeng/CrackForest-dataset)
+- [Paper: Automatic Pavement Crack Detection Based on Structured Prediction with CNN](https://arxiv.org/abs/1802.02208)
 
 [⬅️ Back to Index](../README.md)

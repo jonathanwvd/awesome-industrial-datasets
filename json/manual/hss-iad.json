@@ -1,0 +1,35 @@
+{
+  "Name": "HSS-IAD",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image, Anomaly Detection, Multi-Class",
+  "Feature Type": "Images + Anomaly Annotations + Foreground Assets",
+  "Associated Tasks": "Multi-Class Unsupervised Anomaly Detection, Segmentation",
+  "Number of Instances": "8580 images",
+  "Number of Features": "Information not available",
+  "Date Donated": "2025",
+  "Source": "https://github.com/Qiqigeww/HSS-IAD-Dataset",
+  "Summary": "Multi-class industrial anomaly detection dataset focused on same-sort parts with heterogeneous structures and subtle defects, featuring 8,580 images with precise anomaly annotations and foreground assets for synthesis.",
+  "Description": "HSS-IAD (Heterogeneous Same-Sort Industrial Anomaly Detection) is a benchmark dataset targeting a challenging scenario in industrial inspection: detecting subtle anomalies in objects that belong to the same product category but have heterogeneous visual appearances due to differences in structure, material, or finish.\n\nThe dataset contains 8,580 images across multiple industrial part categories. Anomaly annotations are precise, covering subtle defects and interference sources that are difficult to distinguish from normal inter-class variation. Foreground images are also provided to enable synthesis-based data augmentation approaches. The data is distributed via Google Drive from the repository.\n\nHSS-IAD was introduced at ICME 2025 (arXiv:2504.12689) and addresses a gap in existing benchmarks that typically assume visually homogeneous normal samples.",
+  "Additional Tags": [
+    "Industrial Anomaly Detection",
+    "Subtle Defects",
+    "Multi-Class Benchmark",
+    "Heterogeneous Parts",
+    "Manufacturing Inspection",
+    "Visual Quality Control",
+    "Defect Detection"
+  ],
+  "References": [
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/Qiqigeww/HSS-IAD-Dataset"
+    },
+    {
+      "Text": "Paper (arXiv 2025 / ICME)",
+      "Link": "https://arxiv.org/abs/2504.12689"
+    }
+  ]
+}
