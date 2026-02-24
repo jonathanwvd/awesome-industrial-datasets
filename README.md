@@ -6,7 +6,7 @@ Welcome to the Awesome Industrial Datasets repository! This project aims to simp
 
 If you find this repository useful, please consider giving it a ⭐ to show your support!
 
-💼 If this repository was useful to you and you'd like to sponsor this project, or if you're looking for consultancy in **data science, LLMs, or AI agents for industry**, feel free to get in touch — contact details on my [GitHub profile](https://github.com/jonathanwvd).
+💼 If you'd like to do more and sponsor this project, or if you're looking for consultancy in **data science, LLMs, or AI agents for industry**, feel free to get in touch — contact details on my [GitHub profile](https://github.com/jonathanwvd).
 
 🤝 If you're interested in contributing, please refer to the [Contribution Guidelines](#contribution-guidelines).
 
