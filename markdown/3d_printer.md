@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2018-09-14 |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | 3D Printer |
-| **Number of Features** | 12 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | 3D Printer |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Additive Manufacturing; Materials / Chemistry |
+| **Modality** | Tabular |
+| **Task** | Classification; Regression; Quality Prediction |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset is based on the Ultimaker S5 3D printer settings and filaments, with
 It comprises nine setting parameters including layer height, wall thickness, infill density and pattern, nozzle and bed temperature, print speed, material, and fan speed. The measured output parameters are roughness, tension (ultimate) strength, and elongation.
 
 The study attempts to estimate which material is used based on input and output parameters using kNN and DNN algorithms. This dataset supports mechanical engineering research and machine learning analysis for 3D printing parameters.
-
-## Tags
-
-3D Printing, Classification, Material Strength, Mechanical Engineering, Print Quality, Regression, Ultimaker S5
 
 ## References
 

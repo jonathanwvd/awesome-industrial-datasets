@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Time-Series, Multivariate |
-| **Date Donated** | 2021-06-03 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | ToyADMOS2 dataset: Another dataset of miniature-machine operating sounds for anomalous sound detection under domain shift conditions |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Zenodo |
-| **Time Series** | Yes |
+| **Dataset** | ToyADMOS2 dataset: Another dataset of miniature-machine operating sounds for anomalous sound detection under domain shift conditions |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Industrial Machines |
+| **Modality** | Time Series; Audio |
+| **Task** | Anomaly Detection; Fault Diagnosis; Condition Monitoring |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository |
+| **Size** | 27 k samples |
+| **Year** | 2021 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ ToyADMOS2 dataset is a large-scale dataset for anomaly detection in machine oper
 What makes this dataset different from others is that it is not used as is, but in conjunction with the tool provided on GitHub. The mixer tool lets you create datasets with any combination of recordings by describing the amount you need in a recipe file.
 
 The samples are compressed as MPEG-4 ALS (MPEG-4 Audio Lossless Coding) with a suffix of '.mp4' that you can load by using the audioread or librosa python module.
-
-## Tags
-
-Anomaly detection, Audio data, Benchmark dataset, Condition monitoring, Domain shift, MPEG-4 ALS, Machine operating sounds
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2017-12-07 |
-| **Feature Type** | Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | Yes |
-| **Name** | APS Failure at Scania Trucks |
-| **Number of Features** | 171 |
-| **Number of Instances** | 60000 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Information not available |
+| **Dataset** | APS Failure at Scania Trucks |
+| **Domain** | Transportation & Mobility |
+| **Asset / Process** | Vehicles / Fleets |
+| **Modality** | Tabular |
+| **Task** | Classification; Fault Diagnosis; Predictive Maintenance |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI; Competition |
+| **Size** | 60000 |
+| **Year** | 2017 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset consists of data collected from heavy Scania trucks in everyday usag
 The training set contains 60,000 examples in total: 59,000 belonging to the negative class and 1,000 to the positive class. The test set contains 16,000 examples. The attributes of the data have been anonymized for proprietary reasons and comprise both single numerical counters and histograms consisting of bins with different conditions. There are 171 attributes in total, of which 7 are histogram variables. Missing values are denoted by 'na'.
 
 The dataset was part of an Industrial Challenge 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA). The evaluation metric is a cost-based misclassification metric, where costs for false positives and false negatives differ significantly, reflecting the practical consequences of errors in a maintenance context.
-
-## Tags
-
-Air Pressure System, Anonymized features, Component failure, Fault detection, Heavy trucks, Industrial challenge dataset, Scania trucks
 
 ## References
 

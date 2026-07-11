@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Both |
-| **Dataset Characteristics** | Time-Series, Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | RUL Datasets |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | GitHub |
-| **Time Series** | Yes |
+| **Dataset** | RUL Datasets |
+| **Domain** | Aerospace & Defense; Manufacturing & Production |
+| **Asset / Process** | Bearings; Turbines / Engines |
+| **Modality** | Time Series |
+| **Task** | RUL / Prognostics; Benchmark Suite |
+| **Annotation** | Sample Label; RUL Label; Scalar Target |
+| **Source Type** | Derived / Aggregated |
+| **Access** | Repository |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This library contains a collection of common benchmark datasets for remaining us
 Currently, five datasets are supported: C-MAPSS Turbofan Degradation Dataset, FEMTO (PRONOSTIA) Bearing Dataset, XJTU-SY Bearing Dataset, N-C-MAPSS New Turbofan Degradation Dataset, and a Dummy dataset for testing and debugging purposes.
 
 In addition to the basic data modules, the library offers higher-order data modules designed for advanced experiments in transfer learning, unsupervised domain adaptation, and semi-supervised learning. These higher-order modules accept one or more of the basic modules as inputs and adapt them to specific use-case requirements.
-
-## Tags
-
-PyTorch Lightning, bearing dataset, domain adaptation, remaining useful life, time-series data, transfer learning, turbofan engine
 
 ## References
 

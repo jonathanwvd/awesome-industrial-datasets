@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Clustering |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2019-01-28 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Chemical Composition of Ceramic Samples |
-| **Number of Features** | 19 |
-| **Number of Instances** | 88 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Chemical Composition of Ceramic Samples |
+| **Domain** | Chemical & Process; Materials & Metrology |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Tabular |
+| **Task** | Classification; Benchmark Suite |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | UCI |
+| **Size** | 88 |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The energy dispersive X-ray fluorescence (EDXRF) was used to determine the chemi
 This dataset contains measurements of percentages of various chemical components and elements in ceramic samples. The dataset comprises samples from two kiln locations and different cultural eras, allowing classification and clustering tasks based on chemical composition.
 
 Variable information includes ceramic type names, part type (Body or Glaze), and the percentages of elements such as Na2O, MgO, Al2O3, SiO2, K2O, CaO, TiO2, Fe2O3, MnO, CuO, ZnO, PbO2, Rb2O, SrO, Y2O3, ZrO2, and P2O5 with weight percentage and ppm measurements.
-
-## Tags
-
-Ceramic samples, Chemical composition, Classification, Clustering, Energy Dispersive X-ray Fluorescence, Multivariate dataset, Physics and Chemistry
 
 ## References
 

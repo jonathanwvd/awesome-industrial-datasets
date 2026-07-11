@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Reaction Prediction, Retrosynthesis, Chemical Synthesis Planning, Yield Prediction, Experiment Design |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Structured Chemical Reaction Data |
-| **Date Donated** | 2021 |
-| **Feature Type** | Mixed (SMILES strings, numerical reaction conditions, categorical) |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Open Reaction Database |
-| **Number of Features** | Per reaction: reactants, reagents, solvents, catalysts (as SMILES/InChI), conditions (temperature, pressure, time), yield, provenance, and references; stored in Protocol Buffers schema |
-| **Number of Instances** | Over 1 million chemical reactions (growing community-contributed database) |
-| **Source** | Open Reaction Database (ORD) Consortium — pharma, academia, and tech |
-| **Time Series** | No |
+| **Dataset** | Open Reaction Database |
+| **Domain** | Chemical & Process |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Tabular; Text / Documents |
+| **Task** | Regression; Benchmark Suite |
+| **Annotation** | Scalar Target; Text / QA Label |
+| **Source Type** | Public Records |
+| **Access** | Repository |
+| **Size** | Over 1 million chemical reactions (growing community-contributed database) |
+| **Year** | 2021 |
+| **License** | CC BY |
 
 ## Description
 
@@ -26,10 +25,6 @@ The database stores chemical reactions using a Protocol Buffers-based schema tha
 As of 2021, the database contains over 1 million reactions, contributed by pharmaceutical companies (Eli Lilly, Merck, AstraZeneca, etc.) and academic groups. The dataset is described in a 2021 JACS paper and is expected to serve as a foundation for ML models for reaction prediction, retrosynthesis, and automated synthesis planning.
 
 Licensed under CC BY 4.0. Hosted on GitHub and accessible via a web interface.
-
-## Tags
-
-CC BY 4.0, Chemical Reactions, Cheminformatics, Open Access, Pharmaceutical, Protocol Buffers, Reaction Prediction, Retrosynthesis, SMILES, Synthesis Planning
 
 ## References
 

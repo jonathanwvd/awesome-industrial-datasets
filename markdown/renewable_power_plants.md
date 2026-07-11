@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Likely Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Likely No |
-| **Missing Values** | Information not available |
-| **Name** | Renewable power plants |
-| **Number of Features** | 226 columns |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle, originally from Open Power System Data |
-| **Time Series** | Yes |
+| **Dataset** | Renewable power plants |
+| **Domain** | Energy & Power |
+| **Asset / Process** | Solar / PV; Power Grid / Plants |
+| **Modality** | Time Series |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This data package includes renewable energy power plant listings from Czechia, D
 The energy sources represented include solar, hydro, wind, bioenergy, marine, and geothermal among others. Entries suspected to be duplicates or questionable are marked in a special comment column detailed in a separate validation marker file. Additionally, the dataset provides daily time series data of cumulated installed capacity per energy source for Germany, Denmark, Switzerland, the United Kingdom, and Sweden.
 
 The data is compiled from the Open Power System Data platform and is available as separate CSV files per country, facilitating comprehensive analysis of renewable power infrastructure across multiple European regions.
-
-## Tags
-
-Energy Capacity, Energy Infrastructure, European Countries, Multivariate Data, Power Plants, Renewable Energy, Time Series
 
 ## References
 

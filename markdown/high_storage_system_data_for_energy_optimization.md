@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Optimization, Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2018-07-19 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | High Storage System Data for Energy Optimization |
-| **Number of Features** | 80 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | High Storage System Data for Energy Optimization |
+| **Domain** | Energy & Power |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Time Series |
+| **Task** | Anomaly Detection; Energy Optimization |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset originates from the Smartfactory in Lemgo, which demonstrates a high
 The high storage system consists of 4 short conveyor belts and 2 rails, with the conveyor belts equipped with induction sensors. It uses a SPS with Codesys V3, following the IEC61131-Standard. The system transports packages between two spots with runs recorded for both optimized and non-optimized processes, including those with anomalies.
 
 The data files are split into four CSV files covering normal runs without failures (non-optimized and optimized) and runs with failures (non-optimized and optimized). The Label column marks anomalies, enabling tests on energy-based optimization and anomaly detection tasks. The dataset is publicly available under a Creative Commons BY-NC-SA 4.0 license.
-
-## Tags
-
-Anomaly detection, Conveyor belts, Energy optimization, High storage system, Industrial IoT, Sensor data, Time-series data
 
 ## References
 

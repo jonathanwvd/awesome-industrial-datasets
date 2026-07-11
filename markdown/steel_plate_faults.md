@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2010-10-25 |
-| **Feature Type** | Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Steel Plates Faults |
-| **Number of Features** | 27 |
-| **Number of Instances** | 1941 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Steel Plates Faults |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Steel / Metal Surfaces |
+| **Modality** | Tabular |
+| **Task** | Classification; Fault Diagnosis |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 1941 |
+| **Year** | 2010 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset contains data on steel plates faults classified into seven types: P
 The dataset aims to provide records to train machine learning models for automatic pattern recognition in fault detection on steel plates. The dataset contains no missing values and is based on real data.
 
 The features describe various physical properties and measurements related to the steel plates, such as X_Minimum, X_Maximum, Y_Minimum, Y_Maximum, Pixels_Areas, X_Perimeter, Y_Perimeter, and Luminosity indices among others.
-
-## Tags
-
-Fault classification, Integer features, Multivariate dataset, No missing values, Pattern recognition, Real features, Steel plates
 
 ## References
 

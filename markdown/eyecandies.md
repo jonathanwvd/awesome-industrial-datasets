@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Multimodal Anomaly Detection, Localisation, Segmentation |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Image, Depth, Multimodal, Anomaly Detection, Synthetic |
-| **Date Donated** | 2022 |
-| **Feature Type** | RGB Images + Depth Maps + Surface Normal Maps |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Eyecandies |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 10 object classes; per-class: 1000 normal train, 100 normal val, 25/25 public test, 200/200 private test |
-| **Source** | https://eyecan-ai.github.io/eyecandies/ |
-| **Time Series** | No |
+| **Dataset** | Eyecandies |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image; RGB-D; Multimodal |
+| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation |
+| **Annotation** | Normal-Only Training; Sample Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository |
+| **Size** | 10 object classes; per-class: 1000 normal train, 100 normal val, 25/25 public test, 200/200 private test |
+| **Year** | 2022 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Eyecandies is a synthetic multimodal benchmark dataset for industrial anomaly de
 The dataset covers 10 object classes (candy-shaped objects) with standardised splits: 1,000 normal training images, 100 normal validation images, and a test set divided into a public portion (25 normal + 25 anomalous) and a private portion (200 normal + 200 anomalous). Anomalies are injected directly in the rendering pipeline with pixel-wise ground truth masks.
 
 Eyecandies was introduced at ACCV 2022 and is particularly useful for pre-training and benchmarking multimodal anomaly detection methods. The code is available on GitHub; dataset licensing should be confirmed with the authors before commercial use.
-
-## Tags
-
-Anomaly Segmentation, Benchmark Dataset, Conveyor Belt, Industrial Inspection, Multimodal, RGB-Depth-Normals, Synthetic Dataset
 
 ## References
 

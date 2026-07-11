@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Predictive Maintenance, Remaining Useful Life Prediction, Time Series Analysis |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | No |
-| **Missing Values** | Information not available |
-| **Name** | One Year Industrial Component Degradation |
-| **Number of Features** | 9 per file (total 4671 columns across files) |
-| **Number of Instances** | 519 files (samples) |
-| **Source** | Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | One Year Industrial Component Degradation |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Time Series |
+| **Task** | Anomaly Detection; RUL / Prognostics; Predictive Maintenance |
+| **Annotation** | Unlabeled; RUL Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | 519 files (samples) |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset contains the machine data of a degrading component recorded over a 
 The data is collected from the Vega shrink-wrapper machine deployed in large production lines in the food and beverage industry by OCME. This machine groups loose bottles or cans into set package sizes, wraps them in plastic film, and heat-shrinks the film to form a package. The cutting blade assembly is crucial for machine availability and cannot be visually inspected during operation due to its enclosure and fast rotation speed. Monitoring blade degradation with this data can help improve machine reliability and reduce unexpected downtime.
 
 The dataset includes 8 different operational modes and several machine speeds, which may be inferred using time series analysis. The data is intended for anomaly localization and predictive maintenance to estimate the remaining useful life of the component. Data files are named in a format encoding recording date, sample number, and mode. The dataset is public under a Creative Commons BY-SA 3.0 license.
-
-## Tags
-
-Cutting blade, Industrial component degradation, Manufacturing, Multivariate time series, Predictive maintenance, Remaining useful life prediction, Sensor data
 
 ## References
 

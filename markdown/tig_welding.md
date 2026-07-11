@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multivariate |
-| **Date Donated** | 2018-10-11 |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | TIG Welding |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 33300 (33.3k files) |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | TIG Welding |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Welding |
+| **Modality** | Image |
+| **Task** | Classification; Process Monitoring |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | 33300 (33.3k files) |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Weld defect identification represents one of the most desired goals in the field
 This dataset supports research for automated defect classification of Aluminium 5083 TIG welding using artificial neural networks (ANN) for image processing. The images are labeled for various welding imperfections, enabling classification tasks.
 
 It includes a large number of files (33.3k) and represents real welding footage, allowing models to learn to detect welding defects as a task in quality assessment and process monitoring.
-
-## Tags
-
-Aluminium 5083, HDR camera, Image data, Neural networks, Non-destructive testing, TIG welding, Weld defect classification
 
 ## References
 

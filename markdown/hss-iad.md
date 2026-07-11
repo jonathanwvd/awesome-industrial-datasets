@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Multi-Class Unsupervised Anomaly Detection, Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection, Multi-Class |
-| **Date Donated** | 2025 |
-| **Feature Type** | Images + Anomaly Annotations + Foreground Assets |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | HSS-IAD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 8580 images |
-| **Source** | https://github.com/Qiqigeww/HSS-IAD-Dataset |
-| **Time Series** | No |
+| **Dataset** | HSS-IAD |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation; Quality Prediction |
+| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository |
+| **Size** | 8580 images |
+| **Year** | 2025 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ HSS-IAD (Heterogeneous Same-Sort Industrial Anomaly Detection) is a benchmark da
 The dataset contains 8,580 images across multiple industrial part categories. Anomaly annotations are precise, covering subtle defects and interference sources that are difficult to distinguish from normal inter-class variation. Foreground images are also provided to enable synthesis-based data augmentation approaches. The data is distributed via Google Drive from the repository.
 
 HSS-IAD was introduced at ICME 2025 (arXiv:2504.12689) and addresses a gap in existing benchmarks that typically assume visually homogeneous normal samples.
-
-## Tags
-
-Defect Detection, Heterogeneous Parts, Industrial Anomaly Detection, Manufacturing Inspection, Multi-Class Benchmark, Subtle Defects, Visual Quality Control
 
 ## References
 

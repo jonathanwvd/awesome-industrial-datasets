@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2017-04 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | UK-DALE dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | UK Energy Research Council's Energy Data Centre (UKERC EDC) |
-| **Time Series** | Yes |
+| **Dataset** | UK-DALE dataset |
+| **Domain** | Energy & Power; Buildings & Appliances |
+| **Asset / Process** | Power Grid / Plants; Buildings / Appliances |
+| **Modality** | Time Series |
+| **Task** | Classification; Regression; Energy Optimization |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Repository |
+| **Size** | Information not available |
+| **Year** | 2017 |
+| **License** | CC BY |
 
 ## Description
 
@@ -24,10 +23,6 @@ The UK Domestic Appliance-Level Electricity (UK-DALE) dataset contains detailed 
 The dataset has been released multiple times, with the final and most recent release dated April 2017, providing up to 4.3 years of data for house 1. The data is available in several formats including CSV files for 1-second and 6-second resolution data and an HDF5 format compatible with the NILMTK toolkit. Additional utility meter readings and metadata about houses are also provided.
 
 The dataset is made freely available under the Creative Commons Attribution 4.0 International license (CC BY 4.0). It has been described in the publication "The UK-DALE dataset, domestic appliance-level electricity demand and whole-house demand from five UK homes" published in Scientific Data in 2015. Users are encouraged to cite this paper and the dataset DOIs when using UK-DALE data.
-
-## Tags
-
-Appliance-level data, Domestic electricity usage, Energy consumption, High-frequency power data, Multivariate, Time-series data, United Kingdom
 
 ## References
 

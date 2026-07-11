@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Predictive Maintenance, Fault Diagnosis, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2016 |
-| **Feature Type** | Vibration + Motor Current Time Series |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Paderborn University Bearing Dataset |
-| **Number of Features** | Multiple channels: motor current, vibration, plus speed, torque, radial load, and temperature metadata |
-| **Number of Instances** | 32 bearing states (26 damaged + 6 healthy) under 4 operating conditions |
-| **Source** | https://mb.uni-paderborn.de/kat/forschung/bearing-datacenter |
-| **Time Series** | Yes |
+| **Dataset** | Paderborn University Bearing Dataset |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Bearings; Motors / Drives |
+| **Modality** | Time Series; Vibration |
+| **Task** | Fault Diagnosis; Condition Monitoring; Predictive Maintenance |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Zenodo / Dataverse |
+| **Size** | 32 bearing states (26 damaged + 6 healthy) under 4 operating conditions |
+| **Year** | 2016 |
+| **License** | CC BY |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Paderborn University Bearing Dataset (KAt DataCenter) is a comprehensive ben
 The dataset includes 32 distinct bearing states: 6 healthy reference states and 26 damaged states representing a range of inner race, outer race, and roller defects introduced by artificial and accelerated ageing methods. Four operating conditions are defined by combinations of shaft speed and load torque, yielding a rich matrix of conditions for evaluating generalisation.
 
 The dataset is hosted at the KAt DataCenter of the University of Paderborn and is also available via Zenodo. It is licensed under CC BY with a request to contact authors for commercial use, and is widely cited in the bearing fault diagnosis and data-driven maintenance literature.
-
-## Tags
-
-Bearing Faults, Condition Monitoring, Fault Diagnosis, Motor Current, Predictive Maintenance, Rotating Machinery, Vibration Analysis
 
 ## References
 

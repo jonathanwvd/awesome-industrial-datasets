@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2023-08-13 |
-| **Feature Type** | Real, Integer |
-| **Labeled** | Likely |
-| **Missing Values** | No |
-| **Name** | Power Consumption of Tetouan City |
-| **Number of Features** | 6 |
-| **Number of Instances** | 52417 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Power Consumption of Tetouan City |
+| **Domain** | Energy & Power; Environment & Safety |
+| **Asset / Process** | Power Grid / Plants |
+| **Modality** | Time Series |
+| **Task** | Regression; Energy Optimization |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 52417 |
+| **Year** | 2023 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset contains power consumption data from three different distribution n
 The data includes weather variables such as temperature, humidity, and wind speed along with power consumption for each of the three zones. Each record corresponds to a time interval of ten minutes.
 
 The dataset is suitable for regression tasks and analysis related to power consumption prediction considering environmental factors. It contains no missing values and comprises both real and integer data types.
-
-## Tags
-
-Energy distribution networks, Morocco, Multivariate dataset, Power consumption, Regression task, Time-series, Weather data integration
 
 ## References
 

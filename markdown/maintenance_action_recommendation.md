@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Recommendation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Classification |
-| **Date Donated** | 2013-08-14 |
-| **Feature Type** | Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Maintenance Action Recommendation |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | PHM Society |
-| **Time Series** | Likely |
+| **Dataset** | Maintenance Action Recommendation |
+| **Domain** | General / Cross-Industrial |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Time Series |
+| **Task** | Classification; RUL / Prognostics; Predictive Maintenance; Recommendation / Decision Support |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Competition |
+| **Size** | Information not available |
+| **Year** | 2013 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The PHM Data Challenge was part of the 2013 Annual Conference of the Prognostics
 There are four data sets: 'Train – Case to Problem.csv' which links cases to maintenance actions, 'Train – Nuisance Cases.csv' which contains cases not instructive enough to require action, 'Train – Case to Events and Parameters.csv' which includes event codes and parameters for training, and 'Test – Case to Events and Parameters.csv' which holds test cases for evaluation. The data originates from an industrial piece of equipment where event codes are generated based on onboard conditions along with parameters snapshots.
 
 Participants submitted CSV files with their recommendations that were scored based on the correctness and avoidance of nuisance outputs. The competition winners were invited to submit papers and present their results at the PHM conference and in the International Journal of Prognostics and Health Management (IJPHM).
-
-## Tags
-
-Diagnostics, Event codes, Industrial equipment, Maintenance recommendation, PHM Society data challenge, Parameter data, Remote monitoring
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2014-10-31 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | GREEND |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | SourceForge |
-| **Time Series** | Yes |
+| **Dataset** | GREEND |
+| **Domain** | Energy & Power; Buildings & Appliances |
+| **Asset / Process** | Power Grid / Plants; Buildings / Appliances |
+| **Modality** | Time Series |
+| **Task** | Energy Optimization |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2014 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ GREEND is an energy dataset containing power measurements collected from multipl
 The dataset is expected to have regular snapshots as more data is recorded and measurement platforms are deployed.
 
 The GREEND dataset is free to use in research and commercial applications. Access to the dataset is provided after filling a brief form to obtain credentials for the dataset archive. It is important to cite the original work when relying on this dataset in research.
-
-## Tags
-
-Austria, Energy consumption, High frequency sampling, Household power measurements, Italy, Per device energy profiles, Time-series data
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Object Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multiclass |
-| **Date Donated** | Information not available |
-| **Feature Type** | Grayscale Images |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | GC10-DET |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 3570 |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | GC10-DET |
+| **Domain** | Manufacturing & Production; Materials & Metrology |
+| **Asset / Process** | Steel / Metal Surfaces |
+| **Modality** | Image |
+| **Task** | Defect Detection; Object Detection; Classification |
+| **Annotation** | Bounding Box; Fault Type Label; Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Repository; Login Required |
+| **Size** | 3570 |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The GC10-DET dataset is a surface defect dataset collected from a real industry 
 Each defect type has a specific cause and appearance such as mechanical failure leading to unwanted punching defects, weld lines formed during coil changes, or water spots caused by drying during production. These defects vary in visual characteristics including shape, texture, and contrast, challenging automated detection and classification systems.
 
 This dataset is intended for tasks like defect classification and location detection on metal surfaces, serving as a benchmark for industrial defect detection algorithms. It is referenced from a GitHub repository linked to the original research paper on deep metallic surface defect detection.
-
-## Tags
-
-Grayscale images, Image classification, Industrial dataset, Manufacturing quality control, Metal surface defects, Object detection, Steel sheet defects
 
 ## References
 

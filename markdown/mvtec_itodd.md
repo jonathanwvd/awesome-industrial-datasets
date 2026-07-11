@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | 3D Object Detection, 6D Pose Estimation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, 3D, Multi-Sensor, Pose Estimation |
-| **Date Donated** | 2017 |
-| **Feature Type** | Range Images (XYZ) + Grayscale Images + CAD Models |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MVTec ITODD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 3500 labelled scenes across 28 object categories |
-| **Source** | https://www.mvtec.com/company/research/datasets/mvtec-itodd |
-| **Time Series** | No |
+| **Dataset** | MVTec ITODD |
+| **Domain** | Robotics & Automation; Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Image; 3D Point Cloud; RGB-D; Multimodal |
+| **Task** | Object Detection; Pose Estimation; 3D Understanding |
+| **Annotation** | Bounding Box; Pose / Keypoint Label; Split Metadata |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Direct Download |
+| **Size** | 3500 labelled scenes across 28 object categories |
+| **Year** | 2017 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MVTec ITODD (Industrial 3D Object Detection Dataset) is a benchmark dataset for 
 The dataset contains 28 objects and 3,500 labelled scenes, with downloads organised by modality. The base package includes 3D data and is approximately 150 MB, while individual grayscale camera packages are several GB each. This multi-modal and multi-sensor design distinguishes ITODD from simpler single-camera pose benchmarks and makes it relevant for robotic bin-picking and industrial assembly applications.
 
 MVTec ITODD was introduced at the ICCV Workshops 2017 and is licensed under CC BY-NC-SA 4.0 for non-commercial research use. Users are encouraged to evaluate methods across all sensor modalities.
-
-## Tags
-
-6D Pose Estimation, Bin Picking, CAD Models, Industrial Object Detection, MVTec, Multi-Sensor, Robotics
 
 ## References
 

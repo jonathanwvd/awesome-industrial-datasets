@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2017-12-06 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Quality Prediction in a Mining Process |
-| **Number of Features** | 24 |
-| **Number of Instances** | Approximately 158,000+ per large time chunks, total count likely over 400,000 |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | Quality Prediction in a Mining Process |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Time Series |
+| **Task** | Regression; Quality Prediction; Process Monitoring |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Approximately 158,000+ per large time chunks, total count likely over 400,000 |
+| **Year** | 2017 |
+| **License** | Academic / Non-Commercial |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset comes from one of the most important parts of a mining process: a f
 The motivation behind predicting the silica concentration is that its lab measurement (last column) takes about one hour to be available, and predicting it earlier can empower engineers to take corrective actions proactively, reducing impurities and environmental impact. This dataset has been used for research purposes to explore predictions of impurity levels in the flotation process with goals like multi-step ahead predictions and evaluating models that exclude highly correlated features.
 
 The dataset has been used for learning, research, and application purposes and includes well-documented and well-maintained data suitable for developing machine learning models in the manufacturing and mining domain. Related research includes deep learning techniques applied to purity prediction in froth flotation and soft sensors for process quality prediction.
-
-## Tags
-
-Flotation plant, Industrial manufacturing, Iron ore quality, Mining process, Process engineering, Silica impurity prediction, Time series data
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | 3D Anomaly Detection, 3D Anomaly Localisation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | 3D Point Cloud, Anomaly Detection |
-| **Date Donated** | 2023 |
-| **Feature Type** | Point Clouds (PCD/PLY) + Ground Truth Files |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Real3D-AD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 1254 samples across 12 categories |
-| **Source** | https://github.com/M-3LAB/Real3D-AD |
-| **Time Series** | No |
+| **Dataset** | Real3D-AD |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image; 3D Point Cloud |
+| **Task** | Anomaly Detection; Anomaly Localization; 3D Understanding |
+| **Annotation** | Normal-Only Training; Sample Label; 3D / Point Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository; Direct Download |
+| **Size** | 1254 samples across 12 categories |
+| **Year** | 2023 |
+| **License** | CC BY |
 
 ## Description
 
@@ -24,10 +23,6 @@ Real3D-AD is the first large-scale benchmark dedicated to 3D point-cloud anomaly
 Anomaly types include bulge and sink deformations representing common manufacturing defects at the sub-millimetre scale. The dataset thus targets applications where visual inspection alone is insufficient and high-resolution 3D geometry is required. Unlike synthetic point-cloud datasets, Real3D-AD uses genuine industrial objects scanned in controlled conditions.
 
 Real3D-AD was presented at NeurIPS 2023 Datasets & Benchmarks (arXiv:2309.13226) and is licensed under CC BY 4.0, permitting broad research use.
-
-## Tags
-
-3D Point Cloud, Defect Localisation, Industrial Anomaly Detection, Metrology, Open Dataset, Precision Manufacturing, Unsupervised Learning
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Texture Classification, Surface Defect Inspection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multiclass |
-| **Date Donated** | 2018 |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Textures Classification Dataset |
-| **Number of Features** | Grayscale and color texture images of industrial surfaces for defect classification |
-| **Number of Instances** | Multiple texture image samples across defect categories (exact count on GitHub repository) |
-| **Source** | GitHub (abin24) |
-| **Time Series** | No |
+| **Dataset** | Textures Classification Dataset |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Image |
+| **Task** | Defect Detection; Classification |
+| **Annotation** | Sample Label; Class Label; Fault Type Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Repository |
+| **Size** | Multiple texture image samples across defect categories (exact count on GitHub repository) |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Textures Classification Dataset was released by abin24 on GitHub alongside t
 The dataset contains industrial texture images organized by class, used for training and evaluating compact convolutional neural network architectures for surface defect inspection. The textures represent different surface conditions (defect types and defect-free) from industrial manufacturing environments.
 
 The primary task is multi-class texture classification, aiming to distinguish between normal and various types of defective surface textures. The dataset supports research into efficient deep learning models suitable for deployment in industrial inspection systems with limited computational resources.
-
-## Tags
-
-Compact CNN, Computer Vision, Convolutional Neural Network, Defect Detection, Industrial Inspection, Surface Defect Inspection, Texture Classification
 
 ## References
 

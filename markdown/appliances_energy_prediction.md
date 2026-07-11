@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2017-02-14 |
-| **Feature Type** | Real |
-| **Labeled** | No |
-| **Missing Values** | No |
-| **Name** | Appliances Energy Prediction |
-| **Number of Features** | 28 |
-| **Number of Instances** | 19735 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Appliances Energy Prediction |
+| **Domain** | Buildings & Appliances; Energy & Power |
+| **Asset / Process** | Buildings / Appliances |
+| **Modality** | Time Series |
+| **Task** | Regression; Energy Optimization |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI; Repository |
+| **Size** | 19735 |
+| **Year** | 2017 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The data set is at 10 min for about 4.5 months. The house temperature and humidi
 Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters).
 
 Permissions were obtained from Reliable Prognosis for the distribution of the 4.5 months of weather data. The dataset is useful for research related to energy consumption prediction with multiple sensor and environmental attributes included.
-
-## Tags
-
-Energy consumption data, Indoor environment monitoring, M-bus energy meters, Multivariate time series, Temperature and humidity, Weather data integration, ZigBee wireless sensor network
 
 ## References
 

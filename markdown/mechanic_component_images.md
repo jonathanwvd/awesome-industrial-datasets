@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multiclass Classification |
-| **Date Donated** | 2020-05-22 |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Mechanic Component Images ( Normal / Defected) |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 285 files |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Mechanic Component Images ( Normal / Defected) |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Casting / Metal Parts |
+| **Modality** | Image |
+| **Task** | Defect Detection; Classification; Quality Prediction |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | 285 files |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ As air conditioners are used regularly in homes, they consist of various mechani
 The dataset contains three groups of folders containing images of pistons: Defected 1 (broken, shaped out, fallen pistons), Defected 2 (pistons with oily, grease, or rust stains), and Normal (perfectly normal pistons). The images were collected manually from different components.
 
 Upvoting this dataset motivates the author to collect more unique datasets from the environment. This dataset facilitates machine learning models to perform defect detection and classification in mechanical component images.
-
-## Tags
-
-Computer vision, Defect detection, Image data, Manufacturing quality control, Mechanical components, Multiclass classification, Piston quality recognition
 
 ## References
 

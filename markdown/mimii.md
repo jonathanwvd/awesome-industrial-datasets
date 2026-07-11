@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2019-09-20 |
-| **Feature Type** | Real, Integer |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Zenodo |
-| **Time Series** | Yes |
+| **Dataset** | MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Industrial Machines |
+| **Modality** | Time Series; Audio |
+| **Task** | Anomaly Detection; Fault Diagnosis; Condition Monitoring |
+| **Annotation** | Normal-Only Training; Sample Label |
+| **Source Type** | Mixed |
+| **Access** | Repository; Zenodo / Dataverse |
+| **Size** | Information not available |
+| **Year** | 2019 |
+| **License** | CC BY-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset is a sound dataset for malfunctioning industrial machine investigat
 This dataset is made available by Hitachi, Ltd. under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
 A baseline sample code for anomaly detection is available on GitHub: https://github.com/MIMII-hitachi/mimii_baseline/. This version "public 1.0" contains four models (model ID 00, 02, 04, and 06); the remaining models will be released in future editions.
-
-## Tags
-
-acoustic condition monitoring, anomaly detection, audio data, industrial machine, machine fault diagnosis, microphone array, unsupervised learning
 
 ## References
 

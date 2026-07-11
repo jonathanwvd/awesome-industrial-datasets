@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Information not available |
-| **Dataset Characteristics** | Sequential |
-| **Date Donated** | 2008-03-19 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Hill-Valley |
-| **Number of Features** | 101 |
-| **Number of Instances** | 606 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Likely |
+| **Dataset** | Hill-Valley |
+| **Domain** | General / Cross-Industrial |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Time Series |
+| **Task** | Classification; Benchmark Suite |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | UCI |
+| **Size** | 606 |
+| **Year** | 2008 |
+| **License** | CC BY |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Hill-Valley dataset contains several files representing hill or valley terra
 Each record consists of 100 floating point values labeled as "X##" representing coordinates, followed by a binary class label {0, 1} representing valley or hill respectively. The dataset contains 606 instances with 101 features. It is intended for classification tasks, and does not contain missing values.
 
 This dataset is provided under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, allowing sharing and adaptation with appropriate credit.
-
-## Tags
-
-Binary classification, Creative Commons licensed, Hill and valley classification, No noise and noise variations, Real-valued features, Sequential data, Terrain data
 
 ## References
 

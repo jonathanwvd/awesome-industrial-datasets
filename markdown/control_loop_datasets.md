@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Control Loop Performance Monitoring, Oscillation Detection, Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Industrial Process Data |
-| **Date Donated** | 2018 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Control loop datasets |
-| **Number of Features** | Process variable (PV) and manipulated variable (MV) per loop; sampling time varies by variant |
-| **Number of Instances** | Multiple SISO control loops from an oil and gas company over 2.5 days; 3 variants: SISO-RAW (non-constant sampling), SISO-SEL (selected fragments), SISO-SAMP (constant sampling rate) |
-| **Source** | GIMSCOP / UFRGS (Group of Intensification, Modeling, Simulation, Control and Optimization of Processes) |
-| **Time Series** | Yes |
+| **Dataset** | Control loop datasets |
+| **Domain** | Oil & Gas; Chemical & Process |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Anomaly Detection; Process Monitoring; Simulation / Control |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Official Portal |
+| **Size** | Multiple SISO control loops from an oil and gas company over 2.5 days; 3 variants: SISO-RAW (non-constant sampling), SISO-SEL (selected fragments), SISO-SAMP (constant sampling rate) |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -27,10 +26,6 @@ Three variants are provided:
 - SISO-SAMP: Resampled version of SISO-SEL with constant sampling time, suitable for standard time-series analysis algorithms.
 
 Each record contains the process variable (PV) and manipulated variable (MV) of a control loop. The dataset is used for control loop performance monitoring research, particularly oscillation detection. A companion synthetic dataset (ODADS — Oscillation Detection Artificial Dataset) is also available for machine learning algorithm development and validation.
-
-## Tags
-
-Brazil, Control Loop, GIMSCOP, Oil and Gas, Oscillation Detection, Process Control, SISO, Time-Series, UFRGS
 
 ## References
 

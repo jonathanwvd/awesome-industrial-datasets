@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Water Distribution (WADI) Dataset |
-| **Number of Features** | 123 |
-| **Number of Instances** | Information not available |
-| **Source** | iTrust, Singapore University of Technology and Design (SUTD) |
-| **Time Series** | Yes |
+| **Dataset** | Water Distribution (WADI) Dataset |
+| **Domain** | Cyber-Physical Security; Water & Utilities; Infrastructure & Civil |
+| **Asset / Process** | Water Treatment / Distribution; SCADA / ICS |
+| **Modality** | Time Series |
+| **Task** | Cyberattack Detection; Anomaly Detection; Process Monitoring |
+| **Annotation** | Time / Event Label; Sample Label; Fault Type Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Water Distribution (WADI) dataset contains 16 days of continuous operational
 The dataset was updated on 19 Dec 2019 (WADI.A2) to remove data affected during unstable plant operation periods and includes a corrected CSV file and label data indicating the presence or absence of attacks. This dataset is useful for research in designing secure cyber-physical systems, especially in anomaly detection and attack detection in critical infrastructure.
 
 Researchers and practitioners are required to credit iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design when using the dataset in published works. Access to the dataset is controlled and requires requesting permission from iTrust.
-
-## Tags
-
-Anomaly detection, Attack scenarios, Critical infrastructure, Cyber-Physical Systems, Sensor data, Time-series data, Water distribution
 
 ## References
 

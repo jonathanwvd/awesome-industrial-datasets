@@ -4,28 +4,23 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Intelligent Manufacturing Dataset |
-| **Number of Features** | 13 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | Intelligent Manufacturing Dataset |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Time Series; Vibration |
+| **Task** | Anomaly Detection; Predictive Maintenance; Quality Prediction |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Synthetic |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
 The Intelligent Manufacturing Dataset for Predictive Optimization is designed for smart manufacturing research, AI-driven process optimization, and predictive maintenance. It simulates real-time sensor data from industrial machines and incorporates 6G network slicing for enhanced communication and resource allocation.
 
 Key features include industrial IoT sensor data (temperature, vibration, power consumption), 6G network performance metrics (latency, packet loss, communication efficiency), production efficiency indicators (defect rate, predictive maintenance score), and a target column Efficiency_Status classifying efficiency levels. The dataset serves as a benchmark for AI and deep learning applications in Industry 4.0 and 6G-integrated manufacturing systems.
-
-## Tags
-
-6G network slicing, Anomaly detection, Deep learning benchmark, Industrial IoT, Manufacturing efficiency, Predictive maintenance, Time-series sensor data
 
 ## References
 

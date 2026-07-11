@@ -10,3 +10,5 @@ backup
 .env
 process.log
 statistics.py
+.claude
+paper/

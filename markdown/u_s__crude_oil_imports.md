@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Analysis |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real, Categorical, Text |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | U.S. Crude Oil Imports |
-| **Number of Features** | 8 |
-| **Number of Instances** | Information not available |
-| **Source** | U.S. Energy Information Administration via Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | U.S. Crude Oil Imports |
+| **Domain** | Oil & Gas; Energy & Power; Business & Economics |
+| **Asset / Process** | Business / Economic Indicators |
+| **Modality** | Time Series |
+| **Task** | Regression; Forecasting |
+| **Annotation** | Scalar Target |
+| **Source Type** | Public Records |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2024 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Crude oil is a naturally occurring, unrefined petroleum product composed of hydr
 This dataset offers monthly detailed data on U.S. crude oil imports from 2009 to 2024. It includes the country of origin, U.S. port of entry, the oil company's name, crude oil type, and volume in thousands of barrels. The data is provided in CSV format with columns representing the year, month, origin and destination names and types, crude oil grade, and quantity.
 
 Users can analyze oil import patterns, study economic impacts, optimize supply chain logistics, forecast future import trends, and assess environmental effects related to crude oil imports, making it valuable for researchers, policymakers, and industry professionals.
-
-## Tags
-
-Crude oil, Economic analysis, Energy imports, Oil and Gas, Supply chain, Time-series data, United States
 
 ## References
 

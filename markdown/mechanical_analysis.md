@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 1990-05-31 |
-| **Feature Type** | Categorical, Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Mechanical Analysis |
-| **Number of Features** | 8 |
-| **Number of Instances** | 209 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Information not available |
+| **Dataset** | Mechanical Analysis |
+| **Domain** | General / Cross-Industrial |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Tabular; Time Series |
+| **Task** | Classification; Fault Diagnosis |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 209 |
+| **Year** | 1990 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ F. Bergadano supplied this database. Each instance contains many components, eac
 A quick scan of their file didn't reveal what the purpose is for these twelve instances.
 
 The attributes include dummy (always 1) used for numbering, class for classification (1..6, the same for components of one example), component number (integer), support in the machine where measure was taken (1..4), frequency of the measure (integer), measure (real), earlier measure (real), filter, type of the measure and direction with several categories, and rpm of the machine (integer, the same for components of one example).
-
-## Tags
-
-Classification, Electromechanical devices, Fault diagnosis, Machine components, Mechanical measurements, Multivariate data, Real-world data
 
 ## References
 

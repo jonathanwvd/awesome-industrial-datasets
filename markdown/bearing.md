@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Remaining Useful Life Prediction, Prognostics, Fault Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2007 |
-| **Feature Type** | Real (vibration acceleration) |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Bearing |
-| **Number of Features** | 8 accelerometer channels (4 bearings × 2 directions); 100 kHz sampling rate; 1-second snapshots every 10 minutes |
-| **Number of Instances** | 3 run-to-failure tests; Test 1: ~2,156 snapshots (34 days), Test 2: ~984 snapshots (7 days), Test 3: ~6,324 snapshots (37 days); each snapshot contains 20,480 data points per channel |
-| **Source** | NASA Prognostics Center of Excellence (PCoE) / University of Cincinnati IMS Center |
-| **Time Series** | Yes |
+| **Dataset** | Bearing |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Bearings |
+| **Modality** | Time Series; Vibration |
+| **Task** | Fault Diagnosis; RUL / Prognostics; Predictive Maintenance |
+| **Annotation** | Sample Label; RUL Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | 3 run-to-failure tests; Test 1: ~2,156 snapshots (34 days), Test 2: ~984 snapshots (7 days), Test 3: ~6,324 snapshots (37 days); each snapshot contains 20,480 data points per channel |
+| **Year** | 2007 |
+| **License** | Information not available |
 
 ## Description
 
@@ -29,10 +28,6 @@ Three run-to-failure tests were conducted:
 - Test 3 (Mar–Apr 2004, ~37 days): Bearing 3 outer race fault
 
 This dataset is a primary benchmark for bearing RUL estimation, prognostics, and condition monitoring research. It has been used with LSTM, CNN, autoencoder, and transformer architectures for health indicator construction and failure prediction.
-
-## Tags
-
-Accelerometer, Bearing, IMS, NASA, Predictive Maintenance, Prognostics, Remaining Useful Life, Rotating Machinery, Run-to-Failure, Vibration
 
 ## References
 

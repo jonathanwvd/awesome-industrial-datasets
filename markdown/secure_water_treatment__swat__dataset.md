@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Cyber-Physical Systems |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Secure Water Treatment (SWaT) Dataset |
-| **Number of Features** | 51 sensors and actuators |
-| **Number of Instances** | Information not available |
-| **Source** | iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design |
-| **Time Series** | Yes |
+| **Dataset** | Secure Water Treatment (SWaT) Dataset |
+| **Domain** | Cyber-Physical Security; Water & Utilities |
+| **Asset / Process** | Water Treatment / Distribution; SCADA / ICS |
+| **Modality** | Time Series |
+| **Task** | Cyberattack Detection; Anomaly Detection; Process Monitoring |
+| **Annotation** | Time / Event Label; Fault Type Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal; Form Request; Gated Approval |
+| **Size** | Information not available |
+| **Year** | 2020 |
+| **License** | Custom Research |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Secure Water Treatment (SWaT) dataset was collected from an operational wate
 The dataset provides a time series of 51 sensors and actuators data collected continuously, serving as a benchmark for anomaly detection in industrial control systems and cybersecurity research. Updates to the dataset include different versions with attack data and normal operating conditions, with data collected at different times from 2015 to 2020, including network traffic (pcap files) and historian data.
 
 Researchers use this dataset for developing machine learning approaches to detect anomalies, including convolutional and recurrent neural networks, leveraging advanced deep learning techniques to secure critical infrastructure like water treatment facilities.
-
-## Tags
-
-Anomaly Detection, Cyber-Physical Systems, Cybersecurity, Industrial Control Systems, Sensor Data, Time-Series Data, Water Treatment
 
 ## References
 

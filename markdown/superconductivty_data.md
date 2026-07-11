@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2018-10-11 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Superconductivty Data |
-| **Number of Features** | 81 |
-| **Number of Instances** | 21263 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Superconductivty Data |
+| **Domain** | Materials & Metrology |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Tabular |
+| **Task** | Regression; Benchmark Suite |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 21263 |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ There are two files: (1) train.csv contains 81 features extracted from 21263 sup
 The goal here is to predict the critical temperature based on the features extracted. The dataset includes features such as number_of_elements, mean_atomic_mass, and various weighted means, geometric means, and entropies of atomic mass among others.
 
 The dataset is labeled and contains no missing values, and is used for regression tasks related to superconductivity in physics and chemistry.
-
-## Tags
-
-Chemical formula data, Critical temperature prediction, Multivariate data, No missing values, Physics and Chemistry, Real-valued features, Superconductors
 
 ## References
 

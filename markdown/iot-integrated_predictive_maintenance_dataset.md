@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | IoT-Integrated Predictive Maintenance Dataset |
-| **Number of Features** | 10 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | IoT-Integrated Predictive Maintenance Dataset |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Time Series |
+| **Task** | Fault Diagnosis; Predictive Maintenance; Classification |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Synthetic |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -25,10 +24,6 @@ Data was simulated to represent real-time collection via an IoT-enabled sensor n
 
 Key features include:
 Timestamp, Machine ID, Vibration, Acoustic Signal, Temperature, Current, Intrinsic Mode Functions (IMF_1, IMF_2, IMF_3), Label indicating machine state (0 = healthy, 1 = faulty).
-
-## Tags
-
-Equipment health, Fault detection, Industrial sensors, IoT, Predictive maintenance, Signal decomposition, Time-series data
 
 ## References
 

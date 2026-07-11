@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Steel Industry datasets |
-| **Number of Features** | 11 |
-| **Number of Instances** | Likely 20640+ (approximate count based on Usage_kWh counts) |
-| **Source** | Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | Steel Industry datasets |
+| **Domain** | Energy & Power; Environment & Safety; Manufacturing & Production |
+| **Asset / Process** | Steel / Metal Surfaces; Power Grid / Plants |
+| **Modality** | Time Series |
+| **Task** | Regression; Energy Optimization |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Likely 20640+ (approximate count based on Usage_kWh counts) |
+| **Year** | Information not available |
+| **License** | CC0 |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset contains time series data recorded with timestamps of energy consum
 These features provide insights into the power efficiency, reactive power usage, and environmental emissions over time, useful for regression tasks to model and analyze energy consumption patterns and their impact.
 
 This dataset is made available under a CC0 Public Domain license, indicating it is free for public use, and was last updated about a year ago. The data is detailed with continuous readings likely spanning from around 2017-12-31 to 2018-12-12, giving an extensive timeline for analysis.
-
-## Tags
-
-CO2 emissions, Energy consumption, Power Factor, Reactive power, Renewable energy integration, Steel production, Time-Series Data
 
 ## References
 

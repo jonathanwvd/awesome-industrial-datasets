@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Oil well |
-| **Number of Features** | 9 |
-| **Number of Instances** | 2941 |
-| **Source** | Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | Oil well |
+| **Domain** | Oil & Gas |
+| **Asset / Process** | Oil Wells / Reservoirs |
+| **Modality** | Time Series |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | 2941 |
+| **Year** | 2021 |
+| **License** | Information not available |
 
 ## Description
 
@@ -29,10 +28,6 @@ From the well, the liquid enters the metering unit, which calculates how much fl
 Data about the dynamic level ("Dynamic level (meters)") is taken every day. A sensor installed in the pump shows reservoir pressure in the well ("Reservoir pressure (atm)"). As the well is operated, reservoir pressure decreases and oil production decreases accordingly. More water and less oil and gas indicate depletion of the oil field affecting profitability.
 
 Using these data, a 3D model of the field and graphs can be built to understand the development stage, estimate produced and remaining oil, and predict production decline along with possible measures to increase oil production.
-
-## Tags
-
-Dynamic level, Field development monitoring, Oil and gas production, Oil well operation, Reservoir pressure, Time-series data, Water cut percentage
 
 ## References
 

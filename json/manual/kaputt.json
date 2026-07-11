@@ -1,0 +1,25 @@
+{
+  "Name": "Kaputt",
+  "Summary": "Kaputt is a large-scale visual defect detection dataset with 238,421 images, 48,376 unique items, and 29,316 defective instances from retail logistics inspection scenarios.",
+  "Domain": "Logistics & Retail",
+  "Asset / Process": "Retail / Logistics Items",
+  "Modality": "Image",
+  "Task": "Anomaly Detection; Defect Detection; Defect Segmentation",
+  "Annotation": "Sample Label; Pixel Mask",
+  "Source Type": "Real Production / Field",
+  "Access": "Official Portal; Form Request",
+  "Size": "238421 images, including 29316 defective instances and 48376 unique items",
+  "Year": "2025",
+  "License": "Information not available",
+  "Description": "Kaputt is a large-scale dataset for visual defect detection in retail logistics. It is designed for anomaly and defect detection in realistic inspection scenes where objects vary strongly in pose, appearance, placement, and defect type.\n\nThe dataset contains 238,421 images of 48,376 unique items, including 29,316 defective instances. It supports visual defect detection and segmentation research, especially for methods that need broader visual diversity than small industrial anomaly benchmarks.\n\nKaputt is distributed through an official dataset website and is associated with an ICCV 2025 paper.",
+  "References": [
+    {
+      "Text": "Dataset website",
+      "Link": "https://kaputt-dataset.com/"
+    },
+    {
+      "Text": "Paper (arXiv 2025)",
+      "Link": "https://arxiv.org/abs/2510.05903"
+    }
+  ]
+}

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Industrial Anomaly Detection, Multi-View Evaluation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multi-View, Large-Scale, Anomaly Detection |
-| **Date Donated** | 2024 |
-| **Feature Type** | Multi-View RGB Images + JSON Split Metadata |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Real-IAD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 150000+ high-resolution images across 30 object categories |
-| **Source** | https://realiad4ad.github.io/Real-IAD/ |
-| **Time Series** | No |
+| **Dataset** | Real-IAD |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation; Quality Prediction |
+| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask; Split Metadata |
+| **Source Type** | Real Production / Field |
+| **Access** | Hugging Face; Gated Approval |
+| **Size** | 150000+ high-resolution images across 30 object categories |
+| **Year** | 2024 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ Real-IAD is a large-scale industrial anomaly detection dataset captured from a r
 The acquisition pipeline proceeds through material preparation, prototype selection, multi-view capture, annotation, and data cleaning stages. Multiple camera viewpoints per object enable evaluation of multi-view fusion methods. JSON split files are provided for standardised evaluation. The 1024×1024 version is approximately 53 GB; raw high-resolution data is approximately 507 GB.
 
 Real-IAD was presented at CVPR 2024 and is distributed via Hugging Face (gated access requiring agreement to data sharing terms). It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-Defect Detection, Industrial Vision, Large-Scale Anomaly Detection, Manufacturing Quality Control, Multi-View Inspection, Non-Commercial, Real Production Line
 
 ## References
 

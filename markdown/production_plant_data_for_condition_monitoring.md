@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Predictive Maintenance |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2018-09-19 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Production Plant Data for Condition Monitoring |
-| **Number of Features** | 260 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | Production Plant Data for Condition Monitoring |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Tabular; Time Series |
+| **Task** | Condition Monitoring; RUL / Prognostics; Predictive Maintenance |
+| **Annotation** | Sample Label; RUL Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset was used in previous research projects, including the IMPROVE proje
 The use case addresses the prediction of the condition of a critical component in production lines, which affects both plant functioning and product quality. The dataset contains data from 8 run-to-failure experiments and features related to the component. Training and prediction were performed using a leave-one-out method whereby data from the component under test served as the prediction target, and data from other components served as training data to represent the 'new' condition. A Self-Organizing Map (SOM) was trained on the training data to model the 'new' condition and to visualize degradation.
 
 The prediction was successful in identifying wear types labeled by experts, and correctly identified a component without wear signs as confirmed by expert assessment. The dataset is publicly available under the Creative Commons BY-SA 3.0 license.
-
-## Tags
-
-Condition monitoring, Degradation prediction, Industrial process data, Predictive maintenance, Production plant, Run-to-failure, Self-Organizing Map
 
 ## References
 

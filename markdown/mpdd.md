@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Defect Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection, Defect Segmentation |
-| **Date Donated** | 2021 |
-| **Feature Type** | Images + Pixel Masks |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MPDD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 1064 images across 6 metal part categories |
-| **Source** | https://github.com/stepanje/MPDD |
-| **Time Series** | No |
+| **Dataset** | MPDD |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Casting / Metal Parts |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation; Quality Prediction |
+| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask |
+| **Source Type** | Mixed |
+| **Access** | Repository |
+| **Size** | 1064 images across 6 metal part categories |
+| **Year** | 2021 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MPDD (Metal Parts Defect Detection Dataset) is a benchmark dataset for industria
 The dataset was designed as a practical complement to MVTec AD, focusing on metallic components that exhibit defects commonly encountered in manufacturing quality control. The benchmark follows the standard unsupervised anomaly detection protocol where only defect-free samples are available at training time.
 
 MPDD was introduced at ICUMT 2021 (DOI: 10.1109/ICUMT54235.2021.9631567) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-Anomaly Detection, Defect Detection, Industrial Inspection, Manufacturing Quality Control, Metal Parts, Segmentation Masks, Unsupervised Learning
 
 ## References
 

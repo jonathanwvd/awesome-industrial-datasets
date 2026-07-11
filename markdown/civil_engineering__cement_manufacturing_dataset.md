@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Civil Engineering: Cement Manufacturing Dataset |
-| **Number of Features** | 9 |
-| **Number of Instances** | 1030 |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Civil Engineering: Cement Manufacturing Dataset |
+| **Domain** | Chemical & Process; Infrastructure & Civil; Materials & Metrology |
+| **Asset / Process** | Chemical Process; Materials / Chemistry |
+| **Modality** | Tabular |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Kaggle; Login Required |
+| **Size** | 1030 |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The actual concrete compressive strength (MPa) for a given mixture under a speci
 Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients. These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, and fine aggregate.
 
 The attribute information includes cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate, fine aggregate in kg in a m3 mixture, and age in days (1 to 365). The output variable is the concrete compressive strength measured in MPa.
-
-## Tags
-
-Cement Manufacturing, Civil Engineering, Concrete Compressive Strength, Material Science, Multivariate Data, Real-world Data, Regression Dataset
 
 ## References
 

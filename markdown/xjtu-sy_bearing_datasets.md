@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Prognostics |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Run-to-Failure |
-| **Date Donated** | 2021-06-29 |
-| **Feature Type** | Real |
-| **Labeled** | Information not available |
-| **Missing Values** | Information not available |
-| **Name** | XJTU-SY Bearing Datasets |
-| **Number of Features** | 2 |
-| **Number of Instances** | Information not available |
-| **Source** | Biao Wang's Website |
-| **Time Series** | Yes |
+| **Dataset** | XJTU-SY Bearing Datasets |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Bearings |
+| **Modality** | Time Series; Vibration |
+| **Task** | RUL / Prognostics |
+| **Annotation** | Fault Type Label; RUL Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2021 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The XJTU-SY bearing datasets are provided by the Institute of Design Science and
 Vibration signals were recorded every minute with two PCB 352C33 accelerometers mounted at 90° on the bearing housing, sampling 32768 data points (1.28 seconds) at 25.6 kHz. For each sampling, data were saved in CSV format with the first column as horizontal vibration and the second column as vertical vibration.
 
 The data packet (XJTU-SY_Bearing_Datasets.zip) includes all CSV files for the 15 tested bearings. Each bearing’s lifetime, number of CSV files, and fault type can be found in the provided tables and failure photographs, illustrating faults such as inner race wear, cage fracture, and outer race damage.
-
-## Tags
-
-Accelerated degradation, Prognostics, Remaining useful life, Rolling element bearings, Run-to-failure, Time-series data, Vibration signals
 
 ## References
 

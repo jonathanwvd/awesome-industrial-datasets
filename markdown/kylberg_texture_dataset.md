@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multiclass, Image, Texture |
-| **Date Donated** | Information not available |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Kylberg Texture Dataset |
-| **Number of Features** | 576x576 pixels per patch |
-| **Number of Instances** | 4480 (28 classes * 160 patches) |
-| **Source** | Kylberg.org |
-| **Time Series** | No |
+| **Dataset** | Kylberg Texture Dataset |
+| **Domain** | Materials & Metrology |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Image |
+| **Task** | Classification; Benchmark Suite |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | 4480 (28 classes * 160 patches) |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Kylberg Texture Dataset consists of 28 texture classes, each containing 160 
 This dataset was acquired and published during Gustaf Kylberg's Ph.D. studies at Uppsala University. It was created to serve as a benchmark for texture classification tasks in computer vision and image analysis. The original images used for generating texture patches, as well as the untouched RAW originals from the camera, are also available. Detailed documentation in PDF format is provided for further information.
 
 The dataset supports research and experimentation in texture analysis and classification, providing high-quality real texture images. A smaller subset with 6 classes and 40 samples each is also available for quicker experimentation or testing.
-
-## Tags
-
-Computer vision, Image dataset, Image patches, Multiclass dataset, Normalized images, Texture analysis, Texture classification
 
 ## References
 

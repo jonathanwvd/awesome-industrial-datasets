@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Anomaly Localisation, Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection |
-| **Date Donated** | 2022 |
-| **Feature Type** | Images |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MVTec LOCO AD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 3644 images across 5 categories |
-| **Source** | https://www.mvtec.com/company/research/datasets/mvtec-loco |
-| **Time Series** | No |
+| **Dataset** | MVTec LOCO AD |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction |
+| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal; Form Request |
+| **Size** | 3644 images across 5 categories |
+| **Year** | 2022 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MVTec LOCO AD (Logical Constraints Anomaly Detection) is a benchmark dataset for
 The dataset contains 3,644 images distributed across 5 industrial object categories. Each category provides defect-free training and validation images alongside a test set that includes both structural and logical anomalies, each with pixel-precise ground truth segmentation masks. This dual-type anomaly structure makes MVTec LOCO AD uniquely challenging and more representative of real factory scenarios than image-only structural benchmarks.
 
 The dataset was introduced alongside a new evaluation metric (sPRO—saturation-weighted Per-Region Overlap) that better captures partial localisation of large anomalous regions. The total dataset size is approximately 5.71 GB. It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-Anomaly Detection, Industrial Inspection, Logical Anomalies, MVTec, Segmentation Masks, Unsupervised Learning, Visual Quality Control
 
 ## References
 

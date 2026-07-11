@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Object Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multiclass Classification |
-| **Date Donated** | Information not available |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Large Scale Image Dataset of Wood Surface Defects |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 4000 |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Large Scale Image Dataset of Wood Surface Defects |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Defect Detection; Classification; Quality Prediction |
+| **Annotation** | Sample Label; Class Label; Bounding Box |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | 4000 |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset is a subset of "A large-scale image dataset of wood surface defects
 The original dataset consisted of high-resolution images captured with a special camera, each image taking about 12 MB of disk space. This version resizes the images to 2800x1024 resolution, reducing the disk space requirement to approximately 1 MB per image while adjusting annotations accordingly. The annotations have been converted into YOLOv5 format to facilitate use in object detection tasks.
 
 This dataset is designed to support automated vision-based quality control processes in wood surface defect detection and classification, providing a valuable resource for machine learning applications in the forestry and manufacturing industries.
-
-## Tags
-
-Automated quality control, Defect detection, Image dataset, Industrial inspection, Object detection, Wood surface, YOLO annotations
 
 ## References
 

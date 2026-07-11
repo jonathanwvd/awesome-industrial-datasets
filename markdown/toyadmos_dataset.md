@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2019-07-30 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | ToyADMOS dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Zenodo |
-| **Time Series** | Yes |
+| **Dataset** | ToyADMOS dataset |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Industrial Machines |
+| **Modality** | Time Series; Audio |
+| **Task** | Anomaly Detection; Fault Diagnosis; Condition Monitoring |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository; Zenodo / Dataverse |
+| **Size** | 12,000 samples |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ ToyADMOS dataset is a machine operating sounds dataset of approximately 540 hour
 Since the total size of the ToyADMOS dataset is over 440GB, each sub-dataset is split into 7–9 files using 7-zip (7z format). The total size of the compressed dataset is approximately 180GB, and each sub-dataset is approximately 60GB. Users can download the split archive files and use their preferred compression tool to extract the data.
 
 Further details of the dataset are described in [1] and on GitHub: https://github.com/YumaKoizumi/ToyADMOS-dataset. License information is provided in the file named LICENSE.pdf.
-
-## Tags
-
-Anomalous sound detection, Audio dataset, Condition monitoring, Machine operating sounds, Toy car, Toy conveyor, Toy train
 
 ## References
 

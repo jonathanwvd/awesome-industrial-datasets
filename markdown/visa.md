@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Anomaly Segmentation, Localisation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection, Multi-Class |
-| **Date Donated** | 2022 |
-| **Feature Type** | RGB Images + Annotation Masks |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | VisA |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 10821 images (9621 normal; 1200 anomalous) across 12 subsets |
-| **Source** | https://github.com/amazon-science/spot-diff |
-| **Time Series** | No |
+| **Dataset** | VisA |
+| **Domain** | Electronics & Semiconductor; Manufacturing & Production |
+| **Asset / Process** | PCB / Electronics |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction |
+| **Annotation** | Sample Label; Class Label; Pixel Mask |
+| **Source Type** | Real Production / Field |
+| **Access** | Repository |
+| **Size** | 10821 images (9621 normal; 1200 anomalous) across 12 subsets |
+| **Year** | 2022 |
+| **License** | CC BY |
 
 ## Description
 
@@ -24,10 +23,6 @@ VisA (Visual Anomaly) is a large-scale industrial anomaly detection and segmenta
 The 12 object subsets span a diverse range of industrial objects, including printed circuit boards (PCBs), mechanical parts, and objects that appear as multiple instances in a single image. This diversity—especially the multiple-instance subsets—makes VisA more challenging than single-object benchmarks and closer to real inspection scenarios.
 
 VisA was introduced at ECCV 2022 (Zou et al., SPot-the-Difference Self-Supervised Pre-training) and is hosted on AWS S3 with an open data registry entry. The dataset is licensed under CC BY 4.0.
-
-## Tags
-
-Anomaly Detection, Image Segmentation, Industrial Inspection, Multi-Object Benchmark, Open Dataset, PCB Inspection, Visual Quality Control
 
 ## References
 

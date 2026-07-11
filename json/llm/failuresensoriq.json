@@ -1,21 +1,16 @@
 {
   "Name": "FailureSensorIQ",
-  "Labeled": "Yes",
-  "Time Series": "No",
-  "Data Source": "ISO standards and generated QA pairs",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Multiple Choice Question Answering",
-  "Associated Tasks": "Question Answering, Reasoning, Fault Diagnosis",
-  "Number of Instances": "2667",
-  "Number of Features": "5",
-  "Date Donated": "2024-06-01",
   "Summary": "FailureSensorIQ is a Multi-Choice QA dataset that explores the relationships between sensors and failure modes for 10 industrial assets. It contains 8,296 questions generated using ISO documents, with both single-correct-answer and multi-correct-answer formats.",
-  "Additional Tags": [
-    "predictive maintenance",
-    "industrial sensors",
-    "multi-choice QA",
-    "fault diagnosis"
-  ],
+  "Domain": "General / Cross-Industrial",
+  "Asset / Process": "Other / Cross-Domain",
+  "Modality": "Text / Documents",
+  "Task": "Fault Diagnosis; Recommendation / Decision Support; Benchmark Suite",
+  "Annotation": "Text / QA Label",
+  "Source Type": "Derived / Aggregated",
+  "Access": "Hugging Face",
+  "Size": "2667",
+  "Year": "2024",
+  "License": "Information not available",
   "Description": "The FailureSensorIQ dataset covers 10 industrial assets, including electric motors, steam turbines, gas turbines, pumps, compressors, and more. It provides two question formats: FM2Sensor (row-centric) and Sensor2FM (column-centric), with selection and elimination modes based on ISO standard tables.",
   "References": [
     {

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2016-11-20 |
-| **Feature Type** | Real |
-| **Labeled** | Partially |
-| **Missing Values** | Information not available |
-| **Name** | BATADAL Water SCADA Cyber-Attack Dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | BATADAL |
-| **Time Series** | Yes |
+| **Dataset** | BATADAL Water SCADA Cyber-Attack Dataset |
+| **Domain** | Cyber-Physical Security; Water & Utilities |
+| **Asset / Process** | Water Treatment / Distribution; SCADA / ICS |
+| **Modality** | Time Series |
+| **Task** | Cyberattack Detection; Anomaly Detection; Process Monitoring |
+| **Annotation** | Time / Event Label; Sample Label; Fault Type Label |
+| **Source Type** | Simulation |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2016 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset includes Training Dataset 1, a one-year simulation released on Novem
 Flow data unit is LPS, and pressure and water level units are meters.
 
 Two additional obsolete datasets (Old Dataset 1 and Old Dataset 2) were originally included but later removed due to differing demand patterns.
-
-## Tags
-
-Anomaly detection, Cyber attack detection, EPANET, SCADA data, Simulation data, Time-series data, Water distribution network
 
 ## References
 

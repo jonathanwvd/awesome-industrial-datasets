@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Industrial Anomaly Detection, Domain Shift Robustness, Video Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Video, Anomaly Detection, Domain Shift |
-| **Date Donated** | 2023 |
-| **Feature Type** | Images + Pixel Masks (AeBAD-S); Videos (AeBAD-V) |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | AeBAD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | https://github.com/zhangzilongc/MMR |
-| **Time Series** | No |
+| **Dataset** | AeBAD |
+| **Domain** | Aerospace & Defense |
+| **Asset / Process** | Turbines / Engines |
+| **Modality** | Image; Video |
+| **Task** | Anomaly Detection; Defect Segmentation; Predictive Maintenance |
+| **Annotation** | Sample Label; Pixel Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository |
+| **Size** | Information not available |
+| **Year** | 2023 |
+| **License** | CC BY |
 
 ## Description
 
@@ -24,10 +23,6 @@ AeBAD (Aero-engine Blade Anomaly Detection) is a real-world dataset designed to 
 A key feature of AeBAD is that normal samples in the test set are captured under different conditions (illumination, viewpoint, background) than those in the training set. This controlled domain shift makes AeBAD a challenging benchmark for methods that assume training and test normal distributions are identical, closely reflecting real deployment conditions.
 
 For AeBAD-S, pixel-level ground truth masks are provided for anomalous samples. For AeBAD-V, evaluation is performed at the sample level in the provided setup. The dataset is licensed under CC BY 4.0 and was accepted at Computers in Industry (arXiv:2304.02216).
-
-## Tags
-
-Aerospace, Anomaly Detection, Blade Inspection, Domain Shift, Industrial Maintenance, Predictive Inspection, Video Anomaly Detection
 
 ## References
 

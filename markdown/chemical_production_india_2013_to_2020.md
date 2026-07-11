@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Likely Regression, Analysis |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2022-02-03 |
-| **Feature Type** | Real |
-| **Labeled** | No |
-| **Missing Values** | Information not available |
-| **Name** | Chemical Production India 2013 to 2020 |
-| **Number of Features** | 10 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | Chemical Production India 2013 to 2020 |
+| **Domain** | Chemical & Process; Business & Economics; Manufacturing & Production |
+| **Asset / Process** | Business / Economic Indicators |
+| **Modality** | Time Series |
+| **Task** | Regression; Benchmark Suite |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2022 |
+| **License** | CC0 |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset provides chemical production data for India from 2013-14 to 2020-21
 The data presents the production quantities of different chemicals in metric tonnes, categorized by chemical groups such as Alkali Chemicals, Inorganic Chemicals, Organic Chemicals, and Pesticides and Insecticides. The dataset is intended to support data science tasks like exploratory data analysis and visualization related to industrial chemical production trends in India.
 
 Credits for the data collection and aggregation are given to the Ministry of Chemicals and Fertilizers and the Department of Chemicals and Petrochemicals, Government of India. The dataset is shared under a CC0 Public Domain license via Kaggle.
-
-## Tags
-
-Chemical Industry, Chemical Production, Department of Chemicals and Petrochemicals, India, Industrial Manufacturing, Metric Tonnes, Time-Series Data
 
 ## References
 

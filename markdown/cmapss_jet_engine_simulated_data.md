@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Remaining Useful Life Prediction, Prognostics, Regression |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2008 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | CMAPSS Jet Engine Simulated Data |
-| **Number of Features** | 26 per record: engine unit, cycle, 3 operational settings, 21 sensor measurements |
-| **Number of Instances** | 708 training + 707 test engine trajectories across 4 sub-datasets (FD001: 100/100, FD002: 260/259, FD003: 100/100, FD004: 248/249) |
-| **Source** | NASA Prognostics Center of Excellence |
-| **Time Series** | Yes |
+| **Dataset** | CMAPSS Jet Engine Simulated Data |
+| **Domain** | Aerospace & Defense; Manufacturing & Production |
+| **Asset / Process** | Turbines / Engines |
+| **Modality** | Time Series |
+| **Task** | Regression; RUL / Prognostics; Predictive Maintenance; Simulation / Control |
+| **Annotation** | RUL Label; Scalar Target |
+| **Source Type** | Simulation |
+| **Access** | Competition |
+| **Size** | 708 training + 707 test engine trajectories across 4 sub-datasets (FD001: 100/100, FD002: 260/259, FD003: 100/100, FD004: 248/249) |
+| **Year** | 2008 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The CMAPSS (Commercial Modular Aero-Propulsion System Simulation) dataset was ge
 Each record contains 26 columns: an engine identifier, the operational cycle counter, 3 operational setting columns, and 21 sensor measurements of temperatures, pressures, and fan/compressor speeds contaminated with realistic noise. Training trajectories run from initial condition to failure; test trajectories are truncated at a random prior point. The task is to predict the remaining useful life (RUL) for each test engine, with ground truth RUL values provided separately.
 
 This dataset is the de facto standard benchmark in data-driven RUL estimation research and has been used in hundreds of publications involving LSTMs, CNNs, transformers, and classical regression methods.
-
-## Tags
-
-PHM 2008, Predictive Maintenance, Prognostics, Remaining Useful Life, Run-to-Failure, Sensor Data, Turbofan Engine
 
 ## References
 

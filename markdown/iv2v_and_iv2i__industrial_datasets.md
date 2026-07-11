@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Link Quality Prediction, Beam Management, Positioning, Channel Modeling, Machine Learning for Wireless Communications |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Wireless Channel Measurements |
-| **Date Donated** | 2021 |
-| **Feature Type** | Real (channel metrics, position data) |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | IV2V and iV2I+ Industrial Datasets |
-| **Number of Features** | Per measurement: RSRP (reference signal received power), RSRQ, SINR, position coordinates (x, y), beam index, timestamp; multiple antenna configurations |
-| **Number of Instances** | Multiple measurement campaigns in an industrial warehouse environment; thousands of channel measurement snapshots per scenario |
-| **Source** | Fraunhofer HHI (Heinrich Hertz Institute) / AI4Mobile H2020 EU Project / IEEE DataPort |
-| **Time Series** | Yes |
+| **Dataset** | IV2V and iV2I+ Industrial Datasets |
+| **Domain** | Transportation & Mobility; Logistics & Retail |
+| **Asset / Process** | Vehicles / Fleets |
+| **Modality** | Time Series |
+| **Task** | Forecasting; Classification |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Repository; IEEE DataPort |
+| **Size** | Multiple measurement campaigns in an industrial warehouse environment; thousands of channel measurement snapshots per scenario |
+| **Year** | 2021 |
+| **License** | Information not available |
 
 ## Description
 
@@ -31,10 +30,6 @@ For each measurement snapshot, the dataset provides signal quality metrics (RSRP
 - Channel modeling for industrial wireless networks
 
 Support code and documentation are available on GitHub (Fraunhofer HHI repository). The datasets are openly accessible via IEEE DataPort.
-
-## Tags
-
-5G NR, AI4Mobile, Beam Management, Channel Measurement, Fraunhofer HHI, Industrial Wireless, Link Quality Prediction, Vehicle-to-Infrastructure, Vehicle-to-Vehicle, Warehouse
 
 ## References
 

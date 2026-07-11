@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2014-03-26 |
-| **Feature Type** | Information not available |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Urban Land Cover |
-| **Number of Features** | 148 |
-| **Number of Instances** | 168 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Urban Land Cover |
+| **Domain** | Materials & Metrology |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Image; Geospatial / Remote Sensing |
+| **Task** | Classification; Benchmark Suite |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Remote Sensing |
+| **Access** | UCI |
+| **Size** | 168 |
+| **Year** | 2014 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Contains training and testing data for classifying a high resolution aerial imag
 Class is the target classification variable. The land cover classes are: trees, grass, soil, concrete, asphalt, buildings, cars, pools, shadows.
 
 Note: prior to December 2024, the names of some columns were switched. ("Mean_NIR" and "Mean_G"; "SD_NIR" and "SD_G"). Thanks to Lonny Chen (lonny.cl.chen@gmail.com) for noticing this issue.
-
-## Tags
-
-Classification, Feature selection, High resolution aerial imagery, Multivariate data, Spectral data, Texture analysis, Urban land cover
 
 ## References
 

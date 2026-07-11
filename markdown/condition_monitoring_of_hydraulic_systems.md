@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2018-04-25 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Condition monitoring of hydraulic systems |
-| **Number of Features** | 43680 |
-| **Number of Instances** | 2205 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Condition monitoring of hydraulic systems |
+| **Domain** | Oil & Gas; Energy & Power; Manufacturing & Production |
+| **Asset / Process** | Motors / Drives; Pumps; Valves / Actuators |
+| **Modality** | Time Series; Vibration |
+| **Task** | Fault Diagnosis; Condition Monitoring; Energy Optimization; Classification |
+| **Annotation** | Fault Type Label; Scalar Target; Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | UCI |
+| **Size** | 2205 |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -26,10 +25,6 @@ The data set contains raw process sensor data (i.e. without feature extraction) 
 PS1-PS6 (Pressure, bar, 100 Hz), EPS1 (Motor power, W, 100 Hz), FS1-FS2 (Volume flow, l/min, 10 Hz), TS1-TS4 (Temperature, °C, 1 Hz), VS1 (Vibration, mm/s, 1 Hz), CE (Cooling efficiency, %, 1 Hz), CP (Cooling power, kW, 1 Hz), SE (Efficiency factor, %, 1 Hz).
 
 The target condition values are cycle-wise annotated in "profile.txt" (tab-delimited), with the columns representing cooler condition percentage, valve condition percentage, internal pump leakage, hydraulic accumulator pressure in bar, and a stable flag indicating if conditions were stable or not.
-
-## Tags
-
-Condition monitoring, Fault diagnosis, Hydraulic systems, Industrial equipment, Multivariate time-series, Real-world data, Sensor data
 
 ## References
 

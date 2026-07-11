@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Procedure Step Recognition, Action Recognition, Assembly Learning |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Video, Egocentric, Procedure Recognition |
-| **Date Donated** | 2023 |
-| **Feature Type** | Video + Annotations + 3D Part Geometries |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | IndustReal |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 84 videos; 27 participants |
-| **Source** | https://github.com/TimSchoonbeek/IndustReal |
-| **Time Series** | Yes |
+| **Dataset** | IndustReal |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Image; Video |
+| **Task** | Predictive Maintenance; Process Monitoring |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Repository |
+| **Size** | 84 videos; 27 participants |
+| **Year** | 2023 |
+| **License** | Apache-2.0 |
 
 ## Description
 
@@ -24,10 +23,6 @@ IndustReal is a video dataset designed for procedure step recognition in industr
 In addition to video and annotations, 3D geometries of the assembled parts are provided, enabling approaches that combine visual data with geometric knowledge. The dataset is relevant to robotics, augmented reality assistance, and AI-based process monitoring applications in manufacturing and maintenance environments.
 
 The base dataset and an extension are distributed via 4TU.ResearchData (with versioned DOIs). The extension dataset is licensed under Apache-2.0. An associated paper describing the dataset and benchmarks is available via the GitHub repository.
-
-## Tags
-
-Action Recognition, Assembly, Egocentric Video, Industrial Maintenance, Manufacturing, Procedure Recognition, Robotics
 
 ## References
 

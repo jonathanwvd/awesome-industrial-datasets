@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2021-02-01 |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Laser Welding |
-| **Number of Features** | 7 |
-| **Number of Instances** | 360 |
-| **Source** | Mendeley Data |
-| **Time Series** | No |
+| **Dataset** | Laser Welding |
+| **Domain** | Manufacturing & Production; Materials & Metrology |
+| **Asset / Process** | Welding; Steel / Metal Surfaces |
+| **Modality** | Tabular |
+| **Task** | Classification; Regression |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Mendeley Data |
+| **Size** | 360 |
+| **Year** | 2021 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset shows a definitive screening design to evaluate the influence of six
 The dataset is not suitable for modeling a precise predictive model of weld depth in the copper sheet but shows correlation between cracking and weld depth, which can be described well in a binominal logistic regression. Furthermore, average crack length and count of cracks were added in version 1.1.
 
 Version 2 of the dataset presents the same screening experiments with adjusted laser power levels to guarantee sufficient weld depth for all parameter combinations, targeting the average weld depth in the bottom copper sheet. The data can be used to calculate the parameter effect strength of the factors on weld depth and to build a simple linear model of the relationships. Version 2.1 includes the resulting copper dilution instead of weld depth.
-
-## Tags
-
-Cracking detection, Laser beam welding, Material thickness, Screening design, Steel-copper lap joints, Weld depth analysis, Welding parameters
 
 ## References
 

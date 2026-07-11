@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Image data |
-| **Date Donated** | 2019-10-24 |
-| **Feature Type** | Image (jpg), Categorical (csv) |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Severstal Steel Defect Detection |
-| **Number of Features** | 6 columns (including ImageId, ClassId, and EncodedPixels) |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Severstal Steel Defect Detection |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Steel / Metal Surfaces |
+| **Modality** | Image |
+| **Task** | Defect Detection; Defect Segmentation; Classification; Quality Prediction |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Competition; Login Required |
+| **Size** | 18,076 files |
+| **Year** | 2019 |
+| **License** | Competition Terms |
 
 ## Description
 
@@ -24,10 +23,6 @@ In this competition, the goal is to predict the location and type of defects fou
 The dataset consists of folders of training images (train_images/) and test images (test_images/) which participants are to segment and classify. Annotations for training images are provided in train.csv, which includes segments for defects with ClassId values from 1 to 4. Additionally, there is a sample submission file that shows the correct format.
 
 Submissions to this competition must be made through Kernels, which will rerun automatically against the entire Public and Private test sets after submission. Participants need to accept the competition rules to access the data. The dataset includes 18,076 files totaling approximately 1.7 GB in size, with image files and CSV annotations.
-
-## Tags
-
-Defect detection, Image classification, Image segmentation, Kaggle competition, Manufacturing quality control, Multiclass defects, Steel manufacturing
 
 ## References
 

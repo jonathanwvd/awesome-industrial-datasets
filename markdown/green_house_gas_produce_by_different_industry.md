@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Analysis |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Environmental Data |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Green House Gas Produce by Different Industry |
-| **Number of Features** | 18 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | Green House Gas Produce by Different Industry |
+| **Domain** | Environment & Safety |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Time Series |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Public Records |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2010 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Green house gases are a significant environmental problem, contributing to the i
 The data includes industry-specific greenhouse gas emissions categorized by gas types such as carbon dioxide, methane, nitrous oxide, fluorinated gases, and total greenhouse gases. It also contains ISO tests to measure the effects. These emissions data are tracked annually starting from 2010.
 
 This dataset allows analysis of greenhouse gas production by industry sector and region, useful for environmental research, policy making, and industrial impact assessment. The dataset contains 18 columns covering country, industry, gas type, and emission values for multiple years.
-
-## Tags
-
-Carbon Footprint, Environmental Data, Greenhouse Gas Emissions, ISO Measurement, Industry Emissions, Multivariate, Time-Series
 
 ## References
 

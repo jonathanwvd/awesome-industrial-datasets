@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Intrusion Detection, Anomaly Detection, Threat Analytics |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Network Data, Cybersecurity |
-| **Date Donated** | 2020 |
-| **Feature Type** | CSV Telemetry + OS Audit Logs + PCAP Network Traffic |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | TON_IoT |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | https://research.unsw.edu.au/projects/toniot-datasets |
-| **Time Series** | Yes |
+| **Dataset** | TON_IoT |
+| **Domain** | Cyber-Physical Security |
+| **Asset / Process** | SCADA / ICS |
+| **Modality** | Time Series; Network Traffic |
+| **Task** | Intrusion Detection; Anomaly Detection |
+| **Annotation** | Sample Label; Fault Type Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ TON_IoT is a comprehensive cybersecurity dataset collection targeting IIoT and I
 The dataset includes three main data types: (1) telemetry time series from over 10 IoT and IIoT sensors, (2) OS audit logs from Windows and Linux machines, and (3) network traffic data in both raw PCAP format and processed Zeek/Bro log format. All data types include ground-truth labels identifying attack events (e.g., DoS, DDoS, ransomware) with timestamps and network identifiers.
 
 TON_IoT has been widely cited in the network security and IIoT anomaly detection literature. It is freely available for academic research use; commercial use requires contacting the dataset authors.
-
-## Tags
-
-Cybersecurity, IIoT, Industry 4.0, Intrusion Detection, Network Traffic, PCAP, Telemetry
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Non-intrusive load monitoring, Occupancy detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | ECO dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | ETH Zurich |
-| **Time Series** | Yes |
+| **Dataset** | ECO dataset |
+| **Domain** | Energy & Power; Buildings & Appliances |
+| **Asset / Process** | Power Grid / Plants; Buildings / Appliances |
+| **Modality** | Time Series |
+| **Task** | Energy Optimization |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2015 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The ECO data set provides 1 Hz aggregate electricity consumption data including 
 The data was collected in the context of the Smart Meter Services project at ETH Zurich and is related to the open source NILM-Eval framework used to evaluate non-intrusive load monitoring algorithms and work on opportunistic occupancy sensing. An interactive dashboard application is available for browsing and downloading chunks of the dataset.
 
 The project acknowledges the support from Energie Thun and participating households, as well as contributions from several students in gathering, analyzing, and visualizing the data.
-
-## Tags
-
-Electricity consumption, Energy disaggregation, Non-intrusive load monitoring, Occupancy detection, Smart meter, Swiss households, Time-series data
 
 ## References
 

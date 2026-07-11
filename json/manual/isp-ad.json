@@ -1,0 +1,25 @@
+{
+  "Name": "ISP-AD",
+  "Summary": "ISP-AD is a large-scale industrial screen printing anomaly detection dataset with 559,049 samples focused on small, low-contrast defects in structured patterns.",
+  "Domain": "Manufacturing & Production",
+  "Asset / Process": "Surface Defects",
+  "Modality": "Image",
+  "Task": "Anomaly Detection; Anomaly Localization; Defect Segmentation",
+  "Annotation": "Sample Label",
+  "Source Type": "Mixed",
+  "Access": "Zenodo / Dataverse",
+  "Size": "559049 samples",
+  "Year": "2025",
+  "License": "Information not available",
+  "Description": "ISP-AD targets anomaly detection in industrial screen printing, a setting where defects can be small, weakly contrasted, and embedded within structured patterns with permitted design variability. The dataset was designed to evaluate visual inspection methods under conditions that are difficult for conventional industrial anomaly detection benchmarks.\n\nThe dataset comprises 559,049 samples and includes real and synthetic defect data for industrial screen printing. It supports anomaly detection, localisation, and segmentation experiments in both unsupervised and supervised settings.\n\nISP-AD is publicly available through Zenodo and was introduced in 2025 as a benchmark for industrial screen printing anomaly detection.",
+  "References": [
+    {
+      "Text": "Zenodo DOI",
+      "Link": "https://doi.org/10.5281/zenodo.14911042"
+    },
+    {
+      "Text": "Paper (arXiv 2025)",
+      "Link": "https://arxiv.org/abs/2503.04997"
+    }
+  ]
+}

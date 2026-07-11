@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Imbalanced, High Dimensionality, Classification |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Detecting Anomalies in Wafer Manufacturing |
-| **Number of Features** | 1558 |
-| **Number of Instances** | Train: 1763, Test: 756 |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | Detecting Anomalies in Wafer Manufacturing |
+| **Domain** | Electronics & Semiconductor; Manufacturing & Production |
+| **Asset / Process** | Semiconductor / Wafers |
+| **Modality** | Tabular |
+| **Task** | Anomaly Detection; Classification |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Train: 1763, Test: 756 |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Detecting Anomalies can be a difficult task and especially in the case of labele
 The dataset is collected from one of India's leading manufacturers of wafers (semiconductors). The dataset collected was anonymized to hide the feature names, and there are 1558 features which require domain knowledge to interpret properly.
 
 In this context, participants create machine learning or deep learning models to classify anomalies in the manufacturing data, optimizing the Area Under the Curve (AUC) metric to generalize well on unseen test data. The provided files include Train.csv with 1763 rows and 1559 columns and Test.csv with 756 rows and 1558 columns, along with a sample submission file.
-
-## Tags
-
-Anomaly detection, High dimensionality, Imbalanced dataset, Industrial IoT, Machine learning classification, Semiconductor, Wafer manufacturing
 
 ## References
 

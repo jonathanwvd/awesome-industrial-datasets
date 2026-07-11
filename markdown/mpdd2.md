@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Defect Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection, Defect Segmentation |
-| **Date Donated** | 2022 |
-| **Feature Type** | Images + Anomaly Labels |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MPDD2 |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 700+ images across multiple metal part categories |
-| **Source** | https://github.com/stepanje/MPDD2 |
-| **Time Series** | No |
+| **Dataset** | MPDD2 |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Casting / Metal Parts |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation |
+| **Annotation** | Sample Label; Pixel Mask |
+| **Source Type** | Mixed |
+| **Access** | Repository |
+| **Size** | 700+ images across multiple metal part categories |
+| **Year** | 2022 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MPDD2 (Metal Parts Defect Detection Dataset 2) is the second version of the MPDD
 MPDD2 features updated capture conditions and additional part categories compared to the original MPDD, making it useful for robustness checks and cross-dataset evaluation. The data is available via Google Drive from the repository.
 
 MPDD2 was introduced at ICUMT 2022 (DOI: 10.1109/ICUMT57764.2022.9943437) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-Anomaly Detection, Benchmark Dataset, Defect Detection, Industrial Inspection, Manufacturing, Metal Parts, Segmentation Masks
 
 ## References
 

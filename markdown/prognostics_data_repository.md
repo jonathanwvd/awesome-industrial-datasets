@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Prognostics, Prognostic Algorithm Development |
-| **Data Source** | Both |
-| **Dataset Characteristics** | Time-Series, Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Likely Real and Categorical |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Prognostics Data Repository |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | NASA Prognostics Data Repository |
-| **Time Series** | Yes |
+| **Dataset** | Prognostics Data Repository |
+| **Domain** | Energy & Power; Aerospace & Defense |
+| **Asset / Process** | Bearings; Turbines / Engines; CNC / Machining |
+| **Modality** | Time Series |
+| **Task** | RUL / Prognostics; Benchmark Suite |
+| **Annotation** | Sample Label; Class Label; RUL Label |
+| **Source Type** | Derived / Aggregated |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Prognostics Data Repository is a collection of data sets donated by various 
 Users are requested to acknowledge this repository and the data donors in any publications using these data sets to help others access the same datasets and to credit the contributors. Data is used at the user's own risk, with no liability assumed by NASA or data contributors for any use of the data or derived systems.
 
 The repository includes diverse datasets such as Algae Raceway experiments, Carbon Fiber-Reinforced Polymer Composites, Milling machine wear data, Bearings data, Li-Ion battery experiments, Turbofan Engine Degradation simulations, and multiple others, covering a wide variety of prognostic contexts and applications.
-
-## Tags
-
-Battery Data, Engine Degradation, Industrial Equipment Monitoring, NASA Ames Research Center, Prognostics, Run-to-Failure Data, Time-Series Data
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 1999-04-22 |
-| **Feature Type** | Integer |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Robot Execution Failures |
-| **Number of Features** | 90 |
-| **Number of Instances** | 463 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Robot Execution Failures |
+| **Domain** | Robotics & Automation |
+| **Asset / Process** | Robotic Manipulation |
+| **Modality** | Time Series |
+| **Task** | Classification; Benchmark Suite |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 463 |
+| **Year** | 1999 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Robot Execution Failures dataset includes 5 datasets, each defining a differ
 Each failure instance is characterized by 15 force/torque samples collected at regular time intervals starting immediately after failure detection, spanning a total observation window of 315 milliseconds. The features are integer-valued and represent the evolution of forces and torques (Fx, Fy, Fz, Tx, Ty, Tz) over these time intervals.
 
 To improve classification accuracy on these problems, various feature transformation strategies such as statistical summary features and discrete Fourier transform were evaluated, leading to an average improvement of 20% in accuracy according to the reference by Seabra Lopes and Camarinha-Matos (1998).
-
-## Tags
-
-Classification tasks, Force and torque measurements, Integer features, Multivariate time-series, Physical sensor data, Robot failure detection, Short time window data
 
 ## References
 

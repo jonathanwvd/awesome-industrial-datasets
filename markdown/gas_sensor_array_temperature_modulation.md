@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2019-04-14 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Gas sensor array temperature modulation |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 4095000 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Gas sensor array temperature modulation |
+| **Domain** | Chemical & Process; Electronics & Semiconductor |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Classification; Regression |
+| **Annotation** | Class Label; Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | UCI |
+| **Size** | 4095000 |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ A chemical detection platform composed of 14 temperature-modulated metal oxide s
 The chemical detection platform consists of 14 MOX gas sensors, 7 units of TGS 3870-A04 sensors by Figaro Engineering and 7 units of SB-500-12 by FIS. The operating temperature of the sensors was controlled by a modulated heater voltage cycling between 0.2-0.9 V. Sensors were pre-heated for one week before experiments. The sensors' output voltage was sampled at 3.5 Hz using an Agilent DAQ system.
 
 Dynamic gas mixtures were generated with mass flow controllers controlling streams of CO, wet and dry air delivered into a small PTFE test chamber. The CO concentration ranged from 0 to 20 ppm with relative humidity between 15% and 75%. Each experiment included 100 measurements, lasting approximately 25 hours per experiment, replicated across 13 working days over 17 calendar days. The dataset is contained in 13 text files corresponding to each measurement day.
-
-## Tags
-
-Carbon monoxide, Gas sensors, Humidity control, Metal oxide semiconductor sensors, Multivariate sensor data, Temperature modulation, Time series data
 
 ## References
 

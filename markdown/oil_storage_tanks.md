@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Object Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image data, Multivariate |
-| **Date Donated** | 2019-06-05 |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Oil Storage Tanks |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Oil Storage Tanks |
+| **Domain** | Oil & Gas; Energy & Power |
+| **Asset / Process** | Oil Wells / Reservoirs |
+| **Modality** | Image; Geospatial / Remote Sensing |
+| **Task** | Object Detection |
+| **Annotation** | Sample Label; Bounding Box |
+| **Source Type** | Remote Sensing |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Oil storage tanks play an important role in the global economy. Crude oil is sto
 Tank volume estimation is possible because oil is typically stored in floating head tanks. This particular tank type has a head that sits directly on top of the crude oil to prevent buildup of fumes. As a result, the height of the tank head rises and falls with the volume of oil in the tank. The relative sizes of the exterior shadow cast by the tank itself and the interior shadow cast by the height of the tank head can be used to estimate the tank volume.
 
 The dataset contains satellite images taken from Google Earth of tank-containing industrial areas around the world. Images are annotated with bounding box information for floating head tanks in the image. Fixed head tanks are not annotated. The large_images directory contains the raw 4800x4800 images saved from Google Earth. The image_patches directory contains 512x512 patches generated from the large image. Labels are provided in labels.json and labels_coco.json files with bounding box coordinates. Additional metadata is contained in large_image_data.csv, including geographic coordinates and altitude. This dataset was made possible by Google Earth.
-
-## Tags
-
-Bounding box annotations, Energy sector, Floating head tanks, Google Earth images, Object detection, Oil storage tanks, Satellite imagery
 
 ## References
 

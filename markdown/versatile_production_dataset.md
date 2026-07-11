@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Anomaly Detection, Predictive Maintenance |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Condition Monitoring |
-| **Date Donated** | 2018-09-12 |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Versatile Production System |
-| **Number of Features** | 141 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Dataset** | Versatile Production System |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Time Series |
+| **Task** | Anomaly Detection; Predictive Maintenance; Condition Monitoring |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Versatile Production System (VPS) dataset contains sensor and control data f
 The production system comprises several modules: delivery (transporting corn material via conveyor belts and pressure conveyors to storage), storage (a container where corn is pneumatically transferred to the dosing module), dosing (pre-defining corn amounts transported pneumatically using load cells and dosing screws), filling (filling corn into bottles with cleaning, portioning, lid placing and screwing, and quality control via a camera), and production (popcorn is produced by heated air expansion in a glass cylinder, with weight-based routing of outputs).
 
 The dataset captures real operational data reflecting different sensors and binary status signals (e.g., silo fullness, aspirator on/off), which may be used for various machine learning tasks such as anomaly detection, alarm management, and predictive maintenance.
-
-## Tags
-
-Anomaly detection, Condition monitoring, Industrial production, Manufacturing data, Predictive maintenance, Sensor data, Time-series data
 
 ## References
 

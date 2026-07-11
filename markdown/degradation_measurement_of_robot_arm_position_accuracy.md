@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Prognostics |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2017-10-05 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Degradation Measurement of Robot Arm Position Accuracy |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | NIST |
-| **Time Series** | Likely |
+| **Dataset** | Degradation Measurement of Robot Arm Position Accuracy |
+| **Domain** | Energy & Power; Robotics & Automation; Manufacturing & Production |
+| **Asset / Process** | Robotic Manipulation |
+| **Modality** | Time Series |
+| **Task** | Regression; RUL / Prognostics; Condition Monitoring |
+| **Annotation** | Fault Type Label; Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2017 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ A grid moment of the universal robot (UR5) is planned. The tool center positions
 Controller level information provides clues about the root causes of the robot performance degradation, by providing information about the actual and joint positions, velocities, currents, accelerations, torques, and temperatures. The data sets provide both the robot high level TCP positional health data and the controller level components’ detailed information.
 
 The data sets can help to build the matrix of robot health monitoring algorithms and tools, support the research of robot prognostics and health management (PHM), and support the validation and verification of the industrial PHM implementation.
-
-## Tags
-
-Controller level sensing data, Multivariate time-series, Positional degradation, Prognostics and health management, Robot arm position accuracy, Robot system health assessment, Universal Robot UR5
 
 ## References
 

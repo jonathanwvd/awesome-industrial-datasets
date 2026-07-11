@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2020-08-02 |
-| **Feature Type** | Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | Yes |
-| **Name** | Productivity Prediction of Garment Employees |
-| **Number of Features** | 14 |
-| **Number of Instances** | 1197 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Productivity Prediction of Garment Employees |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Textile / Apparel |
+| **Modality** | Time Series |
+| **Task** | Classification; Regression |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 1197 |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Garment Industry is one of the key examples of the industrial globalization 
 So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories. This dataset can be used for regression purpose by predicting the productivity range (0-1) or for classification purpose by transforming the productivity range (0-1) into different classes.
 
 The dataset contains 14 features describing various aspects such as date, day of the week, quarter of the month, department, team number, number of workers, style changes, targeted productivity, standard minute value (SMV), work in progress, overtime amount, financial incentives, idle time, and idle men. Some features contain missing values, particularly the work in progress (wip) feature.
-
-## Tags
-
-Classification task, Employee productivity, Garment manufacturing, Industry expert validated, Labour-intensive industry, Regression task, Time-series data
 
 ## References
 

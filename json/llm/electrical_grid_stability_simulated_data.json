@@ -1,27 +1,17 @@
 {
   "Name": "Electrical Grid Stability Simulated Data",
-  "Labeled": "Yes",
-  "Time Series": "Information not available",
-  "Data Source": "Synthetic",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Multivariate",
-  "Feature Type": "Real",
-  "Associated Tasks": "Classification, Regression",
-  "Number of Instances": "10000",
-  "Number of Features": "12",
-  "Date Donated": "2018-11-15",
-  "Source": "UCI Machine Learning Repository",
   "Summary": "The local stability analysis of the 4-node star system implementing Decentral Smart Grid Control concept.",
-  "Description": "The analysis is performed for different sets of input values using the methodology similar to that described in Sch\u00e4fer, Benjamin, et al. 'Taming instabilities in power grid networks by decentralized control.' The European Physical Journal Special Topics 225.3 (2016): 569-582. Several input values are kept the same: averaging time: 2 s; coupling strength: 8 s^-2; damping: 0.1 s^-1.\n\nThe dataset contains 11 predictive attributes and 1 non-predictive attribute (p1), plus 2 goal fields. Variables include reaction times (tau[x]), nominal power values consumed or produced (p[x]), and coefficients proportional to price elasticity (g[x]). Stability is represented by maximum real parts of the characteristic equation root and a categorical stability label (stable/unstable).\n\nThis dataset is useful for studying the stability of electrical grids under decentralized control concepts and simulating various operating conditions in power networks.",
-  "Additional Tags": [
-    "Electrical grid stability",
-    "Decentralized control",
-    "4-node star system",
-    "Synthetic data",
-    "Power grid simulation",
-    "Physics and Chemistry",
-    "Classification and Regression tasks"
-  ],
+  "Domain": "Energy & Power",
+  "Asset / Process": "Power Grid / Plants",
+  "Modality": "Tabular",
+  "Task": "Classification; Regression; Simulation / Control",
+  "Annotation": "Sample Label; Class Label; Scalar Target",
+  "Source Type": "Simulation",
+  "Access": "UCI",
+  "Size": "10000",
+  "Year": "2018",
+  "License": "Information not available",
+  "Description": "The analysis is performed for different sets of input values using the methodology similar to that described in Schäfer, Benjamin, et al. 'Taming instabilities in power grid networks by decentralized control.' The European Physical Journal Special Topics 225.3 (2016): 569-582. Several input values are kept the same: averaging time: 2 s; coupling strength: 8 s^-2; damping: 0.1 s^-1.\n\nThe dataset contains 11 predictive attributes and 1 non-predictive attribute (p1), plus 2 goal fields. Variables include reaction times (tau[x]), nominal power values consumed or produced (p[x]), and coefficients proportional to price elasticity (g[x]). Stability is represented by maximum real parts of the characteristic equation root and a categorical stability label (stable/unstable).\n\nThis dataset is useful for studying the stability of electrical grids under decentralized control concepts and simulating various operating conditions in power networks.",
   "References": [
     {
       "Text": "Arzamasov, V. (2018). Electrical Grid Stability Simulated Data [Dataset]. UCI Machine Learning Repository.",
@@ -32,7 +22,7 @@
       "Link": "https://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data"
     },
     {
-      "Text": "Sch\u00e4fer, Benjamin, et al. 'Taming instabilities in power grid networks by decentralized control.' The European Physical Journal Special Topics 225.3 (2016): 569-582.",
+      "Text": "Schäfer, Benjamin, et al. 'Taming instabilities in power grid networks by decentralized control.' The European Physical Journal Special Topics 225.3 (2016): 569-582.",
       "Link": "Information not available"
     }
   ]

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2020-04-29 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Diesel Engine Faults Features |
-| **Number of Features** | 84 |
-| **Number of Instances** | 3500 |
-| **Source** | Mendeley Data |
-| **Time Series** | Likely |
+| **Dataset** | Diesel Engine Faults Features |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Turbines / Engines |
+| **Modality** | Time Series; Vibration |
+| **Task** | Classification; Fault Diagnosis; Predictive Maintenance; Simulation / Control |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Simulation |
+| **Access** | Mendeley Data |
+| **Size** | 3500 |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset was developed for fault diagnosis in diesel engines to assist predic
 Feature vectors were chosen from the thermodynamic model and processed signals such as pressure and temperature inside the cylinder, and torsional vibration of the engine’s flywheel. These vectors serve as input for machine learning techniques to discriminate among several machine conditions.
 
 The dataset comprises 3500 different fault scenarios covering four distinct operational conditions — Normal, Pressure reduction in the intake manifold, Compression ratio reduction in the cylinders, and Reduction of amount of fuel injected into the cylinders. The feature vector consists of 84 columns representing pressure and vibration features, with 3500 rows of samples.
-
-## Tags
-
-Diesel engine, Fault diagnosis, Predictive maintenance, Pressure curves, Synthetic data, Thermodynamic model, Torsional vibration
 
 ## References
 

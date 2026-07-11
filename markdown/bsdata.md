@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Defect Classification, Instance Segmentation, Defect Detection, Prognostics |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Segmentation, Multiclass |
-| **Date Donated** | 2021 |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | BSData |
-| **Number of Features** | RGB images of ball screw surfaces; instance segmentation masks for pitting defects |
-| **Number of Instances** | 1,104 images with instance segmentation annotations; 21,835 image patches for classification |
-| **Source** | Karlsruhe Institute of Technology (KIT) / GitHub |
-| **Time Series** | No |
+| **Dataset** | BSData |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Defect Detection; Defect Segmentation; Classification |
+| **Annotation** | Sample Label; Class Label; Instance Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository |
+| **Size** | 1,104 images with instance segmentation annotations; 21,835 image patches for classification |
+| **Year** | 2021 |
+| **License** | CC BY-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ BSData (Ball Screw Dataset) was created at the Karlsruhe Institute of Technology
 The dataset contains 1,104 images with instance-level segmentation annotations marking individual pitting defects, and 21,835 smaller image patches extracted for classification tasks (defective vs. non-defective). Images were captured under controlled lighting from actual ball screw components with varying degrees of wear and pitting.
 
 The dataset supports three main research tasks: (1) defect classification of image patches, (2) instance segmentation of defect regions in full images, and (3) prognostics to predict remaining useful life based on observed defect patterns. Published under the CC BY-SA 4.0 license, the dataset is hosted on GitHub and is one of the few publicly available datasets specifically for ball screw health monitoring.
-
-## Tags
-
-Ball Screw, CC BY-SA 4.0, Defect Classification, Instance Segmentation, KIT, Pitting, Predictive Maintenance, Prognostics, Surface Defect
 
 ## References
 

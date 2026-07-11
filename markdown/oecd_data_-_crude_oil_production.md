@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Likely No |
-| **Missing Values** | Information not available |
-| **Name** | OECD Data - Crude Oil Production |
-| **Number of Features** | 8 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle, originally from OECD |
-| **Time Series** | Yes |
+| **Dataset** | OECD Data - Crude Oil Production |
+| **Domain** | Oil & Gas; Energy & Power; Business & Economics |
+| **Asset / Process** | Oil Wells / Reservoirs; Business / Economic Indicators |
+| **Modality** | Time Series |
+| **Task** | Regression; Forecasting |
+| **Annotation** | Scalar Target |
+| **Source Type** | Public Records |
+| **Access** | Kaggle; Login Required; Direct Download |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Crude oil production is defined as the quantities of oil extracted from the grou
 This dataset is a collection of crude oil production data originally provided by the Organisation for Economic Co-operation and Development (OECD) and made available on Kaggle for the community. The data includes production values over time and covers multiple countries using ISO 3166-1 alpha-3 three-letter country codes.
 
 The dataset is useful for forecasting oil production by country, implementing machine learning models, and for data analysis and visualization of oil production trends across countries. The data is downloadable as a CSV file and is well suited for time series regression tasks.
-
-## Tags
-
-Country-level Data, Crude Oil Production, Energy, OECD Data, Oil and Gas, Regression, Time-Series
 
 ## References
 

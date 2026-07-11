@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Remaining Useful Life Prediction, Prognostics, Regression |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2008 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | PHM 2008 Challenge |
-| **Number of Features** | 26 per record: engine unit, cycle, 3 operational settings, 21 sensor measurements |
-| **Number of Instances** | 218 turbofan engine trajectories (training and two test subsets) |
-| **Source** | NASA Prognostics Center of Excellence / PHM Society |
-| **Time Series** | Yes |
+| **Dataset** | PHM 2008 Challenge |
+| **Domain** | Aerospace & Defense; Manufacturing & Production |
+| **Asset / Process** | Turbines / Engines |
+| **Modality** | Time Series |
+| **Task** | Regression; RUL / Prognostics; Predictive Maintenance; Simulation / Control |
+| **Annotation** | RUL Label; Scalar Target |
+| **Source Type** | Simulation |
+| **Access** | Competition |
+| **Size** | 218 turbofan engine trajectories (training and two test subsets) |
+| **Year** | 2008 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The PHM 2008 Challenge dataset was developed by the Prognostics Center of Excell
 Each engine in the fleet starts from a different initial health state with unknown initial wear. The multivariate time series consist of 26 columns: a unit identifier, the operational cycle counter, three operational setting columns that influence engine performance, and 21 sensor measurements of temperatures, pressures, and rotational speeds contaminated with realistic noise. The training set provides complete run-to-failure trajectories; the test set provides truncated trajectories ending before failure. Two separate test subsets are provided with a single training subset.
 
 The challenge task is to estimate the remaining useful life (RUL) for each engine in the test set. The dataset is closely related to the CMAPSS series and is hosted on the NASA Open Data Portal and the PHM Society data repository.
-
-## Tags
-
-NASA, PHM Challenge, Predictive Maintenance, Prognostics, Remaining Useful Life, Run-to-Failure, Turbofan Engine
 
 ## References
 

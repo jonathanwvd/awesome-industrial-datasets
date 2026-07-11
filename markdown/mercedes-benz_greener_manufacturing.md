@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Categorical |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Mercedes-Benz Greener Manufacturing |
-| **Number of Features** | 755 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Mercedes-Benz Greener Manufacturing |
+| **Domain** | Transportation & Mobility; Manufacturing & Production |
+| **Asset / Process** | Vehicles / Fleets |
+| **Modality** | Tabular |
+| **Task** | Regression; Quality Prediction |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Since the first automobile, the Benz Patent Motor Car in 1886, Mercedes-Benz has
 To ensure safety and reliability, Mercedes-Benz engineers developed a robust testing system for all unique car configurations before release. Optimizing the speed of this testing system, which must handle many feature combinations, is complex and time-consuming without powerful algorithmic solutions.
 
 This dataset contains such combinations of features and aims to facilitate development of algorithms to reduce the time cars spend on the test bench, thereby improving testing efficiency and reducing CO2 emissions without compromising standards.
-
-## Tags
-
-Automobiles, Carbon dioxide emissions, Categorical data, Feature permutations, Manufacturing, Regression, Test bench optimization
 
 ## References
 

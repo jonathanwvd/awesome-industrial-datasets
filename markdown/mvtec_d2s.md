@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Instance Segmentation, Semantic Segmentation, Object Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Instance Segmentation |
-| **Date Donated** | 2018 |
-| **Feature Type** | Images + COCO-format Annotations |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MVTec D2S |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 21000 images across 60 object categories |
-| **Source** | https://www.mvtec.com/company/research/datasets/mvtec-d2s |
-| **Time Series** | No |
+| **Dataset** | MVTec D2S |
+| **Domain** | Robotics & Automation; Logistics & Retail |
+| **Asset / Process** | Retail / Logistics Items |
+| **Modality** | Image |
+| **Task** | Object Detection; Defect Segmentation |
+| **Annotation** | Bounding Box; Instance Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Direct Download |
+| **Size** | 21000 images across 60 object categories |
+| **Year** | 2018 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MVTec D2S (Densely Segmented Supermarket Dataset) is an industrial vision benchm
 All 60 product categories are annotated with pixel-precise instance segmentation labels in COCO JSON format. The dataset provides labelled training and validation splits; test set annotations are withheld and evaluation requires submitting results in COCO JSON format to the official evaluation server. Images are approximately 6.0 GB and annotations approximately 40 MB.
 
 MVTec D2S was introduced at ECCV 2018 and is a standard benchmark for dense instance segmentation in operational industrial settings. It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-COCO Format, Industrial Vision, Instance Segmentation, Intralogistics, MVTec, Retail Automation, Warehouse Vision
 
 ## References
 

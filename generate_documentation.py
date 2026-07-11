@@ -1,7 +1,6 @@
 import json
 import os
 import pandas as pd
-import re
 
 # Define folders
 json_folder_path_manual = 'json/manual'
@@ -10,9 +9,45 @@ md_folder_path = 'markdown'
 html_folder_path = 'html/pages'
 index_html_file = 'index.html'
 readme_file_path = 'README.md'
+csv_file_path = 'datasets.csv'
 
 os.makedirs(md_folder_path, exist_ok=True)
 os.makedirs(html_folder_path, exist_ok=True)
+
+V2_TABLE_FIELDS = [
+    'Dataset',
+    'Domain',
+    'Asset / Process',
+    'Modality',
+    'Task',
+    'Annotation',
+    'Source Type',
+    'Access',
+    'Size',
+    'Year',
+    'License'
+]
+
+def get_dataset_slug(filename):
+    return filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()
+
+def get_v2_value(data, field):
+    if field == 'Dataset':
+        return data.get('Name', '')
+    return data.get(field, 'Information not available')
+
+def format_markdown_cell(value):
+    text = str(value if value is not None else '')
+    return text.replace('\r\n', '\n').replace('\n', '<br>').replace('|', '\\|')
+
+def make_markdown_table(rows, fields):
+    header = '| ' + ' | '.join(fields) + ' |'
+    separator = '| ' + ' | '.join(['---'] * len(fields)) + ' |'
+    body = [
+        '| ' + ' | '.join(format_markdown_cell(row.get(field, '')) for field in fields) + ' |'
+        for row in rows
+    ]
+    return '\n'.join([header, separator] + body)
 
 def load_combined_json_data():
     combined_data = {}
@@ -32,23 +67,77 @@ def load_combined_json_data():
 def generate_json_index(combined_data):
     datasets = []
     for filename, data in combined_data.items():
-        link_name = filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()
-        datasets.append({
-            "Dataset Name": data.get("Name", ""),
-            "Labeled": data.get("Labeled", ""),
-            "Time Series": data.get("Time Series", ""),
-            "Data Source": data.get("Data Source", ""),
-            "Missing Values": data.get("Missing Values", ""),
-            "Dataset Characteristics": data.get("Dataset Characteristics", ""),
-            "Associated Tasks": data.get("Associated Tasks", ""),
-            "Number of Instances": data.get("Number of Instances", ""),
-            "Number of Features": data.get("Number of Features", ""),
-            "Date Donated": data.get("Date Donated", ""),
-            "Summary": data.get("Summary", ""),
-            "Additional Tags": "; ".join(data.get("Additional Tags", [])),
-            "Link": f"html/pages/{link_name}.html"
-        })
+        link_name = get_dataset_slug(filename)
+        dataset = {field: get_v2_value(data, field) for field in V2_TABLE_FIELDS}
+        dataset["Link"] = f"html/pages/{link_name}.html"
+        datasets.append(dataset)
     return datasets
+
+def remove_stale_generated_files(combined_data):
+    expected_slugs = {get_dataset_slug(filename) for filename in combined_data}
+    generated_folders = [
+        (md_folder_path, '.md'),
+        (html_folder_path, '.html'),
+    ]
+
+    for folder, extension in generated_folders:
+        for filename in os.listdir(folder):
+            if not filename.endswith(extension):
+                continue
+            slug = filename[:-len(extension)]
+            if slug not in expected_slugs:
+                os.remove(os.path.join(folder, filename))
+                print(f"Removed stale generated file {os.path.join(folder, filename)}")
+
+def load_existing_dataset_urls(csv_file):
+    if not os.path.exists(csv_file):
+        return {}
+
+    try:
+        df = pd.read_csv(csv_file)
+    except Exception:
+        return {}
+
+    name_column = 'Dataset' if 'Dataset' in df.columns else 'Name' if 'Name' in df.columns else None
+    if not name_column or 'URL' not in df.columns:
+        return {}
+
+    return {
+        str(row[name_column]): row['URL']
+        for _, row in df.iterrows()
+        if pd.notna(row.get(name_column)) and pd.notna(row.get('URL'))
+    }
+
+def get_dataset_url(data, existing_urls):
+    dataset_name = get_v2_value(data, 'Dataset')
+    if dataset_name in existing_urls:
+        return existing_urls[dataset_name]
+
+    for reference in data.get('References', []):
+        link = reference.get('Link', '')
+        if link and link != 'Information not available':
+            return link
+
+    source = data.get('Source', '')
+    if isinstance(source, str) and source.startswith(('http://', 'https://')):
+        return source
+
+    return ''
+
+def update_csv_with_data(combined_data, csv_file):
+    existing_urls = load_existing_dataset_urls(csv_file)
+    datasets = []
+    for _, data in combined_data.items():
+        dataset = {field: get_v2_value(data, field) for field in V2_TABLE_FIELDS}
+        dataset['URL'] = get_dataset_url(data, existing_urls)
+        datasets.append(dataset)
+
+    df = pd.DataFrame(datasets)
+    df.fillna('', inplace=True)
+    df.sort_values(by='Dataset', inplace=True)
+    df.to_csv(csv_file, index=False)
+
+    print(f"Updated CSV with Version 2 dataset metadata: {len(datasets)} rows")
 
 def inject_json_to_html(json_data, html_file):
     with open(html_file, 'r', encoding='utf-8') as file:
@@ -73,25 +162,18 @@ def inject_json_to_html(json_data, html_file):
 def update_readme_with_data(combined_data, readme_file, md_folder_path):
     datasets = []
     for filename, data in combined_data.items():
-        link_name = filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()
-        datasets.append({
-            'Dataset Name': data.get('Name', ''),
-            'Labeled': data.get('Labeled', ''),
-            'Dataset Characteristics': data.get('Dataset Characteristics', ''),
-            'Data Source': data.get('Data Source', ''),
-            'Additional Tags': '; '.join(data.get('Additional Tags', [])),
-            'Description': data.get('Summary', ''),
-            'Link': link_name
-        })
+        link_name = get_dataset_slug(filename)
+        dataset = {field: get_v2_value(data, field) for field in V2_TABLE_FIELDS}
+        dataset['Link'] = link_name
+        datasets.append(dataset)
 
-    df = pd.DataFrame(datasets)
-    df.fillna('', inplace=True)
-    df.sort_values(by='Dataset Name', inplace=True)
-    # Preserve original capitalization of dataset name from JSON 'Name' field in link text
-    df['Link'] = df.apply(lambda row: f"[{row['Dataset Name']}]({md_folder_path}/{row['Link']}.md)", axis=1)
-    df['Dataset Name'] = df['Link']
-    df.drop(['Link', 'Description'], axis=1, inplace=True)
-    markdown_table = df.to_markdown(index=False)
+    datasets.sort(key=lambda row: row['Dataset'].lower())
+    table_rows = []
+    for dataset in datasets:
+        row = {field: dataset.get(field, '') for field in V2_TABLE_FIELDS}
+        row['Dataset'] = f"[{dataset['Dataset']}]({md_folder_path}/{dataset['Link']}.md)"
+        table_rows.append(row)
+    markdown_table = make_markdown_table(table_rows, V2_TABLE_FIELDS)
 
     with open(readme_file, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -132,18 +214,15 @@ def update_readme_with_data(combined_data, readme_file, md_folder_path):
     print(f"Updated README with the new Markdown table and dataset count: {dataset_count}")
 
 def json_to_markdown_and_html(filename, data):
-    link_name = filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()
+    link_name = get_dataset_slug(filename)
     md_path = os.path.join(md_folder_path, f"{link_name}.md")
     html_path = os.path.join(html_folder_path, f"{link_name}.html")
 
     # Markdown
     markdown = f"# {data['Name']}\n\n**Summary:** {data.get('Summary', '')}\n\n"
     markdown += "| Parameter | Value |\n| --- | --- |\n"
-    fields = sorted(['Name', 'Labeled', 'Time Series', 'Data Source', 'Missing Values', 'Dataset Characteristics', 
-                     'Feature Type', 'Associated Tasks', 'Number of Instances', 'Number of Features', 'Date Donated', 'Source'])
-    for key in fields:
-        if key in data:
-            markdown += f"| **{key}** | {data[key]} |\n"
+    for key in V2_TABLE_FIELDS:
+        markdown += f"| **{key}** | {get_v2_value(data, key)} |\n"
     markdown += "\n"
 
     if 'Description' in data:
@@ -151,8 +230,6 @@ def json_to_markdown_and_html(filename, data):
         for paragraph in data['Description'].split('\n\n'):
             markdown += paragraph.strip() + "\n\n"
 
-    if 'Additional Tags' in data:
-        markdown += f"## Tags\n\n{', '.join(sorted(data['Additional Tags']))}\n\n"
     if 'References' in data:
         markdown += "## References\n\n" + '\n'.join([f"- [{r['Text']}]({r['Link']})" for r in data['References']]) + "\n\n"
     markdown += "[⬅️ Back to Index](../README.md)\n"
@@ -171,9 +248,8 @@ def json_to_markdown_and_html(filename, data):
     <div class="container mt-5"><h1 class="mb-4">{data['Name']}</h1>
     <p>{summary_html}</p><table class="table table-striped mt-4"><tbody>"""
 
-    for key in fields:
-        if key in data:
-            html += f"<tr><td><strong>{key}</strong></td><td>{data[key]}</td></tr>"
+    for key in V2_TABLE_FIELDS:
+        html += f"<tr><td><strong>{key}</strong></td><td>{get_v2_value(data, key)}</td></tr>"
     html += "</tbody></table>"
 
     if 'Description' in data:
@@ -181,8 +257,6 @@ def json_to_markdown_and_html(filename, data):
         for paragraph in data['Description'].split('\n\n'):
             html += f"<p>{paragraph.strip()}</p>"
 
-    if 'Additional Tags' in data:
-        html += "<h2>Tags</h2><ul>" + ''.join([f"<li>{t}</li>" for t in sorted(data['Additional Tags'])]) + "</ul>"
     if 'References' in data:
         html += "<h2>References</h2><ul>" + ''.join([f"<li><a href='{r['Link']}'>{r['Text']}</a></li>" for r in data['References']]) + "</ul>"
 
@@ -195,6 +269,7 @@ def json_to_markdown_and_html(filename, data):
 
 # Main execution
 combined_data = load_combined_json_data()
+remove_stale_generated_files(combined_data)
 datasets_json = generate_json_index(combined_data)
 inject_json_to_html(datasets_json, index_html_file)
 
@@ -203,3 +278,4 @@ for filename, data in combined_data.items():
     json_to_markdown_and_html(filename, data)
 
 update_readme_with_data(combined_data, readme_file_path, md_folder_path)
+update_csv_with_data(combined_data, csv_file_path)

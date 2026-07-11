@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Energy disaggregation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2011 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | The Reference Energy Disaggregation Data Set (REDD) |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | REDD Website |
-| **Time Series** | Yes |
+| **Dataset** | The Reference Energy Disaggregation Data Set (REDD) |
+| **Domain** | Energy & Power; Buildings & Appliances |
+| **Asset / Process** | Buildings / Appliances |
+| **Modality** | Time Series |
+| **Task** | Energy Optimization |
+| **Annotation** | Sample Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2011 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The REDD data set is presented in high frequency (kHz) and low frequency (Hz) gr
 The dataset consists of multivariate time series data collected from six residential buildings located in Massachusetts, US. The measurements capture whole home and circuit level power consumption and cover weeks to months duration with sample frequencies ranging from a few Hz to kHz.
 
 The file and directory structure includes a readme.txt file with general information, low frequency power readings (~1Hz) for whole home and circuits, aligned group current/voltage waveforms, and raw current/voltage waveforms for high frequency data groups.
-
-## Tags
-
-Circuit level data, Energy disaggregation, High frequency measurements, Massachusetts, Multivariate time series, Power consumption, Residential buildings
 
 ## References
 

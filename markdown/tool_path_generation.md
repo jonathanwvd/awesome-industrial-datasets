@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2018-04-19 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Tool Path Generation |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Mendeley Data |
-| **Time Series** | No |
+| **Dataset** | Tool Path Generation |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | CNC / Machining; Materials / Chemistry |
+| **Modality** | Tabular |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Simulation |
+| **Access** | Mendeley Data |
+| **Size** | Information not available |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Shape deviation measurements and corresponding simulated cutting conditions are 
 The dataset features variables such as Actual measured deviation, widths and depths of cut, height at tool, material removal rate, feedrate, and location coordinates of probed points in workpiece coordinates. Data selection includes systematic and random point selections from different sample parts with and without compensation applied.
 
 Pocket A and Pocket B include measurements without compensation and with compensation, each having systematic and random sampling from three to nine sample parts. This enables comprehensive evaluation of machining conditions and tolerances for optimization purposes.
-
-## Tags
-
-5-axis machining, Cutting conditions, Manufacturing, Multivariate data, Regression, Shape deviation, Tool path optimization
 
 ## References
 

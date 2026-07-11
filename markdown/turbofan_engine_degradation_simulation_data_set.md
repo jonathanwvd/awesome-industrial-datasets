@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2010-09-22 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Turbofan engine degradation simulation data set |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | NASA Prognostics Data Repository |
-| **Time Series** | Yes |
+| **Dataset** | Turbofan engine degradation simulation data set |
+| **Domain** | Aerospace & Defense |
+| **Asset / Process** | Turbines / Engines |
+| **Modality** | Time Series |
+| **Task** | Regression; RUL / Prognostics; Simulation / Control |
+| **Annotation** | RUL Label; Scalar Target |
+| **Source Type** | Simulation |
+| **Access** | Competition |
+| **Size** | Information not available |
+| **Year** | 2010 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ PHM08 Challenge Dataset is publicly available at the NASA Prognostics Repository
 The dataset was simulated using the C-MAPSS tool, capturing engine degradation run-to-failure data. It includes four different sets simulated under various combinations of operational conditions and fault modes with several sensor channels recorded to characterize fault evolution.
 
 The data set is provided by the Prognostics CoE at NASA Ames in text format, packaged with a readme file. It supports prognostics and health management research with simulated turbofan engine degradation data.
-
-## Tags
-
-C-MAPSS, Degradation simulation, Fault modes, Prognostics, Run-to-failure, Sensor data, Turbofan engine
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 1997-05-31 |
-| **Feature Type** | Categorical |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Car Evaluation |
-| **Number of Features** | 6 |
-| **Number of Instances** | 1728 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Car Evaluation |
+| **Domain** | Transportation & Mobility |
+| **Asset / Process** | Vehicles / Fleets |
+| **Modality** | Tabular |
+| **Task** | Classification |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | UCI |
+| **Size** | 1728 |
+| **Year** | 1997 |
+| **License** | Information not available |
 
 ## Description
 
@@ -35,10 +34,6 @@ CAR car acceptability
 Input attributes are printed in lowercase. Besides the target concept (CAR), the model includes three intermediate concepts: PRICE, TECH, COMFORT. Every concept is in the original model related to its lower level descendants by a set of examples (for these examples sets see http://www-ai.ijs.si/BlazZupan/car.html).
 
 The Car Evaluation Database contains examples with the structural information removed, i.e., directly relates CAR to the six input attributes: buying, maint, doors, persons, lug_boot, safety. Because of known underlying concept structure, this database may be particularly useful for testing constructive induction and structure discovery methods.
-
-## Tags
-
-Attribute structure, Automobile evaluation, Car acceptability, Categorical features, Classification dataset, Constructive induction, Hierarchical decision model
 
 ## References
 

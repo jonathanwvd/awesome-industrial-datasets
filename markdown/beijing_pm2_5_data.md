@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2017-01-18 |
-| **Feature Type** | Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | Yes |
-| **Name** | Beijing PM2.5 Data |
-| **Number of Features** | 11 |
-| **Number of Instances** | 43824 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Beijing PM2.5 Data |
+| **Domain** | Environment & Safety |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Time Series |
+| **Task** | Regression; Benchmark Suite |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 43824 |
+| **Year** | 2017 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Beijing PM2.5 Data set contains hourly data from January 1st, 2010 to Decemb
 Missing values are denoted as "NA" in the dataset. The dataset captures climate and environmental observations useful for applications in regression tasks related to pollution prediction.
 
 The features include temporal variables (year, month, day, hour), PM2.5 as the target variable, and meteorological features DEWP (Dew Point), TEMP (Temperature), PRES (Pressure), cbwd (Combined wind direction), Iws (Cumulated wind speed), Is (Cumulated hours of snow), and Ir (Cumulated hours of rain).
-
-## Tags
-
-Air pollution, Beijing, Climate and Environment, Meteorological data, PM2.5, Pollution monitoring, Time-series data
 
 ## References
 

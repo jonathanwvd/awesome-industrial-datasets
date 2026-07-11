@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2019-05-29 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Turning Dataset for Chatter Diagnosis |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Mendeley Data |
-| **Time Series** | Yes |
+| **Dataset** | Turning Dataset for Chatter Diagnosis |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | CNC / Machining |
+| **Modality** | Time Series; Audio; Vibration |
+| **Task** | Classification |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Mendeley Data |
+| **Size** | Information not available |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset corresponds to sensor signals from several cutting tests including 
 The cutting test was performed by turning an Aluminum 6061 workpiece on a Clasuing-Gamet 33 cm (13 inch) engine lathe using a Titanium nitride coated insert attached to an S10R-SCLCR3S boring bar. Data was collected from four different cutting configurations, each defined by the stickout distance (ranging from 5.08 cm to 11.43 cm). For each stickout distance, data were collected for various combinations of rotational speed and depth of cut.
 
 The dataset includes a table detailing parameter combinations and the number of tagged time series per stickout length within the included documents, and a brief description of the tagging algorithm used is also provided.
-
-## Tags
-
-Accelerometer data, Chatter diagnosis, Laser tachometer, Machining, Microphone data, Time-series sensor data, Turning
 
 ## References
 

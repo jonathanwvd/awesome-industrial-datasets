@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2009-10-06 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Wine Quality |
-| **Number of Features** | 11 |
-| **Number of Instances** | 4898 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Wine Quality |
+| **Domain** | Materials & Metrology |
+| **Asset / Process** | Materials / Chemistry |
+| **Modality** | Tabular |
+| **Task** | Classification; Regression |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 4898 |
+| **Year** | 2009 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The two datasets are related to red and white variants of the Portuguese "Vinho 
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, it could be interesting to test feature selection methods.
 
 Input variables (based on physicochemical tests): fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol. Output variable (based on sensory data): quality (score between 0 and 10).
-
-## Tags
-
-Classification, Physicochemical tests, Portuguese Vinho Verde, Red and white wine, Regression, Wine quality, Wine samples
 
 ## References
 

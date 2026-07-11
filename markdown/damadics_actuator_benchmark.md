@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Fault Diagnosis, Process Monitoring, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2001 |
-| **Feature Type** | Process Control Time Series |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | DAMADICS Actuator Benchmark |
-| **Number of Features** | 33 |
-| **Number of Instances** | Daily matrices of 86400 rows x 33 columns |
-| **Source** | https://iair.mchtr.pw.edu.pl/Damadics |
-| **Time Series** | Yes |
+| **Dataset** | DAMADICS Actuator Benchmark |
+| **Domain** | Chemical & Process; Manufacturing & Production |
+| **Asset / Process** | Valves / Actuators; Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Classification; Fault Diagnosis; Process Monitoring |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Direct Download |
+| **Size** | Daily matrices of 86400 rows x 33 columns |
+| **Year** | 2001 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ DAMADICS (Development and Application of Methods for Actuator Diagnosis in Indus
 The dataset consists of daily measurement files, each containing a matrix of approximately 86,400 rows (corresponding to 1 Hz sampling) and 33 measurement columns representing process variables including valve position, flow, pressure, and temperatures. Multiple fault scenarios were intentionally introduced into the process to provide labelled fault data for classifier development and evaluation.
 
 DAMADICS is one of the classical benchmarks in the process control and fault diagnosis community, cited extensively in the literature. Downloads are available via the organiser's website as multi-part ZIP archives. The benchmark description paper is available via ScienceDirect.
-
-## Tags
-
-Actuator Faults, Chemical Process, Control Valve, Fault Diagnosis Benchmark, Industrial Process, Process Control, Sugar Factory
 
 ## References
 

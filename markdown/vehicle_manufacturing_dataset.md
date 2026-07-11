@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification, EDA |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Tabular |
-| **Date Donated** | 2023 |
-| **Feature Type** | Mixed (categorical and numerical) |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Vehicle Manufacturing Dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle (arnavsmayan) |
-| **Time Series** | No |
+| **Dataset** | Vehicle Manufacturing Dataset |
+| **Domain** | Transportation & Mobility; Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Tabular |
+| **Task** | Classification; Regression; Quality Prediction; Process Monitoring |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Mixed |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | 2023 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Vehicle Manufacturing Dataset, published on Kaggle by user arnavsmayan (2023
 Typical features in this type of dataset include vehicle type or model, production line identifiers, manufacturing time, defect counts or rates, shift information, worker or station IDs, and production yield. The synthetic nature of the data allows for clean, controlled experimentation without the privacy constraints of real factory data.
 
 The dataset has been used by the Kaggle community for EDA notebooks and learning exercises in manufacturing process analysis. Specific column names, number of rows, and task definitions are available on the Kaggle dataset page.
-
-## Tags
-
-Automotive, Defect Rate, EDA, Kaggle, Production Metrics, Synthetic Data, Tabular, Vehicle Manufacturing
 
 ## References
 

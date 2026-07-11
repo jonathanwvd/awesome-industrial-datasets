@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Anomaly Localisation, Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection, Defect Segmentation |
-| **Date Donated** | 2021 |
-| **Feature Type** | RGB Images + Pixel Masks |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | BTAD |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 1799 images across 3 product types (Product1: 400 @ 1600x1600; Product2: 1000 @ 600x600; Product3: 399 @ 800x600) |
-| **Source** | https://github.com/pankajmishra000/VT-ADL |
-| **Time Series** | No |
+| **Dataset** | BTAD |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Anomaly Localization; Defect Detection; Defect Segmentation |
+| **Annotation** | Sample Label; Pixel Mask |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository |
+| **Size** | 1799 images across 3 product types (Product1: 400 @ 1600x1600; Product2: 1000 @ 600x600; Product3: 399 @ 800x600) |
+| **Year** | 2021 |
+| **License** | CC BY-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ BTAD (BeanTech Anomaly Detection Dataset) is a real-world industrial benchmark r
 The three product types have different image resolutions and quantities: Product 1 (400 images at 1600×1600 pixels), Product 2 (1,000 images at 600×600 pixels), and Product 3 (399 images at 800×600 pixels). Each product type has dedicated training (normal only) and test (normal and anomalous) splits following the standard MVTec-style protocol.
 
 BTAD was introduced at ISIE 2021 (Mishra et al., VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localisation) and is licensed under CC BY-SA.
-
-## Tags
-
-Defect Detection, Industrial Anomaly Detection, Manufacturing Inspection, Real-World Dataset, Segmentation Masks, Surface Defects, Visual Quality Control
 
 ## References
 

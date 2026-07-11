@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Clustering |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Time-Series |
-| **Date Donated** | 2015-03-12 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | No |
-| **Name** | Electricity Load Diagrams 2011-2014 |
-| **Number of Features** | 140256 |
-| **Number of Instances** | 370 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Electricity Load Diagrams 2011-2014 |
+| **Domain** | Energy & Power |
+| **Asset / Process** | Power Grid / Plants |
+| **Modality** | Time Series |
+| **Task** | Forecasting; Energy Optimization |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 370 |
+| **Year** | 2015 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The data set includes electricity consumption data for 370 clients, recorded eve
 The data set was saved as a text file in CSV format using a semicolon (;) as the delimiter. The first column presents date and time as a string in the format 'yyyy-mm-dd hh:mm:ss'. All other columns contain float values indicating consumption in kW. The dataset contains no missing values.
 
 During the daylight saving time changes, peculiarities are noted: in March, the day with only 23 hours has zero consumption values between 1:00 am and 2:00 am for all points; in October, the day with 25 hours aggregates consumption of two hours between 1:00 am and 2:00 am.
-
-## Tags
-
-Client consumption profiles, Daylight saving time adjustments, Electricity consumption, Energy data, Portuguese local time, Smart grid, Time-series data
 
 ## References
 

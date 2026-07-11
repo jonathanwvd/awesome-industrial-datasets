@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Forecasting |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Time-Series, Univariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Brent Oil Prices |
-| **Number of Features** | 2 |
-| **Number of Instances** | 12799 |
-| **Source** | U.S. Energy Information Administration via Kaggle |
-| **Time Series** | Yes |
+| **Dataset** | Brent Oil Prices |
+| **Domain** | Oil & Gas; Energy & Power; Business & Economics |
+| **Asset / Process** | Business / Economic Indicators |
+| **Modality** | Time Series |
+| **Task** | Regression; Forecasting |
+| **Annotation** | Scalar Target |
+| **Source Type** | Public Records |
+| **Access** | Kaggle; Login Required |
+| **Size** | 12799 |
+| **Year** | 2022 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset contains daily Brent oil prices from 17th of May 1987 until the 13th
 The original data was retrieved from the U.S. Energy Information Administration: Europe Brent Spot Price FOB (Dollars per Barrel), which is updated on a weekly basis. The dataset is intended for predicting future crude oil prices based on historical data and can be used for time series forecasting models.
 
 The dataset includes two columns: Date (day-month-year in date time format) and Price (daily oil prices in USD). This dataset inspires research and competition in the data science community, utilizing new forecasting methods such as Prophet.
-
-## Tags
-
-Brent crude oil, Daily historical prices, Energy economics, Financial data, Oil price forecasting, Time-series data, U.S. Energy Information Administration
 
 ## References
 

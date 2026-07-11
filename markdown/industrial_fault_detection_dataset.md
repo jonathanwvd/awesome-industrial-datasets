@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Industrial Fault Detection Dataset |
-| **Number of Features** | 37 |
-| **Number of Instances** | Information not available |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Industrial Fault Detection Dataset |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Tabular; Time Series; Vibration; Multimodal |
+| **Task** | Classification; Fault Diagnosis |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -26,10 +25,6 @@ The dataset includes a Fault_Type label with four categories:
 1 → Overheating Fault
 2 → Leakage Fault
 3 → Power Fluctuation Fault
-
-## Tags
-
-Classification, Fault Detection, Industry 4.0, IoT, Sensor Data, Temperature Sensors, Vibration Sensors
 
 ## References
 

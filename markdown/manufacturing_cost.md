@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2019-03-19 |
-| **Feature Type** | Real |
-| **Labeled** | Likely Yes |
-| **Missing Values** | Information not available |
-| **Name** | Manufacturing cost |
-| **Number of Features** | 2 |
-| **Number of Instances** | Likely 1000+ (Exact count not specified) |
-| **Source** | Kaggle |
-| **Time Series** | Information not available |
+| **Dataset** | Manufacturing cost |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | General Manufacturing |
+| **Modality** | Tabular |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | Likely 1000+ (Exact count not specified) |
+| **Year** | 2019 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Let's assume that you work as a consultant to a start-up company that was lookin
 The dataset contains two columns: 'Number of Units' and 'Manufacturing Cost'. The values represent manufacturing cost as a function of quantity. This data is suited for regression tasks to model economies of scale in manufacturing and estimate costs associated with varying production volumes.
 
 The data file included is 'EconomiesOfScale.csv' which is around 24.78 kB in size and contains the measurements collected. The dataset is practical for users interested in manufacturing, cost estimation, and production volume relationships.
-
-## Tags
-
-Cost estimation, Economies of scale, Manufacturing, Production volume, Real-world data, Regression
 
 ## References
 

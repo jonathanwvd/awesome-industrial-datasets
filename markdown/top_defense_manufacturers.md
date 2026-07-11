@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Tabular, Multivariate |
-| **Date Donated** | 2022-08-13 |
-| **Feature Type** | Mixed (Text, Real) |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Top Defense Manufacturers |
-| **Number of Features** | 10 |
-| **Number of Instances** | 100 |
-| **Source** | Kaggle |
-| **Time Series** | No |
+| **Dataset** | Top Defense Manufacturers |
+| **Domain** | Aerospace & Defense; Business & Economics |
+| **Asset / Process** | Business / Economic Indicators |
+| **Modality** | Tabular |
+| **Task** | Classification |
+| **Annotation** | Sample Label |
+| **Source Type** | Public Records |
+| **Access** | Kaggle; Login Required |
+| **Size** | 100 |
+| **Year** | 2022 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ A defense contractor is a business organization or individual that provides prod
 Security contractors usually do not provide direct support of military operations. In the United States, defense contracting has expanded significantly, with contractors often outnumbering military personnel in conflict zones. For example, during the first four years of the Iraq War, more than 190,000 contractors were hired, surpassing the American military presence.
 
 This dataset includes information on the revenue of the top defense manufacturing companies ranked by their defense revenue for the year 2020 and 2019, as well as company leadership and country of origin. It provides detailed company rankings, revenue figures in $US Million, profit/loss percentages, and the proportion of total revenue sourced from defense activities.
-
-## Tags
-
-Business data, Company revenue data, Defense contractors, Defense sector, International companies, Military industry, Revenue ranking
 
 ## References
 

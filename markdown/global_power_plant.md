@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Global, Geospatial |
-| **Date Donated** | 2024-10-16 |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | No |
-| **Missing Values** | Information not available |
-| **Name** | Global Power Plant Database |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | WRI Data Explorer |
-| **Time Series** | Likely |
+| **Dataset** | Global Power Plant Database |
+| **Domain** | Energy & Power |
+| **Asset / Process** | Power Grid / Plants |
+| **Modality** | Tabular; Geospatial / Remote Sensing |
+| **Task** | Benchmark Suite |
+| **Annotation** | Unlabeled; Class Label |
+| **Source Type** | Public Records |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2024 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Global Power Plant Database provides an extensive open source dataset includ
 It is noted that for plants with multiple fuels specified, the other fuels' order does not indicate priority or preference. The generation data may correspond to calendar, fiscal, or regulatory years, without distinction provided. The database aims to support climate, economics, and finance related research and applications by providing detailed and comprehensive power plant information.
 
 Caution is advised when interpreting 'Primary Fuel' and 'Other Fuel' fields, as ordering does not always imply operational priority. This dataset is maintained and provided by the World Resources Institute (WRI) and updated as of October 16, 2024.
-
-## Tags
-
-Energy production, Geospatial data, Global dataset, Open source, Power plants, Primary fuel type, Yearly generation data
 
 ## References
 

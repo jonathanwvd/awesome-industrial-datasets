@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Control Loop Performance Monitoring, Fault Detection, Stiction Detection, Oscillation Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Industrial Process Data |
-| **Date Donated** | 2018 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | SACAC |
-| **Number of Features** | Process variable (PV) and manipulated variable (MV) time series per loop; variable sampling rates |
-| **Number of Instances** | 25 SISO PID control loop datasets categorized by root cause of poor performance |
-| **Source** | SACAC (South African Council for Automation and Control) / Industry and Academia |
-| **Time Series** | Yes |
+| **Dataset** | SACAC |
+| **Domain** | Chemical & Process |
+| **Asset / Process** | Valves / Actuators; Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Fault Diagnosis; Process Monitoring; Simulation / Control |
+| **Annotation** | Sample Label; Fault Type Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Official Portal |
+| **Size** | 25 SISO PID control loop datasets categorized by root cause of poor performance |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -30,10 +29,6 @@ The repository contains 25 SISO (single-input single-output) PID control loop da
 - Other causes
 
 Each dataset provides time series of the process variable (PV) and manipulated variable (MV), enabling researchers to develop and benchmark methods for detecting, diagnosing, and ranking the severity of control loop problems. The dataset is described in the IFAC-PapersOnLine repository paper (2018) and is hosted on the SACAC resources page.
-
-## Tags
-
-Control Loop, Fault Diagnosis, Oscillation Detection, PID Control, Performance Monitoring, Process Industries, SACAC, SISO, Stiction
 
 ## References
 

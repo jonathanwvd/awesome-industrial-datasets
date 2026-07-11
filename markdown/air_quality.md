@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2016-03-22 |
-| **Feature Type** | Real, Integer, Categorical, Date |
-| **Labeled** | Yes |
-| **Missing Values** | Yes |
-| **Name** | Air Quality |
-| **Number of Features** | 15 |
-| **Number of Instances** | 9358 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Air Quality |
+| **Domain** | Environment & Safety; Chemical & Process |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Regression |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 9358 |
+| **Year** | 2016 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The dataset contains 9358 instances of hourly averaged responses from an array o
 Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer. Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value.
 
 This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.
-
-## Tags
-
-Air quality monitoring, Chemical sensors, Gas concentration, Italian city data, Metal oxide sensors, Pollution measurement, Time series data
 
 ## References
 

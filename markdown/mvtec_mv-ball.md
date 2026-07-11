@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Multi-View 6D Pose Estimation |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Image, Multi-View, Pose Estimation, Synthetic |
-| **Date Donated** | 2025 |
-| **Feature Type** | Rendered Multi-View Images |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MVTec MV-ball |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 112042 training images; 3853 easy + 3458 hard evaluation images |
-| **Source** | https://www.mvtec.com/company/research/datasets/mvtec-mv-ball |
-| **Time Series** | No |
+| **Dataset** | MVTec MV-ball |
+| **Domain** | Robotics & Automation; Materials & Metrology |
+| **Asset / Process** | Robotic Manipulation |
+| **Modality** | Image; Multimodal |
+| **Task** | Pose Estimation; 3D Understanding |
+| **Annotation** | Pose / Keypoint Label; Split Metadata |
+| **Source Type** | Synthetic |
+| **Access** | Official Portal |
+| **Size** | 112042 training images; 3853 easy + 3458 hard evaluation images |
+| **Year** | 2025 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MVTec MV-ball is a synthetic benchmark specifically designed to stress-test mult
 The dataset contains 112,042 training images and two evaluation splits: an easy split with 3,853 images and a hard split with 3,458 images. All data is synthetically rendered, enabling controlled experiments on multi-view fusion strategies. This benchmark is particularly relevant for robotic assembly and handling applications where precise pose knowledge is required but objects have rotational symmetry or visual ambiguity.
 
 MVTec MV-ball was introduced in arXiv:2508.03243 (2025) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-6D Pose Estimation, Industrial Robotics, MVTec, Multi-View, Pose Ambiguity, Robotics Vision, Synthetic Dataset
 
 ## References
 

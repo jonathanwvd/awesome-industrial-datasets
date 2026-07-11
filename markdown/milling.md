@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Tool Wear Prediction, Remaining Useful Life, Regression, Prognostics |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2007 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Milling |
-| **Number of Features** | 8 sensor channels (AC/DC spindle motor current, table/spindle vibration, table/spindle acoustic emission, flank wear VB) plus operational parameters |
-| **Number of Instances** | 16 experimental cases; 167 measurement runs total |
-| **Source** | NASA Ames Prognostics Center of Excellence (PCoE) Data Repository |
-| **Time Series** | Yes |
+| **Dataset** | Milling |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | CNC / Machining |
+| **Modality** | Time Series; Vibration; Audio |
+| **Task** | RUL / Prognostics; Condition Monitoring; Regression |
+| **Annotation** | RUL Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Kaggle; Login Required |
+| **Size** | 16 experimental cases; 167 measurement runs total |
+| **Year** | 2007 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The NASA Milling dataset is part of the NASA Prognostics Center of Excellence (P
 Sensor channels include: AC spindle motor current, DC spindle motor current, table vibration, spindle vibration, acoustic emission at the table, and acoustic emission at the spindle. Operational parameters such as depth of cut, feed rate, and workpiece material are also provided. The data is stored as a MATLAB struct array; a CSV version is available on Kaggle and Hugging Face.
 
 The primary research application is tool condition monitoring: predicting the current or future flank wear value (VB) from the sensor time series. The dataset has been used extensively in prognostics and health management research, including deep learning approaches for RUL estimation of cutting tools.
-
-## Tags
-
-Acoustic Emission, Milling Machine, NASA, Predictive Maintenance, Prognostics, Tool Wear, Vibration
 
 ## References
 

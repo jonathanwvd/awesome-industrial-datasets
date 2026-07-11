@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Unsupervised Anomaly Detection, Anomaly Localisation, Segmentation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Anomaly Detection, Domain Shift |
-| **Date Donated** | 2025 |
-| **Feature Type** | Images + Pixel Masks (public test) |
-| **Labeled** | Partially |
-| **Missing Values** | No |
-| **Name** | MVTec AD 2 |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 8000+ images across 8 scenarios |
-| **Source** | https://www.mvtec.com/company/research/datasets/mvtec-ad-2 |
-| **Time Series** | No |
+| **Dataset** | MVTec AD 2 |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction |
+| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask; Partial |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal; Form Request; Gated Approval |
+| **Size** | 8000+ images across 8 scenarios |
+| **Year** | 2025 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MVTec AD 2 is the successor benchmark to the widely used MVTec AD dataset, exten
 The dataset contains over 8,000 images totalling approximately 30.4 GB. For the public test set, pixel-precise anomaly masks are provided, enabling local evaluation. For the private test set, results must be submitted to the official MVTec evaluation server to obtain scores, ensuring a fair comparison of methods under held-out conditions.
 
 MVTec AD 2 was introduced at arXiv in 2025 (Heckler-Kram et al., arXiv:2503.21622) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-Anomaly Detection, Benchmark Dataset, Domain Shift, Industrial Inspection, Lighting Variation, MVTec, Visual Quality Control
 
 ## References
 

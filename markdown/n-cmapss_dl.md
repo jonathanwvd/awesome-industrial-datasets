@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Remaining Useful Life Prediction, Prognostics, Deep Learning Benchmarking |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2021 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | N-CMAPSS_DL |
-| **Number of Features** | 26 per record: unit number, flight cycle, 3 operational settings (altitude, Mach number, throttle-resolver angle), 21 sensor measurements |
-| **Number of Instances** | 100 engines; 4089 training cycles and 2736 test cycles; 7 failure modes; 3 flight classes |
-| **Source** | NASA Prognostics Center of Excellence (PCoE) / PHM Society 2021 Data Challenge |
-| **Time Series** | Yes |
+| **Dataset** | N-CMAPSS_DL |
+| **Domain** | Aerospace & Defense; Manufacturing & Production |
+| **Asset / Process** | Turbines / Engines |
+| **Modality** | Time Series |
+| **Task** | Fault Diagnosis; RUL / Prognostics; Predictive Maintenance; Simulation / Control |
+| **Annotation** | RUL Label; Fault Type Label; Scalar Target; Sample Label |
+| **Source Type** | Simulation |
+| **Access** | Repository; Competition |
+| **Size** | 100 engines; 4089 training cycles and 2736 test cycles; 7 failure modes; 3 flight classes |
+| **Year** | 2021 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ N-CMAPSS (New Commercial Modular Aero-Propulsion System Simulation) extends the 
 Key improvements over original CMAPSS: engines start from unknown initial health states (rather than nominally healthy), degradation trajectories follow non-linear paths, operating conditions have high variability (altitude, Mach number, temperature, throttle angle), and data is organized into 3 flight classes (short, medium, long) representing different mission profiles. Each record has 26 columns: unit number, flight cycle, 3 operational settings, and 21 sensor measurements with realistic noise. The Health Index (HI) decreases from 1 to 0 at failure.
 
 The dataset was used for the PHM 2021 Data Challenge and is the basis for the N-CMAPSS_DL GitHub repository, which provides Python preprocessing scripts for deep learning workflows. Commonly used with Bidirectional LSTMs, CNNs, and transformer architectures.
-
-## Tags
-
-Deep Learning, PHM 2021, Predictive Maintenance, Prognostics, Remaining Useful Life, Sensor Data, Turbofan Engine
 
 ## References
 

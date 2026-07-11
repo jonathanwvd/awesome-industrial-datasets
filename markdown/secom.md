@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Causal-Discovery |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2008-11-18 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | Yes |
-| **Name** | SECOM |
-| **Number of Features** | 591 |
-| **Number of Instances** | 1567 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Information not available |
+| **Dataset** | SECOM |
+| **Domain** | Electronics & Semiconductor; Manufacturing & Production |
+| **Asset / Process** | Semiconductor / Wafers |
+| **Modality** | Tabular; Time Series |
+| **Task** | Classification; Quality Prediction |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | UCI |
+| **Size** | 1567 |
+| **Year** | 2008 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ A complex modern semi-conductor manufacturing process is monitored using signals
 The dataset consists of 1567 examples, each with 591 features, and an associated label indicating pass (-1) or fail (1) for in-house line testing along with a date/time stamp. The data contains missing values represented as 'NaN', which must be handled in pre-processing or during analysis.
 
 Feature selection techniques are investigated as intelligent systems methods to rank features by their impact on overall yield. Baseline results from various feature selection methods using a simple kernel ridge classifier and 10-fold cross-validation are provided to guide initial analyses.
-
-## Tags
-
-Classification, Feature selection, Missing values, Multivariate data, Semi-conductor manufacturing, Sensor data, Yield prediction
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2012-11-29 |
-| **Feature Type** | Integer, Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Energy Efficiency |
-| **Number of Features** | 8 |
-| **Number of Instances** | 768 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Dataset** | Energy Efficiency |
+| **Domain** | Buildings & Appliances; Energy & Power |
+| **Asset / Process** | Buildings / Appliances |
+| **Modality** | Tabular |
+| **Task** | Regression; Energy Optimization; Classification |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Simulation |
+| **Access** | UCI |
+| **Size** | 768 |
+| **Year** | 2012 |
+| **License** | Information not available |
 
 ## Description
 
@@ -34,10 +33,6 @@ X7 Glazing Area
 X8 Glazing Area Distribution
 y1 Heating Load
 y2 Cooling Load
-
-## Tags
-
-Building energy efficiency, Classification tasks, Cooling load prediction, Heating load prediction, Multivariate dataset, Regression tasks, Synthetic building data
 
 ## References
 

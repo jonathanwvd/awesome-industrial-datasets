@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Time-Series, Audio |
-| **Date Donated** | 2022-05-09 |
-| **Feature Type** | Real |
-| **Labeled** | Information not available |
-| **Missing Values** | Information not available |
-| **Name** | MIMII DG: Sound Dataset for Malfunctioning Industrial Machine Investigation for Domain Generalization Task |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Zenodo |
-| **Time Series** | Yes |
+| **Dataset** | MIMII DG: Sound Dataset for Malfunctioning Industrial Machine Investigation for Domain Generalization Task |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Industrial Machines |
+| **Modality** | Time Series; Audio |
+| **Task** | Anomaly Detection; Fault Diagnosis; Condition Monitoring |
+| **Annotation** | Normal-Only Training; Sample Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Repository; Zenodo / Dataverse; Competition |
+| **Size** | Information not available |
+| **Year** | 2022 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ This dataset is a sound dataset for malfunctioning industrial machine investigat
 Two simple baseline systems are available on the GitHub repositories autoencoder-based baseline and MobileNetV2-based baseline. The baseline systems provide a simple entry-level approach that gives a reasonable performance in the dataset. They are good starting points, especially for entry-level researchers who want to get familiar with the anomalous-sound-detection task.
 
 This dataset was made by Hitachi, Ltd. and is available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. A paper will be published on the dataset and citation information will be announced; users are asked to cite it if they use this dataset.
-
-## Tags
-
-DCASE 2022, acoustic condition monitoring, anomalous sound detection, audio signals, domain generalization, industrial machinery, unsupervised learning
 
 ## References
 

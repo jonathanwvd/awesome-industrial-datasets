@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection, Classification |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series, Synthetic |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Tennessee Eastman Process Simulation Dataset |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Harvard Dataverse |
-| **Time Series** | Yes |
+| **Dataset** | Tennessee Eastman Process Simulation Dataset |
+| **Domain** | Chemical & Process; Manufacturing & Production |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Anomaly Detection; Fault Diagnosis; Predictive Maintenance; Process Monitoring |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Simulation |
+| **Access** | Zenodo / Dataverse |
+| **Size** | Information not available |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Tennessee Eastman Process simulation dataset is based on a simulated chemica
 The dataset consists of time series data under different injected faults scenarios used to evaluate and compare the performance of monitoring algorithms. The data includes both normal and faulty process operation to facilitate identification and classification of abnormal conditions. Due to the complexity and dynamic nature of the simulated process, this dataset is valuable for machine learning and statistical methods research in process monitoring and fault detection.
 
 It is used extensively in research, providing a critical testbed for developing advanced process monitoring methods, including anomaly detection, classification, and predictive maintenance strategies.
-
-## Tags
-
-Anomaly detection, Chemical process simulation, Fault detection, Multivariate data, Process monitoring, Synthetic data, Time-series data
 
 ## References
 

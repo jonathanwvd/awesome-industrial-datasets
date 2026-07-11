@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Oriented Object Detection, Industrial Part Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Oriented Object Detection |
-| **Date Donated** | 2019 |
-| **Feature Type** | Images + Oriented Bounding Box Annotations |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | MVTec Screws |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 384 images; 4426 oriented bounding box annotations; 13 categories |
-| **Source** | https://www.mvtec.com/company/research/datasets/mvtec-screws |
-| **Time Series** | No |
+| **Dataset** | MVTec Screws |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image |
+| **Task** | Object Detection; Pose Estimation |
+| **Annotation** | Bounding Box; Pose / Keypoint Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Direct Download |
+| **Size** | 384 images; 4426 oriented bounding box annotations; 13 categories |
+| **Year** | 2019 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
@@ -24,10 +23,6 @@ MVTec Screws is an industrial benchmark dataset for oriented object detection ap
 The dataset is designed to evaluate oriented detection methods in industrial manufacturing and quality control scenarios, where objects are frequently rotated and standard axis-aligned bounding boxes are insufficient. The total download size is approximately 1.3 GB.
 
 MVTec Screws was published alongside a paper at tm - Technisches Messen (DOI: 10.1515/teme-2019-0076) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
-
-## Tags
-
-Fasteners, Industrial Parts, MVTec, Manufacturing, Object Detection, Oriented Detection, Quality Inspection
 
 ## References
 

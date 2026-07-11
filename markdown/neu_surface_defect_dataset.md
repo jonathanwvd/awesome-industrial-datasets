@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Defect Classification, Object Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multiclass |
-| **Date Donated** | 2013 |
-| **Feature Type** | Image |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | NEU Surface Defect Dataset |
-| **Number of Features** | 200×200 pixel grayscale images of hot-rolled steel strip surfaces |
-| **Number of Instances** | 1,800 grayscale images; 300 images per class across 6 defect types |
-| **Source** | Northeastern University (NEU), China |
-| **Time Series** | No |
+| **Dataset** | NEU Surface Defect Dataset |
+| **Domain** | Materials & Metrology; Manufacturing & Production |
+| **Asset / Process** | Steel / Metal Surfaces; Materials / Chemistry |
+| **Modality** | Image |
+| **Task** | Defect Detection; Defect Segmentation; Classification |
+| **Annotation** | Bounding Box; Fault Type Label; Sample Label; Class Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal |
+| **Size** | 1,800 grayscale images; 300 images per class across 6 defect types |
+| **Year** | 2013 |
+| **License** | Information not available |
 
 ## Description
 
@@ -31,10 +30,6 @@ The NEU Surface Defect Database was created at Northeastern University (NEU), Ch
 The dataset contains 1,800 grayscale images total, with exactly 300 images per defect class. All images are 200×200 pixels. Inter-class and intra-class variability is significant due to variations in illumination and surface condition, making this a challenging classification benchmark.
 
 An object detection version also exists with bounding box annotations (NEU-DET). The dataset has been widely used in deep learning research for steel surface defect detection and classification, and has been extended to include segmentation annotations in later works.
-
-## Tags
-
-Computer Vision, Defect Classification, Grayscale Images, Hot-Rolled Steel, Industrial Inspection, Northeastern University, Object Detection, Steel Strip, Surface Defect
 
 ## References
 

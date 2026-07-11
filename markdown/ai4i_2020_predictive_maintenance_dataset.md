@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression, Causal-Discovery |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2020-08-29 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | AI4I 2020 Predictive Maintenance Dataset |
-| **Number of Features** | 6 |
-| **Number of Instances** | 10000 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | AI4I 2020 Predictive Maintenance Dataset |
+| **Domain** | Energy & Power; Manufacturing & Production |
+| **Asset / Process** | CNC / Machining |
+| **Modality** | Time Series |
+| **Task** | Fault Diagnosis; Failure Prediction; Predictive Maintenance; Classification |
+| **Annotation** | Fault Type Label; Scalar Target; Sample Label; Class Label |
+| **Source Type** | Synthetic |
+| **Access** | UCI |
+| **Size** | 10000 |
+| **Year** | 2020 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ Since real predictive maintenance datasets are generally difficult to obtain and
 The dataset consists of 10,000 data points stored as rows with 14 features in columns including UID, product ID, air temperature (K), process temperature (K), rotational speed (rpm), torque (Nm), tool wear (min), and machine failure labels, among others.
 
 The machine failure label indicates whether the machine has failed due to one or more of five independent failure modes: tool wear failure (TWF), heat dissipation failure (HDF), power failure (PWF), overstrain failure (OSF), and random failures (RNF). Each failure mode is defined with specific conditions and probabilities as described in the dataset documentation.
-
-## Tags
-
-Machine failure, Manufacturing process, Multivariate, Predictive maintenance, Sensor data, Synthetic data, Time-series data
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Defect Pattern Classification, Failure Mode Recognition |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Image, Multiclass |
-| **Date Donated** | 2014 |
-| **Feature Type** | Image (wafer map binary/ternary maps) |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | WM811K Wafer Maps |
-| **Number of Features** | Variable-size binary/ternary wafer maps encoding die pass/fail status on a 2D grid |
-| **Number of Instances** | 811,457 wafer maps total; 172,950 labeled across 9 classes; 638,507 unlabeled |
-| **Source** | TSMC / MIR Lab (Ming Chuan University) |
-| **Time Series** | No |
+| **Dataset** | WM811K Wafer Maps |
+| **Domain** | Electronics & Semiconductor; Manufacturing & Production |
+| **Asset / Process** | Semiconductor / Wafers |
+| **Modality** | Image |
+| **Task** | Classification; Quality Prediction; Fault Diagnosis |
+| **Annotation** | Unlabeled; Sample Label; Class Label; Fault Type Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Kaggle; Login Required |
+| **Size** | 811,457 wafer maps total; 172,950 labeled across 9 classes; 638,507 unlabeled |
+| **Year** | 2014 |
+| **License** | CC0 |
 
 ## Description
 
@@ -33,10 +32,6 @@ Of the 811,457 maps, 172,950 have been manually labeled into one of 9 failure pa
 9. None — no apparent pattern
 
 The remaining 638,507 maps are unlabeled and can be used for semi-supervised or unsupervised learning. The dataset is available under a CC0 (public domain) license. It is a standard benchmark for yield diagnosis, failure mode classification, and transfer learning in semiconductor manufacturing.
-
-## Tags
-
-CC0, Defect Pattern, Failure Mode Classification, Large-scale, Semi-supervised Learning, Semiconductor Manufacturing, TSMC, Wafer Map, Yield Diagnosis
 
 ## References
 

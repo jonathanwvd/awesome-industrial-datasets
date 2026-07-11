@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2014 |
-| **Feature Type** | Real, Categorical |
-| **Labeled** | Yes |
-| **Missing Values** | Information not available |
-| **Name** | Asset Failure and Replacement |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | PHM Society |
-| **Time Series** | Likely |
+| **Dataset** | Asset Failure and Replacement |
+| **Domain** | General / Cross-Industrial |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Time Series |
+| **Task** | Classification; Regression; Failure Prediction; RUL / Prognostics |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Competition |
+| **Size** | Information not available |
+| **Year** | 2014 |
+| **License** | Proprietary / Restricted |
 
 ## Description
 
@@ -24,10 +23,6 @@ The PHM Data Challenge is an open competition centered on asset health calculati
 The dataset consists of five data files: Train – Part Consumption, Train – Usage, Train – Failures, Test – Part Consumption, Test – Usage, and Test Instances. These files include information about asset part replacements with reasons, usage parameters resembling an odometer, and failure times. An example submission file is also provided.
 
 Due to proprietary concerns, detailed descriptions of the data and the domain are not provided. The challenge encourages collaboration among students, researchers, and professionals, with the top teams invited to present their findings at the PHM Society Conference.
-
-## Tags
-
-Asset health, Failure prediction, Health score, Industrial monitoring, Part replacement, Prognostics and health management, Time-series data
 
 ## References
 

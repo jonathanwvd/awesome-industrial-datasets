@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression, Clustering, Causal |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2013-10-22 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Gas Sensor Array Drift at Different Concentrations |
-| **Number of Features** | 128 |
-| **Number of Instances** | 13910 |
-| **Source** | UCI Machine Learning Repository |
-| **Time Series** | Yes |
+| **Dataset** | Gas Sensor Array Drift at Different Concentrations |
+| **Domain** | Chemical & Process; Environment & Safety |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Classification; Regression |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | UCI |
+| **Size** | 13910 |
+| **Year** | 2013 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This data set contains 13,910 measurements from 16 chemical sensors exposed to 6
 The dataset was gathered from January 2008 to February 2011 (36 months) in a gas delivery platform at the ChemoSignals Laboratory, BioCircuits Institute, University of California San Diego. It includes six pure gaseous substances: Ammonia, Acetaldehyde, Acetone, Ethylene, Ethanol, and Toluene at different concentration ranges in ppmv.
 
 The sensors' responses are recorded as resistance measurements forming 16-channel time series, later aggregated into 128-dimensional feature vectors. The dataset is organized in ten batches for better distribution of experiments across time. Data files represent batches, each line representing a measurement coded with class, concentration, and feature values.
-
-## Tags
-
-Chemical sensors, Environmental sensing, Gas concentration, Multivariate data, Pattern recognition, Sensor drift, Time series data
 
 ## References
 

@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, State of Charge Estimation |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2018-06-21 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Panasonic 18650PF Li-ion Battery Data |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Mendeley Data |
-| **Time Series** | Likely |
+| **Dataset** | Panasonic 18650PF Li-ion Battery Data |
+| **Domain** | Energy & Power |
+| **Asset / Process** | Batteries |
+| **Modality** | Time Series |
+| **Task** | Regression; Energy Optimization |
+| **Annotation** | Scalar Target |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Mendeley Data |
+| **Size** | Information not available |
+| **Year** | 2018 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The included tests were performed at the University of Wisconsin-Madison by Dr. 
 A brand new 2.9Ah Panasonic 18650PF cell was tested in an 8 cu.ft. thermal chamber using a 25 amp, 18 volt Digatron Universal Battery Tester channel. The series of tests included HPPC, drive cycles, and impedance spectroscopy, all performed at five different temperatures. The battery was charged after each test at a 1C rate to 4.2V with a 50mA cutoff and a battery temperature of 12°C or greater.
 
 Several publications have utilized this dataset, including IEEE papers on Long Short-Term Memory Networks for accurate State-of-Charge estimation and recurrent neural network methodologies for lithium-ion battery voltage modeling. The dataset aims to provide a standard benchmark for battery State of Charge and modeling research.
-
-## Tags
-
-Battery Testing, Electric Vehicles, Energy Storage, Kalman Filtering, Lithium Ion Battery, Neural Networks, State of Charge Estimation
 
 ## References
 

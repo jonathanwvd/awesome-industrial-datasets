@@ -4,28 +4,23 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Time-Series Forecasting, Anomaly Detection, Task Automation |
-| **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | No |
-| **Missing Values** | Information not available |
-| **Name** | AssetOpsBench |
-| **Number of Features** | Information not available |
-| **Number of Instances** | 140+ Scenarios |
-| **Source** | GitHub |
-| **Time Series** | Yes |
+| **Dataset** | AssetOpsBench |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Time Series |
+| **Task** | Forecasting; Anomaly Detection; Recommendation / Decision Support; Benchmark Suite |
+| **Annotation** | Text / QA Label; Split Metadata |
+| **Source Type** | Simulation |
+| **Access** | Repository; Hugging Face |
+| **Size** | 140+ Scenarios |
+| **Year** | Information not available |
+| **License** | Information not available |
 
 ## Description
 
 AssetOpsBench provides a collection of over 140 scenarios covering IoT data retrieval, failure mode and sensor relation discovery, time series anomaly detection, and work order generation. Each scenario reflects common tasks faced by maintenance engineers and reliability specialists, enabling end-to-end evaluation of AI-driven workflows.
 
 The framework includes four domain-specific agents (IoT, FMSR, TSFM, WO) with dedicated tools and two orchestration frameworks (MetaAgent and AgentHive) to coordinate complex multi-step workflows. AssetOpsBench is delivered in a simulated industrial environment, facilitating reproducible benchmarking of agent performance across diverse tasks.
-
-## Tags
-
-AI agents, Anomaly detection, Asset operations, IoT data, Maintenance engineering, Multi-agent orchestration, Time-series forecasting
 
 ## References
 

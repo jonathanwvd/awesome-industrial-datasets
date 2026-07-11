@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Fault Detection, Fault Classification, Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2015 |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
-| **Name** | Plant Fault Detection |
-| **Number of Features** | Multiple sensor channels per loop; SISO process variable (PV) and manipulated variable (MV) measurements |
-| **Number of Instances** | 212 data files from 70 industrial sites; multiple CSV format variants (raw, selected, sampled) |
-| **Source** | PHM Society / GitHub (robot007/PHM15) |
-| **Time Series** | Yes |
+| **Dataset** | Plant Fault Detection |
+| **Domain** | Chemical & Process; Manufacturing & Production |
+| **Asset / Process** | Chemical Process |
+| **Modality** | Time Series |
+| **Task** | Anomaly Detection; Fault Diagnosis; RUL / Prognostics; Predictive Maintenance |
+| **Annotation** | Sample Label; Class Label |
+| **Source Type** | Real Production / Field |
+| **Access** | Repository; Competition |
+| **Size** | 212 data files from 70 industrial sites; multiple CSV format variants (raw, selected, sampled) |
+| **Year** | 2015 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Plant Fault Detection dataset was released as part of the PHM Society 2015 A
 The dataset contains industrial process data collected from 70 different sites (industrial plants), with a total of 212 data files. The data captures control loop behavior including process variable (PV) and manipulated variable (MV) time series. Multiple CSV format variants are provided: raw (SISO-RAW), selected fragments (SISO-SEL), and constant-sampling-rate versions (SISO-SAMP).
 
 The challenge task involves detecting and classifying faults and abnormal operating conditions in industrial control loops. This is a representative dataset for process industries research in predictive maintenance, control loop performance monitoring, and fault diagnosis.
-
-## Tags
-
-Control Loop, Fault Detection, Industrial Plant, PHM 2015, PHM Society, Predictive Maintenance, Process Variable, Prognostics and Health Management
 
 ## References
 

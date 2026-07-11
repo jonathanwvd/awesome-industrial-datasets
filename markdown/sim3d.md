@@ -1,0 +1,32 @@
+# SiM3D
+
+**Summary:** SiM3D is a multimodal, multi-view benchmark for manufacturing scenes, with 333 instances across eight object types and associated 3D assets.
+
+| Parameter | Value |
+| --- | --- |
+| **Dataset** | SiM3D |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Surface Defects |
+| **Modality** | Image; Multimodal |
+| **Task** | Anomaly Detection; 3D Understanding |
+| **Annotation** | Sample Label; Pose / Keypoint Label; Split Metadata |
+| **Source Type** | Mixed |
+| **Access** | Hugging Face; Gated Approval |
+| **Size** | 333 instances across 8 object types |
+| **Year** | 2025 |
+| **License** | Information not available |
+
+## Description
+
+SiM3D is a benchmark for 3D understanding in manufacturing-oriented settings. It combines multi-view visual data, 3D information, CAD assets, and annotations for industrial objects.
+
+The dataset includes 333 instances across eight object types. It is useful for manufacturing inspection, object recognition, 3D understanding, and anomaly detection methods that rely on multimodal information.
+
+SiM3D is distributed through a gated Hugging Face dataset page.
+
+## References
+
+- [Hugging Face dataset](https://huggingface.co/datasets/arcanoXIII/SiM3D)
+- [Paper (arXiv)](https://arxiv.org/abs/2506.19228)
+
+[⬅️ Back to Index](../README.md)

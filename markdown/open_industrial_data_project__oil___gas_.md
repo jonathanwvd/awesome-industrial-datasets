@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification, Anomaly Detection |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Industrial |
-| **Date Donated** | 2022-07-18 |
-| **Feature Type** | Real, Categorical, Text |
-| **Labeled** | No |
-| **Missing Values** | Likely |
-| **Name** | Open Industrial Data Project (Oil & Gas) |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | Cognite Hub |
-| **Time Series** | Yes |
+| **Dataset** | Open Industrial Data Project (Oil & Gas) |
+| **Domain** | Oil & Gas |
+| **Asset / Process** | Oil Wells / Reservoirs |
+| **Modality** | Time Series |
+| **Task** | Process Monitoring; Condition Monitoring; Predictive Maintenance |
+| **Annotation** | Unlabeled; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Official Portal |
+| **Size** | Information not available |
+| **Year** | 2022 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The Open Industrial Data Project is a collaboration between Aker BP, a major ind
 This dataset is continuously available and free of charge, designed to promote openness and collaboration in industrial data usage. It aims to accelerate innovation in data-heavy areas such as predictive maintenance, condition monitoring, and advanced visualization techniques.
 
 The dataset is especially relevant to the oil and gas industry but is expected to inspire innovation across various industrial sectors by providing real-world industrial data for machine learning applications. Users can access the data through the Cognite Data Fusion platform, with detailed discussions and community resources available on Cognite's Open Industrial Data forum.
-
-## Tags
-
-Aker BP, Cognite Data Fusion, Condition Monitoring, Industrial Data, Oil and Gas, Open Data, Predictive Maintenance, Time-Series Data
 
 ## References
 

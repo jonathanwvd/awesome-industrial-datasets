@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2017-11-02 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Information not available |
-| **Name** | Gearbox Fault Detection |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | NASA DASHlink |
-| **Time Series** | Likely |
+| **Dataset** | Gearbox Fault Detection |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Gears / Gearboxes |
+| **Modality** | Time Series; Vibration |
+| **Task** | Fault Diagnosis; Classification |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Competition |
+| **Size** | Information not available |
+| **Year** | 2017 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ This PHM Data Challenge is focused on fault detection and magnitude estimation f
 The Data Challenge was part of the 2009 Conference of the PHM Society.
 
 The dataset includes data from 560 runs, with supporting readme and video files to aid understanding of the gearbox system and recorded faults.
-
-## Tags
-
-Accelerometer data, Bearing geometry, Fault magnitude estimation, Gearbox fault detection, Machine learning benchmark, PHM Data Challenge 2009, Prognostics and health management
 
 ## References
 

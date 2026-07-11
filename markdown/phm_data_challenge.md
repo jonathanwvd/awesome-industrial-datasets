@@ -4,18 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series, Fault Detection |
-| **Date Donated** | 2015-06-05 |
-| **Feature Type** | Real, Integer |
-| **Labeled** | Yes |
-| **Missing Values** | Yes |
-| **Name** | PHM Data Challenge |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
-| **Source** | PHM Society |
-| **Time Series** | Yes |
+| **Dataset** | PHM Data Challenge |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Other / Cross-Domain |
+| **Modality** | Time Series |
+| **Task** | Fault Diagnosis; RUL / Prognostics; Predictive Maintenance |
+| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Source Type** | Real Production / Field |
+| **Access** | Competition |
+| **Size** | Information not available |
+| **Year** | 2015 |
+| **License** | Information not available |
 
 ## Description
 
@@ -24,10 +23,6 @@ The PHM Data Challenge is a competition centered on fault detection and prognost
 Data sets include training data for approximately thirty plants and test data for about ten plants, with some fault data missing in the test set to simulate real-world prediction challenges. Physical plant model information provided explains feedback loop control systems and measurement zones. The dataset has inconsistencies such as variable sampling intervals and missing data, requiring careful preprocessing and analysis.
 
 Participants submit predictions of faults for scoring based on detection accuracy with penalties for false positives and negatives. The data challenge facilitates collaboration among students, researchers, and industry professionals and aims to advance machine learning methods for prognostics and health management.
-
-## Tags
-
-Fault detection, Industrial plant monitoring, Multivariate data, Open competition, Predictive maintenance, Prognostics, Time-series sensor data
 
 ## References
 
