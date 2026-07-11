@@ -26,7 +26,6 @@ The dataset provides pixel-precise annotations of all anomalies, allowing for ac
 
 - [MVTec Anomaly Detection Dataset Paper (2021)](https://link.springer.com/content/pdf/10.1007/s11263-020-01400-4.pdf)
 - [MVTec AD Dataset Paper (2019 CVPR)](https://ieeexplore.ieee.org/document/8954181)
-- [MVTec AD Dataset PDF](https://www.mvtec.com/fileadmin/Redaktion/mvtec.com/company/research/datasets/mvtec_ad.pdf)
 - [MVTec AD Dataset Homepage](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
 
 [⬅️ Back to Index](../README.md)

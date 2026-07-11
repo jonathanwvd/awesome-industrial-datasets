@@ -27,6 +27,5 @@ The dataset is stored in one file named Steel_industry.csv and offers a detailed
 ## References
 
 - [Steel Dataset on Kaggle](https://www.kaggle.com/datasets/nimapourmoradi/steel-dataset)
-- [Korea Electric Power Corporation (KEPCO) data source](http://pccs.kepco.go.kr)
 
 [⬅️ Back to Index](../README.md)

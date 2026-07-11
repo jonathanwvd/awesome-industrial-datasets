@@ -28,7 +28,6 @@ The dataset captures real operational data reflecting different sensors and bina
 
 - [Versatile Production System Dataset on Kaggle](https://www.kaggle.com/datasets/inIT-OWL/versatileproductionsystem)
 - [SmartFactory OWL](https://smartfactory-owl.de/index.php/en/)
-- [IMPROVE Project](http://www.improve-vfof.eu/)
 - [Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 [⬅️ Back to Index](../README.md)

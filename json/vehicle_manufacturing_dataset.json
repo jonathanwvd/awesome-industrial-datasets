@@ -1,0 +1,21 @@
+{
+  "Name": "Vehicle Manufacturing Dataset",
+  "Summary": "Synthetic vehicle manufacturing dataset on Kaggle covering production metrics such as vehicle type, production time, defect rates, and manufacturing parameters; suitable for exploratory data analysis and manufacturing process optimization.",
+  "Domain": "Transportation & Mobility; Manufacturing & Production",
+  "Asset / Process": "General Manufacturing",
+  "Modality": "Tabular",
+  "Task": "Classification; Regression; Quality Prediction; Process Monitoring",
+  "Annotation": "Sample Label; Class Label; Scalar Target",
+  "Source Type": "Mixed",
+  "Access": "Unavailable / Broken",
+  "Size": "Information not available",
+  "Year": "2023",
+  "License": "Information not available",
+  "Description": "The Vehicle Manufacturing Dataset, published on Kaggle by user arnavsmayan (2023), was described as a synthetic tabular dataset capturing manufacturing process metrics for vehicle production. The original Kaggle dataset page appears to be unavailable, so this record is kept as an unavailable historical entry rather than mapped to a different dataset.",
+  "References": [
+    {
+      "Text": "Kaggle: Vehicle Manufacturing Dataset (arnavsmayan)",
+      "Link": "https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset"
+    }
+  ]
+}

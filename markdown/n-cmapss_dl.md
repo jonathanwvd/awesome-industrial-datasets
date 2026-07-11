@@ -27,7 +27,7 @@ The dataset was used for the PHM 2021 Data Challenge and is the basis for the N-
 ## References
 
 - [GitHub - N-CMAPSS_DL preprocessing code](https://github.com/mohyunho/N-CMAPSS_DL)
-- [NASA N-CMAPSS dataset on NASA Open Data Portal](https://data.nasa.gov/Aerospace/N-CMAPSS-dataset-for-the-PHME-2021-data-challenge/h9y2-p6dz/about_data)
+- [NASA PCoE Data Set Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
 - [PHM 2021 Data Challenge](https://data.phmsociety.org/2021-phm-conference-data-challenge/)
 
 [⬅️ Back to Index](../README.md)

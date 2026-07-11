@@ -11,18 +11,14 @@
 | **Task** | Classification; Regression; Quality Prediction; Process Monitoring |
 | **Annotation** | Sample Label; Class Label; Scalar Target |
 | **Source Type** | Mixed |
-| **Access** | Kaggle; Login Required |
+| **Access** | Unavailable / Broken |
 | **Size** | Information not available |
 | **Year** | 2023 |
 | **License** | Information not available |
 
 ## Description
 
-The Vehicle Manufacturing Dataset, published on Kaggle by user arnavsmayan (2023), is a synthetic tabular dataset capturing manufacturing process metrics for vehicle production. The dataset is designed for exploratory data analysis (EDA), regression, and classification tasks related to automotive manufacturing.
-
-Typical features in this type of dataset include vehicle type or model, production line identifiers, manufacturing time, defect counts or rates, shift information, worker or station IDs, and production yield. The synthetic nature of the data allows for clean, controlled experimentation without the privacy constraints of real factory data.
-
-The dataset has been used by the Kaggle community for EDA notebooks and learning exercises in manufacturing process analysis. Specific column names, number of rows, and task definitions are available on the Kaggle dataset page.
+The Vehicle Manufacturing Dataset, published on Kaggle by user arnavsmayan (2023), was described as a synthetic tabular dataset capturing manufacturing process metrics for vehicle production. The original Kaggle dataset page appears to be unavailable, so this record is kept as an unavailable historical entry rather than mapped to a different dataset.
 
 ## References
 

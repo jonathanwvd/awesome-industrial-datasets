@@ -26,7 +26,7 @@ The challenge task is to estimate the remaining useful life (RUL) for each engin
 
 ## References
 
-- [NASA Open Data Portal](https://data.nasa.gov/Raw-Data/PHM-2008-Challenge/nk8v-ckry/data)
+- [NASA Open Data Portal](https://data.nasa.gov/dataset/phm-2008-challenge)
 - [PHM Society Data Repository](https://data.phmsociety.org/nasa/)
 
 [⬅️ Back to Index](../README.md)

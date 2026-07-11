@@ -26,7 +26,6 @@ The prediction was successful in identifying wear types labeled by experts, and 
 
 ## References
 
-- [IMPROVE Project](http://improve-vfof.eu/)
 - [Self-Organizing Maps for Anomaly Localization and Predictive Maintenance in Cyber-Physical Production Systems. 51st CIRP Conference on Manufacturing Systems (CIRP CMS 2018)](https://authors.elsevier.com/sd/article/S221282711830307X)
 - [Creative Commons BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/)
 - [Kaggle Dataset Page](https://www.kaggle.com/inIT-OWL/production-plant-data-for-condition-monitoring)

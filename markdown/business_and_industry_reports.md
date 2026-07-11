@@ -27,7 +27,7 @@ Values with non-numeric entries, such as 'Less than .05 percent', should be filt
 ## References
 
 - [Kaggle Dataset Page](https://www.kaggle.com/datasets/census/business-and-industry-reports)
-- [United States Census Bureau Original Data](https://www.census.gov/econ/currentdata/datasets/index)
+- [United States Census Bureau data sets](https://www.census.gov/data/datasets.html)
 - [Data Preparation Script on GitHub](https://gist.github.com/SohierDane/2c1b36f653724fbc7d8f26501ef4b88d)
 
 [⬅️ Back to Index](../README.md)

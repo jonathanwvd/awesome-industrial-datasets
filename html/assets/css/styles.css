@@ -90,39 +90,6 @@ h1 {
     color: var(--accent-dark);
 }
 
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-    margin-bottom: 16px;
-}
-
-.metric {
-    min-width: 0;
-    padding: 16px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--surface);
-    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
-}
-
-.metric-label {
-    display: block;
-    margin-bottom: 6px;
-    color: var(--muted);
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-.metric strong {
-    display: block;
-    color: #111827;
-    font-size: 1.65rem;
-    line-height: 1;
-}
-
 .explorer-panel,
 .table-panel {
     border: 1px solid var(--border);
@@ -157,7 +124,8 @@ h1 {
 }
 
 .form-control,
-.form-select {
+.form-select,
+.filter-button {
     min-height: 40px;
     border-color: var(--border-strong);
     border-radius: 8px;
@@ -167,9 +135,65 @@ h1 {
 
 .form-control:focus,
 .form-select:focus,
+.filter-button:focus,
 .form-check-input:focus {
     border-color: var(--accent);
     box-shadow: 0 0 0 0.2rem var(--focus);
+}
+
+.filter-dropdown,
+.filter-button {
+    width: 100%;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background: var(--surface);
+    font-weight: 650;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    border-color: var(--accent);
+    background: #eff6ff;
+    color: var(--accent-dark);
+}
+
+.filter-menu {
+    width: min(320px, 92vw);
+    max-height: 320px;
+    padding: 8px;
+    overflow: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14);
+}
+
+.filter-option {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.875rem;
+    line-height: 1.3;
+    white-space: normal;
+}
+
+.filter-option:hover {
+    background: var(--surface-muted);
+}
+
+.filter-option .form-check-input {
+    flex: 0 0 auto;
+    margin: 1px 0 0;
 }
 
 .toolbar-row {
@@ -483,20 +507,14 @@ h1 {
         width: 100%;
     }
 
-    .stats-grid,
     .filter-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 @media (max-width: 560px) {
-    .stats-grid,
     .filter-grid {
         grid-template-columns: 1fr;
-    }
-
-    .metric {
-        padding: 14px;
     }
 
     .dataset-cell {

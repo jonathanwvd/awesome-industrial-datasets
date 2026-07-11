@@ -25,8 +25,6 @@ The first labeled dataset contains 16220 observations taken every 50ms via an OP
 ## References
 
 - [Kaggle Dataset](https://www.kaggle.com/datasets/inIT-OWL/genesis-demonstrator-data-for-machine-learning)
-- [von Birgelen, Alexander; Niggemann, Oliver: Anomaly Detection and Localization for Cyber-Physical Production Systems with Self-Organizing Maps. Springer Vieweg, Aug 2018.](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3373/single.html)
-- [OPAK Project](https://www.hs-owl.de/init/en/forschung/projekte/b/filteroff/267/single.html)
-- [IMPROVE Project](http://www.improve-vfof.eu/)
+- [von Birgelen, Alexander; Niggemann, Oliver: Anomaly Detection and Localization for Cyber-Physical Production Systems with Self-Organizing Maps. Springer Vieweg, Aug 2018.](https://www.init-owl.de/en/research/publications/detail/anomaly-detection-and-localization-for-cyber-physical-production-systems-with-self-organizing-maps/)
 
 [⬅️ Back to Index](../README.md)

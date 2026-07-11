@@ -18,8 +18,12 @@
       "Link": "https://github.com/EnquanYang2022/3CAD"
     },
     {
-      "Text": "Paper (arXiv)",
-      "Link": "https://arxiv.org/abs/2507.13321"
+      "Text": "Published paper (AAAI)",
+      "Link": "https://ojs.aaai.org/index.php/AAAI/article/view/32993"
+    },
+    {
+      "Text": "Preprint (arXiv)",
+      "Link": "https://arxiv.org/abs/2502.05761"
     }
   ]
 }

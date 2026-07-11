@@ -27,6 +27,7 @@ The dataset is distributed through the project GitHub repository together with p
 ## References
 
 - [GitHub repository](https://github.com/EnquanYang2022/3CAD)
-- [Paper (arXiv)](https://arxiv.org/abs/2507.13321)
+- [Published paper (AAAI)](https://ojs.aaai.org/index.php/AAAI/article/view/32993)
+- [Preprint (arXiv)](https://arxiv.org/abs/2502.05761)
 
 [⬅️ Back to Index](../README.md)

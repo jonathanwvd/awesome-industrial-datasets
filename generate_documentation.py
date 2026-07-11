@@ -3,8 +3,7 @@ import os
 import pandas as pd
 
 # Define folders
-json_folder_path_manual = 'json/manual'
-json_folder_path_llm = 'json/llm'
+json_folder_path = 'json'
 md_folder_path = 'markdown'
 html_folder_path = 'html/pages'
 index_html_file = 'index.html'
@@ -51,17 +50,17 @@ def make_markdown_table(rows, fields):
 
 def load_combined_json_data():
     combined_data = {}
-    for folder in [json_folder_path_llm, json_folder_path_manual]:
-        for filename in os.listdir(folder):
-            if filename.endswith('.json') and filename.lower() not in ['template.json', 'datasets.json']:
-                if filename not in combined_data or folder == json_folder_path_manual:
-                    path = os.path.join(folder, filename)
-                    with open(path, 'r', encoding='utf-8') as f:
-                        try:
-                            data = json.load(f)
-                            combined_data[filename] = data
-                        except Exception as e:
-                            print(f"Error loading {filename}: {e}")
+    for filename in sorted(os.listdir(json_folder_path)):
+        path = os.path.join(json_folder_path, filename)
+        if not os.path.isfile(path):
+            continue
+        if filename.endswith('.json') and filename.lower() not in ['template.json', 'datasets.json']:
+            with open(path, 'r', encoding='utf-8') as f:
+                try:
+                    data = json.load(f)
+                    combined_data[filename] = data
+                except Exception as e:
+                    print(f"Error loading {filename}: {e}")
     return combined_data
 
 def generate_json_index(combined_data):
@@ -89,30 +88,7 @@ def remove_stale_generated_files(combined_data):
                 os.remove(os.path.join(folder, filename))
                 print(f"Removed stale generated file {os.path.join(folder, filename)}")
 
-def load_existing_dataset_urls(csv_file):
-    if not os.path.exists(csv_file):
-        return {}
-
-    try:
-        df = pd.read_csv(csv_file)
-    except Exception:
-        return {}
-
-    name_column = 'Dataset' if 'Dataset' in df.columns else 'Name' if 'Name' in df.columns else None
-    if not name_column or 'URL' not in df.columns:
-        return {}
-
-    return {
-        str(row[name_column]): row['URL']
-        for _, row in df.iterrows()
-        if pd.notna(row.get(name_column)) and pd.notna(row.get('URL'))
-    }
-
-def get_dataset_url(data, existing_urls):
-    dataset_name = get_v2_value(data, 'Dataset')
-    if dataset_name in existing_urls:
-        return existing_urls[dataset_name]
-
+def get_dataset_url(data):
     for reference in data.get('References', []):
         link = reference.get('Link', '')
         if link and link != 'Information not available':
@@ -125,11 +101,10 @@ def get_dataset_url(data, existing_urls):
     return ''
 
 def update_csv_with_data(combined_data, csv_file):
-    existing_urls = load_existing_dataset_urls(csv_file)
     datasets = []
     for _, data in combined_data.items():
         dataset = {field: get_v2_value(data, field) for field in V2_TABLE_FIELDS}
-        dataset['URL'] = get_dataset_url(data, existing_urls)
+        dataset['URL'] = get_dataset_url(data)
         datasets.append(dataset)
 
     df = pd.DataFrame(datasets)

@@ -26,7 +26,7 @@ This dataset is the de facto standard benchmark in data-driven RUL estimation re
 
 ## References
 
-- [NASA Open Data Portal](https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data)
+- [NASA Open Data Portal](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)
 - [Saxena et al. (PHM 2008) - original paper](https://ntrs.nasa.gov/citations/20190001645)
 
 [⬅️ Back to Index](../README.md)

@@ -27,7 +27,7 @@ VisA was introduced at ECCV 2022 (Zou et al., SPot-the-Difference Self-Supervise
 ## References
 
 - [GitHub repository](https://github.com/amazon-science/spot-diff)
-- [AWS Open Data Registry](https://registry.opendata.aws/amazon-visual-anomaly/)
+- [AWS Open Data Registry](https://registry.opendata.aws/visa/)
 - [Paper (arXiv / ECCV 2022)](https://arxiv.org/abs/2207.14315)
 
 [⬅️ Back to Index](../README.md)

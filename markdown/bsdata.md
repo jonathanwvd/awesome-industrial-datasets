@@ -1,6 +1,6 @@
 # BSData
 
-**Summary:** KIT ball screw surface defect dataset with 1,104 segmentation images and 21,835 classification patches focusing on pitting defects; supports defect detection, instance segmentation, and prognostics research under CC BY-SA 4.0.
+**Summary:** KIT ball screw surface defect dataset with 1,104 segmentation images and 21,853 classification patches focusing on pitting defects; supports defect detection, instance segmentation, and prognostics research under CC BY-SA 4.0.
 
 | Parameter | Value |
 | --- | --- |
@@ -12,7 +12,7 @@
 | **Annotation** | Sample Label; Class Label; Instance Mask |
 | **Source Type** | Real Lab / Testbed |
 | **Access** | Repository |
-| **Size** | 1,104 images with instance segmentation annotations; 21,835 image patches for classification |
+| **Size** | 1,104 images with instance segmentation annotations; 21,853 image patches for classification |
 | **Year** | 2021 |
 | **License** | CC BY-SA |
 
@@ -20,13 +20,13 @@
 
 BSData (Ball Screw Dataset) was created at the Karlsruhe Institute of Technology (KIT) for research in surface defect detection, instance segmentation, and prognostics of ball screw drives. Ball screws are precision mechanical components widely used in industrial machinery; pitting defects on their surface are a primary failure mode.
 
-The dataset contains 1,104 images with instance-level segmentation annotations marking individual pitting defects, and 21,835 smaller image patches extracted for classification tasks (defective vs. non-defective). Images were captured under controlled lighting from actual ball screw components with varying degrees of wear and pitting.
+The dataset contains 1,104 images with instance-level segmentation annotations marking individual pitting defects, and 21,853 smaller image patches extracted for classification tasks (defective vs. non-defective). Images were captured under controlled lighting from actual ball screw components with varying degrees of wear and pitting.
 
 The dataset supports three main research tasks: (1) defect classification of image patches, (2) instance segmentation of defect regions in full images, and (3) prognostics to predict remaining useful life based on observed defect patterns. Published under the CC BY-SA 4.0 license, the dataset is hosted on GitHub and is one of the few publicly available datasets specifically for ball screw health monitoring.
 
 ## References
 
 - [BSData GitHub Repository](https://github.com/2Obe/BSData)
-- [BSData Paper (IEEE Access)](https://doi.org/10.1109/ACCESS.2021.3116068)
+- [BSData paper (Data in Brief)](https://doi.org/10.1016/j.dib.2021.107643)
 
 [⬅️ Back to Index](../README.md)

@@ -31,7 +31,7 @@ This dataset is a primary benchmark for bearing RUL estimation, prognostics, and
 
 ## References
 
-- [NASA PCoE Data Repository - Bearing Dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#bearing)
-- [Original Paper: Self-organizing map based on bearing health evaluation (Qiu et al., 2006, JSV)](https://doi.org/10.1016/j.jsv.2005.06.072)
+- [NASA PCoE Data Set Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
+- [IMS Bearings entry on NASA Open Data](https://data.nasa.gov/dataset/ims-bearings)
 
 [⬅️ Back to Index](../README.md)

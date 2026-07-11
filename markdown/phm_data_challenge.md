@@ -27,7 +27,6 @@ Participants submit predictions of faults for scoring based on detection accurac
 ## References
 
 - [PHM Society Data Challenge 2015](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2015/phm-data-challenge-3/)
-- [PHM Data Challenge Forum](http://phmdatachallenge.freeforums.net/board/1/general-board)
 - [PHM Data Challenge Q&A](https://www.dropbox.com/s/bow6ady5t7z7r4u/Q%26A.pdf?dl=0)
 
 [⬅️ Back to Index](../README.md)

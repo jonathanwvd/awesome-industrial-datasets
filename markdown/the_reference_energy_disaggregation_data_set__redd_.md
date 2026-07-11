@@ -11,7 +11,7 @@
 | **Task** | Energy Optimization |
 | **Annotation** | Sample Label |
 | **Source Type** | Real Production / Field |
-| **Access** | Official Portal |
+| **Access** | Unavailable / Broken |
 | **Size** | Information not available |
 | **Year** | 2011 |
 | **License** | Information not available |
@@ -26,7 +26,6 @@ The file and directory structure includes a readme.txt file with general informa
 
 ## References
 
-- [REDD Dataset Homepage](http://redd.csail.mit.edu)
-- [J. Zico Kolter and Matthew J. Johnson, REDD: A public data set for energy disaggregation research, SustKDD workshop on Data Mining Applications in Sustainability, 2011.](Information not available)
+- [REDD paper (SustKDD 2011)](https://zicokolter.com/publications/kolter2011redd.pdf)
 
 [⬅️ Back to Index](../README.md)

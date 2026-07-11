@@ -14,10 +14,6 @@
   "Description": "This dataset contains the machine data of a degrading component recorded over a total duration of 12 months. It was initiated in the European research and innovation project IMPROVE. The dataset consists of 519 files each representing an ~8 second sample recorded at 4 ms resolution resulting in 2048 time-samples per file.\n\nThe data is collected from the Vega shrink-wrapper machine deployed in large production lines in the food and beverage industry by OCME. This machine groups loose bottles or cans into set package sizes, wraps them in plastic film, and heat-shrinks the film to form a package. The cutting blade assembly is crucial for machine availability and cannot be visually inspected during operation due to its enclosure and fast rotation speed. Monitoring blade degradation with this data can help improve machine reliability and reduce unexpected downtime.\n\nThe dataset includes 8 different operational modes and several machine speeds, which may be inferred using time series analysis. The data is intended for anomaly localization and predictive maintenance to estimate the remaining useful life of the component. Data files are named in a format encoding recording date, sample number, and mode. The dataset is public under a Creative Commons BY-SA 3.0 license.",
   "References": [
     {
-      "Text": "IMPROVE Project",
-      "Link": "http://www.improve-vfof.eu/"
-    },
-    {
       "Text": "OCME Vega shrink-wrapper",
       "Link": "http://www.ocme.com/en/our-solutions/secondary-packaging/vega"
     },

@@ -27,8 +27,8 @@ The data files are split into four CSV files covering normal runs without failur
 ## References
 
 - [Kaggle Dataset Page](https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization)
-- [Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3054/single.html)
-- [Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3369/single.html)
-- [A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/2881/single.html)
+- [Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events](https://ieeexplore.ieee.org/document/8247695/)
+- [Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps](https://www.init-owl.de/en/research/publications/detail/enable-learning-of-hybrid-timed-automata-in-absence-of-discrete-events-through-self-organizing-maps/)
+- [A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata](https://www.init-owl.de/en/research/publications/detail/a-novel-anomaly-detection-algorithm-for-hybrid-production-systems-based-on-deep-learning-and-timed-automata/)
 
 [⬅️ Back to Index](../README.md)

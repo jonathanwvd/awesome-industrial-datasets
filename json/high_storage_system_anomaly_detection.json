@@ -15,15 +15,15 @@
   "References": [
     {
       "Text": "von Birgelen, Alexander; Niggemann, Oliver: Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events, ETFA 2017",
-      "Link": "https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3054/single.html"
+      "Link": "https://ieeexplore.ieee.org/document/8247695/"
     },
     {
       "Text": "von Birgelen, Alexander; Niggemann, Oliver: Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps, Springer Vieweg, Aug 2018",
-      "Link": "https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3369/single.html"
+      "Link": "https://www.init-owl.de/en/research/publications/detail/enable-learning-of-hybrid-timed-automata-in-absence-of-discrete-events-through-self-organizing-maps/"
     },
     {
       "Text": "Hranisavljevic, Nemanja; Niggemann, Oliver; Maier, Alexander: A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata, DX Workshop, Denver 2016",
-      "Link": "https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/2881/single.html"
+      "Link": "https://www.init-owl.de/en/research/publications/detail/a-novel-anomaly-detection-algorithm-for-hybrid-production-systems-based-on-deep-learning-and-timed-automata/"
     },
     {
       "Text": "Kaggle Dataset Page",

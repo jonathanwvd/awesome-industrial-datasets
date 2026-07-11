@@ -24,6 +24,6 @@ Please contact Jonathan Litt, jonathan.s.litt@nasa.gov, if you have any question
 
 ## References
 
-- [NASA's Open Data Portal](https://data.nasa.gov/dataset/C-MAPSS-Aircraft-Engine-Simulator-Data/xaut-bemq/about_data)
+- [NASA's Open Data Portal](https://data.nasa.gov/dataset/c-mapss-aircraft-engine-simulator-data)
 
 [⬅️ Back to Index](../README.md)

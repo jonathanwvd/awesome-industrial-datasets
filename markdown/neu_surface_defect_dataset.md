@@ -33,7 +33,7 @@ An object detection version also exists with bounding box annotations (NEU-DET).
 
 ## References
 
-- [NEU Surface Defect Database (Official Page)](http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html)
+- [NEU Surface Defect Database (Official Page)](http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/index.htm)
 - [Original Paper: A noise robust method based on completed LBP for hot-rolled steel strip surface defects (2013)](https://doi.org/10.1016/j.patcog.2013.05.001)
 
 [⬅️ Back to Index](../README.md)

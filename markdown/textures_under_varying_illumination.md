@@ -27,6 +27,6 @@ These databases serve as a resource for research in texture classification and m
 ## References
 
 - [KTH-TIPS Image Database Homepage](https://www.csc.kth.se/cvap/databases/kth-tips/index.html)
-- [CUReT database](http://www1.cs.columbia.edu/CAVE/curet/)
+- [CUReT database](https://www.cs.columbia.edu/CAVE/software/curet/)
 
 [⬅️ Back to Index](../README.md)

@@ -8,11 +8,11 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 
 💼 If you'd like to do more and sponsor this project, or if you're looking for consultancy in **data science, LLMs, or AI agents for industry**, feel free to get in touch — contact details on my [GitHub profile](https://github.com/jonathanwvd).
 
-🤝 If you're interested in contributing, please refer to the [Contribution Guidelines](#contribution-guidelines).
+🤝 If you're interested in contributing, please refer to [Suggest a New Dataset](#suggest-a-new-dataset).
 
 ## Version 2
 
-This repository now uses a Version 2 metadata schema focused on dataset exploration: `Domain`, `Asset / Process`, `Modality`, `Task`, `Annotation`, `Source Type`, `Access`, `Size`, `Year`, and `License`. The Version 1 structure remains available in the older merged pull request [#8](https://github.com/jonathanwvd/awesome-industrial-datasets/pull/8).
+This repository now uses a Version 2 metadata schema focused on dataset exploration: `Domain`, `Asset / Process`, `Modality`, `Task`, `Annotation`, `Source Type`, `Access`, `Size`, `Year`, and `License`. The Version 1 structure remains available at commit [`9277f77`](https://github.com/jonathanwvd/awesome-industrial-datasets/tree/9277f770c44523f808807c2fd6b230cc920743c3).
 
 
 ## 📊 Dataset Statistics
@@ -47,7 +47,7 @@ This repository now uses a Version 2 metadata schema focused on dataset explorat
 | [Bosch Production Line Performance](markdown/bosch_production_line_performance.md) | Environment & Safety; Manufacturing & Production | General Manufacturing | Tabular; Time Series | Classification; Quality Prediction | Sample Label; Class Label | Real Production / Field | Kaggle; Competition; Login Required | Information not available | 2016 | Competition Terms |
 | [Brent Oil Prices](markdown/brent_oil_prices.md) | Oil & Gas; Energy & Power; Business & Economics | Business / Economic Indicators | Time Series | Regression; Forecasting | Scalar Target | Public Records | Kaggle; Login Required | 12799 | 2022 | Information not available |
 | [Bridge Crack Dataset](markdown/bridge_crack_datatset.md) | Infrastructure & Civil; Materials & Metrology; Environment & Safety | Infrastructure Cracks | Image | Defect Detection; Classification; Predictive Maintenance; Condition Monitoring | Sample Label; Class Label | Real Production / Field | Repository | Information not available | Information not available | Information not available |
-| [BSData](markdown/bsdata.md) | Materials & Metrology; Manufacturing & Production | Surface Defects | Image | Defect Detection; Defect Segmentation; Classification | Sample Label; Class Label; Instance Mask | Real Lab / Testbed | Repository | 1,104 images with instance segmentation annotations; 21,835 image patches for classification | 2021 | CC BY-SA |
+| [BSData](markdown/bsdata.md) | Materials & Metrology; Manufacturing & Production | Surface Defects | Image | Defect Detection; Defect Segmentation; Classification | Sample Label; Class Label; Instance Mask | Real Lab / Testbed | Repository | 1,104 images with instance segmentation annotations; 21,853 image patches for classification | 2021 | CC BY-SA |
 | [BTAD](markdown/btad.md) | Materials & Metrology; Manufacturing & Production | Surface Defects | Image | Anomaly Detection; Anomaly Localization; Defect Detection; Defect Segmentation | Sample Label; Pixel Mask | Real Lab / Testbed | Repository | 1799 images across 3 product types (Product1: 400 @ 1600x1600; Product2: 1000 @ 600x600; Product3: 399 @ 800x600) | 2021 | CC BY-SA |
 | [Business and Industry Reports](markdown/business_and_industry_reports.md) | Business & Economics | Business / Economic Indicators | Time Series; Text / Documents | Forecasting; Regression | Scalar Target | Public Records | Kaggle; Repository; Login Required | 10952 unique time series codes approximately | 2017 | Information not available |
 | [C-MAPSS Aircraft Engine Simulator Data](markdown/c-mapss_aircraft_engine_simulator_data.md) | Aerospace & Defense | Turbines / Engines | Time Series | Classification; Regression; RUL / Prognostics; Simulation / Control | Sample Label; Class Label; Scalar Target | Simulation | Official Portal | Information not available | Information not available | Information not available |
@@ -81,7 +81,7 @@ This repository now uses a Version 2 metadata schema focused on dataset explorat
 | [Electricity Load Diagrams 2011-2014](markdown/electricity_load_diagrams_2011-2014.md) | Energy & Power | Power Grid / Plants | Time Series | Forecasting; Energy Optimization | Scalar Target | Real Production / Field | UCI | 370 | 2015 | Information not available |
 | [Energy Efficiency](markdown/energy_efficiency.md) | Buildings & Appliances; Energy & Power | Buildings / Appliances | Tabular | Regression; Energy Optimization; Classification | Sample Label; Class Label; Scalar Target | Simulation | UCI | 768 | 2012 | Information not available |
 | [Eyecandies](markdown/eyecandies.md) | Materials & Metrology; Manufacturing & Production | Surface Defects | Image; RGB-D; Multimodal | Anomaly Detection; Anomaly Localization; Defect Segmentation | Normal-Only Training; Sample Label | Real Lab / Testbed | Repository | 10 object classes; per-class: 1000 normal train, 100 normal val, 25/25 public test, 200/200 private test | 2022 | Information not available |
-| [FailureSensorIQ](markdown/failuresensoriq.md) | General / Cross-Industrial | Other / Cross-Domain | Text / Documents | Fault Diagnosis; Recommendation / Decision Support; Benchmark Suite | Text / QA Label | Derived / Aggregated | Hugging Face | 2667 | 2024 | Information not available |
+| [FailureSensorIQ](markdown/failuresensoriq.md) | General / Cross-Industrial | Other / Cross-Domain | Text / Documents | Fault Diagnosis; Recommendation / Decision Support; Benchmark Suite | Text / QA Label | Derived / Aggregated | Hugging Face | 8,296 questions | 2025 | Apache-2.0 |
 | [FEMTO (PRONOSTIA) Bearing Dataset](markdown/femto_pronostia_bearing_dataset.md) | Manufacturing & Production | Bearings | Time Series; Vibration | Regression; RUL / Prognostics | RUL Label; Scalar Target | Real Lab / Testbed | Repository; Competition | Information not available | 2012 | Information not available |
 | [Gas Sensor Array Drift at Different Concentrations](markdown/gas_sensor_array_drift_at_different_concentrations.md) | Chemical & Process; Environment & Safety | Chemical Process | Time Series | Classification; Regression | Sample Label; Class Label; Scalar Target | Real Lab / Testbed | UCI | 13910 | 2013 | Information not available |
 | [Gas sensor array temperature modulation](markdown/gas_sensor_array_temperature_modulation.md) | Chemical & Process; Electronics & Semiconductor | Chemical Process | Time Series | Classification; Regression | Class Label; Scalar Target | Real Lab / Testbed | UCI | 4095000 | 2019 | Information not available |
@@ -196,7 +196,7 @@ This repository now uses a Version 2 metadata schema focused on dataset explorat
 | [Tennessee Eastman Process Simulation Dataset](markdown/tennessee_eastman_process_simulation_dataset.md) | Chemical & Process; Manufacturing & Production | Chemical Process | Time Series | Anomaly Detection; Fault Diagnosis; Predictive Maintenance; Process Monitoring | Sample Label; Class Label | Simulation | Zenodo / Dataverse | Information not available | Information not available | Information not available |
 | [Textures Classification Dataset](markdown/textures_classification_dataset.md) | Materials & Metrology; Manufacturing & Production | Materials / Chemistry | Image | Defect Detection; Classification | Sample Label; Class Label; Fault Type Label | Real Production / Field | Repository | Multiple texture image samples across defect categories (exact count on GitHub repository) | 2018 | Information not available |
 | [Textures under varying Illumination](markdown/textures_under_varying_illumination.md) | Materials & Metrology | Materials / Chemistry | Image | Classification | Class Label | Real Lab / Testbed | Official Portal | Information not available | 2006 | Information not available |
-| [The Reference Energy Disaggregation Data Set (REDD)](markdown/the_reference_energy_disaggregation_data_set__redd_.md) | Energy & Power; Buildings & Appliances | Buildings / Appliances | Time Series | Energy Optimization | Sample Label | Real Production / Field | Official Portal | Information not available | 2011 | Information not available |
+| [The Reference Energy Disaggregation Data Set (REDD)](markdown/the_reference_energy_disaggregation_data_set__redd_.md) | Energy & Power; Buildings & Appliances | Buildings / Appliances | Time Series | Energy Optimization | Sample Label | Real Production / Field | Unavailable / Broken | Information not available | 2011 | Information not available |
 | [TIG Welding](markdown/tig_welding.md) | Manufacturing & Production | Welding | Image | Classification; Process Monitoring | Sample Label; Class Label | Real Production / Field | Kaggle; Login Required | 33300 (33.3k files) | 2018 | Information not available |
 | [TON_IoT](markdown/ton_iot.md) | Cyber-Physical Security | SCADA / ICS | Time Series; Network Traffic | Intrusion Detection; Anomaly Detection | Sample Label; Fault Type Label | Real Lab / Testbed | Official Portal | Information not available | 2020 | Information not available |
 | [Tool Path Generation](markdown/tool_path_generation.md) | Materials & Metrology; Manufacturing & Production | CNC / Machining; Materials / Chemistry | Tabular | Regression | Scalar Target | Simulation | Mendeley Data | Information not available | 2018 | Information not available |
@@ -208,7 +208,7 @@ This repository now uses a Version 2 metadata schema focused on dataset explorat
 | [U.S. Crude Oil Imports](markdown/u_s__crude_oil_imports.md) | Oil & Gas; Energy & Power; Business & Economics | Business / Economic Indicators | Time Series | Regression; Forecasting | Scalar Target | Public Records | Kaggle; Login Required | Information not available | 2024 | Information not available |
 | [UK-DALE dataset](markdown/uk-dale_dataset.md) | Energy & Power; Buildings & Appliances | Power Grid / Plants; Buildings / Appliances | Time Series | Classification; Regression; Energy Optimization | Sample Label; Class Label; Scalar Target | Real Production / Field | Repository | Information not available | 2017 | CC BY |
 | [Urban Land Cover](markdown/urban_land_cover.md) | Materials & Metrology | Materials / Chemistry | Image; Geospatial / Remote Sensing | Classification; Benchmark Suite | Sample Label; Class Label | Remote Sensing | UCI | 168 | 2014 | Information not available |
-| [Vehicle Manufacturing Dataset](markdown/vehicle_manufacturing_dataset.md) | Transportation & Mobility; Manufacturing & Production | General Manufacturing | Tabular | Classification; Regression; Quality Prediction; Process Monitoring | Sample Label; Class Label; Scalar Target | Mixed | Kaggle; Login Required | Information not available | 2023 | Information not available |
+| [Vehicle Manufacturing Dataset](markdown/vehicle_manufacturing_dataset.md) | Transportation & Mobility; Manufacturing & Production | General Manufacturing | Tabular | Classification; Regression; Quality Prediction; Process Monitoring | Sample Label; Class Label; Scalar Target | Mixed | Unavailable / Broken | Information not available | 2023 | Information not available |
 | [Versatile Production System](markdown/versatile_production_dataset.md) | Manufacturing & Production | General Manufacturing | Time Series | Anomaly Detection; Predictive Maintenance; Condition Monitoring | Sample Label; Class Label | Real Production / Field | Kaggle; Login Required | Information not available | 2018 | Information not available |
 | [VisA](markdown/visa.md) | Electronics & Semiconductor; Manufacturing & Production | PCB / Electronics | Image | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction | Sample Label; Class Label; Pixel Mask | Real Production / Field | Repository | 10821 images (9621 normal; 1200 anomalous) across 12 subsets | 2022 | CC BY |
 | [Water Distribution (WADI) Dataset](markdown/water_distribution__wadi__dataset.md) | Cyber-Physical Security; Water & Utilities; Infrastructure & Civil | Water Treatment / Distribution; SCADA / ICS | Time Series | Cyberattack Detection; Anomaly Detection; Process Monitoring | Time / Event Label; Sample Label; Fault Type Label | Real Lab / Testbed | Official Portal | Information not available | 2019 | Information not available |
@@ -228,32 +228,15 @@ This repository was partly inspired by and developed using ideas from the follow
 
 Their work provided useful reference points during the development of this project.
 
-## Contribution Guidelines
+## Suggest a New Dataset
 
-Thank you for considering contributing to our repository.
+Thank you for helping improve this repository. To suggest a dataset, please open an issue under the "Enhancement" label in the Issues tab.
 
-### How You Can Contribute
-You can contribute in several ways:
-- **Suggest a New Dataset**: Propose a new dataset by creating an issue under the "Enhancement" label in the Issues tab.
-- **Add a Dataset**: Create a JSON file describing a dataset and submit a pull request to add it to the repository.
-- **Suggest Changes**: You can suggest improvements through the Issues tab or directly edit the JSON files and submit your changes via a pull request.
+Before suggesting a dataset, please check that it is not already included in the catalog. In the issue, include:
 
-### Adding a Dataset
-Before adding a new dataset, please ensure that it is unique and not already included in the repository.
+- Dataset name.
+- Official dataset page, repository, paper, or download link.
+- Short description of the industrial domain and use case.
+- Any known license, access restrictions, size, year, and annotation details.
 
-To add a dataset:
-1. Create a JSON file that accurately describes the dataset, following the existing JSON structure and the controlled values in [`DATASET_TAXONOMY.md`](DATASET_TAXONOMY.md).
-2. Place this JSON file in the `json/manual` folder.
-
-#### Updating Documentation
-To update the documentation (Markdown and HTML files) and refresh the README:
-1. Run the `generate_documentation.py` script located in the root of the repository. This script will:
-   - Generate Markdown files in the `markdown` folder.
-   - Generate HTML files in the `html` folder.
-   - Update the `README.md` file and `datasets.csv` with the latest Version 2 datasets table.
-
-### Making a Pull Request
-Please adhere to these guidelines when submitting a pull request:
-- **Check for Duplicates**: Ensure your contribution is unique and not already included.
-- **Submit Separate Pull Requests**: Submit individual pull requests for each suggestion or dataset.
-- **Follow the format**: Use our JSON template for datasets and maintain readability and structure in documentation.
+Dataset additions are reviewed and incorporated into the repository metadata during catalog updates.

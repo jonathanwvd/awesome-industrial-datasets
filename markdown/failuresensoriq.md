@@ -12,9 +12,9 @@
 | **Annotation** | Text / QA Label |
 | **Source Type** | Derived / Aggregated |
 | **Access** | Hugging Face |
-| **Size** | 2667 |
-| **Year** | 2024 |
-| **License** | Information not available |
+| **Size** | 8,296 questions |
+| **Year** | 2025 |
+| **License** | Apache-2.0 |
 
 ## Description
 
@@ -23,6 +23,6 @@ The FailureSensorIQ dataset covers 10 industrial assets, including electric moto
 ## References
 
 - [GitHub Repository](https://github.com/IBM/FailureSensorIQ)
-- [Hugging Face Dataset](https://huggingface.co/datasets/cc4718/FailureSensorIQ)
+- [Hugging Face Dataset](https://huggingface.co/datasets/ibm-research/FailureSensorIQ)
 
 [⬅️ Back to Index](../README.md)

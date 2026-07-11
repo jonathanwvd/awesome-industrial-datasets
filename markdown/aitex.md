@@ -26,7 +26,7 @@ Defect-free images are coded as nnnn_000_ff.png where the defect code is replace
 
 ## References
 
-- [AITEX Fabric Image Database Publication](https://content.sciendo.com/view/journals/aut/ahead-of-print/article-10.2478-aut-2019-0035.xml)
+- [AITEX Fabric Image Database publication (RiuNet)](https://riunet.upv.es/bitstreams/52d318c8-921f-4172-ad2f-889effa7dd15/download)
 - [AITEX Website - AFID](https://www.aitex.es/afid/)
 
 [⬅️ Back to Index](../README.md)

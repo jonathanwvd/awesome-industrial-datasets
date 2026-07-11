@@ -26,9 +26,9 @@ These files can be used to evaluate energy optimization processes and anomaly de
 
 ## References
 
-- [von Birgelen, Alexander; Niggemann, Oliver: Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events, ETFA 2017](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3054/single.html)
-- [von Birgelen, Alexander; Niggemann, Oliver: Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps, Springer Vieweg, Aug 2018](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3369/single.html)
-- [Hranisavljevic, Nemanja; Niggemann, Oliver; Maier, Alexander: A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata, DX Workshop, Denver 2016](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/2881/single.html)
+- [von Birgelen, Alexander; Niggemann, Oliver: Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events, ETFA 2017](https://ieeexplore.ieee.org/document/8247695/)
+- [von Birgelen, Alexander; Niggemann, Oliver: Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps, Springer Vieweg, Aug 2018](https://www.init-owl.de/en/research/publications/detail/enable-learning-of-hybrid-timed-automata-in-absence-of-discrete-events-through-self-organizing-maps/)
+- [Hranisavljevic, Nemanja; Niggemann, Oliver; Maier, Alexander: A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata, DX Workshop, Denver 2016](https://www.init-owl.de/en/research/publications/detail/a-novel-anomaly-detection-algorithm-for-hybrid-production-systems-based-on-deep-learning-and-timed-automata/)
 - [Kaggle Dataset Page](https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization)
 
 [⬅️ Back to Index](../README.md)

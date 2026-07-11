@@ -26,7 +26,6 @@ The dataset includes 8 different operational modes and several machine speeds, w
 
 ## References
 
-- [IMPROVE Project](http://www.improve-vfof.eu/)
 - [OCME Vega shrink-wrapper](http://www.ocme.com/en/our-solutions/secondary-packaging/vega)
 - [Dataset on Kaggle](https://www.kaggle.com/inIT-OWL/one-year-industrial-component-degradation)
 - [von Birgelen, Alexander et al.: Self-Organizing Maps for Anomaly Localization and Predictive Maintenance in Cyber-Physical Production Systems. 51st CIRP Conference on Manufacturing Systems (CIRP CMS 2018)](https://authors.elsevier.com/sd/article/S221282711830307X)
