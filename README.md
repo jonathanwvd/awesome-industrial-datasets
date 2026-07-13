@@ -1,6 +1,6 @@
 # Awesome Industrial Datasets
 
-**🔗 Check the [HTML version](https://jonathanwvd.github.io/awesome-industrial-datasets/) for better navigation.**
+**🔗 Check the [HTML version](https://www.indatlas.com/datasets/) for better navigation.**
 
 Welcome to the Awesome Industrial Datasets repository! This project aims to simplify the access to high-quality industrial datasets across various sectors such as chemical, mechanical, oil and gas, and more. These datasets are invaluable for researchers, engineers, and data scientists working on machine learning models and other analytical tasks that require real-world industrial data.
 
