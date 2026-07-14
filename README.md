@@ -6,11 +6,6 @@ Welcome to the Awesome Industrial Datasets repository! This project aims to simp
 
 If you find this repository useful, please consider giving it a ⭐ to show your support!
 
-## Version 2
-
-This repository now uses a Version 2 metadata schema focused on dataset exploration: `Domain`, `Asset / Process`, `Modality`, `Task`, `Annotation`, `Source Type`, `Access`, `Size`, `Year`, and `License`. The Version 1 structure remains available at commit [`9277f77`](https://github.com/jonathanwvd/awesome-industrial-datasets/tree/9277f770c44523f808807c2fd6b230cc920743c3).
-
-
 ## 📊 Dataset Statistics
 
 <!-- STATS_START -->
