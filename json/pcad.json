@@ -1,0 +1,25 @@
+{
+  "Name": "PCAD",
+  "Summary": "Real-world visual anomaly detection dataset of five industrial assembly groups, with multi-view RGB images, 6D poses, defect masks, CAD models, and synthetic renderings.",
+  "Domain": "Manufacturing & Production",
+  "Asset / Process": "General Manufacturing",
+  "Modality": "Image",
+  "Task": "Anomaly Detection; Anomaly Localization; Pose Estimation",
+  "Annotation": "Sample Label; Pixel Mask; Pose / Keypoint Label",
+  "Source Type": "Mixed",
+  "Access": "Repository; Direct Download",
+  "Size": "1,440 defect-free and 4,744 defective real image samples across 5 assembly groups",
+  "Year": "2025",
+  "License": "Information not available",
+  "Description": "PCAD is a dataset for visual anomaly detection in industrial assembly inspection. It was acquired with a hardware setup designed to capture images of assembly groups from multiple viewpoints in a systematic and reproducible way, together with the 6D pose of each captured sample. It covers five assembly groups of varying complexity and two types of defects: missing components and interchanged components.\n\nThe final dataset contains 1,440 samples of defect-free products and 4,744 samples of defective products, cropped to 2138 x 2138 pixels. Binary masks that locate each defect are generated from the 3D models. The CAD models and synthetic renderings with matching poses are provided for each product, and a smaller additional set of 984 defective samples was captured with varied lighting.\n\nThe dataset was introduced in the paper \"PCAD: A Real-World Dataset for 6D Pose Industrial Anomaly Detection\" by Maack, Thun, Liang, Tercan and Meisen, published in the WACV 2025 Workshops. The repository contains the dataset generation pipeline and links to a cloud folder with the raw data, the final dataset, and the lighting-variation and synthetic versions. The repository does not state a license.",
+  "References": [
+    {
+      "Text": "PCAD GitHub repository",
+      "Link": "https://github.com/tmdt-buw/pcad-dataset"
+    },
+    {
+      "Text": "Paper (WACV 2025 Workshops)",
+      "Link": "https://openaccess.thecvf.com/content/WACV2025W/ASTAD/html/Maack_PCAD_A_Real-World_Dataset_for_6D_Pose_Industrial_Anomaly_Detection_WACVW_2025_paper.html"
+    }
+  ]
+}
