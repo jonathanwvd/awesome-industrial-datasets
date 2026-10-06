@@ -20,6 +20,8 @@ The following are out of scope:
 
 - product catalogs, price lists, or retail and marketplace listings;
 - pages or corpora generated mainly for search engines or marketing;
+- directories or product pages that only point to data hosted elsewhere
+  (suggest the original source instead);
 - datasets without a verifiable source or access path.
 
 Tools that help people use datasets already on the list (loaders, converters,
