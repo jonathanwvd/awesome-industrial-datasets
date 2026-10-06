@@ -28,5 +28,6 @@ The dataset was introduced in the paper "PCAD: A Real-World Dataset for 6D Pose 
 
 - [PCAD GitHub repository](https://github.com/tmdt-buw/pcad-dataset)
 - [Paper (WACV 2025 Workshops)](https://openaccess.thecvf.com/content/WACV2025W/ASTAD/html/Maack_PCAD_A_Real-World_Dataset_for_6D_Pose_Industrial_Anomaly_Detection_WACVW_2025_paper.html)
+- [Data folder (Google Drive)](https://drive.google.com/drive/folders/13ryvR4XNhJHqDAsKGM_QEkrHOTWrj_7f?usp=sharing)
 
 [⬅️ Back to Index](../README.md)
