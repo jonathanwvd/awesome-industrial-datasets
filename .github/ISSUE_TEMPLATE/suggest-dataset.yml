@@ -1,0 +1,46 @@
+name: Suggest a dataset
+description: Propose an industrial dataset for the list.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check that the dataset is not already listed and that it fits the scope in [CONTRIBUTING.md](https://github.com/jonathanwvd/awesome-industrial-datasets/blob/master/CONTRIBUTING.md).
+  - type: input
+    id: name
+    attributes:
+      label: Dataset name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official page
+      description: Dataset page, repository, archive record, or DOI.
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Industrial domain and use case
+      description: Which assets or processes the data comes from and what it can be used for.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Access, license, size, year, and annotation
+      description: Whatever is stated by the source.
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or citation
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this dataset?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true

@@ -26,7 +26,8 @@ The range of decay of compressor and turbine has been sampled with an uniform gr
 
 ## References
 
-- [Coraddu et al. (2014). Condition Based Maintenance of Naval Propulsion Plants Dataset. UCI Machine Learning Repository. DOI:10.24432/C5K31K.](https://doi.org/10.24432/C5K31K)
-- [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants)
+- [Coraddu et al. (2014). Condition Based Maintenance of Naval Propulsion Plants. UCI Machine Learning Repository. DOI: 10.24432/C5K31K](https://doi.org/10.24432/C5K31K)
+- [UCI Machine Learning Repository dataset page](https://archive.ics.uci.edu/dataset/316/condition+based+maintenance+of+naval+propulsion+plants)
+- [Kaggle mirror](https://www.kaggle.com/datasets/elikplim/maintenance-of-naval-propulsion-plants-data-set)
 
 [⬅️ Back to Index](../README.md)
