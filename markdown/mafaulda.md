@@ -1,0 +1,32 @@
+# MaFaulDa Machinery Fault Database
+
+**Summary:** Machinery fault database with 1,951 multivariate time series from a SpectraQuest fault simulator, covering normal operation, imbalance, misalignment, and bearing faults.
+
+| Parameter | Value |
+| --- | --- |
+| **Dataset** | MaFaulDa Machinery Fault Database |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Industrial Machines; Bearings |
+| **Modality** | Time Series; Vibration; Audio |
+| **Task** | Fault Diagnosis; Condition Monitoring; Classification |
+| **Annotation** | Fault Type Label |
+| **Source Type** | Real Lab / Testbed |
+| **Access** | Official Portal; Direct Download |
+| **Size** | 1,951 sequences, 13 GB |
+| **Year** | Information not available |
+| **License** | Information not available |
+
+## Description
+
+MaFaulDa is a machinery fault database from the Signals, Multimedia, and Telecommunications Laboratory at the Federal University of Rio de Janeiro (COPPE/Poli/UFRJ). It contains 1,951 multivariate time series acquired on a SpectraQuest Machinery Fault Simulator (Alignment/Balance Vibration Trainer).
+
+The sequences cover normal operation (49), imbalance (333), horizontal misalignment (197), vertical misalignment (301), and bearing faults with the defective bearing in the underhang position (558) and in the overhang position (513). Faults were recorded at different severities, such as imbalance loads from 6 g to 35 g and shaft shifts of up to 2 mm, and at rotation speeds between about 700 and 3,600 rpm.
+
+Each sequence was recorded for 5 seconds at 50 kHz, giving 250,000 samples per channel. The eight channels are a tachometer signal, three accelerometer axes at the underhang bearing, three accelerometer axes at the overhang bearing, and a microphone. The data can be downloaded from the project page as a single package or separately by fault type. The page does not state a license.
+
+## References
+
+- [MaFaulDa project page](https://www02.smt.ufrj.br/~offshore/mfs/)
+- [Database description and downloads](https://www02.smt.ufrj.br/~offshore/mfs/page_01.html)
+
+[⬅️ Back to Index](../README.md)
