@@ -20,6 +20,10 @@
     {
       "Text": "IMS Bearings entry on NASA Open Data",
       "Link": "https://data.nasa.gov/dataset/ims-bearings"
+    },
+    {
+      "Text": "Kaggle mirror",
+      "Link": "https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset"
     }
   ]
 }

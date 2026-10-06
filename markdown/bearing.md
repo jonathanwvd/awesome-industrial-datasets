@@ -33,5 +33,6 @@ This dataset is a primary benchmark for bearing RUL estimation, prognostics, and
 
 - [NASA PCoE Data Set Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
 - [IMS Bearings entry on NASA Open Data](https://data.nasa.gov/dataset/ims-bearings)
+- [Kaggle mirror](https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset)
 
 [⬅️ Back to Index](../README.md)

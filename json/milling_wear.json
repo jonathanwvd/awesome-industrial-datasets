@@ -24,6 +24,10 @@
     {
       "Text": "Agogino & Goebel (2007) - Original citation",
       "Link": "https://data.phmsociety.org/nasa/"
+    },
+    {
+      "Text": "Kaggle mirror (CSV format)",
+      "Link": "https://www.kaggle.com/datasets/vinayak123tyagi/milling-data-set-prognostic-data"
     }
   ]
 }

@@ -29,5 +29,6 @@ The primary task is to predict milling insert flank wear (VB) from the sensor si
 - [NASA Open Data Portal - Milling Wear](https://data.nasa.gov/dataset/milling-wear)
 - [NASA PCoE Data Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
 - [Agogino & Goebel (2007) - Original citation](https://data.phmsociety.org/nasa/)
+- [Kaggle mirror (CSV format)](https://www.kaggle.com/datasets/vinayak123tyagi/milling-data-set-prognostic-data)
 
 [⬅️ Back to Index](../README.md)

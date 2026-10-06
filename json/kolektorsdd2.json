@@ -1,0 +1,25 @@
+{
+  "Name": "KolektorSDD2",
+  "Summary": "Surface-defect image dataset from Kolektor Group with 3,335 images of production items, 356 of them with visible defects, and an official train-test split.",
+  "Domain": "Manufacturing & Production",
+  "Asset / Process": "Surface Defects",
+  "Modality": "Image",
+  "Task": "Defect Detection; Classification",
+  "Annotation": "Sample Label; Split Metadata",
+  "Source Type": "Real Production / Field",
+  "Access": "Official Portal",
+  "Size": "3,335 images (356 defective, 2,979 defect-free), about 230 x 630 px",
+  "Year": "2021",
+  "License": "CC BY-NC-SA",
+  "Description": "KolektorSDD2 is a surface-defect detection dataset built from images of production items provided and annotated by Kolektor Group d.o.o. The images were captured in a controlled industrial environment and show several types of defects, including scratches, minor spots, and surface imperfections.\n\nThe dataset contains 356 images with visible defects and 2,979 images without defects, each about 230 x 630 pixels. It is divided into a training set of 246 positive and 2,085 negative images and a test set of 110 positive and 894 negative images. It was introduced with the paper \"Mixed supervision for surface-defect detection: from weakly to fully supervised learning\" by Božič, Tabernik and Skočaj, published in Computers in Industry in 2021.\n\nThe dataset is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license; commercial use requires contacting the authors. It is the successor to the original KolektorSDD dataset.",
+  "References": [
+    {
+      "Text": "ViCoS Lab KolektorSDD2 page",
+      "Link": "https://www.vicos.si/resources/kolektorsdd2/"
+    },
+    {
+      "Text": "Creative Commons License",
+      "Link": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ]
+}
