@@ -9,7 +9,7 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 ## 📊 Dataset Statistics
 
 <!-- STATS_START -->
-**Total Datasets:** 189
+**Total Datasets:** 190
 <!-- STATS_END -->
 
 ## Datasets Table
@@ -61,6 +61,7 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 | [CXR-AD](markdown/cxr-ad.md) | Manufacturing & Production | Surface Defects | X-ray / CT; Image | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction | Normal-Only Training; Sample Label; Pixel Mask | Real Production / Field | Official Portal | 653 normal and 561 anomalous X-ray images across 5 categories | 2025 | Information not available |
 | [DAMADICS Actuator Benchmark](markdown/damadics_actuator_benchmark.md) | Chemical & Process; Manufacturing & Production | Valves / Actuators; Chemical Process | Time Series | Classification; Fault Diagnosis; Process Monitoring | Sample Label; Class Label | Real Production / Field | Direct Download | Daily matrices of 86400 rows x 33 columns | 2001 | Information not available |
 | [Data-driven prediction of battery cycle life before capacity degradation](markdown/data-driven_prediction_of_battery_cycle_life_before_capacity_degradation.md) | Energy & Power | Batteries | Time Series | Regression; RUL / Prognostics | RUL Label; Scalar Target | Real Lab / Testbed | Repository | 124 | 2019 | Information not available |
+| [DataMatrix Benchmark Synthetic Frames](markdown/datamatrix_benchmark_synthetic_frames.md) | Manufacturing & Production; Logistics & Retail | Retail / Logistics Items | Image | Benchmark Suite | Text / QA Label | Synthetic | Repository; Direct Download | 1,368 images; 59 MB | 2026 | CC0 |
 | [Deep PCB](markdown/deep_pcb.md) | Electronics & Semiconductor; Manufacturing & Production | PCB / Electronics | Image | Defect Detection; Anomaly Localization; Classification | Sample Label; Class Label | Real Production / Field | Repository | Information not available | Information not available | Information not available |
 | [Defective Solar Cells Dataset](markdown/defective_solar_cells_dataset.md) | Energy & Power; Manufacturing & Production | Solar / PV | Image | Anomaly Detection; Defect Detection; Quality Prediction; Energy Optimization | Sample Label; Class Label | Real Production / Field | Repository | Information not available | Information not available | Information not available |
 | [Degradation Measurement of Robot Arm Position Accuracy](markdown/degradation_measurement_of_robot_arm_position_accuracy.md) | Energy & Power; Robotics & Automation; Manufacturing & Production | Robotic Manipulation | Time Series | Regression; RUL / Prognostics; Condition Monitoring | Fault Type Label; Scalar Target | Real Lab / Testbed | Official Portal | Information not available | 2017 | Information not available |
