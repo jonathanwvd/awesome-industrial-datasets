@@ -1,0 +1,33 @@
+# MSPS
+
+**Summary:** 1,500 production-line electroluminescence images of monocrystalline silicon PV cells with expert pixel masks of defects such as busbar breaks, black spots and cracks.
+
+| Parameter | Value |
+| --- | --- |
+| **Dataset** | MSPS |
+| **Domain** | Energy & Power |
+| **Asset / Process** | Solar / PV |
+| **Modality** | Image |
+| **Task** | Defect Segmentation |
+| **Annotation** | Pixel Mask |
+| **Source Type** | Real Production / Field |
+| **Access** | Zenodo / Dataverse |
+| **Size** | 1,500 EL images |
+| **Year** | 2026 |
+| **License** | CC BY |
+
+## Description
+
+MSPS (Monocrystalline Silicon Photovoltaic Cell Defect Segmentation Dataset) pairs electroluminescence (EL) images of monocrystalline silicon photovoltaic cells with pixel-level defect masks. It was released on Zenodo in 2026 by Shenshen Zhao, Yumeng Hao, Chuhan Wang and Qidong Li. The images come from an EL inspection process set up on site together with a PV-cell manufacturer, in which an industrial EL camera captures full cell strings that are cut into two-cell crops.
+
+The 1,500 crops measure 640 × 590 pixels and show defects such as busbar breaks, black spots and cracks. Defects are small and sparse, with a mean footprint of 128 square pixels and about 0.05% of all pixels. Two PV experts annotated each image independently, and a third expert reviewed the cases where they disagreed.
+
+The task is binary semantic segmentation, with an official split of 1,000 training and 500 test images. The accompanying manuscript, submitted to Applied Energy, reports a mean IoU of 89.30% for its DACN method on the test set. The data is released under CC BY 4.0, with mirrors on Baidu Netdisk and Google Drive.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.21549573)
+- [Zenodo record](https://zenodo.org/records/21549573)
+- [GitHub repository](https://github.com/wch313/MSPS-Dataset)
+
+[⬅️ Back to Index](../README.md)
