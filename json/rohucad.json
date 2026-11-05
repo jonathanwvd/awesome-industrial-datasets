@@ -1,0 +1,24 @@
+{
+  "Name": "RoHuCAD",
+  "Summary": "ROS recordings of a human-robot assembly workshop where a cobot and a mobile robot assist three operators, with time-stamped anomaly annotations.",
+  "Domain": "Robotics & Automation",
+  "Asset / Process": "Robotic Manipulation",
+  "Modality": "RGB-D; Time Series",
+  "Task": "Classification",
+  "Annotation": "Time / Event Label",
+  "Access": "Zenodo / Dataverse",
+  "Size": "two 8-minute recordings",
+  "Year": "2024",
+  "License": "CC BY",
+  "Description": "RoHuCAD (Robots and Humans Collaborative Anomaly Detection) captures a robotic workshop where people and robots share assembly work. A collaborative manipulator (cobot) and an autonomous mobile robot (AMR) support three human operators who put together electronic devices. The record was published on Zenodo in 2024 by researchers of the Łukasiewicz Research Network - Industrial Research Institute for Automation and Measurements and of ITTI, with funding from the Horizon Europe project ULTIMATE.\n\nThere are two recordings of eight minutes each, take1 and take2, which mostly follow the same scenario with slightly different anomalies. They are stored as compressed ROS Noetic rosbags with transforms, joint states and color and depth image streams from workshop cameras. An image of the workshop layout is included.\n\nEach take comes with a CSV file of annotated anomalies that gives an event ID, start and end time, event type, person ID and camera ID. The dataset is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.14142968"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/14142968"
+    }
+  ]
+}

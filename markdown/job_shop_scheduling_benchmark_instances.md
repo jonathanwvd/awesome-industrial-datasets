@@ -1,0 +1,31 @@
+# Job Shop Scheduling Benchmark Instances
+
+**Summary:** Two OR-Library files for job shop scheduling, one with 82 instances cited in the literature and one with code that generates Taillard's instances.
+
+| Parameter | Value |
+| --- | --- |
+| **Dataset** | Job Shop Scheduling Benchmark Instances |
+| **Domain** | Manufacturing & Production |
+| **Asset / Process** | Information not available |
+| **Modality** | Information not available |
+| **Task** | Information not available |
+| **Annotation** | Information not available |
+| **Source Type** | Information not available |
+| **Access** | Direct Download |
+| **Size** | 82 test instances and generator code |
+| **Year** | Information not available |
+| **License** | Information not available |
+
+## Description
+
+OR-Library gathers test data sets for many operations research problems, and its job shop scheduling section currently offers two data files. Both files can be downloaded from the library's file area, and a full list of the other OR-Library data sets is published alongside.
+
+The first file, jobshop1, holds 82 test instances that are commonly cited in the literature; the file itself documents their format, and it is about 128 KB. The second file, jobshop2, is about 17 KB and holds Pascal and C code that generates the job shop instances E. Taillard set out in "Benchmarks for basic scheduling problems", European Journal of Operational Research 64 (1993), 278-285.
+
+Every flow shop instance in OR-Library can also be used as a job shop test instance, and the section points to other sources of test problems.
+
+## References
+
+- [Official page](https://people.brunel.ac.uk/~mastjjb/jeb/orlib/jobshopinfo.html)
+
+[⬅️ Back to Index](../README.md)
