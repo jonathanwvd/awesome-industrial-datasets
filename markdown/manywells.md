@@ -1,20 +1,17 @@
 # ManyWells
 
-**Summary:** Simulator and generated datasets of steady-state multiphase flow in vertical oil and gas wells, built on a drift-flux model by Solution Seeker AS.
+Simulator and generated datasets of steady-state multiphase flow in vertical oil and gas wells, built on a drift-flux model by Solution Seeker AS.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Oil and gas |
-| **Asset / Process** | Wells, pipelines and reservoirs |
-| **Modality** | Tabular |
-| **Task** | Regression; Classification; Simulation and control |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Hugging Face |
-| **Size** | Three datasets of one million simulated data points each |
-| **Year** | 2026 |
-| **License** | CC BY-NC |
-| **Publisher** | Solution Seeker AS |
+- **Domain:** Oil and gas
+- **Asset / Process:** Wells, pipelines and reservoirs
+- **Modality:** Tabular
+- **Task:** Regression; Classification; Simulation and control
+- **Source Type:** Simulation
+- **Access:** Hugging Face
+- **Size:** Three datasets of one million simulated data points each
+- **Year:** 2026
+- **License:** CC BY-NC
+- **Publisher:** Solution Seeker AS
 
 ## Description
 

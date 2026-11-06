@@ -1,20 +1,18 @@
 # Genesis Demonstrator Data for Machine Learning
 
-**Summary:** Signals from a portable pick-and-place demonstrator that sorts wood and metal, with state and simulated-anomaly labels plus unlabelled runs with induced faults.
+Signals from a portable pick-and-place demonstrator that sorts wood and metal, with state and simulated-anomaly labels plus unlabelled runs with induced faults.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Robots and manipulators |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis; Anomaly detection; Classification |
-| **Annotation** | Class label; Event and time label; Unlabeled |
-| **Source Type** | Lab or testbed |
-| **Access** | Kaggle |
-| **Size** | 16,220 observations per labelled file |
-| **Year** | 2018 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Anomaly detection; Classification
+- **Annotation:** Class label; Event and time label; Unlabeled
+- **Source Type:** Lab or testbed
+- **Access:** Kaggle
+- **Size:** 16,220 observations per labelled file
+- **Year:** 2018
+- **License:** CC BY-NC-SA
+- **Publisher:** inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences
 
 ## Description
 

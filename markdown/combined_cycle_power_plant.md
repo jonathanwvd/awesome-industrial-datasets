@@ -1,19 +1,17 @@
 # Combined Cycle Power Plant
 
-**Summary:** Hourly ambient readings and net electrical output from a combined cycle power plant at full load, 9,568 data points recorded from 2006 to 2011.
+Hourly ambient readings and net electrical output from a combined cycle power plant at full load, 9,568 data points recorded from 2006 to 2011.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants; Turbines and engines |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 9,568 data points |
-| **Year** | 2014 |
-| **License** | CC BY |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants; Turbines and engines
+- **Modality:** Tabular
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 9,568 data points
+- **Year:** 2014
+- **License:** CC BY
 
 ## Description
 

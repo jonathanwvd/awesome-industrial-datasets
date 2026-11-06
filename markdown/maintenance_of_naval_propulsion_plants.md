@@ -1,19 +1,17 @@
 # Condition Based Maintenance of Naval Propulsion Plants
 
-**Summary:** 11,934 steady-state measurement vectors from a simulated naval gas turbine plant, with compressor and turbine decay coefficients as regression targets.
+11,934 steady-state measurement vectors from a simulated naval gas turbine plant, with compressor and turbine decay coefficients as regression targets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Transportation and mobility |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Tabular |
-| **Task** | Regression; Condition monitoring |
-| **Annotation** | Scalar target |
-| **Source Type** | Simulation |
-| **Access** | UCI repository |
-| **Size** | 11,934 instances |
-| **Year** | 2014 |
-| **License** | CC BY |
+- **Domain:** Transportation and mobility
+- **Asset / Process:** Turbines and engines
+- **Modality:** Tabular
+- **Task:** Regression; Condition monitoring
+- **Annotation:** Scalar target
+- **Source Type:** Simulation
+- **Access:** UCI repository
+- **Size:** 11,934 instances
+- **Year:** 2014
+- **License:** CC BY
 
 ## Description
 

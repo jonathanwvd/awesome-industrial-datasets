@@ -1,20 +1,15 @@
 # MVTec AD
 
-**Summary:** Industrial inspection dataset for benchmarking anomaly detection, with over 5,000 high-resolution images in fifteen object and texture categories.
+Industrial inspection dataset for benchmarking anomaly detection, with over 5,000 high-resolution images in fifteen object and texture categories.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Anomaly detection |
-| **Annotation** | Normal-only training; Pixel mask |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | 5,000+ images |
-| **Year** | — |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Anomaly detection
+- **Annotation:** Normal-only training; Pixel mask
+- **Size:** 5,000+ images
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

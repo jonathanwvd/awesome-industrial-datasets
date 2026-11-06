@@ -1,19 +1,17 @@
 # Gas Turbine CO and NOx Emission Data Set
 
-**Summary:** Hourly sensor aggregates from a gas turbine in north-western Turkey, 2011 to 2015, for studying CO and NOx flue gas emissions and predicting turbine energy yield.
+Hourly sensor aggregates from a gas turbine in north-western Turkey, 2011 to 2015, for studying CO and NOx flue gas emissions and predicting turbine energy yield.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 36,733 hourly instances |
-| **Year** | 2019 |
-| **License** | CC BY |
+- **Domain:** Energy and power
+- **Asset / Process:** Turbines and engines
+- **Modality:** Tabular
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 36,733 hourly instances
+- **Year:** 2019
+- **License:** CC BY
 
 ## Description
 

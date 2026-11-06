@@ -1,19 +1,15 @@
 # Industrial Safety and Health Analytics Database
 
-**Summary:** Accident records from 12 manufacturing plants in three countries, each with severity levels, critical risk and a written account of the occurrence.
+Accident records from 12 manufacturing plants in three countries, each with severity levels, critical risk and a written account of the occurrence.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Environment and safety |
-| **Asset / Process** | — |
-| **Modality** | Tabular; Text and documents |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | accident records from 12 plants |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Environment and safety
+- **Modality:** Tabular; Text and documents
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Size:** accident records from 12 plants
+- **License:** CC0 and public domain
 
 ## Description
 

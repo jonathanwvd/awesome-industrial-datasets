@@ -1,19 +1,15 @@
 # 3CAD
 
-**Summary:** 27,039 high-resolution images of eight aluminum, copper and iron parts, split into training and test sets, with pixel-level anomaly labels across 47 defect types.
+27,039 high-resolution images of eight aluminum, copper and iron parts, split into training and test sets, with pixel-level anomaly labels across 47 defect types.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Electronics and semiconductors |
-| **Asset / Process** | Castings and metal parts |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Pixel mask; Sample label |
-| **Source Type** | Real production |
-| **Access** | — |
-| **Size** | 27,039 images in 8 part categories |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** Castings and metal parts
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Pixel mask; Sample label
+- **Source Type:** Real production
+- **Size:** 27,039 images in 8 part categories
+- **Year:** 2025
 
 ## Description
 

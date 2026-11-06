@@ -1,19 +1,12 @@
 # Mechanic Component Images ( Normal / Defected)
 
-**Summary:** PNG images of air-conditioner pistons sorted into one normal and two defect folders, for broken parts and for oil, grease or rust stains.
+PNG images of air-conditioner pistons sorted into one normal and two defect folders, for broken parts and for oil, grease or rust stains.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Annotation:** Class label
+- **Access:** Kaggle
 
 ## Description
 

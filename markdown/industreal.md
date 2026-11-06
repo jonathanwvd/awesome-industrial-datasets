@@ -1,20 +1,16 @@
 # IndustReal
 
-**Summary:** 84 egocentric HoloLens 2 videos of 27 participants assembling and maintaining a construction-toy model, labelled for procedure steps, actions and assembly states.
+84 egocentric HoloLens 2 videos of 27 participants assembling and maintaining a construction-toy model, labelled for procedure steps, actions and assembly states.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Video; RGB-D and depth; Multimodal |
-| **Task** | Classification; Object detection |
-| **Annotation** | Class label; Bounding box |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | 84 videos from 27 participants |
-| **Year** | 2023 |
-| **License** | — |
-| **Publisher** | Eindhoven University of Technology |
+- **Domain:** Manufacturing
+- **Modality:** Video; RGB-D and depth; Multimodal
+- **Task:** Classification; Object detection
+- **Annotation:** Class label; Bounding box
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Size:** 84 videos from 27 participants
+- **Year:** 2023
+- **Publisher:** Eindhoven University of Technology
 
 ## Description
 

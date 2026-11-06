@@ -1,19 +1,14 @@
 # Kaputt
 
-**Summary:** Over 230,000 images of more than 48,000 distinct objects for visual defect detection in retail logistics, with more than 29,000 defective instances.
+Over 230,000 images of more than 48,000 distinct objects for visual defect detection in retail logistics, with more than 29,000 defective instances.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Logistics and retail |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Defect detection |
-| **Annotation** | Sample label |
-| **Source Type** | Real production |
-| **Access** | Request or approval |
-| **Size** | Over 230,000 images |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Logistics and retail
+- **Modality:** Image
+- **Task:** Anomaly detection; Defect detection
+- **Annotation:** Sample label
+- **Source Type:** Real production
+- **Access:** Request or approval
+- **Size:** Over 230,000 images
 
 ## Description
 

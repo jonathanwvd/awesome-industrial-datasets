@@ -1,20 +1,16 @@
 # High Storage System Data for Energy Optimization
 
-**Summary:** Labelled runs of a high storage system demonstrator in the Lemgo Smartfactory, split into normal and anomalous, standard and energy-optimized operation.
+Labelled runs of a high storage system demonstrator in the Lemgo Smartfactory, split into normal and anomalous, standard and energy-optimized operation.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Anomaly detection; Energy optimization |
-| **Annotation** | Sample label |
-| **Source Type** | Lab or testbed |
-| **Access** | Kaggle |
-| **Size** | 4 CSV files of normal and anomalous runs |
-| **Year** | — |
-| **License** | CC BY-NC-SA |
-| **Publisher** | inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences |
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Anomaly detection; Energy optimization
+- **Annotation:** Sample label
+- **Source Type:** Lab or testbed
+- **Access:** Kaggle
+- **Size:** 4 CSV files of normal and anomalous runs
+- **License:** CC BY-NC-SA
+- **Publisher:** inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences
 
 ## Description
 

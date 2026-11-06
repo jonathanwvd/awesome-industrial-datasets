@@ -1,20 +1,17 @@
 # PCAD
 
-**Summary:** Multi-view RGB images of five electronic assembly groups with 6D poses, CAD models and defect masks for missing or interchanged components.
+Multi-view RGB images of five electronic assembly groups with 6D poses, CAD models and defect masks for missing or interchanged components.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | PCBs and electronic assemblies |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Normal-only training; Pixel mask; Pose and keypoints |
-| **Source Type** | Mixed |
-| **Access** | Direct download |
-| **Size** | 1,440 defect-free and 4,744 defective samples |
-| **Year** | 2025 |
-| **License** | — |
-| **Publisher** | Institute for TMDT, University of Wuppertal |
+- **Domain:** Manufacturing
+- **Asset / Process:** PCBs and electronic assemblies
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Normal-only training; Pixel mask; Pose and keypoints
+- **Source Type:** Mixed
+- **Access:** Direct download
+- **Size:** 1,440 defect-free and 4,744 defective samples
+- **Year:** 2025
+- **Publisher:** Institute for TMDT, University of Wuppertal
 
 ## Description
 

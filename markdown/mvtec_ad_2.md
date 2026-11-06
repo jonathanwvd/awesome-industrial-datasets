@@ -1,21 +1,17 @@
 # MVTec AD 2
 
-**Summary:** Unsupervised anomaly detection benchmark with more than 8,000 high-resolution images across eight new industrial inspection scenarios.
+Unsupervised anomaly detection benchmark with more than 8,000 high-resolution images across eight new industrial inspection scenarios.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization; Defect segmentation |
-| **Annotation** | Normal-only training; Pixel mask |
-| **Source Type** | — |
-| **Access** | Official portal |
-| **Size** | 8,000+ images in 8 scenarios |
-| **Year** | 2025 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec Software |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization; Defect segmentation
+- **Annotation:** Normal-only training; Pixel mask
+- **Access:** Official portal
+- **Size:** 8,000+ images in 8 scenarios
+- **Year:** 2025
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec Software
+- **Benchmark:** Yes
 
 ## Description
 

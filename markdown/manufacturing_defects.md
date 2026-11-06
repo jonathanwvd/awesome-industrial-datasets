@@ -1,19 +1,12 @@
 # Manufacturing Defects - Industry Dataset
 
-**Summary:** Ten days of minor-defect counts from a sampling plan that inspects one production-line component every 15 minutes during an eight-hour shift.
+Ten days of minor-defect counts from a sampling plan that inspects one production-line component every 15 minutes during an eight-hour shift.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series; Tabular |
-| **Task** | Process monitoring |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | 10 days of minor-defect samples |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Modality:** Time series; Tabular
+- **Task:** Process monitoring
+- **Access:** Kaggle
+- **Size:** 10 days of minor-defect samples
 
 ## Description
 

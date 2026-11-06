@@ -1,19 +1,12 @@
 # Find a Defect in the Production
 
-**Summary:** Data from a plastic film extrusion line of three plants, where film breakage is the defect the customer most wants minimised and defects are seen only by the operator.
+Data from a plastic film extrusion line of three plants, where film breakage is the defect the customer most wants minimised and defects are seen only by the operator.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular; Time series |
-| **Task** | Defect detection; Quality prediction |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | CC BY-ND and NC-ND |
+- **Domain:** Manufacturing
+- **Modality:** Tabular; Time series
+- **Task:** Defect detection; Quality prediction
+- **Access:** Kaggle
+- **License:** CC BY-ND and NC-ND
 
 ## Description
 

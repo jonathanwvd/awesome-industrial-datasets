@@ -1,19 +1,14 @@
 # Magnetic Tile Defect
 
-**Summary:** Surface images of magnetic tiles covering six common defect types, each with pixel-level ground truth for defect saliency detection.
+Surface images of magnetic tiles covering six common defect types, each with pixel-level ground truth for defect saliency detection.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection; Defect segmentation |
-| **Annotation** | Pixel mask |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2018 |
-| **License** | — |
+- **Domain:** Materials and metrology
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation
+- **Annotation:** Pixel mask
+- **Access:** Code repository
+- **Year:** 2018
 
 ## Description
 

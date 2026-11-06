@@ -1,19 +1,13 @@
 # Open Reaction Database
 
-**Summary:** Open-access schema, infrastructure and central repository for organic reaction data, holding more than 2 million reactions including a large USPTO set.
+Open-access schema, infrastructure and central repository for organic reaction data, holding more than 2 million reactions including a large USPTO set.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Official portal |
-| **Size** | 2M+ reactions |
-| **Year** | 2021 |
-| **License** | — |
+- **Domain:** Chemical and process
+- **Modality:** Tabular
+- **Task:** Regression
+- **Access:** Official portal
+- **Size:** 2M+ reactions
+- **Year:** 2021
 
 ## Description
 

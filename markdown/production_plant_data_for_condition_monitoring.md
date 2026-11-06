@@ -1,19 +1,15 @@
 # Production Plant Data for Condition Monitoring
 
-**Summary:** Eight run-to-failure experiments on an important production-line component, described by eight selected features, with the stated aim of predicting its condition.
+Eight run-to-failure experiments on an important production-line component, described by eight selected features, with the stated aim of predicting its condition.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Condition monitoring |
-| **Annotation** | RUL label |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | 8 run-to-failure experiments |
-| **Year** | — |
-| **License** | CC BY-SA |
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Annotation:** RUL label
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Size:** 8 run-to-failure experiments
+- **License:** CC BY-SA
 
 ## Description
 

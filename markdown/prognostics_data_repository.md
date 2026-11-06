@@ -1,20 +1,15 @@
 # Prognostics Data Repository
 
-**Summary:** Collection of 21 run-to-failure and degradation data sets donated by universities, agencies and companies for developing prognostic algorithms.
+Collection of 21 run-to-failure and degradation data sets donated by universities, agencies and companies for developing prognostic algorithms.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | Batteries; Bearings; Turbines and engines |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | Mixed |
-| **Access** | Direct download |
-| **Size** | 21 listed data sets |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | NASA Ames Research Center |
+- **Domain:** Cross-industrial
+- **Asset / Process:** Batteries; Bearings; Turbines and engines
+- **Modality:** Time series
+- **Task:** RUL and prognostics
+- **Source Type:** Mixed
+- **Access:** Direct download
+- **Size:** 21 listed data sets
+- **Publisher:** NASA Ames Research Center
 
 ## Description
 

@@ -1,19 +1,16 @@
 # Defective Solar Cells Dataset
 
-**Summary:** 2,624 electroluminescence images of solar cells from 44 photovoltaic modules, each annotated with a defect probability and the module type.
+2,624 electroluminescence images of solar cells from 44 photovoltaic modules, each annotated with a defect probability and the module type.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Solar PV |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | Scalar target |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | 2,624 images |
-| **Year** | 2018 |
-| **License** | CC BY-NC-SA |
+- **Domain:** Energy and power
+- **Asset / Process:** Solar PV
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Annotation:** Scalar target
+- **Access:** Code repository
+- **Size:** 2,624 images
+- **Year:** 2018
+- **License:** CC BY-NC-SA
 
 ## Description
 

@@ -1,19 +1,14 @@
 # Oil and Gas Data, 1932-2014
 
-**Summary:** Global dataset of oil and natural gas production, prices, exports and net exports by country, with oil series covering 1932 to 2014.
+Global dataset of oil and natural gas production, prices, exports and net exports by country, with oil series covering 1932 to 2014.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Oil and gas |
-| **Asset / Process** | — |
-| **Modality** | Tabular; Time series |
-| **Task** | Forecasting |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 15,521 observations of 41 variables |
-| **Year** | 2015 |
-| **License** | CC0 and public domain |
+- **Domain:** Oil and gas
+- **Modality:** Tabular; Time series
+- **Task:** Forecasting
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 15,521 observations of 41 variables
+- **Year:** 2015
+- **License:** CC0 and public domain
 
 ## Description
 

@@ -1,19 +1,12 @@
 # GREEND
 
-**Summary:** Detailed household power usage recorded in a measurement campaign in Austria and Italy, for home energy management, load disaggregation and occupancy detection.
+Detailed household power usage recorded in a measurement campaign in Austria and Italy, for home energy management, load disaggregation and occupancy detection.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Buildings and appliances |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Energy optimization |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2014 |
-| **License** | — |
+- **Domain:** Buildings and appliances
+- **Modality:** Time series
+- **Task:** Energy optimization
+- **Source Type:** Real production
+- **Year:** 2014
 
 ## Description
 

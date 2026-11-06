@@ -1,19 +1,16 @@
 # Steel Industry Energy Consumption
 
-**Summary:** Electricity records from a small-scale steel plant in South Korea, with reactive power, power factor, CO2 and a light, medium or maximum load label.
+Electricity records from a small-scale steel plant in South Korea, with reactive power, power factor, CO2 and a light, medium or maximum load label.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | — |
-| **Modality** | Tabular; Time series |
-| **Task** | Regression; Classification |
-| **Annotation** | Class label |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 35,040 instances |
-| **Year** | 2023 |
-| **License** | CC BY |
+- **Domain:** Energy and power
+- **Modality:** Tabular; Time series
+- **Task:** Regression; Classification
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 35,040 instances
+- **Year:** 2023
+- **License:** CC BY
 
 ## Description
 

@@ -1,20 +1,16 @@
 # Mechanical Analysis
 
-**Summary:** Fault-diagnosis records of electromechanical devices: 209 multi-component measurement instances, each in one of six classes.
+Fault-diagnosis records of electromechanical devices: 209 multi-component measurement instances, each in one of six classes.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; Fault diagnosis |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 209 instances |
-| **Year** | 1990 |
-| **License** | CC BY |
-| **Publisher** | F. Bergadano, A. Giordana and L. Saitta |
+- **Domain:** Cross-industrial
+- **Modality:** Tabular
+- **Task:** Classification; Fault diagnosis
+- **Annotation:** Class label
+- **Access:** UCI repository
+- **Size:** 209 instances
+- **Year:** 1990
+- **License:** CC BY
+- **Publisher:** F. Bergadano, A. Giordana and L. Saitta
 
 ## Description
 

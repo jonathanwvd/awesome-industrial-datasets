@@ -1,20 +1,18 @@
 # DeepPCB
 
-**Summary:** 1,500 aligned pairs of defect-free template and tested PCB images, with bounding boxes for six defect types and 1,000 images set aside for training.
+1,500 aligned pairs of defect-free template and tested PCB images, with bounding boxes for six defect types and 1,000 images set aside for training.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Electronics and semiconductors |
-| **Asset / Process** | PCBs and electronic assemblies |
-| **Modality** | Image |
-| **Task** | Defect detection; Object detection |
-| **Annotation** | Bounding box |
-| **Source Type** | Mixed |
-| **Access** | Code repository |
-| **Size** | 1,500 image pairs |
-| **Year** | 2018 |
-| **License** | Academic or non-commercial terms |
-| **Benchmark** | Yes |
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** PCBs and electronic assemblies
+- **Modality:** Image
+- **Task:** Defect detection; Object detection
+- **Annotation:** Bounding box
+- **Source Type:** Mixed
+- **Access:** Code repository
+- **Size:** 1,500 image pairs
+- **Year:** 2018
+- **License:** Academic or non-commercial terms
+- **Benchmark:** Yes
 
 ## Description
 

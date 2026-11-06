@@ -1,19 +1,15 @@
 # Textures Classification Dataset
 
-**Summary:** Surface texture set of 8,674 images in 64 classes merged from the KTH, Kyberge and UIUC texture datasets and split in half for training and validation.
+Surface texture set of 8,674 images in 64 classes merged from the KTH, Kyberge and UIUC texture datasets and split in half for training and validation.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 8,674 images |
-| **Year** | 2019 |
-| **License** | — |
+- **Domain:** Materials and metrology
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Classification
+- **Annotation:** Class label
+- **Access:** Direct download
+- **Size:** 8,674 images
+- **Year:** 2019
 
 ## Description
 

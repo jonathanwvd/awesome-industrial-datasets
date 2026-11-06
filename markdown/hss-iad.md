@@ -1,19 +1,14 @@
 # HSS-IAD
 
-**Summary:** Anomaly detection dataset of 8,580 images of metallic-like industrial parts of the same sort that vary in structure and appearance, with subtle defects.
+Anomaly detection dataset of 8,580 images of metallic-like industrial parts of the same sort that vary in structure and appearance, with subtle defects.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Castings and metal parts; Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 8,580 images |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Castings and metal parts; Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection
+- **Access:** Direct download
+- **Size:** 8,580 images
+- **Year:** 2025
 
 ## Description
 

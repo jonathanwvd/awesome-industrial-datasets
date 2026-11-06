@@ -1,20 +1,17 @@
 # Beijing PM2.5 Data
 
-**Summary:** Hourly PM2.5 readings from the US Embassy in Beijing joined with airport weather data, covering 2010 to 2014.
+Hourly PM2.5 readings from the US Embassy in Beijing joined with airport weather data, covering 2010 to 2014.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Environment and safety |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Public records |
-| **Access** | UCI repository |
-| **Size** | 43,824 hourly records |
-| **Year** | 2017 |
-| **License** | CC BY |
-| **Publisher** | Song Chen |
+- **Domain:** Environment and safety
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Public records
+- **Access:** UCI repository
+- **Size:** 43,824 hourly records
+- **Year:** 2017
+- **License:** CC BY
+- **Publisher:** Song Chen
 
 ## Description
 

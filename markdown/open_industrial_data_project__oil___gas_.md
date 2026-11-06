@@ -1,20 +1,14 @@
 # Open Industrial Data
 
-**Summary:** Live time series, maintenance history and P&IDs from the first stage compressor on Aker BP's Valhall platform, shared through Cognite Data Fusion.
+Live time series, maintenance history and P&IDs from the first stage compressor on Aker BP's Valhall platform, shared through Cognite Data Fusion.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Oil and gas |
-| **Asset / Process** | Pumps, compressors and fans |
-| **Modality** | Time series |
-| **Task** | Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | Registration required |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Cognite |
+- **Domain:** Oil and gas
+- **Asset / Process:** Pumps, compressors and fans
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Source Type:** Real production
+- **Access:** Registration required
+- **Publisher:** Cognite
 
 ## Description
 

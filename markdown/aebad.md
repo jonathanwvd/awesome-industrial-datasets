@@ -1,19 +1,15 @@
 # AeBAD
 
-**Summary:** Single-blade images with ground-truth masks plus blade videos, in which normal test samples differ from training ones mainly in illumination and view.
+Single-blade images with ground-truth masks plus blade videos, in which normal test samples differ from training ones mainly in illumination and view.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Aerospace and defense |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Image; Video |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Normal-only training; Pixel mask |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2023 |
-| **License** | CC BY |
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Image; Video
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Normal-only training; Pixel mask
+- **Access:** Code repository
+- **Year:** 2023
+- **License:** CC BY
 
 ## Description
 

@@ -1,19 +1,14 @@
 # DTU PV plant - Drone Infrared Thermography Dataset: Influence of Irradiance and Altitude
 
-**Summary:** Drone infrared thermography images of defective PV modules at DTU's Risø plant, taken at four altitudes and irradiances, with EL images and IV curves.
+Drone infrared thermography images of defective PV modules at DTU's Risø plant, taken at four altitudes and irradiances, with EL images and IV curves.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Solar PV |
-| **Modality** | Image; Multimodal |
-| **Task** | Defect detection |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | — |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Solar PV
+- **Modality:** Image; Multimodal
+- **Task:** Defect detection
+- **Annotation:** Class label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2025
 
 ## Description
 

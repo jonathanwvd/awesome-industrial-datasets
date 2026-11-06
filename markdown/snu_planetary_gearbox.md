@@ -1,19 +1,17 @@
 # SNU Planetary Gearbox Dataset
 
-**Summary:** Vibration and encoder signals from a 2 kW-class planetary gearbox testbed with seven health and fault-severity conditions at constant and varying speed.
+Vibration and encoder signals from a 2 kW-class planetary gearbox testbed with seven health and fault-severity conditions at constant and varying speed.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Gears and gearboxes |
-| **Modality** | Vibration; Time series |
-| **Task** | Fault diagnosis |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 14 configurations of about 100 minutes each |
-| **Year** | 2026 |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Asset / Process:** Gears and gearboxes
+- **Modality:** Vibration; Time series
+- **Task:** Fault diagnosis
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 14 configurations of about 100 minutes each
+- **Year:** 2026
+- **License:** CC BY
 
 ## Description
 

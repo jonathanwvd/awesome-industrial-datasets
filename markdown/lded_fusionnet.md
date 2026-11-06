@@ -1,20 +1,16 @@
 # LDED-FusionNet Dataset
 
-**Summary:** Synchronized coaxial melt pool images, acoustic signals and robot motion logs recorded during laser-directed energy deposition, with defect labels.
+Synchronized coaxial melt pool images, acoustic signals and robot motion logs recorded during laser-directed energy deposition, with defect labels.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Additive manufacturing |
-| **Modality** | Multimodal; Image; Audio |
-| **Task** | Defect detection; Quality prediction |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | — |
-| **Year** | 2025 |
-| **License** | CC BY |
-| **Publisher** | Agency for Science, Technology and Research |
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Multimodal; Image; Audio
+- **Task:** Defect detection; Quality prediction
+- **Annotation:** Class label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2025
+- **License:** CC BY
+- **Publisher:** Agency for Science, Technology and Research
 
 ## Description
 

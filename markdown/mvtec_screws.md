@@ -1,20 +1,18 @@
 # MVTec Screws
 
-**Summary:** Image dataset for Object Detection; Pose Estimation in Manufacturing & Production.
+Image dataset for Object Detection; Pose Estimation in Manufacturing & Production.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Object detection; Pose estimation |
-| **Annotation** | Bounding box; Pose and keypoints |
-| **Source Type** | Lab or testbed |
-| **Access** | Request or approval |
-| **Size** | 384 images; 4,426 oriented bounding box annotations; 13 categories |
-| **Year** | 2019 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Object detection; Pose estimation
+- **Annotation:** Bounding box; Pose and keypoints
+- **Source Type:** Lab or testbed
+- **Access:** Request or approval
+- **Size:** 384 images; 4,426 oriented bounding box annotations; 13 categories
+- **Year:** 2019
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

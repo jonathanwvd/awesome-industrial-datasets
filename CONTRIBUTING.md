@@ -29,9 +29,6 @@ The following are out of scope:
   (suggest the original source instead);
 - datasets without a verifiable source or access path.
 
-Tools that help people use datasets already on the list (loaders, converters,
-benchmarks) can be suggested for the Tools section of the README.
-
 If you are affiliated with the dataset or tool you suggest, please say so.
 Affiliation does not rule out an entry, but it helps the review.
 

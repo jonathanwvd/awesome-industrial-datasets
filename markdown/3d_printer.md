@@ -1,19 +1,14 @@
 # 3D Printer Dataset for Mechanical Engineers
 
-**Summary:** Results of 3D printing tests that link nine printer setting parameters to measured roughness, ultimate tensile strength and elongation.
+Results of 3D printing tests that link nine printer setting parameters to measured roughness, ultimate tensile strength and elongation.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Additive manufacturing |
-| **Modality** | Tabular |
-| **Task** | Regression; Quality prediction; Classification |
-| **Annotation** | Scalar target; Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Tabular
+- **Task:** Regression; Quality prediction; Classification
+- **Annotation:** Scalar target; Class label
+- **Source Type:** Lab or testbed
+- **Access:** Kaggle
 
 ## Description
 

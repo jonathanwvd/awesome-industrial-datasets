@@ -1,20 +1,15 @@
 # Versatile Production System
 
-**Summary:** Module-level process data from the Versatile Production System, a popcorn packaging and production line in the SmartFactory OWL, in nine CSV files.
+Module-level process data from the Versatile Production System, a popcorn packaging and production line in the SmartFactory OWL, in nine CSV files.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Anomaly detection; Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Kaggle |
-| **Size** | 9 CSV files |
-| **Year** | — |
-| **License** | CC BY-NC-SA |
-| **Publisher** | inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences |
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Anomaly detection; Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Kaggle
+- **Size:** 9 CSV files
+- **License:** CC BY-NC-SA
+- **Publisher:** inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences
 
 ## Description
 

@@ -1,19 +1,14 @@
 # CWRU Bearing Data
 
-**Summary:** Vibration recordings of normal ball bearings and of bearings with EDM-seeded faults at three locations, taken at motor loads of 0 to 3 horsepower.
+Vibration recordings of normal ball bearings and of bearings with EDM-seeded faults at three locations, taken at motor loads of 0 to 3 horsepower.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings; Motors and drives |
-| **Modality** | Vibration |
-| **Task** | Fault diagnosis; Classification |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Official portal |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings; Motors and drives
+- **Modality:** Vibration
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Official portal
 
 ## Description
 

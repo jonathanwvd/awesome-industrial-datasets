@@ -1,20 +1,14 @@
 # Eyecandies
 
-**Summary:** Synthetic dataset of photo-realistic rendered candies in ten classes for unsupervised anomaly detection and localization, with RGB, depth and normal maps.
+Synthetic dataset of photo-realistic rendered candies in ten classes for unsupervised anomaly detection and localization, with RGB, depth and normal maps.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image; RGB-D and depth; Multimodal |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Normal-only training; Pixel mask |
-| **Source Type** | Synthetic |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2022 |
-| **License** | — |
-| **Publisher** | Eyecan.ai |
+- **Domain:** Manufacturing
+- **Modality:** Image; RGB-D and depth; Multimodal
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Normal-only training; Pixel mask
+- **Source Type:** Synthetic
+- **Year:** 2022
+- **Publisher:** Eyecan.ai
 
 ## Description
 

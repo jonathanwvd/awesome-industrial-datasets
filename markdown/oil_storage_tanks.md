@@ -1,19 +1,12 @@
 # Oil Storage Tanks
 
-**Summary:** Google Earth satellite images of industrial areas with bounding boxes for floating head oil tanks, as 4800x4800 scenes and 512x512 patches.
+Google Earth satellite images of industrial areas with bounding boxes for floating head oil tanks, as 4800x4800 scenes and 512x512 patches.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Oil and gas |
-| **Asset / Process** | — |
-| **Modality** | Image; Geospatial and remote sensing |
-| **Task** | Object detection |
-| **Annotation** | Bounding box |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Oil and gas
+- **Modality:** Image; Geospatial and remote sensing
+- **Task:** Object detection
+- **Annotation:** Bounding box
+- **Access:** Kaggle
 
 ## Description
 

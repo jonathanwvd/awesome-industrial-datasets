@@ -1,20 +1,17 @@
 # DataMatrix readers on synthetic production-line frames
 
-**Summary:** Synthetic test set of 1368 greyscale frames of DataMatrix codes that imitate a conveyor camera, each paired with its expected decoded string.
+Synthetic test set of 1368 greyscale frames of DataMatrix codes that imitate a conveyor camera, each paired with its expected decoded string.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Other |
-| **Annotation** | Text and QA label |
-| **Source Type** | Synthetic |
-| **Access** | Code repository |
-| **Size** | 1368 frames (PNG) |
-| **Year** | 2026 |
-| **License** | CC0 and public domain |
-| **Publisher** | libscanner |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Other
+- **Annotation:** Text and QA label
+- **Source Type:** Synthetic
+- **Access:** Code repository
+- **Size:** 1368 frames (PNG)
+- **Year:** 2026
+- **License:** CC0 and public domain
+- **Publisher:** libscanner
 
 ## Description
 

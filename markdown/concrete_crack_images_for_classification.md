@@ -1,20 +1,15 @@
 # Concrete Crack Images for Classification
 
-**Summary:** 40,000 RGB patches of concrete surfaces from METU campus buildings, split evenly into crack and no-crack classes for image classification.
+40,000 RGB patches of concrete surfaces from METU campus buildings, split evenly into crack and no-crack classes for image classification.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Infrastructure and civil |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Classification |
-| **Annotation** | Sample label |
-| **Source Type** | — |
-| **Access** | Mendeley Data |
-| **Size** | 40,000 images |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Orta Dogu Teknik Universitesi |
+- **Domain:** Infrastructure and civil
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Classification
+- **Annotation:** Sample label
+- **Access:** Mendeley Data
+- **Size:** 40,000 images
+- **Publisher:** Orta Dogu Teknik Universitesi
 
 ## Description
 

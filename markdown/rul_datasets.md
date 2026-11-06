@@ -1,19 +1,13 @@
 # RUL Datasets
 
-**Summary:** Python library that wraps five remaining useful lifetime datasets, including C-MAPSS, FEMTO and XJTU-SY, as PyTorch Lightning data modules with one shared API.
+Python library that wraps five remaining useful lifetime datasets, including C-MAPSS, FEMTO and XJTU-SY, as PyTorch Lightning data modules with one shared API.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | Bearings; Turbines and engines |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2022 |
-| **License** | — |
+- **Domain:** Cross-industrial
+- **Asset / Process:** Bearings; Turbines and engines
+- **Modality:** Time series
+- **Task:** RUL and prognostics
+- **Access:** Code repository
+- **Year:** 2022
 
 ## Description
 

@@ -1,20 +1,15 @@
 # Degradation Measurement of Robot Arm Position Accuracy
 
-**Summary:** Tool center position errors and 125 Hz joint controller data from a UR5 robot arm run under varied temperature, payload and speed, published by NIST.
+Tool center position errors and 125 Hz joint controller data from a UR5 robot arm run under varied temperature, payload and speed, published by NIST.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Robots and manipulators |
-| **Modality** | Time series |
-| **Task** | Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | 2017 |
-| **License** | — |
-| **Publisher** | National Institute of Standards and Technology |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Year:** 2017
+- **Publisher:** National Institute of Standards and Technology
 
 ## Description
 

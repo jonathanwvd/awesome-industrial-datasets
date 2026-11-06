@@ -1,21 +1,18 @@
 # MPDD
 
-**Summary:** Defect detection benchmark of over 1,000 images of industrial metal parts with pixel-precise defect masks, from Brno University of Technology.
+Defect detection benchmark of over 1,000 images of industrial metal parts with pixel-precise defect masks, from Brno University of Technology.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Castings and metal parts |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Defect detection; Defect segmentation |
-| **Annotation** | Normal-only training; Pixel mask |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | 1,000+ images |
-| **Year** | 2021 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | Brno University of Technology |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Castings and metal parts
+- **Modality:** Image
+- **Task:** Anomaly detection; Defect detection; Defect segmentation
+- **Annotation:** Normal-only training; Pixel mask
+- **Access:** Code repository
+- **Size:** 1,000+ images
+- **Year:** 2021
+- **License:** CC BY-NC-SA
+- **Publisher:** Brno University of Technology
+- **Benchmark:** Yes
 
 ## Description
 

@@ -1,21 +1,16 @@
 # FailureSensorIQ
 
-**Summary:** Multiple-choice benchmark of 8,296 questions from IBM that tests how well language models relate sensors to failure modes of 10 industrial assets.
+Multiple-choice benchmark of 8,296 questions from IBM that tests how well language models relate sensors to failure modes of 10 industrial assets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Text and documents |
-| **Task** | Question answering |
-| **Annotation** | Text and QA label |
-| **Source Type** | — |
-| **Access** | Hugging Face |
-| **Size** | 8,296 questions |
-| **Year** | 2025 |
-| **License** | — |
-| **Publisher** | IBM Research |
-| **Benchmark** | Yes |
+- **Domain:** Cross-industrial
+- **Modality:** Text and documents
+- **Task:** Question answering
+- **Annotation:** Text and QA label
+- **Access:** Hugging Face
+- **Size:** 8,296 questions
+- **Year:** 2025
+- **Publisher:** IBM Research
+- **Benchmark:** Yes
 
 ## Description
 

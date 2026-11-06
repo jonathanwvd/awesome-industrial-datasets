@@ -1,20 +1,14 @@
 # Multi-Stage Continuous-Flow Manufacturing Process
 
-**Summary:** Real production-line data from a multi-stage continuous-flow process near Detroit, for predicting output measurements taken at 15 surface locations.
+Real production-line data from a multi-stage continuous-flow process near Detroit, for predicting output measurements taken at 15 surface locations.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series; Tabular |
-| **Task** | Regression; Quality prediction |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Liveline Technologies |
+- **Domain:** Manufacturing
+- **Modality:** Time series; Tabular
+- **Task:** Regression; Quality prediction
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Publisher:** Liveline Technologies
 
 ## Description
 

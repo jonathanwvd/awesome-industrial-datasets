@@ -1,20 +1,16 @@
 # Run-to-failure vibration dataset of a three-stages planetary gearbox
 
-**Summary:** Hourly radial vibration recordings from a three-stage planetary gearbox run on a back-to-back bench until its sun gear failed after 1006 hours.
+Hourly radial vibration recordings from a three-stage planetary gearbox run on a back-to-back bench until its sun gear failed after 1006 hours.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Gears and gearboxes |
-| **Modality** | Vibration |
-| **Task** | RUL and prognostics; Condition monitoring |
-| **Annotation** | RUL label |
-| **Source Type** | Lab or testbed |
-| **Access** | Mendeley Data |
-| **Size** | 1006 operating hours in three parts |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | University of Ferrara |
+- **Domain:** Manufacturing
+- **Asset / Process:** Gears and gearboxes
+- **Modality:** Vibration
+- **Task:** RUL and prognostics; Condition monitoring
+- **Annotation:** RUL label
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Size:** 1006 operating hours in three parts
+- **Publisher:** University of Ferrara
 
 ## Description
 

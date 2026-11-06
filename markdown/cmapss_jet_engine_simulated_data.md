@@ -1,20 +1,17 @@
 # CMAPSS Jet Engine Simulated Data
 
-**Summary:** Simulated run-to-failure trajectories of a turbofan engine fleet in four subsets, with truncated test series and true remaining useful life values.
+Simulated run-to-failure trajectories of a turbofan engine fleet in four subsets, with truncated test series and true remaining useful life values.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Aerospace and defense |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics; Regression |
-| **Annotation** | RUL label |
-| **Source Type** | Simulation |
-| **Access** | Direct download |
-| **Size** | 4 subsets (FD001 to FD004) of multivariate time series |
-| **Year** | 2008 |
-| **License** | — |
-| **Publisher** | NASA Ames Prognostics Center of Excellence (PCoE) |
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Time series
+- **Task:** RUL and prognostics; Regression
+- **Annotation:** RUL label
+- **Source Type:** Simulation
+- **Access:** Direct download
+- **Size:** 4 subsets (FD001 to FD004) of multivariate time series
+- **Year:** 2008
+- **Publisher:** NASA Ames Prognostics Center of Excellence (PCoE)
 
 ## Description
 

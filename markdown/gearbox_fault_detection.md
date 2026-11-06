@@ -1,21 +1,17 @@
 # Gearbox Fault Detection
 
-**Summary:** Gearbox vibration data from the 2009 PHM Society challenge: accelerometers on both shafts, five speeds and two loads, 560 runs to classify.
+Gearbox vibration data from the 2009 PHM Society challenge: accelerometers on both shafts, five speeds and two loads, 560 runs to classify.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Gears and gearboxes |
-| **Modality** | Vibration |
-| **Task** | Fault diagnosis |
-| **Annotation** | Class label; Unlabeled |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 560 runs, five 84 MB ZIP files |
-| **Year** | 2009 |
-| **License** | — |
-| **Publisher** | PHM Society |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Gears and gearboxes
+- **Modality:** Vibration
+- **Task:** Fault diagnosis
+- **Annotation:** Class label; Unlabeled
+- **Access:** Direct download
+- **Size:** 560 runs, five 84 MB ZIP files
+- **Year:** 2009
+- **Publisher:** PHM Society
+- **Benchmark:** Yes
 
 ## Description
 

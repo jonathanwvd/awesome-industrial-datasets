@@ -1,20 +1,17 @@
 # Cyber4OT
 
-**Summary:** OT test-bed packet traces with normal activity and a full attack of reconnaissance, Modbus TCP connection takeover and PLC hijacking, in more than 4.25 million packets.
+OT test-bed packet traces with normal activity and a full attack of reconnaissance, Modbus TCP connection takeover and PLC hijacking, in more than 4.25 million packets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Control systems and networks |
-| **Modality** | Network traffic |
-| **Task** | Intrusion detection |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 96 files, more than 4.25 million packets |
-| **Year** | 2024 |
-| **License** | CC BY-NC |
-| **Publisher** | Warsaw University of Technology |
+- **Domain:** OT security
+- **Asset / Process:** Control systems and networks
+- **Modality:** Network traffic
+- **Task:** Intrusion detection
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 96 files, more than 4.25 million packets
+- **Year:** 2024
+- **License:** CC BY-NC
+- **Publisher:** Warsaw University of Technology
 
 ## Description
 

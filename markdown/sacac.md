@@ -1,20 +1,15 @@
 # SACAC
 
-**Summary:** Industrial control loop data sets from SACAC, grouped by the cause of poor loop performance, with CSV and text files from chemical, paper, mineral and oil and gas plants.
+Industrial control loop data sets from SACAC, grouped by the cause of poor loop performance, with CSV and text files from chemical, paper, mineral and oil and gas plants.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | Valves and actuators |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis; Process monitoring |
-| **Annotation** | Class label |
-| **Source Type** | Real production |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | South African Council of Automation and Control (SACAC) |
+- **Domain:** Cross-industrial
+- **Asset / Process:** Valves and actuators
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Process monitoring
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Publisher:** South African Council of Automation and Control (SACAC)
 
 ## Description
 

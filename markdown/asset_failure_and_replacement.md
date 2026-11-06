@@ -1,21 +1,16 @@
 # Asset Failure and Replacement
 
-**Summary:** Part-consumption, usage and failure records from the 2014 PHM Society Data Challenge on scoring asset health for remote monitoring.
+Part-consumption, usage and failure records from the 2014 PHM Society Data Challenge on scoring asset health for remote monitoring.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; RUL and prognostics |
-| **Annotation** | Event and time label |
-| **Source Type** | — |
-| **Access** | Competition |
-| **Size** | 5 CSV data sets plus test instances |
-| **Year** | 2014 |
-| **License** | — |
-| **Publisher** | PHM Society |
-| **Benchmark** | Yes |
+- **Domain:** Cross-industrial
+- **Modality:** Tabular
+- **Task:** Classification; RUL and prognostics
+- **Annotation:** Event and time label
+- **Access:** Competition
+- **Size:** 5 CSV data sets plus test instances
+- **Year:** 2014
+- **Publisher:** PHM Society
+- **Benchmark:** Yes
 
 ## Description
 

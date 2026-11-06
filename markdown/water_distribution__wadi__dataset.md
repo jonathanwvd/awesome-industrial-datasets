@@ -1,20 +1,15 @@
 # Water Distribution (WaDi)
 
-**Summary:** Sensor and actuator data from the iTrust water distribution testbed, with 14 days of normal operation and 2 days in which 15 cyber-physical attacks were launched.
+Sensor and actuator data from the iTrust water distribution testbed, with 14 days of normal operation and 2 days in which 15 cyber-physical attacks were launched.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Water treatment and distribution |
-| **Modality** | Time series; Network traffic |
-| **Task** | Intrusion detection |
-| **Annotation** | Event and time label |
-| **Source Type** | Lab or testbed |
-| **Access** | — |
-| **Size** | 16 days; 123 sensors and actuators |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | iTrust |
+- **Domain:** OT security
+- **Asset / Process:** Water treatment and distribution
+- **Modality:** Time series; Network traffic
+- **Task:** Intrusion detection
+- **Annotation:** Event and time label
+- **Source Type:** Lab or testbed
+- **Size:** 16 days; 123 sensors and actuators
+- **Publisher:** iTrust
 
 ## Description
 

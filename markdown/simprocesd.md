@@ -1,20 +1,13 @@
 # SimPROCESD
 
-**Summary:** NIST discrete-event simulation package in Python for asynchronous production lines with finite buffers, including machine degradation and maintenance.
+NIST discrete-event simulation package in Python for asynchronous production lines with finite buffers, including machine degradation and maintenance.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Simulator |
-| **Task** | Simulation and control |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | NIST |
+- **Domain:** Manufacturing
+- **Modality:** Simulator
+- **Task:** Simulation and control
+- **Source Type:** Simulation
+- **Access:** Code repository
+- **Publisher:** NIST
 
 ## Description
 

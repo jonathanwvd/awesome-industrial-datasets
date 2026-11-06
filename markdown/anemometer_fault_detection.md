@@ -1,21 +1,17 @@
 # Anemometer Fault Detection
 
-**Summary:** Wind-tower anemometer records from the 2011 PHM Society Data Challenge, where faulty anemometers must be found from paired and shear data.
+Wind-tower anemometer records from the 2011 PHM Society Data Challenge, where faulty anemometers must be found from paired and shear data.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Anomaly detection; Condition monitoring |
-| **Annotation** | Normal-only training |
-| **Source Type** | Real production |
-| **Access** | Registration required |
-| **Size** | 420 paired and 255 shear test files |
-| **Year** | 2011 |
-| **License** | — |
-| **Publisher** | PHM Society |
-| **Benchmark** | Yes |
+- **Domain:** Energy and power
+- **Modality:** Time series
+- **Task:** Anomaly detection; Condition monitoring
+- **Annotation:** Normal-only training
+- **Source Type:** Real production
+- **Access:** Registration required
+- **Size:** 420 paired and 255 shear test files
+- **Year:** 2011
+- **Publisher:** PHM Society
+- **Benchmark:** Yes
 
 ## Description
 

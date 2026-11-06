@@ -1,19 +1,16 @@
 # AI4I 2020 Predictive Maintenance Dataset
 
-**Summary:** Synthetic predictive maintenance dataset of 10,000 data points with process readings, a machine failure label and five independent failure modes.
+Synthetic predictive maintenance dataset of 10,000 data points with process readings, a machine failure label and five independent failure modes.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; Fault diagnosis |
-| **Annotation** | Sample label; Class label |
-| **Source Type** | Synthetic |
-| **Access** | UCI repository |
-| **Size** | 10,000 data points |
-| **Year** | 2020 |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification; Fault diagnosis
+- **Annotation:** Sample label; Class label
+- **Source Type:** Synthetic
+- **Access:** UCI repository
+- **Size:** 10,000 data points
+- **Year:** 2020
+- **License:** CC BY
 
 ## Description
 

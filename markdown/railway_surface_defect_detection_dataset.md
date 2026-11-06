@@ -1,19 +1,12 @@
 # Railway Surface Defect Detection Dataset
 
-**Summary:** Rail surface images from express and heavy haul railways in two subsets of 67 and 128 images, each showing at least one defect annotated by professionals.
+Rail surface images from express and heavy haul railways in two subsets of 67 and 128 images, each showing at least one defect annotated by professionals.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Transportation and mobility |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | — |
-| **Size** | Two subsets of 67 and 128 images |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Transportation and mobility
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Source Type:** Real production
+- **Size:** Two subsets of 67 and 128 images
 
 ## Description
 

@@ -1,19 +1,14 @@
 # Pump Sensor Data
 
-**Summary:** Raw readings from 52 sensors on a water pump system serving a remote area, shared to help predict failures after seven breakdowns in one year.
+Raw readings from 52 sensors on a water pump system serving a remote area, shared to help predict failures after seven breakdowns in one year.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Water and utilities |
-| **Asset / Process** | Pumps, compressors and fans |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | 52 sensors |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Water and utilities
+- **Asset / Process:** Pumps, compressors and fans
+- **Modality:** Time series
+- **Task:** RUL and prognostics
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Size:** 52 sensors
 
 ## Description
 

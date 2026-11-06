@@ -1,19 +1,16 @@
 # REASSEMBLE
 
-**Summary:** Teleoperated robot demonstrations of assembly and disassembly on the NIST Assembly Task Board 1, with force-torque, event camera, audio and RGB video data.
+Teleoperated robot demonstrations of assembly and disassembly on the NIST Assembly Task Board 1, with force-torque, event camera, audio and RGB video data.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Robots and manipulators |
-| **Modality** | Multimodal; Video; Time series |
-| **Task** | Classification |
-| **Annotation** | Text and QA label |
-| **Source Type** | Lab or testbed |
-| **Access** | Official portal |
-| **Size** | 4,551 demonstrations |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators
+- **Modality:** Multimodal; Video; Time series
+- **Task:** Classification
+- **Annotation:** Text and QA label
+- **Source Type:** Lab or testbed
+- **Access:** Official portal
+- **Size:** 4,551 demonstrations
+- **Year:** 2025
 
 ## Description
 

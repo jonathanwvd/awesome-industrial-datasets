@@ -1,20 +1,13 @@
 # Panasonic 18650PF Li-ion Battery Data
 
-**Summary:** Laboratory tests of a new 2.9 Ah Panasonic 18650PF cell, including HPPC, drive cycles and impedance spectroscopy at five temperatures.
+Laboratory tests of a new 2.9 Ah Panasonic 18650PF cell, including HPPC, drive cycles and impedance spectroscopy at five temperatures.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Batteries |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | — |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | University of Wisconsin-Madison |
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Regression
+- **Source Type:** Lab or testbed
+- **Publisher:** University of Wisconsin-Madison
 
 ## Description
 

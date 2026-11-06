@@ -1,19 +1,14 @@
 # Intelligent Manufacturing Dataset
 
-**Summary:** Simulated industrial machine data that combines IoT sensor readings, 6G network metrics and production indicators with a three-class efficiency target.
+Simulated industrial machine data that combines IoT sensor readings, 6G network metrics and production indicators with a three-class efficiency target.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | Synthetic |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Synthetic
+- **Access:** Kaggle
+- **License:** CC0 and public domain
 
 ## Description
 

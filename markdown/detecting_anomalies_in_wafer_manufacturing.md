@@ -1,19 +1,15 @@
 # Detecting Anomalies in Wafer Manufacturing
 
-**Summary:** Anonymised machine data from semiconductor wafer manufacturing with 1,558 features and good or anomalous labels, in 1,763 training and 756 test rows.
+Anonymised machine data from semiconductor wafer manufacturing with 1,558 features and good or anomalous labels, in 1,763 training and 756 test rows.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Electronics and semiconductors |
-| **Asset / Process** | Semiconductor wafers and process tools |
-| **Modality** | Tabular |
-| **Task** | Classification; Quality prediction |
-| **Annotation** | Sample label |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | 1,763 training rows and 756 test rows |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** Semiconductor wafers and process tools
+- **Modality:** Tabular
+- **Task:** Classification; Quality prediction
+- **Annotation:** Sample label
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Size:** 1,763 training rows and 756 test rows
 
 ## Description
 

@@ -1,19 +1,16 @@
 # ElectricityLoadDiagrams20112014
 
-**Summary:** Electricity consumption of 370 clients in kW for every 15 minutes, stored as one semicolon-separated text file with one column per client.
+Electricity consumption of 370 clients in kW for every 15 minutes, stored as one semicolon-separated text file with one column per client.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 370 clients |
-| **Year** | 2015 |
-| **License** | CC BY |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Time series
+- **Task:** Regression
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 370 clients
+- **Year:** 2015
+- **License:** CC BY
 
 ## Description
 

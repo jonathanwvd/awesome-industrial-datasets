@@ -1,21 +1,17 @@
 # Maintenance Action Recommendation
 
-**Summary:** Event codes and parameter snapshots from industrial equipment, released for the 2013 PHM Society challenge on recommending maintenance actions.
+Event codes and parameter snapshots from industrial equipment, released for the 2013 PHM Society challenge on recommending maintenance actions.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | Real production |
-| **Access** | Competition |
-| **Size** | 4 CSV files |
-| **Year** | 2013 |
-| **License** | — |
-| **Publisher** | PHM Society |
-| **Benchmark** | Yes |
+- **Domain:** Cross-industrial
+- **Modality:** Tabular
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** Competition
+- **Size:** 4 CSV files
+- **Year:** 2013
+- **Publisher:** PHM Society
+- **Benchmark:** Yes
 
 ## Description
 

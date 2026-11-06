@@ -1,19 +1,16 @@
 # CNC Mill Tool Wear
 
-**Summary:** Machining data from 18 CNC milling experiments on wax blocks at the University of Michigan, varying tool condition, feed rate and clamp pressure.
+Machining data from 18 CNC milling experiments on wax blocks at the University of Michigan, varying tool condition, feed rate and clamp pressure.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | CNC machining and tool wear |
-| **Modality** | Time series |
-| **Task** | Classification; Condition monitoring |
-| **Annotation** | Class label; Event and time label |
-| **Source Type** | Lab or testbed |
-| **Access** | Kaggle |
-| **Size** | 18 experiments |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Manufacturing
+- **Asset / Process:** CNC machining and tool wear
+- **Modality:** Time series
+- **Task:** Classification; Condition monitoring
+- **Annotation:** Class label; Event and time label
+- **Source Type:** Lab or testbed
+- **Access:** Kaggle
+- **Size:** 18 experiments
+- **License:** CC0 and public domain
 
 ## Description
 

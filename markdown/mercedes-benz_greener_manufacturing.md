@@ -1,19 +1,13 @@
 # Mercedes-Benz Greener Manufacturing
 
-**Summary:** Train and test tables of Mercedes-Benz car feature permutations, framed around predicting the time each configuration needs on the test bench.
+Train and test tables of Mercedes-Benz car feature permutations, framed around predicting the time each configuration needs on the test bench.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Vehicles and fleets |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Vehicles and fleets
+- **Modality:** Tabular
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Access:** Kaggle
 
 ## Description
 

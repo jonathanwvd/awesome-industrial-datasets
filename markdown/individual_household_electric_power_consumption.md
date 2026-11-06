@@ -1,19 +1,16 @@
 # Individual Household Electric Power Consumption
 
-**Summary:** One-minute measurements of active and reactive power, voltage, current and three sub-meters in a house near Paris, from 2006 to 2010.
+One-minute measurements of active and reactive power, voltage, current and three sub-meters in a house near Paris, from 2006 to 2010.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Buildings and appliances |
-| **Asset / Process** | HVAC and building systems |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 2,075,259 measurements |
-| **Year** | 2012 |
-| **License** | CC BY |
+- **Domain:** Buildings and appliances
+- **Asset / Process:** HVAC and building systems
+- **Modality:** Time series
+- **Task:** Regression
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 2,075,259 measurements
+- **Year:** 2012
+- **License:** CC BY
 
 ## Description
 

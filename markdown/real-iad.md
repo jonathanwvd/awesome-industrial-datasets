@@ -1,20 +1,16 @@
 # Real-IAD
 
-**Summary:** Multi-view industrial anomaly detection images from a real production line, with eight coded defect types and JSON data splits, about 507 GB in raw form.
+Multi-view industrial anomaly detection images from a real production line, with eight coded defect types and JSON data splits, about 507 GB in raw form.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Defect detection |
-| **Annotation** | Class label |
-| **Source Type** | Real production |
-| **Access** | Hugging Face |
-| **Size** | About 507 GB raw; about 53 GB at 1024 × 1024 |
-| **Year** | 2024 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** Hugging Face
+- **Size:** About 507 GB raw; about 53 GB at 1024 × 1024
+- **Year:** 2024
+- **Benchmark:** Yes
 
 ## Description
 

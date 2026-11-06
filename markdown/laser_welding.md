@@ -1,19 +1,15 @@
 # Screening Datasets for Laser Welded Steel-Copper Lap Joints
 
-**Summary:** Definitive screening experiments on laser welded steel-copper lap joints, with 360 evaluated cross sections recording weld metal size and cracking.
+Definitive screening experiments on laser welded steel-copper lap joints, with 360 evaluated cross sections recording weld metal size and cracking.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Welding |
-| **Modality** | Tabular |
-| **Task** | Quality prediction; Regression |
-| **Annotation** | Sample label; Scalar target |
-| **Source Type** | Lab or testbed |
-| **Access** | Mendeley Data |
-| **Size** | 360 cross sections (version V1) |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Welding
+- **Modality:** Tabular
+- **Task:** Quality prediction; Regression
+- **Annotation:** Sample label; Scalar target
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Size:** 360 cross sections (version V1)
 
 ## Description
 

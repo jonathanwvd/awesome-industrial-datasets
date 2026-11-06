@@ -1,20 +1,16 @@
 # Kylberg Texture Dataset v. 1.0
 
-**Summary:** Grayscale texture patches from 28 classes of fabrics, stone and loose materials, 160 per class, with an optional set rotated in 30-degree steps.
+Grayscale texture patches from 28 classes of fabrics, stone and loose materials, 160 per class, with an optional set rotated in 30-degree steps.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 4,480 texture patches (53,760 with rotations) |
-| **Year** | 2011 |
-| **License** | — |
-| **Publisher** | Centre for Image Analysis, Swedish University of Agricultural Sciences and Uppsala University |
+- **Domain:** Materials and metrology
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Classification
+- **Annotation:** Class label
+- **Access:** Direct download
+- **Size:** 4,480 texture patches (53,760 with rotations)
+- **Year:** 2011
+- **Publisher:** Centre for Image Analysis, Swedish University of Agricultural Sciences and Uppsala University
 
 ## Description
 

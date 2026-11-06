@@ -1,20 +1,17 @@
 # Gas sensor array under dynamic gas mixtures
 
-**Summary:** About 12 hours of continuous recordings per mixture from a 16-sensor chemical array exposed to Ethylene-Methane and Ethylene-CO mixtures at randomly changing concentrations.
+About 12 hours of continuous recordings per mixture from a 16-sensor chemical array exposed to Ethylene-Methane and Ethylene-CO mixtures at randomly changing concentrations.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Lab or testbed |
-| **Access** | UCI repository |
-| **Size** | 4,178,504 instances in two files |
-| **Year** | 2015 |
-| **License** | Academic or non-commercial terms |
-| **Publisher** | ChemoSignals Laboratory, BioCircuits Institute, University of California San Diego |
+- **Domain:** Chemical and process
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Lab or testbed
+- **Access:** UCI repository
+- **Size:** 4,178,504 instances in two files
+- **Year:** 2015
+- **License:** Academic or non-commercial terms
+- **Publisher:** ChemoSignals Laboratory, BioCircuits Institute, University of California San Diego
 
 ## Description
 

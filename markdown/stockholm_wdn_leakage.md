@@ -1,19 +1,16 @@
 # Multi-Sensor Time-Series Dataset for Leakage Detection in Stockholm's Water Distribution Network
 
-**Summary:** Processed flow and pressure time series from a real water distribution network in Stockholm, Sweden, covering normal operation and leakage scenarios.
+Processed flow and pressure time series from a real water distribution network in Stockholm, Sweden, covering normal operation and leakage scenarios.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Water and utilities |
-| **Asset / Process** | Water treatment and distribution |
-| **Modality** | Time series |
-| **Task** | Classification |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | One file (SVOA.mat), 29,822,041 bytes |
-| **Year** | 2026 |
-| **License** | CC BY |
+- **Domain:** Water and utilities
+- **Asset / Process:** Water treatment and distribution
+- **Modality:** Time series
+- **Task:** Classification
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** One file (SVOA.mat), 29,822,041 bytes
+- **Year:** 2026
+- **License:** CC BY
 
 ## Description
 

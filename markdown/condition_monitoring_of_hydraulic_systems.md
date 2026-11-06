@@ -1,19 +1,17 @@
 # Condition monitoring of hydraulic systems
 
-**Summary:** Multi-sensor recordings of 2,205 load cycles on a hydraulic test rig, with cycle-wise condition grades for cooler, valve, pump and accumulator.
+Multi-sensor recordings of 2,205 load cycles on a hydraulic test rig, with cycle-wise condition grades for cooler, valve, pump and accumulator.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Pumps, compressors and fans; Valves and actuators |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis; Condition monitoring; Regression |
-| **Annotation** | Class label; Scalar target |
-| **Source Type** | Lab or testbed |
-| **Access** | UCI repository |
-| **Size** | 2,205 load cycles |
-| **Year** | 2018 |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Asset / Process:** Pumps, compressors and fans; Valves and actuators
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Condition monitoring; Regression
+- **Annotation:** Class label; Scalar target
+- **Source Type:** Lab or testbed
+- **Access:** UCI repository
+- **Size:** 2,205 load cycles
+- **Year:** 2018
+- **License:** CC BY
 
 ## Description
 

@@ -1,19 +1,14 @@
 # RAWSim-O
 
-**Summary:** Discrete event-based simulation framework for Robotic Mobile Fulfillment Systems, built for adding and testing new methods for their decision problems.
+Discrete event-based simulation framework for Robotic Mobile Fulfillment Systems, built for adding and testing new methods for their decision problems.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Logistics and retail |
-| **Asset / Process** | — |
-| **Modality** | Simulator |
-| **Task** | Simulation and control |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2018 |
-| **License** | GPL |
+- **Domain:** Logistics and retail
+- **Modality:** Simulator
+- **Task:** Simulation and control
+- **Source Type:** Simulation
+- **Access:** Code repository
+- **Year:** 2018
+- **License:** GPL
 
 ## Description
 

@@ -1,19 +1,14 @@
 # Industrial IoT Fault Detection Dataset
 
-**Summary:** Table of 1000 machine sensor readings with vibration, temperature and pressure plus a fault label for no fault, bearing fault or overheating.
+Table of 1000 machine sensor readings with vibration, temperature and pressure plus a fault label for no fault, bearing fault or overheating.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Fault diagnosis; Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | 1000 entries |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label
+- **Access:** Kaggle
+- **Size:** 1000 entries
+- **License:** CC0 and public domain
 
 ## Description
 

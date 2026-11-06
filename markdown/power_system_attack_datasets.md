@@ -1,19 +1,13 @@
 # Power System Datasets
 
-**Summary:** Three datasets of electric transmission system normal, disturbance, control and cyber attack behaviour, with synchrophasor measurements plus logs from Snort, a simulated control panel and relays.
+Three datasets of electric transmission system normal, disturbance, control and cyber attack behaviour, with synchrophasor measurements plus logs from Snort, a simulated control panel and relays.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Time series |
-| **Task** | Intrusion detection; Classification |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 3 datasets |
-| **Year** | — |
-| **License** | — |
+- **Domain:** OT security
+- **Asset / Process:** Power grids and plants
+- **Modality:** Time series
+- **Task:** Intrusion detection; Classification
+- **Access:** Direct download
+- **Size:** 3 datasets
 
 ## Description
 

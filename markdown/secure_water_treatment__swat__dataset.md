@@ -1,20 +1,16 @@
 # Secure Water Treatment (SWaT) Dataset
 
-**Summary:** Sensor, actuator and network data from the iTrust SWaT water treatment testbed; the December 2015 set spans 11 days of operation and 41 attacks.
+Sensor, actuator and network data from the iTrust SWaT water treatment testbed; the December 2015 set spans 11 days of operation and 41 attacks.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Water treatment and distribution; Control systems and networks |
-| **Modality** | Time series; Network traffic |
-| **Task** | Intrusion detection |
-| **Annotation** | Sample label |
-| **Source Type** | Lab or testbed |
-| **Access** | — |
-| **Size** | 11 days of operation, 51 sensors and actuators (SWaT.A1) |
-| **Year** | 2015 |
-| **License** | — |
-| **Publisher** | iTrust |
+- **Domain:** OT security
+- **Asset / Process:** Water treatment and distribution; Control systems and networks
+- **Modality:** Time series; Network traffic
+- **Task:** Intrusion detection
+- **Annotation:** Sample label
+- **Source Type:** Lab or testbed
+- **Size:** 11 days of operation, 51 sensors and actuators (SWaT.A1)
+- **Year:** 2015
+- **Publisher:** iTrust
 
 ## Description
 

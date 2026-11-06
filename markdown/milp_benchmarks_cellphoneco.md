@@ -1,20 +1,15 @@
 # MILP Benchmarks CellphoneCo.
 
-**Summary:** Mixed-integer linear programming instances in MPS format that model the weekly supply chain planning of a fictive cellphone and accessories company.
+Mixed-integer linear programming instances in MPS format that model the weekly supply chain planning of a fictive cellphone and accessories company.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Logistics and retail |
-| **Asset / Process** | — |
-| **Modality** | Problem instances |
-| **Task** | Scheduling and optimization |
-| **Annotation** | — |
-| **Source Type** | Synthetic |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2023 |
-| **License** | Apache 2.0 |
-| **Publisher** | SAP SE |
+- **Domain:** Logistics and retail
+- **Modality:** Problem instances
+- **Task:** Scheduling and optimization
+- **Source Type:** Synthetic
+- **Access:** Code repository
+- **Year:** 2023
+- **License:** Apache 2.0
+- **Publisher:** SAP SE
 
 ## Description
 

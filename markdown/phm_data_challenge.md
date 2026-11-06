@@ -1,20 +1,15 @@
 # PHM Data Challenge
 
-**Summary:** Plant sensor, control reference and fault event logs from the 2015 PHM competition on detecting plant faults and localizing them in time.
+Plant sensor, control reference and fault event logs from the 2015 PHM competition on detecting plant faults and localizing them in time.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis; RUL and prognostics |
-| **Annotation** | Event and time label; Class label |
-| **Source Type** | — |
-| **Access** | Competition |
-| **Size** | About thirty training plants and ten test plants |
-| **Year** | 2015 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Fault diagnosis; RUL and prognostics
+- **Annotation:** Event and time label; Class label
+- **Access:** Competition
+- **Size:** About thirty training plants and ten test plants
+- **Year:** 2015
+- **Benchmark:** Yes
 
 ## Description
 

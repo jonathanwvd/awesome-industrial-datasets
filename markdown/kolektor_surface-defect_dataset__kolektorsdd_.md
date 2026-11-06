@@ -1,20 +1,18 @@
 # Kolektor Surface-Defect Dataset (KolektorSDD)
 
-**Summary:** Surface-defect segmentation images of production items from Kolektor Group, with fine or box annotations and files that divide it into three cross-validation folds.
+Surface-defect segmentation images of production items from Kolektor Group, with fine or box annotations and files that divide it into three cross-validation folds.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection; Defect segmentation |
-| **Annotation** | Pixel mask; Bounding box; Sample label |
-| **Source Type** | Real production |
-| **Access** | Direct download |
-| **Size** | 399 images (52 defective, 347 defect-free) |
-| **Year** | 2019 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | ViCoS Lab |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation
+- **Annotation:** Pixel mask; Bounding box; Sample label
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Size:** 399 images (52 defective, 347 defect-free)
+- **Year:** 2019
+- **License:** CC BY-NC-SA
+- **Publisher:** ViCoS Lab
 
 ## Description
 

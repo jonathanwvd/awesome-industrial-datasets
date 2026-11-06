@@ -1,19 +1,14 @@
 # Parts Manufacturing - Industry Dataset
 
-**Summary:** Length, width and height measurements of 500 parts made by each of 20 operators of one industry, with the operator recorded on every row.
+Length, width and height measurements of 500 parts made by each of 20 operators of one industry, with the operator recorded on every row.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | 500 parts from each of 20 operators |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification
+- **Annotation:** Class label
+- **Access:** Kaggle
+- **Size:** 500 parts from each of 20 operators
+- **License:** CC0 and public domain
 
 ## Description
 

@@ -1,19 +1,17 @@
 # Weakly Supervised Learning for Industrial Optical Inspection
 
-**Summary:** Synthetic grayscale images of statistically textured surfaces with weakly labelled defects, made for the DAGM 2007 optical inspection competition.
+Synthetic grayscale images of statistically textured surfaces with weakly labelled defects, made for the DAGM 2007 optical inspection competition.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | Sample label; Pixel mask |
-| **Source Type** | Synthetic |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | Ten datasets in ten archives |
-| **Year** | 2007 |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Annotation:** Sample label; Pixel mask
+- **Source Type:** Synthetic
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** Ten datasets in ten archives
+- **Year:** 2007
+- **License:** CC BY
 
 ## Description
 

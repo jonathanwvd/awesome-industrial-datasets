@@ -1,19 +1,13 @@
 # Turning Dataset for Chatter Diagnosis Using Machine Learning
 
-**Summary:** Accelerometer, microphone and tachometer signals from lathe turning tests on aluminium, with time series tagged by chatter state, from no-chatter to chatter.
+Accelerometer, microphone and tachometer signals from lathe turning tests on aluminium, with time series tagged by chatter state, from no-chatter to chatter.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | CNC machining and tool wear |
-| **Modality** | Vibration; Audio; Time series |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | — |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** CNC machining and tool wear
+- **Modality:** Vibration; Audio; Time series
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
 
 ## Description
 

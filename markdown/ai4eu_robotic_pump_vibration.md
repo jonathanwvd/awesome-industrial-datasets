@@ -1,19 +1,16 @@
 # AI4EU Robotics Pilot: Vibration sensor measurements in a robotic pump
 
-**Summary:** Two months of one-second sensor readings from a robot-mountable hydraulic paint pump fitted with an accelerometer, recorded in 2020 and split by recording date.
+Two months of one-second sensor readings from a robot-mountable hydraulic paint pump fitted with an accelerometer, recorded in 2020 and split by recording date.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Pumps, compressors and fans; Robots and manipulators |
-| **Modality** | Time series |
-| **Task** | Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 380 million measurements |
-| **Year** | 2021 |
-| **License** | CC BY |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Pumps, compressors and fans; Robots and manipulators
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 380 million measurements
+- **Year:** 2021
+- **License:** CC BY
 
 ## Description
 

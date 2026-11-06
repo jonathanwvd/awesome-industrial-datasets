@@ -1,20 +1,16 @@
 # NEU Surface Defect Database
 
-**Summary:** Grayscale image database of six typical surface defect types on hot-rolled steel strip, with 1,800 images and a detection version with bounding boxes.
+Grayscale image database of six typical surface defect types on hot-rolled steel strip, with 1,800 images and a detection version with bounding boxes.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | Steel and metal surfaces |
-| **Modality** | Image |
-| **Task** | Classification; Defect detection |
-| **Annotation** | Class label; Bounding box |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 1,800 grayscale images |
-| **Year** | 2013 |
-| **License** | — |
-| **Publisher** | Northeastern University |
+- **Domain:** Materials and metrology
+- **Asset / Process:** Steel and metal surfaces
+- **Modality:** Image
+- **Task:** Classification; Defect detection
+- **Annotation:** Class label; Bounding box
+- **Access:** Direct download
+- **Size:** 1,800 grayscale images
+- **Year:** 2013
+- **Publisher:** Northeastern University
 
 ## Description
 

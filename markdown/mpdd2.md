@@ -1,20 +1,17 @@
 # MPDD2
 
-**Summary:** Image dataset of more than 700 industrial metal part images for benchmarking visual defect detection, with an anomaly-free training subset.
+Image dataset of more than 700 industrial metal part images for benchmarking visual defect detection, with an anomaly-free training subset.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Castings and metal parts |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Defect detection |
-| **Annotation** | Normal-only training |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 700+ images |
-| **Year** | 2022 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | Brno University of Technology |
+- **Domain:** Manufacturing
+- **Asset / Process:** Castings and metal parts
+- **Modality:** Image
+- **Task:** Anomaly detection; Defect detection
+- **Annotation:** Normal-only training
+- **Access:** Direct download
+- **Size:** 700+ images
+- **Year:** 2022
+- **License:** CC BY-NC-SA
+- **Publisher:** Brno University of Technology
 
 ## Description
 

@@ -1,19 +1,14 @@
 # IoT-Integrated Predictive Maintenance Dataset
 
-**Summary:** Simulated time-series readings from several production-line machines with vibration, acoustic, temperature and current channels and a healthy or faulty label.
+Simulated time-series readings from several production-line machines with vibration, acoustic, temperature and current channels and a healthy or faulty label.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Classification; Condition monitoring |
-| **Annotation** | Sample label |
-| **Source Type** | Synthetic |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Classification; Condition monitoring
+- **Annotation:** Sample label
+- **Source Type:** Synthetic
+- **Access:** Kaggle
+- **License:** CC0 and public domain
 
 ## Description
 

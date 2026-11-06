@@ -1,20 +1,18 @@
 # Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation
 
-**Summary:** Simulated Tennessee Eastman process runs with 20 fault types and fault-free operation, 500 runs per set, for evaluating anomaly detection methods.
+Simulated Tennessee Eastman process runs with 20 fault types and fault-free operation, 500 runs per set, for evaluating anomaly detection methods.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | Chemical process units |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis; Process monitoring |
-| **Annotation** | Class label; Event and time label |
-| **Source Type** | Simulation |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 4 R data files, 1.3 GB as ZIP |
-| **Year** | 2017 |
-| **License** | CC0 and public domain |
-| **Publisher** | Pacific Science and Engineering Group |
+- **Domain:** Chemical and process
+- **Asset / Process:** Chemical process units
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Process monitoring
+- **Annotation:** Class label; Event and time label
+- **Source Type:** Simulation
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 4 R data files, 1.3 GB as ZIP
+- **Year:** 2017
+- **License:** CC0 and public domain
+- **Publisher:** Pacific Science and Engineering Group
 
 ## Description
 

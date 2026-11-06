@@ -1,19 +1,14 @@
 # Design of Experiments for Cyclic Aging of LFP 18650 Cells
 
-**Summary:** Cycling data at 1 Hz from 15 LFP 18650 cells in a factorial design that varies charge rate, discharge rate and depth of discharge at 25 °C.
+Cycling data at 1 Hz from 15 LFP 18650 cells in a factorial design that varies charge rate, discharge rate and depth of discharge at 25 °C.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Batteries |
-| **Modality** | Time series |
-| **Task** | Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Official portal |
-| **Size** | 15 test cells |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Official portal
+- **Size:** 15 test cells
 
 ## Description
 

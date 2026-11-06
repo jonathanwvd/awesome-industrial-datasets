@@ -1,19 +1,14 @@
 # Wind Turbine Scada Dataset
 
-**Summary:** SCADA records at 10-minute intervals from a working wind turbine in Turkey during 2018, pairing measured power with the theoretical power curve.
+SCADA records at 10-minute intervals from a working wind turbine in Turkey during 2018, pairing measured power with the theoretical power curve.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Wind turbines |
-| **Modality** | Time series |
-| **Task** | Regression; Condition monitoring |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Wind turbines
+- **Modality:** Time series
+- **Task:** Regression; Condition monitoring
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Kaggle
 
 ## Description
 

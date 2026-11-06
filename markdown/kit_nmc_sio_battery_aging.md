@@ -1,20 +1,17 @@
 # Comprehensive battery aging dataset: capacity and impedance fade measurements of a lithium-ion NMC/C-SiO cell
 
-**Summary:** Capacity, impedance and two-second raw log data from 228 commercial NMC/C-SiO lithium-ion cells aged under 76 calendar, cyclic and driving-profile conditions.
+Capacity, impedance and two-second raw log data from 228 commercial NMC/C-SiO lithium-ion cells aged under 76 calendar, cyclic and driving-profile conditions.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Batteries |
-| **Modality** | Time series |
-| **Task** | Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Official portal |
-| **Size** | 228 cells, more than 3 billion data rows |
-| **Year** | 2024 |
-| **License** | CC BY |
-| **Publisher** | Karlsruhe Institute of Technology |
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Official portal
+- **Size:** 228 cells, more than 3 billion data rows
+- **Year:** 2024
+- **License:** CC BY
+- **Publisher:** Karlsruhe Institute of Technology
 
 ## Description
 

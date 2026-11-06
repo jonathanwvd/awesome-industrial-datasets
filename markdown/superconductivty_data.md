@@ -1,20 +1,16 @@
 # Superconductivty Data
 
-**Summary:** Tabular data on 21,263 superconductors with 81 derived features each, built to predict the critical temperature of a material.
+Tabular data on 21,263 superconductors with 81 derived features each, built to predict the critical temperature of a material.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 21,263 superconductors, 81 features |
-| **Year** | 2018 |
-| **License** | CC BY |
-| **Publisher** | Kam Hamidieh |
+- **Domain:** Materials and metrology
+- **Modality:** Tabular
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Access:** UCI repository
+- **Size:** 21,263 superconductors, 81 features
+- **Year:** 2018
+- **License:** CC BY
+- **Publisher:** Kam Hamidieh
 
 ## Description
 

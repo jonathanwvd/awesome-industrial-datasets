@@ -1,19 +1,16 @@
 # ToyADMOS2
 
-**Summary:** Toy car and toy train operating sounds under normal and damaged conditions, with a mixer tool that builds anomalous sound detection sets under domain shift.
+Toy car and toy train operating sounds under normal and damaged conditions, with a mixer tool that builds anomalous sound detection sets under domain shift.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Audio |
-| **Task** | Anomaly detection |
-| **Annotation** | Sample label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 149 GB of source recordings |
-| **Year** | 2021 |
-| **License** | Academic or non-commercial terms |
+- **Domain:** Cross-industrial
+- **Modality:** Audio
+- **Task:** Anomaly detection
+- **Annotation:** Sample label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 149 GB of source recordings
+- **Year:** 2021
+- **License:** Academic or non-commercial terms
 
 ## Description
 

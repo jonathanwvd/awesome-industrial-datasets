@@ -1,21 +1,18 @@
 # APS Failure at Scania Trucks
 
-**Summary:** Operational data from heavy Scania trucks, labelled by whether a failure involves the Air Pressure System, with a cost-based metric from a 2016 challenge.
+Operational data from heavy Scania trucks, labelled by whether a failure involves the Air Pressure System, with a cost-based metric from a 2016 challenge.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Transportation and mobility |
-| **Asset / Process** | Vehicles and fleets |
-| **Modality** | Tabular |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 60,000 training and 16,000 test examples |
-| **Year** | 2016 |
-| **License** | — |
-| **Publisher** | Scania CV AB |
-| **Benchmark** | Yes |
+- **Domain:** Transportation and mobility
+- **Asset / Process:** Vehicles and fleets
+- **Modality:** Tabular
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 60,000 training and 16,000 test examples
+- **Year:** 2016
+- **Publisher:** Scania CV AB
+- **Benchmark:** Yes
 
 ## Description
 

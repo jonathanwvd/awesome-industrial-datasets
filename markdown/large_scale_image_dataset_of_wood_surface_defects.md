@@ -1,19 +1,17 @@
 # Large Scale Image Dataset of Wood Surface Defects
 
-**Summary:** Sawn timber surface images from a sawmill production line, with semantic label maps and bounding boxes for ten types of wood defects.
+Sawn timber surface images from a sawmill production line, with semantic label maps and bounding boxes for ten types of wood defects.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection; Defect segmentation; Classification |
-| **Annotation** | Pixel mask; Bounding box |
-| **Source Type** | Real production |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 20,275 images |
-| **Year** | 2022 |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation; Classification
+- **Annotation:** Pixel mask; Bounding box
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 20,275 images
+- **Year:** 2022
+- **License:** CC BY
 
 ## Description
 

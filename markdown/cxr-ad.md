@@ -1,19 +1,13 @@
 # CXR-AD
 
-**Summary:** X-ray images of five industrial component categories with 653 normal and 561 defect samples, the defects marked by pixel-level masks.
+X-ray images of five industrial component categories with 653 normal and 561 defect samples, the defects marked by pixel-level masks.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | X-ray and CT |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Sample label; Pixel mask |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | 653 normal and 561 defect samples |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Modality:** X-ray and CT
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Sample label; Pixel mask
+- **Size:** 653 normal and 561 defect samples
+- **Year:** 2025
 
 ## Description
 

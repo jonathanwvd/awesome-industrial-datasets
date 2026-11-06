@@ -1,19 +1,12 @@
 # PHM 2008 Challenge
 
-**Summary:** Multivariate time series of aircraft engine degradation from the PHM08 prognostics competition, split into training and test subsets.
+Multivariate time series of aircraft engine degradation from the PHM08 prognostics competition, split into training and test subsets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Aerospace and defense |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2008 |
-| **License** | — |
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Time series
+- **Task:** RUL and prognostics
+- **Year:** 2008
 
 ## Description
 

@@ -1,19 +1,16 @@
 # Gas sensor array temperature modulation
 
-**Summary:** Sensor resistances logged at 3.5 Hz during repeated CO and humidity experiments, alongside reference CO concentration, humidity and chamber temperature.
+Sensor resistances logged at 3.5 Hz during repeated CO and humidity experiments, alongside reference CO concentration, humidity and chamber temperature.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Classification; Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Lab or testbed |
-| **Access** | UCI repository |
-| **Size** | 4,095,000 instances in 13 daily files |
-| **Year** | 2019 |
-| **License** | CC BY |
+- **Domain:** Chemical and process
+- **Modality:** Time series
+- **Task:** Classification; Regression
+- **Annotation:** Scalar target
+- **Source Type:** Lab or testbed
+- **Access:** UCI repository
+- **Size:** 4,095,000 instances in 13 daily files
+- **Year:** 2019
+- **License:** CC BY
 
 ## Description
 

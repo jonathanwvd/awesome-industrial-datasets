@@ -1,20 +1,16 @@
 # MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection
 
-**Summary:** Eight-channel sound recordings of normal and anomalous valves, pumps, fans and slide rails, mixed with background noise recorded in real factories.
+Eight-channel sound recordings of normal and anomalous valves, pumps, fans and slide rails, mixed with background noise recorded in real factories.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Valves and actuators; Pumps, compressors and fans |
-| **Modality** | Audio |
-| **Task** | Anomaly detection; Fault diagnosis |
-| **Annotation** | Sample label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | — |
-| **Year** | 2019 |
-| **License** | CC BY-SA |
-| **Publisher** | Hitachi, Ltd. |
+- **Domain:** Manufacturing
+- **Asset / Process:** Valves and actuators; Pumps, compressors and fans
+- **Modality:** Audio
+- **Task:** Anomaly detection; Fault diagnosis
+- **Annotation:** Sample label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2019
+- **License:** CC BY-SA
+- **Publisher:** Hitachi, Ltd.
 
 ## Description
 

@@ -1,19 +1,14 @@
 # Data-driven prediction of battery cycle life before capacity degradation
 
-**Summary:** Per-cell cycle life, per-cycle summaries and within-cycle current, voltage and temperature signals for battery cells, stored as MATLAB and Python files.
+Per-cell cycle life, per-cycle summaries and within-cycle current, voltage and temperature signals for battery cells, stored as MATLAB and Python files.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Batteries |
-| **Modality** | Time series |
-| **Task** | Regression; RUL and prognostics |
-| **Annotation** | Scalar target; RUL label |
-| **Source Type** | — |
-| **Access** | Official portal |
-| **Size** | — |
-| **Year** | 2019 |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Regression; RUL and prognostics
+- **Annotation:** Scalar target; RUL label
+- **Access:** Official portal
+- **Year:** 2019
 
 ## Description
 

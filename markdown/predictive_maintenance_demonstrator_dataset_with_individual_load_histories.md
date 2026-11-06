@@ -1,19 +1,11 @@
 # Predictive maintenance demonstrator dataset with individual load histories
 
-**Summary:** Fatigue test bench demonstrator in which notched steel specimens fail according to individual load histories, with separate training and testing data for virtual sensing.
+Fatigue test bench demonstrator in which notched steel specimens fail according to individual load histories, with separate training and testing data for virtual sensing.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Regression; RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | — |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Materials and metrology
+- **Modality:** Time series
+- **Task:** Regression; RUL and prognostics
+- **Source Type:** Lab or testbed
 
 ## Description
 

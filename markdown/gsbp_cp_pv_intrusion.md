@@ -1,19 +1,17 @@
 # GSBP-CP
 
-**Summary:** Cross-layer intrusion detection data from an operational grid-tied PV installation in Morocco, with Modbus/TCP inverter telemetry, MQTT meter readings and packet captures.
+Cross-layer intrusion detection data from an operational grid-tied PV installation in Morocco, with Modbus/TCP inverter telemetry, MQTT meter readings and packet captures.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Solar PV; Control systems and networks |
-| **Modality** | Network traffic; Time series; Tabular |
-| **Task** | Intrusion detection |
-| **Annotation** | Event and time label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 223,215 time-aligned records |
-| **Year** | 2026 |
-| **License** | CC BY |
+- **Domain:** OT security
+- **Asset / Process:** Solar PV; Control systems and networks
+- **Modality:** Network traffic; Time series; Tabular
+- **Task:** Intrusion detection
+- **Annotation:** Event and time label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 223,215 time-aligned records
+- **Year:** 2026
+- **License:** CC BY
 
 ## Description
 

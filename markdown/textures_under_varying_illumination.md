@@ -1,20 +1,13 @@
 # KTH-TIPS
 
-**Summary:** Texture image databases from KTH that extend CUReT with variation in scale, pose and illumination, with KTH-TIPS2 imaging 4 samples of each of 11 materials.
+Texture image databases from KTH that extend CUReT with variation in scale, pose and illumination, with KTH-TIPS2 imaging 4 samples of each of 11 materials.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Materials and metrology |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Classification |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Official portal |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | KTH |
+- **Domain:** Materials and metrology
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Classification
+- **Access:** Official portal
+- **Publisher:** KTH
 
 ## Description
 
