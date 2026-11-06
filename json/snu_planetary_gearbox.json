@@ -1,13 +1,13 @@
 {
   "Name": "SNU Planetary Gearbox Dataset",
   "Summary": "Vibration and encoder signals from a 2 kW-class planetary gearbox testbed with seven health and fault-severity conditions at constant and varying speed.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Gears / Gearboxes",
-  "Modality": "Vibration; Time Series",
-  "Task": "Fault Diagnosis",
-  "Annotation": "Class Label",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Zenodo / Dataverse",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Gears and gearboxes",
+  "Modality": "Vibration; Time series",
+  "Task": "Fault diagnosis",
+  "Annotation": "Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
   "Size": "14 configurations of about 100 minutes each",
   "Year": "2026",
   "License": "CC BY",
@@ -16,6 +16,10 @@
     {
       "Text": "DOI",
       "Link": "https://doi.org/10.6084/m9.figshare.32025606"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/snu-planetary-gearbox/"
     }
   ]
 }

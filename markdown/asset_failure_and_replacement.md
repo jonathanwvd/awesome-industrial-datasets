@@ -1,32 +1,34 @@
 # Asset Failure and Replacement
 
-**Summary:** The PHM Data Challenge dataset focuses on asset health calculation in industrial remote monitoring and diagnostics. It includes records of asset part replacements, usage, and failures to generate health scores for assets.
+**Summary:** Part-consumption, usage and failure records from the 2014 PHM Society Data Challenge on scoring asset health for remote monitoring.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Asset Failure and Replacement |
-| **Domain** | General / Cross-Industrial |
-| **Asset / Process** | Other / Cross-Domain |
-| **Modality** | Time Series |
-| **Task** | Classification; Regression; Failure Prediction; RUL / Prognostics |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
-| **Source Type** | Real Production / Field |
+| **Domain** | Cross-industrial |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
+| **Task** | Classification; RUL and prognostics |
+| **Annotation** | Event and time label |
+| **Source Type** | — |
 | **Access** | Competition |
-| **Size** | Information not available |
+| **Size** | 5 CSV data sets plus test instances |
 | **Year** | 2014 |
-| **License** | Proprietary / Restricted |
+| **License** | — |
+| **Publisher** | PHM Society |
+| **Benchmark** | Yes |
 
 ## Description
 
-The PHM Data Challenge is an open competition centered on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are evaluated on their ability to generate health scores that accurately segment assets into high and low failure risks.
+Asset Failure and Replacement is the data of the 2014 PHM Society Data Challenge, chaired by Dustin Garvey and Robert Wigny. Its topic was asset health calculation, a problem that commonly arises in remote monitoring and diagnostics in industry. For proprietary reasons the organisers do not describe the equipment or its domain.
 
-The dataset consists of five data files: Train – Part Consumption, Train – Usage, Train – Failures, Test – Part Consumption, Test – Usage, and Test Instances. These files include information about asset part replacements with reasons, usage parameters resembling an odometer, and failure times. An example submission file is also provided.
+Five CSV data sets are provided: training part consumption (five columns), usage (three columns) and failures (two columns), and test part consumption and usage. A test-instances file lists the asset and time pairs to score, and an example submission shows the format.
 
-Due to proprietary concerns, detailed descriptions of the data and the domain are not provided. The challenge encourages collaboration among students, researchers, and professionals, with the top teams invited to present their findings at the PHM Society Conference.
+Entrants produce a health score that splits test instances into low and high risk of failure within the next 3 time units; the test set is balanced between assets that failed and those that did not. Only usage and part consumption before each test time may be used. The score is (L / N) + (H / N).
 
 ## References
 
-- [PHM Society Data Challenge 2014](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2014/phm-data-challenge-2/)
-- [PHM14 Data Challenge Flyer PDF](https://phmsociety.org/wp-content/uploads/2014/03/PHM14DataChallenge.pdf)
+- [Official page](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2014/phm-data-challenge-2/)
+- [phmsociety.org](https://phmsociety.org/wp-content/uploads/2014/03/PHM14DataChallenge.pdf)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/asset-failure-and-replacement/)
 
 [⬅️ Back to Index](../README.md)

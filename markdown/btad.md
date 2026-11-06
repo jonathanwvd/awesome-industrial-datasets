@@ -1,32 +1,33 @@
 # BTAD
 
-**Summary:** Real-world industrial surface and body defect dataset with three product types and pixel-precise ground truth annotations, captured from industrial image acquisition systems with privacy-preserving transformations.
+**Summary:** Industrial anomaly detection images of three products from BeanTech, about 1.8K RGB images in total with pixel-precise anomaly masks.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | BTAD |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Detection; Defect Segmentation |
-| **Annotation** | Sample Label; Pixel Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository |
-| **Size** | 1799 images across 3 product types (Product1: 400 @ 1600x1600; Product2: 1000 @ 600x600; Product3: 399 @ 800x600) |
+| **Task** | Anomaly detection; Anomaly localization |
+| **Annotation** | Pixel mask |
+| **Source Type** | Real production |
+| **Access** | Direct download |
+| **Size** | 1.8K images of 3 products |
 | **Year** | 2021 |
 | **License** | CC BY-SA |
+| **Publisher** | BeanTech srl |
+| **Benchmark** | Yes |
 
 ## Description
 
-BTAD (BeanTech Anomaly Detection Dataset) is a real-world industrial benchmark released to support anomaly detection and localisation research. The dataset contains images of three different product types captured using industrial image acquisition systems. To preserve industrial privacy, the images were cropped and log-transformed before release. Pixel-precise anomaly masks are provided for all anomalous test images.
+BTAD (BeanTech Anomaly Detection Dataset) holds RGB images of three industrial products, supplied by BeanTech srl. It was introduced with the VT-ADL vision transformer for anomaly detection and localization by Pankaj Mishra, Riccardo Verk, Daniele Fornasier, Claudio Piciarelli and Gian Luca Foresti at the 30th IEEE/IES International Symposium on Industrial Electronics (ISIE) in 2021.
 
-The three product types have different image resolutions and quantities: Product 1 (400 images at 1600×1600 pixels), Product 2 (1,000 images at 600×600 pixels), and Product 3 (399 images at 800×600 pixels). Each product type has dedicated training (normal only) and test (normal and anomalous) splits following the standard MVTec-style protocol.
+The images come from industrial image acquisition systems and were cropped and log-transformed before release. Product 1 has 400 images of 1600x1600 pixels, product 2 has 1,000 images of 600x600 pixels and product 3 has 399 images of 800x600 pixels. Pixel-precise ground truth was annotated by hand with SuperAnnotate.
 
-BTAD was introduced at ISIE 2021 (Mishra et al., VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localisation) and is licensed under CC BY-SA.
+The dataset is used for image anomaly detection and localization and is downloaded as a single ZIP archive. It is released under CC BY-SA 4.0, while the VT-ADL code is under the MIT license.
 
 ## References
 
-- [GitHub (VT-ADL dataset + code)](https://github.com/pankajmishra000/VT-ADL)
-- [Dataset download page](https://avires.dimi.uniud.it/)
+- [GitHub repository](https://github.com/pankajmishra000/VT-ADL)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/btad/)
 
 [⬅️ Back to Index](../README.md)

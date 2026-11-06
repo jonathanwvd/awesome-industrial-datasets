@@ -4,14 +4,13 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Data4Cyber |
-| **Domain** | Cyber-Physical Security |
-| **Asset / Process** | Power Grid / Plants; SCADA / ICS |
-| **Modality** | Time Series; Network Traffic |
-| **Task** | Intrusion Detection |
-| **Annotation** | Sample Label; Time / Event Label |
-| **Source Type** | Information not available |
-| **Access** | Zenodo / Dataverse |
+| **Domain** | OT security |
+| **Asset / Process** | Power grids and plants; Control systems and networks |
+| **Modality** | Time series; Network traffic |
+| **Task** | Intrusion detection |
+| **Annotation** | Sample label; Event and time label |
+| **Source Type** | — |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 14,354 rows |
 | **Year** | 2026 |
 | **License** | CC BY |
@@ -28,5 +27,6 @@ Labels include a binary attack_active flag, an attack_phase field with one label
 
 - [DOI](https://doi.org/10.5281/zenodo.20004612)
 - [Zenodo record](https://zenodo.org/records/20004612)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/data4cyber/)
 
 [⬅️ Back to Index](../README.md)

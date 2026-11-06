@@ -1,39 +1,32 @@
-# IV2V and iV2I+ Industrial Datasets
+# AI4Mobile Industrial Wireless Datasets: iV2V and iV2I+
 
-**Summary:** AI4Mobile industrial wireless datasets collected by Fraunhofer HHI in an industrial warehouse, covering iV2V (vehicle-to-vehicle) and iV2I+ (vehicle-to-infrastructure) 5G NR channel measurements for ML-based beam management and link quality prediction.
+**Summary:** Wireless measurements from two industrial testbeds, one with sidelink links among three AGVs and one with a cleaning robot on a private cellular network.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | IV2V and iV2I+ Industrial Datasets |
-| **Domain** | Transportation & Mobility; Logistics & Retail |
-| **Asset / Process** | Vehicles / Fleets |
-| **Modality** | Time Series |
+| **Domain** | Transportation and mobility |
+| **Asset / Process** | Vehicles and fleets |
+| **Modality** | Time series |
 | **Task** | Forecasting; Classification |
-| **Annotation** | Sample Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository; IEEE DataPort |
-| **Size** | Multiple measurement campaigns in an industrial warehouse environment; thousands of channel measurement snapshots per scenario |
-| **Year** | 2021 |
-| **License** | Information not available |
+| **Annotation** | — |
+| **Source Type** | Lab or testbed |
+| **Access** | IEEE DataPort |
+| **Size** | 10 h (iV2V) and about 16 h (iV2I+) of measurements |
+| **Year** | — |
+| **License** | — |
+| **Publisher** | Fraunhofer Heinrich Hertz Institute |
 
 ## Description
 
-The iV2V and iV2I+ datasets are part of the AI4Mobile project (H2020 EU research project) and were collected by Fraunhofer HHI (Heinrich Hertz Institute, Berlin) in an industrial warehouse environment. The datasets capture real 5G New Radio (NR) channel measurements between mobile industrial vehicles (forklifts) and fixed infrastructure points.
+The AI4Mobile Industrial Wireless Datasets combine two measurement campaigns, iV2V (industrial vehicle-to-vehicle) and iV2I+ (industrial vehicular-to-infrastructure plus sensor). Its authors work at Fraunhofer Heinrich Hertz Institute, Ericsson Research, TU Dresden, Robert Bosch, Götting and Enway, and the records are hosted on IEEE DataPort.
 
-iV2V (industrial Vehicle-to-Vehicle): Measurements between two mobile nodes (forklifts) moving in a warehouse.
-iV2I+ (industrial Vehicle-to-Infrastructure plus): Measurements between a mobile node (forklift) and fixed infrastructure access points, with multiple antenna configurations.
+In iV2V, three automated guided vehicles exchange sidelink traffic over 10 hours. In iV2I+, an autonomous cleaning robot works for around 16 hours at an industrial site while connected to a private cellular network. Both record physical layer parameters such as signal strength and quality, delay and throughput as quality of service, and positioning.
 
-For each measurement snapshot, the dataset provides signal quality metrics (RSRP, RSRQ, SINR), precise position and trajectory data, beam indices, and timestamps. The data is intended for machine learning research in:
-- Beam management and beam prediction
-- Link quality estimation and prediction
-- Positioning and localization
-- Channel modeling for industrial wireless networks
-
-Support code and documentation are available on GitHub (Fraunhofer HHI repository). The datasets are openly accessible via IEEE DataPort.
+Labels and pre-filtering prepare the records for machine learning on fingerprinting, line-of-sight detection, QoS prediction and link selection. Parquet files and info CSVs are open to anyone logged in with a free IEEE account, with documentation on GitHub.
 
 ## References
 
-- [IEEE DataPort: AI4Mobile Industrial Wireless Datasets iV2V and iV2I+](https://ieee-dataport.org/open-access/ai4mobile-industrial-wireless-datasets-iv2v-and-iv2i)
-- [GitHub Repository (Fraunhofer HHI)](https://github.com/fraunhoferhhi/ai4mobile-industrial)
+- [IEEE DataPort](https://ieee-dataport.org/open-access/ai4mobile-industrial-wireless-datasets-iv2v-and-iv2i)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/iv2v-and-iv2i-industrial-datasets/)
 
 [⬅️ Back to Index](../README.md)

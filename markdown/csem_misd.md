@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | CSEM-MISD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Casting / Metal Parts |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Castings and metal parts |
 | **Modality** | Image |
-| **Task** | Defect Segmentation; Defect Detection |
-| **Annotation** | Pixel Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Task** | Defect segmentation; Defect detection |
+| **Annotation** | Pixel mask |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 70 parts with 108 images each |
 | **Year** | 2021 |
-| **License** | CC BY-NC-ND |
+| **License** | CC BY-ND and NC-ND |
+| **Publisher** | Centre Suisse d'Electronique et de Microtechnique (CSEM) |
 
 ## Description
 
@@ -29,5 +29,6 @@ The data accompanies the 2021 paper "Defect segmentation for multi-illumination 
 - [DOI](https://doi.org/10.5281/zenodo.5513768)
 - [Zenodo record](https://zenodo.org/records/5513769)
 - [GitHub repository](https://github.com/DawyD/illumination-preserving-rotations)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/csem-misd/)
 
 [⬅️ Back to Index](../README.md)

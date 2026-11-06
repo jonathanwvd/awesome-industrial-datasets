@@ -1,33 +1,20 @@
 {
   "Name": "Oil Storage Tanks",
-  "Summary": "Image data of industrial tanks with bounding box annotations for floating head oil storage tanks.",
-  "Domain": "Oil & Gas; Energy & Power",
-  "Asset / Process": "Oil Wells / Reservoirs",
-  "Modality": "Image; Geospatial / Remote Sensing",
-  "Task": "Object Detection",
-  "Annotation": "Sample Label; Bounding Box",
-  "Source Type": "Remote Sensing",
-  "Access": "Kaggle; Login Required",
-  "Size": "Information not available",
-  "Year": "2019",
-  "License": "Information not available",
-  "Description": "Oil storage tanks play an important role in the global economy. Crude oil is stored in tanks at many points between extraction and sale. Storage tanks are also used by nations to stockpile oil reserves. The volume of oil in storage is an important economic indicator. It indicates which oil producing nations are increasing or decreasing production and gives a window into the global demand for energy. At the same time, oil storage information is not transparent. Nations may hide information about oil production, consumption and storage for economic or military reasons. For this reason, companies like Planet and Orbital Insight have made a business of collecting satellite imagery of oil storage tanks and estimating reserve volumes.\n\nTank volume estimation is possible because oil is typically stored in floating head tanks. This particular tank type has a head that sits directly on top of the crude oil to prevent buildup of fumes. As a result, the height of the tank head rises and falls with the volume of oil in the tank. The relative sizes of the exterior shadow cast by the tank itself and the interior shadow cast by the height of the tank head can be used to estimate the tank volume.\n\nThe dataset contains satellite images taken from Google Earth of tank-containing industrial areas around the world. Images are annotated with bounding box information for floating head tanks in the image. Fixed head tanks are not annotated. The large_images directory contains the raw 4800x4800 images saved from Google Earth. The image_patches directory contains 512x512 patches generated from the large image. Labels are provided in labels.json and labels_coco.json files with bounding box coordinates. Additional metadata is contained in large_image_data.csv, including geographic coordinates and altitude. This dataset was made possible by Google Earth.",
+  "Summary": "Google Earth satellite images of industrial areas with bounding boxes for floating head oil tanks, as 4800x4800 scenes and 512x512 patches.",
+  "Domain": "Oil and gas",
+  "Modality": "Image; Geospatial and remote sensing",
+  "Task": "Object detection",
+  "Annotation": "Bounding box",
+  "Access": "Kaggle",
+  "Description": "This dataset gathers satellite images, saved from Google Earth, of tank-containing industrial areas around the world. Floating head tanks are marked with bounding boxes, while fixed head tanks carry no annotation. In a floating head tank the roof rests on the crude oil, so the shadows the tank casts change with the stored volume.\n\nRaw scenes measure 4800x4800 pixels, and each is cut into 100 patches of 512x512 pixels that overlap by 37 pixels on both axes. Every box is given by the coordinates of its four corners and again in COCO format, and images with no floating head tank carry the label 'skip'. Metadata for each large scene records the coordinates of its centre and the altitude.\n\nThe publisher explains that the ratio between the outer shadow of the tank and the inner shadow of its head can be used to estimate the stored volume. Commercial firms such as Planet and Orbital Insight collect satellite imagery of oil tanks to estimate reserve volumes.",
   "References": [
     {
-      "Text": "Kaggle Dataset: Oil Storage Tanks",
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks"
     },
     {
-      "Text": "Planet",
-      "Link": "https://www.planet.com/"
-    },
-    {
-      "Text": "Orbital Insight",
-      "Link": "https://orbitalinsight.com/"
-    },
-    {
-      "Text": "COCO label format",
-      "Link": "http://cocodataset.org/#format-data"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/oil-storage-tanks/"
     }
   ]
 }

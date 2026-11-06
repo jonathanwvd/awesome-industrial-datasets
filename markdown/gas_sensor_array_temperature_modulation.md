@@ -1,32 +1,31 @@
 # Gas sensor array temperature modulation
 
-**Summary:** A chemical detection platform composed of 14 temperature-modulated metal oxide (MOX) gas sensors was exposed during 3 weeks to mixtures of carbon monoxide and humid synthetic air in a gas chamber.
+**Summary:** Sensor resistances logged at 3.5 Hz during repeated CO and humidity experiments, alongside reference CO concentration, humidity and chamber temperature.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Gas sensor array temperature modulation |
-| **Domain** | Chemical & Process; Electronics & Semiconductor |
-| **Asset / Process** | Chemical Process |
-| **Modality** | Time Series |
+| **Domain** | Chemical and process |
+| **Asset / Process** | — |
+| **Modality** | Time series |
 | **Task** | Classification; Regression |
-| **Annotation** | Class Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | UCI |
-| **Size** | 4095000 |
+| **Annotation** | Scalar target |
+| **Source Type** | Lab or testbed |
+| **Access** | UCI repository |
+| **Size** | 4,095,000 instances in 13 daily files |
 | **Year** | 2019 |
-| **License** | Information not available |
+| **License** | CC BY |
 
 ## Description
 
-A chemical detection platform composed of 14 temperature-modulated metal oxide semiconductor (MOX) gas sensors was exposed to dynamic mixtures of carbon monoxide (CO) and humid synthetic air in a gas chamber. The acquired time series of the sensors and the measured values of CO concentration, humidity and temperature inside the gas chamber are provided.
+Gas sensor array temperature modulation records a chemical detection platform of 14 temperature-modulated metal oxide (MOX) gas sensors, 7 Figaro TGS 3870-A04 and 7 FIS SB-500-12 units, exposed to dynamic mixtures of carbon monoxide and humid synthetic air in a 250 cm3 PTFE test chamber. It was donated to the UCI Machine Learning Repository in 2019.
 
-The chemical detection platform consists of 14 MOX gas sensors, 7 units of TGS 3870-A04 sensors by Figaro Engineering and 7 units of SB-500-12 by FIS. The operating temperature of the sensors was controlled by a modulated heater voltage cycling between 0.2-0.9 V. Sensors were pre-heated for one week before experiments. The sensors' output voltage was sampled at 3.5 Hz using an Agilent DAQ system.
+Each experiment has 100 measurements: 10 CO concentrations from 0 to 20 ppm with 10 replicates each, at a random humidity between 15% and 75% r.h. Each mixture flows at 240 mln/min for 15 minutes, so one experiment lasts 25 hours; it was repeated on 13 working days over 17 days. The heater voltage is modulated between 0.2 and 0.9 V in cycles of 20 and 25 s.
 
-Dynamic gas mixtures were generated with mass flow controllers controlling streams of CO, wet and dry air delivered into a small PTFE test chamber. The CO concentration ranged from 0 to 20 ppm with relative humidity between 15% and 75%. Each experiment included 100 measurements, lasting approximately 25 hours per experiment, replicated across 13 working days over 17 calendar days. The dataset is contained in 13 text files corresponding to each measurement day.
+The 13 text files, one per day, hold 20 columns sampled at 3.5 Hz: time, CO concentration, humidity, temperature, flow rate, heater voltage and the resistances R1 to R14 in MOhm. There are no missing values, and the 174.8 MB archive is under CC BY 4.0.
 
 ## References
 
-- [UCI Machine Learning Repository Dataset Page](https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation)
-- [Dataset DOI](https://doi.org/10.24432/C5S302)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/gas-sensor-array-temperature-modulation/)
 
 [⬅️ Back to Index](../README.md)

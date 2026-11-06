@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Dataset of Hyperspectral Melt Pool Signatures and Thermal Anomalies in DED of 316L steel |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Additive Manufacturing |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Additive manufacturing |
 | **Modality** | Image |
-| **Task** | Classification; Process Monitoring |
-| **Annotation** | Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Task** | Classification; Process monitoring |
+| **Annotation** | Class label |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 561,861 hyperspectral images |
 | **Year** | 2023 |
 | **License** | CC BY |
+| **Publisher** | Vrije Universiteit Brussel |
 
 ## Description
 
@@ -29,5 +29,6 @@ The raw .tif images come in ZIP archives with a Python debayering function that 
 - [DOI](https://doi.org/10.5281/zenodo.10409569)
 - [Zenodo record](https://zenodo.org/records/10409569)
 - [DOI](https://doi.org/10.1109/ACCESS.2024.3507370)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/hyperspectral-ded-melt-pool-316l/)
 
 [⬅️ Back to Index](../README.md)

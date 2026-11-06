@@ -1,32 +1,33 @@
 # Mechanical Analysis
 
-**Summary:** Fault diagnosis problem of electromechanical devices; also PUMPS DATA SET is newer version with domain theory and results.
+**Summary:** Fault-diagnosis records of electromechanical devices: 209 multi-component measurement instances, each in one of six classes.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Mechanical Analysis |
-| **Domain** | General / Cross-Industrial |
-| **Asset / Process** | Other / Cross-Domain |
-| **Modality** | Tabular; Time Series |
-| **Task** | Classification; Fault Diagnosis |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 209 |
+| **Domain** | Cross-industrial |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
+| **Task** | Classification; Fault diagnosis |
+| **Annotation** | Class label |
+| **Source Type** | — |
+| **Access** | UCI repository |
+| **Size** | 209 instances |
 | **Year** | 1990 |
-| **License** | Information not available |
+| **License** | CC BY |
+| **Publisher** | F. Bergadano, A. Giordana and L. Saitta |
 
 ## Description
 
-F. Bergadano supplied this database. Each instance contains many components, each of which has 8 attributes. Different instances in this database have different numbers of components. It was impossible to put one instance on one line. He originally had one instance per file, but this makes it difficult to ftp them. I bundled the set of 209 instances into a single data file, prefixing each with the line: ===== Instance number n: ===== where n is a number in [1,221]. However, they are NOT in sequential order. Twelve (12) of the instances are missing. Bergadano supplied these additional 12 instances (numbers 8,12,32,33,66,69,73,152,167,194,203,208) in a "notused" sub-directory. I bundled these up with the same format in the "notused-instances" file.
+Mechanical Analysis is a fault-diagnosis dataset for electromechanical devices, contributed by F. Bergadano, A. Giordana and L. Saitta and donated to the UCI Machine Learning Repository in 1990. A newer release with domain theory and results is distributed with it as the PUMPS DATA SET.
 
-A quick scan of their file didn't reveal what the purpose is for these twelve instances.
+The main file holds 209 instances, and 12 more ship in a separate "notused" file. Each instance has a variable number of components with eight attributes each: component number, the machine support where the measurement was taken (1 to 4), frequency, the measured value, an earlier measurement, a code for filter, measurement type and direction, and machine speed in rpm. All components of an instance share one class, from 1 to 6.
 
-The attributes include dummy (always 1) used for numbering, class for classification (1..6, the same for components of one example), component number (integer), support in the machine where measure was taken (1..4), frequency of the measure (integer), measure (real), earlier measure (real), filter, type of the measure and direction with several categories, and rpm of the machine (integer, the same for components of one example).
+The data has no missing values, is used for classification and is released under CC BY 4.0.
 
 ## References
 
-- [Bergadano, F., Giordana, A., & Saitta, L. (1990). Mechanical Analysis [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C5VG74)
+- [DOI](https://doi.org/10.24432/C5VG74)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/64/mechanical+analysis)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mechanical-analysis/)
 
 [⬅️ Back to Index](../README.md)

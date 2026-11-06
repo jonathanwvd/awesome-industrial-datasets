@@ -1,31 +1,33 @@
-# MVTec Anomaly Detection (MVTec AD)
+# MVTec AD
 
-**Summary:** MVTec AD is a dataset for benchmarking anomaly detection methods focusing on industrial inspection, containing over 5000 high-resolution images across fifteen different object and texture categories. Pixel-precise annotations of all anomalies are provided.
+**Summary:** Industrial inspection dataset for benchmarking anomaly detection, with over 5,000 high-resolution images in fifteen object and texture categories.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MVTec Anomaly Detection (MVTec AD) |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation |
-| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal; Form Request |
-| **Size** | Over 5000 |
-| **Year** | 2021 |
-| **License** | CC BY |
+| **Task** | Anomaly detection |
+| **Annotation** | Normal-only training; Pixel mask |
+| **Source Type** | — |
+| **Access** | — |
+| **Size** | 5,000+ images |
+| **Year** | — |
+| **License** | CC BY-NC-SA |
+| **Publisher** | MVTec |
 
 ## Description
 
-MVTec AD is designed for benchmarking anomaly detection methods with a strong emphasis on industrial inspection. It comprises over 5000 high-resolution images distributed within fifteen different object and texture categories. Each category includes a set of defect-free training images as well as a test set containing images with various kinds of defects and images without defects.
+MVTec AD is an MVTec dataset whose purpose is benchmarking anomaly detection methods, chiefly in industrial inspection. It is described in a paper on unsupervised anomaly detection and in an extended version of that paper.
 
-The dataset provides pixel-precise annotations of all anomalies, allowing for accurate evaluation of methods. Evaluation code in python is provided to ensure fair and consistent comparison of new and existing methods. The dataset is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, restricting use to non-commercial purposes.
+The dataset contains more than 5,000 high-resolution images in fifteen object and texture categories. Each category has a set of defect-free training images and a test set mixing images with defects of various kinds and images free of defects. Every anomaly comes with a pixel-precise annotation.
+
+Python scripts with a readme support a fair and consistent evaluation of new and existing methods, and the metrics are defined in the paper. The data is released under CC BY-NC-SA 4.0, which does not allow commercial use.
 
 ## References
 
-- [MVTec Anomaly Detection Dataset Paper (2021)](https://link.springer.com/content/pdf/10.1007/s11263-020-01400-4.pdf)
-- [MVTec AD Dataset Paper (2019 CVPR)](https://ieeexplore.ieee.org/document/8954181)
-- [MVTec AD Dataset Homepage](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
+- [Official page](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
+- [mvtec.com](https://www.mvtec.com/company/research/datasets/mvtec-ad)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mvtec-anomaly-detection-mvtec-ad/)
 
 [⬅️ Back to Index](../README.md)

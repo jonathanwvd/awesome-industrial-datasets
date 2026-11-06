@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Spatiotemporally Registered In-Situ and Ex-Situ Datasets for Laser-based Blown Powder Directed Energy Deposition |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Additive Manufacturing |
-| **Modality** | Video; X-ray / CT; Multimodal |
-| **Task** | Process Monitoring |
-| **Annotation** | Information not available |
-| **Source Type** | Information not available |
-| **Access** | Official Portal |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Additive manufacturing |
+| **Modality** | Video; X-ray and CT; Multimodal |
+| **Task** | Process monitoring |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Official portal |
 | **Size** | eight DED builds |
 | **Year** | 2024 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | Oak Ridge National Laboratory |
 
 ## Description
 
@@ -28,5 +28,6 @@ Post-build X-ray computed tomography (XCT) of each coupon is spatially registere
 
 - [DOI](https://doi.org/10.13139/OLCF/2446626)
 - [osti.gov](https://www.osti.gov/dataexplorer/biblio/dataset/2446626)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/ornl-ded-in718-registered/)
 
 [⬅️ Back to Index](../README.md)

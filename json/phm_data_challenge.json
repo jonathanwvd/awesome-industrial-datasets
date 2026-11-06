@@ -1,25 +1,23 @@
 {
   "Name": "PHM Data Challenge",
-  "Summary": "The PHM Data Challenge dataset focuses on fault detection and prognostics in industrial plant monitoring via time series sensor data and fault event records.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Other / Cross-Domain",
-  "Modality": "Time Series",
-  "Task": "Fault Diagnosis; RUL / Prognostics; Predictive Maintenance",
-  "Annotation": "Sample Label; Class Label; Scalar Target",
-  "Source Type": "Real Production / Field",
+  "Summary": "Plant sensor, control reference and fault event logs from the 2015 PHM competition on detecting plant faults and localizing them in time.",
+  "Domain": "Manufacturing",
+  "Modality": "Time series",
+  "Task": "Fault diagnosis; RUL and prognostics",
+  "Annotation": "Event and time label; Class label",
   "Access": "Competition",
-  "Size": "Information not available",
+  "Size": "About thirty training plants and ten test plants",
   "Year": "2015",
-  "License": "Information not available",
-  "Description": "The PHM Data Challenge is a competition centered on fault detection and prognostics in industrial plants, where participants use sensor and control signal time series data to predict future failure events and their timings. The data includes measurements from multiple plant components and zones, with fault events characterized by start time, end time, and fault code. The sampling frequency is roughly one sample every 15 minutes over approximately three to four years.\n\nData sets include training data for approximately thirty plants and test data for about ten plants, with some fault data missing in the test set to simulate real-world prediction challenges. Physical plant model information provided explains feedback loop control systems and measurement zones. The dataset has inconsistencies such as variable sampling intervals and missing data, requiring careful preprocessing and analysis.\n\nParticipants submit predictions of faults for scoring based on detection accuracy with penalties for false positives and negatives. The data challenge facilitates collaboration among students, researchers, and industry professionals and aims to advance machine learning methods for prognostics and health management.",
+  "Benchmark": "Yes",
+  "Description": "The PHM Data Challenge was the competition of the PHM 2015 Conference, focused on fault detection and prognostics in industrial plant monitoring. Teams were scored on detecting plant faults from a set of possible faults and on localizing them in time, with the aim of predicting future failure events of types 1 to 5 and when they occur.\n\nEach plant comes as three CSV files: per-component sensors S1 to S4 and control references R1 to R4, per-zone cumulative energy E1 and instantaneous power E2, and fault events with start time, end time and fault code. Code 6 groups the faults not in focus. Samples arrive about every 15 minutes over roughly three to four years.\n\nTraining data covers about thirty plants and test data about ten, and the second half of each test fault file is incomplete. A score rewards detections within one hour of the true fault time and penalizes false positives and false negatives.",
   "References": [
     {
-      "Text": "PHM Society Data Challenge 2015",
+      "Text": "Official page",
       "Link": "https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2015/phm-data-challenge-3/"
     },
     {
-      "Text": "PHM Data Challenge Q&A",
-      "Link": "https://www.dropbox.com/s/bow6ady5t7z7r4u/Q%26A.pdf?dl=0"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/phm-data-challenge/"
     }
   ]
 }

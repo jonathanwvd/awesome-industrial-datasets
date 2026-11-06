@@ -1,32 +1,32 @@
-# DAMADICS Actuator Benchmark
+# Damadics Benchmark
 
-**Summary:** Process control actuator fault diagnosis benchmark dataset from a sugar factory, consisting of multivariate daily measurement files from a real industrial actuator with multiple fault scenarios for evaluation.
+**Summary:** Benchmark for a pneumatic control valve actuator with faulty and fault-free data, combining a Simulink simulator library with daily data from the Lublin Sugar Factory.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | DAMADICS Actuator Benchmark |
-| **Domain** | Chemical & Process; Manufacturing & Production |
-| **Asset / Process** | Valves / Actuators; Chemical Process |
-| **Modality** | Time Series |
-| **Task** | Classification; Fault Diagnosis; Process Monitoring |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Direct Download |
-| **Size** | Daily matrices of 86400 rows x 33 columns |
-| **Year** | 2001 |
-| **License** | Information not available |
+| **Domain** | Chemical and process |
+| **Asset / Process** | Valves and actuators |
+| **Modality** | Time series |
+| **Task** | Fault diagnosis |
+| **Annotation** | — |
+| **Source Type** | Mixed |
+| **Access** | Direct download |
+| **Size** | — |
+| **Year** | — |
+| **License** | — |
+| **Benchmark** | Yes |
 
 ## Description
 
-DAMADICS (Development and Application of Methods for Actuator Diagnosis in Industrial Control Systems) is a benchmark dataset developed for evaluating actuator fault diagnosis methods in process control environments. The data was collected from a real control valve installation at the Lublin Sugar Factory in Poland, representing a practical industrial deployment scenario.
+The Damadics Benchmark centres on an industrial actuator, the positioner, pneumatic servo-motor and control valve assembly, connected to sugar production processes. It has three parts: a benchmark definition, a Simulink library with a model of the simulator, and data files recorded at the Lublin Sugar Factory.
 
-The dataset consists of daily measurement files, each containing a matrix of approximately 86,400 rows (corresponding to 1 Hz sampling) and 33 measurement columns representing process variables including valve position, flow, pressure, and temperatures. Multiple fault scenarios were intentionally introduced into the process to provide labelled fault data for classifier development and evaluation.
+The data files hold one day of measurements each, from 27 October to 23 November 2001. Values are stored in text columns, the first being a time stamp in seconds from midnight, and a separate description file names the process variables. The recordings cover fault-free operation, natural faulty states and artificially generated faults.
 
-DAMADICS is one of the classical benchmarks in the process control and fault diagnosis community, cited extensively in the literature. Downloads are available via the organiser's website as multi-part ZIP archives. The benchmark description paper is available via ScienceDirect.
+The definition sets the tests to run, the performance indexes to calculate and how results are compared, and it contains the report of the artificial faults. The DAMADICS Actuator Library (DABLib) ships with a library description and four Simulink model examples. The data files and DABLib are offered as ZIP archives.
 
 ## References
 
-- [Dataset downloads (organiser page)](https://iair.mchtr.pw.edu.pl/Damadics)
-- [Benchmark description paper (ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S0967066105001796)
+- [Official page](https://iair.mchtr.pw.edu.pl/Damadics)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/damadics-actuator-benchmark/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,25 +1,26 @@
 {
-  "Name": "Genesis Pick-and-Place Demonstrator Dataset",
-  "Summary": "The dataset consists of sensor and state data from a portable Genesis pick-and-place demonstrator, including normal behavior and labeled anomalies related to a linear drive.",
-  "Domain": "Robotics & Automation; Manufacturing & Production",
-  "Asset / Process": "Robotic Manipulation",
-  "Modality": "Time Series",
-  "Task": "Anomaly Detection; Condition Monitoring",
-  "Annotation": "Sample Label; Time / Event Label",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Kaggle; Login Required",
-  "Size": "16220",
+  "Name": "Genesis Demonstrator Data for Machine Learning",
+  "Summary": "Signals from a portable pick-and-place demonstrator that sorts wood and metal, with state and simulated-anomaly labels plus unlabelled runs with induced faults.",
+  "Domain": "Robotics and automation",
+  "Asset / Process": "Robots and manipulators",
+  "Modality": "Time series",
+  "Task": "Fault diagnosis; Anomaly detection; Classification",
+  "Annotation": "Class label; Event and time label; Unlabeled",
+  "Source Type": "Lab or testbed",
+  "Access": "Kaggle",
+  "Size": "16,220 observations per labelled file",
   "Year": "2018",
-  "License": "Information not available",
-  "Description": "The Genesis Demonstrator was created during the OPAK Project and further revised during the IMPROVE project. It is a portable pick-and-place machine that uses an air tank to supply gripping and storage units. The dataset records 5 continuous signals, 13 discrete signals, and 1 Unix Timestamp, with some datasets containing labels. The demonstrator sorts two different materials (wood and metal) into their corresponding target locations using four modules: Storage Magazine, Sensor, Metal storage, and Wood storage. A pneumatic linear drive transports the materials through a defined sequence of operations controlled by a PLC.\n\nThe first labeled dataset contains 16220 observations taken every 50ms via an OPC DA server, with labels indicating the internal PLC state machine or anomalies. The anomaly labels are manually annotated and include three types: no anomaly, jammed/tilted linear drive, and a linear drive breaking free to correct lag error. Missing values and zero-variance columns have been removed. A second unlabeled dataset contains normal runs and runs with errors for predictive maintenance or anomaly detection, with impairments such as linear drive degradation or reduced air pressure. The datasets may not be fully compatible with each other.",
+  "License": "CC BY-NC-SA",
+  "Publisher": "inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences",
+  "Description": "The Genesis Demonstrator is a portable pick-and-place system built in the OPAK project and revised in the European IMPROVE project; the data is credited to inIT - Institute Industrial IT at Ostwestfalen-Lippe University of Applied Sciences. A linear drive with a pneumatic gripper, fed by an air tank, moves wood and metal from a storage magazine past a sensor to the matching storage box.\n\nEach record combines continuous signals, 13 discrete signals and a Unix timestamp. Two labelled files share 16,220 observations taken every 50 ms through an OPC DA server. One labels the nine PLC state machine steps; the other marks a simulated anomaly by hand, with label 1 for a jammed or tilted linear drive and label 2 for the drive breaking free and correcting its accumulated lag error.\n\nUnlabelled files hold a normal run, a run with a gradually impaired linear drive and one with falling air pressure. The data is cited with a 2018 chapter by von Birgelen and Niggemann on anomaly detection and localization with self-organizing maps. It is released under CC BY-NC-SA 4.0.",
   "References": [
     {
-      "Text": "Kaggle Dataset",
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/datasets/inIT-OWL/genesis-demonstrator-data-for-machine-learning"
     },
     {
-      "Text": "von Birgelen, Alexander; Niggemann, Oliver: Anomaly Detection and Localization for Cyber-Physical Production Systems with Self-Organizing Maps. Springer Vieweg, Aug 2018.",
-      "Link": "https://www.init-owl.de/en/research/publications/detail/anomaly-detection-and-localization-for-cyber-physical-production-systems-with-self-organizing-maps/"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/genesis-pick-and-place-demonstrator-dataset/"
     }
   ]
 }

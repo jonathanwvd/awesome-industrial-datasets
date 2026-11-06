@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | DCASE Anomalous Sound Detection Tasks |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
 | **Modality** | Audio |
-| **Task** | Anomaly Detection |
-| **Annotation** | Normal-Only Training; Sample Label |
-| **Source Type** | Information not available |
+| **Task** | Anomaly detection |
+| **Annotation** | Normal-only training; Sample label |
+| **Source Type** | — |
 | **Access** | Competition |
-| **Size** | Information not available |
+| **Size** | — |
 | **Year** | 2024 |
-| **License** | Information not available |
+| **License** | — |
+| **Benchmark** | Yes |
 
 ## Description
 
@@ -27,5 +27,6 @@ Scoring uses AUC and partial AUC with p = 0.1, combined by harmonic mean into an
 ## References
 
 - [Official page](https://dcase.community/challenge2024/task-first-shot-unsupervised-anomalous-sound-detection-for-machine-condition-monitoring)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/dcase-anomalous-sound-detection-tasks/)
 
 [⬅️ Back to Index](../README.md)

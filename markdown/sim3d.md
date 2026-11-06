@@ -1,32 +1,31 @@
 # SiM3D
 
-**Summary:** SiM3D is a multimodal, multi-view benchmark for manufacturing scenes, with 333 instances across eight object types and associated 3D assets.
+**Summary:** Multiview, multimodal 3D anomaly detection data of 333 instances of 8 manufacturing object types, with CAD models and voxel-level defect annotations.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | SiM3D |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
-| **Modality** | Image; Multimodal |
-| **Task** | Anomaly Detection; 3D Understanding |
-| **Annotation** | Sample Label; Pose / Keypoint Label; Split Metadata |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Image; 3D point cloud; Multimodal |
+| **Task** | Anomaly detection; Anomaly localization |
+| **Annotation** | 3D point mask |
 | **Source Type** | Mixed |
-| **Access** | Hugging Face; Gated Approval |
-| **Size** | 333 instances across 8 object types |
+| **Access** | Hugging Face |
+| **Size** | 333 object instances, about 400 GB compressed |
 | **Year** | 2025 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
-SiM3D is a benchmark for 3D understanding in manufacturing-oriented settings. It combines multi-view visual data, 3D information, CAD assets, and annotations for industrial objects.
+SiM3D (Single-instance Multiview Multimodal 3D Anomaly Detection) is a dataset for 3D anomaly detection and segmentation in manufacturing, in which a method produces a voxel-based Anomaly Volume. It targets single-instance detection, in which only one real or synthetic object is available for training. The paper by Alex Costanzino and co-authors was accepted at ICCV 2025.
 
-The dataset includes 333 instances across eight object types. It is useful for manufacturing inspection, object recognition, 3D understanding, and anomaly detection methods that rely on multimodal information.
+The data covers 333 object instances of 8 manufacturing object types, each type with a CAD model. Each instance has 12 to 36 views from concentric hemispheres, with 12 Mpx grayscale images and point meshes of 5 to 7 million points captured with ZEISS Atos Q sensors. Defects such as dents, scratches, contaminations and paint modifications were made by hand, and anomalous test samples have manually annotated 3D segmentation ground truth.
 
-SiM3D is distributed through a gated Hugging Face dataset page.
+Training follows one of two setups, real2real or synth2real; in the second, methods train on CAD models and are tested on real objects. The archive is about 400 GB compressed and 800 GB unpacked, and access on Hugging Face requires accepting its conditions.
 
 ## References
 
 - [Hugging Face dataset](https://huggingface.co/datasets/arcanoXIII/SiM3D)
-- [Paper (arXiv)](https://arxiv.org/abs/2506.19228)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/sim3d/)
 
 [⬅️ Back to Index](../README.md)

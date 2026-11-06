@@ -1,35 +1,34 @@
 # Degradation Measurement of Robot Arm Position Accuracy
 
-**Summary:** Data collected on the UR robot to measure the degradation of robot arm position accuracy for robot system health assessment. The data sets help build robot health monitoring algorithms and support robot prognostic and health management research.
+**Summary:** Tool center position errors and 125 Hz joint controller data from a UR5 robot arm run under varied temperature, payload and speed, published by NIST.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Degradation Measurement of Robot Arm Position Accuracy |
-| **Domain** | Energy & Power; Robotics & Automation; Manufacturing & Production |
-| **Asset / Process** | Robotic Manipulation |
-| **Modality** | Time Series |
-| **Task** | Regression; RUL / Prognostics; Condition Monitoring |
-| **Annotation** | Fault Type Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | Information not available |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | Robots and manipulators |
+| **Modality** | Time series |
+| **Task** | Condition monitoring |
+| **Annotation** | — |
+| **Source Type** | Lab or testbed |
+| **Access** | Direct download |
+| **Size** | — |
 | **Year** | 2017 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | National Institute of Standards and Technology |
 
 ## Description
 
-A grid moment of the universal robot (UR5) is planned. The tool center positions (TCP) (x,y,z) of the robot are measured by a 7-D measurement system developed at NIST. Differences are compared from the nominal positions to the measured positions. Controller level sensing data are also collected from each joint, to understand the influences of position degradation from temperature, payload, and speed.
+Degradation Measurement of Robot Arm Position Accuracy is a NIST dataset on the positional health of a Universal Robot UR5 arm. It supports work on monitoring, diagnostics and prognostics (PHM) of robot accuracy and is linked to papers by G. Qiao, B. A. Weiss and C. Schlenoff from the 2017 ASME manufacturing conference and IEEE ICRA 2017.
 
-Controller level information provides clues about the root causes of the robot performance degradation, by providing information about the actual and joint positions, velocities, currents, accelerations, torques, and temperatures. The data sets provide both the robot high level TCP positional health data and the controller level components’ detailed information.
+The arm follows a programmed trajectory that stops at randomly selected points in its workspace under different temperatures, payloads and speeds. A 7-D measurement system built at NIST records the tool center position (x, y, z), and its differences from the nominal positions given by the kinematic parameters are stored. Controller data from each joint, collected at 125 Hz, add positions, velocities, currents, accelerations, torques and temperatures.
 
-The data sets can help to build the matrix of robot health monitoring algorithms and tools, support the research of robot prognostics and health management (PHM), and support the validation and verification of the industrial PHM implementation.
+The controller CSV files cover half and full speed with 1.6 lb and 4.5 lb payloads, three tests each, plus cold-start runs with 4.5 lb. In one case the joints started near 25 degrees Celsius and reached about 35 after two hours.
 
 ## References
 
-- [Degradation Analysis for Industrial Robot Systems (2017 ASME Conference)](https://www.nist.gov/publications/accuracy-degradation-analysis-industrial-robot-systems)
-- [Quick Positional Health Assessment for Industrial Robot PHM (IEEE 2017)](https://www.nist.gov/publications/quick-positional-health-assessment-industrial-robot-prognostics-and-health-management)
-- [Development of Measurement Science to Assess PHM for Manufacturing Robotics](Information not available)
-- [Multiple Layer Data Fusion Development for Robotics PHM (2017 ASME Conference)](Information not available)
-- [NIST Degradation Measurement of Robot Arm Position Accuracy Dataset Page](https://www.nist.gov/el/intelligent-systems-division-73500/degradation-measurement-robot-arm-position-accuracy)
+- [Official page](https://www.nist.gov/el/intelligent-systems-division-73500/degradation-measurement-robot-arm-position-accuracy)
+- [data.nist.gov](https://data.nist.gov/od/id/754A77D9DA1E771AE0532457068179851962)
+- [nist.gov](https://www.nist.gov/publications/accuracy-degradation-analysis-industrial-robot-systems)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/degradation-measurement-of-robot-arm-position-accuracy/)
 
 [⬅️ Back to Index](../README.md)

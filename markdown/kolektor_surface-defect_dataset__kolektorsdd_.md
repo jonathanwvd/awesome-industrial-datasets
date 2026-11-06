@@ -1,31 +1,32 @@
 # Kolektor Surface-Defect Dataset (KolektorSDD)
 
-**Summary:** The dataset is constructed from images of defective production items that were provided and annotated by Kolektor Group d.o.o. in a controlled industrial environment in a real-world case.
+**Summary:** Surface-defect segmentation images of production items from Kolektor Group, with fine or box annotations and files that divide it into three cross-validation folds.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Kolektor Surface-Defect Dataset (KolektorSDD) |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Defect Detection; Defect Segmentation; Classification |
-| **Annotation** | Sample Label; Pixel Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | 399 |
-| **Year** | Information not available |
-| **License** | CC BY |
+| **Task** | Defect detection; Defect segmentation |
+| **Annotation** | Pixel mask; Bounding box; Sample label |
+| **Source Type** | Real production |
+| **Access** | Direct download |
+| **Size** | 399 images (52 defective, 347 defect-free) |
+| **Year** | 2019 |
+| **License** | CC BY-NC-SA |
+| **Publisher** | ViCoS Lab |
 
 ## Description
 
-The Kolektor Surface-Defect Dataset consists of 399 images of production items, including 52 images with visible defects and 347 images without any defects. Original images have a width of 500 pixels and height varying from 1240 to 1270 pixels. For training and evaluation, images should be resized to 512 x 1408 pixels. Each item has at least one image where the defect is visible, with two items having defects on two images. The dataset provides negative examples with non-defective surfaces for robust model training.
+The Kolektor Surface-Defect Dataset (KolektorSDD) is an image set of defective production items that Kolektor Group d.o.o. provided and annotated. The images were taken in a controlled industrial environment, and the dataset is published by the ViCoS Lab together with the Journal of Intelligent Manufacturing paper "Segmentation-Based Deep-Learning Approach for Surface-Defect Detection" by Tabernik, Šela, Skvarč and Skočaj (2019).
 
-The dataset has been annotated with fine and box annotations available for download to support several research papers. It is split into three folds for 3-fold cross-validation, with prepared TensorFlow datasets available. The dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, and commercial use requires contacting Danijel Skočaj. The dataset is used for defect detection in industrial surface images and supports segmentation-based deep-learning approaches.
+It holds 399 images: 52 show a visible defect and 347 show defect-free surfaces used as negative examples. The originals are 500 px wide and 1240 to 1270 px high, and the publisher advises resizing them to 512 x 1408 px for training and evaluation. Two versions are offered, one with fine annotations and one with box annotations.
+
+The authors divided the images into three folds for 3-fold cross-validation; the fold files and a TensorFlow version already split into those folds can be downloaded. The license is CC BY-NC-SA 4.0, and commercial use requires a separate agreement with Danijel Skočaj.
 
 ## References
 
-- [ViCoS Lab KolektorSDD Dataset](https://go.vicos.si/kolektorsdd)
-- [Journal of Intelligent Manufacturing Paper](https://prints.vicos.si/publications/370)
-- [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+- [Official page](https://www.vicos.si/resources/kolektorsdd/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/kolektor-surface-defect-dataset-kolektorsdd/)
 
 [⬅️ Back to Index](../README.md)

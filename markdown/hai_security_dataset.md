@@ -4,17 +4,18 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | HAI Security Dataset |
-| **Domain** | Cyber-Physical Security |
-| **Asset / Process** | SCADA / ICS |
-| **Modality** | Time Series |
-| **Task** | Intrusion Detection; Anomaly Detection |
-| **Annotation** | Time / Event Label; Normal-Only Training |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository |
-| **Size** | Information not available |
+| **Domain** | OT security |
+| **Asset / Process** | Control systems and networks |
+| **Modality** | Time series |
+| **Task** | Intrusion detection; Anomaly detection |
+| **Annotation** | Event and time label; Normal-only training |
+| **Source Type** | Lab or testbed |
+| **Access** | Code repository |
+| **Size** | — |
 | **Year** | 2020 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | The Affiliated Institute of ETRI, South Korea |
+| **Benchmark** | Yes |
 
 ## Description
 
@@ -27,5 +28,6 @@ For scoring detectors the publisher strongly recommends the eTaPR metric. The da
 ## References
 
 - [GitHub repository](https://github.com/icsdataset/hai)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/hai-security-dataset/)
 
 [⬅️ Back to Index](../README.md)

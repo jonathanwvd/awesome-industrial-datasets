@@ -1,25 +1,28 @@
 {
-  "Name": "Steel Industry datasets",
-  "Summary": "Analyzing Energy Consumption and Environmental Impact in the Steel Industry.",
-  "Domain": "Energy & Power; Environment & Safety; Manufacturing & Production",
-  "Asset / Process": "Steel / Metal Surfaces; Power Grid / Plants",
-  "Modality": "Time Series",
-  "Task": "Regression; Energy Optimization",
-  "Annotation": "Scalar Target",
-  "Source Type": "Real Production / Field",
-  "Access": "Kaggle; Login Required",
-  "Size": "Likely 20640+ (approximate count based on Usage_kWh counts)",
-  "Year": "Information not available",
-  "License": "CC0",
-  "Description": "This dataset contains time series data recorded with timestamps of energy consumption and environmental impact parameters in the steel industry. The data includes energy usage in kilowatt-hours (Usage_kWh), reactive power consumption (both leading and lagging), carbon dioxide emissions (CO2), power factors, normalized solar energy (NSM), and temporal attributes like WeekStatus and Day_Of_Week.\n\nThese features provide insights into the power efficiency, reactive power usage, and environmental emissions over time, useful for regression tasks to model and analyze energy consumption patterns and their impact.\n\nThis dataset is made available under a CC0 Public Domain license, indicating it is free for public use, and was last updated about a year ago. The data is detailed with continuous readings likely spanning from around 2017-12-31 to 2018-12-12, giving an extensive timeline for analysis.",
+  "Name": "Steel Industry Energy Consumption",
+  "Summary": "Electricity records from a small-scale steel plant in South Korea, with reactive power, power factor, CO2 and a light, medium or maximum load label.",
+  "Domain": "Energy and power",
+  "Modality": "Tabular; Time series",
+  "Task": "Regression; Classification",
+  "Annotation": "Class label",
+  "Source Type": "Real production",
+  "Access": "UCI repository",
+  "Size": "35,040 instances",
+  "Year": "2023",
+  "License": "CC BY",
+  "Description": "Steel Industry Energy Consumption holds electricity data from a smart small-scale steel plant in South Korea, DAEWOO Steel Co. Ltd in Gwangyang, which makes coils, steel plates and iron plates. The plant's consumption is held in a cloud-based system, and its energy data are kept on the website of the Korea Electric Power Corporation. Sathishkumar V E, Changsun Shin and Yongyun Cho donated it to the UCI Machine Learning Repository in 2023.\n\nEach of the 35,040 instances has a date and nine features: energy consumption in kWh, lagging and leading current reactive power in kVarh, CO2, lagging and leading current power factor, seconds since midnight, a weekday or weekend flag and the day of the week. A load type column marks every record as light, medium or maximum load, and no values are missing.\n\nThe repository lists regression as the associated task and links the data to a 2021 paper in Building Research & Information on predicting energy consumption in a smart-city industry building. It is licensed under CC BY 4.0.",
   "References": [
     {
-      "Text": "Steel Industry datasets on Kaggle",
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption"
+    },
+    {
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/datasets/ayushparwal2026/steel-industry-datasets"
     },
     {
-      "Text": "CC0: Public Domain License",
-      "Link": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/steel-industry-datasets/"
     }
   ]
 }

@@ -1,35 +1,34 @@
 # Anemometer Fault Detection
 
-**Summary:** The challenge is focused on anemometer fault detection, a critical problem for the wind power industry, strongly affecting the financing of a potential site.
+**Summary:** Wind-tower anemometer records from the 2011 PHM Society Data Challenge, where faulty anemometers must be found from paired and shear data.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Anemometer Fault Detection |
-| **Domain** | Energy & Power |
-| **Asset / Process** | Other / Cross-Domain |
-| **Modality** | Time Series |
-| **Task** | Classification; Fault Diagnosis; Forecasting |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Competition |
-| **Size** | Information not available |
+| **Domain** | Energy and power |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Anomaly detection; Condition monitoring |
+| **Annotation** | Normal-only training |
+| **Source Type** | Real production |
+| **Access** | Registration required |
+| **Size** | 420 paired and 255 shear test files |
 | **Year** | 2011 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | PHM Society |
+| **Benchmark** | Yes |
 
 ## Description
 
-The PHM Data Challenge is a competition open to all potential conference attendees. This year the challenge is focused on anemometer fault detection, a critical problem for the wind power industry, strongly affecting among other things the financing of a potential site.
+Anemometer Fault Detection is the data of the 2011 PHM Society Conference Data Challenge. It addresses anemometer faults, a critical problem for the wind power industry, with data from 50 or 60 meter measurement towers.
 
-There are two data sets, one for “paired” data, and one for “shear” data. The paired data consist of 12 training sets of nominal, paired anemometer data from the same height. Each training set consists of 25 days of data. The test data consists of 420 test files, of 5 days of data. There are 16 columns of comma separated data, including features for two anemometers’ wind speed statistics, wind direction, and temperature.
+There are two collections. The paired data has 12 training sets of nominal data from anemometers at the same height and 420 test files of 5 days each, with 16 columns. The shear data has 7 training sets of nominal data from anemometer arrays at different heights and 255 test files, with 16 or 20 columns. The comma-separated files are about 7 MB each.
 
-The shear data consists of 7 training sets of nominal anemometer data in an array from different heights, with 25 days of data per set. The test data consists of 255 test files, each of 5 days. Each data set includes between 16 and 20 columns representing anemometer wind speed statistics at different heights, wind direction, temperature, and date/time. Participants are scored based on their ability to identify faulty anemometers in these two datasets.
+The task is to decide whether one or more anemometers in each test file have excessive error from damage or wear. An error above 2% counts as excessive. Registered teams received a username and password for the downloads.
 
 ## References
 
-- [2011 PHM Society Conference Data Challenge](https://phmsociety.org/phm_competition/2011-phm-society-conference-data-challenge/)
-- [Competition Forum](http://www.phmsociety.org/forum/583)
-- [Domain Fundamentals](https://www.phmsociety.org/competition/phm/11/problem)
-- [Performance Evaluation and Submitting Results](https://www.phmsociety.org/competition/phm/11/scoring)
-- [Leaderboard](https://www.phmsociety.org/competition/phm/11/leaderboard)
+- [Official page](https://phmsociety.org/phm_competition/2011-phm-society-conference-data-challenge/)
+- [phmsociety.org](https://www.phmsociety.org/competition/phm/11/problem)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/anemometer-fault-detection/)
 
 [⬅️ Back to Index](../README.md)

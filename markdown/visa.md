@@ -1,33 +1,33 @@
 # VisA
 
-**Summary:** Multi-object industrial anomaly detection dataset with 10,821 images, image-level labels and pixel-level anomaly masks across 12 object subsets, including PCB inspection and multiple-instance scenes.
+**Summary:** Images of 12 objects, four of them printed circuit boards, with 9,621 normal and 1,200 anomalous samples, image-level labels and pixel-level anomaly masks.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | VisA |
-| **Domain** | Electronics & Semiconductor; Manufacturing & Production |
-| **Asset / Process** | PCB / Electronics |
+| **Domain** | Manufacturing |
+| **Asset / Process** | PCBs and electronic assemblies |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction |
-| **Annotation** | Sample Label; Class Label; Pixel Mask |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | 10821 images (9621 normal; 1200 anomalous) across 12 subsets |
+| **Task** | Anomaly detection; Anomaly localization; Defect segmentation |
+| **Annotation** | Sample label; Pixel mask; Normal-only training |
+| **Source Type** | — |
+| **Access** | Direct download |
+| **Size** | 10,821 images |
 | **Year** | 2022 |
 | **License** | CC BY |
+| **Publisher** | Amazon Science |
+| **Benchmark** | Yes |
 
 ## Description
 
-VisA (Visual Anomaly) is a large-scale industrial anomaly detection and segmentation dataset released by Amazon Science. The dataset contains 10,821 images distributed across 12 object subsets, of which 9,621 are normal and 1,200 are anomalous. For all anomalous images, pixel-level segmentation masks are provided. Both image-level labels and pixel-level annotations are available, enabling evaluation of both classification and localisation performance.
+VisA (Visual Anomaly) is an image dataset for anomaly detection and segmentation, released with the ECCV 2022 paper "SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation" by Yang Zou, Jongheon Jeong, Latha Pemula, Dongqing Zhang and Onkar Dabeer. The images are hosted on AWS S3.
 
-The 12 object subsets span a diverse range of industrial objects, including printed circuit boards (PCBs), mechanical parts, and objects that appear as multiple instances in a single image. This diversity—especially the multiple-instance subsets—makes VisA more challenging than single-object benchmarks and closer to real inspection scenarios.
+The 10,821 images form 12 subsets. Four are printed circuit boards with transistors, capacitors and chips; Capsules, Candles, Macaroni1 and Macaroni2 show several instances per view; Cashew, Chewing gum, Fryum and Pipe fryum show roughly aligned single objects. Flaws include scratches, dents, color spots, cracks, misplacements and missing parts.
 
-VisA was introduced at ECCV 2022 (Zou et al., SPot-the-Difference Self-Supervised Pre-training) and is hosted on AWS S3 with an open data registry entry. The dataset is licensed under CC BY 4.0.
+A CSV file gives each image's label and pixel-level mask; normal images have no stored mask. Split files build 1-class, 2-class high-shot and 2-class few-shot setups, and a script computes classification and segmentation metrics. The data is under CC BY 4.0 and the code under Apache 2.0.
 
 ## References
 
 - [GitHub repository](https://github.com/amazon-science/spot-diff)
-- [AWS Open Data Registry](https://registry.opendata.aws/visa/)
-- [Paper (arXiv / ECCV 2022)](https://arxiv.org/abs/2207.14315)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/visa/)
 
 [⬅️ Back to Index](../README.md)

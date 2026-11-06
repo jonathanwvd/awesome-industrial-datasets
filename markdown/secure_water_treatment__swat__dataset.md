@@ -1,33 +1,33 @@
 # Secure Water Treatment (SWaT) Dataset
 
-**Summary:** The SWaT dataset represents a scaled-down but high-fidelity replica of a modern six-stage water treatment facility that processes approximately 19 litres of water per minute and contains both normal operational data and records of various cyber-physical attacks.
+**Summary:** Sensor, actuator and network data from the iTrust SWaT water treatment testbed; the December 2015 set spans 11 days of operation and 41 attacks.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Secure Water Treatment (SWaT) Dataset |
-| **Domain** | Cyber-Physical Security; Water & Utilities |
-| **Asset / Process** | Water Treatment / Distribution; SCADA / ICS |
-| **Modality** | Time Series |
-| **Task** | Cyberattack Detection; Anomaly Detection; Process Monitoring |
-| **Annotation** | Time / Event Label; Fault Type Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal; Form Request; Gated Approval |
-| **Size** | Information not available |
-| **Year** | 2020 |
-| **License** | Custom Research |
+| **Domain** | OT security |
+| **Asset / Process** | Water treatment and distribution; Control systems and networks |
+| **Modality** | Time series; Network traffic |
+| **Task** | Intrusion detection |
+| **Annotation** | Sample label |
+| **Source Type** | Lab or testbed |
+| **Access** | — |
+| **Size** | 11 days of operation, 51 sensors and actuators (SWaT.A1) |
+| **Year** | 2015 |
+| **License** | — |
+| **Publisher** | iTrust |
 
 ## Description
 
-The Secure Water Treatment (SWaT) dataset was collected from an operational water treatment testbed over 11 days, consisting of 7 days under normal operation and 4 days with multiple cyber-physical attack scenarios. It contains network traffic and sensor/actuator values, with data labelled according to normal and abnormal behaviors. Attack scenarios are derived from the intent space of a cyber-physical system with 41 attacks launched during the four days.
+The Secure Water Treatment (SWaT) dataset comes from the SWaT testbed at iTrust, a scaled-down replica of a modern six-stage water treatment facility that processes about 19 litres of water per minute. iTrust often runs its testbeds non-stop for several days, with and without attacks, and makes the data available to researchers at no charge.
 
-The dataset provides a time series of 51 sensors and actuators data collected continuously, serving as a benchmark for anomaly detection in industrial control systems and cybersecurity research. Updates to the dataset include different versions with attack data and normal operating conditions, with data collected at different times from 2015 to 2020, including network traffic (pcap files) and historian data.
+The SWaT.A1 set from December 2015 covers 11 days of continuous operation: 7 days of normal operation and 4 days with attack scenarios, during which 41 attacks were launched. It holds network traffic and the values of all 51 sensors and actuators, labelled as normal or abnormal behaviour.
 
-Researchers use this dataset for developing machine learning approaches to detect anomalies, including convolutional and recurrent neural networks, leveraging advanced deep learning techniques to secure critical infrastructure like water treatment facilities.
+Later releases include 136 hours of attack-free network traffic and historian data from June 2017, two 2019 sets with 3 normal hours and 1 hour with 6 attacks (the December set records malware attacks on the engineering workstation), and a 105-hour attack-free run of SWaT and WaDi in December 2023. Researchers who already received a SWaT download link use the same link for new releases.
 
 ## References
 
-- [A Dataset to Support Research in the Design of Secure Water Treatment Systems](https://www.researchgate.net/publication/305809559_A_Dataset_to_Support_Research_in_the_Design_of_Secure_Water_Treatment_Systems)
-- [SWaT: a water treatment testbed for research and training on ICS security](https://ieeexplore.ieee.org/document/7469060)
-- [iTrust Datasets Page](https://itrust.sutd.edu.sg/itrust-labs_datasets/)
+- [Official page](https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/swat/)
+- [itrust.sutd.edu.sg](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/secure-water-treatment-swat-dataset/)
 
 [⬅️ Back to Index](../README.md)

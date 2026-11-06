@@ -1,39 +1,32 @@
-# NEU Surface Defect Dataset
+# NEU Surface Defect Database
 
-**Summary:** Northeastern University surface defect dataset with 1,800 grayscale images (200×200 px) of 6 hot-rolled steel strip defect types (crazing, inclusion, patches, pitted surface, rolled-in scale, scratches); 300 images per class.
+**Summary:** Grayscale image database of six typical surface defect types on hot-rolled steel strip, with 1,800 images and a detection version with bounding boxes.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | NEU Surface Defect Dataset |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Steel / Metal Surfaces; Materials / Chemistry |
+| **Domain** | Materials and metrology |
+| **Asset / Process** | Steel and metal surfaces |
 | **Modality** | Image |
-| **Task** | Defect Detection; Defect Segmentation; Classification |
-| **Annotation** | Bounding Box; Fault Type Label; Sample Label; Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | 1,800 grayscale images; 300 images per class across 6 defect types |
+| **Task** | Classification; Defect detection |
+| **Annotation** | Class label; Bounding box |
+| **Source Type** | — |
+| **Access** | Direct download |
+| **Size** | 1,800 grayscale images |
 | **Year** | 2013 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | Northeastern University |
 
 ## Description
 
-The NEU Surface Defect Database was created at Northeastern University (NEU), China, and contains images of six common surface defect types found on hot-rolled steel strips:
+The NEU surface defect database is a collection of images of typical surface defects on hot-rolled steel strip from Northeastern University (NEU), compiled by Kechen Song and Yunhui Yan. It is cited with their 2013 Applied Surface Science paper on a noise-robust method based on completed local binary patterns.
 
-1. Crazing — network of fine surface cracks
-2. Inclusion — foreign material embedded in the steel surface
-3. Patches — irregular blotchy surface areas
-4. Pitted Surface — small pits or holes
-5. Rolled-in Scale — scale pressed into the steel surface
-6. Scratches — linear surface scratches
+It holds 1,800 grayscale images of 200×200 pixels, 300 for each of six defect classes: rolled-in scale, patches, crazing, pitted surface, inclusion and scratches. Defects of one class can look very different, such as horizontal, vertical or slanting scratches, while some classes look alike, and illumination and material changes vary the grey levels.
 
-The dataset contains 1,800 grayscale images total, with exactly 300 images per defect class. All images are 200×200 pixels. Inter-class and intra-class variability is significant due to variations in illumination and surface condition, making this a challenging classification benchmark.
-
-An object detection version also exists with bounding box annotations (NEU-DET). The dataset has been widely used in deep learning research for steel surface defect detection and classification, and has been extended to include segmentation annotations in later works.
+The image-only file NEU-CLS serves defect classification, and NEU-DET adds annotations of the class and bounding-box location of each defect for detection. A further variant, NEU-CLS-64, is also offered, and all files download from Google Drive or Baidu-Pan.
 
 ## References
 
-- [NEU Surface Defect Database (Official Page)](http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/index.htm)
-- [Original Paper: A noise robust method based on completed LBP for hot-rolled steel strip surface defects (2013)](https://doi.org/10.1016/j.patcog.2013.05.001)
+- [Official page](https://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/index.htm)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/neu-surface-defect-dataset/)
 
 [⬅️ Back to Index](../README.md)

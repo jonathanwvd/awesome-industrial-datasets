@@ -1,32 +1,32 @@
 # GREEND
 
-**Summary:** GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.
+**Summary:** Detailed household power usage recorded in a measurement campaign in Austria and Italy, for home energy management, load disaggregation and occupancy detection.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | GREEND |
-| **Domain** | Energy & Power; Buildings & Appliances |
-| **Asset / Process** | Power Grid / Plants; Buildings / Appliances |
-| **Modality** | Time Series |
-| **Task** | Energy Optimization |
-| **Annotation** | Sample Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Official Portal |
-| **Size** | Information not available |
+| **Domain** | Buildings and appliances |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Energy optimization |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | — |
+| **Size** | — |
 | **Year** | 2014 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
-GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.
+GREEND was presented in a 2014 paper by Andrea Monacchi, Dominik Egarter, Wilfried Elmenreich, Salvatore D'Alessandro and Andrea M. Tonello. The authors address researchers and designers of home energy management systems, who need consumption data to assess their solutions before deployment.
 
-The dataset is expected to have regular snapshots as more data is recorded and measurement platforms are deployed.
+Its power readings come from a measurement campaign in homes in Italy and Austria and record consumption in detail. The paper describes the consumption scenarios and the design choices made for the sensing infrastructure.
 
-The GREEND dataset is free to use in research and commercial applications. Access to the dataset is provided after filling a brief form to obtain credentials for the dataset archive. It is important to cite the original work when relying on this dataset in research.
+Home energy management systems monitor and optimize consumption and local production from renewable energy, and GREEND supports work on such systems. The authors apply established techniques for load disaggregation, occupancy detection and appliance usage mining to the data.
 
 ## References
 
-- [GREEND dataset paper](http://goo.gl/rtXjxT)
-- [SourceForge Project - GREEND](https://sourceforge.net/projects/greend/)
+- [Official page](https://sourceforge.net/projects/greend/files/)
+- [Preprint (arXiv)](https://arxiv.org/abs/1405.3100)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/greend/)
 
 [⬅️ Back to Index](../README.md)

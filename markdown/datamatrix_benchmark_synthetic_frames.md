@@ -1,32 +1,33 @@
-# DataMatrix Benchmark Synthetic Frames
+# DataMatrix readers on synthetic production-line frames
 
-**Summary:** Synthetic grayscale frames of DataMatrix (ECC 200) codes on labels over a conveyor, with 16 controlled degradations and the expected decoded string for every frame.
+**Summary:** Synthetic test set of 1368 greyscale frames of DataMatrix codes that imitate a conveyor camera, each paired with its expected decoded string.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | DataMatrix Benchmark Synthetic Frames |
-| **Domain** | Manufacturing & Production; Logistics & Retail |
-| **Asset / Process** | Retail / Logistics Items |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Benchmark Suite |
-| **Annotation** | Text / QA Label |
+| **Task** | Other |
+| **Annotation** | Text and QA label |
 | **Source Type** | Synthetic |
-| **Access** | Repository; Direct Download |
-| **Size** | 1,368 images; 59 MB |
+| **Access** | Code repository |
+| **Size** | 1368 frames (PNG) |
 | **Year** | 2026 |
-| **License** | CC0 |
+| **License** | CC0 and public domain |
+| **Publisher** | libscanner |
 
 ## Description
 
-The DataMatrix Benchmark Synthetic Frames set is designed to test how 2D DataMatrix (ECC 200) code readers behave on production-line images used for product marking and traceability. Each 720 x 540 grayscale frame shows one code on a white label against a grey background with uneven lighting, imitating a camera mounted over a conveyor.
+The set consists of 1368 synthetic images of DataMatrix (ECC 200) symbols, rendered to imitate a camera mounted over a conveyor. It is published by libscanner, the developer of the dmr reader, as the test data of an open comparison between dmr, zxing-cpp, ZXing and libdmtx. The symbols are produced with its own dmgen generator.
 
-Starting from nominal conditions (4 pixels per module, random rotation, high print contrast and low noise), one condition is changed at a time across 16 conditions: module size, in-plane rotation, defocus, motion blur, noise, print contrast, JPEG quality, label tilt, dot gain, data-area damage with and without padding, cylinder bend, wave, crumpled paper, plastic film with folds and glare, and inverted polarity. Each test point has 12 frames using 16 x 16, 22 x 22 and 40 x 40 symbols filled with random digits.
+Each frame is a 720×540 greyscale image with one code on a white label, placed on a grey background under uneven light. Starting from nominal settings, one condition is changed at a time across 16 conditions, among them module size, rotation, blur, tilt, damage, and curved or crumpled labels. Every point holds 12 frames that cycle through 16×16, 22×22 and 40×40 symbols filled with random digits, and every frame comes with its expected string.
 
-The file expected.csv lists, for every frame, the condition, its value, the symbol size and the encoded string, so a decoder can be scored on correct, missed and wrong reads. The frames and expected strings are released under CC0 as a versioned GitHub release with SHA-256 checksums, and the repository includes MIT-0 measurement scripts and published results for several open-source and commercial readers.
+The frames ship as a ZIP archive in the v1 release on GitHub, and the generation script rebuilds the same set from a fixed seed. Frames and expected strings are released under CC0 1.0; the scripts and programs use MIT No Attribution.
 
 ## References
 
-- [datamatrix-benchmark GitHub repository](https://github.com/libscanner/datamatrix-benchmark)
-- [Frames release v1](https://github.com/libscanner/datamatrix-benchmark/releases/tag/v1)
+- [GitHub repository](https://github.com/libscanner/datamatrix-benchmark)
+- [GitHub repository](https://github.com/libscanner/datamatrix-benchmark/releases/tag/v1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/datamatrix-benchmark-synthetic-frames/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,25 +1,22 @@
 {
-  "Name": "Oil and Gas",
-  "Summary": "The global dataset of oil and natural gas production, prices, exports, and net exports from 1932 to 2014.",
-  "Domain": "Oil & Gas; Energy & Power; Business & Economics",
-  "Asset / Process": "Business / Economic Indicators",
-  "Modality": "Time Series",
-  "Task": "Regression; Forecasting",
-  "Annotation": "Scalar Target",
-  "Source Type": "Public Records",
-  "Access": "Kaggle; Zenodo / Dataverse; Login Required",
-  "Size": "Information not available",
-  "Year": "2014",
-  "License": "Information not available",
-  "Description": "This dataset provides comprehensive historical data on global oil and natural gas production, pricing, exports, and net exports spanning many decades. Oil production and price data cover years from 1932 to 2014, with the 2014 data noted as incomplete; gas production and price data span from 1955 to 2014; export and net export data cover the period from 1986 to 2013. Country codes within the dataset have been adjusted to conform with the Correlates of War (COW) and Quality of Government (QOG) standards to maintain consistency.\n\nThe collected data allow analysis of historical trends and relationships in the oil and gas industry worldwide, supporting various research and learning activities. The dataset is well-documented and is useful for regression and forecasting tasks, potentially assisting in price variation studies from the 1900s to the 2000s and other economic and production-related analyses.\n\nAcknowledgment is given to the original dataset authors Michael Ross and Paasha Mahdavi and is made available via Harvard Dataverse and Kaggle. The dataset includes 41 columns and one CSV data file named 'Oil and Gas 1932-2014.csv' with a size of approximately 3.79 MB.",
+  "Name": "Oil and Gas Data, 1932-2014",
+  "Summary": "Global dataset of oil and natural gas production, prices, exports and net exports by country, with oil series covering 1932 to 2014.",
+  "Domain": "Oil and gas",
+  "Modality": "Tabular; Time series",
+  "Task": "Forecasting",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "15,521 observations of 41 variables",
+  "Year": "2015",
+  "License": "CC0 and public domain",
+  "Description": "Oil and Gas Data, 1932-2014 covers worldwide production, prices, exports and net exports of oil and natural gas. It was compiled by Michael Ross of the University of California, Los Angeles, and Paasha Mahdavi of Georgetown University. It was deposited on Harvard Dataverse in September 2015, and the current record is version 2.\n\nOil production and prices run from 1932 to 2014, with incomplete 2014 values; gas production and prices cover 1955 to 2014, and export and net export figures cover 1986 to 2013. Country codes were changed from earlier versions to follow the Correlates of War (COW) and Quality of Government (QOG) standards.\n\nThe main table has 41 variables and 15,521 observations. It is distributed as a tab-delimited file, originally in CSV format, together with a PDF codebook, and is released under CC0 1.0.",
   "References": [
     {
-      "Text": "Harvard Dataverse",
+      "Text": "Official page",
       "Link": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZTPW0Y"
     },
     {
-      "Text": "Kaggle Dataset - Oil and Gas",
-      "Link": "https://www.kaggle.com/datasets/raspberrypie/oil-and-gas"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/oil-and-gas/"
     }
   ]
 }

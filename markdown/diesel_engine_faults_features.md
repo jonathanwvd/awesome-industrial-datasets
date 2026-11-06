@@ -1,32 +1,32 @@
 # Diesel Engine Faults Features
 
-**Summary:** The objective of this dataset is the fault diagnosis in diesel engines to assist predictive maintenance through analysis of pressure curves and torsional vibration responses.
+**Summary:** Simulated feature vectors for 3,500 diesel engine fault scenarios, built from cylinder pressure curves and crankshaft torsional vibration at 2500 RPM.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Diesel Engine Faults Features |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Turbines / Engines |
-| **Modality** | Time Series; Vibration |
-| **Task** | Classification; Fault Diagnosis; Predictive Maintenance; Simulation / Control |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Turbines and engines |
+| **Modality** | Tabular |
+| **Task** | Fault diagnosis; Classification |
+| **Annotation** | Class label; Scalar target |
 | **Source Type** | Simulation |
 | **Access** | Mendeley Data |
-| **Size** | 3500 |
-| **Year** | 2020 |
-| **License** | Information not available |
+| **Size** | 3,500 fault scenarios |
+| **Year** | — |
+| **License** | — |
+| **Publisher** | Centro Federal de Educacao Tecnologica Celso Suckow da Fonseca and Universidade Federal do Rio de Janeiro |
 
 ## Description
 
-The dataset was developed for fault diagnosis in diesel engines to assist predictive maintenance by analyzing variations in pressure curves inside cylinders and torsional vibration response of the crankshaft. A fault simulation model based on a zero-dimensional thermodynamic model was developed to generate the data.
+The Diesel Engine Faults Features Dataset, or 3500-DEFault, supports fault diagnosis for diesel engine predictive maintenance. A fault simulation model based on a zero-dimensional thermodynamic model generated the data, with the engine speed fixed at 2500 RPM. It is published on Mendeley Data by the Centro Federal de Educacao Tecnologica Celso Suckow da Fonseca and the Universidade Federal do Rio de Janeiro.
 
-Feature vectors were chosen from the thermodynamic model and processed signals such as pressure and temperature inside the cylinder, and torsional vibration of the engine’s flywheel. These vectors serve as input for machine learning techniques to discriminate among several machine conditions.
+The 3,500 scenarios cover four conditions: 250 normal, 250 with pressure reduction in the intake manifold, 1,500 with compression ratio reduction and 1,500 with reduced fuel injection, the last two spread over six cylinders. Fault severities run from 1 to 50%, and normal cases add noise of up to 0.1% to 27 severity inputs.
 
-The dataset comprises 3500 different fault scenarios covering four distinct operational conditions — Normal, Pressure reduction in the intake manifold, Compression ratio reduction in the cylinders, and Reduction of amount of fuel injected into the cylinders. The feature vector consists of 84 columns representing pressure and vibration features, with 3500 rows of samples.
+Each row is an 84-dimensional feature vector: maximum and mean pressure of the six cylinders and the magnitude, phase and frequency of the first 24 half orders of flywheel torsional vibration. A further 13 columns give the severity levels of the engine's operating variables.
 
 ## References
 
-- [Mendeley Data - Diesel Engine Faults Features (3500-DEFault)](https://data.mendeley.com/datasets/k22zxz29kr/1)
-- [Related Article on Springer](https://link.springer.com/chapter/10.1007/978-3-319-99268-6_6)
+- [Mendeley Data](https://data.mendeley.com/datasets/k22zxz29kr/1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/diesel-engine-faults-features/)
 
 [⬅️ Back to Index](../README.md)

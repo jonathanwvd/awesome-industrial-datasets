@@ -1,31 +1,32 @@
 # Bridge Crack Dataset
 
-**Summary:** This dataset contains images related to surface defects focused on detecting bridge cracks for defect detection and classification tasks.
+**Summary:** Bridge crack images taken mainly on a viaduct in Xi'an, China, used to train and test the DBCC crack detection model, with a 2,068-image test set.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Bridge Crack Dataset |
-| **Domain** | Infrastructure & Civil; Materials & Metrology; Environment & Safety |
-| **Asset / Process** | Infrastructure Cracks |
+| **Domain** | Infrastructure and civil |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Defect Detection; Classification; Predictive Maintenance; Condition Monitoring |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | Information not available |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Task** | Defect detection |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | Direct download |
+| **Size** | 2,068 test images |
+| **Year** | 2019 |
+| **License** | Academic or non-commercial terms |
+| **Publisher** | Shaanxi Normal University |
 
 ## Description
 
-This Bridge Crack Dataset is part of the Surface Defect Detection project hosted on GitHub by Charmve. The dataset is composed of images that capture different surface cracks on bridges, useful for training and evaluating machine learning models for crack detection and classification.
+The Bridge Crack Dataset is a collection of bridge crack images from a team at Shaanxi Normal University, built to train and test the DBCC deep learning model for detecting cracks in bridges. The images come mainly from a viaduct in Xi'an, Shaanxi Province. The dataset authors are Liangfu Li, Weifei Ma, Li Li and Xiaoxiao Gao.
 
-The dataset aims to support research and development of automated crack detection systems, which are important for monitoring the structural health of bridges, ensuring safety, and performing timely maintenance to prevent failures.
+The team publishes two image sets. Bridge_Crack_Image_Data is the training set for the DBCC model. Original_Crack_DataSet_1024_1024 is the test set and holds 2,068 bridge crack images; it is distributed through a Baidu Pan link.
 
-This resource provides a valuable collection of labeled surface defect images specifically for bridge crack detection, making it a useful benchmark for computer vision and machine learning applications in civil infrastructure inspection.
+The data serves research on algorithms that detect and extract bridge cracks. Commercial use is not allowed, and work that uses the data is expected to cite "Research on Detection Algorithm for Bridge Cracks Based on Deep Learning", published in Acta Automatica Sinica in 2019.
 
 ## References
 
-- [GitHub Repository - Surface Defect Detection / Bridge Crack Image](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image)
+- [GitHub repository](https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/bridge-crack-dataset/)
 
 [⬅️ Back to Index](../README.md)

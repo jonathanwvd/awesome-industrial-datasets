@@ -1,31 +1,31 @@
 # Industrial IoT Dataset (Synthetic)
 
-**Summary:** A large-scale synthetic dataset for predictive maintenance and failure forecasting in industrial IoT. It contains sensor readings and operational metrics for 500,000 simulated machines.
+**Summary:** Fully synthetic smart-factory table of 500,000 simulated machines with sensor, maintenance and supervision fields and two failure-related targets.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Industrial IoT Dataset (Synthetic) |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series; Audio; Vibration; Multimodal |
-| **Task** | Anomaly Detection; Predictive Maintenance; Forecasting; Simulation / Control |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
+| **Task** | Classification; RUL and prognostics |
+| **Annotation** | Sample label; Scalar target |
 | **Source Type** | Synthetic |
-| **Access** | Kaggle; Login Required |
-| **Size** | 500000 |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Access** | Kaggle |
+| **Size** | 500,000 simulated machines |
+| **Year** | — |
+| **License** | Apache 2.0 |
 
 ## Description
 
-Welcome to the Factory Sensor Simulator dataset, a large-scale synthetic dataset designed for predictive maintenance, anomaly detection, and industrial machine learning applications in the context of Industry 5.0.
+The Industrial IoT Dataset (Synthetic), also called the Factory Sensor Simulator, is a fully generated dataset that its creator describes as designed for predictive maintenance, anomaly detection and industrial machine learning in an Industry 5.0 setting. No real-world measurements were used; the values were generated to imitate industrial trends in a futuristic smart factory.
 
-This dataset contains sensor readings, operational metrics, and maintenance records from 500,000 simulated machines deployed in a futuristic smart factory environment. It includes 30+ realistic machine types (e.g., CNC_Mill, Furnace, Robot_Arm, Laser_Cutter); core sensor data such as temperature, vibration, sound, power, oil and coolant levels; maintenance history and AI supervision fields; machine-specific features like Laser_Intensity and Hydraulic_Pressure_bar; and two target columns (Remaining_Useful_Life_days for regression and Failure_Within_7_Days for binary classification).
+The file factory_sensor_simulator_2040.csv holds sensor readings, operating metrics and maintenance records for 500,000 simulated machines of more than 30 types, such as CNC mills, furnaces, robot arms and laser cutters. Core channels cover temperature, vibration, sound, power and oil or coolant levels, alongside maintenance history, AI supervision fields and type-specific features like laser intensity and hydraulic pressure.
 
-No real-world data was used. All data is fully synthetic, created to mimic realistic industrial trends for safe exploration and modeling.
+Two target columns are included: remaining useful life in days, marked for regression, and a binary flag for failure within seven days, marked for classification. The data is released under the Apache 2.0 license.
 
 ## References
 
-- [Kaggle Dataset Page](https://www.kaggle.com/datasets/canozensoy/industrial-iot-dataset-synthetic)
+- [Kaggle dataset](https://www.kaggle.com/datasets/canozensoy/industrial-iot-dataset-synthetic)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/industrial-iot-dataset-synthetic/)
 
 [⬅️ Back to Index](../README.md)

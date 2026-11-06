@@ -1,33 +1,32 @@
 # Real-IAD D3
 
-**Summary:** Real-world multimodal industrial anomaly detection dataset with synchronised high-resolution RGB, pseudo-3D (photometric stereo), and micrometer-level 3D point clouds across 20 product categories, distributed via Hugging Face.
+**Summary:** Aligned RGB images, photometric-stereo pseudo-3D data and point clouds of 8,450 samples across 20 product categories and 69 defect types for industrial anomaly detection research.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Real-IAD D3 |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
-| **Modality** | Image; 3D Point Cloud; RGB-D; Multimodal |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; 3D Understanding |
-| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask; 3D / Point Mask |
-| **Source Type** | Real Production / Field |
-| **Access** | Hugging Face; Gated Approval |
-| **Size** | 20 product categories; 10 defect types |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Image; 3D point cloud; Multimodal |
+| **Task** | Defect detection; Anomaly localization |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Hugging Face |
+| **Size** | 8,450 samples |
 | **Year** | 2025 |
-| **License** | CC BY-NC-SA |
+| **License** | Academic or non-commercial terms |
 
 ## Description
 
-Real-IAD D3 is a multimodal extension of the Real-IAD dataset, providing three synchronised data modalities for each sample: high-resolution RGB images, pseudo-3D surface maps derived from photometric stereo illumination, and micrometer-level 3D point clouds captured with precision scanning equipment. This combination enables methods to exploit complementary information across appearance, surface gradient, and geometry channels.
+Real-IAD D3 is a multimodal dataset for industrial anomaly detection that combines 2D RGB images, pseudo-3D surface information and 3D point clouds of the same samples. It was presented at CVPR 2025 by Wenbing Zhu, Lidong Wang, Ziqing Zhou and co-authors, together with D³M, a method that combines all three modalities for detection and localization.
 
-The dataset covers 20 industrial product categories and 10 defect types, with pixel-level annotations for all anomalous samples. The scale is very large (classified in the 100B–1T scale on Hugging Face), making it one of the most comprehensive multimodal industrial inspection benchmarks available.
+The 8,450 samples cover 20 compact industrial product categories and 69 defect types. One acquisition system takes 3,648 × 5,472 RGB images, lights each sample from four directions for photometric stereo and reconstructs point clouds. Each point cloud resolves 0.01 mm with a precision of 0.002 mm per point, and ASC, PLY, STL, OBJ, IGES and TIFF files are available. Pseudo-3D data captures small height and normal variations.
 
-Real-IAD D3 was presented at CVPR 2025 (arXiv:2504.14221) and is distributed via Hugging Face under gated access (agreement to data sharing terms required). It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+The dataset is released for research purposes. Access is requested on Hugging Face, where users accept its conditions.
 
 ## References
 
-- [Project page](https://realiad4ad.github.io/Real-IAD_D3/)
+- [Official page](https://realiad4ad.github.io/Real-IAD_D3/)
 - [Hugging Face dataset](https://huggingface.co/datasets/Real-IAD/Real-IAD_D3)
-- [Paper (arXiv / CVPR 2025)](https://arxiv.org/abs/2504.14221)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/real-iad-d3/)
 
 [⬅️ Back to Index](../README.md)

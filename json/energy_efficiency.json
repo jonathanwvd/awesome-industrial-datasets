@@ -1,25 +1,29 @@
 {
   "Name": "Energy Efficiency",
-  "Summary": "This study looked into assessing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters.",
-  "Domain": "Buildings & Appliances; Energy & Power",
-  "Asset / Process": "Buildings / Appliances",
+  "Summary": "Ecotect simulations of 768 residential building shapes, pairing eight geometry and glazing features with heating load and cooling load targets.",
+  "Domain": "Buildings and appliances",
+  "Asset / Process": "HVAC and building systems",
   "Modality": "Tabular",
-  "Task": "Regression; Energy Optimization; Classification",
-  "Annotation": "Sample Label; Class Label; Scalar Target",
+  "Task": "Regression; Classification",
+  "Annotation": "Scalar target",
   "Source Type": "Simulation",
-  "Access": "UCI",
-  "Size": "768",
+  "Access": "UCI repository",
+  "Size": "768 samples",
   "Year": "2012",
-  "License": "Information not available",
-  "Description": "We perform energy analysis using 12 different building shapes simulated in Ecotect. The buildings differ with respect to the glazing area, the glazing area distribution, and the orientation, amongst other parameters. We simulate various settings as functions of the afore-mentioned characteristics to obtain 768 building shapes. The dataset comprises 768 samples and 8 features, aiming to predict two real valued responses. It can also be used as a multi-class classification problem if the response is rounded to the nearest integer.\n\nThe dataset contains eight attributes (or features, denoted by X1...X8) and two responses (or outcomes, denoted by y1 and y2). The aim is to use the eight features to predict each of the two responses.\n\nSpecifically:\nX1 Relative Compactness\nX2 Surface Area\nX3 Wall Area\nX4 Roof Area\nX5 Overall Height\nX6 Orientation\nX7 Glazing Area\nX8 Glazing Area Distribution\ny1 Heating Load\ny2 Cooling Load",
+  "License": "CC BY",
+  "Description": "The Energy Efficiency dataset relates the heating load and cooling load requirements of buildings to their design parameters. Its creators are Athanasios Tsanas and Angeliki Xifara, and it was donated to the UCI Machine Learning Repository in 2012, with their paper on estimating the energy performance of residential buildings with statistical machine learning tools, published in Energy and Buildings, vol. 49.\n\nThe data comes from energy analysis of 12 different building shapes simulated in Ecotect. Varying the glazing area, glazing area distribution, orientation and other parameters gives 768 building shapes. Each of the 768 samples has eight features: relative compactness, surface area, wall area, roof area, overall height, orientation, glazing area and glazing area distribution.\n\nThe eight features are used to predict two real-valued responses, heating load (y1) and cooling load (y2); rounding a response to the nearest integer turns it into a multi-class classification problem. There are no missing values. The data ships as one 74.4 KB Excel file, ENB2012_data.xlsx, under CC BY 4.0.",
   "References": [
-    {
-      "Text": "Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools - Tsanas, A. & Xifara, A. (2012)",
-      "Link": "https://www.semanticscholar.org/paper/Accurate-quantitative-estimation-of-energy-of-using-Tsanas-Xifara/719e65379c5959141180a45f540f707d583b8ce2"
-    },
     {
       "Text": "UCI Machine Learning Repository",
       "Link": "https://archive.ics.uci.edu/ml/datasets/Energy+efficiency"
+    },
+    {
+      "Text": "semanticscholar.org",
+      "Link": "https://www.semanticscholar.org/paper/Accurate-quantitative-estimation-of-energy-of-using-Tsanas-Xifara/719e65379c5959141180a45f540f707d583b8ce2"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/energy-efficiency/"
     }
   ]
 }

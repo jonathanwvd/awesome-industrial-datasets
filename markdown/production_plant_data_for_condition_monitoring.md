@@ -1,33 +1,31 @@
 # Production Plant Data for Condition Monitoring
 
-**Summary:** The dataset focuses on the prediction of the condition of an important component within production lines, based on data from 8 run-to-failure experiments and 8 features related to the component.
+**Summary:** Eight run-to-failure experiments on an important production-line component, described by eight selected features, with the stated aim of predicting its condition.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Production Plant Data for Condition Monitoring |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Tabular; Time Series |
-| **Task** | Condition Monitoring; RUL / Prognostics; Predictive Maintenance |
-| **Annotation** | Sample Label; RUL Label; Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | Information not available |
-| **Year** | 2018 |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Condition monitoring |
+| **Annotation** | RUL label |
+| **Source Type** | Real production |
+| **Access** | Kaggle |
+| **Size** | 8 run-to-failure experiments |
+| **Year** | — |
+| **License** | CC BY-SA |
 
 ## Description
 
-This dataset was used in previous research projects, including the IMPROVE project funded by the European Union's Horizon 2020 program.
+This dataset follows the condition of an important component in production lines, one that matters for both plant function and product quality. It was used in earlier research projects such as the EU Horizon 2020 project IMPROVE, and it is cited with a CIRP CMS 2018 paper by von Birgelen and colleagues on self-organizing maps for anomaly localization and predictive maintenance.
 
-The use case addresses the prediction of the condition of a critical component in production lines, which affects both plant functioning and product quality. The dataset contains data from 8 run-to-failure experiments and features related to the component. Training and prediction were performed using a leave-one-out method whereby data from the component under test served as the prediction target, and data from other components served as training data to represent the 'new' condition. A Self-Organizing Map (SOM) was trained on the training data to model the 'new' condition and to visualize degradation.
+It holds 8 run-to-failure experiments, each described by 8 selected features related to the component, spread over ten CSV files. Experts labelled the components with a type of wear, and one component showed no signs of wear at all.
 
-The prediction was successful in identifying wear types labeled by experts, and correctly identified a component without wear signs as confirmed by expert assessment. The dataset is publicly available under the Creative Commons BY-SA 3.0 license.
+In the reference study, each component in turn served as the prediction target while data from the others trained a self-organizing map of the new condition. This leave-one-out scheme produced a degradation estimate for every component. The license is CC BY-SA 3.0.
 
 ## References
 
-- [Self-Organizing Maps for Anomaly Localization and Predictive Maintenance in Cyber-Physical Production Systems. 51st CIRP Conference on Manufacturing Systems (CIRP CMS 2018)](https://authors.elsevier.com/sd/article/S221282711830307X)
-- [Creative Commons BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/)
-- [Kaggle Dataset Page](https://www.kaggle.com/inIT-OWL/production-plant-data-for-condition-monitoring)
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/production-plant-data-for-condition-monitoring)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/production-plant-data-for-condition-monitoring/)
 
 [⬅️ Back to Index](../README.md)

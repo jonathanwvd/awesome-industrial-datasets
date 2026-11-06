@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | NSF Future Manufacturing Data Challenge: A Multimodal DED Dataset |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Additive Manufacturing |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Additive manufacturing |
 | **Modality** | Image; Multimodal |
-| **Task** | Regression; Quality Prediction |
-| **Annotation** | Information not available |
-| **Source Type** | Information not available |
-| **Access** | Zenodo / Dataverse |
-| **Size** | Information not available |
+| **Task** | Regression; Quality prediction |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Zenodo, Dataverse or Figshare |
+| **Size** | — |
 | **Year** | 2026 |
 | **License** | CC BY |
+| **Publisher** | Texas A&M University |
 
 ## Description
 
@@ -29,5 +29,6 @@ The challenge task is to predict local geometric variation along each track, wit
 - [DOI](https://doi.org/10.5281/zenodo.21285367)
 - [Zenodo record](https://zenodo.org/records/21285367)
 - [GitHub repository](https://github.com/abhishekhanchate/nsf-fmrg-data-challenge)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/nsf-fm-ded-laser-track-geometry/)
 
 [⬅️ Back to Index](../README.md)

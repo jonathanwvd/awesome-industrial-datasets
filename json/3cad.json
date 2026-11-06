@@ -1,29 +1,23 @@
 {
   "Name": "3CAD",
-  "Summary": "3CAD is a real-world industrial anomaly detection dataset for 3C product quality inspection, with 27,039 images across eight product categories and pixel-level masks.",
-  "Domain": "Electronics & Semiconductor; Manufacturing & Production",
-  "Asset / Process": "PCB / Electronics",
+  "Summary": "27,039 high-resolution images of eight aluminum, copper and iron parts, split into training and test sets, with pixel-level anomaly labels across 47 defect types.",
+  "Domain": "Electronics and semiconductors",
+  "Asset / Process": "Castings and metal parts",
   "Modality": "Image",
-  "Task": "Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction",
-  "Annotation": "Sample Label; Pixel Mask; Fault Type Label",
-  "Source Type": "Real Production / Field",
-  "Access": "Repository",
-  "Size": "27039 images across 8 product categories",
+  "Task": "Anomaly detection; Anomaly localization",
+  "Annotation": "Pixel mask; Sample label",
+  "Source Type": "Real production",
+  "Size": "27,039 images in 8 part categories",
   "Year": "2025",
-  "License": "Information not available",
-  "Description": "3CAD is designed for visual anomaly detection in 3C product inspection. It contains real industrial images across eight categories, covering normal samples and defective samples from practical quality-control scenarios.\n\nThe dataset provides 27,039 images with pixel-level annotations for anomalous regions. It can be used for image-level anomaly detection, anomaly localisation, and segmentation methods that require dense ground truth masks.\n\nThe dataset is distributed through the project GitHub repository together with paper and download information.",
+  "Description": "3CAD is an image dataset for unsupervised anomaly detection in 3C product quality control, presented at AAAI 2025 by Enquan Yang, Peng Xing, Hanyang Sun, Wenbo Guo, Yuanwei Ma, Zechao Li and Dan Zeng. Its images come from real 3C production lines, drawn from segmentation data that a company accumulated over several years of production line projects.\n\nThe 27,039 images cover eight manufactured parts, including an aluminum camera cover, aluminum middle frames, and copper and iron stators. They split into 10,493 training and 16,546 test images, of which 5,084 test images are good and 11,462 defective. Anomalies are labeled at pixel level across 47 defect types, and one defective image can hold several anomalous regions and several anomaly types.\n\nThe repository also provides CFRG, a coarse-to-fine detection framework with recovery guidance, and reports P-AUROC, AP, I-AUROC and P-PRO results of common anomaly detection methods on each category.",
   "References": [
     {
       "Text": "GitHub repository",
       "Link": "https://github.com/EnquanYang2022/3CAD"
     },
     {
-      "Text": "Published paper (AAAI)",
-      "Link": "https://ojs.aaai.org/index.php/AAAI/article/view/32993"
-    },
-    {
-      "Text": "Preprint (arXiv)",
-      "Link": "https://arxiv.org/abs/2502.05761"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/3cad/"
     }
   ]
 }

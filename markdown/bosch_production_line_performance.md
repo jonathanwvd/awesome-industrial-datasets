@@ -1,31 +1,34 @@
 # Bosch Production Line Performance
 
-**Summary:** Bosch records data at every step along its assembly lines, enabling prediction of internal failures using thousands of measurements and tests for each component along the production line.
+**Summary:** Featured competition organised by Bosch in 2016 on reducing manufacturing failures, with entries scored by the Matthews correlation coefficient.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Bosch Production Line Performance |
-| **Domain** | Environment & Safety; Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Tabular; Time Series |
-| **Task** | Classification; Quality Prediction |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Competition; Login Required |
-| **Size** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
+| **Task** | Classification; Quality prediction |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Competition |
+| **Size** | — |
 | **Year** | 2016 |
-| **License** | Competition Terms |
+| **License** | — |
+| **Publisher** | Bosch |
+| **Benchmark** | Yes |
 
 ## Description
 
-Bosch, one of the world's leading manufacturing companies, monitors its parts as they progress through assembly lines to ensure quality and safety standards. The dataset includes thousands of measurements and tests made for each component along the assembly line, which presents complexities due to the intricacies of the production process.
+Bosch Production Line Performance is a featured Kaggle competition organised by Bosch with the stated goal of reducing manufacturing failures. It opened on 17 August 2016 and closed on 11 November 2016, offered a reward of 30,000 USD and drew 1,370 teams.
 
-This data enables advanced analytics to improve manufacturing processes by predicting internal failures, which can help Bosch bring higher quality products at lower costs to the end user.
+The data comes as seven compressed CSV tables. The training set and the test set are each split into three files, one holding numeric features, one categorical features and one date features. A sample submission file shows the expected output format.
 
-The prediction task is a binary classification where the goal is to predict internal failures based on the extensive sensor data collected during production. The evaluation metric used is the Matthews correlation coefficient (MCC) which considers true and false positives and negatives.
+Entries are ranked by the Matthews correlation coefficient, a score for binary predictions. Teams fit models on the training files and submit predictions for the test set, so every entry is scored on the same split.
 
 ## References
 
-- [Bosch Production Line Performance Kaggle Competition](https://www.kaggle.com/c/bosch-production-line-performance/overview)
+- [Kaggle dataset](https://www.kaggle.com/c/bosch-production-line-performance/overview)
+- [Kaggle dataset](https://www.kaggle.com/c/bosch-production-line-performance)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/bosch-production-line-performance/)
 
 [⬅️ Back to Index](../README.md)

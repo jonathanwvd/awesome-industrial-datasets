@@ -1,25 +1,28 @@
 {
-  "Name": "MaFaulDa Machinery Fault Database",
-  "Summary": "Machinery fault database with 1,951 multivariate time series from a SpectraQuest fault simulator, covering normal operation, imbalance, misalignment, and bearing faults.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Industrial Machines; Bearings",
-  "Modality": "Time Series; Vibration; Audio",
-  "Task": "Fault Diagnosis; Condition Monitoring; Classification",
-  "Annotation": "Fault Type Label",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Official Portal; Direct Download",
-  "Size": "1,951 sequences, 13 GB",
-  "Year": "Information not available",
-  "License": "Information not available",
-  "Description": "MaFaulDa is a machinery fault database from the Signals, Multimedia, and Telecommunications Laboratory at the Federal University of Rio de Janeiro (COPPE/Poli/UFRJ). It contains 1,951 multivariate time series acquired on a SpectraQuest Machinery Fault Simulator (Alignment/Balance Vibration Trainer).\n\nThe sequences cover normal operation (49), imbalance (333), horizontal misalignment (197), vertical misalignment (301), and bearing faults with the defective bearing in the underhang position (558) and in the overhang position (513). Faults were recorded at different severities, such as imbalance loads from 6 g to 35 g and shaft shifts of up to 2 mm, and at rotation speeds between about 700 and 3,600 rpm.\n\nEach sequence was recorded for 5 seconds at 50 kHz, giving 250,000 samples per channel. The eight channels are a tachometer signal, three accelerometer axes at the underhang bearing, three accelerometer axes at the overhang bearing, and a microphone. The data can be downloaded from the project page as a single package or separately by fault type. The page does not state a license.",
+  "Name": "MAFAULDA Machinery Fault Database",
+  "Summary": "Vibration, tachometer and microphone recordings of 1951 runs on a SpectraQuest rotor rig under normal, imbalance, misalignment and bearing-fault states.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Bearings",
+  "Modality": "Vibration; Audio; Time series",
+  "Task": "Fault diagnosis; Classification",
+  "Annotation": "Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Direct download",
+  "Size": "1951 multivariate time series (13.0 GB)",
+  "Publisher": "Signals, Multimedia, and Telecommunications Laboratory, COPPE/Poli/UFRJ",
+  "Description": "MAFAULDA is a database of multivariate time series recorded on a SpectraQuest Alignment-Balance-Vibration Trainer (ABVT) Machinery Fault Simulator. It is published by the Signals, Multimedia, and Telecommunications Laboratory of COPPE/Poli/UFRJ and holds 1951 sequences covering six states: normal operation, imbalance, horizontal and vertical misalignment, and bearing faults.\n\nEach sequence lasts 5 s at 50 kHz, totalling 250,000 samples. The 8 CSV columns hold a tachometer signal, axial, radial and tangential accelerations at the underhang and overhang bearings, and a microphone. Imbalance uses loads from 6 g to 35 g, and horizontal misalignment shifts the motor shaft by 0.5 to 2.0 mm.\n\nThree defective bearings, with faults on the outer track, rolling elements or inner track, are mounted one at a time between rotor and motor (underhang) or outside the rotor (overhang), with masses of 6, 20 and 35 g added to make the faults detectable. This gives 558 underhang and 513 overhang sequences. Each subset downloads separately or as one 13.0 GB package.",
   "References": [
     {
-      "Text": "MaFaulDa project page",
+      "Text": "Official page",
+      "Link": "https://www02.smt.ufrj.br/~offshore/mfs/page_01.html"
+    },
+    {
+      "Text": "www02.smt.ufrj.br",
       "Link": "https://www02.smt.ufrj.br/~offshore/mfs/"
     },
     {
-      "Text": "Database description and downloads",
-      "Link": "https://www02.smt.ufrj.br/~offshore/mfs/page_01.html"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/mafaulda/"
     }
   ]
 }

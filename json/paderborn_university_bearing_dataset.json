@@ -1,29 +1,23 @@
 {
   "Name": "Paderborn University Bearing Dataset",
-  "Summary": "Bearing fault diagnosis dataset with synchronously measured motor currents and vibration signals across 32 bearing states (26 damaged, 6 healthy) and 4 operating conditions, captured on a dedicated test rig at the University of Paderborn.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Bearings; Motors / Drives",
-  "Modality": "Time Series; Vibration",
-  "Task": "Fault Diagnosis; Condition Monitoring; Predictive Maintenance",
-  "Annotation": "Sample Label; Class Label; Scalar Target",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Zenodo / Dataverse",
-  "Size": "32 bearing states (26 damaged + 6 healthy) under 4 operating conditions",
-  "Year": "2016",
-  "License": "CC BY",
-  "Description": "The Paderborn University Bearing Dataset (KAt DataCenter) is a comprehensive benchmark for rotating machinery fault diagnosis and predictive maintenance research. Data was collected on a purpose-built bearing test rig that allows simultaneous measurement of motor phase currents and vibration signals, along with supportive operating parameters (rotational speed, load torque, radial bearing force, and temperature).\n\nThe dataset includes 32 distinct bearing states: 6 healthy reference states and 26 damaged states representing a range of inner race, outer race, and roller defects introduced by artificial and accelerated ageing methods. Four operating conditions are defined by combinations of shaft speed and load torque, yielding a rich matrix of conditions for evaluating generalisation.\n\nThe dataset is hosted at the KAt DataCenter of the University of Paderborn and is also available via Zenodo. It is licensed under CC BY with a request to contact authors for commercial use, and is widely cited in the bearing fault diagnosis and data-driven maintenance literature.",
+  "Summary": "Motor current and vibration recordings from 32 type 6203 ball bearings, healthy, artificially damaged or worn in accelerated lifetime tests.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Bearings; Motors and drives",
+  "Modality": "Vibration; Time series",
+  "Task": "Fault diagnosis",
+  "Annotation": "Sample label; Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Direct download",
+  "Size": "32 bearings, 20 measurements of 4 s per setting",
+  "Description": "The Paderborn University Bearing Dataset holds experiments with 32 ball bearings of type 6203. Six bearings are undamaged and serve as the healthy reference, twelve carry artificial damage, and fourteen have real damage produced in accelerated lifetime tests.\n\nMotor currents and vibration signals are measured synchronously at a high sampling rate, together with speed, torque, radial load and temperature. Each bearing is run under four operating conditions, with 20 measurements of 4 seconds per setting. Every measurement is a MATLAB file whose name joins the operating condition code and the four-digit bearing code, for example N15_M07_F10_KA01_1.mat.\n\nThe bearing damage is described in uniform fact sheets and a measuring log that come with the data, which is offered as a direct download.",
   "References": [
     {
-      "Text": "KAt DataCenter bearing dataset page",
+      "Text": "Official page",
       "Link": "https://mb.uni-paderborn.de/kat/forschung/bearing-datacenter/data-sets-and-download"
     },
     {
-      "Text": "Dataset overview and licence",
-      "Link": "https://mb.uni-paderborn.de/kat/forschung/bearing-datacenter"
-    },
-    {
-      "Text": "Zenodo record",
-      "Link": "https://zenodo.org/records/15845309"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/paderborn-university-bearing-dataset/"
     }
   ]
 }

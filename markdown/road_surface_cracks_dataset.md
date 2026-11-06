@@ -1,32 +1,31 @@
-# Road Surface Cracks Dataset
+# CrackForest Dataset
 
-**Summary:** CrackForest road surface crack dataset with 118 RGB images (480×320 px) and pixel-level segmentation masks for pavement crack detection and segmentation research.
+**Summary:** Annotated image database of road cracks that reflects urban road surface conditions, released in 2015 for non-commercial crack detection research.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Road Surface Cracks Dataset |
-| **Domain** | Transportation & Mobility; Infrastructure & Civil; Materials & Metrology |
-| **Asset / Process** | Infrastructure Cracks |
+| **Domain** | Infrastructure and civil |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Anomaly Localization; Defect Detection; Defect Segmentation; Classification |
-| **Annotation** | Sample Label; Class Label; Pixel Mask |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | 118 road surface images with pixel-level crack annotations (CrackForest dataset) |
-| **Year** | 2016 |
-| **License** | Information not available |
+| **Task** | Defect detection |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | — |
+| **Size** | — |
+| **Year** | 2015 |
+| **License** | Academic or non-commercial terms |
 
 ## Description
 
-The CrackForest Dataset is a road surface crack image dataset hosted on GitHub by cuilimeng, created to benchmark pavement crack detection and segmentation algorithms. It contains 118 RGB road surface images captured under real road inspection conditions, each with a corresponding binary pixel-level ground truth mask delineating crack regions.
+The CrackForest Dataset is an annotated database of road crack images that reflects the general condition of urban road surfaces. Limeng Cui is its contact, and version 1.0 was released on 29 September 2015.
 
-Images are 480×320 pixels and depict various types of road pavement cracks in urban environments. The dataset supports both binary classification (cracked vs. intact) and semantic segmentation (crack pixel localization) tasks.
+Its citation list has two papers on crack detection with random forests. "Automatic road crack detection using random structured forests" by Yong Shi, Limeng Cui, Zhiquan Qi, Fan Meng and Zhensong Chen appeared in IEEE Transactions on Intelligent Transportation Systems in 2016. "Pavement Distress Detection Using Random Decision Forests" by the same group was presented at the International Conference on Data Science in 2015 and published by Springer.
 
-The dataset was used as a benchmark in the paper 'Automatic Pavement Crack Detection Based on Structured Prediction with the Convolutional Neural Network' and related road infrastructure inspection research. It is one of the standard benchmarks for pavement crack segmentation algorithms.
+The dataset is made available for non-commercial research purposes only.
 
 ## References
 
-- [CrackForest-dataset GitHub repository](https://github.com/cuilimeng/CrackForest-dataset)
-- [Paper: Automatic Pavement Crack Detection Based on Structured Prediction with CNN](https://arxiv.org/abs/1802.02208)
+- [GitHub repository](https://github.com/cuilimeng/CrackForest-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/road-surface-cracks-dataset/)
 
 [⬅️ Back to Index](../README.md)

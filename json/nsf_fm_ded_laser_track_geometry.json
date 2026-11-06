@@ -1,13 +1,14 @@
 {
   "Name": "NSF Future Manufacturing Data Challenge: A Multimodal DED Dataset",
   "Summary": "Thermal image sequences, SEM tiles and height maps of single DED laser tracks on SS316L substrates, released for predicting local track geometry.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Additive Manufacturing",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Additive manufacturing",
   "Modality": "Image; Multimodal",
-  "Task": "Regression; Quality Prediction",
-  "Access": "Zenodo / Dataverse",
+  "Task": "Regression; Quality prediction",
+  "Access": "Zenodo, Dataverse or Figshare",
   "Year": "2026",
   "License": "CC BY",
+  "Publisher": "Texas A&M University",
   "Description": "This dataset from Texas A&M University supports the NSF Future Manufacturing Data Challenge. It holds multimodal measurements of single directed energy deposition (DED) laser tracks on SS316L substrates, made on an Optomec LENS MTS 500 hybrid manufacturing platform, and was published on Zenodo in 2026 with National Science Foundation grant FMRG-2328395.\n\nThere are three modalities: in-situ thermal image sequences, SEM images of the surrounding substrate morphology from a Zeiss EVO MA10, and full-field height maps from a Bruker ContourGT-K white-light profilometer. Thermal frames are 400 × 400 pixels at about 14 µm per pixel, recorded at 50 fps with a scan speed of 10 mm/s. The common analysis window runs from 20 to 100 mm in part coordinates.\n\nThe challenge task is to predict local geometric variation along each track, with local width from the height map as the primary target. A GitHub repository adds starter notebooks and loaders. The Zenodo record is licensed CC BY 4.0.",
   "References": [
     {
@@ -21,6 +22,10 @@
     {
       "Text": "GitHub repository",
       "Link": "https://github.com/abhishekhanchate/nsf-fmrg-data-challenge"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/nsf-fm-ded-laser-track-geometry/"
     }
   ]
 }

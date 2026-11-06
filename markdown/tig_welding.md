@@ -1,32 +1,29 @@
 # TIG Welding
 
-**Summary:** Dataset of TIG welding footages recorded with HDR camera used for defect classification of Aluminium 5083 TIG welding using neural networks.
+**Summary:** Visible-spectrum HDR camera images of Aluminium 5083 TIG welding, labelled by welding imperfection for defect classification with neural networks.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | TIG Welding |
-| **Domain** | Manufacturing & Production |
+| **Domain** | Manufacturing |
 | **Asset / Process** | Welding |
 | **Modality** | Image |
-| **Task** | Classification; Process Monitoring |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | 33300 (33.3k files) |
-| **Year** | 2018 |
-| **License** | Information not available |
+| **Task** | Classification |
+| **Annotation** | Class label |
+| **Source Type** | — |
+| **Access** | — |
+| **Size** | — |
+| **Year** | 2019 |
+| **License** | — |
 
 ## Description
 
-Weld defect identification represents one of the most desired goals in the field of non-destructive testing (NDT) of welds. The dataset consists of images of the TIG welding process in the visible spectrum with improved contrast captured using a high dynamic range (HDR) camera.
+This image dataset of the tungsten inert gas (TIG) welding process was introduced in "Automated defect classification of Aluminium 5083 TIG welding using HDR camera and neural networks" by Daniel Bacioiu, Geoff Melton, Mayorkinos Papaelias and Rob Shaw. The article appeared in the Journal of Manufacturing Processes, volume 45, pages 603 to 613, in 2019.
 
-This dataset supports research for automated defect classification of Aluminium 5083 TIG welding using artificial neural networks (ANN) for image processing. The images are labeled for various welding imperfections, enabling classification tasks.
-
-It includes a large number of files (33.3k) and represents real welding footage, allowing models to learn to detect welding defects as a task in quality assessment and process monitoring.
+The images are taken with a high dynamic range (HDR) camera and show the TIG welding process in the visible spectrum with improved contrast, close to what a welder would normally see. A model based on artificial neural networks computes a label that identifies the welding imperfection, and the study reports the accuracy reached over varying degrees of categorisation complexity. The work addresses weld defect identification in the non-destructive testing (NDT) of welds.
 
 ## References
 
-- [Journal of Manufacturing Processes Article](http://www.sciencedirect.com/science/article/pii/S1526612519302245)
-- [Kaggle Dataset](https://www.kaggle.com/danielbacioiu/tig-aluminium-5083)
+- [Official page](https://research.birmingham.ac.uk/en/publications/automated-defect-classification-of-aluminium-5083-tig-welding-usi/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/tig-welding/)
 
 [⬅️ Back to Index](../README.md)

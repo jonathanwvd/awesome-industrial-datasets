@@ -1,32 +1,31 @@
 # PIAD
 
-**Summary:** PIAD is a pose- and illumination-agnostic industrial anomaly detection dataset with 11,268 images across 30 industrial products.
+**Summary:** Multi-view images of 30 industrial products, 16 rendered in Blender and 14 photographed, for anomaly detection under changing pose and lighting.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | PIAD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Anomaly Localization; Quality Prediction |
-| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask |
+| **Task** | Anomaly detection |
+| **Annotation** | — |
 | **Source Type** | Mixed |
-| **Access** | Official Portal; Repository |
-| **Size** | 11268 images across 30 industrial products |
+| **Access** | — |
+| **Size** | 11,268 multi-view images |
 | **Year** | 2025 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
-PIAD targets anomaly detection under pose and illumination variation, a practical challenge for visual inspection systems deployed outside tightly controlled capture settings. The dataset combines synthetic and real imagery to evaluate whether methods remain robust across viewpoint and lighting changes.
+PIAD (Pose and Illumination agnostic Anomaly Detection) is both a problem setting and a dataset from Kaichen Yang, Junjie Cao, Zeyu Bai, Zhixun Su and Andrea Tagliasacchi, presented at CVPR 2025. The setting generalizes pose-agnostic anomaly detection (PAD) by dropping the assumption that training images of an object share the light configuration of the query images.
 
-The dataset contains 11,268 images across 30 industrial products. It supports anomaly detection and localisation research for pose-robust and illumination-robust inspection.
+The dataset holds 11,268 multi-view images of 30 distinct industry products: 16 synthetic products generated with Blender and 14 real-world products photographed with a Redmi K40 smartphone on a gimbal. It varies poses, illuminations, materials and anomaly types. Products shown include a motor, spring, gear, sprockets, valve, filter, wheel and bearing.
 
-PIAD is distributed through an official project website with links to data and benchmark resources.
+The authors pair the dataset with a baseline that estimates camera pose with RGB and RGB-and-reflectance Gaussians and is evaluated on both PAD and PIAD.
 
 ## References
 
-- [Project page](https://kaichen-yang.github.io/piad/)
-- [GitHub repository](https://github.com/Kaichen-Yang/PIAD)
+- [Official page](https://kaichen-yang.github.io/piad/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/piad/)
 
 [⬅️ Back to Index](../README.md)

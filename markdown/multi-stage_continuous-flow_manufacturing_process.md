@@ -1,32 +1,32 @@
-# Multi-stage continuous-flow manufacturing process
+# Multi-Stage Continuous-Flow Manufacturing Process
 
-**Summary:** Real process data from a high-speed, continuous manufacturing line to predict output measurements from multiple stages.
+**Summary:** Real production-line data from a multi-stage continuous-flow process near Detroit, for predicting output measurements taken at 15 surface locations.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Multi-stage continuous-flow manufacturing process |
-| **Domain** | Manufacturing & Production; Chemical & Process |
-| **Asset / Process** | Chemical Process |
-| **Modality** | Time Series |
-| **Task** | Regression; Process Monitoring |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | Information not available |
-| **Year** | 2019 |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series; Tabular |
+| **Task** | Regression; Quality prediction |
+| **Annotation** | Scalar target |
+| **Source Type** | Real production |
+| **Access** | Kaggle |
+| **Size** | — |
+| **Year** | — |
+| **License** | — |
+| **Publisher** | Liveline Technologies |
 
 ## Description
 
-This data was taken from an actual production line near Detroit, Michigan. The goal is to predict certain properties of the line's output from the various input data. The line is a high-speed, continuous manufacturing process with parallel and series stages.
+This dataset holds real process data from a high-speed continuous manufacturing line near Detroit, Michigan, whose stages run both in parallel and in series. It comes from Liveline Technologies and covers a single production run lasting several hours.
 
-The data comes from one production run spanning several hours. Liveline Technologies has a large quantity of this type of data from multiple production lines in various locations.
+In the first stage, Machines 1, 2 and 3 work in parallel and feed a combiner, whose output is measured at 15 locations around the outer surface of the exiting material. The flow then passes through Machines 4 and 5 in series, after which the same 15 locations are measured again. The data comes as one CSV file with a text file of notes.
 
-The process consists of multiple stages: In the first stage, Machines 1, 2, and 3 operate in parallel, feeding outputs into a combining step. Output from the combiner is measured in 15 locations around the material's outer surface, constituting the primary measurements to predict. Next, the output flows into a second stage where Machines 4 and 5 process the material in series. Measurements are again made in the same 15 locations after Machine 5, known as the secondary measurements to predict.
+The primary target is the first-stage output measurements and the secondary target is the second-stage output. Liveline Technologies uses such models to develop real-time process controllers in simulation environments and to detect anomalies by comparing predictions with actual outputs.
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process)
-- [Liveline Technologies](https://www.liveline.tech)
+- [Kaggle dataset](https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/multi-stage-continuous-flow-manufacturing-process/)
 
 [⬅️ Back to Index](../README.md)

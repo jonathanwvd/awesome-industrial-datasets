@@ -1,35 +1,33 @@
-# UK-DALE dataset
+# UK-DALE
 
-**Summary:** This dataset records the power demand from five houses, including whole-house mains power demand and power demand from individual appliances, with data collected at resolutions of one and six seconds, and high frequency data at 16 kHz for some houses.
+**Summary:** Electricity demand from five UK homes, with appliance-level power every six seconds and whole-house voltage and current waveforms at 16 kHz in three of them.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | UK-DALE dataset |
-| **Domain** | Energy & Power; Buildings & Appliances |
-| **Asset / Process** | Power Grid / Plants; Buildings / Appliances |
-| **Modality** | Time Series |
-| **Task** | Classification; Regression; Energy Optimization |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | Information not available |
-| **Year** | 2017 |
-| **License** | CC BY |
+| **Domain** | Buildings and appliances |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Regression |
+| **Annotation** | Scalar target |
+| **Source Type** | Real production |
+| **Access** | Official portal |
+| **Size** | Five houses; the 16 kHz files total 4 TB |
+| **Year** | 2015 |
+| **License** | — |
 
 ## Description
 
-The UK Domestic Appliance-Level Electricity (UK-DALE) dataset contains detailed electricity usage data from five UK houses. It includes whole-house power demand recorded every six seconds, as well as appliance-level power demand also recorded every six seconds. For three houses (1, 2 and 5), the dataset features high-frequency recordings of whole-house voltage and current sampled at 16 kHz stored as FLAC files. These high frequency FLAC files are around 200 MB each and the entire 16 kHz dataset for April 2017 occupies 7.6 TB.
+UK-DALE records Domestic Appliance-Level Electricity in the UK for energy disaggregation, which estimates the consumption of each appliance from a whole-house meter signal. J. Kelly and W. Knottenbelt collected it in five houses with a low-cost, open-source wireless system, described in Scientific Data in 2015.
 
-The dataset has been released multiple times, with the final and most recent release dated April 2017, providing up to 4.3 years of data for house 1. The data is available in several formats including CSV files for 1-second and 6-second resolution data and an HDF5 format compatible with the NILMTK toolkit. Additional utility meter readings and metadata about houses are also provided.
+Every six seconds the system logged the active power of individual appliances and the whole-house apparent power. In three houses the mains voltage and current were also sampled at 44.1 kHz and stored at 16 kHz as FLAC audio, with active power, apparent power and RMS voltage at 1 Hz. House 1 ran for 655 days with up to 54 channels; the other houses ran for several months with 5 to 26 appliance channels each.
 
-The dataset is made freely available under the Creative Commons Attribution 4.0 International license (CC BY 4.0). It has been described in the publication "The UK-DALE dataset, domestic appliance-level electricity demand and whole-house demand from five UK homes" published in Scientific Data in 2015. Users are encouraged to cite this paper and the dataset DOIs when using UK-DALE data.
+Each house has space-separated CSV files in a format similar to REDD's, and YAML metadata following the NILM Metadata schema. The 6 s and 1 s data also come as one HDF5 file for NILMTK, and the full 16 kHz set needs 4 TB. All data recorded as of January 2015 are held by the UKERC Energy Data Centre.
 
 ## References
 
-- [UK-DALE Dataset Paper](http://dx.doi.org/10.1038/sdata.2015.7)
-- [UKERC Energy Data Centre - Dataset DOI 1 second & 6 second data](http://dx.doi.org/10.5286/UKERC.EDC.000001)
-- [UKERC Energy Data Centre - Dataset DOI 16 kHz data](http://dx.doi.org/10.5286/UKERC.EDC.000003)
-- [UK-DALE Dataset Download and Info Page](http://jack-kelly.com/data/)
-- [snd_card_power_meter GitHub Repository](https://github.com/JackKelly/snd_card_power_meter)
+- [Official page](https://www.nature.com/articles/sdata20157)
+- [DOI](https://doi.org/10.5286/UKERC.EDC.000001)
+- [doc.ic.ac.uk](http://www.doc.ic.ac.uk/~dk3810/data/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/uk-dale-dataset/)
 
 [⬅️ Back to Index](../README.md)

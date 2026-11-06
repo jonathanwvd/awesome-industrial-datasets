@@ -1,32 +1,31 @@
 # IEC3D-AD
 
-**Summary:** IEC3D-AD is a 3D industrial anomaly detection dataset for industrial equipment components, distributed through the Open-Industry Hugging Face dataset.
+**Summary:** Point cloud dataset of industrial equipment components for unsupervised 3D anomaly detection, shared on Hugging Face with a companion open-set dataset.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | IEC3D-AD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
-| **Modality** | Image; 3D Point Cloud |
-| **Task** | Anomaly Detection; Anomaly Localization; 3D Understanding |
-| **Annotation** | Sample Label; 3D / Point Mask |
-| **Source Type** | Real Lab / Testbed |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | 3D point cloud |
+| **Task** | Anomaly detection |
+| **Annotation** | — |
+| **Source Type** | — |
 | **Access** | Hugging Face |
-| **Size** | Information not available |
+| **Size** | — |
 | **Year** | 2025 |
-| **License** | Information not available |
+| **License** | Academic or non-commercial terms |
 
 ## Description
 
-IEC3D-AD targets 3D anomaly detection for industrial equipment components. It uses point-cloud data and defect annotations to support inspection methods that reason about component geometry rather than only RGB appearance.
+Bingyang Guo, Hongjie Li, Ruiyun Yu, Hanzhe Liang and Jinbao Wang introduced IEC3D-AD in a 2025 arXiv preprint (2511.03267). Its point clouds show industrial equipment components and are meant for anomaly detection without supervision.
 
-The dataset is distributed through the Open-Industry Hugging Face repository, which hosts industrial anomaly detection data associated with IEC3D-AD and related industrial 3D inspection research. It is intended for 3D anomaly detection and localisation on industrial component surfaces.
+It is distributed through the open-industry repository on Hugging Face, which also holds the industrial dataset of a second paper by Hanzhe Liang and nine co-authors on open-set supervised 3D anomaly detection and generalisation to defects not seen in training (arXiv 2604.01171, 2026). Both papers are preprints that have not yet been accepted for publication.
 
-IEC3D-AD is linked to recent research on point-cloud anomaly detection for industrial equipment components.
+The authors reserve all rights but allow redistribution and modification for research purposes, and suggest that users cite both papers.
 
 ## References
 
-- [Open-Industry Hugging Face dataset](https://huggingface.co/datasets/HanzheL/open-industry)
-- [Paper (arXiv)](https://arxiv.org/abs/2505.20856)
+- [Hugging Face dataset](https://huggingface.co/datasets/HanzheL/open-industry)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/iec3d-ad/)
 
 [⬅️ Back to Index](../README.md)

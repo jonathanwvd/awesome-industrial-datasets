@@ -1,32 +1,32 @@
 # MPDD2
 
-**Summary:** Follow-up metal-part defect detection dataset with over 700 images supporting anomaly detection benchmarking under real industrial capture conditions, as a complement to the original MPDD.
+**Summary:** Image dataset of more than 700 industrial metal part images for benchmarking visual defect detection, with an anomaly-free training subset.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MPDD2 |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Casting / Metal Parts |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Castings and metal parts |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation |
-| **Annotation** | Sample Label; Pixel Mask |
-| **Source Type** | Mixed |
-| **Access** | Repository |
-| **Size** | 700+ images across multiple metal part categories |
+| **Task** | Anomaly detection; Defect detection |
+| **Annotation** | Normal-only training |
+| **Source Type** | — |
+| **Access** | Direct download |
+| **Size** | 700+ images |
 | **Year** | 2022 |
 | **License** | CC BY-NC-SA |
+| **Publisher** | Brno University of Technology |
 
 ## Description
 
-MPDD2 (Metal Parts Defect Detection Dataset 2) is the second version of the MPDD benchmark, providing an updated and extended collection of industrial metal part images for anomaly detection evaluation. The dataset maintains the same benchmark protocol as MPDD: defect-free training samples and mixed validation sets with anomaly and normal images, with pixel-level masks for anomalous samples.
+MPDD2 (Metal Parts Defect Detection Dataset 2) is a dataset for benchmarking visual defect detection methods in industrial metal parts manufacturing. It was created at Brno University of Technology by Stepan Jezek, Martin Jonak, Radim Burget, Pavel Dvorak and Milos Skotak, with support from a Technology Agency of the Czech Republic project on defectoscopy of painted parts.
 
-MPDD2 features updated capture conditions and additional part categories compared to the original MPDD, making it useful for robustness checks and cross-dataset evaluation. The data is available via Google Drive from the repository.
+The dataset holds more than 700 images. They are divided into a training subset of anomaly-free samples and a validation subset that contains both normal and anomalous samples.
 
-MPDD2 was introduced at ICUMT 2022 (DOI: 10.1109/ICUMT57764.2022.9943437) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+MPDD2 accompanies the paper "Anomaly detection for real-world industrial applications: benchmarking recent self-supervised and pretrained methods", presented at ICUMT 2022. The images download from a Google Drive folder linked from the GitHub repository, and the data is released under CC BY-NC-SA 4.0.
 
 ## References
 
-- [GitHub repository + download](https://github.com/stepanje/MPDD2)
-- [Paper DOI (ICUMT 2022)](https://doi.org/10.1109/ICUMT57764.2022.9943437)
+- [GitHub repository](https://github.com/stepanje/MPDD2)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mpdd2/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,32 +1,30 @@
 # Athabasca Oil Sands Dataset (McMurray Formation)
 
-**Summary:** This is the digital database described in Open File Report 1994-14 containing data on 2193 wells including about 750 with core analyses, related to the Athabasca Oil Sands Area McMurray and Wabiskaw formations.
+**Summary:** Alberta Geological Survey well database for the Athabasca oil sands, with data on 2,193 wells, about 750 of them with core analyses.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Athabasca Oil Sands Dataset (McMurray Formation) |
-| **Domain** | Oil & Gas |
-| **Asset / Process** | Oil Wells / Reservoirs |
+| **Domain** | Oil and gas |
+| **Asset / Process** | Wells, pipelines and reservoirs |
 | **Modality** | Tabular |
-| **Task** | Benchmark Suite |
-| **Annotation** | Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Official Portal |
-| **Size** | 2193 wells |
-| **Year** | 2001 |
-| **License** | Information not available |
+| **Task** | Other |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | — |
+| **Size** | 2,193 wells |
+| **Year** | 1995 |
+| **License** | — |
+| **Publisher** | Alberta Research Council |
 
 ## Description
 
-This dataset comprises a digital database implemented on a VAX station 4000 using INGRES database management system. It contains geological and well data on 2193 wells, approximately 750 of which have detailed core analyses.
+The Athabasca Oil Sands Data for the McMurray/Wabiskaw oil sands deposit is a digital well database released in 1995 by the Alberta Research Council as ARC/AGS Special Report 6. Its authors are D.A. Wynne, M. Attalla, T. Berezniuk, M. Brulotte, D.K. Cotterill, R. Strobl and D. Wightman, and it is the electronic form of the database described in Open File Report 1994-14.
 
-The database was developed from a project initiated in 1986 by the Alberta Geological Survey to map the McMurray Formation and the overlying Wabiskaw Member of the Clearwater Formation in the Athabasca Oil Sands Area. The data serves as a significant product to support and facilitate future oil sands development in this region.
-
-The dataset includes various geological attributes such as bitumen, porosity, stratigraphic picks, lithology, water saturation, natural gas, and well log data, among others, making it useful for detailed stratigraphic and resource analysis in oil sands research and exploration.
+The database holds data on 2,193 wells in the Athabasca Oil Sands area, including about 750 wells with core analyses. It stems from a mapping project the Alberta Geological Survey started in 1986, covering the McMurray Formation and the Wabiskaw Member of the Clearwater Formation that lies above it. Its original implementation ran on a VAX station 4000 with INGRES, a commercial database management system.
 
 ## References
 
-- [Alberta Geological Survey - Athabasca Oil Sands Dataset](https://ags.aer.ca/publication/spe-006)
-- [Original citation](https://ags.aer.ca/publication/spe-006)
+- [Official page](https://ags.aer.ca/publication/spe-006)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/athabasca-oil-sands-dataset-mcmurray-formation/)
 
 [⬅️ Back to Index](../README.md)

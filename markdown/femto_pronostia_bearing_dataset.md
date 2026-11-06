@@ -1,29 +1,34 @@
-# FEMTO (PRONOSTIA) Bearing Dataset
+# FEMTO Bearing Data Set
 
-**Summary:** The FEMTO (PRONOSTIA) Bearing dataset is a collection of run-to-failure experiments on bearings under three operating conditions. It supports training and testing of prognostics models for remaining useful life prediction.
+**Summary:** Accelerated run-to-failure tests of ball bearings on the PRONOSTIA rig at FEMTO-ST, with vibration and temperature records and a scored RUL challenge split.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | FEMTO (PRONOSTIA) Bearing Dataset |
-| **Domain** | Manufacturing & Production |
+| **Domain** | Manufacturing |
 | **Asset / Process** | Bearings |
-| **Modality** | Time Series; Vibration |
-| **Task** | Regression; RUL / Prognostics |
-| **Annotation** | RUL Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository; Competition |
-| **Size** | Information not available |
+| **Modality** | Vibration; Time series |
+| **Task** | RUL and prognostics; Condition monitoring |
+| **Annotation** | RUL label |
+| **Source Type** | Lab or testbed |
+| **Access** | Direct download |
+| **Size** | 6 run-to-failure training bearings and 11 truncated test bearings |
 | **Year** | 2012 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | FEMTO-ST Institute |
+| **Benchmark** | Yes |
 
 ## Description
 
-The FEMTO (PRONOSTIA) Bearing dataset comprises run-to-failure experiments on bearings, divided into three sub-datasets corresponding to distinct operating conditions. Sub-datasets 1 and 2 include two training runs and five test runs each, while sub-dataset 3 contains one test run. It was part of the 2012 IEEE Prognostics Challenge.
+The FEMTO Bearing Data Set comes from accelerated life tests of ball bearings run on PRONOSTIA, an experimental platform at the FEMTO-ST Institute in Besançon, France. FEMTO-ST supplied it for the IEEE PHM 2012 Prognostic Challenge, and it is distributed through the NASA Prognostics Data Repository at NASA Ames Research Center.
 
-This reader constructs default splits by assigning runs to development, validation, and test sets, with customizable split assignments. The feature data consist of sliding windows with three channels, of which two acceleration channels are used due to missing temperature measurements in test runs. All features are standardized using a scaler fitted on the development data.
+To shorten bearing life, the radial force goes up to the 4000 N maximum dynamic load. Two accelerometers, one vertical and one horizontal, are sampled at 25.6 kHz, and a PT100 temperature probe at 10 Hz; force, speed and torque are logged at 100 Hz. Tests run under three operating conditions: 1800 rpm and 4000 N, 1650 rpm and 4200 N, and 1500 rpm and 5000 N. Whether balls or races degrade first is not known in advance.
+
+The challenge provides 6 run-to-failure bearings for training and 11 test bearings whose records are truncated; lifetimes across all bearings range from 1 h to 7 h. Remaining useful life estimates are scored from percent errors, penalising late predictions more than early ones.
 
 ## References
 
-- [tilman151/rul_datasets](https://github.com/tilman151/rul-datasets)
+- [Official page](https://publiweb.femto-st.fr/tntnet/entries/1528/documents/author/data)
+- [nasa.gov](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/femto-pronostia-bearing-dataset/)
 
 [⬅️ Back to Index](../README.md)

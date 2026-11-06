@@ -1,32 +1,33 @@
 # APS Failure at Scania Trucks
 
-**Summary:** The datasets' positive class consists of component failures for a specific component of the Air Pressure system (APS) in Scania trucks. The negative class consists of trucks with failures for components not related to the APS.
+**Summary:** Operational data from heavy Scania trucks, labelled by whether a failure involves the Air Pressure System, with a cost-based metric from a 2016 challenge.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | APS Failure at Scania Trucks |
-| **Domain** | Transportation & Mobility |
-| **Asset / Process** | Vehicles / Fleets |
+| **Domain** | Transportation and mobility |
+| **Asset / Process** | Vehicles and fleets |
 | **Modality** | Tabular |
-| **Task** | Classification; Fault Diagnosis; Predictive Maintenance |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI; Competition |
-| **Size** | 60000 |
-| **Year** | 2017 |
-| **License** | Information not available |
+| **Task** | Classification |
+| **Annotation** | Class label |
+| **Source Type** | Real production |
+| **Access** | UCI repository |
+| **Size** | 60,000 training and 16,000 test examples |
+| **Year** | 2016 |
+| **License** | — |
+| **Publisher** | Scania CV AB |
+| **Benchmark** | Yes |
 
 ## Description
 
-The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure system (APS) which generates pressurized air that is utilized in various functions in a truck, such as braking and gear changes. The dataset's positive class consists of component failures for a specific component of the APS system, while the negative class consists of trucks with failures for components not related to the APS. The data is a subset selected by experts from all available data.
+APS Failure at Scania Trucks was created by Scania CV AB in Sweden, donated by Tony Lindgren and Jonas Biteus, and used in the Industrial Challenge 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA). The data was collected from heavy Scania trucks in everyday use, and its focus, the Air Pressure System (APS), supplies pressurised air for truck functions such as braking and gear changes.
 
-The training set contains 60,000 examples in total: 59,000 belonging to the negative class and 1,000 to the positive class. The test set contains 16,000 examples. The attributes of the data have been anonymized for proprietary reasons and comprise both single numerical counters and histograms consisting of bins with different conditions. There are 171 attributes in total, of which 7 are histogram variables. Missing values are denoted by 'na'.
+The positive class holds failures of a specific APS component, while the negative class holds trucks with failures in components unrelated to the APS. The data is a subset of all available data, selected by experts. The training set has 60,000 examples, 59,000 negative and 1,000 positive, and the test set has 16,000. The 171 anonymized attributes combine single numerical counters with histograms whose bins cover different conditions; 7 of them are histogram variables. Missing values are marked 'na'.
 
-The dataset was part of an Industrial Challenge 2016 at the 15th International Symposium on Intelligent Data Analysis (IDA). The evaluation metric is a cost-based misclassification metric, where costs for false positives and false negatives differ significantly, reflecting the practical consequences of errors in a maintenance context.
+The challenge scores a model by its total misclassification cost: an unnecessary workshop check costs 10 and a missed faulty truck costs 500.
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks)
-- [Dataset DOI](https://doi.org/10.24432/C51S51)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/aps-failure-at-scania-trucks/)
 
 [⬅️ Back to Index](../README.md)

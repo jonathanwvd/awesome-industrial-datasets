@@ -1,32 +1,31 @@
 # Individual Household Electric Power Consumption
 
-**Summary:** Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
+**Summary:** One-minute measurements of active and reactive power, voltage, current and three sub-meters in a house near Paris, from 2006 to 2010.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Individual Household Electric Power Consumption |
-| **Domain** | Energy & Power; Buildings & Appliances |
-| **Asset / Process** | Buildings / Appliances |
-| **Modality** | Time Series |
-| **Task** | Regression; Energy Optimization |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 2075259 |
+| **Domain** | Buildings and appliances |
+| **Asset / Process** | HVAC and building systems |
+| **Modality** | Time series |
+| **Task** | Regression |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | UCI repository |
+| **Size** | 2,075,259 measurements |
 | **Year** | 2012 |
-| **License** | Information not available |
+| **License** | CC BY |
 
 ## Description
 
-This archive contains 2,075,259 measurements gathered in a house located in Sceaux (7 km of Paris, France) between December 2006 and November 2010 (47 months).
+Georges Hebrail and Alice Berard created Individual Household Electric Power Consumption and donated it to the UCI Machine Learning Repository in 2012. It records the electricity use of one household in Sceaux, 7 km from Paris, France, over almost four years.
 
-Note that (global_active_power*1000/60 - sub_metering_1 - sub_metering_2 - sub_metering_3) represents the active energy consumed every minute (in watt hour) in the household by electrical equipment not measured in sub-meterings 1, 2 and 3. The dataset contains some missing values in the measurements (nearly 1.25% of the rows). All calendar timestamps are present in the dataset but for some timestamps, the measurement values are missing: a missing value is represented by the absence of value between two consecutive semicolon attribute separators. For instance, the dataset shows missing values on April 28, 2007.
+The 2,075,259 measurements cover 47 months, from December 2006 to November 2010. Each row has the date and time, global active and reactive power in kilowatts, voltage, current intensity and three sub-meters in watt-hours: the kitchen, the laundry room, and an electric water heater with an air conditioner. Nearly 1.25% of the rows have missing measurements, left empty between semicolon separators.
 
-The variables include date, time, global active and reactive power, voltage, global intensity, and three energy sub-meterings corresponding to different household areas and devices, all recorded in specific units such as kilowatt, volt, ampere, and watt-hour.
+The active energy drawn each minute by equipment outside the three sub-meters can be derived from the global active power minus the sub-meter readings. The data ships as one text file under CC BY 4.0.
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
-- [Dataset DOI](https://doi.org/10.24432/C58K54)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/individual-household-electric-power-consumption/)
 
 [⬅️ Back to Index](../README.md)

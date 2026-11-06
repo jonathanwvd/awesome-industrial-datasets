@@ -1,32 +1,31 @@
-# 3D Printer
+# 3D Printer Dataset for Mechanical Engineers
 
-**Summary:** This dataset comes from research by TR/Selcuk University Mechanical Engineering department. The aim is to determine how the adjustment parameters in 3D printers affect print quality, accuracy, and strength.
+**Summary:** Results of 3D printing tests that link nine printer setting parameters to measured roughness, ultimate tensile strength and elongation.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | 3D Printer |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Additive Manufacturing; Materials / Chemistry |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Additive manufacturing |
 | **Modality** | Tabular |
-| **Task** | Classification; Regression; Quality Prediction |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Kaggle; Login Required |
-| **Size** | Information not available |
-| **Year** | 2018 |
-| **License** | Information not available |
+| **Task** | Regression; Quality prediction; Classification |
+| **Annotation** | Scalar target; Class label |
+| **Source Type** | Lab or testbed |
+| **Access** | Kaggle |
+| **Size** | — |
+| **Year** | — |
+| **License** | — |
 
 ## Description
 
-The dataset is based on the Ultimaker S5 3D printer settings and filaments, with materials and strength tests carried out on a Sincotec GMBH tester capable of pulling 20 kN.
+This dataset links the setting parameters of a 3D printer to the quality, accuracy and strength of the parts it prints. It originates from research at the Mechanical Engineering department of Selcuk University and uses the settings and filaments of an Ultimaker S5 printer.
 
-It comprises nine setting parameters including layer height, wall thickness, infill density and pattern, nozzle and bed temperature, print speed, material, and fan speed. The measured output parameters are roughness, tension (ultimate) strength, and elongation.
+Each record holds nine settings: layer height, wall thickness, infill density, infill pattern, nozzle temperature, bed temperature, print speed, material and fan speed. Three measured outputs follow: surface roughness in micrometres, ultimate tensile strength in MPa and elongation in percent. Material and strength tests were run on a Sincotec tester rated to pull 20 kN.
 
-The study attempts to estimate which material is used based on input and output parameters using kNN and DNN algorithms. This dataset supports mechanical engineering research and machine learning analysis for 3D printing parameters.
+The stated aim of the study is to find how strongly each setting affects print quality, accuracy and strength. A second stated goal is to estimate the filament material from the input and output parameters with kNN and DNN algorithms.
 
 ## References
 
-- [3D Printer Dataset on Kaggle](https://www.kaggle.com/datasets/afumetto/3dprinter)
-- [TR/Selcuk University Mechanical Engineering department research](https://medium.com/@ahmet17/makina-m%C3%BChendisleri-i%C3%A7in-derin-%C3%B6%C4%9Frenme-3d-printer-veri-setinin-i%CC%87ncelenmesi-6fe1f48e0cdb)
+- [Kaggle dataset](https://www.kaggle.com/datasets/afumetto/3dprinter)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/3d-printer/)
 
 [⬅️ Back to Index](../README.md)

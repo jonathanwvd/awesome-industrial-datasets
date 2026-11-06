@@ -1,32 +1,33 @@
 # IndustReal
 
-**Summary:** Egocentric procedure-step recognition dataset with 84 videos of 27 participants performing maintenance and assembly procedures in an industrial-like setting, distributed via 4TU.ResearchData.
+**Summary:** 84 egocentric HoloLens 2 videos of 27 participants assembling and maintaining a construction-toy model, labelled for procedure steps, actions and assembly states.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | IndustReal |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Image; Video |
-| **Task** | Predictive Maintenance; Process Monitoring |
-| **Annotation** | Sample Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | 84 videos; 27 participants |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Video; RGB-D and depth; Multimodal |
+| **Task** | Classification; Object detection |
+| **Annotation** | Class label; Bounding box |
+| **Source Type** | Lab or testbed |
+| **Access** | Direct download |
+| **Size** | 84 videos from 27 participants |
 | **Year** | 2023 |
-| **License** | Apache-2.0 |
+| **License** | — |
+| **Publisher** | Eindhoven University of Technology |
 
 ## Description
 
-IndustReal is a video dataset designed for procedure step recognition in industrial assembly and maintenance contexts. Participants wore egocentric cameras while performing standardised assembly and maintenance tasks on industrial-like components, resulting in 84 video sequences from 27 participants. The dataset includes step-level annotations and is designed to support error detection and handling during procedural execution.
+IndustReal is a dataset of egocentric videos in which participants carry out maintenance and assembly procedures on a 3D-printed construction-toy set based on STEMFIE parts. It accompanies a paper by Schoonbeek et al. on procedure step recognition with execution errors, presented at the 2024 IEEE/CVF Winter Conference on Applications of Computer Vision. Eindhoven University of Technology has published the data as zip and tar files on 4TU.ResearchData since October 2023.
 
-In addition to video and annotations, 3D geometries of the assembled parts are provided, enabling approaches that combine visual data with geometric knowledge. The dataset is relevant to robotics, augmented reality assistance, and AI-based process monitoring applications in manufacturing and maintenance environments.
+The 84 videos show 27 participants and were recorded with a Microsoft HoloLens 2. Each recording holds RGB frames at 1080x720 and 10 FPS, left and right grayscale stereo frames at 640x480, colormapped depth and ambient light frames at 5 FPS, and gaze, hand and head pose tracking.
 
-The base dataset and an extension are distributed via 4TU.ResearchData (with versioned DOIs). The extension dataset is licensed under Apache-2.0. An associated paper describing the dataset and benchmarks is available via the GitHub repository.
+Labels cover action segments with start and end frames, assembly states in COCO format, and completed procedure steps, including wrongly executed ones. For action recognition the authors publish train, validation and test splits, and a significant part of the procedural and execution errors appears only in the validation and test sets. The release adds the 3D part geometries and trained model weights.
 
 ## References
 
 - [GitHub repository](https://github.com/TimSchoonbeek/IndustReal)
-- [Extension dataset (4TU.ResearchData)](https://data.4tu.nl/datasets/611adbc7-7935-43a6-8c3f-b2260a508e73)
+- [data.4tu.nl](https://data.4tu.nl/datasets/b008dd74-020d-4ea4-a8ba-7bb60769d224)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/industreal/)
 
 [⬅️ Back to Index](../README.md)

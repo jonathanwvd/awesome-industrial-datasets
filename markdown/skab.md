@@ -1,31 +1,32 @@
 # SKAB
 
-**Summary:** Industrial anomaly detection benchmark for multivariate time series from sensor streams, with two types of anomaly annotations: single-point outliers and collective segment-level change-point anomalies.
+**Summary:** Multivariate sensor time series from a testbed with a water pump and circulation loop, one experiment and one anomaly per file, with outlier and changepoint labels.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | SKAB |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Anomaly Detection; Process Monitoring |
-| **Annotation** | Sample Label; Time / Event Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository |
-| **Size** | Information not available |
+| **Domain** | Water and utilities |
+| **Asset / Process** | Pumps, compressors and fans; Motors and drives |
+| **Modality** | Time series |
+| **Task** | Anomaly detection |
+| **Annotation** | Sample label; Event and time label |
+| **Source Type** | Lab or testbed |
+| **Access** | Code repository |
+| **Size** | — |
 | **Year** | 2020 |
-| **License** | GPL |
+| **License** | — |
+| **Benchmark** | Yes |
 
 ## Description
 
-SKAB (Skoltech Anomaly Benchmark) is an industrial multivariate time series benchmark for evaluating anomaly detection algorithms. The dataset is collected from a water circulation testbed equipped with multiple sensors, producing synchronised time series of physical process measurements.
+SKAB (Skoltech Anomaly Benchmark) is a set of multivariate time series for evaluating anomaly detection algorithms, recorded from sensors installed on a testbed. Iurii D. Katser and Vyacheslav O. Kozitsin released it in 2020; its data record is on Kaggle under DOI 10.34740/KAGGLE/DSV/1693952.
 
-A key feature of SKAB is the provision of two distinct anomaly markup types for the same data: (1) single-point outlier annotations for methods that detect isolated anomalous measurements, and (2) collective anomaly / change-point annotations for methods that detect sustained regime changes. This dual-label design allows direct comparison of different algorithmic paradigms on the same data.
+In SKAB v0.9, each CSV data file holds a single experiment with a single anomaly. Columns hold the timestamp, two accelerometer RMS values, motor current and voltage, pressure after the water pump, engine body temperature, fluid temperature and flow rate in the circulation loop. Two 0 or 1 markups label each point as anomalous and as a changepoint of a collective anomaly.
 
-The benchmark repository includes tooling for standardised evaluation and comparison. SKAB is licensed under GPL-3.0, which may affect redistribution and derivative packaging; users should verify compatibility with their intended use case.
+A leaderboard on the test set ranks methods for outlier detection, scored with F1, false alarm and missing alarm rates, and for changepoint detection, scored with NAB metrics.
 
 ## References
 
 - [GitHub repository](https://github.com/waico/SKAB)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/skab/)
 
 [⬅️ Back to Index](../README.md)

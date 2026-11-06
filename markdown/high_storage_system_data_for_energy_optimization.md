@@ -1,34 +1,32 @@
 # High Storage System Data for Energy Optimization
 
-**Summary:** Different datasets from correct running optimized system and runs with anomalies from a high storage system focused on data-driven energy optimization and anomaly detection.
+**Summary:** Labelled runs of a high storage system demonstrator in the Lemgo Smartfactory, split into normal and anomalous, standard and energy-optimized operation.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | High Storage System Data for Energy Optimization |
-| **Domain** | Energy & Power |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Anomaly Detection; Energy Optimization |
-| **Annotation** | Sample Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | Information not available |
-| **Year** | 2018 |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Anomaly detection; Energy optimization |
+| **Annotation** | Sample label |
+| **Source Type** | Lab or testbed |
+| **Access** | Kaggle |
+| **Size** | 4 CSV files of normal and anomalous runs |
+| **Year** | — |
+| **License** | CC BY-NC-SA |
+| **Publisher** | inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences |
 
 ## Description
 
-The dataset originates from the Smartfactory in Lemgo, which demonstrates a high storage system previously used in research projects like IMPROVE. Its focus is on data-driven energy optimization and is also used for anomaly detection using timed automata.
+The High Storage System Data for Energy Optimization comes from a high storage system demonstrator in the Smartfactory in Lemgo, with copyright held by inIT - Institute Industrial IT and Ostwestfalen-Lippe University of Applied Sciences. The system was built for earlier research projects such as the Horizon 2020 project IMPROVE, centres on data-driven energy optimization and is also used for anomaly detection with timed automata.
 
-The high storage system consists of 4 short conveyor belts and 2 rails, with the conveyor belts equipped with induction sensors. It uses a SPS with Codesys V3, following the IEC61131-Standard. The system transports packages between two spots with runs recorded for both optimized and non-optimized processes, including those with anomalies.
+The demonstrator has four short conveyor belts, each with three induction sensors, and two rails that lift the middle belts. An SPS with Codesys V3 (IEC61131) controls it. Each run moves one package between two spots, either in a standard run where the middle belts move vertically only when not carrying the package or in an optimized run that combines both motions. Four CSV files hold normal and failure runs of each mode; a Label column marks anomalous rows.
 
-The data files are split into four CSV files covering normal runs without failures (non-optimized and optimized) and runs with failures (non-optimized and optimized). The Label column marks anomalies, enabling tests on energy-based optimization and anomaly detection tasks. The dataset is publicly available under a Creative Commons BY-NC-SA 4.0 license.
+The publisher intends the two normal files for testing energy-based optimization and the normal and anomalous files for testing anomaly detection. The data is released under CC BY-NC-SA 4.0.
 
 ## References
 
-- [Kaggle Dataset Page](https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization)
-- [Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events](https://ieeexplore.ieee.org/document/8247695/)
-- [Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps](https://www.init-owl.de/en/research/publications/detail/enable-learning-of-hybrid-timed-automata-in-absence-of-discrete-events-through-self-organizing-maps/)
-- [A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata](https://www.init-owl.de/en/research/publications/detail/a-novel-anomaly-detection-algorithm-for-hybrid-production-systems-based-on-deep-learning-and-timed-automata/)
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/high-storage-system-data-for-energy-optimization/)
 
 [⬅️ Back to Index](../README.md)

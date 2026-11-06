@@ -1,32 +1,32 @@
 # Robot Execution Failures
 
-**Summary:** This dataset contains force and torque measurements on a robot after failure detection. Each failure is characterized by 15 force/torque samples collected at regular time intervals.
+**Summary:** Force and torque readings taken on a robot right after failure detection, 463 instances split into five learning problems with a class per failure.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Robot Execution Failures |
-| **Domain** | Robotics & Automation |
-| **Asset / Process** | Robotic Manipulation |
-| **Modality** | Time Series |
-| **Task** | Classification; Benchmark Suite |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 463 |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | Robots and manipulators |
+| **Modality** | Time series |
+| **Task** | Classification |
+| **Annotation** | Class label |
+| **Source Type** | — |
+| **Access** | UCI repository |
+| **Size** | 463 instances |
 | **Year** | 1999 |
-| **License** | Information not available |
+| **License** | CC BY |
 
 ## Description
 
-The Robot Execution Failures dataset includes 5 datasets, each defining a different learning problem related to failures in robot operations: failures in approach to grasp position, failures in transfer of a part, position of part after a transfer failure, failures in approach to ungrasp position, and failures in motion with part.
+Robot Execution Failures holds force and torque measurements recorded on a robot after a failure has been detected. It was created by Luis Lopes and Luis Camarinha-Matos and donated to the UCI Machine Learning Repository in 1999.
 
-Each failure instance is characterized by 15 force/torque samples collected at regular time intervals starting immediately after failure detection, spanning a total observation window of 315 milliseconds. The features are integer-valued and represent the evolution of forces and torques (Fx, Fy, Fz, Tx, Ty, Tz) over these time intervals.
+The donation has five datasets, each a different learning problem: failures in approach to grasp position (LP1), failures in transfer of a part (LP2), position of a part after a transfer failure (LP3), failures in approach to ungrasp position (LP4) and failures in motion with a part (LP5).
 
-To improve classification accuracy on these problems, various feature transformation strategies such as statistical summary features and discrete Fourier transform were evaluated, leading to an average improvement of 20% in accuracy according to the reference by Seabra Lopes and Camarinha-Matos (1998).
+Each of the 463 instances has a class and 15 force/torque samples taken at regular intervals over a 315 ms window, giving 90 integer-valued features: Fx, Fy, Fz, Tx, Ty and Tz at each step. There are no missing values. The task is classification, and the data is released under CC BY 4.0.
 
 ## References
 
-- [Lopes, L. & Camarinha-Matos, L. (1998). Robot Execution Failures [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5M89N.](https://doi.org/10.24432/C5M89N)
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Robot+Execution+Failures)
+- [DOI](https://doi.org/10.24432/C5M89N)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/138/robot+execution+failures)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/robot-execution-failures/)
 
 [⬅️ Back to Index](../README.md)

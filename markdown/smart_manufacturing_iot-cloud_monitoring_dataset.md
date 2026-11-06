@@ -1,29 +1,31 @@
 # Smart Manufacturing IoT-Cloud Monitoring Dataset
 
-**Summary:** The Smart Manufacturing IoT-Cloud Monitoring Dataset is designed to support real-time process monitoring, predictive maintenance, and anomaly detection in industrial settings. It provides simulated IoT sensor readings from manufacturing machines with maintenance_required flags for machine maintenance prediction.
+**Summary:** Simulated IoT sensor dataset of 100,000 one-minute records from 50 machines, with anomaly flags, failure types and a maintenance target.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Smart Manufacturing IoT-Cloud Monitoring Dataset |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Anomaly Detection; Predictive Maintenance; Process Monitoring; Energy Optimization |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series; Tabular |
+| **Task** | Classification; Fault diagnosis |
+| **Annotation** | Class label |
 | **Source Type** | Synthetic |
-| **Access** | Kaggle; Login Required |
-| **Size** | 100000 |
-| **Year** | 2025 |
-| **License** | Information not available |
+| **Access** | Kaggle |
+| **Size** | 100,000 sensor records from 50 machines |
+| **Year** | — |
+| **License** | CC0 and public domain |
 
 ## Description
 
-The Smart Manufacturing IoT-Cloud Monitoring Dataset is designed to facilitate real-time process monitoring, predictive maintenance, and anomaly detection in industrial environments. The dataset simulates IoT sensor readings collected from manufacturing machines, including parameters such as temperature, vibration, humidity, pressure, and energy consumption.
+The Smart Manufacturing IoT-Cloud Monitoring Dataset is a simulated set of IoT sensor readings from manufacturing machines. Its stated aim is to help with process monitoring, predictive maintenance and anomaly detection in industrial settings. The data is released under CC0 1.0.
 
-It includes anomaly flags, failure types, and a target column (maintenance_required) which indicates whether a machine requires maintenance. Key features include 100,000 sensor records from 50 unique machines with timestamps recorded at 1-minute intervals and machine operational status labels to support machine learning model training for predictive maintenance and anomaly detection.
+The file smart_manufacturing_data.csv holds 100,000 sensor records from 50 machines, timestamped at 1-minute intervals. Each record gives temperature, vibration, humidity, pressure and energy consumption together with the machine's operational status, which is idle, running or failure.
+
+Three kinds of label accompany the readings. Anomaly flags mark records with extreme sensor values, a failure type names the fault, and the target column maintenance_required states whether a machine needs maintenance. The readings come from simulation, not from an operating shop floor, although they are presented as real-time sensor data.
 
 ## References
 
-- [Kaggle](https://www.kaggle.com/datasets/ziya07/smart-manufacturing-iot-cloud-monitoring-dataset)
+- [Kaggle dataset](https://www.kaggle.com/datasets/ziya07/smart-manufacturing-iot-cloud-monitoring-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/smart-manufacturing-iot-cloud-monitoring-dataset/)
 
 [⬅️ Back to Index](../README.md)

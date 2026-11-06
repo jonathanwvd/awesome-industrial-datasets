@@ -1,31 +1,31 @@
 # Defective Solar Cells Dataset
 
-**Summary:** A dataset of functional and defective solar cells extracted from electroluminescence (EL) images of solar modules.
+**Summary:** 2,624 electroluminescence images of solar cells from 44 photovoltaic modules, each annotated with a defect probability and the module type.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Defective Solar Cells Dataset |
-| **Domain** | Energy & Power; Manufacturing & Production |
-| **Asset / Process** | Solar / PV |
+| **Domain** | Energy and power |
+| **Asset / Process** | Solar PV |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Defect Detection; Quality Prediction; Energy Optimization |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | Information not available |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Task** | Defect detection; Classification |
+| **Annotation** | Scalar target |
+| **Source Type** | — |
+| **Access** | Code repository |
+| **Size** | 2,624 images |
+| **Year** | 2018 |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
-This dataset contains images of solar cells that are either functional or defective, extracted from electroluminescence (EL) images of solar modules. The dataset is useful for machine learning tasks focused on the detection and classification of defects in solar cells, which is essential for quality control in photovoltaic manufacturing.
+The Defective Solar Cells Dataset (elpv-dataset) holds images of functional and defective solar cells extracted from high-resolution electroluminescence (EL) images of photovoltaic modules. It is published on GitHub by zae-bayern and was introduced in "A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery", presented at EU PVSEC 2018.
 
-The images in the dataset capture different states of solar cells and can be used in developing computer vision models aimed at identifying anomalies and defects that affect the performance of solar panels. It serves as a valuable resource for research in photovoltaic systems and solar energy optimization.
+It contains 2,624 grayscale 8-bit images of 300 by 300 pixels, taken from 44 different modules. All cells are normalized in size and perspective, and lens distortion was removed before extraction. The defects are of intrinsic or extrinsic type and are known to reduce module power efficiency.
 
-The dataset is available on GitHub, maintained by the organization zae-bayern. It supports work in the fields of machine learning, computer vision, and solar energy technology.
+Each image carries a defect probability between 0 and 1 and the type of its source module, mono- or polycrystalline. A Python package installed with pip loads the images and annotations. The images are licensed under CC BY-NC-SA 4.0 and the Python code under Apache 2.0.
 
 ## References
 
-- [Defective Solar Cells Dataset GitHub Repository](https://github.com/zae-bayern/elpv-dataset)
+- [GitHub repository](https://github.com/zae-bayern/elpv-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/defective-solar-cells-dataset/)
 
 [⬅️ Back to Index](../README.md)

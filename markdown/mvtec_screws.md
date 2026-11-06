@@ -1,33 +1,30 @@
 # MVTec Screws
 
-**Summary:** Oriented bounding box detection benchmark for industrial screws and nuts, with 384 images and 4,426 oriented box annotations across 13 fastener categories.
+**Summary:** Image dataset for Object Detection; Pose Estimation in Manufacturing & Production.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MVTec Screws |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Object Detection; Pose Estimation |
-| **Annotation** | Bounding Box; Pose / Keypoint Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Direct Download |
-| **Size** | 384 images; 4426 oriented bounding box annotations; 13 categories |
+| **Task** | Object detection; Pose estimation |
+| **Annotation** | Bounding box; Pose and keypoints |
+| **Source Type** | Lab or testbed |
+| **Access** | Request or approval |
+| **Size** | 384 images; 4,426 oriented bounding box annotations; 13 categories |
 | **Year** | 2019 |
 | **License** | CC BY-NC-SA |
+| **Publisher** | MVTec |
 
 ## Description
 
-MVTec Screws is an industrial benchmark dataset for oriented object detection applied to fasteners (screws and nuts). The dataset contains 384 images with 4,426 manually annotated oriented bounding boxes across 13 screw and nut categories. Annotations are provided in both HALCON DLDataset and COCO-like JSON formats.
+MVTec Screws is an industrial benchmark dataset created for oriented bounding-box detection and pose estimation of fasteners. The dataset comprises 384 images showing 13 different types of screws and nuts on a wooden background, with a total of 4,426 manually annotated oriented bounding boxes and category labels.
 
-The dataset is designed to evaluate oriented detection methods in industrial manufacturing and quality control scenarios, where objects are frequently rotated and standard axis-aligned bounding boxes are insufficient. The total download size is approximately 1.3 GB.
-
-MVTec Screws was published alongside a paper at tm - Technisches Messen (DOI: 10.1515/teme-2019-0076) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+MVTec publishes it on its research datasets page, where the files are downloaded after filling in a form. The data is released under CC BY-NC-SA 4.0, so commercial use is not allowed.
 
 ## References
 
-- [Dataset page](https://www.mvtec.com/company/research/datasets/mvtec-screws)
-- [Downloads](https://www.mvtec.com/company/research/datasets/mvtec-screws/downloads)
-- [Paper DOI](https://doi.org/10.1515/teme-2019-0076)
+- [Official page](https://www.mvtec.com/research-teaching/datasets/mvtec-screws)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mvtec-screws/)
 
 [⬅️ Back to Index](../README.md)

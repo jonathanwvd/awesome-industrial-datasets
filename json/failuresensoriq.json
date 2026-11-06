@@ -1,25 +1,32 @@
 {
   "Name": "FailureSensorIQ",
-  "Summary": "FailureSensorIQ is a Multi-Choice QA dataset that explores the relationships between sensors and failure modes for 10 industrial assets. It contains 8,296 questions generated using ISO documents, with both single-correct-answer and multi-correct-answer formats.",
-  "Domain": "General / Cross-Industrial",
-  "Asset / Process": "Other / Cross-Domain",
-  "Modality": "Text / Documents",
-  "Task": "Fault Diagnosis; Recommendation / Decision Support; Benchmark Suite",
-  "Annotation": "Text / QA Label",
-  "Source Type": "Derived / Aggregated",
+  "Summary": "Multiple-choice benchmark of 8,296 questions from IBM that tests how well language models relate sensors to failure modes of 10 industrial assets.",
+  "Domain": "Cross-industrial",
+  "Modality": "Text and documents",
+  "Task": "Question answering",
+  "Annotation": "Text and QA label",
   "Access": "Hugging Face",
   "Size": "8,296 questions",
   "Year": "2025",
-  "License": "Apache-2.0",
-  "Description": "The FailureSensorIQ dataset covers 10 industrial assets, including electric motors, steam turbines, gas turbines, pumps, compressors, and more. It provides two question formats: FM2Sensor (row-centric) and Sensor2FM (column-centric), with selection and elimination modes based on ISO standard tables.",
+  "Publisher": "IBM Research",
+  "Benchmark": "Yes",
+  "Description": "FailureSensorIQ is a dataset and benchmark from IBM Research that probes how large language models reason about sensor and failure-mode relationships in industrial systems. It was presented in the NeurIPS 2025 Datasets and Benchmarks Track (arXiv 2506.03278). The questions were produced by a generation pipeline that uses only information from ISO documents.\n\nThe 8,296 questions cover 10 industrial assets: 2,667 have a single correct answer and 5,629 have several. They are published as two JSON Lines subsets, single_true_multi_choice_qa and multi_true_multi_choice_qa, The GitHub repository adds perturbed variants (SimplePert, ComplexPert and OptionsPert) for robustness tests.\n\nThe data is hosted on Hugging Face under ibm-research/FailureSensorIQ and loads with the Hugging Face datasets library. The project code is on GitHub under IBM/FailureSensorIQ.",
   "References": [
     {
-      "Text": "GitHub Repository",
+      "Text": "GitHub repository",
       "Link": "https://github.com/IBM/FailureSensorIQ"
     },
     {
-      "Text": "Hugging Face Dataset",
+      "Text": "Hugging Face dataset",
       "Link": "https://huggingface.co/datasets/ibm-research/FailureSensorIQ"
+    },
+    {
+      "Text": "Preprint (arXiv)",
+      "Link": "https://arxiv.org/abs/2506.03278"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/failuresensoriq/"
     }
   ]
 }

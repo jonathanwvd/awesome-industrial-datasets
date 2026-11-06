@@ -1,25 +1,23 @@
 {
   "Name": "Textures Classification Dataset",
-  "Summary": "Industrial texture image dataset (companion to Magnetic Tile Defect paper) for training compact CNNs in surface defect inspection; contains texture samples across defect and defect-free categories.",
-  "Domain": "Materials & Metrology; Manufacturing & Production",
-  "Asset / Process": "Materials / Chemistry",
+  "Summary": "Surface texture set of 8,674 images in 64 classes merged from the KTH, Kyberge and UIUC texture datasets and split in half for training and validation.",
+  "Domain": "Materials and metrology",
+  "Asset / Process": "Surfaces and textures",
   "Modality": "Image",
-  "Task": "Defect Detection; Classification",
-  "Annotation": "Sample Label; Class Label; Fault Type Label",
-  "Source Type": "Real Production / Field",
-  "Access": "Repository",
-  "Size": "Multiple texture image samples across defect categories (exact count on GitHub repository)",
-  "Year": "2018",
-  "License": "Information not available",
-  "Description": "The Textures Classification Dataset was released by abin24 on GitHub alongside the paper 'A compact convolutional neural network for surface defect inspection' (Measurement, 2018). It is a companion dataset to the Magnetic Tile Defect dataset from the same author.\n\nThe dataset contains industrial texture images organized by class, used for training and evaluating compact convolutional neural network architectures for surface defect inspection. The textures represent different surface conditions (defect types and defect-free) from industrial manufacturing environments.\n\nThe primary task is multi-class texture classification, aiming to distinguish between normal and various types of defective surface textures. The dataset supports research into efficient deep learning models suitable for deployment in industrial inspection systems with limited computational resources.",
+  "Task": "Classification",
+  "Annotation": "Class label",
+  "Access": "Direct download",
+  "Size": "8,674 images",
+  "Year": "2019",
+  "Description": "The Textures Classification Dataset combines surface texture images from three public texture datasets into one set of 64 classes. It accompanies the paper \"A compact convolutional neural network for surface defect inspection\", a paper its authors describe as upcoming; the repository was created in 2019.\n\nAll 8,674 images are resized to 331 x 331 pixels. Eleven classes (3,194 images) come from the KTH surface dataset, including KTH-TIPS and KTH-TIPS2, 28 classes (4,480 images without rotated patches) from the Kyberge dataset and 25 classes (1,000 images) from the UIUC dataset. The textures are real-world surfaces such as wood, blanket, cloth and leather.\n\nThe images are split at random into two halves, one for training and one for validation. The set is meant for evaluating the capacity of models or for pretraining CNN models for surface defect inspection. It is downloaded from Baidu, with an extraction code, or from Google Drive.",
   "References": [
     {
-      "Text": "Textures-Dataset GitHub Repository (abin24)",
+      "Text": "GitHub repository",
       "Link": "https://github.com/abin24/Textures-Dataset"
     },
     {
-      "Text": "Paper: A compact convolutional neural network for surface defect inspection (Measurement, 2018)",
-      "Link": "https://doi.org/10.1016/j.measurement.2018.06.010"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/textures-classification-dataset/"
     }
   ]
 }

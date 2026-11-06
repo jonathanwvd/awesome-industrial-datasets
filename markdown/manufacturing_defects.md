@@ -1,31 +1,31 @@
-# Manufacturing Defects
+# Manufacturing Defects - Industry Dataset
 
-**Summary:** Ten days of data on parts defects, one item tested every fifteen minutes during an eight-hour shift.
+**Summary:** Ten days of minor-defect counts from a sampling plan that inspects one production-line component every 15 minutes during an eight-hour shift.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Manufacturing Defects |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Defect Detection; Regression; Quality Prediction |
-| **Annotation** | Sample Label; Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | 3200 |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series; Tabular |
+| **Task** | Process monitoring |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Kaggle |
+| **Size** | 10 days of minor-defect samples |
+| **Year** | — |
+| **License** | — |
 
 ## Description
 
-Defect sampling is used in industrial settings to determine the types and amounts of defects in manufactured items. Items at various stages of production are removed from the process and inspected for defects. Sustained testing allows operations managers to discover whether some part of the manufacturing process is failing to meet performance criteria and product standards. To minimize manufacturing defects, early detection and problem resolution are critical.
+Manufacturing Defects - Industry Dataset is a defect sampling dataset for following the quality of a production line over time. Under the sampling plan behind it, components are removed from the process, inspected and tested for major defects, which impair performance, and minor defects such as nicks and scratches, which change only the appearance of a part.
 
-In the current sampling plan, one component from the production line is randomly selected every 15 minutes. Each component is inspected and tested for major and minor defects. Major defects, which affect component performance, must be addressed immediately. Fortunately, major defects are rare and are generally contained and corrected early in the process. Minor defects, such as nicks and scratches, are those that affect the appearance of a component but not its functionality.
+The data covers minor defects only. Samples were taken at 15-minute intervals over an eight-hour shift on each of the ten days, each time from one randomly chosen component. The file defects.csv has three variables: the test day from 1 to 10, the time of day of the sample in military time, and the count of minor defects found on that item.
 
-The data set contains ten days of data on minor defects. Each day, one item is tested every fifteen minutes during an eight-hour shift. The variables in the data set are Day (day of the test: 1-10), Sample (time of the day that sample was taken in military time), and Defects (number of minor defects detected on the sampled item).
+Repeated sampling of this kind serves process monitoring, such as checking whether part of the process fails to meet product standards, with early detection meant to keep defects low.
 
 ## References
 
-- [Kaggle Dataset - Manufacturing Defects Industry Dataset](https://www.kaggle.com/datasets/gabrielsantello/manufacturing-defects-industry-dataset)
+- [Kaggle dataset](https://www.kaggle.com/datasets/gabrielsantello/manufacturing-defects-industry-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/manufacturing-defects/)
 
 [⬅️ Back to Index](../README.md)

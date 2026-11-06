@@ -1,34 +1,34 @@
-# Severstal Steel Defect Detection
+# Severstal: Steel Defect Detection
 
-**Summary:** In this competition you will be predicting the location and type of defects found in steel manufacturing. Images are named with a unique ImageId. You must segment and classify the defects in the test set.
+**Summary:** Featured Kaggle competition run by Severstal in 2019 that asked teams to detect and classify defects in steel images, scored with the Dice metric.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Severstal Steel Defect Detection |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Steel / Metal Surfaces |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Steel and metal surfaces |
 | **Modality** | Image |
-| **Task** | Defect Detection; Defect Segmentation; Classification; Quality Prediction |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Competition; Login Required |
-| **Size** | 18,076 files |
+| **Task** | Defect detection; Classification |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Competition |
+| **Size** | — |
 | **Year** | 2019 |
-| **License** | Competition Terms |
+| **License** | — |
+| **Publisher** | Severstal |
+| **Benchmark** | Yes |
 
 ## Description
 
-In this competition, the goal is to predict the location and type of defects found in steel manufacturing. Each image might have no defects, a defect of a single class, or defects of multiple classes. For each image, you must segment defects of each class (ClassId = [1, 2, 3, 4]). The segment for each defect class will be encoded into a single row, even if there are several non-contiguous defect locations on an image.
+Severstal: Steel Defect Detection is a Kaggle competition in the Featured category, organised by Severstal. Participants are asked to find defects in images of steel and to assign each defect to a class. Entries were accepted from 25 July 2019 until 24 October 2019, and the competition offered a reward of 120,000 USD.
 
-The dataset consists of folders of training images (train_images/) and test images (test_images/) which participants are to segment and classify. Annotations for training images are provided in train.csv, which includes segments for defects with ClassId values from 1 to 4. Additionally, there is a sample submission file that shows the correct format.
+The competition files are steel images in JPG format, kept in a test_images folder with one file per image named by its identifier, and a sample_submission.csv file that shows how predictions must be laid out for an entry.
 
-Submissions to this competition must be made through Kernels, which will rerun automatically against the entire Public and Private test sets after submission. Participants need to accept the competition rules to access the data. The dataset includes 18,076 files totaling approximately 1.7 GB in size, with image files and CSV annotations.
+Every entry is scored with the Dice metric against the same test images, and 2427 teams took part. The shared metric and test set give a single leaderboard on which methods for detecting and classifying steel defects are ranked against each other.
 
 ## References
 
-- [Severstal Steel Defect Detection - Kaggle](https://www.kaggle.com/c/severstal-steel-defect-detection/data)
-- [Competition Rules](https://www.kaggle.com/c/severstal-steel-defect-detection/rules)
-- [Evaluation Details](https://www.kaggle.com/c/severstal-steel-defect-detection/overview/evaluation)
-- [Kernels Requirement Page](https://www.kaggle.com/c/severstal-steel-defect-detection/overview/kernels-requirements)
+- [Kaggle dataset](https://www.kaggle.com/c/severstal-steel-defect-detection/data)
+- [Kaggle dataset](https://www.kaggle.com/c/severstal-steel-defect-detection)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/severstal-steel-defect-detection/)
 
 [⬅️ Back to Index](../README.md)

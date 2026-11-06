@@ -1,25 +1,30 @@
 {
   "Name": "MPDD",
-  "Summary": "Industrial metal-part defect dataset with over 1,000 images and pixel-precise defect masks for 6 part categories, following the MVTec-style train/validation split protocol.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Casting / Metal Parts",
+  "Summary": "Defect detection benchmark of over 1,000 images of industrial metal parts with pixel-precise defect masks, from Brno University of Technology.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Castings and metal parts",
   "Modality": "Image",
-  "Task": "Anomaly Detection; Defect Detection; Defect Segmentation; Quality Prediction",
-  "Annotation": "Normal-Only Training; Sample Label; Pixel Mask",
-  "Source Type": "Mixed",
-  "Access": "Repository",
-  "Size": "1064 images across 6 metal part categories",
+  "Task": "Anomaly detection; Defect detection; Defect segmentation",
+  "Annotation": "Normal-only training; Pixel mask",
+  "Access": "Code repository",
+  "Size": "1,000+ images",
   "Year": "2021",
   "License": "CC BY-NC-SA",
-  "Description": "MPDD (Metal Parts Defect Detection Dataset) is a benchmark dataset for industrial anomaly detection focused on metal manufacturing components. The dataset provides real images of six different metal part categories, each with a defect-free training set and a mixed validation set containing both normal and anomalous samples. Pixel-precise defect masks are provided for anomalous validation samples.\n\nThe dataset was designed as a practical complement to MVTec AD, focusing on metallic components that exhibit defects commonly encountered in manufacturing quality control. The benchmark follows the standard unsupervised anomaly detection protocol where only defect-free samples are available at training time.\n\nMPDD was introduced at ICUMT 2021 (DOI: 10.1109/ICUMT54235.2021.9631567) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.",
+  "Publisher": "Brno University of Technology",
+  "Benchmark": "Yes",
+  "Description": "MPDD (Metal Parts Defect Detection Dataset) is a benchmark for visual defect detection in industrial metal part manufacturing. It was created at Brno University of Technology by Stepan Jezek, Martin Jonak, Radim Burget, Pavel Dvorak and Milos Skotak, with funding from the Technology Agency of the Czech Republic.\n\nThe dataset contains more than 1,000 images with pixel-precise defect annotation masks. It is divided into a training subset of anomaly-free samples and a validation subset with both normal and anomalous samples, the usual set-up for unsupervised anomaly detection.\n\nMPDD accompanies the paper \"Deep learning-based defect detection of metal parts: evaluating current methods in complex conditions\", presented at ICUMT 2021. The download link is published in the GitHub repository, and the data is released under CC BY-NC-SA 4.0.",
   "References": [
     {
-      "Text": "GitHub repository + download",
+      "Text": "GitHub repository",
       "Link": "https://github.com/stepanje/MPDD"
     },
     {
-      "Text": "Paper DOI (ICUMT 2021)",
+      "Text": "DOI",
       "Link": "https://doi.org/10.1109/ICUMT54235.2021.9631567"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/mpdd/"
     }
   ]
 }

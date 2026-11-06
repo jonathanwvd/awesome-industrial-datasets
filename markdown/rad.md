@@ -1,32 +1,32 @@
 # RAD
 
-**Summary:** RAD is a realistic anomaly detection dataset built from robotic observations, with 13 object categories and pixel-level annotations.
+**Summary:** Robot-captured RGB images of 13 object categories from 68 viewpoints, with pixel masks for four defect types, for pose-agnostic anomaly detection.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | RAD |
-| **Domain** | Robotics & Automation |
-| **Asset / Process** | Robotic Manipulation |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation |
-| **Annotation** | Sample Label; Pixel Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository |
-| **Size** | 13 object categories |
+| **Task** | Anomaly detection; Anomaly localization |
+| **Annotation** | Normal-only training; Pixel mask |
+| **Source Type** | Lab or testbed |
+| **Access** | Hugging Face |
+| **Size** | 4,047 RGB images |
 | **Year** | 2024 |
-| **License** | Information not available |
+| **License** | — |
+| **Benchmark** | Yes |
 
 ## Description
 
-RAD focuses on realistic anomaly detection using observations captured by a robotic system. It is meant to reduce the gap between static benchmark imagery and inspection settings where a robot observes objects from practical viewpoints.
+RAD is an image dataset for pose-agnostic anomaly detection by Xinhai Chang, Kaichen Zhou, Taewhan Kim, Jiadong Zhang and co-authors, first posted on arXiv in 2024. A Franka Emika Panda robot with an Intel RealSense D415 camera photographs each object instance from 68 predefined viewpoints, under uncontrolled illumination and with reflective materials.
 
-The dataset includes 13 object categories and pixel-level masks for anomaly localisation. It is useful for anomaly detection, segmentation, and robotic visual inspection experiments where acquisition conditions matter.
+The 4,047 RGB images show 13 semantic object categories, such as a binder clip, bowl, rubber duck and tennis ball, held as 18 physical instances. They split into 1,062 normal training images, 162 normal test images and 2,823 anomalous test images. The anomalies are missing (800), stained (778), scratched (633) and squeezed (612), and every anomalous image has a ground-truth pixel mask.
 
-RAD is distributed through the project GitHub repository, which provides download and benchmark information.
+Training uses only defect-free views, so a model must separate real defects from changes caused by pose, shading, reflection or occlusion. Image-level and pixel-level AUROC are the primary metrics. Hugging Face hosts a background-masked version (201 MiB) and a scene-background version (5.85 GB) of the images.
 
 ## References
 
 - [GitHub repository](https://github.com/kaichen-z/RAD)
-- [Paper (arXiv)](https://arxiv.org/abs/2403.16169)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/rad/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,33 +1,32 @@
 # Real-IAD
 
-**Summary:** Large-scale real-world multi-view industrial anomaly detection dataset from a production line, with 150,000+ images across 30 objects at 1024×1024 resolution, distributed via Hugging Face.
+**Summary:** Multi-view industrial anomaly detection images from a real production line, with eight coded defect types and JSON data splits, about 507 GB in raw form.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Real-IAD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Defect Detection; Defect Segmentation; Quality Prediction |
-| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask; Split Metadata |
-| **Source Type** | Real Production / Field |
-| **Access** | Hugging Face; Gated Approval |
-| **Size** | 150000+ high-resolution images across 30 object categories |
+| **Task** | Defect detection |
+| **Annotation** | Class label |
+| **Source Type** | Real production |
+| **Access** | Hugging Face |
+| **Size** | About 507 GB raw; about 53 GB at 1024 × 1024 |
 | **Year** | 2024 |
-| **License** | CC BY-NC-SA |
+| **License** | — |
+| **Benchmark** | Yes |
 
 ## Description
 
-Real-IAD is a large-scale industrial anomaly detection dataset captured from a real production line using a multi-view acquisition pipeline. The dataset contains over 150,000 high-resolution images (1024×1024 in the standard release) across 30 industrial object categories, with multiple defect types per category. Annotations include image-level labels and pixel-level masks for anomalous samples.
+Real-IAD is a real-world multi-view image dataset for industrial anomaly detection, introduced at the IEEE/CVF Conference on Computer Vision and Pattern Recognition in 2024 by Chengjie Wang, Wenbing Zhu, Bin-Bin Gao and co-authors. It comes from a real production line. Staff from Rongcheer Co., Ltd. carried out material preparation, prototype construction, data collection and annotation, followed by a cleaning step.
 
-The acquisition pipeline proceeds through material preparation, prototype selection, multi-view capture, annotation, and data cleaning stages. Multiple camera viewpoints per object enable evaluation of multi-view fusion methods. JSON split files are provided for standardised evaluation. The 1024×1024 version is approximately 53 GB; raw high-resolution data is approximately 507 GB.
+The release has three main files. The raw high-resolution data is about 507 GB, a version downsampled to 1024 × 1024 is about 53 GB, and a JSON archive defines the data splits. Folder codes map to eight defect types: pit, deformation, abrasion, scratch, damage, missing parts, foreign objects and contamination.
 
-Real-IAD was presented at CVPR 2024 and is distributed via Hugging Face (gated access requiring agreement to data sharing terms). It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+The files are downloaded from Hugging Face, where access requests are approved automatically.
 
 ## References
 
-- [Project page](https://realiad4ad.github.io/Real-IAD/)
-- [Hugging Face dataset](https://huggingface.co/datasets/Real-IAD/Real-IAD)
-- [Paper (arXiv / CVPR 2024)](https://arxiv.org/abs/2403.12580)
+- [Official page](https://realiad4ad.github.io/Real-IAD/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/real-iad/)
 
 [⬅️ Back to Index](../README.md)
