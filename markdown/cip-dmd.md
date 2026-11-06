@@ -1,33 +1,31 @@
 # CiP-DMD
 
-**Summary:** CiP-DMD is an open discrete manufacturing dataset collected from a multi-stage production process for pneumatic cylinders.
+**Summary:** Machine signals, metadata and quality measurements from a multi-stage process that machines piston rods and cylinder bottoms and assembles them into cylinders.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | CiP-DMD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Quality Prediction; Process Monitoring |
-| **Annotation** | Time / Event Label; Scalar Target; Split Metadata |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository; Zenodo / Dataverse |
-| **Size** | 847 pneumatic cylinders |
-| **Year** | 2024 |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | CNC machining and tool wear |
+| **Modality** | Time series; Vibration |
+| **Task** | Quality prediction; Fault diagnosis; Anomaly detection |
+| **Annotation** | Class label; Sample label; Scalar target |
+| **Source Type** | — |
+| **Access** | Code repository |
+| **Size** | — |
+| **Year** | 2023 |
+| **License** | — |
 
 ## Description
 
-CiP-DMD is a discrete manufacturing dataset collected from a real production process for pneumatic cylinders. It was created to support research on production quality, process monitoring, and data-driven manufacturing analytics in multi-stage manufacturing settings.
+CiP-DMD (Center for industrial Productivity Discrete Manufacturing Dataset) is a machine learning dataset from discrete manufacturing, released with an article for Procedia CIRP by Nicolas Jourdan, Tobias Biegel, Beatriz Bretones Cassoli and Joachim Metternich. Piston rods are turned on an Index C65 CNC lathe, cylinder bottoms are cut on a Kasto SBA 2 saw and milled on a DMC 50H machine, and both are assembled into cylinders.
 
-The dataset covers 847 pneumatic cylinders and links product-related information with process data from the manufacturing flow. Process data is stored in HDF5 files, quality data is stored in CSV files, and metadata is stored in JSON files. It is intended for tasks such as quality prediction, process analysis, and modelling of complex dependencies across manufacturing stages.
+Process data is stored in HDF5. Sawing, turning and milling each have internal PLC signals; milling adds accelerometer signals, and some milling folders add Pro-Micron spike sensory tool holder signals. CSV files map timestamps to milling subprocesses. Per-component JSON metadata links process data, start and end times, an anomaly class and quality measurements with pass flags.
 
-The dataset files are distributed through a public GitHub repository, and the dataset is described in an open-access Procedia CIRP article and a Zenodo record.
+Two of the most common errors behind faulty cylinder bottoms, misaligned raw material at the saw and uneven clamping in the milling jig, were provoked on purpose and form anomaly classes; a third marks miscellaneous errors not visible in process data. Unassembled piston rods with uneven edges may be used for an additional anomaly detection task.
 
 ## References
 
-- [GitHub dataset repository](https://github.com/HannesJoern/interq_data_acquisition_public)
-- [Open-access article](https://www.sciencedirect.com/science/article/pii/S2212827124009624)
-- [Zenodo record](https://zenodo.org/records/8420132)
+- [GitHub repository](https://github.com/HannesJoern/interq_data_acquisition_public)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/cip-dmd/)
 
 [⬅️ Back to Index](../README.md)

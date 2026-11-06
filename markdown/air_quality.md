@@ -1,33 +1,32 @@
 # Air Quality
 
-**Summary:** Contains the responses of a gas multisensor device deployed on the field in an Italian city. Hourly responses averages are recorded along with gas concentrations references from a certified analyzer.
+**Summary:** Hourly responses of five metal oxide gas sensors deployed at road level in an Italian city, paired with reference analyzer concentrations over one year.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Air Quality |
-| **Domain** | Environment & Safety; Chemical & Process |
-| **Asset / Process** | Chemical Process |
-| **Modality** | Time Series |
+| **Domain** | Environment and safety |
+| **Asset / Process** | — |
+| **Modality** | Time series |
 | **Task** | Regression |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 9358 |
+| **Annotation** | Scalar target |
+| **Source Type** | — |
+| **Access** | UCI repository |
+| **Size** | 9,358 hourly records |
 | **Year** | 2016 |
-| **License** | Information not available |
+| **License** | Academic or non-commercial terms |
 
 ## Description
 
-The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to February 2005 (one year) representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses.
+The Air Quality dataset was created by Saverio Vito and donated to the UCI Machine Learning Repository in 2016. It is linked to the 2008 paper "On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario" by S. D. Vito, E. Massera, M. Piga, L. Martinotto and G. Francia.
 
-Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer. Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value.
+An Air Quality Chemical Multisensor Device stood at road level in a significantly polluted area of an Italian city. Its 9,358 records are hourly averages from March 2004 to February 2005. Each holds the responses of five metal oxide sensors (tin oxide, titania, two tungsten oxide and indium oxide) together with temperature and relative and absolute humidity. A co-located certified reference analyzer provides hourly concentrations of CO, non-methanic hydrocarbons, benzene, NOx and NO2. Missing values are tagged with -200.
 
-This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.
+The data shows cross-sensitivities as well as concept and sensor drift. Its associated task is regression, and it may be used only for research, not commercially.
 
 ## References
 
-- [On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario](https://www.semanticscholar.org/paper/a90a54a39ff934772df57771a0012981f355949d)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
-- [Dataset DOI](https://doi.org/10.24432/C59K5F)
+- [DOI](https://doi.org/10.24432/C59K5F)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/air-quality/)
 
 [⬅️ Back to Index](../README.md)

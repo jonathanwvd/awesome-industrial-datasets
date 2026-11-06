@@ -1,12 +1,12 @@
 {
   "Name": "AI4EU Robotics Pilot: Vibration sensor measurements in a robotic pump",
   "Summary": "Two months of one-second sensor readings from a robot-mountable hydraulic paint pump fitted with an accelerometer, recorded in 2020 and split by recording date.",
-  "Domain": "Robotics & Automation",
-  "Asset / Process": "Pumps; Robotic Manipulation",
-  "Modality": "Time Series",
-  "Task": "Condition Monitoring",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Zenodo / Dataverse",
+  "Domain": "Robotics and automation",
+  "Asset / Process": "Pumps, compressors and fans; Robots and manipulators",
+  "Modality": "Time series",
+  "Task": "Condition monitoring",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
   "Size": "380 million measurements",
   "Year": "2021",
   "License": "CC BY",
@@ -19,6 +19,10 @@
     {
       "Text": "Zenodo record",
       "Link": "https://zenodo.org/records/5729187"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/ai4eu-robotic-pump-vibration/"
     }
   ]
 }

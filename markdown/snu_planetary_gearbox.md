@@ -4,14 +4,13 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | SNU Planetary Gearbox Dataset |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Gears / Gearboxes |
-| **Modality** | Vibration; Time Series |
-| **Task** | Fault Diagnosis |
-| **Annotation** | Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Gears and gearboxes |
+| **Modality** | Vibration; Time series |
+| **Task** | Fault diagnosis |
+| **Annotation** | Class label |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 14 configurations of about 100 minutes each |
 | **Year** | 2026 |
 | **License** | CC BY |
@@ -27,5 +26,6 @@ Signals are stored as headerless tab-delimited text files arranged by fault type
 ## References
 
 - [DOI](https://doi.org/10.6084/m9.figshare.32025606)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/snu-planetary-gearbox/)
 
 [⬅️ Back to Index](../README.md)

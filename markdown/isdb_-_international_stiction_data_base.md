@@ -1,31 +1,33 @@
 # ISDB - International Stiction Data Base
 
-**Summary:** The ISDB dataset supports detection and diagnosis of stiction in control loops, the most common valve problem in process industries.
+**Summary:** Industrial control-loop data accompanying the 2009 Springer book on detecting and diagnosing valve stiction, edited by Mohieddine Jelali and Biao Huang.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | ISDB - International Stiction Data Base |
-| **Domain** | Chemical & Process |
-| **Asset / Process** | Valves / Actuators; Chemical Process |
-| **Modality** | Time Series |
-| **Task** | Regression; Fault Diagnosis; Simulation / Control |
-| **Annotation** | Sample Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | Information not available |
+| **Domain** | Chemical and process |
+| **Asset / Process** | Valves and actuators |
+| **Modality** | Time series |
+| **Task** | Process monitoring |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | — |
+| **Size** | — |
 | **Year** | 2009 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
-The ISDB dataset was used in the book ‘Detection and Diagnosis of Stiction in Control Loops’ edited by Mohieddine Jelali and Biao Huang, Springer, 2009. Stiction and deadband are nonlinearities limiting control valve performance and stiction is the most common valve problem in process industries.
+ISDB is the data used in Detection and Diagnosis of Stiction in Control Loops: State of the Art and Advanced Methods, a book edited by Mohieddine Jelali and Biao Huang in Springer's Advances in Industrial Control series. It is offered on Biao Huang's book page at the University of Alberta.
 
-The dataset enables implementation of advanced methods for stiction detection, diagnosis, and quantification of multiple faults in control loops. It is accompanied by MATLAB-based software for applying and evaluating these methods, particularly focusing on oscillation detection, stiction detection, and stiction quantification.
+The book treats stiction, the static friction in control valves that it calls the most common valve problem in the process industries. Its methods cover oscillation detection in control loops, stiction detection and diagnosis, and stiction quantification with the diagnosis of multiple faults, and they are compared in industrial case studies from chemicals, building, mining, pulp and paper, mineral and metal processing.
 
-The data and related software are made available for teaching and research. The ISDB dataset and software toolboxes are hosted by the University of Alberta and complement the methodologies described in the reference book. Contact details and additional resources are available through the hosting webpage.
+A chapter by Jelali and Scali compares valve-stiction-detection methods on 93 data sets from process industries, among them chemicals, pulp and paper mills, commercial buildings and metal processing. MATLAB-based toolboxes for teaching and research use go with the book.
 
 ## References
 
-- [Springer's Book Flyer](http://www.ualberta.ca/~bhuang/Stiction-Book/BookFlyer_JelaliHuang2009_1.pdf)
+- [Official page](https://sites.ualberta.ca/~bhuang/Stiction-Book.htm)
+- [DOI](https://doi.org/10.1007/978-1-84882-775-2)
+- [DOI](https://doi.org/10.1007/978-1-84882-775-2_13)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/isdb-international-stiction-data-base/)
 
 [⬅️ Back to Index](../README.md)

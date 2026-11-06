@@ -1,31 +1,32 @@
 # BATADAL Water SCADA Cyber-Attack Dataset
 
-**Summary:** The BATADAL dataset comprises simulated hourly SCADA telemetry for a water distribution network. It includes normal operation data without attacks, partially labeled attack data, and unlabeled test data with various cyber attacks.
+**Summary:** Hourly SCADA data from a simulated water distribution network, C-Town, split into attack-free, partially labelled and unlabelled sets for comparing attack detectors.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | BATADAL Water SCADA Cyber-Attack Dataset |
-| **Domain** | Cyber-Physical Security; Water & Utilities |
-| **Asset / Process** | Water Treatment / Distribution; SCADA / ICS |
-| **Modality** | Time Series |
-| **Task** | Cyberattack Detection; Anomaly Detection; Process Monitoring |
-| **Annotation** | Time / Event Label; Sample Label; Fault Type Label |
+| **Domain** | OT security |
+| **Asset / Process** | Control systems and networks; Water treatment and distribution |
+| **Modality** | Time series |
+| **Task** | Intrusion detection |
+| **Annotation** | Event and time label; Unlabeled |
 | **Source Type** | Simulation |
-| **Access** | Official Portal |
-| **Size** | Information not available |
+| **Access** | Direct download |
+| **Size** | Three hourly SCADA datasets |
 | **Year** | 2016 |
-| **License** | Information not available |
+| **License** | — |
+| **Benchmark** | Yes |
 
 ## Description
 
-The dataset includes Training Dataset 1, a one-year simulation released on November 20 2016 that contains only normal C-Town operations without any attacks. Training Dataset 2, released on November 28 2016, spans approximately six months and contains several attacks with approximate labels. The Test Dataset, released on February 20 2017, covers three months and contains multiple attacks but no labels, used for performance comparison of detection algorithms.
+BATADAL is a set of hourly historical SCADA operations data for C-Town, a simulated water distribution network, released for the BATADAL attack detection competition. The reference paper, "The Battle Of The Attack Detection Algorithms: Disclosing Cyber Attacks On Water Distribution Networks" by Riccardo Taormina, Stefano Galelli, Nils Ole Tippenhauer and many co-authors, appeared in the Journal of Water Resources Planning and Management in August 2018.
 
-Flow data unit is LPS, and pressure and water level units are meters.
+Training Dataset 1, released on 20 November 2016, comes from a one-year simulation of normal operation with no attacks. Training Dataset 2, released on 28 November 2016, is about six months long and holds several attacks, some approximately labelled, with a list of the attacks. The Test Dataset, released on 20 February 2017, spans three months with several attacks but no labels. Flows are in litres per second; pressures and water levels are in metres.
 
-Two additional obsolete datasets (Old Dataset 1 and Old Dataset 2) were originally included but later removed due to differing demand patterns.
+The Test Dataset is used to compare the performance of detection algorithms. Two earlier competition sets, formerly Dataset 1 and Dataset 2, were withdrawn because their demand patterns differed from the test data.
 
 ## References
 
-- [doi link](http://dx.doi.org/10.1061/(ASCE)WR.1943-5452.0000969)
+- [Official page](https://www.batadal.net/data.html)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/batadal-water-scada-cyber-attack-dataset/)
 
 [⬅️ Back to Index](../README.md)

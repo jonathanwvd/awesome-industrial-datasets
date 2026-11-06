@@ -1,32 +1,31 @@
 # Steel Plates Faults
 
-**Summary:** A dataset of steel plates’ faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
+**Summary:** Tabular records of 1,941 steel plate faults described by 27 geometric, luminosity and steel-type variables and classified into 7 fault types.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Steel Plates Faults |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Steel / Metal Surfaces |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Steel and metal surfaces |
 | **Modality** | Tabular |
-| **Task** | Classification; Fault Diagnosis |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 1941 |
+| **Task** | Classification; Fault diagnosis |
+| **Annotation** | Class label |
+| **Source Type** | — |
+| **Access** | UCI repository |
+| **Size** | 1,941 instances |
 | **Year** | 2010 |
-| **License** | Information not available |
+| **License** | CC BY |
 
 ## Description
 
-This dataset contains data on steel plates faults classified into seven types: Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, and Other_Faults. The dataset includes 27 independent variables with integer and real feature types.
+Steel Plates Faults is a dataset of steel plate faults classified into seven types, built to train machine learning for automatic pattern recognition. It was created by M. Buscema, S. Terzi and W. Tastle and donated to the UCI Machine Learning Repository in 2010.
 
-The dataset aims to provide records to train machine learning models for automatic pattern recognition in fault detection on steel plates. The dataset contains no missing values and is based on real data.
+Each of the 1,941 instances has 27 integer or real independent variables. They include X and Y minimum and maximum, pixel areas, X and Y perimeters, the sum, minimum and maximum of luminosity, the length of conveyer, the steel type (A300 or A400), the steel plate thickness and indices such as the edges, empty, square, orientation and luminosity indices. There are no missing values.
 
-The features describe various physical properties and measurements related to the steel plates, such as X_Minimum, X_Maximum, Y_Minimum, Y_Maximum, Pixels_Areas, X_Perimeter, Y_Perimeter, and Luminosity indices among others.
+The seven fault classes are Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps and Other_Faults. The task is classification, and the data is released under CC BY 4.0.
 
 ## References
 
-- [Buscema, M., Terzi, S., & Tastle, W. (2010). Steel Plates Faults [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C5J88N)
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/steel+plates+faults)
+- [DOI](https://doi.org/10.24432/C5J88N)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/steel-plates-faults/)
 
 [⬅️ Back to Index](../README.md)

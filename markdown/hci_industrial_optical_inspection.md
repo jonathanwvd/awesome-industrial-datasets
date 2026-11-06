@@ -1,31 +1,32 @@
-# HCI Industrial Optical Inspection
+# Weakly Supervised Learning for Industrial Optical Inspection
 
-**Summary:** HCI Heidelberg weakly supervised industrial optical inspection dataset with image-level labels for training; provides industrial texture images of defective and non-defective surfaces for weakly supervised defect detection research.
+**Summary:** Synthetic grayscale images of statistically textured surfaces with weakly labelled defects, made for the DAGM 2007 optical inspection competition.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | HCI Industrial Optical Inspection |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Detection; Defect Segmentation |
-| **Annotation** | Pixel Mask; Fault Type Label; Sample Label; Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | Multiple industrial texture classes; training images with image-level labels (weak supervision) and test images with pixel-level ground truth |
-| **Year** | 2015 |
-| **License** | Information not available |
+| **Task** | Defect detection; Classification |
+| **Annotation** | Sample label; Pixel mask |
+| **Source Type** | Synthetic |
+| **Access** | Zenodo, Dataverse or Figshare |
+| **Size** | Ten datasets in ten archives |
+| **Year** | 2007 |
+| **License** | CC BY |
 
 ## Description
 
-The HCI Industrial Optical Inspection dataset was created by researchers at the Heidelberg Collaboratory for Image Processing (HCI) at the Interdisciplinary Center for Scientific Computing (IWR), Heidelberg University. It was designed to benchmark weakly supervised learning approaches for industrial surface defect detection.
+Weakly Supervised Learning for Industrial Optical Inspection is a synthetic image corpus for detecting defects on statistically textured surfaces. Matthias Wieler and Tobias Hahn of the Robert Bosch Corporate Research department in Schwieberdingen created it with Fred A. Hamprecht for an open competition that DAGM and the German chapter of the European Neural Network Society held at the DAGM symposium in 2007.
 
-In weakly supervised settings, only image-level labels (defective vs. non-defective) are available during training, without pixel-level defect annotations. The test set is annotated at the pixel level for evaluation of defect localization. This setup simulates realistic industrial inspection scenarios where per-pixel annotation of defects is expensive.
+The images are artificially generated but resemble real inspection problems. The corpus consists of ten datasets: the first six serve for algorithm development and the remaining four, called competition datasets, for evaluating performance. A Labels.txt file in each Label folder flags every image as defective or non-defective and names its label image when a defect is present.
 
-The dataset contains images of industrial textured surfaces across multiple categories, with varying defect types. It has been used to study semi-supervised and weakly supervised learning methods for quality inspection, including convolutional neural network-based approaches that leverage limited annotation.
+The ten archives, Class1 to Class10, are released on Zenodo under CC BY 4.0.
 
 ## References
 
-- [HCI Industrial Optical Inspection (Heidelberg University)](https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection)
+- [Zenodo record](https://zenodo.org/record/8086136)
+- [hci.iwr.uni-heidelberg.de](https://hci.iwr.uni-heidelberg.de/content/weakly-supervised-learning-industrial-optical-inspection)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/hci-industrial-optical-inspection/)
 
 [⬅️ Back to Index](../README.md)

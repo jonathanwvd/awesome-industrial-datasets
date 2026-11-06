@@ -4,14 +4,13 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | GSBP-CP |
-| **Domain** | Cyber-Physical Security |
-| **Asset / Process** | Solar / PV; SCADA / ICS |
-| **Modality** | Network Traffic; Time Series; Tabular |
-| **Task** | Intrusion Detection |
-| **Annotation** | Time / Event Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Domain** | OT security |
+| **Asset / Process** | Solar PV; Control systems and networks |
+| **Modality** | Network traffic; Time series; Tabular |
+| **Task** | Intrusion detection |
+| **Annotation** | Event and time label |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 223,215 time-aligned records |
 | **Year** | 2026 |
 | **License** | CC BY |
@@ -28,5 +27,6 @@ A fused table of 223,215 time-aligned records has 66 numeric features (78 in an 
 
 - [DOI](https://doi.org/10.5281/zenodo.23198408)
 - [Zenodo record](https://zenodo.org/records/23198408)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/gsbp-cp-pv-intrusion/)
 
 [⬅️ Back to Index](../README.md)

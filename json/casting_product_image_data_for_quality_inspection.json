@@ -1,25 +1,23 @@
 {
-  "Name": "Casting product image data for quality inspection",
-  "Summary": "This dataset contains grayscale images of submersible pump impellers for automatic quality inspection to detect casting defects.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Casting / Metal Parts",
+  "Name": "Casting Product Image Data for Quality Inspection",
+  "Summary": "Grayscale top-view images of submersible pump impeller castings labelled defective or ok, with 7,348 augmented images split for training and testing.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Castings and metal parts",
   "Modality": "Image",
-  "Task": "Defect Detection; Classification",
-  "Annotation": "Sample Label; Class Label",
-  "Source Type": "Real Production / Field",
-  "Access": "Kaggle; Login Required",
-  "Size": "7348",
-  "Year": "Information not available",
-  "License": "Information not available",
-  "Description": "This dataset is of casting manufacturing product. Casting is a manufacturing process in which a liquid material is usually poured into a mould, which contains a hollow cavity of the desired shape, and then allowed to solidify.\n\nThe reason for collecting this data is casting defects, which are undesired irregularities in a metal casting process. There are many types of defects in casting like blow holes, pinholes, burr, shrinkage defects, mould material defects, pouring metal defects, metallurgical defects, etc. Defects are unwanted in the casting industry. The inspection process is usually done manually, which is time-consuming and not 100% accurate, potentially causing large losses for companies.\n\nThe dataset contains a total of 7348 grey-scaled images of size 300x300 pixels, with augmentation already applied. There is also a set of 512x512 grayscale images without augmentation with 519 ok_front and 781 def_front images. The images are top view photos of submersible pump impellers captured with a stable lighting arrangement. The data is split into training and testing folders containing defective (def_front) and ok (ok_front) images for classification model development.",
+  "Task": "Defect detection; Classification",
+  "Annotation": "Sample label",
+  "Access": "Kaggle",
+  "Size": "7,348 images",
+  "License": "CC BY-ND and NC-ND",
+  "Description": "This image set was collected to automate the quality inspection of cast products, which is otherwise done by hand. Every photo shows the top view of a submersible pump impeller and is sorted into one of two categories, defective or ok. The images were taken under a special arrangement for stable lighting, with support from PILOT TECHNOCAST of Shapar, Rajkot.\n\nThe main set holds 7,348 grayscale images of 300 x 300 pixels to which augmentation has already been applied. It is split into a training folder with 3,758 defective and 2,875 ok images and a test folder with 453 defective and 262 ok images. A second set of 512 x 512 grayscale images without augmentation has 781 defective and 519 ok impellers.\n\nThe stated goal is a deep learning classification model for the inspection task. The images are released under CC BY-NC-ND 4.0.",
   "References": [
     {
-      "Text": "Kaggle Dataset",
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product"
     },
     {
-      "Text": "YouTube Prototype Demonstration",
-      "Link": "https://www.youtube.com/watch?v=4sDfwS48p0A"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/casting-product-image-data-for-quality-inspection/"
     }
   ]
 }

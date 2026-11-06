@@ -1,33 +1,32 @@
 # MVTec 3D-AD
 
-**Summary:** Unsupervised 3D anomaly detection and localisation dataset with paired RGB images and 3D coordinate maps, plus ground-truth defect annotations across 10 industrial object categories.
+**Summary:** Unsupervised 3D anomaly detection and localization dataset of over 4,000 high-resolution scans from an industrial 3D sensor in 10 object categories.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MVTec 3D-AD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
-| **Modality** | Image; 3D Point Cloud; RGB-D; Multimodal |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; 3D Understanding |
-| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask; 3D / Point Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal; Form Request |
-| **Size** | 4147 high-resolution scans across 10 categories |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | 3D point cloud |
+| **Task** | Anomaly detection; Anomaly localization |
+| **Annotation** | Normal-only training |
+| **Source Type** | — |
+| **Access** | — |
+| **Size** | 4,000+ scans in 10 categories |
 | **Year** | 2022 |
 | **License** | CC BY-NC-SA |
+| **Publisher** | MVTec |
 
 ## Description
 
-MVTec 3D-AD is the first large-scale dataset dedicated to unsupervised 3D anomaly detection and localisation in industrial inspection scenarios. Each sample consists of paired data: a high-resolution 3D point cloud represented as XYZ TIFF coordinate maps and a corresponding RGB PNG image, allowing methods to exploit complementary 2D and 3D information.
+MVTec 3D-AD (MVTec 3D anomaly detection dataset) is a 3D dataset from MVTec for unsupervised anomaly detection and localization. It is described in a paper by Paul Bergmann, David Sattlegger and Carsten Steger in the VISAPP 2022 proceedings, which received a Best Industrial Paper Award at the 17th International Conference on Computer Vision Theory and Applications.
 
-The dataset spans 10 industrial object categories. For each category, defect-free samples are provided for training and validation, while the test set contains both normal and anomalous samples. Anomalous test samples are accompanied by pixel-precise ground truth masks indicating defect regions. The dataset includes calibration parameters to enable joint 2D/3D analysis. Total dataset size is approximately 13.2 GB.
+The dataset contains more than 4,000 high-resolution scans acquired with an industrial 3D sensor, in 10 object categories. Each category has defect-free training and validation samples and a test set of samples with various kinds of defects, and every anomalous test sample comes with precise ground-truth annotations.
 
-MVTec 3D-AD was introduced at VISAPP 2022 and has since become a standard benchmark for evaluating 3D industrial inspection methods. It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+Python evaluation scripts with a readme are provided for a fair and consistent comparison of methods. The data is released under CC BY-NC-SA 4.0, which does not allow commercial use.
 
 ## References
 
-- [Dataset page](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad)
-- [Downloads](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad/downloads)
-- [Paper (VISAPP 2022)](https://doi.org/10.5220/0010865000003124)
+- [Official page](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mvtec-3d-ad/)
 
 [⬅️ Back to Index](../README.md)

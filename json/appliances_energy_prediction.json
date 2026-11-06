@@ -1,29 +1,25 @@
 {
   "Name": "Appliances Energy Prediction",
-  "Summary": "Experimental data used to create regression models of appliances energy use in a low energy building.",
-  "Domain": "Buildings & Appliances; Energy & Power",
-  "Asset / Process": "Buildings / Appliances",
-  "Modality": "Time Series",
-  "Task": "Regression; Energy Optimization",
-  "Annotation": "Scalar Target",
-  "Source Type": "Real Production / Field",
-  "Access": "UCI; Repository",
-  "Size": "19735",
+  "Summary": "Ten-minute appliance energy readings from a low-energy house, paired with room temperature, humidity and airport weather data over about 4.5 months.",
+  "Domain": "Buildings and appliances",
+  "Asset / Process": "HVAC and building systems",
+  "Modality": "Time series",
+  "Task": "Regression",
+  "Annotation": "Scalar target",
+  "Source Type": "Real production",
+  "Access": "UCI repository",
+  "Size": "19,735 instances",
   "Year": "2017",
-  "License": "Information not available",
-  "Description": "The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters.\n\nWeather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters).\n\nPermissions were obtained from Reliable Prognosis for the distribution of the 4.5 months of weather data. The dataset is useful for research related to energy consumption prediction with multiple sensor and environmental attributes included.",
+  "License": "CC BY",
+  "Description": "Appliances Energy Prediction was created by Luis Candanedo and donated to the UCI Machine Learning Repository in 2017. Its measurements come from a low-energy house and serve to fit regression models of the energy that the appliances use. The introductory paper, by L. Candanedo, V. Feldheim and Dominique Deramaix, appeared in Energy and Buildings, volume 140.\n\nThe 19,735 records are spaced 10 minutes apart over about 4.5 months. A ZigBee wireless sensor network measured temperature and humidity in rooms such as the kitchen, living room and office, averaged to 10-minute periods. M-bus meters logged the target, appliance energy in Wh, and the energy of the light fixtures. Outdoor temperature, pressure, humidity, wind speed, visibility and dew point come from the Chievres Airport weather station in Belgium.\n\nTwo random variables are included to test regression models and filter out non-predictive attributes. The data has no missing values, comes as one 11.4 MB CSV file and is licensed under CC BY 4.0.",
   "References": [
     {
       "Text": "UCI Machine Learning Repository",
       "Link": "https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction"
     },
     {
-      "Text": "Data driven prediction models of energy use of appliances in a low-energy house",
-      "Link": "https://www.semanticscholar.org/paper/28025ec6f4d5ab121bd91b36c754c0f0831d2433"
-    },
-    {
-      "Text": "GitHub Repository",
-      "Link": "https://github.com/LuisM78/Appliances-energy-prediction-data"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/appliances-energy-prediction/"
     }
   ]
 }

@@ -1,32 +1,31 @@
-# Electricity Load Diagrams 2011-2014
+# ElectricityLoadDiagrams20112014
 
-**Summary:** This data set contains electricity consumption of 370 points/clients recorded every 15 minutes from 2011 to 2014.
+**Summary:** Electricity consumption of 370 clients in kW for every 15 minutes, stored as one semicolon-separated text file with one column per client.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Electricity Load Diagrams 2011-2014 |
-| **Domain** | Energy & Power |
-| **Asset / Process** | Power Grid / Plants |
-| **Modality** | Time Series |
-| **Task** | Forecasting; Energy Optimization |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 370 |
+| **Domain** | Energy and power |
+| **Asset / Process** | Power grids and plants |
+| **Modality** | Time series |
+| **Task** | Regression |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | UCI repository |
+| **Size** | 370 clients |
 | **Year** | 2015 |
-| **License** | Information not available |
+| **License** | CC BY |
 
 ## Description
 
-The data set includes electricity consumption data for 370 clients, recorded every 15 minutes with values in kW. To convert these values into kWh, values should be divided by 4. Each column represents one client. Some clients were created after 2011; for those clients, consumption values before creation are considered zero. All time labels correspond to Portuguese local time, with adjustments for daylight saving time where applicable.
+ElectricityLoadDiagrams20112014 was created by Artur Trindade and donated to the UCI Machine Learning Repository in 2015. It is a time series data set whose associated tasks are regression and clustering.
 
-The data set was saved as a text file in CSV format using a semicolon (;) as the delimiter. The first column presents date and time as a string in the format 'yyyy-mm-dd hh:mm:ss'. All other columns contain float values indicating consumption in kW. The dataset contains no missing values.
+The consumption of 370 points or clients sits in one text file, LD2011_2014.txt (678.1 MB, a 249.2 MB download), saved in CSV format with semicolons. The first column holds the date and time as 'yyyy-mm-dd hh:mm:ss', and each other column is one client, with 140,256 values per client. Values are in kW for each 15 minutes; dividing by 4 gives kWh.
 
-During the daylight saving time changes, peculiarities are noted: in March, the day with only 23 hours has zero consumption values between 1:00 am and 2:00 am for all points; in October, the day with 25 hours aggregates consumption of two hours between 1:00 am and 2:00 am.
+Every day has 96 measures (24 x 4), and the time labels follow Portuguese hour. On the March time change day, values between 1:00 and 2:00 am are zero for all points; on the October one, the same hour aggregates the consumption of two hours. For clients created after 2011, the earlier consumption is set to zero, and there are no missing values. The license is CC BY 4.0.
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014)
-- [Dataset DOI](https://doi.org/10.24432/C58C86)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/electricity-load-diagrams-2011-2014/)
 
 [⬅️ Back to Index](../README.md)

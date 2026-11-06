@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MSPS |
-| **Domain** | Energy & Power |
-| **Asset / Process** | Solar / PV |
+| **Domain** | Energy and power |
+| **Asset / Process** | Solar PV |
 | **Modality** | Image |
-| **Task** | Defect Segmentation |
-| **Annotation** | Pixel Mask |
-| **Source Type** | Real Production / Field |
-| **Access** | Zenodo / Dataverse |
+| **Task** | Defect segmentation |
+| **Annotation** | Pixel mask |
+| **Source Type** | Real production |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 1,500 EL images |
 | **Year** | 2026 |
 | **License** | CC BY |
+| **Benchmark** | Yes |
 
 ## Description
 
@@ -29,5 +29,6 @@ The task is binary semantic segmentation, with an official split of 1,000 traini
 - [DOI](https://doi.org/10.5281/zenodo.21549573)
 - [Zenodo record](https://zenodo.org/records/21549573)
 - [GitHub repository](https://github.com/wch313/MSPS-Dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/msps-pv-cell-defects/)
 
 [⬅️ Back to Index](../README.md)

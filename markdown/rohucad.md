@@ -4,14 +4,13 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | RoHuCAD |
-| **Domain** | Robotics & Automation |
-| **Asset / Process** | Robotic Manipulation |
-| **Modality** | RGB-D; Time Series |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | Robots and manipulators |
+| **Modality** | RGB-D and depth; Time series |
 | **Task** | Classification |
-| **Annotation** | Time / Event Label |
-| **Source Type** | Information not available |
-| **Access** | Zenodo / Dataverse |
+| **Annotation** | Event and time label |
+| **Source Type** | — |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | two 8-minute recordings |
 | **Year** | 2024 |
 | **License** | CC BY |
@@ -28,5 +27,6 @@ Each take comes with a CSV file of annotated anomalies that gives an event ID, s
 
 - [DOI](https://doi.org/10.5281/zenodo.14142968)
 - [Zenodo record](https://zenodo.org/records/14142968)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/rohucad/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,32 +1,31 @@
 # Gas Turbine CO and NOx Emission Data Set
 
-**Summary:** Five years of hourly sensor data from a gas turbine in north-western Turkey, with ambient conditions, turbine parameters, energy yield, and CO and NOx emissions for regression.
+**Summary:** Hourly sensor aggregates from a gas turbine in north-western Turkey, 2011 to 2015, for studying CO and NOx flue gas emissions and predicting turbine energy yield.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Gas Turbine CO and NOx Emission Data Set |
-| **Domain** | Energy & Power; Environment & Safety |
-| **Asset / Process** | Turbines / Engines; Power Grid / Plants |
-| **Modality** | Tabular; Time Series |
+| **Domain** | Energy and power |
+| **Asset / Process** | Turbines and engines |
+| **Modality** | Tabular |
 | **Task** | Regression |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 36,733 hourly records, 11 sensor variables |
+| **Annotation** | Scalar target |
+| **Source Type** | Real production |
+| **Access** | UCI repository |
+| **Size** | 36,733 hourly instances |
 | **Year** | 2019 |
 | **License** | CC BY |
 
 ## Description
 
-The dataset contains 36,733 hourly records from a gas turbine located in north-western Turkey, covering 1 January 2011 to 31 December 2015. Each record aggregates 11 sensor measurements over one hour: ambient temperature, pressure and humidity, air filter difference pressure, exhaust pressure, turbine inlet and after temperatures, compressor discharge pressure, turbine energy yield, and the CO and NOx concentrations in the flue gas.
+The Gas Turbine CO and NOx Emission Data Set was donated to the UCI Machine Learning Repository in 2019 for research on carbon monoxide (CO) and nitrogen oxides (NOx) in the flue gas of a turbine in Turkey. The turbine belongs to the plant behind the Combined Cycle Power Plant data set, but these records cover a different period and add gas turbine parameters to the ambient variables.
 
-It is intended for studying flue gas emissions and for predicting turbine energy yield from ambient variables. The records are sorted chronologically without timestamps and are split into one CSV file per year. The maintainers recommend using the first three years for training and cross-validation and the last two years for testing.
+Its 36,733 instances aggregate 11 sensor measures over one hour, by average or sum, from the start of 2011 to the end of 2015. Besides ambient temperature, pressure and humidity, they cover air filter difference pressure, turbine inlet, after and exhaust readings, compressor discharge pressure, turbine energy yield, CO and NOx. Dates are not included, but rows are in chronological order, in one CSV file per year.
 
-The data come from the same power plant as the Combined Cycle Power Plant dataset and are distributed by the UCI Machine Learning Repository under CC BY 4.0.
+The publishers ask users to train or cross-validate on the first three years and test on the last two. There are no missing values, and the data is released under CC BY 4.0.
 
 ## References
 
-- [UCI Machine Learning Repository dataset page](https://archive.ics.uci.edu/dataset/551/gas+turbine+co+and+nox+emission+data+set)
-- [Dataset DOI: 10.24432/C5WC95](https://doi.org/10.24432/C5WC95)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/551/gas%2Bturbine%2Bco%2Band%2Bnox%2Bemission%2Bdata%2Bset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/gas-turbine-co-nox-emissions/)
 
 [⬅️ Back to Index](../README.md)

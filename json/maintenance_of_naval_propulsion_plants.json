@@ -1,29 +1,25 @@
 {
   "Name": "Condition Based Maintenance of Naval Propulsion Plants",
-  "Summary": "Data have been generated from a sophisticated simulator of a Gas Turbines (GT), mounted on a Frigate characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.",
-  "Domain": "Energy & Power; Aerospace & Defense",
-  "Asset / Process": "Gears / Gearboxes; Turbines / Engines",
+  "Summary": "11,934 steady-state measurement vectors from a simulated naval gas turbine plant, with compressor and turbine decay coefficients as regression targets.",
+  "Domain": "Transportation and mobility",
+  "Asset / Process": "Turbines and engines",
   "Modality": "Tabular",
-  "Task": "Regression; RUL / Prognostics; Predictive Maintenance; Simulation / Control",
-  "Annotation": "Scalar Target",
+  "Task": "Regression; Condition monitoring",
+  "Annotation": "Scalar target",
   "Source Type": "Simulation",
-  "Access": "UCI",
-  "Size": "11934",
+  "Access": "UCI repository",
+  "Size": "11,934 instances",
   "Year": "2014",
-  "License": "Information not available",
-  "Description": "The experiments have been carried out by means of a numerical simulator of a naval vessel (Frigate) characterized by a Gas Turbine (GT) propulsion plant. The different blocks forming the complete simulator (Propeller, Hull, GT, Gear Box and Controller) have been developed and fine tuned over the year on several similar real propulsion plants. In view of these observations the available data are in agreement with a possible real vessel.\n\nIn this release of the simulator it is also possible to take into account the performance decay over time of the GT components such as GT compressor and turbines. The propulsion system behaviour has been described with these parameters: Ship speed (linear function of the lever position lp), Compressor degradation coefficient kMc, Turbine degradation coefficient kMt, so that each possible degradation state can be described by a combination of this triple (lp,kMt,kMc).\n\nThe range of decay of compressor and turbine has been sampled with an uniform grid of precision 0.001 so to have a good granularity of representation. In particular for the compressor decay state discretization the kMc coefficient has been investigated in the domain [1; 0.95], and the turbine coefficient in the domain [1; 0.975]. Ship speed has been investigated sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to tree knots. A series of measures (16 features) which indirectly represents of the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space.",
+  "License": "CC BY",
+  "Description": "Condition Based Maintenance of Naval Propulsion Plants comes from a numerical simulator of a frigate with a COmbined Diesel eLectric And Gas (CODLAG) gas turbine propulsion plant. Its creators are Andrea Coraddu, Luca Oneto, Alessandro Ghio, Stefano Savio, Davide Anguita and Massimo Figari, and it was donated to the UCI Machine Learning Repository in 2014.\n\nThe simulator joins propeller, hull, gas turbine, gear box and controller blocks tuned on similar real plants, and models performance decay of the compressor and turbines. Ship speed was sampled from 3 to 27 knots, the compressor decay coefficient kMc over [1; 0.95] and the turbine coefficient kMt over [1; 0.975], on a grid of 0.001.\n\nEach of the 11,934 instances is a 16-feature vector of steady-state measures, such as shaft torque, revolutions, propeller torques, temperatures, pressures and fuel flow, plus both decay coefficients. There are no missing values, and the data is released under CC BY 4.0.",
   "References": [
     {
-      "Text": "Coraddu et al. (2014). Condition Based Maintenance of Naval Propulsion Plants. UCI Machine Learning Repository. DOI: 10.24432/C5K31K",
+      "Text": "DOI",
       "Link": "https://doi.org/10.24432/C5K31K"
     },
     {
-      "Text": "UCI Machine Learning Repository dataset page",
-      "Link": "https://archive.ics.uci.edu/dataset/316/condition+based+maintenance+of+naval+propulsion+plants"
-    },
-    {
-      "Text": "Kaggle mirror",
-      "Link": "https://www.kaggle.com/datasets/elikplim/maintenance-of-naval-propulsion-plants-data-set"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/condition-based-maintenance-of-naval-propulsion-plants/"
     }
   ]
 }

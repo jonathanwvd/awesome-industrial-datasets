@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MILP Benchmarks CellphoneCo. |
-| **Domain** | Logistics & Retail |
-| **Asset / Process** | Information not available |
-| **Modality** | Information not available |
-| **Task** | Information not available |
-| **Annotation** | Information not available |
+| **Domain** | Logistics and retail |
+| **Asset / Process** | — |
+| **Modality** | Problem instances |
+| **Task** | Scheduling and optimization |
+| **Annotation** | — |
 | **Source Type** | Synthetic |
-| **Access** | Repository |
-| **Size** | Information not available |
+| **Access** | Code repository |
+| **Size** | — |
 | **Year** | 2023 |
-| **License** | Apache-2.0 |
+| **License** | Apache 2.0 |
+| **Publisher** | SAP SE |
 
 ## Description
 
@@ -27,5 +27,6 @@ Three instance sets exist. public_mps varies network size and comes with .dec de
 ## References
 
 - [GitHub repository](https://github.com/SAP-samples/ibp-sop-benchmarks-milp-cellphoneco)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/milp-benchmarks-cellphoneco/)
 
 [⬅️ Back to Index](../README.md)

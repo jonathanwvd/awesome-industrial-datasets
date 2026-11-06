@@ -1,21 +1,20 @@
 {
   "Name": "Mechanic Component Images ( Normal / Defected)",
-  "Summary": "Dataset for quality recognition of a mechanic component called Piston, consisting of images categorized as Normal or Defected.",
-  "Domain": "Manufacturing & Production",
-  "Asset / Process": "Casting / Metal Parts",
+  "Summary": "PNG images of air-conditioner pistons sorted into one normal and two defect folders, for broken parts and for oil, grease or rust stains.",
+  "Domain": "Manufacturing",
   "Modality": "Image",
-  "Task": "Defect Detection; Classification; Quality Prediction",
-  "Annotation": "Sample Label; Class Label",
-  "Source Type": "Real Production / Field",
-  "Access": "Kaggle; Login Required",
-  "Size": "285 files",
-  "Year": "2020",
-  "License": "Information not available",
-  "Description": "As air conditioners are used regularly in homes, they consist of various mechanical components including pistons. These piston components are manufactured worldwide and quality operators traditionally inspect them for quality assurance. This dataset aims to automate the quality recognition process of the piston using AI, potentially replacing human quality operators.\n\nThe dataset contains three groups of folders containing images of pistons: Defected 1 (broken, shaped out, fallen pistons), Defected 2 (pistons with oily, grease, or rust stains), and Normal (perfectly normal pistons). The images were collected manually from different components.\n\nUpvoting this dataset motivates the author to collect more unique datasets from the environment. This dataset facilitates machine learning models to perform defect detection and classification in mechanical component images.",
+  "Task": "Defect detection; Classification",
+  "Annotation": "Class label",
+  "Access": "Kaggle",
+  "Description": "Mechanic Component Images ( Normal / Defected) is an image collection for quality recognition of pistons, a mechanical component used in household air conditioners. Pistons are produced by many manufacturers worldwide and are usually checked by quality operators; the stated goal is to automate that check with AI. The uploader, satishpaladi11, collected the images manually from different components.\n\nThe PNG images, with file names such as kumda_component1.png, are organised in three groups. Defected 1 holds pistons that are broken, out of shape or fallen. Defected 2 holds pistons with oil, grease or rust stains. Normal holds pistons without defects.\n\nThe group names act as labels, giving two defect types and one normal class for the same part.",
   "References": [
     {
-      "Text": "Kaggle Dataset - Mechanic Component Images ( Normal / Defected)",
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/satishpaladi11/mechanic-component-images-normal-defected"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/mechanic-component-images-normal-defected/"
     }
   ]
 }

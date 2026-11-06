@@ -1,34 +1,31 @@
 # One Year Industrial Component Degradation
 
-**Summary:** This dataset contains machine data of a degrading cutting blade component recorded over the duration of 12 months, aiming to show component degradation for predictive maintenance.
+**Summary:** Twelve months of machine data from a degrading cutting blade in an OCME Vega shrink-wrapper, split into 519 short CSV samples across eight modes.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | One Year Industrial Component Degradation |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Anomaly Detection; RUL / Prognostics; Predictive Maintenance |
-| **Annotation** | Unlabeled; RUL Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | 519 files (samples) |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Condition monitoring; RUL and prognostics |
+| **Annotation** | Unlabeled |
+| **Source Type** | — |
+| **Access** | Kaggle |
+| **Size** | 519 files |
+| **Year** | — |
+| **License** | CC BY-SA |
 
 ## Description
 
-This dataset contains the machine data of a degrading component recorded over a total duration of 12 months. It was initiated in the European research and innovation project IMPROVE. The dataset consists of 519 files each representing an ~8 second sample recorded at 4 ms resolution resulting in 2048 time-samples per file.
+This dataset records machine data from a degrading cutting blade over 12 months in total. The machine is the Vega shrink-wrapper from OCME, used in food and beverage production lines to group bottles or cans, wrap them in plastic film and heat-shrink the film into packs. The recording began in the EU Horizon 2020 project IMPROVE.
 
-The data is collected from the Vega shrink-wrapper machine deployed in large production lines in the food and beverage industry by OCME. This machine groups loose bottles or cans into set package sizes, wraps them in plastic film, and heat-shrinks the film to form a package. The cutting blade assembly is crucial for machine availability and cannot be visually inspected during operation due to its enclosure and fast rotation speed. Monitoring blade degradation with this data can help improve machine reliability and reduce unexpected downtime.
+The 519 CSV files each hold a sample of about eight seconds at a 4 ms resolution, or 2048 time steps per file. File names encode the month of the test year, day, start time, sample number and one of eight operating modes. The blade turns fast inside a metal housing and cannot be inspected visually in operation.
 
-The dataset includes 8 different operational modes and several machine speeds, which may be inferred using time series analysis. The data is intended for anomaly localization and predictive maintenance to estimate the remaining useful life of the component. Data files are named in a format encoding recording date, sample number, and mode. The dataset is public under a Creative Commons BY-SA 3.0 license.
+The stated goals are to show how the component degrades over the year, to infer the eight operating modes from the time series, and, if wear can be predicted, to estimate remaining useful life for maintenance planning. The data is cited with a CIRP CMS 2018 paper by von Birgelen and colleagues on self-organizing maps for predictive maintenance. The license is CC BY-SA 3.0.
 
 ## References
 
-- [OCME Vega shrink-wrapper](http://www.ocme.com/en/our-solutions/secondary-packaging/vega)
-- [Dataset on Kaggle](https://www.kaggle.com/inIT-OWL/one-year-industrial-component-degradation)
-- [von Birgelen, Alexander et al.: Self-Organizing Maps for Anomaly Localization and Predictive Maintenance in Cyber-Physical Production Systems. 51st CIRP Conference on Manufacturing Systems (CIRP CMS 2018)](https://authors.elsevier.com/sd/article/S221282711830307X)
-- [Creative Commons BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/)
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/one-year-industrial-component-degradation/versions/1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/one-year-industrial-component-degradation/)
 
 [⬅️ Back to Index](../README.md)

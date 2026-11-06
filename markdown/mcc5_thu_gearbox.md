@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Gears / Gearboxes; Bearings |
-| **Modality** | Vibration; Time Series |
-| **Task** | Fault Diagnosis |
-| **Annotation** | Class Label |
-| **Source Type** | Real Lab / Testbed |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Gears and gearboxes; Bearings |
+| **Modality** | Vibration; Time series |
+| **Task** | Fault diagnosis |
+| **Annotation** | Class label |
+| **Source Type** | Lab or testbed |
 | **Access** | Mendeley Data |
 | **Size** | 240 sets of time series data |
 | **Year** | 2024 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | Tsinghua University |
 
 ## Description
 
@@ -29,5 +29,6 @@ Each file has eight columns: a key phase speed signal, input shaft torque, and t
 - [Mendeley Data](https://data.mendeley.com/datasets/p92gj2732w/2)
 - [GitHub repository](https://github.com/liuzy0708/MCC5-THU-Gearbox-Benchmark-Datasets)
 - [DOI](https://doi.org/10.1016/j.dib.2024.110453)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mcc5-thu-gearbox/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,21 +1,21 @@
 {
-  "Name": "Tool Path Generation",
-  "Summary": "Shape deviation measurements and corresponding simulated cutting conditions for self-optimizing tool path generation in 5-axis machining processes.",
-  "Domain": "Materials & Metrology; Manufacturing & Production",
-  "Asset / Process": "CNC / Machining; Materials / Chemistry",
+  "Name": "Self-optimizing tool path generation for 5-axis machining processes",
+  "Summary": "Measured shape deviations on 5-axis machined pocket walls paired with simulated width of cut, depth of cut, material removal rate and feedrate per probed point.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "CNC machining and tool wear",
   "Modality": "Tabular",
   "Task": "Regression",
-  "Annotation": "Scalar Target",
-  "Source Type": "Simulation",
-  "Access": "Mendeley Data",
-  "Size": "Information not available",
-  "Year": "2018",
-  "License": "Information not available",
-  "Description": "Shape deviation measurements and corresponding simulated cutting conditions are provided. The dataset supports research in self-optimizing tool path generation for 5-axis machining processes. Please refer to the corresponding paper for the experimental setup.\n\nThe dataset features variables such as Actual measured deviation, widths and depths of cut, height at tool, material removal rate, feedrate, and location coordinates of probed points in workpiece coordinates. Data selection includes systematic and random point selections from different sample parts with and without compensation applied.\n\nPocket A and Pocket B include measurements without compensation and with compensation, each having systematic and random sampling from three to nine sample parts. This enables comprehensive evaluation of machining conditions and tolerances for optimization purposes.",
+  "Annotation": "Scalar target",
+  "Source Type": "Mixed",
+  "Description": "This dataset accompanies the paper \"Self-optimizing tool path generation for 5-axis machining processes\". It pairs measured shape deviations of machined pocket walls with cutting conditions computed by a process-parallel material simulation; the experimental setup is described in the paper.\n\nEach probed point carries the measured deviation in millimetres, the width and depth of cut, the projected distance from the surface point to the tool tip along the tool axis, the material removal rate in cm³/min, the feedrate in m/min, and the X, Y and Z position in workpiece coordinates.\n\nThe points come from two pockets, A and B, machined with and without compensation. Pocket A without compensation covers 9 sample parts, with a systematic selection of 128 points on the upper 5-axis wall and 61 on the lower wall plus 50 random points per wall. The other three sets come from 3 sample parts each with 100 random points per wall, and Pocket A with compensation also has the systematic selection.",
   "References": [
     {
       "Text": "Mendeley Data",
       "Link": "https://data.mendeley.com/datasets/smyg6cfwpk/1"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/tool-path-generation/"
     }
   ]
 }

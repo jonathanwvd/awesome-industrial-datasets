@@ -1,31 +1,31 @@
 # Chinese Power Line Insulator Dataset
 
-**Summary:** Provide normal insulator images captured by UAVs and synthetic defective insulator images.
+**Summary:** Power line insulator images with VOC2007 annotations, combining 600 normal images captured by UAVs and 248 synthetic images of defective insulators.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Chinese Power Line Insulator Dataset |
-| **Domain** | Energy & Power |
-| **Asset / Process** | Power Grid / Plants |
-| **Modality** | Image; Geospatial / Remote Sensing |
-| **Task** | Defect Detection; Classification |
-| **Annotation** | Sample Label; Class Label |
+| **Domain** | Energy and power |
+| **Asset / Process** | Power grids and plants |
+| **Modality** | Image |
+| **Task** | Defect detection; Object detection |
+| **Annotation** | Bounding box |
 | **Source Type** | Mixed |
-| **Access** | Repository |
-| **Size** | Information not available |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Access** | Code repository |
+| **Size** | 600 normal and 248 defective images |
+| **Year** | 2018 |
+| **License** | — |
 
 ## Description
 
-This dataset contains images of power line insulators taken by UAVs. It includes both normal insulator images and synthetic defective insulator images, providing data likely useful for detecting and classifying defects in power line insulators.
+The Chinese Power Line Insulator Dataset (CPLID) is a set of power line insulator images for defect detection, made by WANG Zi-Hao from images provided by the State Grid Corporation of China. It accompanies the 2018 article "Detection of Power Line Insulator Defects Using Aerial Images Analyzed With Convolutional Neural Networks" in IEEE Transactions on Systems, Man, and Cybernetics: Systems.
 
-The dataset aims to support machine learning tasks related to the inspection and maintenance of power line insulators by offering a collection of real-world and artificially created defective examples. This setup facilitates the development and evaluation of algorithms for automated insulator defect recognition from images.
+The Normal_Insulators folder holds 600 images of normal insulators captured by UAVs, with annotations of the insulators only. The Defective_Insulators folder holds 248 synthetic images whose annotations cover both the insulators and their defects. Each folder has an images and a labels subfolder, and the labels use the VOC2007 format.
 
-Further details about the number of images, the exact labeling scheme, and instances counts are not available on the provided webpage. The dataset is hosted on GitHub under the repository "InsulatorDataSet" by the user "InsulatorData."
+The defective images were synthesized because few real defective insulators were available: TVSeg masks from part of the original images, augmented by affine transforms, trained a U-Net that segmented the remaining images, and the insulators were then attached to different backgrounds.
 
 ## References
 
-- [Chinese Power Line Insulator Dataset GitHub Repository](https://github.com/InsulatorData/InsulatorDataSet)
+- [GitHub repository](https://github.com/InsulatorData/InsulatorDataSet)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/chinese-power-line-insulator-dataset/)
 
 [⬅️ Back to Index](../README.md)

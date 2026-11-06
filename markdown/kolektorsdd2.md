@@ -1,32 +1,32 @@
 # KolektorSDD2
 
-**Summary:** Surface-defect image dataset from Kolektor Group with 3,335 images of production items, 356 of them with visible defects, and an official train-test split.
+**Summary:** Surface-defect images of production items from Kolektor Group, with scratches, spots and other defects, divided into a train and a test set.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | KolektorSDD2 |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Defect Detection; Classification |
-| **Annotation** | Sample Label; Split Metadata |
-| **Source Type** | Real Production / Field |
-| **Access** | Official Portal |
-| **Size** | 3,335 images (356 defective, 2,979 defect-free), about 230 x 630 px |
+| **Task** | Defect detection |
+| **Annotation** | Sample label |
+| **Source Type** | Real production |
+| **Access** | Direct download |
+| **Size** | 356 defective and 2,979 defect-free images |
 | **Year** | 2021 |
 | **License** | CC BY-NC-SA |
+| **Publisher** | ViCoS Lab |
 
 ## Description
 
-KolektorSDD2 is a surface-defect detection dataset built from images of production items provided and annotated by Kolektor Group d.o.o. The images were captured in a controlled industrial environment and show several types of defects, including scratches, minor spots, and surface imperfections.
+KolektorSDD2 is a surface-defect image dataset whose defective production items were supplied and annotated by Kolektor Group d.o.o. All images come from a controlled industrial setting. The ViCoS Lab publishes it alongside the 2021 Computers in Industry paper "Mixed supervision for surface-defect detection: from weakly to fully supervised learning" by Božič, Tabernik and Skočaj.
 
-The dataset contains 356 images with visible defects and 2,979 images without defects, each about 230 x 630 pixels. It is divided into a training set of 246 positive and 2,085 negative images and a test set of 110 positive and 894 negative images. It was introduced with the paper "Mixed supervision for surface-defect detection: from weakly to fully supervised learning" by Božič, Tabernik and Skočaj, published in Computers in Industry in 2021.
+Of its images, 356 show visible defects and 2,979 show none; each measures roughly 230 x 630 pixels. Defect types include scratches, minor spots and surface imperfections. The train set holds 246 positive and 2,085 negative images, and the test set 110 positive and 894 negative images.
 
-The dataset is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license; commercial use requires contacting the authors. It is the successor to the original KolektorSDD dataset.
+The download is released under CC BY-NC-SA 4.0, and commercial use requires a separate agreement with Danijel Skočaj.
 
 ## References
 
-- [ViCoS Lab KolektorSDD2 page](https://www.vicos.si/resources/kolektorsdd2/)
-- [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+- [Official page](https://www.vicos.si/resources/kolektorsdd2/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/kolektorsdd2/)
 
 [⬅️ Back to Index](../README.md)

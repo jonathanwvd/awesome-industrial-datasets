@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Cyber4OT |
-| **Domain** | Cyber-Physical Security |
-| **Asset / Process** | SCADA / ICS |
-| **Modality** | Network Traffic |
-| **Task** | Intrusion Detection |
-| **Annotation** | Information not available |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Domain** | OT security |
+| **Asset / Process** | Control systems and networks |
+| **Modality** | Network traffic |
+| **Task** | Intrusion detection |
+| **Annotation** | — |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 96 files, more than 4.25 million packets |
 | **Year** | 2024 |
 | **License** | CC BY-NC |
+| **Publisher** | Warsaw University of Technology |
 
 ## Description
 
@@ -28,5 +28,6 @@ The traces are distributed as a single archive, Cyber4OT.zip, under the CC BY-NC
 
 - [DOI](https://doi.org/10.5281/zenodo.13935639)
 - [Zenodo record](https://zenodo.org/records/13935639)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/cyber4ot/)
 
 [⬅️ Back to Index](../README.md)

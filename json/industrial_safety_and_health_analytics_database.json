@@ -1,21 +1,23 @@
 {
   "Name": "Industrial Safety and Health Analytics Database",
-  "Summary": "Database of industrial labor accident records from multiple plants across different countries aimed at understanding and reducing workplace injuries and fatalities.",
-  "Domain": "Environment & Safety; Manufacturing & Production",
-  "Asset / Process": "General Manufacturing",
-  "Modality": "Tabular",
-  "Task": "Classification; Regression",
-  "Annotation": "Sample Label; Class Label; Scalar Target",
-  "Source Type": "Real Production / Field",
-  "Access": "Kaggle; Login Required",
-  "Size": "Information not available",
-  "Year": "2018",
-  "License": "CC0",
-  "Description": "It is not always easy to find databases from real-world manufacturing plants, so this database is shared from one of the biggest industries in Brazil and the world. The primary motivation is to help companies understand why employees still suffer injuries or accidents in plants, sometimes resulting in death. The hope is to enable community-driven exploration and extraction of new insights to improve industrial safety.\n\nThe database consists of records of accidents from 12 different plants in 3 different countries, where every row denotes an occurrence of an accident. The dataset includes time/date information, anonymized country and city location, industry sector, accident severity levels, potential accident severity, gender of the injured, whether the injured is an employee or third party, descriptions of critical risks involved, and detailed descriptions of how the accident occurred.\n\nThis dataset is intended to enable data-driven solutions and research in industrial safety and health to help save lives and enhance workplace safety protocols. It is released under a CC0: Public Domain license for open community use.",
+  "Summary": "Accident records from 12 manufacturing plants in three countries, each with severity levels, critical risk and a written account of the occurrence.",
+  "Domain": "Environment and safety",
+  "Modality": "Tabular; Text and documents",
+  "Task": "Classification",
+  "Annotation": "Class label",
+  "Source Type": "Real production",
+  "Access": "Kaggle",
+  "Size": "accident records from 12 plants",
+  "License": "CC0 and public domain",
+  "Description": "The Industrial Safety and Health Analytics Database holds labor accident records from real-world manufacturing plants of a company that the contributors place among the biggest industries in Brazil and in the world. The stated reason for sharing it is the need for companies to understand why employees are still injured, and sometimes killed, in plants.\n\nEach row is one accident from one of 12 plants in three countries. Columns give the date, the anonymized country and city, the industry sector, the accident level from I (not severe) to VI (very severe), the potential accident level, the gender of the person, whether they were an employee or a third party, the critical risk involved and a free-text account of how the accident happened.\n\nTwo CSV versions are provided, one of them with the accident descriptions, together with an example storyline image. The data is released under CC0 1.0.",
   "References": [
     {
-      "Text": "Kaggle Dataset Page",
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/industrial-safety-and-health-analytics-database/"
     }
   ]
 }

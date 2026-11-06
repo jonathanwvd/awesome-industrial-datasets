@@ -1,32 +1,31 @@
 # Railway Surface Defect Detection Dataset
 
-**Summary:** The Railway Surface Defect Detection (RSDDs) dataset contains two subsets of images from express and common/heavy haul railways annotated for defect detection such as cracks, pores, and wear.
+**Summary:** Rail surface images from express and heavy haul railways in two subsets of 67 and 128 images, each showing at least one defect annotated by professionals.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Railway Surface Defect Detection Dataset |
-| **Domain** | Transportation & Mobility; Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Transportation and mobility |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Defect Detection; Classification |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | IEEE DataPort |
-| **Size** | 195 |
-| **Year** | 2024 |
-| **License** | Information not available |
+| **Task** | Defect detection; Classification |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | — |
+| **Size** | Two subsets of 67 and 128 images |
+| **Year** | — |
+| **License** | — |
 
 ## Description
 
-The Railway Surface Defect Detection (RSDDs) dataset was created to enhance the safety and reliability of railway transportation. This dataset comprises two subsets: Type-I RSDDs and Type-II RSDDs, which were collected from express and common/heavy haul railways, respectively.
+The Railway Surface Defect Detection dataset (RSDDs) is a collection of rail surface images submitted by Qike Wu. It was created to support safer, more reliable railway transportation through automatic inspection, and its defects were annotated by professionals in rail surface detection.
 
-Type-I RSDDs consists of 67 images, each measuring 160×1000 pixels, while Type-II RSDDs includes 128 images, each measuring 55×1250 pixels. These images were captured under various lighting conditions to simulate real-world railway manufacturing and maintenance environments. Each image has been meticulously annotated by professionals, ensuring the accuracy of defect detection.
+The dataset has two subsets. Type-I RSDDs comes from express rails and holds 67 images of 160×1000 pixels. Type-II RSDDs comes from common and heavy haul rails and holds 128 images of 55×1250 pixels. Every image contains at least one defect against complex backgrounds with substantial noise, and the images were taken under varied lighting conditions.
 
-The RSDDs dataset is designed to support the development and evaluation of deep learning models for the automatic identification and classification of various defects on railway surfaces, such as cracks, pores, and wear. The dataset contains complex backgrounds and substantial noise and is valuable for automating inspection and maintenance in the railway industry.
+The data is intended for training and evaluating deep learning models that detect and classify rail surface defects such as cracks, pores and wear.
 
 ## References
 
-- [IEEE DataPort](https://dx.doi.org/10.21227/qtv6-n081)
-- [IEEE DataPort Dataset Page](https://ieee-dataport.org/documents/rsdds)
+- [DOI](https://dx.doi.org/10.21227/qtv6-n081)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/railway-surface-defect-detection-dataset/)
 
 [⬅️ Back to Index](../README.md)

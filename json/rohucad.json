@@ -1,12 +1,12 @@
 {
   "Name": "RoHuCAD",
   "Summary": "ROS recordings of a human-robot assembly workshop where a cobot and a mobile robot assist three operators, with time-stamped anomaly annotations.",
-  "Domain": "Robotics & Automation",
-  "Asset / Process": "Robotic Manipulation",
-  "Modality": "RGB-D; Time Series",
+  "Domain": "Robotics and automation",
+  "Asset / Process": "Robots and manipulators",
+  "Modality": "RGB-D and depth; Time series",
   "Task": "Classification",
-  "Annotation": "Time / Event Label",
-  "Access": "Zenodo / Dataverse",
+  "Annotation": "Event and time label",
+  "Access": "Zenodo, Dataverse or Figshare",
   "Size": "two 8-minute recordings",
   "Year": "2024",
   "License": "CC BY",
@@ -19,6 +19,10 @@
     {
       "Text": "Zenodo record",
       "Link": "https://zenodo.org/records/14142968"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/rohucad/"
     }
   ]
 }

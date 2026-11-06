@@ -1,25 +1,25 @@
 {
   "Name": "Large Scale Image Dataset of Wood Surface Defects",
-  "Summary": "This dataset contains 4,000 images with annotation for wood surface defects of 8 different types such as Quartzity, Live_Knot, Marrow, resin, Dead_Knot, knot_with_crack, Knot_missing and Crack.",
-  "Domain": "Materials & Metrology; Manufacturing & Production",
-  "Asset / Process": "Surface Defects",
+  "Summary": "Sawn timber surface images from a sawmill production line, with semantic label maps and bounding boxes for ten types of wood defects.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Surfaces and textures",
   "Modality": "Image",
-  "Task": "Defect Detection; Classification; Quality Prediction",
-  "Annotation": "Sample Label; Class Label; Bounding Box",
-  "Source Type": "Real Production / Field",
-  "Access": "Kaggle; Login Required",
-  "Size": "4000",
-  "Year": "Information not available",
-  "License": "Information not available",
-  "Description": "This dataset is a subset of \"A large-scale image dataset of wood surface defects for automated vision-based quality control processes\". It contains 4,000 images annotated with 8 different types of wood surface defects including Quartzity, Live_Knot, Marrow, resin, Dead_Knot, knot_with_crack, Knot_missing, and Crack.\n\nThe original dataset consisted of high-resolution images captured with a special camera, each image taking about 12 MB of disk space. This version resizes the images to 2800x1024 resolution, reducing the disk space requirement to approximately 1 MB per image while adjusting annotations accordingly. The annotations have been converted into YOLOv5 format to facilitate use in object detection tasks.\n\nThis dataset is designed to support automated vision-based quality control processes in wood surface defect detection and classification, providing a valuable resource for machine learning applications in the forestry and manufacturing industries.",
+  "Task": "Defect detection; Defect segmentation; Classification",
+  "Annotation": "Pixel mask; Bounding box",
+  "Source Type": "Real production",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "20,275 images",
+  "Year": "2022",
+  "License": "CC BY",
+  "Description": "Pavel Kodytek, Alexandra Bodzas and Petr Bilik describe this dataset in an F1000Research data note published in 2022. Its color images of sawn timber were acquired during real production in an industrial environment. The images were taken with a JAI SW-4000TL-PMCL trilinear line scan camera, a Kowa LM50LF lens and a Chromasens Corona II LED light, at a conveyor speed of 9.6 m/s.\n\nAfter empty frames were filtered out, 20,275 BMP images of 2,800 × 1,024 pixels remain, 1992 of them without defects. They hold more than 43,000 labelled defects of ten types. Live knots appear in 58.8% of images and dead knots in 41.2%; the other types are resin, knot with crack, crack, marrow, quartzity, knot missing, blue stain and overgrown. Each image has a color-coded semantic map and a bounding box text file.\n\nA modified ResNet-50 detector trained on a 40/60 split reached 81% accuracy, and a second trained person then re-evaluated the labels. The images, labels and labelling software are on Zenodo, and the data are released under CC BY 4.0.",
   "References": [
     {
-      "Text": "Original publication on F1000Research",
+      "Text": "Official page",
       "Link": "https://f1000research.com/articles/10-581"
     },
     {
-      "Text": "Kaggle Dataset Page",
-      "Link": "https://www.kaggle.com/datasets/nomihsa965/large-scale-image-dataset-of-wood-surface-defects"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/large-scale-image-dataset-of-wood-surface-defects/"
     }
   ]
 }

@@ -1,32 +1,31 @@
 # Gas Sensor Array Drift at Different Concentrations
 
-**Summary:** This archive contains 13910 measurements from 16 chemical sensors exposed to 6 different gases at various concentration levels.
+**Summary:** 13,910 measurements from 16 chemical sensors exposed to six gases over 36 months, each labelled with the gas and its concentration in ppmv.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Gas Sensor Array Drift at Different Concentrations |
-| **Domain** | Chemical & Process; Environment & Safety |
-| **Asset / Process** | Chemical Process |
-| **Modality** | Time Series |
+| **Domain** | Chemical and process |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
 | **Task** | Classification; Regression |
-| **Annotation** | Sample Label; Class Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | UCI |
-| **Size** | 13910 |
+| **Annotation** | Class label; Scalar target |
+| **Source Type** | Lab or testbed |
+| **Access** | UCI repository |
+| **Size** | 13,910 measurements |
 | **Year** | 2013 |
-| **License** | Information not available |
+| **License** | Academic or non-commercial terms |
 
 ## Description
 
-This data set contains 13,910 measurements from 16 chemical sensors exposed to 6 gases at different concentration levels. This dataset is an extension of the Gas Sensor Array Drift Dataset, providing now the information about the concentration level at which the sensors were exposed for each measurement. The primary purpose is to provide an extensive dataset to sensor and AI research communities to develop and test strategies for various tasks including sensor drift and classification.
+Gas Sensor Array Drift at Different Concentrations extends the Gas Sensor Array Drift Dataset with the concentration level of each measurement. The data was gathered from January 2008 to February 2011 (36 months) on a gas delivery platform at the ChemoSignals Laboratory, BioCircuits Institute, University of California San Diego. Its creator is Alexander Vergara, and it was donated to the UCI Machine Learning Repository in 2013.
 
-The dataset was gathered from January 2008 to February 2011 (36 months) in a gas delivery platform at the ChemoSignals Laboratory, BioCircuits Institute, University of California San Diego. It includes six pure gaseous substances: Ammonia, Acetaldehyde, Acetone, Ethylene, Ethanol, and Toluene at different concentration ranges in ppmv.
+The 13,910 measurements come from 16 chemical sensors exposed to Ammonia, Acetaldehyde, Acetone, Ethylene, Ethanol and Toluene at gas-specific concentration ranges in ppmv. Each 16-channel sensor response becomes a 128-dimensional vector: per sensor, the steady-state resistance change, its normalised version and six exponential moving average transients with alpha 0.1, 0.01 and 0.001.
 
-The sensors' responses are recorded as resistance measurements forming 16-channel time series, later aggregated into 128-dimensional feature vectors. The dataset is organized in ten batches for better distribution of experiments across time. Data files represent batches, each line representing a measurement coded with class, concentration, and feature values.
+The data is split into ten batch files in libsvm-style format, each line giving the gas class, the concentration and the features. It is meant for tasks such as sensor drift, classification and regression, among others. Use is limited to research, and citing Vergara et al. and Rodriguez-Lujan et al. (2014) is required.
 
 ## References
 
-- [Vergara, A. (2012). Gas Sensor Array Drift at Different Concentrations [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5MK6M.](https://doi.org/10.24432/C5MK6M)
-- [On the calibration of sensor arrays for pattern recognition using the minimal number of experiments](https://www.semanticscholar.org/paper/On-the-calibration-of-sensor-arrays-for-pattern-the-Rodr%C3%ADguez-Luj%C3%A1n-Fonollosa/d963fe1234694fba4048b0951f29dbe9ab7f8923)
+- [DOI](https://doi.org/10.24432/C5MK6M)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/gas-sensor-array-drift-at-different-concentrations/)
 
 [⬅️ Back to Index](../README.md)

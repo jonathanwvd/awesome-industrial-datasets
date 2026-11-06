@@ -4,6 +4,11 @@ Thank you for helping improve Awesome Industrial Datasets. This list is curated:
 an entry is added only when it fits the scope below and its details can be
 checked against the original source.
 
+The list is generated from the datasets catalog of the
+[Industrial Atlas](https://www.indatlas.com/datasets/). Accepted datasets are
+written there first and reach this repository on the next update, together with
+the regenerated `README.md`, `json/` and `markdown/` files.
+
 ## Scope
 
 A dataset fits this list when it:
@@ -30,23 +35,17 @@ benchmarks) can be suggested for the Tools section of the README.
 If you are affiliated with the dataset or tool you suggest, please say so.
 Affiliation does not rule out an entry, but it helps the review.
 
-## How to suggest a dataset
+## How to suggest a dataset or a correction
 
-Open an issue with the **Suggest a dataset** template. Please include the
-official page, the industrial use case, and any known license, access,
-size, year, and annotation details.
+Open an issue with the **Suggest a dataset** template, or write through the
+[Industrial Atlas contact page](https://www.indatlas.com/contact/). Please
+include the official page, the industrial use case, and any known license,
+access, size, year, and annotation details. For a correction, name the entry
+and link the source that shows the right value.
 
 ## Pull requests
 
-Pull requests that add or edit a dataset should:
-
-1. Add or edit one file in `json/` only. Use the fields and controlled values
-   from [DATASET_TAXONOMY.md](DATASET_TAXONOMY.md).
-2. Write the summary and description in English, based on the official
-   source. Do not guess values; use `Information not available` when the
-   source does not state them.
-3. Run `python generate_documentation.py` and commit the regenerated
-   `README.md` and `markdown/` files.
-
-Do not edit the table in `README.md` or the files in `markdown/` by hand;
-they are generated from `json/`.
+`README.md`, `json/` and `markdown/` are generated from the Industrial Atlas,
+so a pull request that edits them by hand would be overwritten on the next
+update. Please open an issue instead; the change is made in the Atlas and
+flows here.

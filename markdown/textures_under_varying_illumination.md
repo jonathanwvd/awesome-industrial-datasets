@@ -1,32 +1,30 @@
-# Textures under varying Illumination
+# KTH-TIPS
 
-**Summary:** The KTH-TIPS image database provides texture images under varying scale, pose, and illumination, extending the CUReT database by adding new variations and samples.
+**Summary:** Texture image databases from KTH that extend CUReT with variation in scale, pose and illumination, with KTH-TIPS2 imaging 4 samples of each of 11 materials.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Textures under varying Illumination |
-| **Domain** | Materials & Metrology |
-| **Asset / Process** | Materials / Chemistry |
+| **Domain** | Materials and metrology |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
 | **Task** | Classification |
-| **Annotation** | Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | Information not available |
-| **Year** | 2006 |
-| **License** | Information not available |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Official portal |
+| **Size** | — |
+| **Year** | — |
+| **License** | — |
+| **Publisher** | KTH |
 
 ## Description
 
-The KTH-TIPS (Textures under varying Illumination, Pose and Scale) image database was created to extend the CUReT database in two directions, by providing variations in scale as well as pose and illumination, and by imaging other samples of a subset of its materials in different settings.
+KTH-TIPS (Textures under varying Illumination, Pose and Scale) is a texture image database published by Nada/CVAP at KTH, with Eric Hayman as its contact. It was created to extend the CUReT database in two directions: it adds variation in scale to the changes in pose and illumination, and it images other samples of a subset of the CUReT materials in different settings.
 
-The KTH-TIPS2 databases further extended this effort by imaging 4 different samples of 11 materials, each under varying pose, illumination, and scale.
-
-These databases serve as a resource for research in texture classification and material recognition under varying imaging conditions. More information and download options are available on the KTH-TIPS website.
+The second database, KTH-TIPS2, goes one step further. It images 4 different samples of each of 11 materials, and every sample is photographed under varying pose, illumination and scale. Both KTH-TIPS and KTH-TIPS2 are offered for download from KTH together with their documentation.
 
 ## References
 
-- [KTH-TIPS Image Database Homepage](https://www.csc.kth.se/cvap/databases/kth-tips/index.html)
-- [CUReT database](https://www.cs.columbia.edu/CAVE/software/curet/)
+- [Official page](https://www.csc.kth.se/cvap/databases/kth-tips/index.html)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/textures-under-varying-illumination/)
 
 [⬅️ Back to Index](../README.md)

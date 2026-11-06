@@ -1,32 +1,31 @@
 # Data-driven prediction of battery cycle life before capacity degradation
 
-**Summary:** This dataset consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions to optimize fast charging for lithium-ion batteries.
+**Summary:** Per-cell cycle life, per-cycle summaries and within-cycle current, voltage and temperature signals for battery cells, stored as MATLAB and Python files.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Data-driven prediction of battery cycle life before capacity degradation |
-| **Domain** | Energy & Power |
+| **Domain** | Energy and power |
 | **Asset / Process** | Batteries |
-| **Modality** | Time Series |
-| **Task** | Regression; RUL / Prognostics |
-| **Annotation** | RUL Label; Scalar Target |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository |
-| **Size** | 124 |
+| **Modality** | Time series |
+| **Task** | Regression; RUL and prognostics |
+| **Annotation** | Scalar target; RUL label |
+| **Source Type** | — |
+| **Access** | Official portal |
+| **Size** | — |
 | **Year** | 2019 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
-This dataset, used in the publication “Data-driven prediction of battery cycle life before capacity degradation”, includes measurements from lithium-ion phosphate (LFP)/graphite cells manufactured by A123 Systems. The cells were cycled in a controlled temperature environment at 30°C with a one-step or two-step fast-charging policy, monitored until failure to study degradation patterns.
+This dataset accompanies the paper "Data driven prediction of battery cycle life before capacity degradation" by K.A. Severson, P.M. Attia and co-authors, published in Nature Energy. The rdbraatz GitHub repository holds the data processing code that loads it, while the data itself is hosted at data.matr.io.
 
-The dataset is divided into three batches, each with approximately 48 cells, distinguished by batch dates. Data is provided in MATLAB struct format or as raw CSV files, with some noted errors in the CSV files that are corrected in the structs. Measurements include temperature from thermocouples and internal resistance during charging at 80% state-of-charge using specific pulsing protocols.
+Each battery cell has three groups of data. Descriptors give the charging policy, cycle life, barcode and channel. Summary data, one record per cycle, give cycle number, charge and discharge capacity, internal resistance, maximum, average and minimum temperature, and charge time. Cycle data hold time, current, voltage, temperature and capacities within each cycle, plus derived discharge dQ/dV and linearly interpolated discharge capacity and temperature.
 
-Starter code for accessing and using the dataset is available on GitHub, along with structured data files and a zipped archive of the full dataset. The data aims to support optimization of fast-charging methods and battery life prediction.
+The data is provided as MATLAB structs and as nested Python dictionaries in pkl files; barcode and channel are absent from the pkl files. The modeling code is available from Richard Braatz under an academic license.
 
 ## References
 
-- [GitHub Repository](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation)
-- [Original Publication - Nature Energy 2019](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
+- [GitHub repository](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation/)
 
 [⬅️ Back to Index](../README.md)

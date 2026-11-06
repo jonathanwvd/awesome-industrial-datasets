@@ -1,32 +1,31 @@
 # 3D-ADAM
 
-**Summary:** 3D-ADAM is a large-scale industrial anomaly detection dataset for advanced manufacturing, with 3D scans, RGB views, mesh data, and annotated defects from additively manufactured parts.
+**Summary:** Image and 3D dataset for anomaly detection in additive manufacturing, released as raw data separated by part instance under CC BY-NC-SA 4.0.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | 3D-ADAM |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Additive Manufacturing |
-| **Modality** | Image; 3D Point Cloud; RGB-D; Multimodal |
-| **Task** | Anomaly Detection; Defect Segmentation; Quality Prediction; 3D Understanding |
-| **Annotation** | Sample Label; Pixel Mask; 3D / Point Mask |
-| **Source Type** | Real Lab / Testbed |
+| **Domain** | Manufacturing |
+| **Asset / Process** | Additive manufacturing |
+| **Modality** | Image; 3D point cloud |
+| **Task** | Anomaly detection; Anomaly localization; Defect segmentation |
+| **Annotation** | — |
+| **Source Type** | — |
 | **Access** | Hugging Face |
-| **Size** | 14120 3D scans and 27346 annotated defects |
-| **Year** | 2025 |
-| **License** | Information not available |
+| **Size** | — |
+| **Year** | — |
+| **License** | CC BY-NC-SA |
 
 ## Description
 
-3D-ADAM targets anomaly detection in advanced manufacturing, with a focus on additively manufactured components. The dataset combines 3D geometry, RGB views, CAD-related assets, and defect annotations so that methods can be evaluated beyond 2D visual inspection alone.
+3D-ADAM (3D Anomaly Detection in Additive Manufacturing) is hosted on Hugging Face in the pmchard account and described in an arXiv paper. The project behind it received support from the 1851 Royal Commission and HAL Robotics.
 
-The dataset includes 14,120 3D scans and 27,346 annotated defects. It is intended for 3D anomaly detection, defect segmentation, multimodal quality inspection, and research on manufacturing inspection methods that combine shape and visual information.
+The main repository holds the raw data of the complete dataset, with image and 3D modalities, organised by part instance so that it can be split and combined as needed. A separate repository offers a subset recorded with a single MechMind-Nano camera.
 
-3D-ADAM is distributed through Hugging Face and was introduced in an arXiv paper in 2025.
+That single-camera subset is prepared for unsupervised training on anomaly detection, localisation and segmentation tasks through the anomalib library. The main repository is open to download without gating, and its data is released under the CC BY-NC-SA 4.0 license.
 
 ## References
 
 - [Hugging Face dataset](https://huggingface.co/datasets/pmchard/3D-ADAM)
-- [Paper (arXiv 2025)](https://arxiv.org/html/2507.07838v1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/3d-adam/)
 
 [⬅️ Back to Index](../README.md)

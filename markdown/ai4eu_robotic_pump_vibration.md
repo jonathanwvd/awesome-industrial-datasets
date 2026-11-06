@@ -4,14 +4,13 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | AI4EU Robotics Pilot: Vibration sensor measurements in a robotic pump |
-| **Domain** | Robotics & Automation |
-| **Asset / Process** | Pumps; Robotic Manipulation |
-| **Modality** | Time Series |
-| **Task** | Condition Monitoring |
-| **Annotation** | Information not available |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | Pumps, compressors and fans; Robots and manipulators |
+| **Modality** | Time series |
+| **Task** | Condition monitoring |
+| **Annotation** | — |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 380 million measurements |
 | **Year** | 2021 |
 | **License** | CC BY |
@@ -26,5 +25,6 @@ The pump speed, set in rotations per minute, changes the paint throughput and th
 
 - [DOI](https://doi.org/10.5281/zenodo.5729187)
 - [Zenodo record](https://zenodo.org/records/5729187)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/ai4eu-robotic-pump-vibration/)
 
 [⬅️ Back to Index](../README.md)

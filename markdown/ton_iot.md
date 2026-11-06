@@ -1,31 +1,32 @@
 # TON_IoT
 
-**Summary:** Collection of IIoT and Industry 4.0 security datasets including telemetry, operating system logs, and network traffic captured from a realistic IIoT testbed with multiple labelled attack types.
+**Summary:** Telemetry, network, Linux and Windows datasets from a UNSW Canberra IoT and IIoT testbed, with normal and attack records labelled for AI-based intrusion detection.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | TON_IoT |
-| **Domain** | Cyber-Physical Security |
-| **Asset / Process** | SCADA / ICS |
-| **Modality** | Time Series; Network Traffic |
-| **Task** | Intrusion Detection; Anomaly Detection |
-| **Annotation** | Sample Label; Fault Type Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | Information not available |
-| **Year** | 2020 |
-| **License** | Information not available |
+| **Domain** | OT security |
+| **Asset / Process** | Control systems and networks |
+| **Modality** | Network traffic; Time series |
+| **Task** | Intrusion detection |
+| **Annotation** | Class label; Event and time label |
+| **Source Type** | Lab or testbed |
+| **Access** | Direct download |
+| **Size** | — |
+| **Year** | 2019 |
+| **License** | Academic or non-commercial terms |
+| **Publisher** | UNSW Canberra |
 
 ## Description
 
-TON_IoT is a comprehensive cybersecurity dataset collection targeting IIoT and Industry 4.0 environments. The data was collected from a realistic multi-layer testbed comprising IoT/IIoT sensors (including weather and Modbus industrial sensors), virtual machines running Windows and Linux operating systems, and network infrastructure. The testbed was purpose-built at UNSW's Cyber Range and IoT Labs.
+TON_IoT is a set of Industry 4.0, IoT and Industrial IoT (IIoT) datasets from UNSW Canberra at the Australian Defence Force Academy, for evaluating AI-based cybersecurity applications such as intrusion detection. The data was gathered on a testbed network at the Cyber Range and IoT Labs, where Windows, Linux and Kali machines link IoT, cloud and edge/fog layers.
 
-The dataset includes three main data types: (1) telemetry time series from over 10 IoT and IIoT sensors, (2) OS audit logs from Windows and Linux machines, and (3) network traffic data in both raw PCAP format and processed Zeek/Bro log format. All data types include ground-truth labels identifying attack events (e.g., DoS, DDoS, ransomware) with timestamps and network identifiers.
+Four sources were recorded in parallel under normal operation and attacks such as DoS, DDoS and ransomware: telemetry from more than 10 IoT and IIoT sensors, including weather and Modbus sensors; network traffic as pcap files and Zeek (Bro) logs; Linux audit traces from Ubuntu 14 and 18; and Windows 7 and 10 Performance Monitor data.
 
-TON_IoT has been widely cited in the network security and IIoT anomaly detection literature. It is freely available for academic research use; commercial use requires contacting the dataset authors.
+Processed CSV files add standard features and labels. A train and test folder holds selected CSV samples of the four datasets, a statistics folder counts normal and attack records, and a ground-truth folder lists security events with timestamps, labelled by attacker IP address. Free academic use is granted in perpetuity; commercial use is allowed after asking the author, Dr Nour Moustafa.
 
 ## References
 
-- [Official project page + download link](https://research.unsw.edu.au/projects/toniot-datasets)
+- [Official page](https://research.unsw.edu.au/projects/toniot-datasets)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/ton-iot/)
 
 [⬅️ Back to Index](../README.md)

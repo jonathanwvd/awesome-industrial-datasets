@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | A photovoltaic performance dataset for the benchmarking of failure detection and diagnosis algorithms |
-| **Domain** | Energy & Power |
-| **Asset / Process** | Solar / PV |
-| **Modality** | Time Series |
-| **Task** | Fault Diagnosis |
-| **Annotation** | Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
+| **Domain** | Energy and power |
+| **Asset / Process** | Solar PV |
+| **Modality** | Time series |
+| **Task** | Fault diagnosis |
+| **Annotation** | Class label |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | seven monitored PV modules |
 | **Year** | 2026 |
 | **License** | CC BY |
+| **Publisher** | TECNALIA |
 
 ## Description
 
@@ -29,5 +29,6 @@ Individual maximum power point (MPP) trackers log the MPP voltage and current of
 - [DOI](https://doi.org/10.5281/zenodo.18306410)
 - [Zenodo record](https://zenodo.org/records/18306410)
 - [Zenodo record](https://zenodo.org/records/18326501)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/tecnalia-pv-failure-benchmark/)
 
 [⬅️ Back to Index](../README.md)

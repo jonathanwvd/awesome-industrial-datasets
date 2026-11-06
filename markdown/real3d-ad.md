@@ -1,32 +1,34 @@
 # Real3D-AD
 
-**Summary:** High-precision 3D point-cloud industrial anomaly detection benchmark with 1,254 samples across 12 object categories, per-sample ground truth annotations, and CC BY 4.0 licensing.
+**Summary:** High-precision 3D point-cloud anomaly detection benchmark with 1,254 scanned samples of 12 object categories and point-level ground truth.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Real3D-AD |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
-| **Modality** | Image; 3D Point Cloud |
-| **Task** | Anomaly Detection; Anomaly Localization; 3D Understanding |
-| **Annotation** | Normal-Only Training; Sample Label; 3D / Point Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Repository; Direct Download |
-| **Size** | 1254 samples across 12 categories |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | 3D point cloud |
+| **Task** | Anomaly detection; Anomaly localization |
+| **Annotation** | Normal-only training; 3D point mask |
+| **Source Type** | Lab or testbed |
+| **Access** | Code repository |
+| **Size** | 1,254 samples in 12 categories |
 | **Year** | 2023 |
-| **License** | CC BY |
+| **License** | — |
+| **Publisher** | Jiaqi Liu et al. |
+| **Benchmark** | Yes |
 
 ## Description
 
-Real3D-AD is the first large-scale benchmark dedicated to 3D point-cloud anomaly detection in precision manufacturing and metrology applications. The dataset contains 1,254 samples across 12 industrial object categories. 3D data was acquired using high-precision optical scanning with turntable rotation to achieve complete 360° coverage of each object. Normal training prototypes and anomalous test samples (with per-sample ground truth files) are provided in PCD and PLY formats.
+Real3D-AD is a point-cloud anomaly detection dataset by Jiaqi Liu, Guoyang Xie and co-authors, presented in the NeurIPS 2023 Datasets and Benchmarks Track. The objects were scanned with a PMAX-S130 optical system while a turntable completed a full 360° revolution, and further samples were made by copying and cutting edges.
 
-Anomaly types include bulge and sink deformations representing common manufacturing defects at the sub-millimetre scale. The dataset thus targets applications where visual inspection alone is insufficient and high-resolution 3D geometry is required. Unlike synthetic point-cloud datasets, Real3D-AD uses genuine industrial objects scanned in controlled conditions.
+The 1,254 samples cover 12 categories, including Airplane, Car, Candybar, Diamond, Gemstone, Seahorse, Shell, Starfish and Toffees. Training uses 4 defect-free prototypes per category; the test sets hold anomalies of two kinds, incompleteness and redundancy (for example bulges and sinks), with ground truth annotated in CloudCompare. Data is distributed in PCD format and as source PLY files from the camera.
 
-Real3D-AD was presented at NeurIPS 2023 Datasets & Benchmarks (arXiv:2309.13226) and is licensed under CC BY 4.0, permitting broad research use.
+Object-level and point-level detection are scored with AUROC, and point-level results are also reported as AUPR. Downloads of both formats are linked from the GitHub repository.
 
 ## References
 
-- [GitHub repository + downloads](https://github.com/M-3LAB/Real3D-AD)
-- [Paper (arXiv / NeurIPS 2023)](https://arxiv.org/abs/2309.13226)
+- [GitHub repository](https://github.com/M-3LAB/Real3D-AD)
+- [Preprint (arXiv)](https://arxiv.org/abs/2309.13226)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/real3d-ad/)
 
 [⬅️ Back to Index](../README.md)

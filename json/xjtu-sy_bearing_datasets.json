@@ -1,41 +1,25 @@
 {
   "Name": "XJTU-SY Bearing Datasets",
-  "Summary": "The XJTU-SY Bearing Datasets provide run-to-failure vibration data of 15 rolling element bearings collected under three different operating conditions to support the validation of prognostic algorithms. Vibration signals were sampled at 25.6 kHz using two accelerometers mounted horizontally and vertically.",
-  "Domain": "Manufacturing & Production",
+  "Summary": "Run-to-failure vibration records of 15 LDK UER204 rolling element bearings from accelerated degradation tests under three speed and radial force conditions.",
+  "Domain": "Manufacturing",
   "Asset / Process": "Bearings",
-  "Modality": "Time Series; Vibration",
-  "Task": "RUL / Prognostics",
-  "Annotation": "Fault Type Label; RUL Label",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Official Portal",
-  "Size": "Information not available",
-  "Year": "2021",
-  "License": "Information not available",
-  "Description": "The XJTU-SY bearing datasets are provided by the Institute of Design Science and Basic Component at Xi’an Jiaotong University and the Changxing Sumyoung Technology Co., Ltd. They contain complete run-to-failure data of 15 rolling element bearings acquired through accelerated degradation experiments under three operating conditions: 2100 rpm and 12 kN, 2250 rpm and 11 kN, and 2400 rpm and 10 kN.\n\nVibration signals were recorded every minute with two PCB 352C33 accelerometers mounted at 90° on the bearing housing, sampling 32768 data points (1.28 seconds) at 25.6 kHz. For each sampling, data were saved in CSV format with the first column as horizontal vibration and the second column as vertical vibration.\n\nThe data packet (XJTU-SY_Bearing_Datasets.zip) includes all CSV files for the 15 tested bearings. Each bearing’s lifetime, number of CSV files, and fault type can be found in the provided tables and failure photographs, illustrating faults such as inner race wear, cage fracture, and outer race damage.",
+  "Modality": "Vibration",
+  "Task": "RUL and prognostics",
+  "Annotation": "RUL label",
+  "Source Type": "Lab or testbed",
+  "Access": "Direct download",
+  "Size": "15 run-to-failure bearings",
+  "Year": "2020",
+  "Publisher": "Institute of Design Science and Basic Component, Xi'an Jiaotong University; Changxing Sumyoung Technology Co., Ltd.",
+  "Description": "The XJTU-SY Bearing Datasets come from the Institute of Design Science and Basic Component at Xi'an Jiaotong University and Changxing Sumyoung Technology Co., Ltd. They hold complete run-to-failure data of 15 rolling element bearings from accelerated degradation experiments, for validating bearing prognostics. Users are asked to cite a 2020 IEEE Transactions on Reliability paper by Biao Wang, Yaguo Lei, Naipeng Li and Ningbo Li.\n\nThe testbed has an AC induction motor, a speed controller, a support shaft, two support bearings and a hydraulic loading system that applies radial force to the tested LDK UER204 bearings. Five bearings ran under each of three conditions: 2100 rpm and 12 kN, 2250 rpm and 11 kN, and 2400 rpm and 10 kN.\n\nTwo PCB 352C33 accelerometers at 90° record horizontal and vertical vibration at 25.6 kHz. Each one-minute sampling stores 32,768 points (1.28 s) in a CSV file. Failures include inner race wear, cage fracture, outer race wear and outer race fracture.",
   "References": [
     {
-      "Text": "My Website",
-      "Link": "http://biaowang.tech/xjtu-sy-bearing-datasets"
+      "Text": "Official page",
+      "Link": "https://biaowang.tech/xjtu-sy-bearing-datasets/"
     },
     {
-      "Text": "Google Drive",
-      "Link": "https://drive.google.com/open?id=1_ycmG46PARiykt82ShfnFfyQsaXv3_VK"
-    },
-    {
-      "Text": "Dropbox",
-      "Link": "https://www.dropbox.com/sh/qka3b73wuvn5l7a/AADr6oXKbafhOlrBLCNgonzua?dl=0"
-    },
-    {
-      "Text": "MediaFire",
-      "Link": "http://www.mediafire.com/folder/m3sij67rizpb4/XJTU-SY_Bearing_Datasets"
-    },
-    {
-      "Text": "MEGA",
-      "Link": "https://mega.nz/#F!H7pnGKBK!PR8qUShaLlJjwrPf3SlBjw"
-    },
-    {
-      "Text": "Baidu Netdisk",
-      "Link": "https://pan.baidu.com/s/1OaY82azTXHBwjiCjA_jRcw"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/xjtu-sy-bearing-datasets/"
     }
   ]
 }

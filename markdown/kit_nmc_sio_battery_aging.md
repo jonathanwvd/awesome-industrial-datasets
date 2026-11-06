@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Comprehensive battery aging dataset: capacity and impedance fade measurements of a lithium-ion NMC/C-SiO cell |
-| **Domain** | Energy & Power |
+| **Domain** | Energy and power |
 | **Asset / Process** | Batteries |
-| **Modality** | Time Series |
-| **Task** | Condition Monitoring |
-| **Annotation** | Information not available |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
+| **Modality** | Time series |
+| **Task** | Condition monitoring |
+| **Annotation** | — |
+| **Source Type** | Lab or testbed |
+| **Access** | Official portal |
 | **Size** | 228 cells, more than 3 billion data rows |
 | **Year** | 2024 |
 | **License** | CC BY |
+| **Publisher** | Karlsruhe Institute of Technology |
 
 ## Description
 
@@ -30,5 +30,6 @@ Cells were aged until only 40 to 50% of nominal capacity remained. Version 2 is 
 - [DOI](https://doi.org/10.35097/kww7jv8ajuvchcah)
 - [DOI](https://doi.org/10.35097/1947)
 - [DOI](https://doi.org/10.1038/s41597-024-03831-x)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/kit-nmc-sio-battery-aging/)
 
 [⬅️ Back to Index](../README.md)

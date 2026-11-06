@@ -1,34 +1,31 @@
 # Quality Prediction in a Mining Process
 
-**Summary:** This dataset is about a flotation plant which is a process used to concentrate the iron ore. The target is to predict the % of Silica (impurity) in the end of the process.
+**Summary:** Process and lab data from an iron ore flotation plant, from March to September 2017, aimed at predicting the silica impurity in the ore concentrate.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Quality Prediction in a Mining Process |
-| **Domain** | Materials & Metrology; Manufacturing & Production |
-| **Asset / Process** | Materials / Chemistry |
-| **Modality** | Time Series |
-| **Task** | Regression; Quality Prediction; Process Monitoring |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | Approximately 158,000+ per large time chunks, total count likely over 400,000 |
-| **Year** | 2017 |
-| **License** | Academic / Non-Commercial |
+| **Domain** | Chemical and process |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Regression; Quality prediction |
+| **Annotation** | Scalar target |
+| **Source Type** | Real production |
+| **Access** | Kaggle |
+| **Size** | — |
+| **Year** | — |
+| **License** | CC0 and public domain |
 
 ## Description
 
-This dataset comes from one of the most important parts of a mining process: a flotation plant used to concentrate iron ore. The data covers a time range from March 2017 until September 2017. The dataset includes measurements taken every 20 seconds for some features and hourly for others. The columns include quality measures of the iron ore pulp before entering the flotation plant, process variables that impact ore quality such as reagent flow and air flow inside flotation columns, and process data. The target variable to predict is the percentage of silica in the iron ore concentrate, representing the impurity level.
+Quality Prediction in a Mining Process holds operating data from a flotation plant, the mining stage in which iron ore is concentrated. It is shared as data from a real plant and released under CC0 1.0.
 
-The motivation behind predicting the silica concentration is that its lab measurement (last column) takes about one hour to be available, and predicting it earlier can empower engineers to take corrective actions proactively, reducing impurities and environmental impact. This dataset has been used for research purposes to explore predictions of impurity levels in the flotation process with goals like multi-step ahead predictions and evaluating models that exclude highly correlated features.
+The single file, MiningProcess_Flotation_Plant_Database.csv, covers March to September 2017. Some columns were sampled every 20 seconds and others once an hour. After the date and time come two quality measures of the iron ore pulp entering the plant, then the variables with most influence on final ore quality, and then process data such as levels and air flows in the flotation columns. The last two columns are lab measurements of the concentrate.
 
-The dataset has been used for learning, research, and application purposes and includes well-documented and well-maintained data suitable for developing machine learning models in the manufacturing and mining domain. Related research includes deep learning techniques applied to purity prediction in froth flotation and soft sensors for process quality prediction.
+The prediction target is the last column, the silica percentage in the concentrate, an impurity measured hourly. The stated goal is early warning for engineers, so less ore goes to tailings. The publisher also asks whether silica can be predicted every minute, how many hours ahead it can be predicted, and whether it can be predicted without the closely correlated iron concentrate column.
 
 ## References
 
-- [Kaggle Dataset - Quality Prediction in a Mining Process](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process)
-- [Purities prediction in a manufacturing froth flotation plant: the deep learning techniques](https://link.springer.com/article/10.1007/s00521-020-04773-2)
-- [Soft Sensor: Traditional Machine Learning or Deep Learning](https://www.researchgate.net/publication/329260095_Soft_Sensor_Traditional_Machine_Learning_or_Deep_Learning)
-- [Machine Learning-based Quality Prediction in the Froth Flotation Process of Mining](https://www.diva-portal.org/smash/get/diva2:1386720/FULLTEXT01.pdf)
+- [Kaggle dataset](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/quality-prediction-in-a-mining-process/)
 
 [⬅️ Back to Index](../README.md)

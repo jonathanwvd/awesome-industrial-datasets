@@ -1,25 +1,27 @@
 {
-  "Name": "Water Distribution (WADI) Dataset",
-  "Summary": "The WADI dataset includes 16 days of operation data in a water distribution testbed, including 14 days of normal operation and 2 days with attack scenarios, containing data from 123 sensors and actuators.",
-  "Domain": "Cyber-Physical Security; Water & Utilities; Infrastructure & Civil",
-  "Asset / Process": "Water Treatment / Distribution; SCADA / ICS",
-  "Modality": "Time Series",
-  "Task": "Cyberattack Detection; Anomaly Detection; Process Monitoring",
-  "Annotation": "Time / Event Label; Sample Label; Fault Type Label",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Official Portal",
-  "Size": "Information not available",
-  "Year": "2019",
-  "License": "Information not available",
-  "Description": "The Water Distribution (WADI) dataset contains 16 days of continuous operational data from a water distribution testbed, with 14 days of normal operation and 2 days containing attack scenarios. The dataset records data collected from all 123 sensors and actuators in the system. The attack scenarios are derived from attack models developed by the research team at iTrust, considering the intent space of a Cyber-Physical System (CPS) as an attack model. During the 2 days of attacks, a total of 15 attacks were launched.\n\nThe dataset was updated on 19 Dec 2019 (WADI.A2) to remove data affected during unstable plant operation periods and includes a corrected CSV file and label data indicating the presence or absence of attacks. This dataset is useful for research in designing secure cyber-physical systems, especially in anomaly detection and attack detection in critical infrastructure.\n\nResearchers and practitioners are required to credit iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design when using the dataset in published works. Access to the dataset is controlled and requires requesting permission from iTrust.",
+  "Name": "Water Distribution (WaDi)",
+  "Summary": "Sensor and actuator data from the iTrust water distribution testbed, with 14 days of normal operation and 2 days in which 15 cyber-physical attacks were launched.",
+  "Domain": "OT security",
+  "Asset / Process": "Water treatment and distribution",
+  "Modality": "Time series; Network traffic",
+  "Task": "Intrusion detection",
+  "Annotation": "Event and time label",
+  "Source Type": "Lab or testbed",
+  "Size": "16 days; 123 sensors and actuators",
+  "Publisher": "iTrust",
+  "Description": "WaDi is a water distribution testbed run by iTrust, and its first dataset, WaDi.A1, covers 16 days of continuous operation: 14 under normal operation and 2 with attack scenarios. Data comes from all 123 sensors and actuators. The 15 attacks launched in those 2 days follow attack models from the iTrust research team that treat the intent space of a cyber-physical system as the attack model.\n\nThe WaDi.A2 update removed readings from periods when the plant was unstable and added a new CSV file, a second CSV file that labels each reading as attack (-1) or no attack (1), and an attack table with corrected dates.\n\nA later release from December 2023, WaDi.A3, holds 105 hours of normal operation of the SWaT and WaDi testbeds, the last 100 of them in CrossOver mode, with no attacks. It includes PCAP files (335 GB for WaDi), historian data and an incomplete set of NetFlow logs.",
   "References": [
     {
-      "Text": "WaDi: a water distribution testbed for research in the design of secure cyber physical systems",
-      "Link": "https://dl.acm.org/doi/10.1145/3055366.3055375"
+      "Text": "Official page",
+      "Link": "https://www.sutd.edu.sg/itrust/itrust-labs/datasets/dataset-characteristics/wadi/"
     },
     {
-      "Text": "iTrust Labs Dataset Information",
+      "Text": "itrust.sutd.edu.sg",
       "Link": "https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/water-distribution-wadi-dataset/"
     }
   ]
 }

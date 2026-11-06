@@ -1,31 +1,32 @@
 # IMAD-DS
 
-**Summary:** IMAD-DS is an industrial multi-sensor anomaly detection dataset collected from a robotic arm and a brushless motor using audio and inertial sensors.
+**Summary:** Multi-sensor recordings of a scaled robotic arm and brushless motor, with normal and abnormal data under operational and environmental domain shifts.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | IMAD-DS |
-| **Domain** | Robotics & Automation; Manufacturing & Production |
-| **Asset / Process** | Motors / Drives |
-| **Modality** | Time Series; Audio; Vibration; Multimodal |
-| **Task** | Anomaly Detection; Fault Diagnosis; Condition Monitoring |
-| **Annotation** | Sample Label; Fault Type Label; Time / Event Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Zenodo / Dataverse |
-| **Size** | Information not available |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | Robots and manipulators; Motors and drives |
+| **Modality** | Audio; Vibration; Multimodal |
+| **Task** | Anomaly detection |
+| **Annotation** | Sample label |
+| **Source Type** | Lab or testbed |
+| **Access** | Zenodo, Dataverse or Figshare |
+| **Size** | Two 7z archives (RoboticArm, BrushlessMotor) |
 | **Year** | 2024 |
-| **License** | Information not available |
+| **License** | CC BY-SA |
+| **Publisher** | STMicroelectronics and Politecnico di Milano |
 
 ## Description
 
-IMAD-DS is a multi-sensor dataset for industrial anomaly detection under domain-shift conditions. It contains data from industrial equipment including a robotic arm and a brushless motor.
+Researchers from STMicroelectronics and Politecnico di Milano released IMAD-DS on Zenodo in 2024. It is built for anomaly detection from several sensors sampled at different rates, on industrial machines whose operating and environmental conditions shift between domains.
 
-The dataset includes signals collected with an analog microphone, a 3-axis accelerometer, and a 3-axis gyroscope. It is intended for anomaly detection, condition monitoring, domain adaptation, and fault diagnosis research using heterogeneous sensor streams.
+The data comes from two scaled machines. On a robotic arm modelled on a silicon wafer handler, anomalies are made by removing bolts at the arm nodes. On a brushless motor, a magnet is moved closer to the load, or a belt turning with the shaft is tightened. Load and speed changes and background noise create source and target domains, with few training examples in the target domain.
 
-IMAD-DS is distributed through Zenodo and was released in 2024.
+An STEVAL-STWINBX1 sensor node records a 16 kHz analog microphone and a 3-axis accelerometer and gyroscope at 6.7 kHz in an anechoic chamber. Each sensor is stored as a parquet file in train and test folders, and CSV files map segments to sensors and conditions. The license is CC BY-SA 4.0.
 
 ## References
 
 - [Zenodo record](https://zenodo.org/records/12665499)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/imad-ds/)
 
 [⬅️ Back to Index](../README.md)

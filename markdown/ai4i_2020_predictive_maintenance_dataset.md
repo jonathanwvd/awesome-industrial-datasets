@@ -1,32 +1,32 @@
 # AI4I 2020 Predictive Maintenance Dataset
 
-**Summary:** The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry.
+**Summary:** Synthetic predictive maintenance dataset of 10,000 data points with process readings, a machine failure label and five independent failure modes.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | AI4I 2020 Predictive Maintenance Dataset |
-| **Domain** | Energy & Power; Manufacturing & Production |
-| **Asset / Process** | CNC / Machining |
-| **Modality** | Time Series |
-| **Task** | Fault Diagnosis; Failure Prediction; Predictive Maintenance; Classification |
-| **Annotation** | Fault Type Label; Scalar Target; Sample Label; Class Label |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
+| **Task** | Classification; Fault diagnosis |
+| **Annotation** | Sample label; Class label |
 | **Source Type** | Synthetic |
-| **Access** | UCI |
-| **Size** | 10000 |
+| **Access** | UCI repository |
+| **Size** | 10,000 data points |
 | **Year** | 2020 |
-| **License** | Information not available |
+| **License** | CC BY |
 
 ## Description
 
-Since real predictive maintenance datasets are generally difficult to obtain and in particular difficult to publish, we present and provide a synthetic dataset that reflects real predictive maintenance encountered in industry to the best of our knowledge.
+Real predictive maintenance data is generally hard to obtain and harder to publish, so the AI4I 2020 Predictive Maintenance Dataset was generated to resemble, as far as its author knows, the maintenance data met in industry. It was donated to the UCI Machine Learning Repository in 2020 and introduced in S. Matzka's paper "Explainable Artificial Intelligence for Predictive Maintenance Applications".
 
-The dataset consists of 10,000 data points stored as rows with 14 features in columns including UID, product ID, air temperature (K), process temperature (K), rotational speed (rpm), torque (Nm), tool wear (min), and machine failure labels, among others.
+Its 10,000 rows have 14 columns: an identifier, a product ID with a low, medium or high quality variant, air and process temperature in kelvin, rotational speed, torque, tool wear and failure labels. The temperatures come from random walk processes, and torque is normally distributed around 40 Nm.
 
-The machine failure label indicates whether the machine has failed due to one or more of five independent failure modes: tool wear failure (TWF), heat dissipation failure (HDF), power failure (PWF), overstrain failure (OSF), and random failures (RNF). Each failure mode is defined with specific conditions and probabilities as described in the dataset documentation.
+The machine failure label is set to 1 when any of five independent modes occurs: tool wear failure, heat dissipation failure, power failure, overstrain failure or random failure. There are no missing values. The data ships as one CSV file under CC BY 4.0.
 
 ## References
 
-- [AI4I 2020 Predictive Maintenance Dataset - UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset)
-- [Explainable Artificial Intelligence for Predictive Maintenance Applications by S. Matzka (2020)](https://www.semanticscholar.org/paper/b609c8e9ec6a2b8c642810953ef6dffe5766f7c1)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/ai4i-2020-predictive-maintenance-dataset/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,33 +1,32 @@
 # MVTec LOCO AD
 
-**Summary:** Unsupervised industrial anomaly localisation dataset containing both structural defects and logical-constraint violations, with pixel-precise ground truth masks across 5 object categories.
+**Summary:** Unsupervised anomaly localization dataset of 3,644 images in five categories, with both structural and logical anomalies and pixel-precise ground truth.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MVTec LOCO AD |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Surface Defects |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Anomaly Localization; Defect Segmentation; Quality Prediction |
-| **Annotation** | Normal-Only Training; Sample Label; Pixel Mask |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal; Form Request |
-| **Size** | 3644 images across 5 categories |
+| **Task** | Anomaly detection; Anomaly localization |
+| **Annotation** | Pixel mask |
+| **Source Type** | — |
+| **Access** | — |
+| **Size** | 3,644 images |
 | **Year** | 2022 |
 | **License** | CC BY-NC-SA |
+| **Publisher** | MVTec |
 
 ## Description
 
-MVTec LOCO AD (Logical Constraints Anomaly Detection) is a benchmark dataset for unsupervised industrial anomaly detection and localisation. It extends the original MVTec AD dataset by introducing a fundamentally new class of anomalies: logical constraint violations. Unlike purely structural defects (scratches, dents, contaminations), logical anomalies arise when objects are correctly formed but placed or assembled in configurations that violate expected rules—such as wrong object positions, incorrect counts, or prohibited combinations.
+MVTec LOCO AD (MVTec logical constraints anomaly detection) is a dataset from MVTec for evaluating unsupervised anomaly localization algorithms. It is described by Paul Bergmann, Kilian Batzner, Michael Fauser, David Sattlegger and Carsten Steger in "Beyond Dents and Scratches: Logical Constraints in Unsupervised Anomaly Detection and Localization", published in the International Journal of Computer Vision in 2022.
 
-The dataset contains 3,644 images distributed across 5 industrial object categories. Each category provides defect-free training and validation images alongside a test set that includes both structural and logical anomalies, each with pixel-precise ground truth segmentation masks. This dual-type anomaly structure makes MVTec LOCO AD uniquely challenging and more representative of real factory scenarios than image-only structural benchmarks.
+Its 3,644 images come from five categories inspired by industrial inspection scenarios. Structural anomalies appear as scratches, dents or contaminations on the products, while logical anomalies break underlying constraints, such as an allowed object in an invalid location or a required object that is missing. Pixel-precise ground truth is given for each anomalous region.
 
-The dataset was introduced alongside a new evaluation metric (sPRO—saturation-weighted Per-Region Overlap) that better captures partial localisation of large anomalous regions. The total dataset size is approximately 5.71 GB. It is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+Python scripts with a readme support a fair and consistent evaluation of methods, and the metrics are defined in the paper. The data is released under CC BY-NC-SA 4.0, which does not allow commercial use.
 
 ## References
 
-- [Dataset page](https://www.mvtec.com/company/research/datasets/mvtec-loco)
-- [Downloads](https://www.mvtec.com/company/research/datasets/mvtec-loco/downloads)
-- [Paper (IJCV 2022)](https://doi.org/10.1007/s11263-022-01578-9)
+- [Official page](https://www.mvtec.com/company/research/datasets/mvtec-loco)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mvtec-loco-ad/)
 
 [⬅️ Back to Index](../README.md)

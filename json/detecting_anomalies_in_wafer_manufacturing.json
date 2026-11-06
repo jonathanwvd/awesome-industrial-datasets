@@ -1,21 +1,23 @@
 {
   "Name": "Detecting Anomalies in Wafer Manufacturing",
-  "Summary": "Detecting anomalies in semiconductor wafer manufacturing using machine learning models to classify good or anomalous products with a highly imbalanced dataset.",
-  "Domain": "Electronics & Semiconductor; Manufacturing & Production",
-  "Asset / Process": "Semiconductor / Wafers",
+  "Summary": "Anonymised machine data from semiconductor wafer manufacturing with 1,558 features and good or anomalous labels, in 1,763 training and 756 test rows.",
+  "Domain": "Electronics and semiconductors",
+  "Asset / Process": "Semiconductor wafers and process tools",
   "Modality": "Tabular",
-  "Task": "Anomaly Detection; Classification",
-  "Annotation": "Sample Label; Class Label",
-  "Source Type": "Real Production / Field",
-  "Access": "Kaggle; Login Required",
-  "Size": "Train: 1763, Test: 756",
-  "Year": "Information not available",
-  "License": "Information not available",
-  "Description": "Detecting Anomalies can be a difficult task and especially in the case of labeled datasets due to some level of human bias introduced while labeling the final product as anomalous or good. These giant manufacturing systems need to be monitored every 10 milliseconds to capture their behavior which brings in lots of information and what we call the Industrial IoT (IIOT). Also, hardly a manufacturer wants to create an anomalous product. Hence, the anomalies are like a needle in a haystack which renders the dataset significantly imbalanced.\n\nThe dataset is collected from one of India's leading manufacturers of wafers (semiconductors). The dataset collected was anonymized to hide the feature names, and there are 1558 features which require domain knowledge to interpret properly.\n\nIn this context, participants create machine learning or deep learning models to classify anomalies in the manufacturing data, optimizing the Area Under the Curve (AUC) metric to generalize well on unseen test data. The provided files include Train.csv with 1763 rows and 1559 columns and Test.csv with 756 rows and 1558 columns, along with a sample submission file.",
+  "Task": "Classification; Quality prediction",
+  "Annotation": "Sample label",
+  "Source Type": "Real production",
+  "Access": "Kaggle",
+  "Size": "1,763 training rows and 756 test rows",
+  "Description": "This dataset comes from a hackathon built on a use case from an Indian manufacturer of semiconductor wafers. Each row describes a product through attributes collected from the manufacturing machine, and the feature names are anonymised. Anomalous products are rare, so the two classes are strongly imbalanced.\n\nThe training file has 1,763 rows and 1,559 columns: Feature_1 to Feature_1558 plus a Class column with 0 for good and 1 for anomalous products. The test file has 756 rows with the 1,558 features only, and a sample submission file shows the expected output format.\n\nThe hackathon asks for a machine learning or deep learning model that classifies the anomalous products and generalises to the unseen test data, scored by the area under the curve (AUC). The high number of anonymised features is part of the challenge.",
   "References": [
     {
-      "Text": "Detecting Anomalies in Wafer Manufacturing - Kaggle",
+      "Text": "Kaggle dataset",
       "Link": "https://www.kaggle.com/datasets/arbazkhan971/anomaly-detection"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/detecting-anomalies-in-wafer-manufacturing/"
     }
   ]
 }

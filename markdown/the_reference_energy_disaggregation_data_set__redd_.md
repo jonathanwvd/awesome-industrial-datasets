@@ -1,31 +1,32 @@
-# The Reference Energy Disaggregation Data Set (REDD)
+# Reference Energy Disaggregation Data Set (REDD)
 
-**Summary:** The REDD data set provides high frequency (kHz) and low frequency (Hz) power measurements from residential buildings for energy disaggregation research.
+**Summary:** Whole-home 15 kHz current and voltage plus circuit- and plug-level power from homes near Boston, released by two MIT researchers for energy disaggregation research.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | The Reference Energy Disaggregation Data Set (REDD) |
-| **Domain** | Energy & Power; Buildings & Appliances |
-| **Asset / Process** | Buildings / Appliances |
-| **Modality** | Time Series |
-| **Task** | Energy Optimization |
-| **Annotation** | Sample Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Unavailable / Broken |
-| **Size** | Information not available |
+| **Domain** | Buildings and appliances |
+| **Asset / Process** | HVAC and building systems |
+| **Modality** | Time series |
+| **Task** | Regression |
+| **Annotation** | Scalar target |
+| **Source Type** | Real production |
+| **Access** | — |
+| **Size** | 119 days of data from 10 homes |
 | **Year** | 2011 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
-The REDD data set is presented in high frequency (kHz) and low frequency (Hz) groups. High frequency data include current and voltage measurements, while low frequency data cover Power measurement of individual circuits within the houses. The low frequency folder contains six folders, one for each house. Each sub-folder contains a number of channels for different circuits in the house. Labels of each channel which include appliance names are given in a label.dat file in each sub-folder.
+REDD is a freely available data set of detailed power usage from real homes, presented by J. Zico Kolter and Matthew J. Johnson of the Massachusetts Institute of Technology. It serves research on energy disaggregation, also called non-intrusive load monitoring (NILM): inferring the individual appliance loads from an aggregate electricity signal.
 
-The dataset consists of multivariate time series data collected from six residential buildings located in Massachusetts, US. The measurements capture whole home and circuit level power consumption and cover weeks to months duration with sample frequencies ranging from a few Hz to kHz.
+Each house contributes the whole-home signal, with current on both phases and voltage on one phase at 15 kHz, up to 24 circuits labelled with their appliance category at 0.5 Hz, and up to 20 plug-level monitors at 1 Hz. As of June 2011 it covered 10 homes in the greater Boston area, 119 days of data, 268 monitors and more than 1 terabyte of raw data, with UTC timestamps.
 
-The file and directory structure includes a readme.txt file with general information, low frequency power readings (~1Hz) for whole home and circuits, aligned group current/voltage waveforms, and raw current/voltage waveforms for high frequency data groups.
+The paper reports initial results with a Factorial Hidden Markov Model on two weeks of whole-home and circuit data from five houses, scored by the share of total energy correctly assigned: 64.5% when the models come from the same house and 47.7% on a house held out from training.
 
 ## References
 
-- [REDD paper (SustKDD 2011)](https://zicokolter.com/publications/kolter2011redd.pdf)
+- [Official page](https://zicokolter.com/publications/kolter2011redd.pdf)
+- [redd.csail.mit.edu](http://redd.csail.mit.edu/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/the-reference-energy-disaggregation-data-set-redd/)
 
 [⬅️ Back to Index](../README.md)

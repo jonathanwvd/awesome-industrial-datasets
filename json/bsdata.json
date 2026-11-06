@@ -1,25 +1,23 @@
 {
   "Name": "BSData",
-  "Summary": "KIT ball screw surface defect dataset with 1,104 segmentation images and 21,853 classification patches focusing on pitting defects; supports defect detection, instance segmentation, and prognostics research under CC BY-SA 4.0.",
-  "Domain": "Materials & Metrology; Manufacturing & Production",
-  "Asset / Process": "Surface Defects",
+  "Summary": "1,104 images of ball screw drive surfaces with labelme pitting annotations, including 27 wear development sequences and a script for three data splits.",
+  "Domain": "Manufacturing",
   "Modality": "Image",
-  "Task": "Defect Detection; Defect Segmentation; Classification",
-  "Annotation": "Sample Label; Class Label; Instance Mask",
-  "Source Type": "Real Lab / Testbed",
-  "Access": "Repository",
-  "Size": "1,104 images with instance segmentation annotations; 21,853 image patches for classification",
+  "Task": "Defect detection; Defect segmentation; Condition monitoring",
+  "Annotation": "Instance mask; Sample label",
+  "Access": "Code repository",
+  "Size": "1,104 images, 394 image annotations",
   "Year": "2021",
   "License": "CC BY-SA",
-  "Description": "BSData (Ball Screw Dataset) was created at the Karlsruhe Institute of Technology (KIT) for research in surface defect detection, instance segmentation, and prognostics of ball screw drives. Ball screws are precision mechanical components widely used in industrial machinery; pitting defects on their surface are a primary failure mode.\n\nThe dataset contains 1,104 images with instance-level segmentation annotations marking individual pitting defects, and 21,853 smaller image patches extracted for classification tasks (defective vs. non-defective). Images were captured under controlled lighting from actual ball screw components with varying degrees of wear and pitting.\n\nThe dataset supports three main research tasks: (1) defect classification of image patches, (2) instance segmentation of defect regions in full images, and (3) prognostics to predict remaining useful life based on observed defect patterns. Published under the CC BY-SA 4.0 license, the dataset is hosted on GitHub and is one of the few publicly available datasets specifically for ball screw health monitoring.",
+  "Description": "BSData is an image dataset of surface defects on ball screw drives, a machine tool element, intended for instance segmentation and industrial wear forecasting. It is described in the publication \"Industrial Machine Tool Element Surface Defect Dataset\" and distributed through a GitHub repository.\n\nThe dataset holds 1,104 three-channel JPEG images and 394 image annotations of the surface damage type pitting, drawn with labelme and stored as JSON, convertible to VOC and COCO. The images show two ball screw drive types: one in 69 images with 55 image sizes, clean or soiled, and one in 325 images with two sizes, recorded over time with evolving soiling. A label key marks whether an image contains pitting, and file names carry a timestamp.\n\nA script creates three splits: an 80/20 train and test split used for the included baseline model, the 27 wear development sequences, and a split by drive type. The data is released under CC BY-SA 4.0.",
   "References": [
     {
-      "Text": "BSData GitHub Repository",
+      "Text": "GitHub repository",
       "Link": "https://github.com/2Obe/BSData"
     },
     {
-      "Text": "BSData paper (Data in Brief)",
-      "Link": "https://doi.org/10.1016/j.dib.2021.107643"
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/bsdata/"
     }
   ]
 }

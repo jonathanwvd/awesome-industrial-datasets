@@ -1,32 +1,32 @@
 # Concrete Crack Images for Classification
 
-**Summary:** The dataset contains concrete images having cracks, divided into negative and positive crack images for image classification.
+**Summary:** 40,000 RGB patches of concrete surfaces from METU campus buildings, split evenly into crack and no-crack classes for image classification.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Concrete Crack Images for Classification |
-| **Domain** | Transportation & Mobility; Infrastructure & Civil; Materials & Metrology |
-| **Asset / Process** | Infrastructure Cracks |
+| **Domain** | Infrastructure and civil |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Defect Detection; Classification; Condition Monitoring |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
+| **Task** | Classification |
+| **Annotation** | Sample label |
+| **Source Type** | — |
 | **Access** | Mendeley Data |
-| **Size** | 40000 |
-| **Year** | 2018 |
-| **License** | Information not available |
+| **Size** | 40,000 images |
+| **Year** | — |
+| **License** | — |
+| **Publisher** | Orta Dogu Teknik Universitesi |
 
 ## Description
 
-The dataset contains concrete images having cracks. The data is collected from various METU Campus Buildings.
+Concrete Crack Images for Classification is published on Mendeley Data under Orta Dogu Teknik Universitesi. Its source photographs were taken of concrete in various buildings on the METU campus, and they vary in surface finish and illumination.
 
-The dataset is divided into two classes: negative and positive crack images for image classification. Each class has 20000 images with a total of 40000 images of size 227 x 227 pixels with RGB channels. The dataset is generated from 458 high-resolution images (4032x3024 pixel) with the method proposed by Zhang et al (2016). High-resolution images have variance in terms of surface finish and illumination conditions. No data augmentation in terms of random rotation or flipping is applied.
+The images are divided into two classes, negative (no crack) and positive (crack), with 20,000 images each and 40,000 in total. Every image is 227 x 227 pixels with RGB channels. They were generated from 458 high-resolution photographs of 4032x3024 pixels.
 
-Lei Zhang, Fan Yang, Yimin Daniel Zhang, and Y. J. Z., Zhang, L., Yang, F., Zhang, Y. D., & Zhu, Y. J. (2016). Road Crack Detection Using Deep Convolutional Neural Network. In 2016 IEEE International Conference on Image Processing (ICIP). http://doi.org/10.1109/ICIP.2016.7533052
+The generation follows the method of Zhang et al. in "Road Crack Detection Using Deep Convolutional Neural Network" (ICIP 2016). No data augmentation such as random rotation or flipping is applied.
 
 ## References
 
-- [Mendeley Data Citation](https://data.mendeley.com/datasets/5y9wdsg2zt/1)
-- [Zhang et al (2016) - Road Crack Detection Using Deep Convolutional Neural Network](http://doi.org/10.1109/ICIP.2016.7533052)
+- [Mendeley Data](https://data.mendeley.com/datasets/5y9wdsg2zt/1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/concrete-crack-images-for-classification/)
 
 [⬅️ Back to Index](../README.md)

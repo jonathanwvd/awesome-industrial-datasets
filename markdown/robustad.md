@@ -1,32 +1,33 @@
 # RobustAD
 
-**Summary:** RobustAD is a real-world industrial anomaly detection benchmark designed to evaluate robustness under practical domain shifts.
+**Summary:** Amazon Science image set for testing how anomaly detectors hold up under distribution shift, with PCB, metal part and piled packet subsets.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | RobustAD |
-| **Domain** | Logistics & Retail; Electronics & Semiconductor; Manufacturing & Production |
-| **Asset / Process** | Casting / Metal Parts; PCB / Electronics; Retail / Logistics Items |
+| **Domain** | Cross-industrial |
+| **Asset / Process** | PCBs and electronic assemblies; Castings and metal parts |
 | **Modality** | Image |
-| **Task** | Anomaly Detection; Defect Detection; Benchmark Suite |
-| **Annotation** | Sample Label; Fault Type Label |
-| **Source Type** | Real Production / Field |
+| **Task** | Anomaly localization; Classification |
+| **Annotation** | Sample label; Pixel mask |
+| **Source Type** | — |
 | **Access** | Hugging Face |
-| **Size** | 4442 images across 3 industrial use cases |
-| **Year** | 2025 |
-| **License** | Information not available |
+| **Size** | 3 sub-datasets |
+| **Year** | — |
+| **License** | CC BY |
+| **Publisher** | Amazon Science |
+| **Benchmark** | Yes |
 
 ## Description
 
-RobustAD focuses on robustness in industrial anomaly detection. The dataset covers real-world inspection scenarios where models must handle changes in acquisition conditions, product appearance, and defect presentation.
+RobustAD is an image dataset from Amazon Science for evaluating the robustness of anomaly detection models in real-world scenarios. Its defect detection images come with controlled distribution shifts along several dimensions, and they cover inspection tasks from more than one industry.
 
-The dataset contains 4,442 images across three industrial use cases, including printed circuit boards, metallic parts, and packaging-related inspection. It is designed for evaluating anomaly detection methods under robustness and domain-shift conditions rather than only in-distribution benchmark settings.
+There are 3 sub-datasets, one per object of interest. Each has source domain data for training and several target domains with different shifts for testing. The PCB subset shows scratches, soldering melts and missing parts on printed circuit boards. The metal parts subset shows chipping, dents and porosity on reflective automotive parts, and the pile of packets subset is a count-based task from pharmaceutical packaging machines.
 
-RobustAD is distributed through Hugging Face by Amazon Science and was presented in a CVPR 2025 workshop paper.
+In the metal parts subset, normal samples have label 0 and no mask, while anomalous samples have label 1 and a mask; the PCB subset loads a mask column as well. The PCB and metal parts subsets are defined for localization and classification, and piled packets for classification only. The dataset is released under CC BY 4.0.
 
 ## References
 
 - [Hugging Face dataset](https://huggingface.co/datasets/AmazonScience/RobustAD)
-- [CVPR Workshop paper](https://openaccess.thecvf.com/content/CVPR2025W/VAND/html/Pemula_Robust_AD_A_Real_World_Benchmark_Dataset_For_Robustness_in_CVPRW_2025_paper.html)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/robustad/)
 
 [⬅️ Back to Index](../README.md)

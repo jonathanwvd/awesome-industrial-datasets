@@ -1,31 +1,31 @@
-# Pump sensor data
+# Pump Sensor Data
 
-**Summary:** Pump sensor data for predictive maintenance, aiming to predict next failure before it happens based on sensor readings.
+**Summary:** Raw readings from 52 sensors on a water pump system serving a remote area, shared to help predict failures after seven breakdowns in one year.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Pump sensor data |
-| **Domain** | Water & Utilities; Manufacturing & Production |
-| **Asset / Process** | Pumps |
-| **Modality** | Time Series |
-| **Task** | Classification; Predictive Maintenance |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | Information not available |
-| **Year** | 2019 |
-| **License** | Information not available |
+| **Domain** | Water and utilities |
+| **Asset / Process** | Pumps, compressors and fans |
+| **Modality** | Time series |
+| **Task** | RUL and prognostics |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | Kaggle |
+| **Size** | 52 sensors |
+| **Year** | — |
+| **License** | — |
 
 ## Description
 
-This dataset originates from a small team monitoring water pumps in a remote area. They experienced 7 system failures in the last year, which caused serious problems to local people and some families. They were unable to detect any pattern leading to these failures from the data alone.
+Pump Sensor Data is a set of operating measurements from a water pump system that supplies a small area far from a large town. The system is looked after by a small team and went down seven times in the year before the data was shared. The Kaggle uploader, nphantawee, obtained the readings from a friend on that team and posted them on the team's behalf.
 
-The dataset contains raw values from all available 52 sensors monitoring the pumps, along with timestamp data and machine status as the target label. The goal is to use this sensor data to predict pump failures to allow proactive maintenance and avoid negative impacts on the community.
+All of the data sits in one file, sensor.csv. It holds the readings of every sensor available on the system, 52 in total, kept as raw values without processing or engineered features.
 
-The data contains multivariate time series sensor readings collected over time to support predictive maintenance, and it is intended for classification tasks to identify possible failures.
+The failures caused serious problems for many people and for the living conditions of some families, yet the team found no pattern in the readings around the times the system stopped and could not tell where to focus. The stated goal is to predict the next failure before it occurs.
 
 ## References
 
-- [Kaggle Dataset - Pump sensor data](https://www.kaggle.com/nphantawee/pump-sensor-data)
+- [Kaggle dataset](https://www.kaggle.com/nphantawee/pump-sensor-data)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/pump-sensor-data/)
 
 [⬅️ Back to Index](../README.md)

@@ -4,17 +4,16 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Job Shop Scheduling Benchmark Instances |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Information not available |
-| **Modality** | Information not available |
-| **Task** | Information not available |
-| **Annotation** | Information not available |
-| **Source Type** | Information not available |
-| **Access** | Direct Download |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Problem instances |
+| **Task** | Scheduling and optimization |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Direct download |
 | **Size** | 82 test instances and generator code |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Year** | — |
+| **License** | — |
 
 ## Description
 
@@ -27,5 +26,6 @@ Every flow shop instance in OR-Library can also be used as a job shop test insta
 ## References
 
 - [Official page](https://people.brunel.ac.uk/~mastjjb/jeb/orlib/jobshopinfo.html)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/job-shop-scheduling-benchmark-instances/)
 
 [⬅️ Back to Index](../README.md)

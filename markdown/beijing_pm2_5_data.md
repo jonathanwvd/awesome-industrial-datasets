@@ -1,33 +1,33 @@
 # Beijing PM2.5 Data
 
-**Summary:** This hourly data set contains the PM2.5 data of US Embassy in Beijing and meteorological data from Beijing Capital International Airport.
+**Summary:** Hourly PM2.5 readings from the US Embassy in Beijing joined with airport weather data, covering 2010 to 2014.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Beijing PM2.5 Data |
-| **Domain** | Environment & Safety |
-| **Asset / Process** | Other / Cross-Domain |
-| **Modality** | Time Series |
-| **Task** | Regression; Benchmark Suite |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 43824 |
+| **Domain** | Environment and safety |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Regression |
+| **Annotation** | Scalar target |
+| **Source Type** | Public records |
+| **Access** | UCI repository |
+| **Size** | 43,824 hourly records |
 | **Year** | 2017 |
-| **License** | Information not available |
+| **License** | CC BY |
+| **Publisher** | Song Chen |
 
 ## Description
 
-The Beijing PM2.5 Data set contains hourly data from January 1st, 2010 to December 31st, 2014. It includes PM2.5 pollution measurements from the US Embassy in Beijing along with meteorological data such as Dew Point, Temperature, Pressure, wind direction, cumulated wind speed, snow, and rain hours from Beijing Capital International Airport.
+The Beijing PM2.5 Data set pairs hourly fine-particulate (PM2.5) concentrations measured at the US Embassy in Beijing with meteorological observations from Beijing Capital International Airport. It was created by Song Chen and donated to the UCI Machine Learning Repository in 2017.
 
-Missing values are denoted as "NA" in the dataset. The dataset captures climate and environmental observations useful for applications in regression tasks related to pollution prediction.
+The 43,824 hourly records run from 1 January 2010 to 31 December 2014. Besides the year, month, day and hour, each record holds dew point, temperature, pressure, combined wind direction, cumulated wind speed and cumulated hours of snow and rain. PM2.5 is the target, and its missing values are marked NA. The data ships as one 1.9 MB CSV file.
 
-The features include temporal variables (year, month, day, hour), PM2.5 as the target variable, and meteorological features DEWP (Dew Point), TEMP (Temperature), PRES (Pressure), cbwd (Combined wind direction), Iws (Cumulated wind speed), Is (Cumulated hours of snow), and Ir (Cumulated hours of rain).
+The dataset is used for regression of PM2.5 from the weather and time variables. Its introductory paper, "Assessing Beijing's PM2.5 pollution: severity, weather impact, APEC and winter heating", appeared in the Proceedings of the Royal Society A in 2015. It is released under CC BY 4.0.
 
 ## References
 
-- [Assessing Beijing's PM2.5 pollution: severity, weather impact, APEC and winter heating](https://www.semanticscholar.org/paper/8a82cccc111cbe3e7ff7bc16a3345afe8351a425)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data)
-- [DOI: 10.24432/C5JS49](https://doi.org/10.24432/C5JS49)
+- [DOI](https://doi.org/10.24432/C5JS49)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/beijing-pm2-5-data/)
 
 [⬅️ Back to Index](../README.md)

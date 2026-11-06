@@ -4,17 +4,16 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | REASSEMBLE |
-| **Domain** | Robotics & Automation |
-| **Asset / Process** | Robotic Manipulation |
-| **Modality** | Multimodal; Video; Time Series |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | Robots and manipulators |
+| **Modality** | Multimodal; Video; Time series |
 | **Task** | Classification |
-| **Annotation** | Text / QA Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
+| **Annotation** | Text and QA label |
+| **Source Type** | Lab or testbed |
+| **Access** | Official portal |
 | **Size** | 4,551 demonstrations |
 | **Year** | 2025 |
-| **License** | Information not available |
+| **License** | — |
 
 ## Description
 
@@ -29,5 +28,6 @@ Action segments are labelled at two hierarchical levels, each with start and end
 - [DOI](https://doi.org/10.48436/0ewrv-8cb44)
 - [tuwien-asl.github.io](https://tuwien-asl.github.io/REASSEMBLE_page/)
 - [GitHub repository](https://github.com/TUWIEN-ASL/REASSEMBLE)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/reassemble/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,0 +1,21 @@
+{
+  "Name": "SimPROCESD",
+  "Summary": "NIST discrete-event simulation package in Python for asynchronous production lines with finite buffers, including machine degradation and maintenance.",
+  "Domain": "Manufacturing",
+  "Modality": "Simulator",
+  "Task": "Simulation and control",
+  "Source Type": "Simulation",
+  "Access": "Code repository",
+  "Publisher": "NIST",
+  "Description": "SimPROCESD (Simulated-Production Resource for Operations & Conditions Evaluations to Support Decision-making) is a discrete-event simulation package written in Python by NIST. It models the behaviour of discrete manufacturing systems, mainly asynchronous production lines with finite buffers, together with the degradation and maintenance of their machines.\n\nBesides modelling existing systems, the package is meant for optimizing them by simulating changes and reviewing the results, for example to compare alternative maintenance policies. Its main elements cover production planning, maintenance policy evaluation and evaluation of condition monitoring systems. Part quality, equipment health, resource use and other indicators can be tracked with any metric or KPI, and examples show net production profit and part quality.\n\nThe package is distributed through a public GitHub repository and PyPI, with a user guide and API documentation. It is in early development, and updates may not be backwards compatible.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.nist.gov/services-resources/software/simprocesd"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/simprocesd/"
+    }
+  ]
+}

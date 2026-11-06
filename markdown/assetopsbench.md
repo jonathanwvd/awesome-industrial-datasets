@@ -1,32 +1,33 @@
 # AssetOpsBench
 
-**Summary:** AssetOpsBench is a benchmark suite for evaluating AI agents on task automation in industrial asset operations and maintenance. It provides domain-specific scenarios and multi-agent orchestration frameworks.
+**Summary:** Benchmark and framework from IBM for evaluating AI agents on industrial asset operations and maintenance scenarios across nine asset classes.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | AssetOpsBench |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Other / Cross-Domain |
-| **Modality** | Time Series |
-| **Task** | Forecasting; Anomaly Detection; Recommendation / Decision Support; Benchmark Suite |
-| **Annotation** | Text / QA Label; Split Metadata |
+| **Domain** | Cross-industrial |
+| **Asset / Process** | — |
+| **Modality** | Text and documents; Time series |
+| **Task** | Question answering |
+| **Annotation** | — |
 | **Source Type** | Simulation |
-| **Access** | Repository; Hugging Face |
-| **Size** | 140+ Scenarios |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Access** | Code repository |
+| **Size** | — |
+| **Year** | 2025 |
+| **License** | — |
+| **Publisher** | IBM Research |
+| **Benchmark** | Yes |
 
 ## Description
 
-AssetOpsBench provides a collection of over 140 scenarios covering IoT data retrieval, failure mode and sensor relation discovery, time series anomaly detection, and work order generation. Each scenario reflects common tasks faced by maintenance engineers and reliability specialists, enabling end-to-end evaluation of AI-driven workflows.
+AssetOpsBench, maintained by IBM on GitHub, is a unified framework in which AI agents specific to a domain are built, orchestrated and evaluated, aimed at Industry 4.0 asset operations and maintenance. Its paper, "AssetOpsBench: A Benchmark for Industrial Asset Operations Agents" by D. Patel, S. Lin and colleagues, was accepted at KDD 2026 in the Datasets and Benchmarks Track.
 
-The framework includes four domain-specific agents (IoT, FMSR, TSFM, WO) with dedicated tools and two orchestration frameworks (MetaAgent and AgentHive) to coordinate complex multi-step workflows. AssetOpsBench is delivered in a simulated industrial environment, facilitating reproducible benchmarking of agent performance across diverse tasks.
+The scenarios cover nine asset classes; the first release, in June 2025, held 141 industrial scenarios, which are also published as a Hugging Face dataset. Agents run multi-step workflows in simulated industrial environments over sensor data, failure modes, alerts and work orders, through five domain MCP servers: IoT, FMSR, TSFM, WO and Vibration. Example tasks include listing the assets of a site and generating a work order for a chiller anomaly.
+
+Agent trajectories are scored by an LLM judge (Llama-4-Maverick-17B) on six criteria for reasoning, execution and data handling. The benchmark also ran the AssetOpsBench-Live competition at CODS 2025, which drew 365 participants and more than 500 agent submissions.
 
 ## References
 
-- [Paper](https://arxiv.org/pdf/2506.03828)
-- [Huggingface](https://huggingface.co/papers/2506.03828)
-- [Blog](https://research.ibm.com/blog/asset-ops-benchmark)
-- [GitHub Repository](https://github.com/IBM/AssetOpsBench)
+- [GitHub repository](https://github.com/IBM/AssetOpsBench)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/assetopsbench/)
 
 [⬅️ Back to Index](../README.md)

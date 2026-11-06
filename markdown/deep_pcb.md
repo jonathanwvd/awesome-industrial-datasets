@@ -1,31 +1,33 @@
-# Deep PCB
+# DeepPCB
 
-**Summary:** The Deep PCB dataset is for surface defect detection on printed circuit boards (PCBs) consisting of labeled images highlighted for surface defects.
+**Summary:** 1,500 aligned pairs of defect-free template and tested PCB images, with bounding boxes for six defect types and 1,000 images set aside for training.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Deep PCB |
-| **Domain** | Electronics & Semiconductor; Manufacturing & Production |
-| **Asset / Process** | PCB / Electronics |
+| **Domain** | Electronics and semiconductors |
+| **Asset / Process** | PCBs and electronic assemblies |
 | **Modality** | Image |
-| **Task** | Defect Detection; Anomaly Localization; Classification |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Repository |
-| **Size** | Information not available |
-| **Year** | Information not available |
-| **License** | Information not available |
+| **Task** | Defect detection; Object detection |
+| **Annotation** | Bounding box |
+| **Source Type** | Mixed |
+| **Access** | Code repository |
+| **Size** | 1,500 image pairs |
+| **Year** | 2018 |
+| **License** | Academic or non-commercial terms |
+| **Benchmark** | Yes |
 
 ## Description
 
-The Deep PCB dataset is intended for research and development in surface defect detection for printed circuit boards (PCBs). It contains images of PCBs where defects on the surface are labeled for use in machine learning tasks, particularly classification.
+DeepPCB is a printed circuit board defect dataset introduced with the paper "On-line PCB Defect Detector On A New PCB Defect Dataset". Its images come from a linear scan CCD at about 48 pixels per millimetre; the original images of around 16k by 16k pixels are cropped into 640 by 640 sub-images, aligned by template matching and binarized.
 
-The dataset supports the development and evaluation of algorithms that can detect and classify surface defects in industrial PCB manufacturing processes, contributing to quality control and automation in electronics production. The dataset and related code are available on GitHub under the Surface-Defect-Detection repository.
+The 1,500 image pairs each combine a defect-free template with an aligned tested image. Because real tested images hold few defects, artificial defects were added by hand, giving around 3 to 12 defects per image. Each defect has an axis-aligned bounding box and one of six classes: open, short, mousebite, spur, pin hole and spurious copper.
 
-Users can leverage this dataset to build and benchmark machine learning models for defect detection, benefiting from the labeled real-world data of PCB surfaces provided in the repository.
+The authors separate 1,000 images as the training set and keep the rest for testing. Evaluation uses mean average precision and F-score, counting a detection when its IoU with a ground truth box of the same class exceeds 0.33. The authors allow use of the dataset for research purposes only.
 
 ## References
 
-- [GitHub Repository - DeepPCB](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)
+- [GitHub repository](https://github.com/tangsanli5201/DeepPCB)
+- [GitHub repository](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/deep-pcb/)
 
 [⬅️ Back to Index](../README.md)

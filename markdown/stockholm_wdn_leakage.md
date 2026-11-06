@@ -4,14 +4,13 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Multi-Sensor Time-Series Dataset for Leakage Detection in Stockholm's Water Distribution Network |
-| **Domain** | Water & Utilities |
-| **Asset / Process** | Water Treatment / Distribution |
-| **Modality** | Time Series |
+| **Domain** | Water and utilities |
+| **Asset / Process** | Water treatment and distribution |
+| **Modality** | Time series |
 | **Task** | Classification |
-| **Annotation** | Information not available |
-| **Source Type** | Real Production / Field |
-| **Access** | Zenodo / Dataverse |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | One file (SVOA.mat), 29,822,041 bytes |
 | **Year** | 2026 |
 | **License** | CC BY |
@@ -29,5 +28,6 @@ The dataset is intended for research on leakage and anomaly detection, time-seri
 - [DOI](https://doi.org/10.5281/zenodo.18500418)
 - [Zenodo record](https://zenodo.org/records/18500418)
 - [DOI](https://doi.org/10.2166/ws.2023.054)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/stockholm-wdn-leakage/)
 
 [⬅️ Back to Index](../README.md)

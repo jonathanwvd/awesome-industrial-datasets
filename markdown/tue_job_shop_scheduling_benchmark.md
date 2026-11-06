@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Job Shop Scheduling Benchmark: Environments and Instances for Learning and Non-learning Methods |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | Information not available |
-| **Modality** | Information not available |
-| **Task** | Simulation / Control |
-| **Annotation** | Information not available |
-| **Source Type** | Information not available |
-| **Access** | Repository |
-| **Size** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Problem instances; Simulator |
+| **Task** | Scheduling and optimization; Simulation and control |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Code repository |
+| **Size** | — |
 | **Year** | 2026 |
-| **License** | Information not available |
+| **License** | — |
+| **Publisher** | AI for Decision Making, TU/e |
 
 ## Description
 
@@ -27,5 +27,6 @@ Plotting functions draw precedence relations and Gantt charts. The work is descr
 ## References
 
 - [GitHub repository](https://github.com/ai-for-decision-making-tue/Job_Shop_Scheduling_Benchmark_Environments_and_Instances)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/tue-job-shop-scheduling-benchmark/)
 
 [⬅️ Back to Index](../README.md)

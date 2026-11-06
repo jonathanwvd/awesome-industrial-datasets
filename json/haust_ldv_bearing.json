@@ -1,0 +1,23 @@
+{
+  "Name": "HAUST-LDV-bearing-dataset",
+  "Summary": "Rolling bearing vibration signals measured without contact by laser Doppler vibrometry for healthy and pitted 6206 bearings under two load conditions.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Bearings",
+  "Modality": "Vibration",
+  "Task": "Fault diagnosis; Classification",
+  "Annotation": "Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Mendeley Data",
+  "Publisher": "Henan University of Science and Technology",
+  "Description": "The HAUST-LDV-bearing-dataset, from Henan University of Science and Technology, holds vibration signals of 6206 deep groove ball bearings with several fault types. It was recorded on a precision vibration measurement platform made by SKF Österreich AG, with an AC motor, a spindle system, a pneumatic loading system and a Polytec MSL-7100 laser Doppler vibrometer that measures the radial vibration of the bearing outer ring without contact.\n\nTwo load conditions are covered: 100 N axial with no radial load, and 100 N axial with 50 N radial. For each, the set has a healthy bearing, inner and outer race pitting of 0.2, 0.3 and 0.5 mm, and roller pitting of 0.5, 0.8 and 1.0 mm, giving twenty bearing statuses. Every signal lasts 34 s at a constant 1800 rpm and is sampled at 48 kHz.\n\nAfter calibration, the measurement error of the whole system is ±0.5 μm/s at 570 Hz, and the measured speed at a nominal 1800 rpm is 1804 rpm, a speed error of 0.22%.",
+  "References": [
+    {
+      "Text": "Mendeley Data",
+      "Link": "https://data.mendeley.com/datasets/3d5kcz83ny/1"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/haust-ldv-bearing/"
+    }
+  ]
+}

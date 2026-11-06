@@ -1,32 +1,34 @@
-# Open Industrial Data Project (Oil & Gas)
+# Open Industrial Data
 
-**Summary:** The Open Industrial Data Project provides a live stream of real industrial data originating from a compressor on Aker BP’s Valhall oil platform, supporting industrial innovation and machine learning research.
+**Summary:** Live time series, maintenance history and P&IDs from the first stage compressor on Aker BP's Valhall platform, shared through Cognite Data Fusion.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Open Industrial Data Project (Oil & Gas) |
-| **Domain** | Oil & Gas |
-| **Asset / Process** | Oil Wells / Reservoirs |
-| **Modality** | Time Series |
-| **Task** | Process Monitoring; Condition Monitoring; Predictive Maintenance |
-| **Annotation** | Unlabeled; Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | Official Portal |
-| **Size** | Information not available |
-| **Year** | 2022 |
-| **License** | Information not available |
+| **Domain** | Oil and gas |
+| **Asset / Process** | Pumps, compressors and fans |
+| **Modality** | Time series |
+| **Task** | Condition monitoring |
+| **Annotation** | — |
+| **Source Type** | Real production |
+| **Access** | Registration required |
+| **Size** | — |
+| **Year** | — |
+| **License** | — |
+| **Publisher** | Cognite |
 
 ## Description
 
-The Open Industrial Data Project is a collaboration between Aker BP, a major independent oil company in Europe, and Cognite. The dataset includes time series data, maintenance history, and process instrumentation diagrams from a single subsystem: the first stage compressor and associated equipment on the Valhall oil platform in the North Sea.
+Open Industrial Data (OID) comes from a collaboration between the oil company Aker BP and Cognite and shares live data from a single compressor on Aker BP's Valhall platform in the North Sea. Aker BP chose the first stage compressor because it is a subsystem with clear boundaries and plenty of time series and maintenance records, and it organizes the stream in Cognite Data Fusion.
 
-This dataset is continuously available and free of charge, designed to promote openness and collaboration in industrial data usage. It aims to accelerate innovation in data-heavy areas such as predictive maintenance, condition monitoring, and advanced visualization techniques.
+The data covers time series, maintenance history and Process & Instrumentation Diagrams (P&IDs) for the first stage compressor and the equipment around it: the first stage suction cooler, suction scrubber and discharge coolers. It is continuously available at no charge, and access follows a sign-up to Cognite Hub.
 
-The dataset is especially relevant to the oil and gas industry but is expected to inspire innovation across various industrial sectors by providing real-world industrial data for machine learning applications. Users can access the data through the Cognite Data Fusion platform, with detailed discussions and community resources available on Cognite's Open Industrial Data forum.
+Cognite Academy uses OID as hands-on training data in its Cognite Data Fusion courses. Aker BP and Cognite name predictive maintenance, condition monitoring and advanced visualization among the fields they hope the shared stream will advance.
 
 ## References
 
-- [Cognite Hub - Open Industrial Data](https://hub.cognite.com/open-industrial-data-211)
-- [Aker BP Website](https://www.akerbp.com/en/)
+- [Official page](https://hub.cognite.com/open-industrial-data-211)
+- [hub.cognite.com](https://hub.cognite.com/open-industrial-data-211/what-is-open-industrial-data-994)
+- [hub.cognite.com](https://hub.cognite.com/open-industrial-data-211/who-can-use-open-industrial-data-992)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/open-industrial-data-project-oil-gas/)
 
 [⬅️ Back to Index](../README.md)

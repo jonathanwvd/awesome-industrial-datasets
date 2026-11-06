@@ -1,33 +1,32 @@
 # Versatile Production System
 
-**Summary:** Data for condition monitoring and predictive maintenance of the Versatile Production System (VPS), part of the SmartFactory OWL. Includes measurements from various modules such as delivery, storage, dosing, filling, and production of popcorn.
+**Summary:** Module-level process data from the Versatile Production System, a popcorn packaging and production line in the SmartFactory OWL, in nine CSV files.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Versatile Production System |
-| **Domain** | Manufacturing & Production |
-| **Asset / Process** | General Manufacturing |
-| **Modality** | Time Series |
-| **Task** | Anomaly Detection; Predictive Maintenance; Condition Monitoring |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Production / Field |
-| **Access** | Kaggle; Login Required |
-| **Size** | Information not available |
-| **Year** | 2018 |
-| **License** | Information not available |
+| **Domain** | Manufacturing |
+| **Asset / Process** | — |
+| **Modality** | Time series |
+| **Task** | Anomaly detection; Condition monitoring |
+| **Annotation** | — |
+| **Source Type** | Lab or testbed |
+| **Access** | Kaggle |
+| **Size** | 9 CSV files |
+| **Year** | — |
+| **License** | CC BY-NC-SA |
+| **Publisher** | inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences |
 
 ## Description
 
-The Versatile Production System (VPS) dataset contains sensor and control data from an industrial production plant designed to produce popcorn. The VPS is part of the SmartFactory OWL research initiative and has been used in various projects including IMPROVE.
+The Versatile Production System (VPS) dataset contains data taken from the VPS, a plant in the SmartFactory OWL. It is published by inIT - Institute Industrial IT at Ostwestfalen-Lippe University of Applied Sciences. The plant served earlier research projects such as IMPROVE, funded by the EU Horizon 2020 programme, and is used for model learning, anomaly detection and alarm management.
 
-The production system comprises several modules: delivery (transporting corn material via conveyor belts and pressure conveyors to storage), storage (a container where corn is pneumatically transferred to the dosing module), dosing (pre-defining corn amounts transported pneumatically using load cells and dosing screws), filling (filling corn into bottles with cleaning, portioning, lid placing and screwing, and quality control via a camera), and production (popcorn is produced by heated air expansion in a glass cylinder, with weight-based routing of outputs).
+The plant packages corn and makes popcorn in a chain of modules: delivery by conveyor belt and pressure conveyor, pneumatic storage, dosing with a load cell and dosing screw, filling of bottles on a rotary table with camera quality control, and a production module that pops the corn with heated air. Each module has its own CSV file, and the filling module also has separate files for its stations.
 
-The dataset captures real operational data reflecting different sensors and binary status signals (e.g., silo fullness, aspirator on/off), which may be used for various machine learning tasks such as anomaly detection, alarm management, and predictive maintenance.
+The data is offered for condition monitoring, predictive maintenance and machine learning, under CC BY-NC-SA 4.0.
 
 ## References
 
-- [Versatile Production System Dataset on Kaggle](https://www.kaggle.com/datasets/inIT-OWL/versatileproductionsystem)
-- [SmartFactory OWL](https://smartfactory-owl.de/index.php/en/)
-- [Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/versatileproductionsystem)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/versatile-production-system/)
 
 [⬅️ Back to Index](../README.md)

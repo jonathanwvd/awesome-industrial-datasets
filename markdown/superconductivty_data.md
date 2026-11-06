@@ -1,33 +1,33 @@
 # Superconductivty Data
 
-**Summary:** Two files contain data on 21263 superconductors and their relevant features. The goal is to predict the critical temperature based on the features extracted.
+**Summary:** Tabular data on 21,263 superconductors with 81 derived features each, built to predict the critical temperature of a material.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Superconductivty Data |
-| **Domain** | Materials & Metrology |
-| **Asset / Process** | Materials / Chemistry |
+| **Domain** | Materials and metrology |
+| **Asset / Process** | — |
 | **Modality** | Tabular |
-| **Task** | Regression; Benchmark Suite |
-| **Annotation** | Scalar Target |
-| **Source Type** | Real Production / Field |
-| **Access** | UCI |
-| **Size** | 21263 |
+| **Task** | Regression |
+| **Annotation** | Scalar target |
+| **Source Type** | — |
+| **Access** | UCI repository |
+| **Size** | 21,263 superconductors, 81 features |
 | **Year** | 2018 |
-| **License** | Information not available |
+| **License** | CC BY |
+| **Publisher** | Kam Hamidieh |
 
 ## Description
 
-There are two files: (1) train.csv contains 81 features extracted from 21263 superconductors along with the critical temperature in the 82nd column, (2) unique_m.csv contains the chemical formula broken up for all the 21263 superconductors from the train.csv file. The last two columns have the critical temperature and chemical formula. The original data comes from http://supercon.nims.go.jp/index_en.html which is public.
+Superconductivty Data was donated in 2018 by Kam Hamidieh. The superconductor records come from the public NIMS database at supercon.nims.go.jp.
 
-The goal here is to predict the critical temperature based on the features extracted. The dataset includes features such as number_of_elements, mean_atomic_mass, and various weighted means, geometric means, and entropies of atomic mass among others.
+Two files cover the same 21,263 superconductors. train.csv holds 81 features extracted from each material, with the critical temperature in the 82nd column, and unique_m.csv breaks each chemical formula into its elements, with the critical temperature and the formula in its last two columns. There are no missing values.
 
-The dataset is labeled and contains no missing values, and is used for regression tasks related to superconductivity in physics and chemistry.
+The task is regression of the critical temperature from the features. The dataset accompanies the 2018 Computational Materials Science paper "A data-driven statistical model for predicting the critical temperature of a superconductor" and is released under CC BY 4.0.
 
 ## References
 
-- [A data-driven statistical model for predicting the critical temperature of a superconductor by K. Hamidieh (2018)](https://www.semanticscholar.org/paper/A-data-driven-statistical-model-for-predicting-the-Hamidieh/b3bea0ac481f0869cb746f3b44d5689bf1a9b924)
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Superconductivty+Data)
-- [Dataset DOI](https://doi.org/10.24432/C53P47)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/464/superconductivty+data)
+- [DOI](https://doi.org/10.24432/C53P47)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/superconductivty-data/)
 
 [⬅️ Back to Index](../README.md)

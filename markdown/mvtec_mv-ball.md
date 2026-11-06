@@ -1,32 +1,32 @@
 # MVTec MV-ball
 
-**Summary:** Synthetic multi-view benchmark for evaluating 6D pose estimation under pose ambiguity that cannot be resolved from single views, featuring a multi-hemisphere ball object with easy and hard evaluation splits.
+**Summary:** Synthetic dataset for multi-view 6D pose estimation of a sphere whose pose only holistic multi-view methods can resolve reliably, with 112,042 training images.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | MVTec MV-ball |
-| **Domain** | Robotics & Automation; Materials & Metrology |
-| **Asset / Process** | Robotic Manipulation |
-| **Modality** | Image; Multimodal |
-| **Task** | Pose Estimation; 3D Understanding |
-| **Annotation** | Pose / Keypoint Label; Split Metadata |
+| **Domain** | Robotics and automation |
+| **Asset / Process** | — |
+| **Modality** | Image |
+| **Task** | Pose estimation |
+| **Annotation** | — |
 | **Source Type** | Synthetic |
-| **Access** | Official Portal |
-| **Size** | 112042 training images; 3853 easy + 3458 hard evaluation images |
-| **Year** | 2025 |
+| **Access** | — |
+| **Size** | 112,042 training images |
+| **Year** | 2026 |
 | **License** | CC BY-NC-SA |
+| **Publisher** | MVTec |
 
 ## Description
 
-MVTec MV-ball is a synthetic benchmark specifically designed to stress-test multi-view 6D pose estimation methods under pose ambiguity. The dataset uses a multi-hemisphere ball object that, when viewed from a single camera, does not provide sufficient information to resolve its orientation uniquely. Only by combining information from multiple viewpoints can the pose be determined.
+MVTec MV-ball is a public synthetic dataset from MVTec for evaluating multi-view 6D pose estimation methods. It was introduced with MVTOP, a multi-view transformer-based object pose estimation method by Lukas Ranftl, Felix Brendel, Bertram Drost and Carsten Steger, published in the VISAPP 2026 proceedings.
 
-The dataset contains 112,042 training images and two evaluation splits: an easy split with 3,853 images and a hard split with 3,458 images. All data is synthetically rendered, enabling controlled experiments on multi-view fusion strategies. This benchmark is particularly relevant for robotic assembly and handling applications where precise pose knowledge is required but objects have rotational symmetry or visual ambiguity.
+The object is a blue sphere whose surface carries a red hemisphere and a green hemisphere, set 90 degrees apart. Its pose cannot be determined from views that do not show both, and the dataset contains only such views, so only holistic multi-view methods can resolve the poses reliably. Each scene contains a single ball.
 
-MVTec MV-ball was introduced in arXiv:2508.03243 (2025) and is licensed under CC BY-NC-SA 4.0 for non-commercial research use.
+There are 112,042 training images and two evaluation splits: an easy split of 3,853 images, where at least 300 pixels of one hemisphere are visible, and a hard split of 3,458 images, where at least 10 are. The data is released under CC BY-NC-SA 4.0, which does not allow commercial use.
 
 ## References
 
-- [Dataset page](https://www.mvtec.com/company/research/datasets/mvtec-mv-ball)
-- [Paper (arXiv 2025)](https://arxiv.org/abs/2508.03243)
+- [Official page](https://www.mvtec.com/company/research/datasets/mvtec-mv-ball)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mvtec-mv-ball/)
 
 [⬅️ Back to Index](../README.md)

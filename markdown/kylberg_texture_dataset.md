@@ -1,33 +1,34 @@
-# Kylberg Texture Dataset
+# Kylberg Texture Dataset v. 1.0
 
-**Summary:** The Kylberg Texture Dataset v. 1.0 contains 28 texture classes with 160 unique texture patches per class, normalized and stored as lossless compressed 8-bit PNG images.
+**Summary:** Grayscale texture patches from 28 classes of fabrics, stone and loose materials, 160 per class, with an optional set rotated in 30-degree steps.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Kylberg Texture Dataset |
-| **Domain** | Materials & Metrology |
-| **Asset / Process** | Materials / Chemistry |
+| **Domain** | Materials and metrology |
+| **Asset / Process** | Surfaces and textures |
 | **Modality** | Image |
-| **Task** | Classification; Benchmark Suite |
-| **Annotation** | Sample Label; Class Label |
-| **Source Type** | Real Lab / Testbed |
-| **Access** | Official Portal |
-| **Size** | 4480 (28 classes * 160 patches) |
-| **Year** | 2020 |
-| **License** | Information not available |
+| **Task** | Classification |
+| **Annotation** | Class label |
+| **Source Type** | — |
+| **Access** | Direct download |
+| **Size** | 4,480 texture patches (53,760 with rotations) |
+| **Year** | 2011 |
+| **License** | — |
+| **Publisher** | Centre for Image Analysis, Swedish University of Agricultural Sciences and Uppsala University |
 
 ## Description
 
-The Kylberg Texture Dataset consists of 28 texture classes, each containing 160 unique texture patches of 576×576 pixels in size. There is an alternative dataset version including 12 rotations per each original patch, resulting in 1920 texture patches per class. All patches are stored in lossless compressed 8-bit PNG format and normalized with a mean value of 127 and a standard deviation of 40. Files are organized in one directory per texture class and follow a specific naming convention indicating the class name, image sample number, patch number, and rotation.
+The Kylberg Texture Dataset v. 1.0 is a collection of grayscale texture images compiled by Gustaf Kylberg at the Centre for Image Analysis of the Swedish University of Agricultural Sciences and Uppsala University, documented in External report No. 35 from September 2011. Fabrics, stone surfaces and arranged materials such as rice grains, sesame seeds and lentils were photographed with a Canon EOS 550D camera.
 
-This dataset was acquired and published during Gustaf Kylberg's Ph.D. studies at Uppsala University. It was created to serve as a benchmark for texture classification tasks in computer vision and image analysis. The original images used for generating texture patches, as well as the untouched RAW originals from the camera, are also available. Detailed documentation in PDF format is provided for further information.
+The set has 28 texture classes with 160 patches each, 4,480 samples in total, cut as 576x576-pixel 8-bit PNG files normalized to a mean gray value of 127 and a standard deviation of 40. A second version rotates every patch in 30-degree increments, giving 1,920 patches per class and 53,760 in all.
 
-The dataset supports research and experimentation in texture analysis and classification, providing high-quality real texture images. A smaller subset with 6 classes and 40 samples each is also available for quicker experimentation or testing.
+Each class sits in its own directory. The camera RAW originals and the preprocessed PNG originals are also available for download.
 
 ## References
 
-- [Kylberg Texture Dataset v. 1.0 documentation](https://kylberg.org/wp-content/uploads/2020/05/KylbergTextureDocumentation-1.0.pdf)
-- [Kylberg Texture Dataset download](https://filedn.com/lkCRue0RhPO7ercIrqFRl2Y/datasets/KylbergTextureDatasetV1/)
-- [Dataset homepage at Kylberg.org](https://kylberg.org/kylberg-texture-dataset-v-1-0/)
+- [Official page](https://user.it.uu.se/~gusky180/texture/)
+- [user.it.uu.se](https://user.it.uu.se/~gusky180/texture/KylbergTextureDocumentation-1.0.pdf)
+- [kylberg.org](https://kylberg.org/kylberg-texture-dataset-v-1-0/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/kylberg-texture-dataset/)
 
 [⬅️ Back to Index](../README.md)

@@ -4,17 +4,17 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | SegWeldCT |
-| **Domain** | Manufacturing & Production |
+| **Domain** | Manufacturing |
 | **Asset / Process** | Welding |
-| **Modality** | X-ray / CT |
-| **Task** | Defect Detection; Classification |
-| **Annotation** | Information not available |
-| **Source Type** | Information not available |
-| **Access** | Zenodo / Dataverse |
+| **Modality** | X-ray and CT |
+| **Task** | Defect detection; Classification |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Zenodo, Dataverse or Figshare |
 | **Size** | 30 CT volumes |
 | **Year** | 2026 |
 | **License** | CC BY |
+| **Publisher** | Brno University of Technology |
 
 ## Description
 
@@ -28,5 +28,6 @@ The accompanying study annotated 90 2D slices for welding-process classification
 
 - [DOI](https://doi.org/10.5281/zenodo.23591479)
 - [Zenodo record](https://zenodo.org/records/23591479)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/segweldct/)
 
 [⬅️ Back to Index](../README.md)

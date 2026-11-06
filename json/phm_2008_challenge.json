@@ -1,25 +1,24 @@
 {
   "Name": "PHM 2008 Challenge",
-  "Summary": "Turbofan engine degradation dataset used for the PHM 2008 Data Challenge, generated with the C-MAPSS simulator; designed for remaining useful life (RUL) prediction from multivariate sensor streams across a fleet of engines.",
-  "Domain": "Aerospace & Defense; Manufacturing & Production",
-  "Asset / Process": "Turbines / Engines",
-  "Modality": "Time Series",
-  "Task": "Regression; RUL / Prognostics; Predictive Maintenance; Simulation / Control",
-  "Annotation": "RUL Label; Scalar Target",
-  "Source Type": "Simulation",
-  "Access": "Competition",
-  "Size": "218 turbofan engine trajectories (training and two test subsets)",
+  "Summary": "Multivariate time series of aircraft engine degradation from the PHM08 prognostics competition, split into training and test subsets.",
+  "Domain": "Aerospace and defense",
+  "Asset / Process": "Turbines and engines",
+  "Modality": "Time series",
+  "Task": "RUL and prognostics",
   "Year": "2008",
-  "License": "Information not available",
-  "Description": "The PHM 2008 Challenge dataset was developed by the Prognostics Center of Excellence (PCoE) at NASA Ames Research Center and used in the International Conference on Prognostics and Health Management (PHM08) data challenge competition. It was generated using the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) tool, simulating realistic turbofan engine degradation.\n\nEach engine in the fleet starts from a different initial health state with unknown initial wear. The multivariate time series consist of 26 columns: a unit identifier, the operational cycle counter, three operational setting columns that influence engine performance, and 21 sensor measurements of temperatures, pressures, and rotational speeds contaminated with realistic noise. The training set provides complete run-to-failure trajectories; the test set provides truncated trajectories ending before failure. Two separate test subsets are provided with a single training subset.\n\nThe challenge task is to estimate the remaining useful life (RUL) for each engine in the test set. The dataset is closely related to the CMAPSS series and is hosted on the NASA Open Data Portal and the PHM Society data repository.",
+  "Description": "The PHM 2008 Challenge data describes the degradation of aircraft engines. It was used in the prognostics challenge competition of the International Conference on Prognostics and Health Management (PHM08), and the challenge stays open so that researchers can compare their results with those of the 2008 winners.\n\nThe data consists of several data sets of multivariate time series, each divided into training and test subsets. Every time series comes from a different engine of the same type, so together they form a fleet. Each engine starts with its own degree of initial wear and manufacturing variation, which is not given to the user and counts as normal rather than as a fault.\n\nThree operational settings with a substantial effect on engine performance are included in the data, and the measurements contain sensor noise.",
   "References": [
     {
-      "Text": "NASA Open Data Portal",
+      "Text": "Official page",
       "Link": "https://data.nasa.gov/dataset/phm-2008-challenge"
     },
     {
-      "Text": "PHM Society Data Repository",
-      "Link": "https://data.phmsociety.org/nasa/"
+      "Text": "phmsociety.org",
+      "Link": "https://phmsociety.org/data-challenge/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/phm-2008-challenge/"
     }
   ]
 }

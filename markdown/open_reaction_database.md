@@ -1,35 +1,31 @@
 # Open Reaction Database
 
-**Summary:** Open-access chemical reaction database with over 1 million reactions, designed to support machine learning for reaction prediction, synthesis planning, and experiment design; uses Protocol Buffers schema and CC BY 4.0 license.
+**Summary:** Open-access schema, infrastructure and central repository for organic reaction data, holding more than 2 million reactions including a large USPTO set.
 
 | Parameter | Value |
 | --- | --- |
-| **Dataset** | Open Reaction Database |
-| **Domain** | Chemical & Process |
-| **Asset / Process** | Chemical Process |
-| **Modality** | Tabular; Text / Documents |
-| **Task** | Regression; Benchmark Suite |
-| **Annotation** | Scalar Target; Text / QA Label |
-| **Source Type** | Public Records |
-| **Access** | Repository |
-| **Size** | Over 1 million chemical reactions (growing community-contributed database) |
+| **Domain** | Chemical and process |
+| **Asset / Process** | — |
+| **Modality** | Tabular |
+| **Task** | Regression |
+| **Annotation** | — |
+| **Source Type** | — |
+| **Access** | Official portal |
+| **Size** | 2M+ reactions |
 | **Year** | 2021 |
-| **License** | CC BY |
+| **License** | — |
 
 ## Description
 
-The Open Reaction Database (ORD) is an open-access, community-driven chemical reaction database established in 2019 by a consortium of experts from the pharmaceutical industry, academia, and technology sector. It was created to address the lack of standardized, machine-readable repositories for chemical reaction data.
+The Open Reaction Database (ORD) provides an open-access schema and infrastructure, together with a centralized data repository, for structuring and sharing data on organic reactions. It is introduced in a 2021 Journal of the American Chemical Society article by Steven Kearnes, Connor Coley and co-authors.
 
-The database stores chemical reactions using a Protocol Buffers-based schema that captures: reactants, reagents, solvents, and products as SMILES or InChI strings; reaction conditions (temperature, pressure, reaction time, atmosphere); yields (percentage and absolute); experimental procedures; safety notes; and data provenance. The schema is designed to be both human- and machine-readable.
+The schema covers conventional and emerging techniques, from benchtop reactions to automated high-throughput experiments and flow chemistry. Since the first project meeting in October 2019, the database has grown to more than 2 million reactions, including a large set extracted from USPTO sources, with academic and industrial contributions from both published and unpublished work.
 
-As of 2021, the database contains over 1 million reactions, contributed by pharmaceutical companies (Eli Lilly, Merck, AstraZeneca, etc.) and academic groups. The dataset is described in a 2021 JACS paper and is expected to serve as a foundation for ML models for reaction prediction, retrosynthesis, and automated synthesis planning.
-
-Licensed under CC BY 4.0. Hosted on GitHub and accessible via a web interface.
+Its stated aim is to support computer-aided synthesis planning, reaction prediction and other predictive chemistry tasks. A governing committee with members from MIT, UCLA, Merck, Pfizer and Genesis leads the project, which is supported by Google, Relay Therapeutics, Schmidt Futures and the University of Notre Dame.
 
 ## References
 
-- [ORD Paper: An Open Database for Chemical Reactions (JACS 2021)](https://pubs.acs.org/doi/10.1021/jacs.1c09820)
-- [C&EN article on ORD (2021)](https://cen.acs.org/physical-chemistry/computational-chemistry/new-database-machine-learning-research/99/web/2021/11)
-- [GitHub: Open Reaction Database](https://github.com/open-reaction-database)
+- [Official page](https://open-reaction-database.org/about)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/open-reaction-database/)
 
 [⬅️ Back to Index](../README.md)
