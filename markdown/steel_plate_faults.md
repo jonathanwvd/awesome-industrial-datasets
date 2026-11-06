@@ -1,19 +1,16 @@
 # Steel Plates Faults
 
-**Summary:** Tabular records of 1,941 steel plate faults described by 27 geometric, luminosity and steel-type variables and classified into 7 fault types.
+Tabular records of 1,941 steel plate faults described by 27 geometric, luminosity and steel-type variables and classified into 7 fault types.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Steel and metal surfaces |
-| **Modality** | Tabular |
-| **Task** | Classification; Fault diagnosis |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 1,941 instances |
-| **Year** | 2010 |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Asset / Process:** Steel and metal surfaces
+- **Modality:** Tabular
+- **Task:** Classification; Fault diagnosis
+- **Annotation:** Class label
+- **Access:** UCI repository
+- **Size:** 1,941 instances
+- **Year:** 2010
+- **License:** CC BY
 
 ## Description
 

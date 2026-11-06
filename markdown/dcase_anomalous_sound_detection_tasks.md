@@ -1,20 +1,14 @@
 # DCASE Anomalous Sound Detection Tasks
 
-**Summary:** Machine sound challenge in which detectors train on normal clips only and must handle domain shifts and machine types unseen during development.
+Machine sound challenge in which detectors train on normal clips only and must handle domain shifts and machine types unseen during development.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Audio |
-| **Task** | Anomaly detection |
-| **Annotation** | Normal-only training; Sample label |
-| **Source Type** | — |
-| **Access** | Competition |
-| **Size** | — |
-| **Year** | 2024 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Modality:** Audio
+- **Task:** Anomaly detection
+- **Annotation:** Normal-only training; Sample label
+- **Access:** Competition
+- **Year:** 2024
+- **Benchmark:** Yes
 
 ## Description
 

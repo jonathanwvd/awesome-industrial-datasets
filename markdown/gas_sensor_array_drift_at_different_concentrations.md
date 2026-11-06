@@ -1,19 +1,16 @@
 # Gas Sensor Array Drift at Different Concentrations
 
-**Summary:** 13,910 measurements from 16 chemical sensors exposed to six gases over 36 months, each labelled with the gas and its concentration in ppmv.
+13,910 measurements from 16 chemical sensors exposed to six gases over 36 months, each labelled with the gas and its concentration in ppmv.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; Regression |
-| **Annotation** | Class label; Scalar target |
-| **Source Type** | Lab or testbed |
-| **Access** | UCI repository |
-| **Size** | 13,910 measurements |
-| **Year** | 2013 |
-| **License** | Academic or non-commercial terms |
+- **Domain:** Chemical and process
+- **Modality:** Tabular
+- **Task:** Classification; Regression
+- **Annotation:** Class label; Scalar target
+- **Source Type:** Lab or testbed
+- **Access:** UCI repository
+- **Size:** 13,910 measurements
+- **Year:** 2013
+- **License:** Academic or non-commercial terms
 
 ## Description
 

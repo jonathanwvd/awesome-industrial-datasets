@@ -1,19 +1,12 @@
 # AITEX Fabric Image Database
 
-**Summary:** Public annotated set of fabric images with and without defects, compiled so that defect detection and classification methods can be compared directly.
+Public annotated set of fabric images with and without defects, compiled so that defect detection and classification methods can be compared directly.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2019 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Year:** 2019
 
 ## Description
 

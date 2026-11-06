@@ -1,19 +1,17 @@
 # Appliances Energy Prediction
 
-**Summary:** Ten-minute appliance energy readings from a low-energy house, paired with room temperature, humidity and airport weather data over about 4.5 months.
+Ten-minute appliance energy readings from a low-energy house, paired with room temperature, humidity and airport weather data over about 4.5 months.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Buildings and appliances |
-| **Asset / Process** | HVAC and building systems |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 19,735 instances |
-| **Year** | 2017 |
-| **License** | CC BY |
+- **Domain:** Buildings and appliances
+- **Asset / Process:** HVAC and building systems
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 19,735 instances
+- **Year:** 2017
+- **License:** CC BY
 
 ## Description
 

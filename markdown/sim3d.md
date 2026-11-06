@@ -1,19 +1,15 @@
 # SiM3D
 
-**Summary:** Multiview, multimodal 3D anomaly detection data of 333 instances of 8 manufacturing object types, with CAD models and voxel-level defect annotations.
+Multiview, multimodal 3D anomaly detection data of 333 instances of 8 manufacturing object types, with CAD models and voxel-level defect annotations.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image; 3D point cloud; Multimodal |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | 3D point mask |
-| **Source Type** | Mixed |
-| **Access** | Hugging Face |
-| **Size** | 333 object instances, about 400 GB compressed |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Modality:** Image; 3D point cloud; Multimodal
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** 3D point mask
+- **Source Type:** Mixed
+- **Access:** Hugging Face
+- **Size:** 333 object instances, about 400 GB compressed
+- **Year:** 2025
 
 ## Description
 

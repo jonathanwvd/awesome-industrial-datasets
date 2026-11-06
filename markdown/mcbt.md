@@ -1,20 +1,16 @@
 # MCBT
 
-**Summary:** 1,027 real-world images of heavily textured manufacturing surfaces, 800 anomaly-free and 227 defective, released with the AL-CycleGAN code.
+1,027 real-world images of heavily textured manufacturing surfaces, 800 anomaly-free and 227 defective, released with the AL-CycleGAN code.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection; Anomaly localization |
-| **Annotation** | Sample label |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | 1,027 images |
-| **Year** | 2025 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Anomaly localization
+- **Annotation:** Sample label
+- **Access:** Code repository
+- **Size:** 1,027 images
+- **Year:** 2025
+- **Benchmark:** Yes
 
 ## Description
 

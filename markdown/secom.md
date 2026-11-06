@@ -1,20 +1,18 @@
 # SECOM
 
-**Summary:** Semiconductor manufacturing process data of 1,567 production entities with 591 sensor features and a pass/fail yield label, with balanced error rate baselines.
+Semiconductor manufacturing process data of 1,567 production entities with 591 sensor features and a pass/fail yield label, with balanced error rate baselines.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Electronics and semiconductors |
-| **Asset / Process** | Semiconductor wafers and process tools |
-| **Modality** | Tabular |
-| **Task** | Classification; Quality prediction |
-| **Annotation** | Sample label |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 1,567 examples with 591 features |
-| **Year** | 2008 |
-| **License** | CC BY |
-| **Benchmark** | Yes |
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** Semiconductor wafers and process tools
+- **Modality:** Tabular
+- **Task:** Classification; Quality prediction
+- **Annotation:** Sample label
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 1,567 examples with 591 features
+- **Year:** 2008
+- **License:** CC BY
+- **Benchmark:** Yes
 
 ## Description
 

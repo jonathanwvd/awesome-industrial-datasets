@@ -1,21 +1,17 @@
 # Real3D-AD
 
-**Summary:** High-precision 3D point-cloud anomaly detection benchmark with 1,254 scanned samples of 12 object categories and point-level ground truth.
+High-precision 3D point-cloud anomaly detection benchmark with 1,254 scanned samples of 12 object categories and point-level ground truth.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | 3D point cloud |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Normal-only training; 3D point mask |
-| **Source Type** | Lab or testbed |
-| **Access** | Code repository |
-| **Size** | 1,254 samples in 12 categories |
-| **Year** | 2023 |
-| **License** | — |
-| **Publisher** | Jiaqi Liu et al. |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Modality:** 3D point cloud
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Normal-only training; 3D point mask
+- **Source Type:** Lab or testbed
+- **Access:** Code repository
+- **Size:** 1,254 samples in 12 categories
+- **Year:** 2023
+- **Publisher:** Jiaqi Liu et al.
+- **Benchmark:** Yes
 
 ## Description
 

@@ -1,21 +1,19 @@
 # BTAD
 
-**Summary:** Industrial anomaly detection images of three products from BeanTech, about 1.8K RGB images in total with pixel-precise anomaly masks.
+Industrial anomaly detection images of three products from BeanTech, about 1.8K RGB images in total with pixel-precise anomaly masks.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Pixel mask |
-| **Source Type** | Real production |
-| **Access** | Direct download |
-| **Size** | 1.8K images of 3 products |
-| **Year** | 2021 |
-| **License** | CC BY-SA |
-| **Publisher** | BeanTech srl |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Pixel mask
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Size:** 1.8K images of 3 products
+- **Year:** 2021
+- **License:** CC BY-SA
+- **Publisher:** BeanTech srl
+- **Benchmark:** Yes
 
 ## Description
 

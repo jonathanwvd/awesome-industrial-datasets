@@ -1,21 +1,19 @@
 # ISP-AD
 
-**Summary:** Screen-printing inspection dataset of 559,049 samples that combine 711 real factory defects with 245,664 synthetic ones.
+Screen-printing inspection dataset of 559,049 samples that combine 711 real factory defects with 245,664 synthetic ones.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Defect detection |
-| **Annotation** | Sample label |
-| **Source Type** | Mixed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 559,049 samples |
-| **Year** | 2025 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | Polymer Competence Center Leoben |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Anomaly detection; Defect detection
+- **Annotation:** Sample label
+- **Source Type:** Mixed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 559,049 samples
+- **Year:** 2025
+- **License:** CC BY-NC-SA
+- **Publisher:** Polymer Competence Center Leoben
+- **Benchmark:** Yes
 
 ## Description
 

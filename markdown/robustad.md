@@ -1,21 +1,17 @@
 # RobustAD
 
-**Summary:** Amazon Science image set for testing how anomaly detectors hold up under distribution shift, with PCB, metal part and piled packet subsets.
+Amazon Science image set for testing how anomaly detectors hold up under distribution shift, with PCB, metal part and piled packet subsets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | PCBs and electronic assemblies; Castings and metal parts |
-| **Modality** | Image |
-| **Task** | Anomaly localization; Classification |
-| **Annotation** | Sample label; Pixel mask |
-| **Source Type** | — |
-| **Access** | Hugging Face |
-| **Size** | 3 sub-datasets |
-| **Year** | — |
-| **License** | CC BY |
-| **Publisher** | Amazon Science |
-| **Benchmark** | Yes |
+- **Domain:** Cross-industrial
+- **Asset / Process:** PCBs and electronic assemblies; Castings and metal parts
+- **Modality:** Image
+- **Task:** Anomaly localization; Classification
+- **Annotation:** Sample label; Pixel mask
+- **Access:** Hugging Face
+- **Size:** 3 sub-datasets
+- **License:** CC BY
+- **Publisher:** Amazon Science
+- **Benchmark:** Yes
 
 ## Description
 

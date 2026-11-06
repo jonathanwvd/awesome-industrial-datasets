@@ -1,20 +1,16 @@
 # RAD
 
-**Summary:** Robot-captured RGB images of 13 object categories from 68 viewpoints, with pixel masks for four defect types, for pose-agnostic anomaly detection.
+Robot-captured RGB images of 13 object categories from 68 viewpoints, with pixel masks for four defect types, for pose-agnostic anomaly detection.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Normal-only training; Pixel mask |
-| **Source Type** | Lab or testbed |
-| **Access** | Hugging Face |
-| **Size** | 4,047 RGB images |
-| **Year** | 2024 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Robotics and automation
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Normal-only training; Pixel mask
+- **Source Type:** Lab or testbed
+- **Access:** Hugging Face
+- **Size:** 4,047 RGB images
+- **Year:** 2024
+- **Benchmark:** Yes
 
 ## Description
 

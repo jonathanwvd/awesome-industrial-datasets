@@ -1,19 +1,13 @@
 # Self-optimizing tool path generation for 5-axis machining processes
 
-**Summary:** Measured shape deviations on 5-axis machined pocket walls paired with simulated width of cut, depth of cut, material removal rate and feedrate per probed point.
+Measured shape deviations on 5-axis machined pocket walls paired with simulated width of cut, depth of cut, material removal rate and feedrate per probed point.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | CNC machining and tool wear |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Mixed |
-| **Access** | — |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** CNC machining and tool wear
+- **Modality:** Tabular
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Mixed
 
 ## Description
 

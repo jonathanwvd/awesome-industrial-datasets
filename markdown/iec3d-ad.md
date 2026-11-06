@@ -1,19 +1,13 @@
 # IEC3D-AD
 
-**Summary:** Point cloud dataset of industrial equipment components for unsupervised 3D anomaly detection, shared on Hugging Face with a companion open-set dataset.
+Point cloud dataset of industrial equipment components for unsupervised 3D anomaly detection, shared on Hugging Face with a companion open-set dataset.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | 3D point cloud |
-| **Task** | Anomaly detection |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Hugging Face |
-| **Size** | — |
-| **Year** | 2025 |
-| **License** | Academic or non-commercial terms |
+- **Domain:** Manufacturing
+- **Modality:** 3D point cloud
+- **Task:** Anomaly detection
+- **Access:** Hugging Face
+- **Year:** 2025
+- **License:** Academic or non-commercial terms
 
 ## Description
 

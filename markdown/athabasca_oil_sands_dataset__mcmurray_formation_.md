@@ -1,20 +1,15 @@
 # Athabasca Oil Sands Dataset (McMurray Formation)
 
-**Summary:** Alberta Geological Survey well database for the Athabasca oil sands, with data on 2,193 wells, about 750 of them with core analyses.
+Alberta Geological Survey well database for the Athabasca oil sands, with data on 2,193 wells, about 750 of them with core analyses.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Oil and gas |
-| **Asset / Process** | Wells, pipelines and reservoirs |
-| **Modality** | Tabular |
-| **Task** | Other |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | — |
-| **Size** | 2,193 wells |
-| **Year** | 1995 |
-| **License** | — |
-| **Publisher** | Alberta Research Council |
+- **Domain:** Oil and gas
+- **Asset / Process:** Wells, pipelines and reservoirs
+- **Modality:** Tabular
+- **Task:** Other
+- **Source Type:** Real production
+- **Size:** 2,193 wells
+- **Year:** 1995
+- **Publisher:** Alberta Research Council
 
 ## Description
 

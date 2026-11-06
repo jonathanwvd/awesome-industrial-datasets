@@ -1,19 +1,15 @@
 # BSData
 
-**Summary:** 1,104 images of ball screw drive surfaces with labelme pitting annotations, including 27 wear development sequences and a script for three data splits.
+1,104 images of ball screw drive surfaces with labelme pitting annotations, including 27 wear development sequences and a script for three data splits.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Defect detection; Defect segmentation; Condition monitoring |
-| **Annotation** | Instance mask; Sample label |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | 1,104 images, 394 image annotations |
-| **Year** | 2021 |
-| **License** | CC BY-SA |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation; Condition monitoring
+- **Annotation:** Instance mask; Sample label
+- **Access:** Code repository
+- **Size:** 1,104 images, 394 image annotations
+- **Year:** 2021
+- **License:** CC BY-SA
 
 ## Description
 

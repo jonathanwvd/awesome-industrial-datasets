@@ -1,20 +1,16 @@
 # SegWeldCT
 
-**Summary:** Thirty high-resolution industrial CT volumes of butt and fillet welds made by MAG, MMA, TIG and oxyacetylene welding, for weld inspection research.
+Thirty high-resolution industrial CT volumes of butt and fillet welds made by MAG, MMA, TIG and oxyacetylene welding, for weld inspection research.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Welding |
-| **Modality** | X-ray and CT |
-| **Task** | Defect detection; Classification |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 30 CT volumes |
-| **Year** | 2026 |
-| **License** | CC BY |
-| **Publisher** | Brno University of Technology |
+- **Domain:** Manufacturing
+- **Asset / Process:** Welding
+- **Modality:** X-ray and CT
+- **Task:** Defect detection; Classification
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 30 CT volumes
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** Brno University of Technology
 
 ## Description
 

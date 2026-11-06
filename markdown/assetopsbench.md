@@ -1,21 +1,15 @@
 # AssetOpsBench
 
-**Summary:** Benchmark and framework from IBM for evaluating AI agents on industrial asset operations and maintenance scenarios across nine asset classes.
+Benchmark and framework from IBM for evaluating AI agents on industrial asset operations and maintenance scenarios across nine asset classes.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Text and documents; Time series |
-| **Task** | Question answering |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2025 |
-| **License** | — |
-| **Publisher** | IBM Research |
-| **Benchmark** | Yes |
+- **Domain:** Cross-industrial
+- **Modality:** Text and documents; Time series
+- **Task:** Question answering
+- **Source Type:** Simulation
+- **Access:** Code repository
+- **Year:** 2025
+- **Publisher:** IBM Research
+- **Benchmark:** Yes
 
 ## Description
 

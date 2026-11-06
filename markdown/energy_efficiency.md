@@ -1,19 +1,17 @@
 # Energy Efficiency
 
-**Summary:** Ecotect simulations of 768 residential building shapes, pairing eight geometry and glazing features with heating load and cooling load targets.
+Ecotect simulations of 768 residential building shapes, pairing eight geometry and glazing features with heating load and cooling load targets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Buildings and appliances |
-| **Asset / Process** | HVAC and building systems |
-| **Modality** | Tabular |
-| **Task** | Regression; Classification |
-| **Annotation** | Scalar target |
-| **Source Type** | Simulation |
-| **Access** | UCI repository |
-| **Size** | 768 samples |
-| **Year** | 2012 |
-| **License** | CC BY |
+- **Domain:** Buildings and appliances
+- **Asset / Process:** HVAC and building systems
+- **Modality:** Tabular
+- **Task:** Regression; Classification
+- **Annotation:** Scalar target
+- **Source Type:** Simulation
+- **Access:** UCI repository
+- **Size:** 768 samples
+- **Year:** 2012
+- **License:** CC BY
 
 ## Description
 

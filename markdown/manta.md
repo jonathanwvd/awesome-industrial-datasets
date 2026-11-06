@@ -1,19 +1,15 @@
 # MANTA
 
-**Summary:** Visual-text anomaly detection dataset for tiny objects, with over 137.3K multi-view images in 38 categories and 2K image-paired multiple-choice questions.
+Visual-text anomaly detection dataset for tiny objects, with over 137.3K multi-view images in 38 categories and 2K image-paired multiple-choice questions.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Image; Text and documents; Multimodal |
-| **Task** | Anomaly detection; Question answering |
-| **Annotation** | Sample label; Pixel mask; Text and QA label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 137.3K+ images |
-| **Year** | 2024 |
-| **License** | CC BY-NC-SA |
+- **Domain:** Cross-industrial
+- **Modality:** Image; Text and documents; Multimodal
+- **Task:** Anomaly detection; Question answering
+- **Annotation:** Sample label; Pixel mask; Text and QA label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 137.3K+ images
+- **Year:** 2024
+- **License:** CC BY-NC-SA
 
 ## Description
 

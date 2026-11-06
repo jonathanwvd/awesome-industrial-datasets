@@ -1,19 +1,16 @@
 # RoHuCAD
 
-**Summary:** ROS recordings of a human-robot assembly workshop where a cobot and a mobile robot assist three operators, with time-stamped anomaly annotations.
+ROS recordings of a human-robot assembly workshop where a cobot and a mobile robot assist three operators, with time-stamped anomaly annotations.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Robots and manipulators |
-| **Modality** | RGB-D and depth; Time series |
-| **Task** | Classification |
-| **Annotation** | Event and time label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | two 8-minute recordings |
-| **Year** | 2024 |
-| **License** | CC BY |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators
+- **Modality:** RGB-D and depth; Time series
+- **Task:** Classification
+- **Annotation:** Event and time label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** two 8-minute recordings
+- **Year:** 2024
+- **License:** CC BY
 
 ## Description
 

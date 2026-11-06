@@ -1,20 +1,17 @@
 # TON_IoT
 
-**Summary:** Telemetry, network, Linux and Windows datasets from a UNSW Canberra IoT and IIoT testbed, with normal and attack records labelled for AI-based intrusion detection.
+Telemetry, network, Linux and Windows datasets from a UNSW Canberra IoT and IIoT testbed, with normal and attack records labelled for AI-based intrusion detection.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Control systems and networks |
-| **Modality** | Network traffic; Time series |
-| **Task** | Intrusion detection |
-| **Annotation** | Class label; Event and time label |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | 2019 |
-| **License** | Academic or non-commercial terms |
-| **Publisher** | UNSW Canberra |
+- **Domain:** OT security
+- **Asset / Process:** Control systems and networks
+- **Modality:** Network traffic; Time series
+- **Task:** Intrusion detection
+- **Annotation:** Class label; Event and time label
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Year:** 2019
+- **License:** Academic or non-commercial terms
+- **Publisher:** UNSW Canberra
 
 ## Description
 

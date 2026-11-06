@@ -1,20 +1,18 @@
 # CSEM-MISD
 
-**Summary:** Image stacks of 70 defective metal washers, each lit from 108 angles in a light dome, with hand-labelled defect masks for segmentation.
+Image stacks of 70 defective metal washers, each lit from 108 angles in a light dome, with hand-labelled defect masks for segmentation.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Castings and metal parts |
-| **Modality** | Image |
-| **Task** | Defect segmentation; Defect detection |
-| **Annotation** | Pixel mask |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 70 parts with 108 images each |
-| **Year** | 2021 |
-| **License** | CC BY-ND and NC-ND |
-| **Publisher** | Centre Suisse d'Electronique et de Microtechnique (CSEM) |
+- **Domain:** Manufacturing
+- **Asset / Process:** Castings and metal parts
+- **Modality:** Image
+- **Task:** Defect segmentation; Defect detection
+- **Annotation:** Pixel mask
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 70 parts with 108 images each
+- **Year:** 2021
+- **License:** CC BY-ND and NC-ND
+- **Publisher:** Centre Suisse d'Electronique et de Microtechnique (CSEM)
 
 ## Description
 

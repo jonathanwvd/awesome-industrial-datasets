@@ -1,20 +1,15 @@
 # MVTec MV-ball
 
-**Summary:** Synthetic dataset for multi-view 6D pose estimation of a sphere whose pose only holistic multi-view methods can resolve reliably, with 112,042 training images.
+Synthetic dataset for multi-view 6D pose estimation of a sphere whose pose only holistic multi-view methods can resolve reliably, with 112,042 training images.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Pose estimation |
-| **Annotation** | — |
-| **Source Type** | Synthetic |
-| **Access** | — |
-| **Size** | 112,042 training images |
-| **Year** | 2026 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Robotics and automation
+- **Modality:** Image
+- **Task:** Pose estimation
+- **Source Type:** Synthetic
+- **Size:** 112,042 training images
+- **Year:** 2026
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

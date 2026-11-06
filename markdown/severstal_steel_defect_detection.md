@@ -1,21 +1,15 @@
 # Severstal: Steel Defect Detection
 
-**Summary:** Featured Kaggle competition run by Severstal in 2019 that asked teams to detect and classify defects in steel images, scored with the Dice metric.
+Featured Kaggle competition run by Severstal in 2019 that asked teams to detect and classify defects in steel images, scored with the Dice metric.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Steel and metal surfaces |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Competition |
-| **Size** | — |
-| **Year** | 2019 |
-| **License** | — |
-| **Publisher** | Severstal |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Steel and metal surfaces
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Access:** Competition
+- **Year:** 2019
+- **Publisher:** Severstal
+- **Benchmark:** Yes
 
 ## Description
 

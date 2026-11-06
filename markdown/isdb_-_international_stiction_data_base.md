@@ -1,19 +1,12 @@
 # ISDB - International Stiction Data Base
 
-**Summary:** Industrial control-loop data accompanying the 2009 Springer book on detecting and diagnosing valve stiction, edited by Mohieddine Jelali and Biao Huang.
+Industrial control-loop data accompanying the 2009 Springer book on detecting and diagnosing valve stiction, edited by Mohieddine Jelali and Biao Huang.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | Valves and actuators |
-| **Modality** | Time series |
-| **Task** | Process monitoring |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2009 |
-| **License** | — |
+- **Domain:** Chemical and process
+- **Asset / Process:** Valves and actuators
+- **Modality:** Time series
+- **Task:** Process monitoring
+- **Year:** 2009
 
 ## Description
 

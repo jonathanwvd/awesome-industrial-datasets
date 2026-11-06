@@ -1,19 +1,13 @@
 # TIG Welding
 
-**Summary:** Visible-spectrum HDR camera images of Aluminium 5083 TIG welding, labelled by welding imperfection for defect classification with neural networks.
+Visible-spectrum HDR camera images of Aluminium 5083 TIG welding, labelled by welding imperfection for defect classification with neural networks.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Welding |
-| **Modality** | Image |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2019 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Welding
+- **Modality:** Image
+- **Task:** Classification
+- **Annotation:** Class label
+- **Year:** 2019
 
 ## Description
 

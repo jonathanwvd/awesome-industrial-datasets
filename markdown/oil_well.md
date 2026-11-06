@@ -1,19 +1,14 @@
 # Oil Well
 
-**Summary:** Daily production and reservoir readings from one oil well in northern Russia from 2013 to 2021, covering oil, gas and water volumes and pressure.
+Daily production and reservoir readings from one oil well in northern Russia from 2013 to 2021, covering oil, gas and water volumes and pressure.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Oil and gas |
-| **Asset / Process** | Wells, pipelines and reservoirs |
-| **Modality** | Time series |
-| **Task** | Forecasting |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Oil and gas
+- **Asset / Process:** Wells, pipelines and reservoirs
+- **Modality:** Time series
+- **Task:** Forecasting
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Kaggle
 
 ## Description
 

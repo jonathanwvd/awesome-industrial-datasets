@@ -1,20 +1,16 @@
 # Bridge Crack Dataset
 
-**Summary:** Bridge crack images taken mainly on a viaduct in Xi'an, China, used to train and test the DBCC crack detection model, with a 2,068-image test set.
+Bridge crack images taken mainly on a viaduct in Xi'an, China, used to train and test the DBCC crack detection model, with a 2,068-image test set.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Infrastructure and civil |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Defect detection |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | Direct download |
-| **Size** | 2,068 test images |
-| **Year** | 2019 |
-| **License** | Academic or non-commercial terms |
-| **Publisher** | Shaanxi Normal University |
+- **Domain:** Infrastructure and civil
+- **Modality:** Image
+- **Task:** Defect detection
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Size:** 2,068 test images
+- **Year:** 2019
+- **License:** Academic or non-commercial terms
+- **Publisher:** Shaanxi Normal University
 
 ## Description
 

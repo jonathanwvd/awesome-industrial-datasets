@@ -1,19 +1,12 @@
 # N-CMAPSS_DL
 
-**Summary:** Python code that slices NASA's N-CMAPSS turbofan engine data, downloaded separately, into time-windowed samples labelled with remaining useful life.
+Python code that slices NASA's N-CMAPSS turbofan engine data, downloaded separately, into time-windowed samples labelled with remaining useful life.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Aerospace and defense |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2022 |
-| **License** | — |
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Time series
+- **Task:** RUL and prognostics
+- **Year:** 2022
 
 ## Description
 

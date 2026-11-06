@@ -1,20 +1,17 @@
 # XJTU-SY Bearing Datasets
 
-**Summary:** Run-to-failure vibration records of 15 LDK UER204 rolling element bearings from accelerated degradation tests under three speed and radial force conditions.
+Run-to-failure vibration records of 15 LDK UER204 rolling element bearings from accelerated degradation tests under three speed and radial force conditions.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings |
-| **Modality** | Vibration |
-| **Task** | RUL and prognostics |
-| **Annotation** | RUL label |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | 15 run-to-failure bearings |
-| **Year** | 2020 |
-| **License** | — |
-| **Publisher** | Institute of Design Science and Basic Component, Xi'an Jiaotong University; Changxing Sumyoung Technology Co., Ltd. |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration
+- **Task:** RUL and prognostics
+- **Annotation:** RUL label
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Size:** 15 run-to-failure bearings
+- **Year:** 2020
+- **Publisher:** Institute of Design Science and Basic Component, Xi'an Jiaotong University; Changxing Sumyoung Technology Co., Ltd.
 
 ## Description
 

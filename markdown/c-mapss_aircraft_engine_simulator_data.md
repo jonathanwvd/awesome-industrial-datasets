@@ -1,20 +1,14 @@
 # C-MAPSS Aircraft Engine Simulator Data
 
-**Summary:** Simulated turbofan flights from NASA's C-MAPSS model with an injected engine fault, at 1 Hz over 30 engine and flight parameters.
+Simulated turbofan flights from NASA's C-MAPSS model with an injected engine fault, at 1 Hz over 30 engine and flight parameters.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Aerospace and defense |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Time series |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | — |
-| **Size** | 30 parameters at 1 Hz per flight |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | NASA |
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Time series
+- **Task:** Anomaly detection; Anomaly localization
+- **Source Type:** Simulation
+- **Size:** 30 parameters at 1 Hz per flight
+- **Publisher:** NASA
 
 ## Description
 

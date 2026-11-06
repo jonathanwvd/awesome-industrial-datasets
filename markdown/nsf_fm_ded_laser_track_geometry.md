@@ -1,20 +1,15 @@
 # NSF Future Manufacturing Data Challenge: A Multimodal DED Dataset
 
-**Summary:** Thermal image sequences, SEM tiles and height maps of single DED laser tracks on SS316L substrates, released for predicting local track geometry.
+Thermal image sequences, SEM tiles and height maps of single DED laser tracks on SS316L substrates, released for predicting local track geometry.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Additive manufacturing |
-| **Modality** | Image; Multimodal |
-| **Task** | Regression; Quality prediction |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | — |
-| **Year** | 2026 |
-| **License** | CC BY |
-| **Publisher** | Texas A&M University |
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Image; Multimodal
+- **Task:** Regression; Quality prediction
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** Texas A&M University
 
 ## Description
 

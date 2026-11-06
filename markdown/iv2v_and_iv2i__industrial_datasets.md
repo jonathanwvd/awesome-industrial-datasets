@@ -1,20 +1,15 @@
 # AI4Mobile Industrial Wireless Datasets: iV2V and iV2I+
 
-**Summary:** Wireless measurements from two industrial testbeds, one with sidelink links among three AGVs and one with a cleaning robot on a private cellular network.
+Wireless measurements from two industrial testbeds, one with sidelink links among three AGVs and one with a cleaning robot on a private cellular network.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Transportation and mobility |
-| **Asset / Process** | Vehicles and fleets |
-| **Modality** | Time series |
-| **Task** | Forecasting; Classification |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | IEEE DataPort |
-| **Size** | 10 h (iV2V) and about 16 h (iV2I+) of measurements |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Fraunhofer Heinrich Hertz Institute |
+- **Domain:** Transportation and mobility
+- **Asset / Process:** Vehicles and fleets
+- **Modality:** Time series
+- **Task:** Forecasting; Classification
+- **Source Type:** Lab or testbed
+- **Access:** IEEE DataPort
+- **Size:** 10 h (iV2V) and about 16 h (iV2I+) of measurements
+- **Publisher:** Fraunhofer Heinrich Hertz Institute
 
 ## Description
 

@@ -1,19 +1,14 @@
 # One Year Industrial Component Degradation
 
-**Summary:** Twelve months of machine data from a degrading cutting blade in an OCME Vega shrink-wrapper, split into 519 short CSV samples across eight modes.
+Twelve months of machine data from a degrading cutting blade in an OCME Vega shrink-wrapper, split into 519 short CSV samples across eight modes.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Condition monitoring; RUL and prognostics |
-| **Annotation** | Unlabeled |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | 519 files |
-| **Year** | — |
-| **License** | CC BY-SA |
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Condition monitoring; RUL and prognostics
+- **Annotation:** Unlabeled
+- **Access:** Kaggle
+- **Size:** 519 files
+- **License:** CC BY-SA
 
 ## Description
 

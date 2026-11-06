@@ -1,20 +1,18 @@
 # KolektorSDD2
 
-**Summary:** Surface-defect images of production items from Kolektor Group, with scratches, spots and other defects, divided into a train and a test set.
+Surface-defect images of production items from Kolektor Group, with scratches, spots and other defects, divided into a train and a test set.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Surfaces and textures |
-| **Modality** | Image |
-| **Task** | Defect detection |
-| **Annotation** | Sample label |
-| **Source Type** | Real production |
-| **Access** | Direct download |
-| **Size** | 356 defective and 2,979 defect-free images |
-| **Year** | 2021 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | ViCoS Lab |
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection
+- **Annotation:** Sample label
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Size:** 356 defective and 2,979 defect-free images
+- **Year:** 2021
+- **License:** CC BY-NC-SA
+- **Publisher:** ViCoS Lab
 
 ## Description
 

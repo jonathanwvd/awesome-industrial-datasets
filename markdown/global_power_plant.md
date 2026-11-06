@@ -1,19 +1,11 @@
 # Global Power Plant Database
 
-**Summary:** Open-source database of power plants worldwide, recording each plant's primary fuel, other fuels and yearly generation for 2013 to 2017.
+Open-source database of power plants worldwide, recording each plant's primary fuel, other fuels and yearly generation for 2013 to 2017.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Tabular |
-| **Task** | Other |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Tabular
+- **Task:** Other
 
 ## Description
 

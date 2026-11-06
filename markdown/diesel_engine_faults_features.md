@@ -1,20 +1,16 @@
 # Diesel Engine Faults Features
 
-**Summary:** Simulated feature vectors for 3,500 diesel engine fault scenarios, built from cylinder pressure curves and crankshaft torsional vibration at 2500 RPM.
+Simulated feature vectors for 3,500 diesel engine fault scenarios, built from cylinder pressure curves and crankshaft torsional vibration at 2500 RPM.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Turbines and engines |
-| **Modality** | Tabular |
-| **Task** | Fault diagnosis; Classification |
-| **Annotation** | Class label; Scalar target |
-| **Source Type** | Simulation |
-| **Access** | Mendeley Data |
-| **Size** | 3,500 fault scenarios |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Centro Federal de Educacao Tecnologica Celso Suckow da Fonseca and Universidade Federal do Rio de Janeiro |
+- **Domain:** Manufacturing
+- **Asset / Process:** Turbines and engines
+- **Modality:** Tabular
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label; Scalar target
+- **Source Type:** Simulation
+- **Access:** Mendeley Data
+- **Size:** 3,500 fault scenarios
+- **Publisher:** Centro Federal de Educacao Tecnologica Celso Suckow da Fonseca and Universidade Federal do Rio de Janeiro
 
 ## Description
 

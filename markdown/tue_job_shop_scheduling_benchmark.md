@@ -1,20 +1,13 @@
 # Job Shop Scheduling Benchmark: Environments and Instances for Learning and Non-learning Methods
 
-**Summary:** Scheduling environments, problem instances and exact, heuristic and DRL solvers for job shop, flow shop, flexible job shop and online scheduling variants.
+Scheduling environments, problem instances and exact, heuristic and DRL solvers for job shop, flow shop, flexible job shop and online scheduling variants.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Problem instances; Simulator |
-| **Task** | Scheduling and optimization; Simulation and control |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2026 |
-| **License** | — |
-| **Publisher** | AI for Decision Making, TU/e |
+- **Domain:** Manufacturing
+- **Modality:** Problem instances; Simulator
+- **Task:** Scheduling and optimization; Simulation and control
+- **Access:** Code repository
+- **Year:** 2026
+- **Publisher:** AI for Decision Making, TU/e
 
 ## Description
 

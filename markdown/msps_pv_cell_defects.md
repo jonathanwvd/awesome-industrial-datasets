@@ -1,20 +1,18 @@
 # MSPS
 
-**Summary:** 1,500 production-line electroluminescence images of monocrystalline silicon PV cells with expert pixel masks of defects such as busbar breaks, black spots and cracks.
+1,500 production-line electroluminescence images of monocrystalline silicon PV cells with expert pixel masks of defects such as busbar breaks, black spots and cracks.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Solar PV |
-| **Modality** | Image |
-| **Task** | Defect segmentation |
-| **Annotation** | Pixel mask |
-| **Source Type** | Real production |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 1,500 EL images |
-| **Year** | 2026 |
-| **License** | CC BY |
-| **Benchmark** | Yes |
+- **Domain:** Energy and power
+- **Asset / Process:** Solar PV
+- **Modality:** Image
+- **Task:** Defect segmentation
+- **Annotation:** Pixel mask
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 1,500 EL images
+- **Year:** 2026
+- **License:** CC BY
+- **Benchmark:** Yes
 
 ## Description
 

@@ -1,19 +1,15 @@
 # Smart Manufacturing IoT-Cloud Monitoring Dataset
 
-**Summary:** Simulated IoT sensor dataset of 100,000 one-minute records from 50 machines, with anomaly flags, failure types and a maintenance target.
+Simulated IoT sensor dataset of 100,000 one-minute records from 50 machines, with anomaly flags, failure types and a maintenance target.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Time series; Tabular |
-| **Task** | Classification; Fault diagnosis |
-| **Annotation** | Class label |
-| **Source Type** | Synthetic |
-| **Access** | Kaggle |
-| **Size** | 100,000 sensor records from 50 machines |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Manufacturing
+- **Modality:** Time series; Tabular
+- **Task:** Classification; Fault diagnosis
+- **Annotation:** Class label
+- **Source Type:** Synthetic
+- **Access:** Kaggle
+- **Size:** 100,000 sensor records from 50 machines
+- **License:** CC0 and public domain
 
 ## Description
 

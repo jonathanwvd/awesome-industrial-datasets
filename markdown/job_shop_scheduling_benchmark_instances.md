@@ -1,19 +1,12 @@
 # Job Shop Scheduling Benchmark Instances
 
-**Summary:** Two OR-Library files for job shop scheduling, one with 82 instances cited in the literature and one with code that generates Taillard's instances.
+Two OR-Library files for job shop scheduling, one with 82 instances cited in the literature and one with code that generates Taillard's instances.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Problem instances |
-| **Task** | Scheduling and optimization |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 82 test instances and generator code |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Modality:** Problem instances
+- **Task:** Scheduling and optimization
+- **Access:** Direct download
+- **Size:** 82 test instances and generator code
 
 ## Description
 

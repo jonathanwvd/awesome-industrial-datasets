@@ -1,20 +1,18 @@
 # A photovoltaic performance dataset for the benchmarking of failure detection and diagnosis algorithms
 
-**Summary:** Field monitoring of seven PV modules with known failure modes, with per-minute MPP data, five-minute IV curves and irradiance and temperature readings.
+Field monitoring of seven PV modules with known failure modes, with per-minute MPP data, five-minute IV curves and irradiance and temperature readings.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Solar PV |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | seven monitored PV modules |
-| **Year** | 2026 |
-| **License** | CC BY |
-| **Publisher** | TECNALIA |
+- **Domain:** Energy and power
+- **Asset / Process:** Solar PV
+- **Modality:** Time series
+- **Task:** Fault diagnosis
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** seven monitored PV modules
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** TECNALIA
 
 ## Description
 

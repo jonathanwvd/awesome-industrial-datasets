@@ -1,19 +1,16 @@
 # Robot Execution Failures
 
-**Summary:** Force and torque readings taken on a robot right after failure detection, 463 instances split into five learning problems with a class per failure.
+Force and torque readings taken on a robot right after failure detection, 463 instances split into five learning problems with a class per failure.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Robots and manipulators |
-| **Modality** | Time series |
-| **Task** | Classification |
-| **Annotation** | Class label |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 463 instances |
-| **Year** | 1999 |
-| **License** | CC BY |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators
+- **Modality:** Time series
+- **Task:** Classification
+- **Annotation:** Class label
+- **Access:** UCI repository
+- **Size:** 463 instances
+- **Year:** 1999
+- **License:** CC BY
 
 ## Description
 

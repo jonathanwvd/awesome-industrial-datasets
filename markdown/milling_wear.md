@@ -1,20 +1,16 @@
 # Milling Wear
 
-**Summary:** Milling machine experiments at varied speed, feed and depth of cut that record flank wear (VB) of the insert, contributed by UC Berkeley's BEST Lab.
+Milling machine experiments at varied speed, feed and depth of cut that record flank wear (VB) of the insert, contributed by UC Berkeley's BEST Lab.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | CNC machining and tool wear |
-| **Modality** | Time series; Vibration |
-| **Task** | RUL and prognostics; Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | 2007 |
-| **License** | — |
-| **Publisher** | NASA Ames Prognostics Center of Excellence (PCoE) |
+- **Domain:** Manufacturing
+- **Asset / Process:** CNC machining and tool wear
+- **Modality:** Time series; Vibration
+- **Task:** RUL and prognostics; Regression
+- **Annotation:** Scalar target
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Year:** 2007
+- **Publisher:** NASA Ames Prognostics Center of Excellence (PCoE)
 
 ## Description
 

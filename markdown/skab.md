@@ -1,20 +1,16 @@
 # SKAB
 
-**Summary:** Multivariate sensor time series from a testbed with a water pump and circulation loop, one experiment and one anomaly per file, with outlier and changepoint labels.
+Multivariate sensor time series from a testbed with a water pump and circulation loop, one experiment and one anomaly per file, with outlier and changepoint labels.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Water and utilities |
-| **Asset / Process** | Pumps, compressors and fans; Motors and drives |
-| **Modality** | Time series |
-| **Task** | Anomaly detection |
-| **Annotation** | Sample label; Event and time label |
-| **Source Type** | Lab or testbed |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2020 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Water and utilities
+- **Asset / Process:** Pumps, compressors and fans; Motors and drives
+- **Modality:** Time series
+- **Task:** Anomaly detection
+- **Annotation:** Sample label; Event and time label
+- **Source Type:** Lab or testbed
+- **Access:** Code repository
+- **Year:** 2020
+- **Benchmark:** Yes
 
 ## Description
 

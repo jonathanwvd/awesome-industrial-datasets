@@ -1,19 +1,16 @@
 # Data4Cyber
 
-**Summary:** Labelled 1 Hz process telemetry and OT packet captures from a distribution-grid management system with distributed energy resources, across seven primary scenarios.
+Labelled 1 Hz process telemetry and OT packet captures from a distribution-grid management system with distributed energy resources, across seven primary scenarios.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Power grids and plants; Control systems and networks |
-| **Modality** | Time series; Network traffic |
-| **Task** | Intrusion detection |
-| **Annotation** | Sample label; Event and time label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 14,354 rows |
-| **Year** | 2026 |
-| **License** | CC BY |
+- **Domain:** OT security
+- **Asset / Process:** Power grids and plants; Control systems and networks
+- **Modality:** Time series; Network traffic
+- **Task:** Intrusion detection
+- **Annotation:** Sample label; Event and time label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 14,354 rows
+- **Year:** 2026
+- **License:** CC BY
 
 ## Description
 

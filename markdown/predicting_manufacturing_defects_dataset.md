@@ -1,19 +1,14 @@
 # Predicting Manufacturing Defects Dataset
 
-**Summary:** Synthetic tabular data built for teaching defect prediction, with a binary target that separates low-defect from high-defect production.
+Synthetic tabular data built for teaching defect prediction, with a binary target that separates low-defect from high-defect production.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; Quality prediction |
-| **Annotation** | Class label |
-| **Source Type** | Synthetic |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | CC BY |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification; Quality prediction
+- **Annotation:** Class label
+- **Source Type:** Synthetic
+- **Access:** Kaggle
+- **License:** CC BY
 
 ## Description
 

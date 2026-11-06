@@ -1,19 +1,14 @@
 # Industrial Benchmark
 
-**Summary:** Simulation environment for offline and online reinforcement learning with continuous, partially observable states, delayed effects and two opposing reward components.
+Simulation environment for offline and online reinforcement learning with continuous, partially observable states, delayed effects and two opposing reward components.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Cross-industrial |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Simulation and control |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2017 |
-| **License** | Apache 2.0 |
+- **Domain:** Cross-industrial
+- **Modality:** Time series
+- **Task:** Simulation and control
+- **Source Type:** Simulation
+- **Access:** Code repository
+- **Year:** 2017
+- **License:** Apache 2.0
 
 ## Description
 

@@ -1,20 +1,18 @@
 # MetroPT-3
 
-**Summary:** Unlabelled multivariate sensor readings from the air production unit of an operating metro train compressor, February to August 2020, with failure reports.
+Unlabelled multivariate sensor readings from the air production unit of an operating metro train compressor, February to August 2020, with failure reports.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Transportation and mobility |
-| **Asset / Process** | Pumps, compressors and fans; Vehicles and fleets |
-| **Modality** | Time series |
-| **Task** | Anomaly detection; RUL and prognostics |
-| **Annotation** | Unlabeled |
-| **Source Type** | Real production |
-| **Access** | UCI repository |
-| **Size** | 1,516,948 instances, 15 features |
-| **Year** | 2023 |
-| **License** | CC BY |
-| **Publisher** | INESC TEC |
+- **Domain:** Transportation and mobility
+- **Asset / Process:** Pumps, compressors and fans; Vehicles and fleets
+- **Modality:** Time series
+- **Task:** Anomaly detection; RUL and prognostics
+- **Annotation:** Unlabeled
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 1,516,948 instances, 15 features
+- **Year:** 2023
+- **License:** CC BY
+- **Publisher:** INESC TEC
 
 ## Description
 

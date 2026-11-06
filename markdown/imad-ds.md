@@ -1,20 +1,18 @@
 # IMAD-DS
 
-**Summary:** Multi-sensor recordings of a scaled robotic arm and brushless motor, with normal and abnormal data under operational and environmental domain shifts.
+Multi-sensor recordings of a scaled robotic arm and brushless motor, with normal and abnormal data under operational and environmental domain shifts.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | Robots and manipulators; Motors and drives |
-| **Modality** | Audio; Vibration; Multimodal |
-| **Task** | Anomaly detection |
-| **Annotation** | Sample label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | Two 7z archives (RoboticArm, BrushlessMotor) |
-| **Year** | 2024 |
-| **License** | CC BY-SA |
-| **Publisher** | STMicroelectronics and Politecnico di Milano |
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators; Motors and drives
+- **Modality:** Audio; Vibration; Multimodal
+- **Task:** Anomaly detection
+- **Annotation:** Sample label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** Two 7z archives (RoboticArm, BrushlessMotor)
+- **Year:** 2024
+- **License:** CC BY-SA
+- **Publisher:** STMicroelectronics and Politecnico di Milano
 
 ## Description
 

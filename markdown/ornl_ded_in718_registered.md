@@ -1,20 +1,15 @@
 # Spatiotemporally Registered In-Situ and Ex-Situ Datasets for Laser-based Blown Powder Directed Energy Deposition
 
-**Summary:** In situ melt pool video and toolpath coordinates from eight Inconel 718 DED builds, registered to post-build X-ray CT of each part.
+In situ melt pool video and toolpath coordinates from eight Inconel 718 DED builds, registered to post-build X-ray CT of each part.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Additive manufacturing |
-| **Modality** | Video; X-ray and CT; Multimodal |
-| **Task** | Process monitoring |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Official portal |
-| **Size** | eight DED builds |
-| **Year** | 2024 |
-| **License** | — |
-| **Publisher** | Oak Ridge National Laboratory |
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Video; X-ray and CT; Multimodal
+- **Task:** Process monitoring
+- **Access:** Official portal
+- **Size:** eight DED builds
+- **Year:** 2024
+- **Publisher:** Oak Ridge National Laboratory
 
 ## Description
 

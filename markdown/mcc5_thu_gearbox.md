@@ -1,20 +1,17 @@
 # Multi-mode Fault Diagnosis Datasets of Gearbox Under Variable Working Conditions
 
-**Summary:** Vibration, torque and speed signals from a two-stage parallel gearbox with seeded gear and bearing faults, recorded under time-varying speed and load.
+Vibration, torque and speed signals from a two-stage parallel gearbox with seeded gear and bearing faults, recorded under time-varying speed and load.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Gears and gearboxes; Bearings |
-| **Modality** | Vibration; Time series |
-| **Task** | Fault diagnosis |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Mendeley Data |
-| **Size** | 240 sets of time series data |
-| **Year** | 2024 |
-| **License** | — |
-| **Publisher** | Tsinghua University |
+- **Domain:** Manufacturing
+- **Asset / Process:** Gears and gearboxes; Bearings
+- **Modality:** Vibration; Time series
+- **Task:** Fault diagnosis
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Size:** 240 sets of time series data
+- **Year:** 2024
+- **Publisher:** Tsinghua University
 
 ## Description
 

@@ -1,19 +1,15 @@
 # Concrete Compressive Strength
 
-**Summary:** Regression data of 1,030 concrete mixtures giving seven component quantities and age as inputs and compressive strength in MPa as the target.
+Regression data of 1,030 concrete mixtures giving seven component quantities and age as inputs and compressive strength in MPa as the target.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Infrastructure and civil |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 1,030 instances |
-| **Year** | 2007 |
-| **License** | CC BY |
+- **Domain:** Infrastructure and civil
+- **Modality:** Tabular
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Access:** UCI repository
+- **Size:** 1,030 instances
+- **Year:** 2007
+- **License:** CC BY
 
 ## Description
 

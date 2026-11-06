@@ -1,21 +1,14 @@
 # Bosch Production Line Performance
 
-**Summary:** Featured competition organised by Bosch in 2016 on reducing manufacturing failures, with entries scored by the Matthews correlation coefficient.
+Featured competition organised by Bosch in 2016 on reducing manufacturing failures, with entries scored by the Matthews correlation coefficient.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; Quality prediction |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Competition |
-| **Size** | — |
-| **Year** | 2016 |
-| **License** | — |
-| **Publisher** | Bosch |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification; Quality prediction
+- **Access:** Competition
+- **Year:** 2016
+- **Publisher:** Bosch
+- **Benchmark:** Yes
 
 ## Description
 

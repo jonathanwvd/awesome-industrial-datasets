@@ -1,20 +1,15 @@
 # MVTec LOCO AD
 
-**Summary:** Unsupervised anomaly localization dataset of 3,644 images in five categories, with both structural and logical anomalies and pixel-precise ground truth.
+Unsupervised anomaly localization dataset of 3,644 images in five categories, with both structural and logical anomalies and pixel-precise ground truth.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Pixel mask |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | 3,644 images |
-| **Year** | 2022 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Pixel mask
+- **Size:** 3,644 images
+- **Year:** 2022
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

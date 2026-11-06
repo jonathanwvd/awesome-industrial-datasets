@@ -1,19 +1,15 @@
 # Paderborn University Bearing Dataset
 
-**Summary:** Motor current and vibration recordings from 32 type 6203 ball bearings, healthy, artificially damaged or worn in accelerated lifetime tests.
+Motor current and vibration recordings from 32 type 6203 ball bearings, healthy, artificially damaged or worn in accelerated lifetime tests.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings; Motors and drives |
-| **Modality** | Vibration; Time series |
-| **Task** | Fault diagnosis |
-| **Annotation** | Sample label; Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | 32 bearings, 20 measurements of 4 s per setting |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings; Motors and drives
+- **Modality:** Vibration; Time series
+- **Task:** Fault diagnosis
+- **Annotation:** Sample label; Class label
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Size:** 32 bearings, 20 measurements of 4 s per setting
 
 ## Description
 

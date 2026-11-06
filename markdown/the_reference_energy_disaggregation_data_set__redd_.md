@@ -1,19 +1,15 @@
 # Reference Energy Disaggregation Data Set (REDD)
 
-**Summary:** Whole-home 15 kHz current and voltage plus circuit- and plug-level power from homes near Boston, released by two MIT researchers for energy disaggregation research.
+Whole-home 15 kHz current and voltage plus circuit- and plug-level power from homes near Boston, released by two MIT researchers for energy disaggregation research.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Buildings and appliances |
-| **Asset / Process** | HVAC and building systems |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | — |
-| **Size** | 119 days of data from 10 homes |
-| **Year** | 2011 |
-| **License** | — |
+- **Domain:** Buildings and appliances
+- **Asset / Process:** HVAC and building systems
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Size:** 119 days of data from 10 homes
+- **Year:** 2011
 
 ## Description
 

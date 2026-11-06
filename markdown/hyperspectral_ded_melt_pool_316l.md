@@ -1,20 +1,18 @@
 # Dataset of Hyperspectral Melt Pool Signatures and Thermal Anomalies in DED of 316L steel
 
-**Summary:** In-situ hyperspectral NIR melt pool images from directed energy deposition of 316L steel, labelled into six thermal anomaly classes.
+In-situ hyperspectral NIR melt pool images from directed energy deposition of 316L steel, labelled into six thermal anomaly classes.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Additive manufacturing |
-| **Modality** | Image |
-| **Task** | Classification; Process monitoring |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 561,861 hyperspectral images |
-| **Year** | 2023 |
-| **License** | CC BY |
-| **Publisher** | Vrije Universiteit Brussel |
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Image
+- **Task:** Classification; Process monitoring
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 561,861 hyperspectral images
+- **Year:** 2023
+- **License:** CC BY
+- **Publisher:** Vrije Universiteit Brussel
 
 ## Description
 

@@ -1,19 +1,14 @@
 # Solar Power Generation Data
 
-**Summary:** Inverter-level generation data and plant-level weather sensor readings from two solar power plants in India over a 34-day period.
+Inverter-level generation data and plant-level weather sensor readings from two solar power plants in India over a 34-day period.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Solar PV |
-| **Modality** | Time series |
-| **Task** | Forecasting; Condition monitoring; Anomaly detection |
-| **Annotation** | — |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | 4 CSV files covering 34 days |
-| **Year** | — |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Solar PV
+- **Modality:** Time series
+- **Task:** Forecasting; Condition monitoring; Anomaly detection
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Size:** 4 CSV files covering 34 days
 
 ## Description
 

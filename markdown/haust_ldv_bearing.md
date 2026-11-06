@@ -1,20 +1,15 @@
 # HAUST-LDV-bearing-dataset
 
-**Summary:** Rolling bearing vibration signals measured without contact by laser Doppler vibrometry for healthy and pitted 6206 bearings under two load conditions.
+Rolling bearing vibration signals measured without contact by laser Doppler vibrometry for healthy and pitted 6206 bearings under two load conditions.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings |
-| **Modality** | Vibration |
-| **Task** | Fault diagnosis; Classification |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Mendeley Data |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Henan University of Science and Technology |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Publisher:** Henan University of Science and Technology
 
 ## Description
 

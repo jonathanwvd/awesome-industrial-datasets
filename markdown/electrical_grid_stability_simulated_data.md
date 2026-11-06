@@ -1,19 +1,17 @@
 # Electrical Grid Stability Simulated Data
 
-**Summary:** 10,000 simulated input sets for a 4-node star grid with the producer at the centre, each with a stability value and a stable or unstable label.
+10,000 simulated input sets for a 4-node star grid with the producer at the centre, each with a stability value and a stable or unstable label.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Tabular |
-| **Task** | Classification; Regression |
-| **Annotation** | Class label; Scalar target |
-| **Source Type** | Simulation |
-| **Access** | UCI repository |
-| **Size** | 10,000 instances |
-| **Year** | 2018 |
-| **License** | CC BY |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Tabular
+- **Task:** Classification; Regression
+- **Annotation:** Class label; Scalar target
+- **Source Type:** Simulation
+- **Access:** UCI repository
+- **Size:** 10,000 instances
+- **Year:** 2018
+- **License:** CC BY
 
 ## Description
 

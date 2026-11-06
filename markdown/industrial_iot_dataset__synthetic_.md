@@ -1,19 +1,15 @@
 # Industrial IoT Dataset (Synthetic)
 
-**Summary:** Fully synthetic smart-factory table of 500,000 simulated machines with sensor, maintenance and supervision fields and two failure-related targets.
+Fully synthetic smart-factory table of 500,000 simulated machines with sensor, maintenance and supervision fields and two failure-related targets.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Tabular |
-| **Task** | Classification; RUL and prognostics |
-| **Annotation** | Sample label; Scalar target |
-| **Source Type** | Synthetic |
-| **Access** | Kaggle |
-| **Size** | 500,000 simulated machines |
-| **Year** | — |
-| **License** | Apache 2.0 |
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification; RUL and prognostics
+- **Annotation:** Sample label; Scalar target
+- **Source Type:** Synthetic
+- **Access:** Kaggle
+- **Size:** 500,000 simulated machines
+- **License:** Apache 2.0
 
 ## Description
 

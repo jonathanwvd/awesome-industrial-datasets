@@ -1,21 +1,18 @@
 # VisA
 
-**Summary:** Images of 12 objects, four of them printed circuit boards, with 9,621 normal and 1,200 anomalous samples, image-level labels and pixel-level anomaly masks.
+Images of 12 objects, four of them printed circuit boards, with 9,621 normal and 1,200 anomalous samples, image-level labels and pixel-level anomaly masks.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | PCBs and electronic assemblies |
-| **Modality** | Image |
-| **Task** | Anomaly detection; Anomaly localization; Defect segmentation |
-| **Annotation** | Sample label; Pixel mask; Normal-only training |
-| **Source Type** | — |
-| **Access** | Direct download |
-| **Size** | 10,821 images |
-| **Year** | 2022 |
-| **License** | CC BY |
-| **Publisher** | Amazon Science |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** PCBs and electronic assemblies
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization; Defect segmentation
+- **Annotation:** Sample label; Pixel mask; Normal-only training
+- **Access:** Direct download
+- **Size:** 10,821 images
+- **Year:** 2022
+- **License:** CC BY
+- **Publisher:** Amazon Science
+- **Benchmark:** Yes
 
 ## Description
 

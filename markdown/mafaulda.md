@@ -1,20 +1,16 @@
 # MAFAULDA Machinery Fault Database
 
-**Summary:** Vibration, tachometer and microphone recordings of 1951 runs on a SpectraQuest rotor rig under normal, imbalance, misalignment and bearing-fault states.
+Vibration, tachometer and microphone recordings of 1951 runs on a SpectraQuest rotor rig under normal, imbalance, misalignment and bearing-fault states.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings |
-| **Modality** | Vibration; Audio; Time series |
-| **Task** | Fault diagnosis; Classification |
-| **Annotation** | Class label |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | 1951 multivariate time series (13.0 GB) |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | Signals, Multimedia, and Telecommunications Laboratory, COPPE/Poli/UFRJ |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration; Audio; Time series
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Size:** 1951 multivariate time series (13.0 GB)
+- **Publisher:** Signals, Multimedia, and Telecommunications Laboratory, COPPE/Poli/UFRJ
 
 ## Description
 

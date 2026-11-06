@@ -1,19 +1,15 @@
 # Casting Product Image Data for Quality Inspection
 
-**Summary:** Grayscale top-view images of submersible pump impeller castings labelled defective or ok, with 7,348 augmented images split for training and testing.
+Grayscale top-view images of submersible pump impeller castings labelled defective or ok, with 7,348 augmented images split for training and testing.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Castings and metal parts |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | Sample label |
-| **Source Type** | — |
-| **Access** | Kaggle |
-| **Size** | 7,348 images |
-| **Year** | — |
-| **License** | CC BY-ND and NC-ND |
+- **Domain:** Manufacturing
+- **Asset / Process:** Castings and metal parts
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Annotation:** Sample label
+- **Access:** Kaggle
+- **Size:** 7,348 images
+- **License:** CC BY-ND and NC-ND
 
 ## Description
 

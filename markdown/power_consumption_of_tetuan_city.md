@@ -1,20 +1,17 @@
 # Power Consumption of Tetouan City
 
-**Summary:** Ten-minute power consumption of three distribution network zones in Tetouan, Morocco, with temperature, humidity, wind speed and diffuse flows.
+Ten-minute power consumption of three distribution network zones in Tetouan, Morocco, with temperature, humidity, wind speed and diffuse flows.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 52,417 instances |
-| **Year** | 2023 |
-| **License** | CC BY |
-| **Publisher** | Abdelmalek Essaadi University |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Access:** UCI repository
+- **Size:** 52,417 instances
+- **Year:** 2023
+- **License:** CC BY
+- **Publisher:** Abdelmalek Essaadi University
 
 ## Description
 

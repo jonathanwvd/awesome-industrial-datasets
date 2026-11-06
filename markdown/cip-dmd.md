@@ -1,19 +1,14 @@
 # CiP-DMD
 
-**Summary:** Machine signals, metadata and quality measurements from a multi-stage process that machines piston rods and cylinder bottoms and assembles them into cylinders.
+Machine signals, metadata and quality measurements from a multi-stage process that machines piston rods and cylinder bottoms and assembles them into cylinders.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | CNC machining and tool wear |
-| **Modality** | Time series; Vibration |
-| **Task** | Quality prediction; Fault diagnosis; Anomaly detection |
-| **Annotation** | Class label; Sample label; Scalar target |
-| **Source Type** | — |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2023 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** CNC machining and tool wear
+- **Modality:** Time series; Vibration
+- **Task:** Quality prediction; Fault diagnosis; Anomaly detection
+- **Annotation:** Class label; Sample label; Scalar target
+- **Access:** Code repository
+- **Year:** 2023
 
 ## Description
 

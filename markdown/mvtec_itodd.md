@@ -1,20 +1,13 @@
 # MVTec ITODD
 
-**Summary:** Industrial 3D object detection and pose estimation dataset with 28 objects in 3,500 labeled scenes, each observed by five sensors.
+Industrial 3D object detection and pose estimation dataset with 28 objects in 3,500 labeled scenes, each observed by five sensors.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Robotics and automation |
-| **Asset / Process** | — |
-| **Modality** | Image; 3D point cloud; Multimodal |
-| **Task** | Object detection; Pose estimation |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | 3,500 labeled scenes |
-| **Year** | — |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Robotics and automation
+- **Modality:** Image; 3D point cloud; Multimodal
+- **Task:** Object detection; Pose estimation
+- **Size:** 3,500 labeled scenes
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

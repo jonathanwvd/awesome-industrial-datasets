@@ -1,20 +1,15 @@
 # MVTec 3D-AD
 
-**Summary:** Unsupervised 3D anomaly detection and localization dataset of over 4,000 high-resolution scans from an industrial 3D sensor in 10 object categories.
+Unsupervised 3D anomaly detection and localization dataset of over 4,000 high-resolution scans from an industrial 3D sensor in 10 object categories.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | 3D point cloud |
-| **Task** | Anomaly detection; Anomaly localization |
-| **Annotation** | Normal-only training |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | 4,000+ scans in 10 categories |
-| **Year** | 2022 |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Manufacturing
+- **Modality:** 3D point cloud
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Normal-only training
+- **Size:** 4,000+ scans in 10 categories
+- **Year:** 2022
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

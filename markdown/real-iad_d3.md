@@ -1,19 +1,14 @@
 # Real-IAD D3
 
-**Summary:** Aligned RGB images, photometric-stereo pseudo-3D data and point clouds of 8,450 samples across 20 product categories and 69 defect types for industrial anomaly detection research.
+Aligned RGB images, photometric-stereo pseudo-3D data and point clouds of 8,450 samples across 20 product categories and 69 defect types for industrial anomaly detection research.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image; 3D point cloud; Multimodal |
-| **Task** | Defect detection; Anomaly localization |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Hugging Face |
-| **Size** | 8,450 samples |
-| **Year** | 2025 |
-| **License** | Academic or non-commercial terms |
+- **Domain:** Manufacturing
+- **Modality:** Image; 3D point cloud; Multimodal
+- **Task:** Defect detection; Anomaly localization
+- **Access:** Hugging Face
+- **Size:** 8,450 samples
+- **Year:** 2025
+- **License:** Academic or non-commercial terms
 
 ## Description
 

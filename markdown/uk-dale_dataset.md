@@ -1,19 +1,15 @@
 # UK-DALE
 
-**Summary:** Electricity demand from five UK homes, with appliance-level power every six seconds and whole-house voltage and current waveforms at 16 kHz in three of them.
+Electricity demand from five UK homes, with appliance-level power every six seconds and whole-house voltage and current waveforms at 16 kHz in three of them.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Buildings and appliances |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | Official portal |
-| **Size** | Five houses; the 16 kHz files total 4 TB |
-| **Year** | 2015 |
-| **License** | — |
+- **Domain:** Buildings and appliances
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Official portal
+- **Size:** Five houses; the 16 kHz files total 4 TB
+- **Year:** 2015
 
 ## Description
 

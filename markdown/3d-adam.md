@@ -1,19 +1,13 @@
 # 3D-ADAM
 
-**Summary:** Image and 3D dataset for anomaly detection in additive manufacturing, released as raw data separated by part instance under CC BY-NC-SA 4.0.
+Image and 3D dataset for anomaly detection in additive manufacturing, released as raw data separated by part instance under CC BY-NC-SA 4.0.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Additive manufacturing |
-| **Modality** | Image; 3D point cloud |
-| **Task** | Anomaly detection; Anomaly localization; Defect segmentation |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | Hugging Face |
-| **Size** | — |
-| **Year** | — |
-| **License** | CC BY-NC-SA |
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Image; 3D point cloud
+- **Task:** Anomaly detection; Anomaly localization; Defect segmentation
+- **Access:** Hugging Face
+- **License:** CC BY-NC-SA
 
 ## Description
 

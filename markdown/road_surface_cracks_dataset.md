@@ -1,19 +1,12 @@
 # CrackForest Dataset
 
-**Summary:** Annotated image database of road cracks that reflects urban road surface conditions, released in 2015 for non-commercial crack detection research.
+Annotated image database of road cracks that reflects urban road surface conditions, released in 2015 for non-commercial crack detection research.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Infrastructure and civil |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Defect detection |
-| **Annotation** | — |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | — |
-| **Year** | 2015 |
-| **License** | Academic or non-commercial terms |
+- **Domain:** Infrastructure and civil
+- **Modality:** Image
+- **Task:** Defect detection
+- **Year:** 2015
+- **License:** Academic or non-commercial terms
 
 ## Description
 

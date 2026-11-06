@@ -1,20 +1,16 @@
 # Renewable power plants
 
-**Summary:** Open Power System Data package listing renewable power plants in eight European countries, plus daily time series of cumulated installed capacity per energy source.
+Open Power System Data package listing renewable power plants in eight European countries, plus daily time series of cumulated installed capacity per energy source.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Tabular; Time series |
-| **Task** | Regression |
-| **Annotation** | — |
-| **Source Type** | Public records |
-| **Access** | Direct download |
-| **Size** | 352 MB zipped data package |
-| **Year** | 2020 |
-| **License** | — |
-| **Publisher** | Open Power System Data |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Tabular; Time series
+- **Task:** Regression
+- **Source Type:** Public records
+- **Access:** Direct download
+- **Size:** 352 MB zipped data package
+- **Year:** 2020
+- **Publisher:** Open Power System Data
 
 ## Description
 

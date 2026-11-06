@@ -1,20 +1,17 @@
 # ToyADMOS dataset
 
-**Summary:** Miniature-machine operating sounds from NTT, about 540 hours normal and over 12,000 anomalous samples, recorded with a toy car, a toy conveyor and a toy train.
+Miniature-machine operating sounds from NTT, about 540 hours normal and over 12,000 anomalous samples, recorded with a toy car, a toy conveyor and a toy train.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Audio |
-| **Task** | Anomaly detection; Fault diagnosis |
-| **Annotation** | Sample label |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | about 540 hours normal and over 12,000 anomalous sound samples |
-| **Year** | 2019 |
-| **License** | Academic or non-commercial terms |
-| **Publisher** | NTT Media Intelligence Laboratories |
+- **Domain:** Manufacturing
+- **Modality:** Audio
+- **Task:** Anomaly detection; Fault diagnosis
+- **Annotation:** Sample label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** about 540 hours normal and over 12,000 anomalous sound samples
+- **Year:** 2019
+- **License:** Academic or non-commercial terms
+- **Publisher:** NTT Media Intelligence Laboratories
 
 ## Description
 

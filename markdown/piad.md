@@ -1,19 +1,13 @@
 # PIAD
 
-**Summary:** Multi-view images of 30 industrial products, 16 rendered in Blender and 14 photographed, for anomaly detection under changing pose and lighting.
+Multi-view images of 30 industrial products, 16 rendered in Blender and 14 photographed, for anomaly detection under changing pose and lighting.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Anomaly detection |
-| **Annotation** | — |
-| **Source Type** | Mixed |
-| **Access** | — |
-| **Size** | 11,268 multi-view images |
-| **Year** | 2025 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Anomaly detection
+- **Source Type:** Mixed
+- **Size:** 11,268 multi-view images
+- **Year:** 2025
 
 ## Description
 

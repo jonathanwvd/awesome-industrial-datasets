@@ -1,21 +1,17 @@
 # HAI Security Dataset
 
-**Summary:** Time series of SCADA points with attack labels from an industrial control testbed coupled to a hardware-in-the-loop power generation simulator.
+Time series of SCADA points with attack labels from an industrial control testbed coupled to a hardware-in-the-loop power generation simulator.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Control systems and networks |
-| **Modality** | Time series |
-| **Task** | Intrusion detection; Anomaly detection |
-| **Annotation** | Event and time label; Normal-only training |
-| **Source Type** | Lab or testbed |
-| **Access** | Code repository |
-| **Size** | — |
-| **Year** | 2020 |
-| **License** | — |
-| **Publisher** | The Affiliated Institute of ETRI, South Korea |
-| **Benchmark** | Yes |
+- **Domain:** OT security
+- **Asset / Process:** Control systems and networks
+- **Modality:** Time series
+- **Task:** Intrusion detection; Anomaly detection
+- **Annotation:** Event and time label; Normal-only training
+- **Source Type:** Lab or testbed
+- **Access:** Code repository
+- **Year:** 2020
+- **Publisher:** The Affiliated Institute of ETRI, South Korea
+- **Benchmark:** Yes
 
 ## Description
 

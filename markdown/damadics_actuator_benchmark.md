@@ -1,20 +1,14 @@
 # Damadics Benchmark
 
-**Summary:** Benchmark for a pneumatic control valve actuator with faulty and fault-free data, combining a Simulink simulator library with daily data from the Lublin Sugar Factory.
+Benchmark for a pneumatic control valve actuator with faulty and fault-free data, combining a Simulink simulator library with daily data from the Lublin Sugar Factory.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | Valves and actuators |
-| **Modality** | Time series |
-| **Task** | Fault diagnosis |
-| **Annotation** | — |
-| **Source Type** | Mixed |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** Chemical and process
+- **Asset / Process:** Valves and actuators
+- **Modality:** Time series
+- **Task:** Fault diagnosis
+- **Source Type:** Mixed
+- **Access:** Direct download
+- **Benchmark:** Yes
 
 ## Description
 

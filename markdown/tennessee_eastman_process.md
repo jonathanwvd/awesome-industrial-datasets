@@ -1,20 +1,14 @@
 # Tennessee Eastman Challenge Archive
 
-**Summary:** Download archive of the Tennessee Eastman challenge process simulator in Fortran, C, MATLAB and Simulink, with recorded responses to 15 process disturbances.
+Download archive of the Tennessee Eastman challenge process simulator in Fortran, C, MATLAB and Simulink, with recorded responses to 15 process disturbances.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | Chemical process units |
-| **Modality** | Time series |
-| **Task** | Simulation and control |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | University of Washington |
+- **Domain:** Chemical and process
+- **Asset / Process:** Chemical process units
+- **Modality:** Time series
+- **Task:** Simulation and control
+- **Source Type:** Simulation
+- **Access:** Direct download
+- **Publisher:** University of Washington
 
 ## Description
 

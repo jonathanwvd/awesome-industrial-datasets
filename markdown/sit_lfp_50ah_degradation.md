@@ -1,20 +1,17 @@
 # SIT Large-Format LiFePO4 Battery Degradation Dataset (50 Ah Prismatic Cells)
 
-**Summary:** Aging data from 22 prismatic 50 Ah LiFePO4 cells cycled for about 18 months at several rates and temperatures, logged at 1-second resolution with per-cell surface temperature.
+Aging data from 22 prismatic 50 Ah LiFePO4 cells cycled for about 18 months at several rates and temperatures, logged at 1-second resolution with per-cell surface temperature.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Batteries |
-| **Modality** | Time series |
-| **Task** | Condition monitoring; RUL and prognostics |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | 22 cells, about 14,800 data files |
-| **Year** | 2026 |
-| **License** | CC BY |
-| **Publisher** | Singapore Institute of Technology |
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Condition monitoring; RUL and prognostics
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 22 cells, about 14,800 data files
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** Singapore Institute of Technology
 
 ## Description
 

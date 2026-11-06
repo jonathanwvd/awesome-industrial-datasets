@@ -1,20 +1,15 @@
 # IMS Bearings
 
-**Summary:** Bearing experiments from the University of Cincinnati's Center for Intelligent Maintenance Systems, distributed in NASA's Prognostics Data Repository.
+Bearing experiments from the University of Cincinnati's Center for Intelligent Maintenance Systems, distributed in NASA's Prognostics Data Repository.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings |
-| **Modality** | Vibration |
-| **Task** | RUL and prognostics; Condition monitoring |
-| **Annotation** | — |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | — |
-| **Year** | 2007 |
-| **License** | — |
-| **Publisher** | NASA Ames Prognostics Center of Excellence (PCoE) |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration
+- **Task:** RUL and prognostics; Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Year:** 2007
+- **Publisher:** NASA Ames Prognostics Center of Excellence (PCoE)
 
 ## Description
 

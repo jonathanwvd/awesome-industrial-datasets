@@ -1,19 +1,14 @@
 # MIMII DG
 
-**Summary:** Machine sound dataset for anomalous sound detection under domain shift, with five machine types and three shift scenarios each, used in the DCASE 2022 challenge.
+Machine sound dataset for anomalous sound detection under domain shift, with five machine types and three shift scenarios each, used in the DCASE 2022 challenge.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | — |
-| **Modality** | Audio |
-| **Task** | Anomaly detection; Condition monitoring |
-| **Annotation** | Normal-only training; Sample label |
-| **Source Type** | — |
-| **Access** | Zenodo, Dataverse or Figshare |
-| **Size** | — |
-| **Year** | 2022 |
-| **License** | CC BY-NC-SA |
+- **Domain:** Manufacturing
+- **Modality:** Audio
+- **Task:** Anomaly detection; Condition monitoring
+- **Annotation:** Normal-only training; Sample label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2022
+- **License:** CC BY-NC-SA
 
 ## Description
 

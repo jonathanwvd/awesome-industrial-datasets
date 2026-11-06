@@ -1,19 +1,15 @@
 # Air Quality
 
-**Summary:** Hourly responses of five metal oxide gas sensors deployed at road level in an Italian city, paired with reference analyzer concentrations over one year.
+Hourly responses of five metal oxide gas sensors deployed at road level in an Italian city, paired with reference analyzer concentrations over one year.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Environment and safety |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Regression |
-| **Annotation** | Scalar target |
-| **Source Type** | — |
-| **Access** | UCI repository |
-| **Size** | 9,358 hourly records |
-| **Year** | 2016 |
-| **License** | Academic or non-commercial terms |
+- **Domain:** Environment and safety
+- **Modality:** Time series
+- **Task:** Regression
+- **Annotation:** Scalar target
+- **Access:** UCI repository
+- **Size:** 9,358 hourly records
+- **Year:** 2016
+- **License:** Academic or non-commercial terms
 
 ## Description
 

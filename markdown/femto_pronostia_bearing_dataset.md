@@ -1,21 +1,18 @@
 # FEMTO Bearing Data Set
 
-**Summary:** Accelerated run-to-failure tests of ball bearings on the PRONOSTIA rig at FEMTO-ST, with vibration and temperature records and a scored RUL challenge split.
+Accelerated run-to-failure tests of ball bearings on the PRONOSTIA rig at FEMTO-ST, with vibration and temperature records and a scored RUL challenge split.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Bearings |
-| **Modality** | Vibration; Time series |
-| **Task** | RUL and prognostics; Condition monitoring |
-| **Annotation** | RUL label |
-| **Source Type** | Lab or testbed |
-| **Access** | Direct download |
-| **Size** | 6 run-to-failure training bearings and 11 truncated test bearings |
-| **Year** | 2012 |
-| **License** | — |
-| **Publisher** | FEMTO-ST Institute |
-| **Benchmark** | Yes |
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration; Time series
+- **Task:** RUL and prognostics; Condition monitoring
+- **Annotation:** RUL label
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Size:** 6 run-to-failure training bearings and 11 truncated test bearings
+- **Year:** 2012
+- **Publisher:** FEMTO-ST Institute
+- **Benchmark:** Yes
 
 ## Description
 

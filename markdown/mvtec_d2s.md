@@ -1,20 +1,14 @@
 # MVTec D2S
 
-**Summary:** Instance-aware semantic segmentation benchmark of 21,000 high-resolution images showing groceries and everyday products from 60 categories.
+Instance-aware semantic segmentation benchmark of 21,000 high-resolution images showing groceries and everyday products from 60 categories.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Logistics and retail |
-| **Asset / Process** | — |
-| **Modality** | Image |
-| **Task** | Object detection |
-| **Annotation** | Instance mask |
-| **Source Type** | — |
-| **Access** | — |
-| **Size** | 21,000 images |
-| **Year** | — |
-| **License** | CC BY-NC-SA |
-| **Publisher** | MVTec |
+- **Domain:** Logistics and retail
+- **Modality:** Image
+- **Task:** Object detection
+- **Annotation:** Instance mask
+- **Size:** 21,000 images
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec
 
 ## Description
 

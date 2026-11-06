@@ -1,19 +1,14 @@
 # Quality Prediction in a Mining Process
 
-**Summary:** Process and lab data from an iron ore flotation plant, from March to September 2017, aimed at predicting the silica impurity in the ore concentrate.
+Process and lab data from an iron ore flotation plant, from March to September 2017, aimed at predicting the silica impurity in the ore concentrate.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | — |
-| **Modality** | Time series |
-| **Task** | Regression; Quality prediction |
-| **Annotation** | Scalar target |
-| **Source Type** | Real production |
-| **Access** | Kaggle |
-| **Size** | — |
-| **Year** | — |
-| **License** | CC0 and public domain |
+- **Domain:** Chemical and process
+- **Modality:** Time series
+- **Task:** Regression; Quality prediction
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **License:** CC0 and public domain
 
 ## Description
 

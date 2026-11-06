@@ -1,19 +1,16 @@
 # GC10-DET
 
-**Summary:** Grayscale images of ten surface defect types on steel sheet, collected in real industry and labelled with box-level ground truth for defect detection.
+Grayscale images of ten surface defect types on steel sheet, collected in real industry and labelled with box-level ground truth for defect detection.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Manufacturing |
-| **Asset / Process** | Steel and metal surfaces |
-| **Modality** | Image |
-| **Task** | Defect detection; Classification |
-| **Annotation** | Bounding box; Class label |
-| **Source Type** | Real production |
-| **Access** | Direct download |
-| **Size** | 3,570 grayscale images |
-| **Year** | 2020 |
-| **License** | — |
+- **Domain:** Manufacturing
+- **Asset / Process:** Steel and metal surfaces
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Annotation:** Bounding box; Class label
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Size:** 3,570 grayscale images
+- **Year:** 2020
 
 ## Description
 

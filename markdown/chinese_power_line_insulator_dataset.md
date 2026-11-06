@@ -1,19 +1,16 @@
 # Chinese Power Line Insulator Dataset
 
-**Summary:** Power line insulator images with VOC2007 annotations, combining 600 normal images captured by UAVs and 248 synthetic images of defective insulators.
+Power line insulator images with VOC2007 annotations, combining 600 normal images captured by UAVs and 248 synthetic images of defective insulators.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Power grids and plants |
-| **Modality** | Image |
-| **Task** | Defect detection; Object detection |
-| **Annotation** | Bounding box |
-| **Source Type** | Mixed |
-| **Access** | Code repository |
-| **Size** | 600 normal and 248 defective images |
-| **Year** | 2018 |
-| **License** | — |
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Image
+- **Task:** Defect detection; Object detection
+- **Annotation:** Bounding box
+- **Source Type:** Mixed
+- **Access:** Code repository
+- **Size:** 600 normal and 248 defective images
+- **Year:** 2018
 
 ## Description
 

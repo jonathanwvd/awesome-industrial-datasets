@@ -1,20 +1,17 @@
 # BATADAL Water SCADA Cyber-Attack Dataset
 
-**Summary:** Hourly SCADA data from a simulated water distribution network, C-Town, split into attack-free, partially labelled and unlabelled sets for comparing attack detectors.
+Hourly SCADA data from a simulated water distribution network, C-Town, split into attack-free, partially labelled and unlabelled sets for comparing attack detectors.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | OT security |
-| **Asset / Process** | Control systems and networks; Water treatment and distribution |
-| **Modality** | Time series |
-| **Task** | Intrusion detection |
-| **Annotation** | Event and time label; Unlabeled |
-| **Source Type** | Simulation |
-| **Access** | Direct download |
-| **Size** | Three hourly SCADA datasets |
-| **Year** | 2016 |
-| **License** | — |
-| **Benchmark** | Yes |
+- **Domain:** OT security
+- **Asset / Process:** Control systems and networks; Water treatment and distribution
+- **Modality:** Time series
+- **Task:** Intrusion detection
+- **Annotation:** Event and time label; Unlabeled
+- **Source Type:** Simulation
+- **Access:** Direct download
+- **Size:** Three hourly SCADA datasets
+- **Year:** 2016
+- **Benchmark:** Yes
 
 ## Description
 

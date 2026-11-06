@@ -1,20 +1,16 @@
 # IndPenSim
 
-**Summary:** 100 simulated batches of a 100,000 litre penicillin fermentation with process and Raman measurements, run by recipe, operators or advanced control, or with faults.
+100 simulated batches of a 100,000 litre penicillin fermentation with process and Raman measurements, run by recipe, operators or advanced control, or with faults.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Chemical and process |
-| **Asset / Process** | Chemical process units |
-| **Modality** | Time series; Spectra |
-| **Task** | Process monitoring |
-| **Annotation** | — |
-| **Source Type** | Simulation |
-| **Access** | Mendeley Data |
-| **Size** | 100 batches (about 2.5 GB) |
-| **Year** | 2019 |
-| **License** | — |
-| **Publisher** | The University of Manchester and University College London |
+- **Domain:** Chemical and process
+- **Asset / Process:** Chemical process units
+- **Modality:** Time series; Spectra
+- **Task:** Process monitoring
+- **Source Type:** Simulation
+- **Access:** Mendeley Data
+- **Size:** 100 batches (about 2.5 GB)
+- **Year:** 2019
+- **Publisher:** The University of Manchester and University College London
 
 ## Description
 

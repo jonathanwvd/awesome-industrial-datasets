@@ -1,20 +1,15 @@
 # Li-ion Battery Aging Datasets
 
-**Summary:** Run-to-failure charge, discharge and impedance records of Li-ion 18650 cells, aged on a NASA Ames prognostics testbed until a 30% capacity fade.
+Run-to-failure charge, discharge and impedance records of Li-ion 18650 cells, aged on a NASA Ames prognostics testbed until a 30% capacity fade.
 
-| Parameter | Value |
-| --- | --- |
-| **Domain** | Energy and power |
-| **Asset / Process** | Batteries |
-| **Modality** | Time series |
-| **Task** | RUL and prognostics |
-| **Annotation** | RUL label |
-| **Source Type** | Lab or testbed |
-| **Access** | Official portal |
-| **Size** | — |
-| **Year** | — |
-| **License** | — |
-| **Publisher** | NASA Ames Prognostics Center of Excellence (PCoE) |
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** RUL and prognostics
+- **Annotation:** RUL label
+- **Source Type:** Lab or testbed
+- **Access:** Official portal
+- **Publisher:** NASA Ames Prognostics Center of Excellence (PCoE)
 
 ## Description
 
