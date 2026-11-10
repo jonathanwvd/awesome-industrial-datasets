@@ -1,0 +1,26 @@
+{
+  "Name": "HVAC Traces",
+  "Summary": "Packet traces from the HVAC management system of a university campus, anonymised with Crypto-PAN and truncated to headers for intrusion detection research.",
+  "Domain": "OT security",
+  "Asset / Process": "HVAC and building systems; Control systems and networks",
+  "Modality": "Network traffic",
+  "Task": "Intrusion detection",
+  "Source Type": "Real production",
+  "Access": "Direct download",
+  "Year": "2019",
+  "Description": "HVAC Traces is a set of pcap files recorded on the network of the HVAC management system of a university campus. Gorby Kabasele Ndonda and Ramin Sadre describe the system in a 2019 arXiv paper, \"A Public Network Trace of a Control and Automation System\". The traces are meant for evaluating and validating network intrusion detection systems in automation settings.\n\nFor privacy, IP addresses are anonymised with Crypto-PAN and packet payloads are truncated, so the data keeps only packet headers. A table maps the anonymised addresses of interest to their roles: gateways, a control server, an S7 client and S7 server, several HMIs, NetBIOS nodes, DNS, NTP, HTTP and update servers.\n\nA second table names uncommon ports seen in the traffic, mostly DCE/RPC, plus two proprietary ports and an update service over HTTP. The traces themselves are downloaded from a Google Drive folder linked in the repository.",
+  "References": [
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/gkabasele/HVAC_Traces"
+    },
+    {
+      "Text": "Preprint (arXiv)",
+      "Link": "https://arxiv.org/abs/1908.02118"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/hvac-traces-campus/"
+    }
+  ]
+}

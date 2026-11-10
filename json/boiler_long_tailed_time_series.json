@@ -1,0 +1,27 @@
+{
+  "Name": "A long-tailed distribution time-series dataset in boiler equipment",
+  "Summary": "Multivariate operating data from a coal-fired boiler at a chemical plant in Zhejiang, with pressure, temperature, flow and oxygen readings and a long-tailed distribution, in raw and completed form.",
+  "Domain": "Energy and power",
+  "Modality": "Time series",
+  "Task": "Other",
+  "Source Type": "Real production",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "Two zipped CSV files, completed and uncompleted",
+  "Year": "2025",
+  "License": "CC0 and public domain",
+  "Description": "Industrial boilers turn the chemical energy of fuel into heat carried by steam, and they serve sectors such as power generation, chemicals, metallurgy and paper making. Analysing their operating parameters over time helps tune settings and extend the life of the equipment, but harsh operating conditions and data transmission problems mean the sensors often record incomplete or wrong values.\n\nThis dataset was collected from a coal-fired boiler at a chemical plant in Zhejiang. The authors preprocessed the flawed raw records into a high-dimensional time series that covers key operating parameters such as pressure, temperature, flow rate and oxygen level. They take the steam temperature at the boiler outlet as the main indicator of equipment condition, and the data shows long-tailed distributions, which the authors offer as a basis for work on long-tail problems in industrial equipment analytics.\n\nThe figshare record holds two zipped CSV files, one with completed data and one with the uncompleted data, plus a Python script. It is released under CC0 and supplements a journal paper of the same title.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://springernature.figshare.com/articles/dataset/A_long-tailed_distribution_time-series_dataset_in_boiler_equipment/28868849"
+    },
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.1038/s41597-025-05096-4"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/boiler-long-tailed-time-series/"
+    }
+  ]
+}

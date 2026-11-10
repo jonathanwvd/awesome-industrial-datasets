@@ -2,7 +2,7 @@
 
 Process and lab data from an iron ore flotation plant, from March to September 2017, aimed at predicting the silica impurity in the ore concentrate.
 
-- **Domain:** Chemical and process
+- **Domain:** Mining and mineral processing
 - **Modality:** Time series
 - **Task:** Regression; Quality prediction
 - **Annotation:** Scalar target

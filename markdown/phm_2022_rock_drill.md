@@ -1,0 +1,26 @@
+# 2022 PHM Conference Data Challenge
+
+Pressure signals from rock drills in several configurations, labelled with a no-fault class and ten failure modes, released for a fault classification competition.
+
+- **Domain:** Mining and mineral processing
+- **Modality:** Time series
+- **Task:** Fault diagnosis
+- **Annotation:** Class label
+- **Access:** Competition
+- **Year:** 2022
+- **Benchmark:** Yes
+
+## Description
+
+The 2022 PHM Conference Data Challenge, hosted on the PHM Society data repository, asks teams to classify faults of a rock drill running under different individual configurations. Models take pressure sensor data as their input.
+
+In each CSV file the first column gives the label of the cycle. Label 1 is the no-fault condition, labels 2 to 11 are fault types, and label 0 marks a blind sample. Altogether there are 11 categories: ten failure modes plus the healthy state. The training part covers five individual configurations, and a reference recording in the no-fault condition comes with the test and validation data.
+
+Blind test data feeds an online leaderboard that reports accuracy, while the official score uses only the validation set, drawn from configurations 7 and 8. Training, testing and validation archives come with a challenge description and an example submission file.
+
+## References
+
+- [Official page](https://data.phmsociety.org/2022-phm-conference-data-challenge/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/phm-2022-rock-drill/)
+
+[⬅️ Back to Index](../README.md)

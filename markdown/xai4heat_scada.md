@@ -1,0 +1,29 @@
+# XAI4HEAT SCADA Dataset 2024
+
+Hourly SCADA readings from five residential substations of a district heating system in Niš, Serbia, covering five heating seasons.
+
+- **Domain:** Energy and power
+- **Asset / Process:** HVAC and building systems
+- **Modality:** Time series
+- **Task:** Energy optimization
+- **Source Type:** Real production
+- **Access:** Mendeley Data
+- **Size:** 5 substations, hourly
+- **Year:** 2024
+- **License:** CC BY
+- **Publisher:** Faculty of Mechanical Engineering in Niš
+
+## Description
+
+The XAI4HEAT SCADA Dataset 2024 holds heating readings exported from SCADA for a local district heating system (DHS) at the Niš Faculty of Mechanical Engineering in Serbia. Stevica Cvetković, Milan Zdravković and Marko Ignjatović published it on Mendeley Data in November 2024 as version 1.
+
+It covers five substations in residential buildings over five heating seasons, with parameters at one-hour resolution. The variables are supply and return temperatures of the heating fluid, energy transmission metrics and outdoor temperature.
+
+The authors aim the data at explainable intelligent control of district heating, with a focus on heat demand response and load shifting, and at explainable AI that makes urban heat consumption and supply variations easier to interpret, including what-if analyses. It is released under CC BY 4.0.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/2mwc6x6kwb)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/xai4heat-scada/)
+
+[⬅️ Back to Index](../README.md)

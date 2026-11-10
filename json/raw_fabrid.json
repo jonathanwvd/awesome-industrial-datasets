@@ -1,0 +1,24 @@
+{
+  "Name": "RAW-FABRID: RAW FABRic Image Dataset for defect detection",
+  "Summary": "Line-scan grayscale images of industrial fabrics from several manufacturers, with pixel masks and patches arranged in the MVTec AD folder layout.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Surfaces and textures",
+  "Modality": "Image",
+  "Task": "Anomaly detection; Defect segmentation",
+  "Annotation": "Pixel mask; Normal-only training",
+  "Source Type": "Lab or testbed",
+  "Access": "Mendeley Data",
+  "Size": "709 high-resolution images",
+  "Publisher": "Universitat Politècnica de València",
+  "Description": "RAW-FABRID is a set of high-resolution images of industrial textiles from the Universitat Politècnica de València, made to develop and compare anomaly detection and semantic segmentation methods for automated visual inspection. The fabrics come from several manufacturers, so texture and weave vary across the set.\n\nA purpose-built machine with a Basler line-scan camera at 4 px/mm and two LED lights captured the fabric. The 709 full-resolution images are 8-bit grayscale PNGs of 1792×1024 pixels, cropped to remove dark borders and uneven lighting at the edges, and include both defect-free and defective samples. The 204 defective images have binary masks, with 255 marking defective pixels.\n\nFor direct use with existing anomaly detection code, the images are also cut into 256×256 patches in the MVTec AD folder layout: 14,196 defect-free training patches, and 4,969 good and 687 defective test patches with masks. CSV metadata gives each file's fabric origin and defect area.",
+  "References": [
+    {
+      "Text": "Mendeley Data",
+      "Link": "https://data.mendeley.com/datasets/db6g85xsyg"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/raw-fabrid/"
+    }
+  ]
+}

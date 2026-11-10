@@ -1,0 +1,28 @@
+{
+  "Name": "Submerged Arc Welding open repository",
+  "Summary": "Process data, experiment design and non-destructive testing results from test coupons welded by submerged arc welding by AIMEN.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Welding",
+  "Modality": "Multimodal",
+  "Task": "Quality prediction; Defect detection",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Year": "2025",
+  "License": "CC BY",
+  "Publisher": "AIMEN (Asociación de Investigación Metalúrgica del Noroeste)",
+  "Description": "The Submerged Arc Welding open repository is a dataset from AIMEN, the Asociación de Investigación Metalúrgica del Noroeste, collected within the ZDZW project. It gathers data from a series of test coupons welded with the submerged arc welding (SAW) process.\n\nThe repository covers the whole manufacturing workflow rather than the welding signals alone: the process data, the design of the experiment with its process window parameterisation, and non-destructive testing (NDT) data. Everything ships as a single ZIP archive, with a README that explains how to open each file type with open software.\n\nThe authors frame it against the need for quality control and early defect detection in SAW, as a foundation for data-driven methods and process optimisation. It was published in 2025 under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.15096503"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/15096503"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/submerged-arc-welding-open-repository/"
+    }
+  ]
+}

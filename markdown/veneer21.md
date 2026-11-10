@@ -1,0 +1,27 @@
+# Veneer21
+
+Paired high-resolution images of 2579 wood veneers photographed before and after drying in a real plywood factory, with Raute Corporation acknowledged for making it public.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Other
+- **Source Type:** Real production
+- **Access:** IEEE DataPort
+- **Size:** 2579 image pairs, 5158 images
+- **Year:** 2021
+
+## Description
+
+Veneer21 is a set of wood veneer images collected in a real plywood factory, with Raute Corporation acknowledged for making it public. It was submitted to IEEE DataPort by Tuomas Jalonen and accompanies a 2021 IEEE Access paper on a visual product tracking system using Siamese neural networks.
+
+The dataset has 2579 image pairs, 5158 images in total, each pair showing the same veneer before and after drying. The images are high-resolution PNG files, generally over 4000x4000 pixels, on a white background. They sit in two folders, Wet and Dry, numbered so that matching files show the same sheet.
+
+The paper uses the pairs for visual product tracking, and the authors suggest knot detection, knot segmentation and other wood fault detection as further uses. The files are open access on IEEE DataPort for any logged-in user, and IEEE membership is not required.
+
+## References
+
+- [IEEE DataPort](https://ieee-dataport.org/open-access/veneer21)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/veneer21/)
+
+[⬅️ Back to Index](../README.md)

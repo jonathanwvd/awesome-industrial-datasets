@@ -8,11 +8,10 @@ Drone infrared thermography images of defective PV modules at DTU's Risø plant,
 - **Task:** Defect detection
 - **Annotation:** Class label
 - **Access:** Zenodo, Dataverse or Figshare
-- **Year:** 2025
 
 ## Description
 
-This dataset holds drone infrared thermography (IRT) images of photovoltaic modules at DTU's PV plant at Risø, collected in the SOLARIS project. It gathers the measurements behind the publication "Advancing Drone Infrared Thermography for Photovoltaic Plant Inspections Defect Detection: Influence of Altitude and Environmental Conditions" and was posted in 2025 by Rodrigo Del Prado Santamaria.
+This dataset holds drone infrared thermography (IRT) images of photovoltaic modules at DTU's PV plant at Risø, collected in the SOLARIS project. It gathers the measurements behind the publication "Advancing Drone Infrared Thermography for Photovoltaic Plant Inspections Defect Detection: Influence of Altitude and Environmental Conditions" and was deposited by Rodrigo Del Prado Santamaria.
 
 Each module under study was imaged from the drone at four altitudes and irradiances. The ZIP archive is organised by defect type, with one folder per module. A module folder holds an EL image in NEF format, or a visible image for the soiling cases, plus IRT images as PNG files for viewing and as raw float32 temperature files sampled to 363x605 pixels.
 

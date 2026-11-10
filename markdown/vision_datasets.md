@@ -1,0 +1,29 @@
+# VISION Datasets
+
+Collection of 14 industrial inspection datasets with about 18k images, 44 defect types and polygon instance masks, built for defect segmentation challenges.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** PCBs and electronic assemblies; Castings and metal parts; Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation
+- **Annotation:** Instance mask; Bounding box
+- **Access:** Hugging Face
+- **Size:** 18k images in 14 datasets
+- **Year:** 2023
+- **Benchmark:** Yes
+
+## Description
+
+The VISION Datasets gather 14 industrial inspection datasets into one benchmark for vision-based defect inspection, published on Hugging Face under VISION-Workshop in June 2023 (arXiv 2306.07890). The images were curated from Roboflow, and the original image assets keep the licenses of their original datasets.
+
+The 14 datasets are Cable, Capacitor, Casting, Console, Cylinder, Electronics, Groove, Hemisphere, Lens, PCB_1, PCB_2, Ring, Screw and Wood, with about 18k images covering 44 defect types. Each defect carries a polygon label drawn from the original bounding box, stored as COCO-format annotations; the polygon annotations are licensed under CC BY-NC 4.0.
+
+Every dataset has train, val and inference folders. The inference folder mixes the hidden test images with unused ones, and scores are computed on the test split only. Two challenge tracks run on the data: one on learning with limited labeled data and one on generating synthetic training data.
+
+## References
+
+- [Hugging Face dataset](https://huggingface.co/datasets/VISION-Workshop/VISION-Datasets)
+- [Preprint (arXiv)](https://arxiv.org/abs/2306.07890)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/vision-datasets/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,31 @@
+# LeakDB
+
+Simulated but realistic leakage scenarios on benchmark water distribution networks, with pressures, demands, flows, leak labels and a MATLAB scoring tool for leak detection methods.
+
+- **Domain:** Water and utilities
+- **Asset / Process:** Water treatment and distribution
+- **Modality:** Time series
+- **Task:** Anomaly detection
+- **Annotation:** Event and time label
+- **Source Type:** Simulation
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2018
+- **License:** CC BY
+- **Publisher:** KIOS Research and Innovation Center of Excellence
+
+## Description
+
+LeakDB, short for Leakage Diagnosis Benchmark, is a dataset for testing how well algorithms detect leaks in drinking water distribution networks. It was built at the KIOS Research and Innovation Center of Excellence and first presented at the 2018 WDSA/CCWI joint conference.
+
+It consists of many simulated leak scenarios, designed to be realistic and run under varying conditions on the Net1 and Hanoi benchmark networks. For each scenario, CSV files hold the pressure and demand at every node and the flow in every link, next to the network model used for the simulation. A label file marks for each half-hour step whether a leak is present, and the leak folder records the location and type of each leak, abrupt or incipient.
+
+A MATLAB scoring algorithm rates detection results with several metrics, and the authors demonstrate it on four detection algorithms. The toolkit that generates the scenarios and the detection code are open source on GitHub under the EUPL 1.2. The full dataset is a single zip archive on Zenodo under CC BY 4.0, in a record updated in 2024.
+
+## References
+
+- [Zenodo record](https://zenodo.org/records/13985057)
+- [GitHub repository](https://github.com/KIOS-Research/LeakDB)
+- [waterfutures.github.io](https://waterfutures.github.io/WaterBenchmarkHub/benchmarks/KIOS-LeakDB.html)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/leakdb/)
+
+[⬅️ Back to Index](../README.md)

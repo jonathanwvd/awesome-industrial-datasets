@@ -1,0 +1,25 @@
+{
+  "Name": "FabriD: Fabric Defect Detection Dataset",
+  "Summary": "Real-world fabric images in four defect classes and one defect-free class, with manual class labels, polygons and segmentation masks for detecting and localizing textile defects.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Surfaces and textures",
+  "Modality": "Image",
+  "Task": "Classification; Defect detection; Defect segmentation",
+  "Annotation": "Class label; Instance mask",
+  "Access": "Mendeley Data",
+  "Size": "2,407 images",
+  "Year": "2026",
+  "License": "CC BY",
+  "Publisher": "University of Information Technology and Sciences",
+  "Description": "FabriD is a set of real-world fabric images for detecting and segmenting textile defects. It was published on Mendeley Data by a team at the University of Information Technology and Sciences, and the current release is version 3, from 2026.\n\nThe 2,407 images fall into five categories: four defect classes and one defect-free class. Among the defect classes, needle marks account for 467 images and missing yarn for 454, and the record lists counts for every class. The team labelled every image by hand on the Roboflow platform, producing class labels, polygon outlines and segmentation masks that locate each defect, and then reviewed the labels manually to make them more consistent.\n\nWith class labels for whole images and masks for each defect, the same pictures can train both classifiers and segmentation models for fabric inspection. The record is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "Mendeley Data",
+      "Link": "https://data.mendeley.com/datasets/vncdwps24r"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/fabrid-fabric-defect-detection/"
+    }
+  ]
+}

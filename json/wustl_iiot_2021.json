@@ -1,0 +1,30 @@
+{
+  "Name": "WUSTL-IIOT-2021",
+  "Summary": "Network flow records from an IIoT testbed at Washington University in St. Louis with 1,194,464 observations, 41 features and labelled DoS, reconnaissance and injection attacks.",
+  "Domain": "OT security",
+  "Asset / Process": "Control systems and networks",
+  "Modality": "Tabular; Network traffic",
+  "Task": "Intrusion detection",
+  "Annotation": "Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Direct download",
+  "Size": "1,194,464 observations",
+  "Year": "2021",
+  "License": "CC BY",
+  "Publisher": "Washington University in St. Louis",
+  "Description": "WUSTL-IIOT-2021 is a dataset for research on AI and ML-based intrusion detection in the Industrial Internet of Things, collected on a testbed developed at Washington University in St. Louis. Command injection, reconnaissance and DoS attacks were generated against the testbed, and attacks were kept under 8% of the traffic so that the data resembles real-world industrial control systems. A related article by M. Zolanvari, R. Jain and co-authors appeared in the IEEE Internet of Things Journal.\n\nThe dataset holds 1,194,464 observations described by 41 features that are common in network flows and change during attack phases, such as packet and byte counts, loads, rates, jitter, durations and TCP round-trip time.\n\nAttack traffic makes up 7.28% of the records. Within it, DoS accounts for 89.98%, reconnaissance for 9.46%, command injection for 0.31% and backdoor for 0.25%. The data downloads as a single file of 106,192,911 bytes.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://classes.engineering.wustl.edu/~jain/iiot2/index.html"
+    },
+    {
+      "Text": "IEEE DataPort",
+      "Link": "https://ieee-dataport.org/documents/wustl-iiot-2021"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/wustl-iiot-2021/"
+    }
+  ]
+}

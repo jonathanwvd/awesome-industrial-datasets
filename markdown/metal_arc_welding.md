@@ -1,0 +1,28 @@
+# Metal Arc Welding
+
+Current and voltage cycles from metal arc welding sampled at 100 kHz, with weld quality labels for good, bad or unlabelled rows.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Welding
+- **Modality:** Time series
+- **Task:** Quality prediction
+- **Annotation:** Sample label
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2025
+- **License:** CC BY
+
+## Description
+
+Metal Arc Welding is a dataset of electrical process signals from arc welding, published by authors from the University of Wuppertal and others. Its current and voltage time series share one 100 kHz sampling clock, and the stated maximum permissible error is 0.5%.
+
+The data comes as one CSV file. Its columns hold voltage samples V_000 to V_199 and current samples I_000 to I_199, running from the beginning to the end of a cycle, plus the ID of the experiment run and a quality label. The label marks good weld quality (1), bad weld quality (0) or no label (-1).
+
+A short Python example on the record turns the table into arrays of labels, experiment IDs and stacked current and voltage signals. It was published in 2025 under CC BY 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.15497262)
+- [Zenodo record](https://zenodo.org/records/15497262)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/metal-arc-welding/)
+
+[⬅️ Back to Index](../README.md)

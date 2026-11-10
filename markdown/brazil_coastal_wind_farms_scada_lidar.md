@@ -1,0 +1,30 @@
+# Costal operating wind farms: two datasets with concurrent SCADA, LiDAR and turbulent fluxes
+
+A year of 10-minute SCADA from every turbine at two coastal wind farms in northeast Brazil, with 100 m met masts, sonic anemometers and a lidar.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Wind turbines
+- **Modality:** Time series
+- **Task:** Other
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 2 wind farms, August 2013 to July 2014
+- **Year:** 2017
+- **License:** CC BY-SA
+- **Publisher:** Federal University of Santa Catarina
+
+## Description
+
+This collection holds two datasets from a micrometeorological experiment at the Pedra do Sal (UEPS) and Beberibe (UEBB) wind farms on the northeast coast of Brazil, where trade winds and sea breeze shape the wind. Researchers of the Federal University and the Federal Institute of Santa Catarina, with ENGIE Brazil, published it on Zenodo in 2017 under CC BY-SA 4.0.
+
+Both datasets cover a full year, August 2013 to July 2014, and include 10-minute SCADA data for every turbine: 20 Enercon E-44 at Pedra do Sal, an 18 MW farm, and 32 Enercon E-48 at Beberibe. Each farm has a 100 m met mast with cup anemometers at five levels and a 3D sonic anemometer at 100 m. Pedra do Sal adds a sonic at 20 m and a Windcube8 lidar measuring up to 500 m.
+
+The data come as NetCDF4 files with data recovery tables. The authors have used them to study how atmospheric stability and mesoscale patterns affect wind farm performance.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.1475197)
+- [Zenodo record](https://zenodo.org/records/1475197)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/brazil-coastal-wind-farms-scada-lidar/)
+
+[⬅️ Back to Index](../README.md)

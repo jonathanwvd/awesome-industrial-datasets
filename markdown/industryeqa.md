@@ -1,0 +1,31 @@
+# IndustryEQA
+
+Embodied question answering benchmark of 1,344 questions on 76 simulated warehouse videos, with over half of the questions on equipment and human safety.
+
+- **Domain:** Logistics and retail
+- **Modality:** Video; Text and documents
+- **Task:** Question answering
+- **Annotation:** Text and QA label
+- **Source Type:** Simulation
+- **Access:** Hugging Face
+- **Size:** 1,344 QA pairs on 76 videos
+- **Year:** 2025
+- **License:** MIT
+- **Benchmark:** Yes
+
+## Description
+
+IndustryEQA is an embodied question answering benchmark set in industrial warehouses, built by researchers from Michigan State University, the University of North Carolina at Chapel Hill and Arizona State University, with an independent researcher. It was accepted to the NeurIPS 2025 Datasets and Benchmarks Track (arXiv 2505.20640), and its episodic memory videos are rendered in NVIDIA Isaac Sim.
+
+The 76 videos come with 1,344 question-answer pairs, 971 from small warehouses and 373 from large ones. Questions fall into 6 categories: equipment safety, human safety, object recognition, attribute recognition, spatial understanding and temporal understanding, and more than half target safety. Each entry in the JSON file holds a direct answer and, for a subset, a reasoning answer.
+
+An LLM-based evaluation script, adapted from the OpenEQA code, computes a Direct Score and a Reasoning Score. The videos are on Hugging Face under the MIT license.
+
+## References
+
+- [GitHub repository](https://github.com/JackYFL/IndustryEQA)
+- [Hugging Face dataset](https://huggingface.co/datasets/IndustryEQA/IndustryEQA)
+- [Preprint (arXiv)](https://arxiv.org/abs/2505.20640)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/industryeqa/)
+
+[⬅️ Back to Index](../README.md)

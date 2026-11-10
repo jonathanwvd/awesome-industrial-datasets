@@ -1,0 +1,28 @@
+# HIDSAG: Hyperspectral Image Database for Supervised Analysis in Geometallurgy
+
+Hyperspectral data from five characterized mineral sample sets, released as separate parts for supervised and unsupervised machine learning in geometallurgy.
+
+- **Domain:** Mining and mineral processing
+- **Modality:** Image; Spectra
+- **Task:** Other
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 5 mineral sample sets
+- **Year:** 2023
+
+## Description
+
+HIDSAG is a Figshare collection of hyperspectral data for supervised and unsupervised machine learning in geometallurgy. Its authors are Alejandro Ehrenfeld, Alvaro F. Egaña, Felipe Santibañez-Leal, Felipe Garrido, Marcia Ojeda, Brian Townley and Felipe Navarro, and it supplements the data descriptor article doi:10.1038/s41597-023-02061-x.
+
+The spectral data come from five characterized sets of mineral samples, each released as its own item: GEOMET, PORPHYRY, MINERAL1, MINERAL2 and GEOCHEM. The GEOMET set, for example, holds 146 samples with one measurement each and five geometallurgical variables, and it is distributed as a single zip archive under CC0.
+
+All parts were published in March 2023 under the subjects mineral processing, mineralogy, and artificial intelligence and image processing.
+
+## References
+
+- [DOI](https://doi.org/10.6084/m9.figshare.c.5983921)
+- [api.figshare.com](https://api.figshare.com/v2/collections/5983921)
+- [api.figshare.com](https://api.figshare.com/v2/articles/19726807)
+- [api.figshare.com](https://api.figshare.com/v2/collections/5983921/articles)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/hidsag-geometallurgy-hyperspectral/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,26 @@
+# Global database of cement production assets and upstream suppliers
+
+Asset-level records of cement plants worldwide with plant age and raw material sourcing, together with the upstream suppliers of their raw materials.
+
+- **Domain:** Chemical and process
+- **Modality:** Tabular
+- **Task:** Other
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** Two CSV files (assets and suppliers)
+- **Year:** 2023
+- **License:** CC0 and public domain
+
+## Description
+
+This dataset is an asset-level database of cement production plants around the world, linked to the suppliers of their raw materials. Its authors come from the University of Oxford, Lloyds Banking Group, the University of Edinburgh, Harvard University, the Satellite Applications Catapult, the Alan Turing Institute and Astraea Earth.
+
+Records drawn from development banks, governments and other established sources are combined, and two variables are added to each asset: the plant's age and where its raw materials come from. Together these help model plant utilization rates, which in turn drive a company's greenhouse gas emissions. The authors' method combines geospatial computer vision with large language model techniques.
+
+The release holds a README and two CSV files, one listing assets and one listing suppliers. It was published in 2023 under CC0 with the DOI 10.5061/dryad.6t1g1jx4f.
+
+## References
+
+- [Zenodo record](https://zenodo.org/records/8408245)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/global-cement-assets/)
+
+[⬅️ Back to Index](../README.md)
