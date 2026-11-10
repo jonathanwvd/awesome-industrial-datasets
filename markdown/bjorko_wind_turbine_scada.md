@@ -1,0 +1,30 @@
+# Björkö Wind Turbine Version 1 (45kW) SCADA
+
+One-hertz SCADA and structural signals from a 45 kW Chalmers research wind turbine on Björkö, Sweden, July 2022 to July 2023, on 68 channels.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Wind turbines
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 68 channels at 1 Hz, July 2022 to July 2023
+- **Year:** 2023
+- **License:** CC BY
+- **Publisher:** Chalmers University of Technology
+
+## Description
+
+This dataset holds SCADA records from the Chalmers research wind turbine on the island of Björkö, about 20 km west of Gothenburg in Sweden. Sara Fogelström, Håkan Johansson and Ola Carlson of Chalmers University of Technology published it on Zenodo in 2023 under CC BY 4.0.
+
+The turbine is rated at 45 kW and 75 rpm, runs at variable speed with a direct-driven generator and a frequency converter, and uses a digital control system built by Chalmers. It has a 30 m wooden tower, a 15.9 m rotor with carbon fibre blades and electric individual pitch.
+
+The 68 SCADA channels are 1 Hz time series of the rotor, gearbox, yaw motor, inverter and other components, plus structural signals such as nacelle accelerations and tower and blade bending moments. They cover 6 July 2022 to 15 July 2023, with JSON and CSV metadata on the turbine and the channels.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.8213270)
+- [Zenodo record](https://zenodo.org/records/8213270)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/bjorko-wind-turbine-scada/)
+
+[⬅️ Back to Index](../README.md)

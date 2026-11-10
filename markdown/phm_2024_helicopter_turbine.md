@@ -1,0 +1,28 @@
+# PHM North America 2024 Conference Data Challenge
+
+Measurements from seven helicopter turbine engines of one make and model, used to classify engine health and to estimate torque margin as a probability distribution.
+
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Time series
+- **Task:** Classification; Regression
+- **Annotation:** Sample label; Scalar target
+- **Access:** Competition
+- **Size:** 7 engines
+- **Year:** 2024
+- **Benchmark:** Yes
+
+## Description
+
+The PHM North America 2024 Conference Data Challenge, hosted on the PHM Society data repository, is about judging the health of helicopter turbine engines. The organisers frame it as a combined classification and regression problem.
+
+All seven engines in the data are assets of the same make and model. Each one records outside air temperature, mean gas temperature, power available, indicated airspeed, net power and compressor speed. The training part gives the complete measurements of four assets, and the other three make up the test and validation sets.
+
+Two predictions are asked for: a binary health state, where 0 is nominal and 1 is faulty, and the torque margin expressed as a probability distribution function. Every prediction carries a confidence measure. Classification and regression results are scored separately, and the final score is the mean over all predictions. Training, testing and validation sets are downloaded from the challenge record.
+
+## References
+
+- [Official page](https://data.phmsociety.org/phm2024-conference-data-challenge/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/phm-2024-helicopter-turbine/)
+
+[⬅️ Back to Index](../README.md)

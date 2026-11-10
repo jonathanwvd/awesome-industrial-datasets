@@ -1,0 +1,31 @@
+{
+  "Name": "Fuhrländer FL2500 2.5MW wind turbine dataset",
+  "Summary": "Five-minute SCADA statistics of 78 sensors and alarm events from five Fuhrländer FL2500 wind turbines over 2012 to 2014, stored as JSON.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Wind turbines",
+  "Modality": "Time series",
+  "Task": "Classification",
+  "Source Type": "Real production",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "5 turbines, 312 variables",
+  "Year": "2024",
+  "Description": "This dataset covers five Fuhrländer FL2500 wind turbines of 2.5 MW, with three years of data each from 2012 to 2014. Alejandro Blanco Martínez compiled it from a SCADA system he worked with and published it on Figshare with Jordi Solé-Casals and Pere Marti-Puig in 2024.\n\nEvery five minutes the data report the minimum, maximum, mean and standard deviation of 78 sensors, a total of 312 variables, stored as JSON in a dataset folder. Alarm events come with the system, the subsystem and a short description.\n\nFunctions for R, MATLAB and other languages turn the raw JSON into a table with one variable per column and one five-minute entry per row. The MATLAB code also includes an extreme learning machine classifier by Pere Marti-Puig as a prediction example.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.6084/m9.figshare.25201631"
+    },
+    {
+      "Text": "api.figshare.com",
+      "Link": "https://api.figshare.com/v2/articles/25201631"
+    },
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/alecuba16/fuhrlander"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/fuhrlander-fl2500-wind-scada/"
+    }
+  ]
+}

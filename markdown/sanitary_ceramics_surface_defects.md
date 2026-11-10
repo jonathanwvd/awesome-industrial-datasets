@@ -1,0 +1,29 @@
+# Surface defect dataset for sanitary ceramics V2
+
+High-resolution images of sanitary ware from a manufacturer's production line, with hand-painted defect masks cut into 18,560 patches for surface defect detection and segmentation.
+
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation
+- **Annotation:** Pixel mask
+- **Source Type:** Real production
+- **Access:** Mendeley Data
+- **Size:** 18,560 image patches from 106 images
+- **Year:** 2025
+- **License:** CC BY-NC
+- **Publisher:** Eskisehir Technical University
+
+## Description
+
+This dataset supports visual inspection of ceramic sanitary ware. It holds high-resolution RGB images of both defective and defect-free products, taken on a manufacturer's production line, and it was published in 2025 by researchers at Eskisehir Technical University.
+
+The set is built from 106 source images, 67 with defects and 39 without. Defect areas were painted by hand in solid green on top of the original pictures, and the painted copies were thresholded on that green to produce binary masks. After further processing, including resizing to 512 by 512 pixels, the set holds 18,560 patches split into training, validation and test sets.
+
+The patches and masks are meant for training and evaluating surface defect detection and segmentation models. The record is released under the Creative Commons Attribution-NonCommercial 3.0 license, so commercial use is not covered.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/2bkhytgwm8)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/sanitary-ceramics-surface-defects/)
+
+[⬅️ Back to Index](../README.md)

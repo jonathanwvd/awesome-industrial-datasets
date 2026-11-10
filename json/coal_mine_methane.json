@@ -1,0 +1,23 @@
+{
+  "Name": "Methane",
+  "Summary": "Per-second sensor data from an underground coal mine for predicting dangerous methane concentrations at longwalls, set up as classification and regression tasks.",
+  "Domain": "Mining and mineral processing",
+  "Modality": "Time series",
+  "Task": "Classification; Regression; Forecasting",
+  "Source Type": "Real production",
+  "Access": "Mendeley Data",
+  "Year": "2021",
+  "License": "CC BY",
+  "Publisher": "Silesian University of Technology",
+  "Description": "Coal mining is hazardous work. This dataset gathers raw sensor data from an underground coal mine so that models can learn to predict dangerous methane concentrations at longwalls over a chosen time horizon. It was published on Mendeley Data in 2021 by researchers at the Silesian University of Technology.\n\nEach record has a timestamp and the measurements taken every second. Two tasks are set out. In classification, a model must say whether methane at three meters, MM263, MM264 and MM256, will exceed a chosen threshold, such as 1.0, within a chosen window, for example three to six minutes ahead. In regression, it must predict the methane value itself at the selected meters.\n\nThe record includes a file that describes the attributes and a PDF of plots, next to the zipped data. It is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "Mendeley Data",
+      "Link": "https://data.mendeley.com/datasets/yd7vw4c5mk"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/coal-mine-methane/"
+    }
+  ]
+}

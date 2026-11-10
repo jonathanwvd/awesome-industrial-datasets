@@ -10,12 +10,11 @@ Vibration and encoder signals from a 2 kW-class planetary gearbox testbed with s
 - **Source Type:** Lab or testbed
 - **Access:** Zenodo, Dataverse or Figshare
 - **Size:** 14 configurations of about 100 minutes each
-- **Year:** 2026
 - **License:** CC BY
 
 ## Description
 
-The SNU Planetary Gearbox Dataset provides vibration and encoder signals recorded on a 2 kW-class testbed with a single-stage, fixed-ring planetary gearbox, collected for fault diagnosis research. The gearbox has a 31-tooth sun gear, three 31-tooth planet gears and a 95-tooth ring gear. The data is published on Figshare by Jinoh Yoo, Taehyung Kim, Jong Moon Ha and Byeng Dong Youn.
+The SNU Planetary Gearbox Dataset provides vibration and encoder signals recorded on a 2 kW-class testbed with a single-stage, fixed-ring planetary gearbox, collected for fault diagnosis research. The gearbox has a 31-tooth sun gear, three 31-tooth planet gears and a 95-tooth ring gear. The data is published on Figshare by Byeng Dong Youn.
 
 Its 14 experimental configurations combine seven health and severity conditions with two operating modes: stationary operation at about 1579 rpm, and a sinusoidal speed profile from about 521 to 1588 rpm with a 20-second period. Besides the healthy state, machined line-shaped grooves of 0.50 to 1.25 mm seed planet-ring, planet-sun and sun gear faults. A PCB Piezotronics 601A02 accelerometer and an ONO SOKKI MP-981 encoder are sampled at 25,600 Hz for about 100 minutes per configuration.
 

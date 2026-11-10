@@ -1,0 +1,23 @@
+{
+  "Name": "PCB Defect Dataset (PKU Open Lab)",
+  "Summary": "Synthetic printed circuit board image set of 1,386 images with six defect kinds, from missing holes and mouse bites to spurs and spurious copper.",
+  "Domain": "Electronics and semiconductors",
+  "Asset / Process": "PCBs and electronic assemblies",
+  "Modality": "Image",
+  "Task": "Defect detection; Classification",
+  "Source Type": "Synthetic",
+  "Access": "Direct download",
+  "Size": "1,386 images",
+  "Publisher": "Peking University Open Lab on Human Robot Interaction",
+  "Description": "The PKU PCB Defect Dataset is a public collection of synthetic printed circuit board images from the Peking University Open Lab on Human Robot Interaction. It is one of the open resources the lab distributes, with Linhui Dai named as the contact for questions about the data.\n\nThe collection holds 1,386 images covering 6 kinds of board defects: missing hole, mouse bite, open circuit, short, spur and spurious copper.\n\nThe images are intended for three tasks: detecting defects on a board, classifying the defect kind, and registering a board image. The full archive is distributed as a single download hosted on Baidu Netdisk.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://robotics.pkusz.edu.cn/resources/datasetENG"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/pku-pcb-defect-dataset/"
+    }
+  ]
+}

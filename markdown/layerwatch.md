@@ -1,0 +1,30 @@
+# LayerWatch
+
+Benchmark of layer-wise images for detecting and classifying visual defects in fused filament fabrication, with object-detection baselines and code.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Additive manufacturing
+- **Modality:** Image
+- **Task:** Object detection; Defect detection; Classification
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2026
+- **License:** CC BY-NC
+- **Publisher:** Helmut Schmidt University
+
+## Description
+
+LayerWatch is a benchmark for layer-wise, multi-class visual defect detection in fused filament fabrication (FFF), deposited on Harvard Dataverse by authors from Helmut Schmidt University, the Composite Technology Center CTC GmbH (an Airbus company) and the University of Applied Sciences Emden Leer.
+
+The authors argue that FFF defects can build up gradually and become visible only several layers after they occur, and that they change with part geometry, material and recording conditions. They first formalise the detection and classification problem, derive what a benchmark must capture (temporal, multi-class and distribution-shifted behaviour), and then record a dataset to meet those requirements.
+
+The release is a 1.1 GB ZIP archive with a README. Current object detection models are evaluated on it as baselines, and the code is on GitHub. It was published in 2026 under CC BY-NC 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.7910/DVN/AWWBAZ)
+- [dataverse.harvard.edu](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AWWBAZ)
+- [GitHub repository](https://github.com/SEilermann/LayerWatch)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/layerwatch/)
+
+[⬅️ Back to Index](../README.md)

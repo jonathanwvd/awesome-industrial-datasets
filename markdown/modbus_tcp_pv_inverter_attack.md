@@ -1,0 +1,31 @@
+# Modbus/TCP PV Inverter Attack Dataset
+
+Packet captures of Modbus/TCP command injection, denial-of-service and register probing against a commercial residential photovoltaic inverter, from six experimental sessions.
+
+- **Domain:** OT security
+- **Asset / Process:** Solar PV; Control systems and networks
+- **Modality:** Network traffic
+- **Task:** Intrusion detection
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 6 capture sessions
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** Technische Hochschule Mittelhessen (THM)
+
+## Description
+
+This dataset from Technische Hochschule Mittelhessen holds anonymised Wireshark captures of attacks on a commercial photovoltaic inverter over Modbus/TCP. It accompanies a paper for IEEE SmartGridComm 2026 on command injection and denial of service against inverter hardware.
+
+The test network has four roles: the PV inverter as Modbus server, an EV wallbox as Modbus client, an attacker on a Raspberry Pi 4, and the router. Six pcapng sessions cover two FC3-to-FC6 command injection runs, a persistent denial of service by ARP poisoning, two probing runs for writable registers and a baseline reconnaissance with no attack.
+
+Since version 1.0.0 the files keep only Modbus/TCP, ARP and ICMP traffic between these roles; MAC addresses are replaced, and vendor and model are withheld until the vendor fixes the issue. The captures open in Wireshark, tshark or tcpdump and are released under CC BY 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.23321340)
+- [Zenodo record](https://zenodo.org/records/23321340)
+- [GitHub repository](https://github.com/kujovicadnan/modbus-pv-attack-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/modbus-tcp-pv-inverter-attack/)
+
+[⬅️ Back to Index](../README.md)

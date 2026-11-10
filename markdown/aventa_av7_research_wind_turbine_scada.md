@@ -1,0 +1,30 @@
+# Aventa AV-7 (6kW) IET-OST Research Wind Turbine SCADA
+
+One-hertz SCADA channels from a 6 kW research wind turbine at Taggenberg (ZH), January 2022 to July 2023, for environmental and operational analysis.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Wind turbines
+- **Modality:** Time series
+- **Task:** Other
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 15 channels at 1 Hz, January 2022 to July 2023
+- **Year:** 2023
+- **License:** CC BY
+- **Publisher:** OST - Ostschweizer Fachhochschule
+
+## Description
+
+This dataset holds SCADA data from the Aventa AV-7, a 6 kW research wind turbine at Taggenberg (ZH), owned by IET-OST. Sarah Barber, Florian Hammer, Laurin Hilfiker and Yuriy Marykovskiy of OST published it on Zenodo in 2023 under CC BY 4.0.
+
+The 15 SCADA channels are sampled at 1 Hz from 1 January 2022 to 20 July 2023. They include rotor and generator speed, stator temperature, wind speed, converter active power, wind direction relative to the nacelle, the 24 V supply voltage, pitch angle and turbine status.
+
+The data come as one CSV file with JSON and CSV metadata on the turbine and its channels. The creators state that the dataset is meant for environmental and operational analysis.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.8192149)
+- [Zenodo record](https://zenodo.org/records/8192149)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/aventa-av7-research-wind-turbine-scada/)
+
+[⬅️ Back to Index](../README.md)

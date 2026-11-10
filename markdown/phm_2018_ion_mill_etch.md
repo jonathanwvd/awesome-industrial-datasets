@@ -1,0 +1,28 @@
+# PHM 2018 Ion Mill Etch Data Challenge
+
+Anonymized sensor and settings logs from ion mill etching tools in wafer manufacturing, with three flowcool fault types to diagnose and predict before failure.
+
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** Semiconductor wafers and process tools
+- **Modality:** Time series
+- **Task:** RUL and prognostics; Fault diagnosis
+- **Annotation:** Event and time label; RUL label
+- **Access:** Competition
+- **Year:** 2018
+- **Publisher:** PHM Society
+- **Benchmark:** Yes
+
+## Description
+
+This dataset is from the 2018 PHM Data Challenge, chaired by engineers from Seagate Technology, on faults in an ion mill etch tool used in a wafer manufacturing process. In the tool, an ion beam removes material from a wafer on a rotating, tiltable fixture, and the wafer is cooled by a helium and water system called flowcool.
+
+Each CSV file holds the time series of one tool. Columns cover time, tool, wafer lot, stage, recipe and recipe step, plus readings such as chamber pressure, beam and suppressor voltages and currents, flowcool flow and pressure, argon flows, fixture tilt and rotation, and consumable usage counters. The data is anonymized, so no units are given, and fault times sit in separate files.
+
+Participants diagnose failures and predict the time to failure for three modes: flowcool pressure dropped below limit, flowcool pressure too high, and flowcool leak. Predictions may only use current and past data. The files are shared through a Google Drive link on the challenge page.
+
+## References
+
+- [Official page](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2018-b/phm-data-challenge-6/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/phm-2018-ion-mill-etch/)
+
+[⬅️ Back to Index](../README.md)

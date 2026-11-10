@@ -1,0 +1,28 @@
+# HUSTgearbox
+
+Vibration signals from a gearbox on a Spectra-Quest fault simulator in healthy, broken tooth and missing tooth states under 30 load and speed conditions.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Gears and gearboxes
+- **Modality:** Vibration
+- **Task:** Fault diagnosis
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Direct download
+- **Size:** 90 files of 262144 points each
+- **Year:** 2024
+
+## Description
+
+HUSTgearbox is a gearbox fault dataset released by Chao Zhao and colleagues for research on intelligent fault diagnosis. Its benchmark paper on cross-domain fault diagnosis appeared in Reliability Engineering and System Safety in 2024. The tests ran on a Spectra-Quest Mechanical Fault Simulator fitted with a Hub City M2 gearbox.
+
+The gearbox was recorded in three health states, healthy, broken tooth and missing tooth, with all faults artificially preset. There are 30 operating conditions: five loads up to 0.452 Nm and six speeds, five constant from 20 to 40 Hz and one ramping 0-40-0 Hz. Sampling ran at 25.6 kHz, with 262144 points, about 10.2 seconds, per recording.
+
+The raw data is 90 text files, one per health state and condition, named by state code, speed and load. A 2024 note says the second column, labelled speed, holds no meaningful value and the correct speed is given in the filename. The files are on Google Drive, and users are asked to cite the benchmark paper.
+
+## References
+
+- [GitHub repository](https://github.com/CHAOZHAO-1/HUSTgearbox-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/hust-gearbox/)
+
+[⬅️ Back to Index](../README.md)

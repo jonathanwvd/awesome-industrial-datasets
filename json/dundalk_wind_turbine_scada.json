@@ -1,0 +1,29 @@
+{
+  "Name": "Vestas V52 Wind Turbine, 10-minute SCADA Data, 2006-2020 - Dundalk Institute of Technology, Ireland",
+  "Summary": "Fourteen years of raw 10-minute SCADA data from one Vestas V52 turbine at a peri-urban Irish campus, including a gearbox replacement period.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Wind turbines",
+  "Modality": "Time series",
+  "Task": "Other",
+  "Source Type": "Real production",
+  "Access": "Mendeley Data",
+  "Size": "1 turbine, January 2006 to March 2020",
+  "Year": "2022",
+  "License": "CC BY",
+  "Publisher": "Dundalk Institute of Technology",
+  "Description": "This dataset is a multi-year raw SCADA record of one Vestas V52 wind turbine at Dundalk Institute of Technology in Ireland. Raymond Byrne and Paul MacArtain of the institute published version 2 on Mendeley Data in 2022.\n\nThe 10-minute time series run from 30 January 2006 to 12 March 2020 and come in one spreadsheet, with a PDF that describes the SCADA parameters. The turbine, 60 m to the hub with a 52 m rotor, stands in a peri-urban setting and runs as a behind-the-meter system.\n\nThe gearbox was changed between 4 October 2018 and 27 July 2019, and the data show no positive electrical power output in that period. The record gives the turbine's GPS coordinates and is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.17632/tm988rs48k.2"
+    },
+    {
+      "Text": "Mendeley Data",
+      "Link": "https://data.mendeley.com/datasets/tm988rs48k/2"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/dundalk-wind-turbine-scada/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# BeltCrack
+
+Two sequential-image datasets of cracks on real industrial conveyor belts, captured under changing light, weather, viewing angle and belt speed, with a baseline crack detector.
+
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection
+- **Source Type:** Real production
+- **Access:** Direct download
+- **Size:** 14,087 images in 29 sequences and 9,645 images in 42 sequences
+- **Year:** 2026
+
+## Description
+
+BeltCrack is presented by its authors as the first sequential-image dataset of cracks on industrial conveyor belts. Conveyor belts are used widely in production and manufacturing, and cracks are a major threat to their health and to safe operation. Earlier crack datasets mostly cover pavement or synthetic images, so this one was collected from real belts in industrial settings.
+
+It comes as two sets. BeltCrack14ks holds 14,087 images in 29 sequences, and BeltCrack9kd holds 9,645 images in 42 sequences. The footage looks at the belt both from above and from below, under light that ranges from strong morning sun to dim evening conditions, in sunny, rainy and snowy weather, and at varying belt speeds.
+
+The images are hosted on ScienceDB, and the zip archive needs the unzip password given in the project README. The same repository holds BeltCrackDet, a baseline that fuses time, space and frequency features, with PyTorch code. The paper by Jianghong Huang, Luping Ji, Xin Ma and Mao Ye was accepted by Pattern Recognition and published there in 2026 as article 113598.
+
+## References
+
+- [GitHub repository](https://github.com/UESTC-nnLab/BeltCrack)
+- [Preprint (arXiv)](https://arxiv.org/abs/2506.17892)
+- [DOI](https://doi.org/10.57760/sciencedb.31181)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/beltcrack/)
+
+[⬅️ Back to Index](../README.md)

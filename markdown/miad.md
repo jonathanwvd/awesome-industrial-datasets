@@ -1,0 +1,29 @@
+# MIAD
+
+More than 100K rendered images of seven outdoor maintenance scenes, from insulators to wind turbines, with surface and logical anomalies masked at pixel level.
+
+- **Domain:** Cross-industrial
+- **Asset / Process:** Solar PV; Wind turbines; Welding
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** Pixel mask
+- **Source Type:** Synthetic
+- **Access:** Direct download
+- **Size:** More than 100K images in 7 scenarios
+- **Year:** 2022
+- **License:** CC BY-NC-SA
+
+## Description
+
+MIAD, the Maintenance Inspection Anomaly Detection dataset, targets visual inspection of equipment outdoors rather than products on a production line. Its authors note that earlier unsupervised anomaly detection datasets lean towards manufacturing inspection and leave out varying camera viewpoints, messy backgrounds and surfaces worn by long-term use.
+
+The dataset holds more than 100K high-resolution color images generated with 3D graphics software. It covers seven scenarios: electrical insulators, metal welding, photovoltaic panels, wind turbines, catenary droppers, nuts and bolts, and witness marks. Anomalies include both surface and logical types, with pixel-precise ground truth.
+
+The authors evaluated representative unsupervised anomaly detection algorithms on it, as described in a 2022 arXiv preprint. Each scenario downloads separately from Google Drive or Baidu Drive. The data is released under CC BY-NC-SA 4.0, which rules out commercial use.
+
+## References
+
+- [Official page](https://miad-2022.github.io/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/miad/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,22 @@
+{
+  "Name": "SCADA / ICS PCAP files from 4SICS",
+  "Summary": "Network captures recorded in the ICS lab of the 4SICS 2015 conference, where attendees could test PLCs, RTUs and industrial network equipment hands-on.",
+  "Domain": "OT security",
+  "Asset / Process": "Control systems and networks",
+  "Modality": "Network traffic",
+  "Task": "Other",
+  "Access": "Direct download",
+  "Year": "2015",
+  "Publisher": "Netresec",
+  "Description": "Netresec and the 4SICS crew recorded these packet captures in the ICS lab of the 4SICS 2015 conference, set up in its Geek Lounge where attendees could test the equipment hands-on. The files are shared openly, with a request to credit CS3Sthlm for allowing the lab traffic to be recorded and shared.\n\nThe lab holds PLCs, RTUs, servers and industrial network equipment, among them a DirectLogic 205 PLC, a Siemens SIMATIC S7-1200 PLC, a RUGGEDCOM RS910 serial device server and Ethernet switch, and a Moxa EDS-508A switch. A separate client network, 192.168.2.0/24, is labelled as the place where the \"hackers\" are.\n\nThe lab inventory lists open ports on the devices, among them Modbus/TCP on 502, the S7 protocol on 102 and DNP3 on 20000, next to SSH, Telnet, HTTP, HTTPS, FTP and UPnP. The captures come as three PCAP files named after the Geek Lounge.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.netresec.com/?page=PCAP4SICS"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/4sics-ics-lab-pcaps/"
+    }
+  ]
+}

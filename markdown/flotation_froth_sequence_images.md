@@ -1,0 +1,25 @@
+# Flotation froth sequence images
+
+Groups of 12 consecutive flotation froth frames filmed every five minutes over four months at a mine in southern China, packaged by working condition.
+
+- **Domain:** Mining and mineral processing
+- **Modality:** Image
+- **Task:** Other
+- **Source Type:** Real production
+- **Access:** IEEE DataPort
+- **Size:** 2386 groups of 12 frames
+
+## Description
+
+This dataset holds image sequences of flotation froth from a mine in southern China, published on IEEE DataPort with the DOI 10.21227/v2a4-2f73. It is linked to a manuscript submitted to IEEE Transactions on Instrumentation and Measurement and is offered for image processing, pattern recognition and artificial intelligence work.
+
+A digital camera filmed the froth every 5 minutes over four months, from 1 August to 1 December. The data is arranged in 2386 folders, each one a group of 12 consecutive frames taken 0.4 s apart, so every group shows a short stretch of froth motion rather than a single still.
+
+Because of its size, the set is split into four compressed packages, one per working condition category. Each group can therefore be traced to the working condition under which it was filmed.
+
+## References
+
+- [IEEE DataPort](https://ieee-dataport.org/documents/flotation-froth-sequence-images)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/flotation-froth-sequence-images/)
+
+[⬅️ Back to Index](../README.md)

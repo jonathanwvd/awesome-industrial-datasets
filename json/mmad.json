@@ -1,0 +1,27 @@
+{
+  "Name": "MMAD",
+  "Summary": "Benchmark that tests multimodal large language models as industrial quality inspectors with multiple-choice questions on 8,366 images of industrial products.",
+  "Domain": "Manufacturing",
+  "Modality": "Image; Text and documents",
+  "Task": "Question answering; Anomaly detection",
+  "Annotation": "Text and QA label",
+  "Access": "Hugging Face",
+  "Size": "8,366 images, 39,670 questions",
+  "Year": "2024",
+  "Benchmark": "Yes",
+  "Description": "MMAD is a benchmark for multimodal large language models in industrial anomaly detection, presented at ICLR 2025. It asks how well current models perform as industrial quality inspectors, which ones do best and what the key challenges are.\n\nThe authors collected 8,366 samples from 38 classes of industrial products across four public datasets, among them MVTec LOCO, VisA and GoodsAD, and generated 39,672 multiple-choice questions in seven subtasks. A later revision fixed some questions, leaving 39,670 records. An added MMAD-BBox set has 5,076 localization queries for checking where models place defects.\n\nImages and captions are on Hugging Face, while evaluation code and a leaderboard with a strict 1-shot protocol are on GitHub. The source images keep the licenses of their original datasets and are for research use only.",
+  "References": [
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/jam-cc/MMAD"
+    },
+    {
+      "Text": "Hugging Face dataset",
+      "Link": "https://huggingface.co/datasets/jiang-cc/MMAD"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/mmad/"
+    }
+  ]
+}

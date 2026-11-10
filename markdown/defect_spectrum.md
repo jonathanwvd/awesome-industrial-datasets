@@ -1,0 +1,27 @@
+# Defect Spectrum
+
+Re-annotated industrial defect images from four inspection benchmarks, with multi-class pixel masks and a descriptive caption for every sample.
+
+- **Domain:** Manufacturing
+- **Modality:** Image; Text and documents
+- **Task:** Defect segmentation; Defect detection
+- **Annotation:** Pixel mask; Text and QA label
+- **Access:** Hugging Face
+- **Year:** 2024
+
+## Description
+
+Defect Spectrum is a benchmark of industrial defect images with refined, semantically rich annotations, presented at ECCV 2024 by researchers from HKUST(GZ), HKUST and SmartMore. It builds on four existing inspection datasets, VISION, MVTec AD, DAGM 2007 and a cotton fabric set, and distinguishes several defect types within a single image.
+
+Each subset, such as DS-MVTec or DS-DAGM, holds the original images, single-channel defect masks and a descriptive caption for every sample, meant to support work with vision language models. The authors say experts refined the annotations to catch subtle defects missed in the source labels.
+
+The release also includes Defect-Gen, a two-stage diffusion-based generator for making diverse defective images from limited data. The authors report a 10.74% gain in recall and a 33.10% drop in false positive rate in an industrial simulation experiment. Data is on Hugging Face and code on GitHub.
+
+## References
+
+- [GitHub repository](https://github.com/EnVision-Research/Defect_Spectrum)
+- [Hugging Face dataset](https://huggingface.co/datasets/DefectSpectrum/Defect_Spectrum)
+- [envision-research.github.io](https://envision-research.github.io/Defect_Spectrum/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/defect-spectrum/)
+
+[⬅️ Back to Index](../README.md)

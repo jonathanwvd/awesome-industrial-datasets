@@ -1,0 +1,27 @@
+# Iron Ore Image Data
+
+Reflected light microscope images of four grades of iron ore from mines in eastern India, at two objective magnifications, for deep learning ore characterization.
+
+- **Domain:** Mining and mineral processing
+- **Modality:** Image
+- **Task:** Other
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Year:** 2025
+- **License:** CC BY
+- **Publisher:** Birla Institute of Technology
+
+## Description
+
+This Mendeley Data record holds reflected light microscope (RLM) images of iron ore samples. The samples come from several mines of the Singhbhum Craton in eastern India. Contributors include researchers at the Birla Institute of Technology.
+
+The ores belong to four grades: blue dust ore, hard laminated ore, lateritic ore and soft laminated ore. Images were taken through two microscope objectives, 10x and 20x, which form the two subfolders of the main archive, and each image is a 2048x1536 TIF file. A much smaller archive of sample images is also provided for quick tests.
+
+The authors built the set to automate iron ore characterization with deep learning, and they note it can also support mineral composition analysis. The record is released under CC BY 4.0.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/6hp82tsb8g)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/iron-ore-rlm-images/)
+
+[⬅️ Back to Index](../README.md)

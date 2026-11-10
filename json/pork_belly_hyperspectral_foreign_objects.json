@@ -1,0 +1,25 @@
+{
+  "Name": "A Hyperspectral Image Dataset for Identifying Foreign Objects on Pork Belly",
+  "Summary": "Near-infrared hyperspectral images of pork belly on a meat processing conveyor, with pixel masks for ten kinds of foreign bodies such as plastics, metal, wood and cardboard.",
+  "Domain": "Food and beverage",
+  "Modality": "Spectra; Image",
+  "Task": "Defect segmentation",
+  "Annotation": "Pixel mask",
+  "Source Type": "Real production",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "78 images with contaminants and 183 without",
+  "Year": "2025",
+  "License": "CC BY",
+  "Publisher": "Coronis Computing SL",
+  "Description": "This dataset targets foreign bodies on pork belly in a meat plant, where pieces can pick up contaminants on their way from the slaughterhouse to packing. Such fragments can be a few millimeters thin and are easy to miss by eye or with ordinary RGB cameras. It was produced by Coronis Computing SL and the Universitat de Girona.\n\nA Specim FX17 line-scan camera with halogen lights was mounted 40 cm above the conveyor. It records the near-infrared range from 942 to 1723 nm; after the weak edge bands were dropped, each cube measures 640 × 1000 × 184. Detection is framed as semantic segmentation.\n\nThe authors captured 78 images with contaminants and 183 without, with both fat side and meat side facing up, and annotated 22 of the contaminated images by hand. Cutting them into overlapping 20 × 16 patches gives 76,347 patches for training and 4,617 for validation. Ten contaminant classes are labelled, among them metal, wood, Teflon, nitrile, PU, PEHD, paper, cardboard and pieces of white belt. The files are on Zenodo under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/17242553"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/pork-belly-hyperspectral-foreign-objects/"
+    }
+  ]
+}

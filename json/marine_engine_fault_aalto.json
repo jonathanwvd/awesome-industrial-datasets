@@ -1,0 +1,34 @@
+{
+  "Name": "Marine Engine Fault",
+  "Summary": "Test-bench time series from a marine diesel engine with a baseline run and five physically induced fault classes at several loads, labelled row by row.",
+  "Domain": "Transportation and mobility",
+  "Asset / Process": "Turbines and engines",
+  "Modality": "Time series",
+  "Task": "Fault diagnosis; Condition monitoring",
+  "Annotation": "Sample label; Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "16 CSV files, about 115,000 samples",
+  "Year": "2026",
+  "License": "CC BY",
+  "Publisher": "Aalto University",
+  "Description": "Marine Engine Fault records a marine diesel engine on a test bench for research on condition monitoring, fault diagnosis and anomaly detection. The engine is a Matsui Iron Works MU323DGSC. Ahmad BahooToroody of Aalto University and co-authors from the University of Turku and Politecnico di Milano published it on Zenodo in 2026 under CC BY 4.0, alongside a data descriptor submitted to Scientific Data.\n\nBesides a baseline recording, five faults were physically induced on the engine: compressor air-filter clogging, air-cooler fouling, injection-valve nozzle clogging, cooling-water pump cavitation and turbine degradation, each at one or more loads between 40 and 85 %.\n\nThe 16 CSV files hold roughly 115,000 time-stamped samples over about 70 channels, such as engine speed, in-cylinder pressures, exhaust and cooling temperatures, flows and efficiency values. Fault files carry a binary pre-anomaly or anomaly label on every row; the reference file has none. A file index, a variable dictionary and the normalisation script are included.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.19857425"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/19857425"
+    },
+    {
+      "Text": "research.aalto.fi",
+      "Link": "https://research.aalto.fi/en/datasets/marine-engine-fault-experimental-dataset/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/marine-engine-fault-aalto/"
+    }
+  ]
+}

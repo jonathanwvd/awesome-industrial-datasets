@@ -1,0 +1,31 @@
+# DOES - Dataset of European scrap classes
+
+Smartphone and drone images of non-alloyed European steel scrap classes from steelworks and supplier scrapyards, with raw images, overlapping tiles and a separate test set.
+
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 17.5 GB
+- **Year:** 2023
+- **License:** CC BY
+- **Publisher:** Stahl-Holding-Saar
+
+## Description
+
+DOES is an image dataset of common non-alloyed European steel scrap classes, made to support automated scrap classification. Michael Schäfer and Ulrike Faltings of Stahl-Holding-Saar published it on Zenodo in 2023 under CC BY 4.0, with funding from the EU project HIYIELD, and described it in Scientific Data the same year.
+
+The images were taken over several months, at different times of day and in different weather, at the scrapyards of Dillinger and Saarstahl and of suppliers, so the scrap shows varying degrees of corrosion. Smartphone cameras took still images and a drone recorded videos, from which frames were extracted. All images were cropped to squares and resized to 256 × 256 pixels.
+
+Each class folder holds raw images and overlapping tiles cut from them, since scrap piles have no fixed orientation. A background class holds tiles without scrap, and a test set of indoor and outdoor images was collected separately. The classes are unbalanced, reflecting the scrap available at the sites and how varied each class looks.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.8219163)
+- [Zenodo record](https://zenodo.org/records/8219163)
+- [nature.com](https://www.nature.com/articles/s41597-023-02662-6)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/does-steel-scrap/)
+
+[⬅️ Back to Index](../README.md)
