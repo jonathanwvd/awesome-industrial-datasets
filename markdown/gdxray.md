@@ -1,0 +1,27 @@
+# GDXray
+
+More than 21,100 X-ray images of castings, welds, baggage and natural objects for research on image analysis and computer vision in X-ray testing.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Castings and metal parts; Welding
+- **Modality:** X-ray and CT; Image
+- **Task:** Other
+- **Access:** Direct download
+- **Size:** More than 21,100 X-ray images in 5 groups
+- **Year:** 2015
+- **Publisher:** Pontificia Universidad Catolica de Chile
+
+## Description
+
+GDXray, also published as GDXray+ or the GRIMA X-ray database, is a public collection of more than 21,100 X-ray images for developing, testing and evaluating image analysis and computer vision algorithms in X-ray testing. GRIMA, the Machine Intelligence Group of the Department of Computer Science at the Pontificia Universidad Catolica de Chile, maintains it alongside the book Computer Vision for X-Ray Testing. Its reference paper appeared in the Journal of Nondestructive Evaluation in 2015.
+
+The images come in five groups, each offered as its own archive: castings (314 MB), welds (209 MB), baggage (3.048 GB), nature (192 MB) and settings (73 MB). Every group holds several series of images; series C0001, for instance, has 72 views of an aluminum wheel casting. The weld images were added through a collaboration with Uwe Zscherpel of the Institute for Materials Research and Testing (BAM) in Berlin.
+
+Use of the images is free of charge for research and education only, with redistribution and commercial use prohibited, and published results cite the 2015 paper.
+
+## References
+
+- [GitHub repository](https://github.com/computervision-xray-testing/GDXray)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/gdxray/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,25 @@
+# Experimental database for detecting and diagnosing rotor broken bar in a three-phase induction motor
+
+Voltage, current and vibration signals from a three-phase induction motor with zero to four broken rotor bars, recorded at eight load levels with ten repetitions each.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Motors and drives
+- **Modality:** Time series; Vibration
+- **Task:** Fault diagnosis
+- **Source Type:** Lab or testbed
+- **Access:** IEEE DataPort
+
+## Description
+
+This experimental database holds electrical and mechanical signals from tests on a three-phase induction motor with broken rotor bar defects of different severity, and from a rotor without defects. It was acquired in two laboratories of the School of Engineering of São Carlos at the University of São Paulo (USP), Brazil: Intelligent Automation of Processes and Systems, and Intelligent Control of Electrical Machines.
+
+On the bench, a 1hp, 4-pole, 60 Hz squirrel cage motor with 34 rotor bars drives a direct-current generator that sets the load torque. The motor is tested at eight loads from 12.5% to 100% of full load. Four drilled rotors carry one to four adjacent broken bars. Each condition is recorded for 18 seconds, ten times, from transient to steady state.
+
+The signals are three-phase voltage, three-phase current from Yokogawa 96033 current probes, and five accelerometers on the drive end and non-drive end sides of the motor. The files are open access on IEEE DataPort for logged-in users.
+
+## References
+
+- [IEEE DataPort](https://ieee-dataport.org/open-access/experimental-database-detecting-and-diagnosing-rotor-broken-bar-three-phase-induction)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/rotor-broken-bar-induction-motor/)
+
+[⬅️ Back to Index](../README.md)

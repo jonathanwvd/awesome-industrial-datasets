@@ -1,0 +1,32 @@
+# DsPCBSD+
+
+Bounding-box dataset of 20,276 PCB surface defects in 10,259 AOI images from a production workshop, in nine categories set by cause, location and shape.
+
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** PCBs and electronic assemblies
+- **Modality:** Image
+- **Task:** Object detection; Defect detection
+- **Annotation:** Bounding box
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 10,259 images; 20,276 annotated defects
+- **Year:** 2024
+- **License:** CC BY
+- **Benchmark:** Yes
+
+## Description
+
+DsPCBSD+ (Dataset of PCB surface defect) collects images of real printed circuit board defects captured after etching on the inner and outer layers of boards. The images come from an AGLE'OL AOI-100 V8 automated optical inspection machine in the workshop of Guangzhou FastPrint Technology, and Shengping Lv deposited the set on figshare in 2024 alongside a Scientific Data article.
+
+It contains 10,259 images with 20,276 defects marked by hand with bounding boxes. Defects fall into nine categories defined by cause, location and shape: short, spur, spurious copper, open, mouse bite, hole breakout, conductor scratch, conductor foreign object and base material foreign object. Annotations are supplied in both YOLO and COCO formats.
+
+The images are split at random 8:2 into 8,208 training and 2,051 validation images, and the authors report benchmark results for the Co-DETR and YOLOv6-L6 detectors. The set is released under CC BY 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.6084/m9.figshare.24970329)
+- [api.figshare.com](https://api.figshare.com/v2/articles/24970329)
+- [ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11263390/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/dspcbsd-plus/)
+
+[⬅️ Back to Index](../README.md)

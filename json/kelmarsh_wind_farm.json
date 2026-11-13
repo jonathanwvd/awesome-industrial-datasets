@@ -1,0 +1,28 @@
+{
+  "Name": "Kelmarsh wind farm data",
+  "Summary": "Turbine SCADA archives for 2016 to 2024 from the six Senvion MM92 turbines of a 12.3 MW wind farm, with grid meter and PMU data, released by Cubico under CC BY 4.0.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Wind turbines",
+  "Modality": "Time series",
+  "Task": "Other",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "Six turbines, 2016 to 2024",
+  "Year": "2025",
+  "License": "CC BY",
+  "Publisher": "Cubico Sustainable Investments Ltd",
+  "Description": "Kelmarsh wind farm data is an open release by Cubico Sustainable Investments Ltd from its Kelmarsh wind farm, a 12.3 MW site with six Senvion MM92 turbines. It is published on Zenodo under CC BY 4.0; its latest version dates from August 2025.\n\nThe turbine SCADA data come in one archive per year from 2016 to 2024. Separate archives hold grid meter data and PMU data, with an additional PMU archive for 2023 and 2024. A static table of the turbines, a mapping of the data signals and a KMZ file of the site layout complete the record.\n\nCubico provides the data as is and asks users to share feedback on the content and format and to say where and how they use it. It is especially interested in uses for performance analysis and improvement and in combining the data with other open datasets. A companion record covers its Penmanshiel wind farm.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.5841833"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/16807551"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/kelmarsh-wind-farm/"
+    }
+  ]
+}

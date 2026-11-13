@@ -1,0 +1,29 @@
+{
+  "Name": "WoodDefect Detection Dataset for Automated Visual Inspection in wood Processing",
+  "Summary": "Sawmill camera images of planed European beech boards with bounding boxes for several defect classes, split into training and validation sets.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Surfaces and textures",
+  "Modality": "Image",
+  "Task": "Defect detection; Object detection",
+  "Annotation": "Bounding box; Class label",
+  "Source Type": "Real production",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "3,785 annotated images",
+  "Year": "2025",
+  "License": "CC BY",
+  "Description": "The WoodDefect Detection dataset supports automated visual inspection in hardwood processing. Its images were taken in a European sawmill with a high-resolution industrial camera under controlled diffuse LED lighting, and it was published on Zenodo in 2025.\n\nAll images show the planed surface of kiln-dried European beech (Fagus sylvatica) boards between 26 and 50 mm thick. No magnification filter or digital zoom was used, so the native resolution is about 0.08 mm per pixel on the wood.\n\nThere are 3,785 annotated images with bounding-box labels for multi-class defect detection. They are divided into 3,105 training images (82%) and 680 validation images (18%), and the split is stratified to keep the overall distribution of defect classes the same in both subsets. The data is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.18205889"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/18205890"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/wood-defect-visual-inspection/"
+    }
+  ]
+}

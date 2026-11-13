@@ -1,0 +1,28 @@
+{
+  "Name": "Penmanshiel wind farm data",
+  "Summary": "Turbine SCADA archives for 2016 to 2024 from the 14 Senvion MM82 turbines of a 28.7 MW wind farm, with grid and PMU data, released by Cubico under CC BY 4.0.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Wind turbines",
+  "Modality": "Time series",
+  "Task": "Other",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "14 turbines, 2016 to 2024",
+  "Year": "2025",
+  "License": "CC BY",
+  "Publisher": "Cubico Sustainable Investments Ltd",
+  "Description": "Penmanshiel wind farm data is an open release by Cubico Sustainable Investments Ltd from its Penmanshiel wind farm, a 28.7 MW site with 14 Senvion MM82 turbines. It is published on Zenodo under CC BY 4.0; its latest version dates from August 2025.\n\nThe turbine SCADA data are split into one archive for turbines WT01 to WT10 and one for WT11 to WT15. Yearly archives run from 2016 to 2022; 2023 comes in quarterly and monthly parts for WT01 to WT10, and the 2024 archive covers WT11 to WT15. Separate archives hold grid and PMU data, with an extra PMU archive for 2023 and 2024; a static turbine table, a signal mapping spreadsheet and a KMZ site layout complete the record.\n\nCubico provides the data as is and asks users to share feedback on the content and format and to say where and how they use it. It is especially interested in uses for performance analysis and improvement. A companion record covers its Kelmarsh wind farm.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.5946807"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/16807304"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/penmanshiel-wind-farm/"
+    }
+  ]
+}

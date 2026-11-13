@@ -1,0 +1,26 @@
+# ENIGMA-51
+
+51 egocentric videos of people repairing electrical boards in a simulated industrial laboratory, annotated for human-object interactions with hands, tools and instruments.
+
+- **Domain:** Manufacturing
+- **Modality:** Video; Image
+- **Task:** Object detection; Other
+- **Annotation:** Bounding box
+- **Source Type:** Lab or testbed
+- **Size:** 51 videos, 22 hours
+- **Year:** 2024
+
+## Description
+
+ENIGMA-51 is a set of 51 egocentric videos recorded in an industrial environment that simulates a real industrial laboratory. Nineteen subjects wearing a Microsoft HoloLens 2 headset followed audio and augmented reality instructions from the device to carry out repair procedures on electrical boards. They handle industrial tools such as an electric screwdriver and pliers, and electronic instruments such as a power supply and an oscilloscope. The dataset comes with a WACV 2024 paper by Ragusa and co-authors.
+
+The 22 hours of video are recorded at 2272x1278 pixels and 30 fps, with 45505 RGB frames over 2 procedures. Annotations include 14036 interactions marked in time with verbs, bounding boxes for 275135 objects and 56473 hands, 12597 interaction frames with 9342 active objects, and 37314 next-object interactions labelled in earlier frames. Labels use 4 basic verb classes and 25 object classes, and 3D models of the environment and objects are included.
+
+The annotations support a range of tasks centred on human-object interaction in industrial scenarios.
+
+## References
+
+- [Official page](https://iplab.dmi.unict.it/ENIGMA-51/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/enigma-51/)
+
+[⬅️ Back to Index](../README.md)

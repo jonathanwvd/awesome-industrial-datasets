@@ -1,0 +1,30 @@
+# Inland-Offshore Wind Farm Dataset1
+
+Ten-minute data from six turbines and three met masts at an inland and an offshore wind farm, pairing mast environmental variables with measurements taken at the turbines.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Wind turbines
+- **Modality:** Time series
+- **Task:** Other
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 6 turbines, 10-minute data
+- **Year:** 2021
+- **License:** CC BY
+- **Publisher:** Texas A&M University
+
+## Description
+
+Inland-Offshore Wind Farm Dataset1 holds data from an inland and an offshore wind farm; its record refers to the book Data Science for Wind Energy for the turbine layout. Yu Ding of Texas A&M University published it on Zenodo in 2021.
+
+It holds 10-minute data from six turbines, WT1 to WT6, and three met masts, one file per turbine. Environmental variables such as wind speed, direction, air density and turbulence intensity come from the met masts, while the response variable is measured at each turbine; every mast serves two turbines. The offshore farm has all seven environmental variables, while the inland farm lacks humidity and above-hub wind shear. The records span about one year per turbine pair, between 2009 and 2011.
+
+The data is released under CC BY 4.0, with each file pairing the mast inputs with the measurements of one turbine.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.5516552)
+- [Zenodo record](https://zenodo.org/records/5516552)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/inland-offshore-wind-farm-dataset1/)
+
+[⬅️ Back to Index](../README.md)

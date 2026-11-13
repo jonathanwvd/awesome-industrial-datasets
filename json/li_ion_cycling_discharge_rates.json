@@ -1,0 +1,30 @@
+{
+  "Name": "Lithium-Ion Battery Cycling Dataset at 1C, 2C, and 2.75C Discharge Rates",
+  "Summary": "Run-to-end-of-life cycling records at 1 Hz from three 18650 LFP cells, each discharged at a different C-rate, for state of health and RUL estimation.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Batteries",
+  "Modality": "Time series",
+  "Task": "RUL and prognostics; Condition monitoring",
+  "Annotation": "RUL label",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "three 18650 LFP cells",
+  "Year": "2026",
+  "License": "CC BY",
+  "Publisher": "Bandung Institute of Technology",
+  "Description": "This lithium-ion cycling dataset comes from the EV battery research team of the Manufacturing System Research Group at the Bandung Institute of Technology (ITB), with co-authors from Universitas Langlangbuana and Universitas Pelita Bangsa. Three commercial 18650 cells with LFP chemistry and a nominal 1800 mAh were cycled between April and September 2025 on a battery cycler built at ITB. It was published on Zenodo in 2026.\n\nAll cells share the same charge protocol, CC-CV at 1C (1800 mA) up to 100% state of charge, but each one is discharged at constant current to 30% state of charge at its own rate: 2.75C, 2C or 1C. A 5-minute rest separates the steps, the ambient temperature is held at 30 °C, and cycling continues until 70% capacity retention.\n\nEach cell has its own folder of CSV files sampled at 1 Hz with time, charge or discharge mode, voltage, current, capacity and energy. The temperature column contains only zeros. The data is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.19380244"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/19380245"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/li-ion-cycling-discharge-rates/"
+    }
+  ]
+}

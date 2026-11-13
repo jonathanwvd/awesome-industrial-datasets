@@ -1,0 +1,22 @@
+{
+  "Name": "BLDC Hub Motor Fault Detection Dataset",
+  "Summary": "Three-phase currents, voltage, torque and speed from an e-scooter BLDC hub motor bench with injected phase imbalance faults, downsampled from 100 kHz to eight lower rates.",
+  "Domain": "Transportation and mobility",
+  "Asset / Process": "Motors and drives",
+  "Modality": "Time series",
+  "Task": "Fault diagnosis; Condition monitoring",
+  "Annotation": "Class label",
+  "Access": "IEEE DataPort",
+  "Size": "144 CSV files of 120 s",
+  "Description": "Submitted to IEEE DataPort by Diana Belolipetskaja of Tallinn University of Technology, with Martin Võip as citation author, this dataset supports research on how low a sampling rate can go while still detecting faults in a brushless DC motor, for use in digital twins. It comes from a test bench with an e-scooter hub motor (XW48V350W, 350 W, 48 V) driven by a VESC 6 controller with field-oriented control.\n\nFaults are phase imbalances on phase B, injected in software, reducing its amplitude by 10%, 20% or 30%, at four operating points between 200 and 350 rpm and 5 to 10 Nm. Each recording lasts 120 seconds and holds time, torque, input voltage, the three phase currents and speed, with electrical signals captured at 100 kHz.\n\nThere are 4 healthy and 12 faulty baseline recordings. Each was low-pass filtered with a fourth-order Butterworth filter and downsampled to eight rates from 50 kHz to 250 Hz giving 144 files. Suggested uses include edge deployment and finding the minimum sampling rate for motor diagnostics.",
+  "References": [
+    {
+      "Text": "IEEE DataPort",
+      "Link": "https://ieee-dataport.org/documents/bldc-hub-motor-fault-detection-dataset-multi-rate-sampling-phase-current-measurements"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/bldc-hub-motor-imbalance-faults/"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Induction Motor Startup Currents (AGH)
+
+Startup current recordings of four identical mains-powered induction motors, one healthy and three with rotor faults, at varied supply voltages.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Motors and drives
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2025
+- **License:** CC BY
+- **Publisher:** AGH University of Krakow
+
+## Description
+
+This dataset from AGH University of Krakow records the startup current of four identical induction motors supplied from the mains. One motor is healthy; the other three carry rotor faults: one broken rotor bar, two broken rotor bars, or a damaged ring. Jerzy Baranowski, Kacper Jarzyna, Michał Rad and Paweł Piątek created it in the NCN OPUS project "Process Fault Prediction and Detection".
+
+The motors were coupled in pairs through their shafts to raise the moment of inertia, and each test was run at a different supply voltage. This changes the startup duration and the shape of the current waveform, so a diagnostic method has to respond to what happens during startup rather than to one waveform. Currents were measured with LEM transducers and a standard acquisition card at 1,150 Hz.
+
+The data has supported work on Bayesian fault diagnosis during startup in the frequency domain and on a Gaussian process mixture classifier presented at IECON 2024. It is on Zenodo under CC BY 4.0.
+
+## References
+
+- [Zenodo record](https://zenodo.org/records/17048028)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/agh-induction-motor-startup-currents/)
+
+[⬅️ Back to Index](../README.md)

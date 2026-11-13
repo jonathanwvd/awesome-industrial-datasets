@@ -1,0 +1,26 @@
+{
+  "Name": "Thermal Images from 3D Printing with Cincinnati BAAM",
+  "Summary": "Thermal images of ten polymer composite print jobs on a Cincinnati BAAM, released to test anomaly and fault detection methods in additive manufacturing.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Additive manufacturing",
+  "Modality": "Image",
+  "Task": "Anomaly detection",
+  "Size": "10 print jobs",
+  "Year": "2026",
+  "Publisher": "Oak Ridge National Laboratory",
+  "Description": "This dataset holds thermal images recorded while printing on a Cincinnati BAAM (model 606) fitted with a Cincinnati medium compression screw. Oak Ridge National Laboratory published it in 2026 with the University of Maine Advanced Structures & Composites Center and the University of Tennessee, Knoxville, with sponsorship from the US Advanced Materials and Manufacturing Technologies Office.\n\nTen print jobs were run. The feedstock was a polylactic acid compound filled with wood flour, made by Jabil from NatureWorks Ingeo 6060D amorphous PLA and pine flour from American Wood Fiber, printed onto 1/4 inch polycarbonate sheets.\n\nThe images were produced to test how well anomaly and fault detection methods perform on additive manufacturing processes. Kris Villez, Dilrukshi Abeyrathne, Benjamin Bailey, Wesley Bisson, Chris O'Brien, Jay Pike, Jason Stevens, Gregory Studer and Scott Tomlinson are the authors, and the record carries DOI 10.13139/ORNLNCCS/2998943.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.osti.gov/dataexplorer/biblio/dataset/2998943"
+    },
+    {
+      "Text": "composites.umaine.edu",
+      "Link": "https://composites.umaine.edu/publication/thermal-images-collected-during-3d-printing-with-cincinnati-baam/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/ornl-baam-thermal-images/"
+    }
+  ]
+}

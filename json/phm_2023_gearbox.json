@@ -1,0 +1,25 @@
+{
+  "Name": "PHM North America 2023 Conference Data Challenge",
+  "Summary": "Vibration and tachometer signals from a gear pitting test rig at many speeds and torques, covering eleven health levels, for estimating gearbox fault severity.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Gears and gearboxes",
+  "Modality": "Vibration; Time series",
+  "Task": "Classification; Condition monitoring",
+  "Annotation": "Class label",
+  "Source Type": "Lab or testbed",
+  "Access": "Competition",
+  "Size": "2016 training data files",
+  "Year": "2023",
+  "Benchmark": "Yes",
+  "Description": "The PHM North America 2023 Conference Data Challenge, hosted on the PHM Society data repository, asks teams to estimate the degradation of a gearbox run under many operating conditions, and each result must carry a measure of confidence. The data come from gear pitting experiments on a one-stage spur gearbox in an electronically closed transmission test rig with two 45 kW Siemens servo motors.\n\nA tri-axial accelerometer near the output-end bearing house records horizontal, axial and vertical acceleration at 20480 Hz, with a tachometer signal in the last column. Gear teeth are degraded by hand with a drill bit, from level 0 (healthy) up to 10. The training set holds 2016 files from 15 rotational speeds and 6 torque levels for the healthy state and six fault levels; levels 5, 7, 9 and 10 are left out.\n\nTest and validation data span 11 health levels, 18 speeds and 6 torque levels. Each submission gives a probability per health state and a binary confidence flag, and points depend on the distance from the true state, weighted by confidence.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://data.phmsociety.org/phm2023-conference-data-challenge/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/phm-2023-gearbox/"
+    }
+  ]
+}

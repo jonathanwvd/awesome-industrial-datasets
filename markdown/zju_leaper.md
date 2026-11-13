@@ -1,0 +1,29 @@
+# ZJU-Leaper
+
+Fabric defect benchmark with five annotation settings, from normal-only images to full defect masks, scored at pixel, region and sample level.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Defect segmentation
+- **Annotation:** Pixel mask; Bounding box; Normal-only training
+- **Access:** Direct download
+- **Year:** 2020
+- **Benchmark:** Yes
+
+## Description
+
+ZJU-Leaper is a benchmark for automatic fabric defect detection by Chenkai Zhang, Shaozhe Feng, Xulongqi Wang and Yueming Wang, described in a 2020 article in IEEE Transactions on Artificial Intelligence. Its fabrics are arranged in five groups: plain and striped cloth; dot, houndstooth, gingham and knot patterns; twill and coloured plaids; floral prints; and a group of four further patterns.
+
+The benchmark defines five task settings that reflect how cheaply defect data and annotations can be obtained: normal images only, a few defect images with masks, many defect images with image labels, many with bounding boxes, and many with full masks. Methods are scored at pixel, region and sample level.
+
+Baseline results cover sparse coding, a convolutional autoencoder and a one-class SVM for the normal-only setting, and U-Net variants for the supervised ones. The project site links the data download, the baseline code and implementations of earlier methods.
+
+## References
+
+- [Official page](http://www.qaas.zju.edu.cn/zju-leaper)
+- [nico-zck.github.io](https://nico-zck.github.io/zju-leaper)
+- [GitHub repository](https://github.com/nico-zck/ZJU-Leaper-Dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/zju-leaper/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,32 @@
+{
+  "Name": "Metal Surface Defect Dataset (MSDD)",
+  "Summary": "Photometric stereo images of cast metal blanks under multi-angle strobe lighting, mixed into pseudo-color images with bounding boxes for eight surface defect types.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Castings and metal parts",
+  "Modality": "Image",
+  "Task": "Defect detection; Object detection",
+  "Annotation": "Bounding box; Class label",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "138,585 single-channel and 9,239 mixed images (9.11 GB)",
+  "Year": "2024",
+  "License": "CC BY",
+  "Description": "The Metal Surface Defect Dataset (MSDD) targets automated optical inspection of metal parts with complex geometry, where shadows and reflective surfaces confuse systems that light the part from a single direction. The authors capture each part with a stroboscopic setup of several cameras and light sources at different angles, based on photometric stereo, and blend the single-channel images into RGB pseudo-color images with a learned channel mixer.\n\nThe record holds 138,585 single-channel images and 9,239 mixed images: 5,746 defect-free images and 3,493 images with defects. Eight defect classes are labelled: misrun, inclusion, dent, parting line crack, stamp collapse, pockmarks, mould scuffing and cut marks. Annotations are VOC files with the class and bounding box of each defect, and the defect patterns apply to surfaces of casting-formed metal blanks.\n\nThe descriptor in Scientific Data validates FCOS, YOLOv5, YOLOv8 and RT-DETR detectors on a 4:1 train-test split, reaching an mAP of 86.1%. Data is on Science Data Bank under CC BY 4.0, and the training code is on GitHub.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.57760/sciencedb.10794"
+    },
+    {
+      "Text": "nature.com",
+      "Link": "https://www.nature.com/articles/s41597-025-04454-6"
+    },
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/Destinyia/Metal-Surface-Defect-Detection"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/msdd-metal-surface-defects/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# SensumSODF
+
+Images of printed hard-shelled capsules and translucent softgels, defect-free or with expert-annotated cracks, dents, smudges, impurities and air bubbles.
+
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection
+- **Annotation:** Sample label
+- **Access:** Request or approval
+- **Year:** 2021
+- **License:** CC BY-NC-SA
+- **Publisher:** Sensum d.o.o.
+
+## Description
+
+SensumSODF, the Sensum Solid Oral Dosage Forms dataset, is an image collection from the pharmaceutical inspection domain, published by Sensum d.o.o. for research and evaluation. It accompanies a 2021 article in Neural Computing and Applications by Domen Rački, Dejan Tomaževič and Danijel Skočaj on detecting surface defects of solid oral dosage forms with convolutional neural networks.
+
+Two product types are covered. Non-translucent, printed hard-shelled capsules, used for dry powdered ingredients, contribute 836 defect-free and 153 defective images of 192 × 320 pixels. Translucent softgels, used mainly for oils, contribute 846 defect-free and 345 defective images of 144 × 144 pixels. Defects such as cracks, dents, smudges, impurities and air bubbles range from small to large; a pharmaceutical inspection expert marked the defective regions by hand, coarsely and with some defect-free area included.
+
+Access goes through a download request form, and the link arrives by email after a license check. The data is released under CC BY-NC-SA 4.0.
+
+## References
+
+- [Official page](https://www.sensum.eu/sensumsodf-dataset/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/sensumsodf/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,24 @@
+{
+  "Name": "2019 PHM Conference Data Challenge",
+  "Summary": "Piezoelectric wave signals and load profiles from fatigue tests of aluminum lap joint specimens, with measured crack lengths, for estimating crack growth.",
+  "Domain": "Materials and metrology",
+  "Modality": "Time series",
+  "Task": "Regression; RUL and prognostics",
+  "Annotation": "Scalar target",
+  "Source Type": "Lab or testbed",
+  "Access": "Competition",
+  "Size": "Eight specimens",
+  "Year": "2019",
+  "Benchmark": "Yes",
+  "Description": "The 2019 PHM Conference Data Challenge, hosted on the PHM Society data repository, asks teams to estimate crack length over the life of an aluminum structure under dynamic tensile loading. Piezoelectric (PZT) sensor pairs on lap joint specimens send and receive waves, and a crack on the path between actuator and receiver, 161 mm apart, changes the received signal.\n\nEight specimens, T1 to T8, were fatigue tested on a hydraulic material testing machine at 5Hz and room temperature, with crack length measured from time to time under an optical microscope. T1 to T7 ran under constant amplitude loading and T8 under variable amplitude loading. Each measurement point is recorded twice, with actuation and received signals in volts.\n\nSpecimens T1 to T6 form the training set, with true crack lengths and loading profiles; T7 and T8 are for validation, with sensor data and loading only. Validation estimates are submitted one point at a time before the next cycle is released, and the penalty score weighs late-life errors, underestimation and non-monotonic trends more heavily.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://data.phmsociety.org/2019datachallenge/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/phm-2019-crack-growth/"
+    }
+  ]
+}

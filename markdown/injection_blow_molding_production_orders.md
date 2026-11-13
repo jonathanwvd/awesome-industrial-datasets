@@ -1,0 +1,28 @@
+# Data Model for Injection Molding and Blow Molding
+
+Production order records from a plastics plant running injection and blow molding machines, with process settings, material use, cycle times and rejected units.
+
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Quality prediction; Process monitoring
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Mendeley Data
+- **Size:** More than 30 variables per production order
+- **Year:** 2025
+- **License:** CC BY
+
+## Description
+
+This spreadsheet, published on Mendeley Data by Smith Eusebio Lino Moreno, collects production and process variables from a facility that runs dedicated injection molding and blow molding machines for plastic products. Each row is one production order, identified by date, machine, shift and product.
+
+Measurements came from programmable logic controllers, digital scales and velocity sensors; a manufacturing execution system logged machine parameters automatically, and further variables were entered by hand in spreadsheets. The more than 30 variables include target quantity, unit weight, good and rejected units, inputs of polyethylene, polypropylene and masterbatch, injection and holding pressure, melt and mold temperatures, cycle, cooling, ejection and extrusion times, injection and blowing velocity, air flow, cavities and estimated flash waste.
+
+Derived columns give the percentage of flash waste, defective units and reprocessed material. The author intends the data for analysis of production performance, material efficiency, process control and product quality, including statistical process control and predictive analytics.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/gtnb4j7bfx)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/injection-blow-molding-production-orders/)
+
+[⬅️ Back to Index](../README.md)

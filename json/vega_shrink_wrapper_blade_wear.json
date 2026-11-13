@@ -1,0 +1,22 @@
+{
+  "Name": "Vega shrink-wrapper component degradation",
+  "Summary": "Six CSV recordings of a new and a worn cutting blade on an OCME Vega shrink-wrapper, made on the same machine to compare blade conditions in film cutting.",
+  "Domain": "Manufacturing",
+  "Modality": "Time series",
+  "Task": "Condition monitoring",
+  "Access": "Kaggle",
+  "Size": "6 CSV files",
+  "Year": "2018",
+  "License": "CC BY-SA",
+  "Description": "This Kaggle dataset from inIT-OWL has data of a new and a worn cutting blade in the Vega shrink-wrapper by OCME, a machine on food and beverage production lines that groups bottles or cans, wraps them in plastic film and heat-shrinks the film into packs. The blade cuts film fed from large spools; enclosed in a metal housing and turning fast, it cannot be inspected visually while the machine runs.\n\nSix CSV files, three from a new blade and three from a worn one, were recorded on the same machine for comparison. The set complements One Year Industrial Component Degradation from the same machine, which follows the blade's degradation over a year instead of contrasting two blade states.\n\nModel predictions on the worn blade show a higher average error, with error peaks when the blade meets the film. The data is cited with a CIRP CMS 2018 paper by von Birgelen and colleagues on self-organizing maps. The data was used in the IMPROVE project of the European Union's Horizon 2020 programme and is released under CC BY-SA 3.0.",
+  "References": [
+    {
+      "Text": "Kaggle dataset",
+      "Link": "https://www.kaggle.com/datasets/inIT-OWL/vega-shrinkwrapper-runtofailure-data"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/vega-shrink-wrapper-blade-wear/"
+    }
+  ]
+}
