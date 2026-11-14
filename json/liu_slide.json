@@ -1,0 +1,26 @@
+{
+  "Name": "SLIDe: Steam Line Intrusion Detection Benchmark",
+  "Summary": "Simulated steam line superheater data from a fluidized bed boiler, with normal-only training files, for detecting and isolating process faults and cyber attacks.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Power grids and plants",
+  "Modality": "Time series",
+  "Task": "Process monitoring; Intrusion detection",
+  "Annotation": "Normal-only training",
+  "Source Type": "Simulation",
+  "Access": "Direct download",
+  "Size": "three normal-operation training files",
+  "Year": "2025",
+  "Publisher": "Warsaw University of Technology",
+  "Benchmark": "Yes",
+  "Description": "SLIDe is a diagnosis benchmark built on a simulator of the steam line of a fluidized bed boiler in a power unit, covering the third and fourth superheater stages, each with an attemperator and a cascade PID control loop. It was a track of the competition at DX36, the 36th International Conference on Principles of Diagnosis and Resilient Systems in Nashville, organized by Anna Sztyber-Betley and Michał Syfert of the Faculty of Mechatronics at Warsaw University of Technology, Poland.\n\nThe training data shows only fault-free and attack-free operation: two 96-hour files with variable set points and one 24-hour file with constant set points. Participants must detect and isolate predefined process faults, such as sensor faults, valve blockages and steam leaks, and detect cyber attacks on controllers, set points, control and controlled variables and actuators, naming the affected control loop.\n\nSolutions run in Python inside Docker. Process faults and attacks are scored separately by false alarm rate, true detection rate and isolation accuracy, averaged over every simulation step.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://vehsys.gitlab-pages.liu.se/dx25benchmarks/slide/slide_index"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/liu-slide/"
+    }
+  ]
+}

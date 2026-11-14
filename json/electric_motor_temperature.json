@@ -1,0 +1,28 @@
+{
+  "Name": "Electric Motor Temperature",
+  "Summary": "185 hours of 2 Hz test bench recordings from a permanent magnet synchronous motor, for estimating rotor and stator temperatures and torque.",
+  "Domain": "Transportation and mobility",
+  "Asset / Process": "Motors and drives",
+  "Modality": "Time series",
+  "Task": "Regression",
+  "Annotation": "Scalar target",
+  "Source Type": "Lab or testbed",
+  "Access": "Kaggle",
+  "Size": "185 hours of recordings",
+  "License": "CC BY-SA",
+  "Description": "Electric Motor Temperature holds sensor data from a permanent magnet synchronous motor (PMSM) mounted on a test bench; the motor represents a German OEM's prototype model. The LEA department at Paderborn University recorded the measurements, and the data are shared on Kaggle under CC BY-SA 4.0.\n\nAll signals are sampled at 2 Hz in one CSV file. Measurement sessions last between one and six hours and are told apart by a profile_id column. Hand-designed driving cycles set a reference speed and torque, most of them random walks in the speed-torque plane that imitate real driving; d/q currents and voltages follow from a standard control strategy. A later update added 17 profiles, raising the total from 138 to 185 hours.\n\nThe owner names rotor temperature, stator temperatures and torque as the most interesting targets; rotor temperature and torque in particular are not reliably and economically measurable in a commercial vehicle. A related paper on deep residual learning comes with code on GitHub.",
+  "References": [
+    {
+      "Text": "Kaggle dataset",
+      "Link": "https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature"
+    },
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/upb-lea/deep-pmsm"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/electric-motor-temperature/"
+    }
+  ]
+}

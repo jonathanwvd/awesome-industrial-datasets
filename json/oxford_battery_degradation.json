@@ -1,0 +1,25 @@
+{
+  "Name": "Oxford Battery Degradation Dataset 1",
+  "Summary": "Long-term ageing data from eight Kokam 740 mAh lithium-ion pouch cells cycled in a University of Oxford lab between 2015 and 2016.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Batteries",
+  "Modality": "Time series",
+  "Task": "Condition monitoring",
+  "Source Type": "Lab or testbed",
+  "Access": "Official portal",
+  "Size": "253.8 MB data file",
+  "Year": "2017",
+  "License": "ODbL",
+  "Publisher": "University of Oxford",
+  "Description": "Oxford Battery Degradation Dataset 1 holds the results of long-term cycling tests on lithium-ion cells run in a laboratory at the University of Oxford. The University published it in 2017 as version 1 in the Oxford University Research Archive (ORA), with funding from the Engineering and Physical Sciences Research Council and Jaguar Land Rover.\n\nThe tests cover eight Kokam SLPB533459H4 pouch cells rated at 740 mAh, with data collected from 8 January 2015 to 31 December 2016. The record holds a 253.8 MB data file, a second, smaller binary file and a readme.txt that describes the data.\n\nThe data addresses the gradual degradation of lithium-ion cells, where time, usage and environment cause loss of performance and cell failures. It is released under the ODC Open Database License (ODbL) 1.0.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/oxford-battery-degradation/"
+    }
+  ]
+}

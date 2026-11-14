@@ -1,0 +1,31 @@
+# Bearing Vibration Data under Time-varying Rotational Speed Conditions
+
+Accelerometer and encoder signals from healthy and faulty bearings under four time-varying speed profiles, sampled at 200 kHz, from the University of Ottawa.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration
+- **Task:** Fault diagnosis
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Size:** 60 recordings
+- **Year:** 2019
+- **License:** CC BY
+- **Publisher:** University of Ottawa
+
+## Description
+
+This dataset holds vibration signals from bearings in different health conditions, recorded while the rotational speed changes. It was contributed by Huan Huang and Natalie Baddour of the University of Ottawa and is published on Mendeley Data, with a related article in Data in Brief.
+
+Five health conditions are covered: healthy, inner race defect, outer race defect, ball defect, and combined defects on the inner race, outer race and ball. Each is recorded under four speed profiles: increasing, decreasing, increasing then decreasing, and decreasing then increasing. With three trials per setting, the set has 60 recordings.
+
+Each recording has two channels: vibration measured by an accelerometer and rotational speed measured by an encoder with 1024 cycles per revolution. Both are sampled at 200,000 Hz for 10 seconds. The data are released under CC BY 4.0.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/v43hmbwxpm/2)
+- [DOI](https://doi.org/10.1016/j.dib.2018.11.019)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/uottawa-bearing-time-varying-speed/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,31 @@
+# PCB-Defect: An Annotated Dataset for Surface Defect Detection in Printed Circuit Boards
+
+230 high-resolution images of lab-etched single-layer PCBs with 2,506 oriented annotations of six defect types, for horizontal and oriented box detection.
+
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** PCBs and electronic assemblies
+- **Modality:** Image
+- **Task:** Object detection; Defect detection
+- **Annotation:** Bounding box
+- **Source Type:** Lab or testbed
+- **Access:** Mendeley Data
+- **Size:** 230 images; 2,506 defect annotations
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** Islamic University of Technology
+
+## Description
+
+PCB-Defect is an image dataset of single-layer printed circuit boards made at the Islamic University of Technology in Gazipur, Bangladesh. Every board was fabricated through a controlled chemical etching process, so its defects are physical, chemically induced flaws on real copper. The first version of the dataset is described in a Data in Brief article.
+
+The 230 images show six defect types: missing pad, mouse bite, open circuit, short circuit, spur and spurious copper. Version 2 of the Mendeley record, published in 2026, re-annotates every image with oriented annotations that follow each defect's direction, giving 2,506 annotations or about 10.9 per image; it lists image sizes from 2.33 to 29.97 megapixels, with a mean of 6.62. The original axis-aligned COCO-style JSON labels are kept as well.
+
+The labels serve both horizontal and oriented object detectors. The data is on Mendeley Data under CC BY 4.0.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/vdj74sngvn)
+- [ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12756537/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/pcb-defect-iut/)
+
+[⬅️ Back to Index](../README.md)

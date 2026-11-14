@@ -1,0 +1,28 @@
+{
+  "Name": "WUSTL-IIOT-2018",
+  "Summary": "Labelled network traffic from a SCADA testbed with Modbus reconnaissance and exploit attacks, cleaned to 7,037,983 rows of flow features.",
+  "Domain": "OT security",
+  "Asset / Process": "Control systems and networks",
+  "Modality": "Network traffic; Tabular",
+  "Task": "Intrusion detection",
+  "Annotation": "Sample label",
+  "Source Type": "Lab or testbed",
+  "Access": "Direct download",
+  "Size": "7,037,983 observations",
+  "Year": "2018",
+  "Description": "WUSTL-IIOT-2018 is a network traffic dataset for cybersecurity research on supervisory control and data acquisition (SCADA) systems, built on a SCADA testbed that emulates real industrial systems. Marcio Teixeira, Maede Zolanvari and Raj Jain released it in 2018 alongside a Future Internet paper on the testbed.\n\nThe attacks are reconnaissance steps that scan the network for weaknesses: a port scanner, an address scan that looks for the Modbus server, device identification of Modbus slave IDs in normal and aggressive modes, and an exploit category. Traffic was captured for 25 hours; the raw capture was 93.93% normal and 6.07% attack traffic, and 7,037,983 rows remain after cleaning. Each row is labelled normal or attack and keeps six flow features such as source port, packet and byte counts.\n\nThe CSV downloads directly from the university page and is also listed on IEEE DataPort.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://classes.engineering.wustl.edu/~jain/iiot/index.html"
+    },
+    {
+      "Text": "IEEE DataPort",
+      "Link": "https://ieee-dataport.org/open-access/wustl-iiot-2018"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/wustl-iiot-2018/"
+    }
+  ]
+}

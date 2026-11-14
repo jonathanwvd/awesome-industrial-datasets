@@ -1,0 +1,23 @@
+{
+  "Name": "2025 Peregrine in-situ monitoring and training dataset for laser powder bed fusion and binder jet printers",
+  "Summary": "In-situ monitoring data from four builds on a laser powder bed fusion printer and a binder jet printer, with process anomalies annotated on 37 layers.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Additive manufacturing",
+  "Modality": "Image",
+  "Task": "Process monitoring",
+  "Source Type": "Lab or testbed",
+  "Size": "4 builds; 37 annotated image stacks",
+  "Year": "2025",
+  "Publisher": "Oak Ridge National Laboratory",
+  "Description": "This 2025 release from Oak Ridge National Laboratory packages in-situ monitoring data collected and analysed with Peregrine, a software tool developed at the laboratory. It covers a Concept Laser M2 (Colibrium Additive) laser powder bed fusion printer and an ExOne Innovent (Desktop Metal) binder jet printer.\n\nData from four builds is stored in HDF5 files. In addition, the authors annotated process anomalies on 37 image stacks, each stack being one print layer, and these annotations are also provided as HDF5 files.\n\nThe record carries DOI 10.13139/ORNLNCCS/2588140 and was published in September 2025 with support from the US Advanced Materials and Manufacturing Technologies Office (AMMTO).",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.osti.gov/dataexplorer/biblio/dataset/2588140"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/ornl-peregrine-2025/"
+    }
+  ]
+}

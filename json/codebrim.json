@@ -1,0 +1,30 @@
+{
+  "Name": "CODEBRIM: COncrete DEfect BRidge IMage Dataset",
+  "Summary": "Bridge inspection images with bounding boxes and class labels for multi-target, multi-class classification of concrete defects, with training, validation and test splits.",
+  "Domain": "Infrastructure and civil",
+  "Modality": "Image",
+  "Task": "Classification",
+  "Annotation": "Bounding box; Class label",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Year": "2019",
+  "Benchmark": "Yes",
+  "Description": "CODEBRIM (COncrete DEfect BRidge IMage Dataset) supports multi-target, multi-class classification of concrete defects in bridge images. Researchers from Goethe University and Egnatia Odos A.E. released it on Zenodo in April 2019, and it is detailed in their CVPR 2019 paper on meta-learning convolutional neural architectures for this task.\n\nThe record holds four versions of the data. The original full-resolution images come with bounding box annotations, and a cropped version holds the patches extracted from those boxes with their class labels. A classification version splits the labelled patches into training, validation and test sets, and a balanced variant replicates training images so that the results of the paper can be reproduced.\n\nA companion GitHub repository holds code to reproduce the paper and data loaders.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.2620292"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/2620293"
+    },
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/ccc-frankfurt/meta-learning-CODEBRIM"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/codebrim/"
+    }
+  ]
+}

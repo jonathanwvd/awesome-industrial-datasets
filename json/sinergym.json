@@ -1,0 +1,23 @@
+{
+  "Name": "Sinergym",
+  "Summary": "Gymnasium interface to EnergyPlus building simulations, with configurable environments for testing reinforcement learning and other building control strategies.",
+  "Domain": "Buildings and appliances",
+  "Asset / Process": "HVAC and building systems",
+  "Modality": "Simulator",
+  "Task": "Simulation and control; Energy optimization",
+  "Source Type": "Simulation",
+  "Access": "Code repository",
+  "Year": "2025",
+  "License": "MIT",
+  "Description": "Sinergym is a Python framework that connects Gymnasium to building simulation engines such as EnergyPlus, so that custom controllers, including reinforcement learning agents, act on a building during simulation time. Its reference paper by Alejandro Campoy-Nieves and co-authors, describing it as a virtual testbed for building energy optimization with reinforcement learning, appeared in Energy and Buildings in 2025.\n\nCommunication between controller and building runs through the EnergyPlus Python API. Pre-configured environments, such as a mixed continuous stochastic data center case, serve for testing and comparing RL algorithms or other control strategies, and users can define their own with chosen reward functions, wrappers and controllers. Building models adapt automatically to user settings, and actuators are addressed by name.\n\nSinergym works with Stable Baselines 3 algorithms, wrappers and callbacks, logs training and evaluation to Weights & Biases and can run experiments on Google Cloud. It is distributed on PyPI and as a Docker image, and the code is released under the MIT license.",
+  "References": [
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/ugr-sail/sinergym"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/sinergym/"
+    }
+  ]
+}

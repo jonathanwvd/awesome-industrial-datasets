@@ -1,0 +1,24 @@
+{
+  "Name": "Stuttgart Open Relay Degradation Dataset",
+  "Summary": "Experimental measurements of how different electromechanical relays degrade under different operating conditions, built for relay lifetime prediction and transfer learning.",
+  "Domain": "Robotics and automation",
+  "Modality": "Time series",
+  "Task": "RUL and prognostics; Condition monitoring",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "101 files",
+  "Year": "2022",
+  "License": "CC BY",
+  "Publisher": "University of Stuttgart",
+  "Description": "The Stuttgart Open Relay Degradation Dataset (SOReDD) records the degradation of different electromechanical relays under different operating conditions. It is meant for industrial transfer learning, where knowledge from one asset, process or data variant is reused for another. The authors are Benjamin Maschler, Angel Iliev, Thi Thu Huong Pham and Michael Weyrich, with a point of contact at the University of Stuttgart, and it was published on DaRUS in 2022.\n\nThe measurements come from experiments recorded with a Pico Technology Picoscope 3403D USB oscilloscope; the measured variables are load voltage drop and contact resistance. The record holds 101 files: JSON data files and a PDF read-me that documents the structure and contents.\n\nRelays are usually inexpensive standard parts, but as the central power switching element of a machine their failure can stop the whole machine. The data supports predicting relay degradation and remaining useful lifetime so that relays are replaced before unplanned downtime. It is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.18419/darus-2785"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/soredd-relay-degradation/"
+    }
+  ]
+}

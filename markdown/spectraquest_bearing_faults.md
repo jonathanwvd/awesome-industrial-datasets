@@ -1,0 +1,29 @@
+# SpectraQuest_Dataset@ Sampling rate of 12.8KHz with different speed and constant load condition for REB Fault Diagnosis
+
+Vibration signals from deep-groove ball bearings with ball, inner race, outer race and combined faults, sampled at 12.8 kHz at several speeds under constant load.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration
+- **Task:** Fault diagnosis
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** MAT files sampled at 12,800 Hz
+- **Year:** 2026
+- **License:** CC BY
+
+## Description
+
+This dataset holds raw vibration signals from deep-groove ball bearings with seeded faults, recorded under constant load at different speeds for rolling element bearing (REB) fault diagnosis. Its creators are affiliated with Vellore Institute of Technology University, and it was published on Zenodo in September 2026 under CC BY 4.0.
+
+The test rig has a dual bearing housing that supports a drive shaft turned by a 220 V, 1/3 to 1/4 hp DC motor. The MB ER-10 K bearings have a 0.98-inch bore, a 2.05-inch outer diameter, a 1.49-inch pitch diameter and eight balls of 0.34 inch each. Faults were created one by one: ball defects, outer race defects, inner race defects and combined defects.
+
+A Kistler 8763A50 triaxial piezoelectric accelerometer, fixed vertically on the bearing housing with wax, captured the signals through an Atlan DAQ at 12,800 Hz.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.22705164)
+- [Zenodo record](https://zenodo.org/records/22705165)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/spectraquest-bearing-faults/)
+
+[⬅️ Back to Index](../README.md)

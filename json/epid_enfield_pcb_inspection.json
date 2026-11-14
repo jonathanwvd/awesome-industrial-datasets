@@ -1,0 +1,27 @@
+{
+  "Name": "EPID: The Enfield PCB Inspection Dataset for Visual Defect Detection",
+  "Summary": "Lab images of printed circuit boards, intact and with burned ICs, melted pins or popped capacitors, with COCO bounding boxes for ICs and capacitors.",
+  "Domain": "Electronics and semiconductors",
+  "Asset / Process": "PCBs and electronic assemblies",
+  "Modality": "Image",
+  "Task": "Defect detection; Object detection",
+  "Annotation": "Bounding box",
+  "Source Type": "Lab or testbed",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Year": "2025",
+  "Description": "EPID, the Enfield PCB Inspection Dataset, is a collection of high-resolution photographs of printed circuit boards taken under controlled laboratory conditions. It was published on Zenodo in 2025 by authors from the University of Montenegro, Fain Tech and Politecnico di Milano for research on visual defect detection.\n\nThe images show undamaged boards as well as boards on which defects were introduced on purpose: burned integrated circuits, melted IC pins and popped capacitors. The damage was applied step by step following a reproducible damage-planning procedure, so the sequence of each board is documented.\n\nEvery image carries bounding boxes in COCO format for the integrated circuits and capacitors, with metadata that records the damage type and its order. The data targets model training and comparison when only small amounts of data are available, for uses such as quality control in electronics manufacturing.",
+  "References": [
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5281/zenodo.16811807"
+    },
+    {
+      "Text": "Zenodo record",
+      "Link": "https://zenodo.org/records/16811807"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/epid-enfield-pcb-inspection/"
+    }
+  ]
+}

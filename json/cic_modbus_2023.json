@@ -1,0 +1,23 @@
+{
+  "Name": "CIC Modbus Dataset 2023",
+  "Summary": "Packet captures and timestamped attack logs from a simulated Modbus substation network, covering nine attack types and benign traffic.",
+  "Domain": "OT security",
+  "Asset / Process": "Control systems and networks; Power grids and plants",
+  "Modality": "Network traffic",
+  "Task": "Intrusion detection",
+  "Annotation": "Event and time label",
+  "Source Type": "Simulation",
+  "Year": "2023",
+  "Publisher": "Canadian Institute for Cybersecurity",
+  "Description": "The CIC Modbus Dataset 2023 is a set of network captures and attack logs from a simulated electrical substation, published by the Canadian Institute for Cybersecurity. It accompanies a paper by Kwasi Boakye-Boateng, Ali A. Ghorbani and Arash Habibi Lashkari at the 20th International Conference on Privacy, Security and Trust (PST) in 2023.\n\nDocker containers stand in for IEDs and SCADA HMIs: IEDs change voltage values, and HMIs tap-change or switch on overvoltage and undervoltage. Secure devices run a detection agent that reports scores to a central agent. Traffic is captured per IED with tcpdump and for the whole network on the Docker bridge, in PCAP files split into 100 MB chunks.\n\nA benign part holds legitimate Modbus traffic. The attack part covers reconnaissance, query flooding, payload loading, delayed responses, length changes, false data injection, stacked frames, brute-force writes and replay, launched from an external host, a compromised IED or a compromised HMI. CSV logs give each attack's UTC timestamp, target and type. Redistribution is allowed with a citation of the dataset and paper.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.unb.ca/cic/datasets/modbus-2023.html"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/cic-modbus-2023/"
+    }
+  ]
+}

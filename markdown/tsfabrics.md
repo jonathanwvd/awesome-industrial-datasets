@@ -1,0 +1,32 @@
+# TSFabrics: A Time-Series Fabric Dataset for Real-Time Defect Detection on Circular Knitting Machines
+
+93,196 grayscale time-series images from circular knitting machines in 22 production scenarios, with pixel-level labels separating defects from cut lines.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Classification
+- **Annotation:** Class label; Pixel mask
+- **Source Type:** Real production
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 93,196 images
+- **Year:** 2026
+- **License:** CC BY
+- **Publisher:** National Central University
+
+## Description
+
+TSFabrics is an image dataset for defect detection on circular knitting machines, developed at National Central University in Taiwan and described in a 2026 Scientific Data article by Yan-Qin Ni, Pei-Kai Huang, Wei-Jen Wang, Deron Liang and Chia-Yu Lin. Unlike sets of isolated pictures, it records the fabric as a continuous sequence of frames from real production.
+
+It contains 93,196 grayscale images from 22 real production scenarios that differ in fabric type, production speed and lighting. The camera records 1280 by 1024 frames at 30 frames per second, so consecutive images overlap; each image is centre-cropped to 800 by 640 pixels. There are 89,900 normal and 3,296 abnormal images. A CSV file in each folder gives every image's category, and pixel-level annotations tell true defects apart from the cut lines that production marks on normal fabric.
+
+The data targets real-time defect detection on knitting machines. It is hosted on figshare under CC BY 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.6084/m9.figshare.29573381)
+- [api.figshare.com](https://api.figshare.com/v2/articles/29573381)
+- [isslab.csie.ncu.edu.tw](https://isslab.csie.ncu.edu.tw/download/publications/TSFabrics%20A%20Time-Series%20Fabric%20Dataset%20for%20Real-Time%20Defect%20Detection%20on%20Circular%20Knitting%20Machines.pdf)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/tsfabrics/)
+
+[⬅️ Back to Index](../README.md)

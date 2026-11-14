@@ -1,0 +1,32 @@
+# BladeSynth
+
+Rendered images of aero-engine turbine blades in five classes (normal, dent, nick, scratch, corrosion) with segmentation masks for every defective image.
+
+- **Domain:** Aerospace and defense
+- **Asset / Process:** Turbines and engines
+- **Modality:** Image
+- **Task:** Defect segmentation; Classification; Anomaly detection
+- **Annotation:** Pixel mask; Class label
+- **Source Type:** Synthetic
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 12,500 images at 1024 × 1024 pixels
+- **Year:** 2025
+- **License:** CC BY
+
+## Description
+
+BladeSynth is a synthetic image set for inspecting aero-engine blades, built by Mohammed Eltoum, Ehtesham Iqbal, Yahya Zweiri, Brain Moyo and Yusra Abdul Rahman. Images come from a physics-based rendering procedure in Blender: CAD models of the blades and material textures are placed in an inspection scene with randomised camera settings, lighting and backgrounds.
+
+The set holds 12,500 images at 1024 × 1024 pixels, split evenly into five classes of 2,500 images: normal, dent, nick, scratch and corrosion. Every defective image is paired with a segmentation mask generated in the rendering pipeline, and a subset was checked by hand for alignment with the defect boundaries.
+
+The descriptor in Scientific Data tests the images for supervised defect detection with YOLOv8 segmentation, for unsupervised defect detection, and for transfer to real blade images. Data is on figshare under CC BY 4.0, and the Blender files and Python scripts that generate it are on GitHub.
+
+## References
+
+- [Official page](https://figshare.com/articles/dataset/BladeSynth/28658603)
+- [api.figshare.com](https://api.figshare.com/v2/articles/28658603)
+- [nature.com](https://www.nature.com/articles/s41597-025-05563-y)
+- [GitHub repository](https://github.com/MohammedEltoum/bladeSynth)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/bladesynth/)
+
+[⬅️ Back to Index](../README.md)

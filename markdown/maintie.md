@@ -1,0 +1,28 @@
+# MaintIE
+
+Maintenance work order short texts annotated with a fine-grained entity and relation scheme, with expert and model-assisted corpora and extraction baselines.
+
+- **Domain:** Cross-industrial
+- **Modality:** Text and documents
+- **Task:** Other
+- **Annotation:** Text and QA label
+- **Access:** Code repository
+- **Size:** 7,000 coarse-grained texts plus an expert-annotated set
+- **Year:** 2024
+- **License:** MIT
+- **Benchmark:** Yes
+
+## Description
+
+MaintIE (Maintenance Information Extraction) is an annotation scheme and pair of corpora for extracting entities and relations from maintenance work orders, short technical texts that describe the condition of machines, infrastructure and other engineered assets and the work done on them. It accompanies a paper by Tyler Bikaun and co-authors at LREC-COLING 2024.
+
+The scheme has 5 top-level classes (PhysicalObject, State, Process, Activity and Property), 224 leaf entities and 6 relations. A gold-standard corpus is double annotated by two domain experts, and a silver-standard corpus of 7,000 texts is labelled by a model trained on the gold set and then checked by one expert. Texts are normalised (canonical spellings, expanded abbreviations, corrected casing) and sanitised with tokens for sensitive data, IDs, numbers and dates. They hold at most 13 tokens, 5.4 on average.
+
+Baselines with SpERT and REBEL report per-class, micro and macro F1 for entity and relation extraction. The scheme, corpora and models are released under the MIT license.
+
+## References
+
+- [GitHub repository](https://github.com/nlp-tlp/maintie)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/maintie/)
+
+[⬅️ Back to Index](../README.md)

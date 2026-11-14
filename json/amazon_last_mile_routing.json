@@ -1,0 +1,30 @@
+{
+  "Name": "2021 Amazon Last Mile Routing Research Challenge Dataset",
+  "Summary": "Route-, stop- and package-level features of 9,184 anonymised Amazon delivery routes from 2018 in five US metropolitan areas, split for training and evaluation.",
+  "Domain": "Logistics and retail",
+  "Asset / Process": "Vehicles and fleets",
+  "Modality": "Geospatial and remote sensing; Tabular",
+  "Task": "Scheduling and optimization",
+  "Source Type": "Real production",
+  "Access": "Official portal",
+  "Size": "9,184 historical routes",
+  "Year": "2022",
+  "License": "CC BY-NC",
+  "Publisher": "Amazon",
+  "Benchmark": "Yes",
+  "Description": "This dataset comes from the 2021 Amazon Last Mile Routing Research Challenge, which Amazon.com led with support from the MIT Center for Transportation and Logistics. During the 4-month challenge, participants were asked to develop machine learning methods that enhance classic optimization approaches to the travelling salesperson problem by learning from routes that Amazon delivery drivers actually drove. A 2022 Transportation Science article formally introduces the data.\n\nIt holds route-, stop- and package-level features for 9,184 routes driven in 2018 in five US metropolitan areas. Route and package identifiers were regenerated at random and location data obfuscated, so no personally identifiable information remains. A training folder holds 6,112 routes and an evaluation folder 3,072.\n\nThe data sit in a public S3 bucket that the AWS CLI can list without an AWS account, under a CC BY-NC 4.0 license.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://registry.opendata.aws/amazon-last-mile-challenges/"
+    },
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/MIT-CAVE/rc-cli"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/amazon-last-mile-routing/"
+    }
+  ]
+}

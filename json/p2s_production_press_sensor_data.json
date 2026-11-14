@@ -1,0 +1,23 @@
+{
+  "Name": "Production Press Sensor Data (P2S)",
+  "Summary": "Force time series from the deep drawing stage of a progressive die on a high-speed press, labelled normal or defective part, with run speed as a confounder.",
+  "Domain": "Manufacturing",
+  "Modality": "Time series",
+  "Task": "Classification; Quality prediction",
+  "Annotation": "Sample label",
+  "Access": "Hugging Face",
+  "Size": "2,264 runs from 12 experiments at 6 speeds",
+  "License": "CC BY",
+  "Benchmark": "Yes",
+  "Description": "Production Press Sensor Data (P2S) records forces in a sheet metal part production process run on a four-stage progressive die; the recordings cover the deep drawing stage, taken with a Kistler 9240A piezoelectric sensor above the punch. The die runs on a Bruderer BSTA 810-145 high-speed press, and its stages are pilot punching, round stamping, deep drawing and cut-out. Its point of contact is at TU Darmstadt, and the dataset card links a paper on arXiv (2402.12921).\n\nEach sample holds a force time series of 4,096 steps, the run speed, a label (normal or defect) and a binary mask of 4,096 steps that marks the parts of the signal most affected by run speed. The 2,264 samples come from 12 experiments at six speeds between 80 and 225, half with normal and half with faulty outcomes.\n\nTwo variants define train and test splits: in the normal variant both outcomes share speeds across splits, while in the decoy variant speed is a spurious correlate of the label, which tests whether a model learns the confounder.",
+  "References": [
+    {
+      "Text": "Hugging Face dataset",
+      "Link": "https://huggingface.co/datasets/AIML-TUDA/P2S"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/p2s-production-press-sensor-data/"
+    }
+  ]
+}

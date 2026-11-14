@@ -1,0 +1,22 @@
+{
+  "Name": "CALCE Battery Data",
+  "Summary": "Experimental lithium-ion cell test data from the University of Maryland's CALCE center, covering cycling, storage, driving profiles, OCV and impedance.",
+  "Domain": "Energy and power",
+  "Asset / Process": "Batteries",
+  "Modality": "Time series",
+  "Task": "RUL and prognostics; Condition monitoring; Regression",
+  "Source Type": "Lab or testbed",
+  "Access": "Direct download",
+  "Publisher": "Center for Advanced Life Cycle Engineering (CALCE)",
+  "Description": "CALCE Battery Data is the open collection of experimental lithium-ion test data from the battery team of the Center for Advanced Life Cycle Engineering at the University of Maryland. The tests include full and partial cycling, storage, dynamic driving profiles, open circuit voltage (OCV) measurements and impedance measurements on cylindrical, pouch and prismatic cells with LCO, LFP and NMC chemistries.\n\nCell families include INR 18650-20R, A123, CS2, CX2 and PL samples. Dynamic tests use profiles such as DST, FUDS, US06 and BJDST at several ambient temperatures, while CS2 and CX2 cells are cycled under constant current/constant voltage charging on Arbin or CADEX testers. A pouch-cell study tracks capacity loss under partial cycling, and a storage study holds 144 cells at 0%, 50% and 100% SOC at four temperatures from -40°C to 50°C.\n\nThe data supports state estimation, remaining useful life prediction, degradation modeling and reliability analysis. Accelerated testing and anomaly detection data are published separately, and publications using the data cite the CALCE articles behind each test.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://calce.umd.edu/battery-data"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/calce-battery-data/"
+    }
+  ]
+}

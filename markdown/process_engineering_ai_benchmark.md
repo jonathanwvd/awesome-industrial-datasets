@@ -1,0 +1,27 @@
+# AI-Benchmark
+
+Eight process engineering systems simulated in Modelica, from Fraunhofer IOSB-INA, for evaluating AI methods for fault handling in cyber-physical production systems.
+
+- **Domain:** Chemical and process
+- **Modality:** Simulator
+- **Task:** Process monitoring
+- **Source Type:** Simulation
+- **Access:** Code repository
+- **Year:** 2021
+- **License:** CC BY-NC
+- **Publisher:** Fraunhofer IOSB-INA
+
+## Description
+
+AI-Benchmark is a collection of eight process engineering systems modelled in Modelica, intended for evaluating artificial intelligence methods that handle faults in cyber-physical production systems (CPPS). It was developed by the Machine Learning group of Fraunhofer IOSB-INA, the industrial automation branch of Fraunhofer IOSB, located in Lemgo, Germany.
+
+With a Modelica compiler already installed, each system can be simulated on its own, or all of them together through a Python script. Without a compiler, a Docker image provides the OpenModelica compiler and runs all simulations inside a container.
+
+The repository dates from March 2021 and is released under CC BY-NC 4.0. Kaja Balzereit is the contact person for the benchmark.
+
+## References
+
+- [GitHub repository](https://github.com/kbalzereit/ai-benchmark)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/process-engineering-ai-benchmark/)
+
+[⬅️ Back to Index](../README.md)

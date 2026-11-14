@@ -1,0 +1,27 @@
+# OpenMines
+
+Python simulation environment for open-pit mine truck dispatching, for evaluating and comparing dispatch algorithms, including reinforcement learning agents.
+
+- **Domain:** Mining and mineral processing
+- **Asset / Process:** Vehicles and fleets
+- **Modality:** Simulator
+- **Task:** Simulation and control; Scheduling and optimization
+- **Source Type:** Simulation
+- **Access:** Code repository
+- **Year:** 2024
+- **License:** MIT
+
+## Description
+
+OpenMines is a Python simulation environment for truck dispatching in open-pit mining, used to evaluate and compare dispatch algorithms. It models mines as complex systems with probabilistic user-defined events. Its paper by Shi Meng, Bin Tian and co-authors was accepted at the 35th IEEE Intelligent Vehicles Symposium (IV) in 2024.
+
+A mine is configured in a JSON file with load sites and shovels, dump sites, a charging site, a road network and truck fleets. A bundled example, built on anonymized data, models the North Pit Mine in Holingol, Inner Mongolia, China. Shovel downtime and road repairs affect service, and built-in dispatchers include naive, random, nearest, fixed-group, SPTF and SQ strategies.
+
+New dispatchers inherit from a base class. Runs produce a performance table, a production curve over time and an animated replay, and commands vary fleet size or compare a target algorithm with a baseline across scenes. Gymnasium environments in dense and sparse variants support reinforcement learning. The code installs from PyPI under the MIT license.
+
+## References
+
+- [GitHub repository](https://github.com/370025263/openmines)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/openmines/)
+
+[⬅️ Back to Index](../README.md)

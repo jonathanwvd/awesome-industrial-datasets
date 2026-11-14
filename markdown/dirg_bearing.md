@@ -1,0 +1,30 @@
+# The Politecnico di Torino rolling bearing test rig
+
+Accelerometer recordings from a high-speed roller bearing rig with seeded roller and inner-ring indentations at several sizes, speeds and loads, plus an endurance run of about 230 hours.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings
+- **Modality:** Vibration
+- **Task:** Fault diagnosis; Condition monitoring
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Year:** 2019
+- **License:** CC BY
+- **Publisher:** Politecnico di Torino
+
+## Description
+
+The Dynamic and Identification Research Group (DIRG) of Politecnico di Torino's Department of Mechanical and Aerospace Engineering recorded these accelerometer signals on its rolling bearing test rig. It was published on Zenodo in 2019 with a description paper in Mechanical Systems and Signal Processing.
+
+A high-speed spindle drives a hollow shaft carried by two identical roller bearings; one of them, B1, is the bearing under test, while a larger central bearing is loaded radially through a sledge and load cell. Two triaxial accelerometers sit on the bearing supports. B1 is tested healthy (0 µm) or with indentations on a roller or on the inner ring of 150, 250 or 450 µm.
+
+Stationary runs combine shaft speeds from 0 to 500 Hz with loads up to 1,800 N. An endurance set follows the 450 µm roller indentation for about 230 hours at one speed and load. The data is released under CC BY 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.3559553)
+- [Zenodo record](https://zenodo.org/records/3559553)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/dirg-bearing/)
+
+[⬅️ Back to Index](../README.md)

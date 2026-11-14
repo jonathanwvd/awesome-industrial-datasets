@@ -1,0 +1,31 @@
+# FHC Twin-Plant Photovoltaic Anomaly Detection Dataset
+
+String-level PV data from two identical plants in Graz, one kept fault-free for training and one with shading, mismatch and injected sensor anomalies for testing.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Solar PV
+- **Modality:** Time series
+- **Task:** Anomaly detection
+- **Annotation:** Normal-only training; Class label
+- **Source Type:** Mixed
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 25 days of 30-second measurements
+- **Year:** 2026
+- **License:** CC BY
+- **Benchmark:** Yes
+
+## Description
+
+The FHC Twin-Plant Photovoltaic Anomaly Detection Dataset comes from a measurement campaign at FH Campus 02 in Graz, Austria, by authors from Joanneum Research, Lakeside Labs and CAMPUS 02. It was published on Zenodo in 2026 with a paper on benchmarking time-series anomaly detection (TSAD) algorithms for PV plants at the PHM Society European Conference 2026.
+
+Two physically identical plants, each with a Hoymiles HM-1500 inverter and four single-module strings, log string DC voltage and current every 30 seconds along with irradiance, ambient temperature and wind. The release spans 25 days between 17 June and 16 July 2025, with a few days missing.
+
+One plant runs normally and supplies the fault-free train file. The test file comes from the second plant, where paper sheets (DIN A4 and A5) cause partial shading and tilted modules cause mismatch. Synthetic sensor anomalies such as spikes, dropouts, scaling, noise and stuck values are added, giving labels 1 to 9 beside normal.
+
+## References
+
+- [DOI](https://doi.org/10.5281/zenodo.18979876)
+- [Zenodo record](https://zenodo.org/records/18979877)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/fhc-twin-plant-pv-anomaly/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,27 @@
+# PHM 2017 Bogie Vehicle Data Challenge
+
+Spectral vibration features from a train car bogie vehicle on varied tracks, with healthy-only training data, for detecting faulty suspension springs and dampers.
+
+- **Domain:** Transportation and mobility
+- **Asset / Process:** Vehicles and fleets
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Annotation:** Normal-only training
+- **Access:** Competition
+- **Year:** 2017
+- **Benchmark:** Yes
+
+## Description
+
+The PHM 2017 Data Challenge, held with the PHM 2017 Conference, tracks the health of components in a mechanical system that represents a train car: a conventional bogie vehicle with a car body, two bogies and four wheelsets. Coil springs and dampers form the primary suspension and air springs the secondary one. The vehicle runs on tracks with different irregularities, layouts, contact geometries and speeds, and its loading, stiffness and damping vary.
+
+Vertical accelerations measured on the wheelset axles, the bogie frames and the car body are turned into five spectral features per sensor in non-overlapping frequency bands, 90 feature values per experiment over time. Vehicle speed, car body mass and track are also given. The training files cover only nominal operation; the test files mix nominal and faulty regimes without fault information.
+
+Teams predict whether each car is healthy or faulty and, if faulty, which of 22 spring and damper faults are present, at most two at a time. Accuracy and fault sensitivity are summed, and the physics-based modeling description carries 10% of the final score.
+
+## References
+
+- [Official page](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2017/phm-data-challenge-5/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/phm-2017-bogie-vehicle/)
+
+[⬅️ Back to Index](../README.md)
