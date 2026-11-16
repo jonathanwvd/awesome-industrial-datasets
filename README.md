@@ -10,7 +10,7 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 
 **[PlantCraft](https://plantcraft.io)** is an open-source, LLM-first software suite for process plants (historian, analytics, alarms, models, dashboards) that you install on your own infrastructure.
 
-[Live demo](https://demo.plantcraft.io) · [GitHub](https://github.com/PlantCraft/PlantCraft)
+[Website](https://plantcraft.io) · [GitHub](https://github.com/jonathanwvd/PlantCraft)
 
 ## 📊 Dataset Statistics
 
