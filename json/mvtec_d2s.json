@@ -5,6 +5,7 @@
   "Modality": "Image",
   "Task": "Object detection",
   "Annotation": "Instance mask",
+  "Access": "Request or approval",
   "Size": "21,000 images",
   "License": "CC BY-NC-SA",
   "Publisher": "MVTec",

@@ -7,6 +7,7 @@ Industrial inspection dataset for benchmarking anomaly detection, with over 5,00
 - **Modality:** Image
 - **Task:** Anomaly detection
 - **Annotation:** Normal-only training; Pixel mask
+- **Access:** Request or approval
 - **Size:** 5,000+ images
 - **License:** CC BY-NC-SA
 - **Publisher:** MVTec
