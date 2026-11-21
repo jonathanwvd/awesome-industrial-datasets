@@ -6,6 +6,7 @@ Instance-aware semantic segmentation benchmark of 21,000 high-resolution images 
 - **Modality:** Image
 - **Task:** Object detection
 - **Annotation:** Instance mask
+- **Access:** Request or approval
 - **Size:** 21,000 images
 - **License:** CC BY-NC-SA
 - **Publisher:** MVTec

@@ -5,6 +5,7 @@ Industrial 3D object detection and pose estimation dataset with 28 objects in 3,
 - **Domain:** Robotics and automation
 - **Modality:** Image; 3D point cloud; Multimodal
 - **Task:** Object detection; Pose estimation
+- **Access:** Request or approval
 - **Size:** 3,500 labeled scenes
 - **License:** CC BY-NC-SA
 - **Publisher:** MVTec

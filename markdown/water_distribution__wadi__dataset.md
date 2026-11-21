@@ -8,6 +8,7 @@ Sensor and actuator data from the iTrust water distribution testbed, with 14 day
 - **Task:** Intrusion detection
 - **Annotation:** Event and time label
 - **Source Type:** Lab or testbed
+- **Access:** Request or approval
 - **Size:** 16 days; 123 sensors and actuators
 - **Publisher:** iTrust
 

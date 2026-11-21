@@ -8,6 +8,7 @@ Sensor, actuator and network data from the iTrust SWaT water treatment testbed; 
 - **Task:** Intrusion detection
 - **Annotation:** Sample label
 - **Source Type:** Lab or testbed
+- **Access:** Request or approval
 - **Size:** 11 days of operation, 51 sensors and actuators (SWaT.A1)
 - **Year:** 2015
 - **Publisher:** iTrust

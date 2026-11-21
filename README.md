@@ -265,10 +265,10 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 | [Multi-Stage Continuous-Flow Manufacturing Process](markdown/multi-stage_continuous-flow_manufacturing_process.md) | Manufacturing | — | Time series; Tabular | Regression; Quality prediction | Kaggle | — | — |
 | [Multimodal dataset for wind turbine blade monitoring during lightning strikes](markdown/wtbm_ls.md) | Energy and power | Wind turbines | Time series; Vibration | Condition monitoring | Zenodo, Dataverse or Figshare | 2025 | CC BY |
 | [MVTec 3D-AD](markdown/mvtec_3d-ad.md) | Manufacturing | — | 3D point cloud | Anomaly detection; Anomaly localization | — | 2022 | CC BY-NC-SA |
-| [MVTec AD](markdown/mvtec_anomaly_detection__mvtec_ad_.md) | Manufacturing | Surfaces and textures | Image | Anomaly detection | — | — | CC BY-NC-SA |
+| [MVTec AD](markdown/mvtec_anomaly_detection__mvtec_ad_.md) | Manufacturing | Surfaces and textures | Image | Anomaly detection | Request or approval | — | CC BY-NC-SA |
 | [MVTec AD 2](markdown/mvtec_ad_2.md) | Manufacturing | — | Image | Anomaly detection; Anomaly localization; Defect segmentation | Official portal | 2025 | CC BY-NC-SA |
-| [MVTec D2S](markdown/mvtec_d2s.md) | Logistics and retail | — | Image | Object detection | — | — | CC BY-NC-SA |
-| [MVTec ITODD](markdown/mvtec_itodd.md) | Robotics and automation | — | Image; 3D point cloud; Multimodal | Object detection; Pose estimation | — | — | CC BY-NC-SA |
+| [MVTec D2S](markdown/mvtec_d2s.md) | Logistics and retail | — | Image | Object detection | Request or approval | — | CC BY-NC-SA |
+| [MVTec ITODD](markdown/mvtec_itodd.md) | Robotics and automation | — | Image; 3D point cloud; Multimodal | Object detection; Pose estimation | Request or approval | — | CC BY-NC-SA |
 | [MVTec LOCO AD](markdown/mvtec_loco_ad.md) | Manufacturing | — | Image | Anomaly detection; Anomaly localization | — | 2022 | CC BY-NC-SA |
 | [MVTec MV-ball](markdown/mvtec_mv-ball.md) | Robotics and automation | — | Image | Pose estimation | — | 2026 | CC BY-NC-SA |
 | [MVTec Screws](markdown/mvtec_screws.md) | Manufacturing | Surfaces and textures | Image | Object detection; Pose estimation | Request or approval | 2019 | CC BY-NC-SA |
@@ -348,7 +348,7 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 | [Screening Datasets for Laser Welded Steel-Copper Lap Joints](markdown/laser_welding.md) | Manufacturing | Welding | Tabular | Quality prediction; Regression | Mendeley Data | — | — |
 | [SDNET2018](markdown/sdnet2018.md) | Infrastructure and civil | — | Image | Defect detection | — | 2018 | CC BY |
 | [SECOM](markdown/secom.md) | Electronics and semiconductors | Semiconductor wafers and process tools | Tabular | Classification; Quality prediction | UCI repository | 2008 | CC BY |
-| [Secure Water Treatment (SWaT) Dataset](markdown/secure_water_treatment__swat__dataset.md) | OT security | Water treatment and distribution; Control systems and networks | Time series; Network traffic | Intrusion detection | — | 2015 | — |
+| [Secure Water Treatment (SWaT) Dataset](markdown/secure_water_treatment__swat__dataset.md) | OT security | Water treatment and distribution; Control systems and networks | Time series; Network traffic | Intrusion detection | Request or approval | 2015 | — |
 | [SegWeldCT](markdown/segweldct.md) | Manufacturing | Welding | X-ray and CT | Defect detection; Classification | Zenodo, Dataverse or Figshare | 2026 | CC BY |
 | [Self-optimizing tool path generation for 5-axis machining processes](markdown/tool_path_generation.md) | Manufacturing | CNC machining and tool wear | Tabular | Regression | — | — | — |
 | [SensumSODF](markdown/sensumsodf.md) | Manufacturing | — | Image | Defect detection | Request or approval | 2021 | CC BY-NC-SA |
@@ -407,7 +407,7 @@ If you find this repository useful, please consider giving it a ⭐ to show your
 | [VisA](markdown/visa.md) | Manufacturing | PCBs and electronic assemblies | Image | Anomaly detection; Anomaly localization; Defect segmentation | Direct download | 2022 | CC BY |
 | [VISION Datasets](markdown/vision_datasets.md) | Manufacturing | PCBs and electronic assemblies; Castings and metal parts; Surfaces and textures | Image | Defect detection; Defect segmentation | Hugging Face | 2023 | — |
 | [Wastewater Treatment Plant Data for Nutrient Removal System](markdown/agtrup_wastewater_nutrient_removal.md) | Water and utilities | Water treatment and distribution | Time series | Forecasting | Mendeley Data | 2024 | CC BY-NC |
-| [Water Distribution (WaDi)](markdown/water_distribution__wadi__dataset.md) | OT security | Water treatment and distribution | Time series; Network traffic | Intrusion detection | — | — | — |
+| [Water Distribution (WaDi)](markdown/water_distribution__wadi__dataset.md) | OT security | Water treatment and distribution | Time series; Network traffic | Intrusion detection | Request or approval | — | — |
 | [wdn-sa-benchmark](markdown/wdn_sa_benchmark.md) | Water and utilities | Water treatment and distribution | Time series | Fault diagnosis; Intrusion detection | Code repository | 2022 | — |
 | [Weakly Supervised Learning for Industrial Optical Inspection](markdown/hci_industrial_optical_inspection.md) | Manufacturing | Surfaces and textures | Image | Defect detection; Classification | Zenodo, Dataverse or Figshare | 2007 | CC BY |
 | [Wind Turbine SCADA Data For Early Fault Detection](markdown/care_to_compare_wind_turbine.md) | Energy and power | Wind turbines | Time series | Anomaly detection | Zenodo, Dataverse or Figshare | 2024 | CC BY-SA |
